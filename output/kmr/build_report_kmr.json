@@ -1,0 +1,58 @@
+{
+  "lang": "kmr",
+  "seconds": 57.1,
+  "lexicon_lemmas": 122729,
+  "lexicon_forms": 387582,
+  "dictionary_candidates": 4188,
+  "corpus_types": 566598,
+  "corpus_tokens": 43425154,
+  "candidates_analysed": 613183,
+  "accepted_forms": 503606,
+  "accepted_lemmas": 122583,
+  "rejected": 109577,
+  "spelling_variants": 0,
+  "rejection_reasons": {
+    "unknown stem (not in lexicon, too rare for a new lemma)": 62230,
+    "rare proper noun": 33251,
+    "non-Hawar character(s)": 9410,
+    "four consonants in a row": 1535,
+    "doubled vowel": 928,
+    "foreign letter(s)": 867,
+    "no vowel": 731,
+    "three vowels in a row": 539,
+    "tripled letter": 44,
+    "single letter": 28,
+    "deny-listed token": 14
+  },
+  "pos_distribution": {
+    "NOUN": 436033,
+    "ADJ": 26786,
+    "VERB": 24198,
+    "PROPN": 13228,
+    "ADV": 1779,
+    "X": 751,
+    "PRON": 322,
+    "NUM": 206,
+    "ADP": 159,
+    "INTJ": 82,
+    "CCONJ": 42,
+    "AUX": 7,
+    "DET": 5,
+    "SCONJ": 4,
+    "PART": 4
+  },
+  "source_distribution": {
+    "lexicon-form": 356375,
+    "lexicon": 113436,
+    "news": 81171,
+    "encyclopedia": 72057,
+    "corpus": 7636,
+    "bilingual": 1810,
+    "core": 1623
+  },
+  "ipa_vs_reference": {
+    "n": 18472,
+    "mean_similarity": 0.978
+  },
+  "verbs_in_index": 6317
+}

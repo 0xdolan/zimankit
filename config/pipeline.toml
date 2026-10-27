@@ -1,0 +1,40 @@
+# zimankit pipeline settings (safe to commit: contains no source paths).
+# Source locations live in config/sources.local.toml (git-ignored);
+# see config/sources.example.toml for the format.
+
+[run]
+workers = 8
+cache_dir = "cache"
+output_dir = "output"
+
+[corpus]
+# forms seen fewer times than this are not analysed at all
+min_count = 3
+# a corpus-only lemma (not in any lexicon) needs at least this frequency
+min_count_new_lemma = 40
+# ... and must be attested in at least this many independent source tags
+min_source_tags_new_lemma = 2
+
+[dictionary]
+# bilingual-dictionary equivalents must be attested in the corpus this often
+min_corpus_count = 2
+
+[ckb]
+script = "arabic"
+digits = "arabic-indic"
+# respell a corpus form into a lexicon variant when the variant is this much more frequent
+variant_ratio = 5.0
+
+[kmr]
+script = "latin"
+casing = "lower"
+# capitalised-inside-sentence ratio above which a form is a proper noun
+propn_ratio = 0.8
+
+[output]
+max_rejected_rows = 50000
+csv_columns = ["grapheme", "lemma", "pos", "ipa", "morph_meta", "translit", "frequency", "sources", "confidence"]
+
+[kaggle]
+# owner/slug used in output/kaggle/dataset-metadata.json
+dataset_id = "zeroxdolan/kurdish-lexicon"

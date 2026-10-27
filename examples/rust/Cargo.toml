@@ -1,0 +1,7 @@
+[package]
+name = "zimankit-example"
+version = "0.1.0"
+edition = "2021"
+
+# std only on purpose; for real regexes add `regex = "1"` and reuse docs/17-regex-cookbook.md
+[dependencies]

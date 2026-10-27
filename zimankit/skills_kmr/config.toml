@@ -1,0 +1,16 @@
+# Northern Kurdish (Kurmanji) dialect profile
+[dialect]
+code = "kmr"
+name = "Northern Kurdish (Kurmanji)"
+script = "latin"
+alphabet = "Hawar"
+direction = "ltr"
+
+[orthography]
+casing = "lower"             # wordlist casing target; proper nouns keep their capital
+keep_apostrophe = true
+
+[phonology]
+narrow = false               # aspiration + ŋ assimilation
+reduced_suffix_i = true      # final closed-syllable i -> ɯ
+reduced_symbol = "ɯ"

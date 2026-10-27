@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+"""(Re)build docs/00-index.md and the previous/next navigation of every chapter. Idempotent."""
+import re
+from pathlib import Path
+
+DOCS = Path(__file__).resolve().parents[1] / "docs"
+PARTS = [
+    ("Foundations", ["01", "02", "03", "04", "05", "06"]),
+    ("Central Kurdish (ckb)", ["07", "08", "09", "10"]),
+    ("Northern Kurdish (kmr)", ["11", "12", "13", "14"]),
+    ("Cross-cutting", ["15", "16", "17", "18", "19"]),
+    ("Reference", ["20", "21"]),
+]
+TOP, BOTTOM = "<!-- nav:top -->", "<!-- nav:bottom -->"
+
+chapters = sorted(p for p in DOCS.glob("[0-9][0-9]-*.md") if not p.name.startswith("00-"))
+titles = {p.name: re.search(r"^# (.+)$", p.read_text(encoding="utf-8"), re.M).group(1) for p in chapters}
+
+
+def strip_nav(text: str) -> str:
+    text = re.sub(rf"{TOP}.*?{TOP}\n*", "", text, flags=re.S)
+    text = re.sub(r"\n\*\*On this page:\*\*[^\n]*\n", "", text)
+    return re.sub(rf"\n*{BOTTOM}.*?{BOTTOM}\n?", "\n", text, flags=re.S).rstrip() + "\n"
+
+
+for i, p in enumerate(chapters):
+    prev_ = chapters[i - 1] if i else None
+    next_ = chapters[i + 1] if i + 1 < len(chapters) else None
+    links = ["[⌂ Contents](00-index.md)"]
+    if prev_:
+        links.insert(0, f"[← {titles[prev_.name]}]({prev_.name})")
+    if next_:
+        links.append(f"[{titles[next_.name]} →]({next_.name})")
+    bar = " · ".join(links)
+    body = strip_nav(p.read_text(encoding="utf-8"))
+    # local table of contents of the chapter's own sections
+    heads = re.findall(r"^## (.+)$", body, re.M)
+    toc = ""
+    if len(heads) >= 3:
+        slug = lambda h: re.sub(r"[^\w\- ]", "", h.lower()).strip().replace(" ", "-")
+        toc = "\n**On this page:** " + " · ".join(f"[{h}](#{slug(h)})" for h in heads) + "\n"
+    top = f"{TOP}\n{bar}\n{TOP}\n\n"
+    body = re.sub(r"^(# .+\n)", lambda m: m.group(1) + toc, body, count=1, flags=re.M)
+    p.write_text(f"{top}{body}\n{BOTTOM}\n---\n{bar}\n{BOTTOM}\n", encoding="utf-8")
+
+lines = ["# zimankit documentation", "", "Kurdish (Central / Sorani `ckb` and Northern / Kurmanji `kmr`) language skills: "
+         "orthography, IPA, morphology, verbs, ergativity, language identification and wordlist building.", "",
+         "Back to the [project README](../README.md) · [agent skills](../skills/README.md) · [examples](../examples/README.md)", ""]
+for part, nums in PARTS:
+    lines += [f"## {part}", ""]
+    for p in chapters:
+        if p.name[:2] in nums:
+            lines.append(f"{int(p.name[:2])}. [{titles[p.name]}]({p.name})")
+    lines.append("")
+(DOCS / "00-index.md").write_text("\n".join(lines), encoding="utf-8")
+print(f"navigation updated for {len(chapters)} chapters")

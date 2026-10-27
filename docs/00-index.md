@@ -1,0 +1,41 @@
+# zimankit documentation
+
+Kurdish (Central / Sorani `ckb` and Northern / Kurmanji `kmr`) language skills: orthography, IPA, morphology, verbs, ergativity, language identification and wordlist building.
+
+Back to the [project README](../README.md) · [agent skills](../skills/README.md) · [examples](../examples/README.md)
+
+## Foundations
+
+1. [Overview and architecture](01-overview.md)
+2. [Getting started](02-getting-started.md)
+3. [Data ingestion: MDX and ZIM](03-data-ingestion.md)
+4. [Unicode and shared normalization](04-unicode-normalization.md)
+5. [Language identification](05-language-identification.md)
+6. [Tokenization](06-tokenization.md)
+
+## Central Kurdish (ckb)
+
+7. [Central Kurdish: alphabet and orthography](07-ckb-orthography.md)
+8. [Central Kurdish: phonology and IPA (G2P)](08-ckb-phonology-ipa.md)
+9. [Central Kurdish: morphology](09-ckb-morphology.md)
+10. [Central Kurdish: verbs](10-ckb-verbs.md)
+
+## Northern Kurdish (kmr)
+
+11. [Northern Kurdish: alphabet and orthography](11-kmr-orthography.md)
+12. [Northern Kurdish: phonology and IPA](12-kmr-phonology-ipa.md)
+13. [Northern Kurdish: nominal morphology (gender, case, ezafe)](13-kmr-morphology.md)
+14. [Northern Kurdish: verbs and split ergativity](14-kmr-verbs-ergativity.md)
+
+## Cross-cutting
+
+15. [Transliteration](15-transliteration.md)
+16. [The wordlist pipeline](16-lexicon-pipeline.md)
+17. [Regex cookbook](17-regex-cookbook.md)
+18. [Examples in shell, Python, TypeScript, C#, F#/.NET, Rust, Go and Java](18-multi-language-examples.md)
+19. [Testing and the verification matrix](19-testing.md)
+
+## Reference
+
+20. [Glossary](20-glossary.md)
+21. [References and further reading](21-references.md)

@@ -1,0 +1,19 @@
+# Central Kurdish (Sorani) dialect profile
+[dialect]
+code = "ckb"
+name = "Central Kurdish (Sorani)"
+script = "arabic"
+direction = "rtl"
+
+[orthography]
+digits = "arabic-indic"      # keep | latin | arabic-indic
+kurdish_punctuation = true   # , ; ?  ->  ، ؛ ؟
+legacy = "auto"              # auto | yes | no  (heh used for ae)
+fix_initial_r = true
+add_initial_hamza = true
+
+[phonology]
+epenthetic = "ɯ"             # symbol of the bizroke
+mark_epenthesis = true       # render as (ɯ)
+glottal_onset = true         # initial ئ -> ʔ
+latin_style = "hawar"        # hawar (rr, ll) | accented (ř, ł)

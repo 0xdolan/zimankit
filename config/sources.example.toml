@@ -1,0 +1,65 @@
+# Copy to config/sources.local.toml (git-ignored) and point at your own data.
+#
+# Every source has:
+#   id    - any identifier you like; never written to outputs
+#   tag   - generic category written to outputs: lexicon | dictionary |
+#           bilingual | encyclopedia | news | web
+#   kind  - how to read it (see below)
+#   lang  - ckb | kmr | both | auto
+#
+# kinds
+#   wiki_lexicon_zim  ZIM dump of a MediaWiki dictionary with Kurdish sections
+#   zim_articles      ZIM dump of a MediaWiki encyclopedia       (corpus)
+#   mdx_articles      MDX file whose records are HTML articles   (corpus)
+#   mdx_headwords     monolingual MDX: headwords are lemmas, definitions are corpus text
+#   mdx_equivalents   bilingual MDX: Kurdish equivalents inside the definitions
+#   text              plain-text files matched by `glob`         (corpus)
+
+# Tokens that must never appear in an output (site names, watermarks ...)
+deny_tokens = ["examplesite", "example.com"]
+
+[[source]]
+id = "lex1"
+tag = "lexicon"
+kind = "wiki_lexicon_zim"
+lang = "both"
+path = "/data/dictionary_wiki.zim"
+
+[[source]]
+id = "enc_ckb"
+tag = "encyclopedia"
+kind = "zim_articles"
+lang = "ckb"
+path = "/data/encyclopedia_ckb.zim"
+
+[[source]]
+id = "enc_kmr"
+tag = "encyclopedia"
+kind = "mdx_articles"
+lang = "kmr"
+path = "/data/encyclopedia_kmr.mdx"
+
+[[source]]
+id = "mono_ckb"
+tag = "dictionary"
+kind = "mdx_headwords"
+lang = "ckb"
+path = "/data/monolingual_ckb.mdx"
+definition_selectors = ["def"]
+
+[[source]]
+id = "bi_x_ckb"
+tag = "bilingual"
+kind = "mdx_equivalents"
+lang = "ckb"
+path = "/data/other_to_ckb.mdx"
+definition_selectors = ["def"]
+drop_classes = ["entry", "abbr"]
+
+[[source]]
+id = "news_ckb"
+tag = "news"
+kind = "text"
+lang = "ckb"
+glob = "/data/news/ckb/**/*.txt"
+exclude = ["urls", "links"]

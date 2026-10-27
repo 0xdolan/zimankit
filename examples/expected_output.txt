@@ -1,0 +1,5 @@
+ckb كتێبەكەم -> کتێبەکەم | stem=کتێب def=ەکە clitic=م
+ckb پیاوەکە -> پیاوەکە | stem=پیاو def=ەکە clitic=-
+ckb رۆژ -> ڕۆژ | stem=ڕۆژ
+kmr jinekê -> jinekê | stem=jin suffix=ekê indef.obl.f
+kmr Kürdistan -> Kûrdistan | stem=kûrdist suffix=an obl.pl
