@@ -81,6 +81,8 @@ zimankit/
 jinekê,jin,NOUN,ʒɪnɛkeː,"{""case"":""obl"",""definite"":""ind"",""gender"":""f"",""number"":""sg"",""seg"":""jin+ekê""}",ژنەکێ,530,"encyclopedia,lexicon-form,news",0.754
 ```
 
-## Data and licensing note
+## Licence
 
-The large generated files under `output/` are git-ignored (regenerate them with the pipeline; 300-row samples are kept). Wordlists derived from openly licensed sources may carry share-alike obligations when redistributed — check the licences of the data you configure.
+The code is licensed under the [GNU General Public License v3.0 or later](LICENSE).
+
+Generated data is licensed separately. The large generated files under `output/` are git-ignored (regenerate them with the pipeline; 300-row samples are kept). Wordlists derived from openly licensed sources may carry share-alike obligations when redistributed — check the licences of the data you configure. The published Kaggle dataset and the sample CSVs in `output/` are CC BY-SA 4.0.

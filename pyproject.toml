@@ -4,6 +4,8 @@ version = "0.1.0"
 description = "Kurdish (Central / Sorani ckb and Northern / Kurmanji kmr) NLP skills: orthography, IPA, morphology, verbs, ergativity, language ID and wordlist building"
 readme = "README.md"
 requires-python = ">=3.11"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
 authors = [{ name = "Dolan H." }]
 dependencies = []
 
@@ -16,7 +18,7 @@ dev = ["pytest>=8"]
 zimankit = "zimankit.cli:main"
 
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
