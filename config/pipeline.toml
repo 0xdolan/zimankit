@@ -38,3 +38,5 @@ csv_columns = ["grapheme", "lemma", "pos", "ipa", "morph_meta", "translit", "fre
 [kaggle]
 # owner/slug used in output/kaggle/dataset-metadata.json
 dataset_id = "zeroxdolan/kurdish-lexicon"
+# linked from the data card
+source_url = "https://github.com/0xdolan/zimankit"

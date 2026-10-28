@@ -413,7 +413,7 @@ COLUMN_DOCS = {
 }
 
 
-def write_data_card(path: Path, stats: dict[str, dict]) -> None:
+def write_data_card(path: Path, stats: dict[str, dict], links: dict[str, str] | None = None) -> None:
     lines = [
         "# Kurdish Lexicon: Sorani (ckb) & Kurmanji (kmr)",
         "",
@@ -421,6 +421,10 @@ def write_data_card(path: Path, stats: dict[str, dict]) -> None:
         "every row is one validated surface form with its lemma, part of speech, morpheme segmentation, "
         "inflectional features, IPA, syllables, both scripts, definitions and corpus frequency.",
         "",
+    ]
+    if links:
+        lines += ["## Links", "", *(f"- **{name}:** {url}" for name, url in links.items()), ""]
+    lines += [
         "## Files",
         "",
         "| file | rows | content |",
@@ -607,10 +611,14 @@ def export(cfg: Config, langs: list[str]) -> dict:
         "words": (WORD_COLUMNS, all_words), "lemmas": (LEMMA_COLUMNS, all_lemmas),
         "spelling_variants": (variant_cols, all_variants),
     })
-    write_data_card(out / "README.md", stats)
+    kaggle = cfg.settings.get("kaggle", {})
+    dataset_id = kaggle.get("dataset_id", "YOUR-KAGGLE-USERNAME/kurdish-lexicon")
+    links = {"Dataset": f"https://www.kaggle.com/datasets/{dataset_id}"}
+    if kaggle.get("source_url"):
+        links["Source code, tutorials and grammar tools (zimankit)"] = kaggle["source_url"]
+    write_data_card(out / "README.md", stats, links)
     if COVER_IMAGE.exists():
         shutil.copyfile(COVER_IMAGE, out / "dataset-cover-image.png")
-    dataset_id = cfg.settings.get("kaggle", {}).get("dataset_id", "YOUR-KAGGLE-USERNAME/kurdish-lexicon")
     write_kaggle_metadata(out / "dataset-metadata.json", stats, dataset_id, (out / "README.md").read_text(encoding="utf-8"))
     if not all(s["parquet"] for s in stats.values()):
         _log("pyarrow not installed: Parquet files skipped (pip install 'zimankit[kaggle]')")
