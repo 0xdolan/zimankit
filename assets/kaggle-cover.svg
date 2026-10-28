@@ -27,42 +27,44 @@
     <text x="280" y="240" font-weight="500" font-size="7.5" letter-spacing="1.6" fill="#FEBD11" opacity="0.9">LEMMA · MORPHOLOGY · IPA · DEFINITIONS</text>
   </g>
 
-  <!-- side cards: one dataset row each -->
+  <!-- side cards: one real dataset row each (values from kurdish_words_<lang>) -->
   <g fill="#ffffff" fill-opacity="0.045" stroke="#F7F3E8" stroke-opacity="0.16">
-    <rect x="18" y="62" width="110" height="128" rx="8"/>
-    <rect x="432" y="62" width="110" height="128" rx="8"/>
+    <rect x="12" y="58" width="122" height="134" rx="8"/>
+    <rect x="426" y="58" width="122" height="134" rx="8"/>
   </g>
 
   <g fill="#F7F3E8" font-family="IBM Plex Sans">
-    <!-- Sorani -->
-    <text x="73" y="80" text-anchor="middle" font-weight="600" font-size="7.5" letter-spacing="1.6" fill="#FEBD11">SORANÎ · CKB</text>
-    <text x="73" y="114" text-anchor="middle" font-family="Vazirmatn" font-weight="600" font-size="21" direction="rtl">کتێبەکەم</text>
+    <!-- Sorani: three morphemes stacked, ماڵ + ەکان + مان -->
+    <text x="73" y="75" text-anchor="middle" font-weight="600" font-size="7.5" letter-spacing="1.6" fill="#FEBD11">SORANÎ · CKB</text>
+    <text x="73" y="106" text-anchor="middle" font-family="Vazirmatn" font-weight="600" font-size="19" direction="rtl">ماڵەکانمان</text>
+    <text x="73" y="123" text-anchor="middle" font-style="italic" font-size="8.5" opacity="0.65">our houses</text>
     <g font-size="8.5">
-      <text x="28" y="140" opacity="0.55">lemma</text>
-      <text x="28" y="153" opacity="0.55">pos</text>
-      <text x="28" y="166" opacity="0.55">feats</text>
-      <text x="28" y="179" opacity="0.55">ipa</text>
+      <text x="22" y="145" opacity="0.55">lemma</text>
+      <text x="22" y="157" opacity="0.55">pos</text>
+      <text x="22" y="169" opacity="0.55">feats</text>
+      <text x="22" y="181" opacity="0.55">ipa</text>
+      <text x="124" y="146" font-family="Vazirmatn" font-size="10" direction="rtl" text-anchor="start">ماڵ</text>
       <g text-anchor="end">
-        <text x="118" y="141" font-family="Vazirmatn" font-size="10" direction="rtl" text-anchor="start">کتێب</text>
-        <text x="118" y="153">NOUN</text>
-        <text x="118" y="166">def · my</text>
-        <text x="118" y="179" font-family="DejaVu Sans" font-size="8" fill="#FEBD11">kɯteːbækæm</text>
+        <text x="124" y="157">NOUN</text>
+        <text x="124" y="169">def · pl · our</text>
+        <text x="124" y="181" font-family="DejaVu Sans" font-size="7.5" fill="#FEBD11">maːɫækaːnmaːn</text>
       </g>
     </g>
 
-    <!-- Kurmanji -->
-    <text x="487" y="80" text-anchor="middle" font-weight="600" font-size="7.5" letter-spacing="1.6" fill="#FEBD11">KURMANCÎ · KMR</text>
-    <text x="487" y="114" text-anchor="middle" font-weight="600" font-size="21">jinekê</text>
+    <!-- Kurmanji: a transitive verb in an ergative tense -->
+    <text x="487" y="75" text-anchor="middle" font-weight="600" font-size="7.5" letter-spacing="1.6" fill="#FEBD11">KURMANCÎ · KMR</text>
+    <text x="487" y="106" text-anchor="middle" font-weight="600" font-size="19">xwendiye</text>
+    <text x="487" y="123" text-anchor="middle" font-style="italic" font-size="8.5" opacity="0.65">has read (it)</text>
     <g font-size="8.5">
-      <text x="442" y="140" opacity="0.55">lemma</text>
-      <text x="442" y="153" opacity="0.55">pos</text>
-      <text x="442" y="166" opacity="0.55">feats</text>
-      <text x="442" y="179" opacity="0.55">ipa</text>
+      <text x="436" y="145" opacity="0.55">lemma</text>
+      <text x="436" y="157" opacity="0.55">pos</text>
+      <text x="436" y="169" opacity="0.55">feats</text>
+      <text x="436" y="181" opacity="0.55">ipa</text>
       <g text-anchor="end">
-        <text x="532" y="140">jin</text>
-        <text x="532" y="153">NOUN · f</text>
-        <text x="532" y="166">indef · obl</text>
-        <text x="532" y="179" font-family="DejaVu Sans" font-size="8" fill="#FEBD11">ʒɪnɛkeː</text>
+        <text x="538" y="145">xwendin</text>
+        <text x="538" y="157">VERB</text>
+        <text x="538" y="169">perfect · ergative</text>
+        <text x="538" y="181" font-family="DejaVu Sans" font-size="7.5" fill="#FEBD11">xʷɛndɪjɛ</text>
       </g>
     </g>
 
