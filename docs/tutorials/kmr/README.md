@@ -1,6 +1,6 @@
 # Northern Kurdish (Kurmanji) course
 
-**Kurmancî** is the most widely spoken Kurdish variety, used in Turkey, Syria, the Duhok area of Iraq, parts of Iran and Armenia, and the diaspora. It is written in the Latin-based Hawar alphabet. This course takes you from your first letter to split ergativity and the full verb system.
+**Kurmancî** is the most widely spoken Kurdish variety, spoken in Bakur (Northern Kurdistan, in Turkey), Rojava (Western Kurdistan, in Syria), Behdînan (the Duhok area of Başûr), the north of Rojhilat, Armenia and the diaspora. It is written in the Latin-based Hawar alphabet. This course takes you from your first letter to split ergativity and the full verb system.
 
 [⌂ All courses](../README.md) · [Sorani course](../ckb/README.md)
 

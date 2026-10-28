@@ -44,7 +44,7 @@ The same as English: . , ; : ? ! « » ( ). Quotation marks are often « ».
 
 ## Kurmanji in Arabic script
 
-In the Duhok region and in Iran, Kurmanji is also written in the Kurdish Arabic alphabet of the Sorani course. zimankit transliterates automatically. Note how short *i* disappears, because that script does not write it:
+In Behdînan (Duhok) and in Rojhilat, Kurmanji is also written in the Kurdish Arabic alphabet of the Sorani course. zimankit transliterates automatically. Note how short *i* disappears, because that script does not write it:
 
 <!-- gen:sentences
 Ez kurd im. | I am Kurdish.

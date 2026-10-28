@@ -10,12 +10,12 @@
 
 ## What is Sorani?
 
-Kurdish is a West Iranian language, related to Persian, Balochi and more distantly to English. It is not one uniform language but a group of closely related varieties. The two with the most speakers are:
+Kurdish is an **Indo-European** language in its own right: a **macrolanguage** made up of several closely related varieties, with its own history, literature and standard written forms. As an Indo-European language it is a distant relative of most languages of Europe and South Asia, English included, and it shares some vocabulary with its neighbours, but it is a distinct language. The two varieties with the most speakers are:
 
-* **Central Kurdish**, usually called **Sorani** (*سۆرانی*), spoken by about 6–8 million people in the Kurdistan Region of Iraq (Erbil / *هەولێر*, Sulaymaniyah / *سلێمانی*, Kirkuk) and in western Iran (Sanandaj, Mahabad);
+* **Central Kurdish**, usually called **Sorani** (*سۆرانی*), spoken by about 6–8 million people in **Başûr**, Southern Kurdistan (the Kurdistan Region of Iraq: Hewlêr / *هەولێر* Erbil, Silêmanî / *سلێمانی* Sulaymaniyah, Kerkûk) and in **Rojhilat**, Eastern Kurdistan (in Iran: Sine / Sanandaj, Mehabad);
 * **Northern Kurdish**, usually called **Kurmanji**, which has its own course in this series.
 
-Sorani is an official language of Iraq. It is used in schools, universities, newspapers, television and government, which makes it one of the best-documented Kurdish varieties.
+Kurdish is an official language of Iraq and of the Kurdistan Region, where Sorani is the main written standard. It is used in schools, universities, newspapers, television and government, which makes it one of the best-documented Kurdish varieties.
 
 ## The writing system in one minute
 

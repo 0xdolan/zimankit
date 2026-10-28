@@ -4,7 +4,7 @@
 
 ## 1. Role and objective
 
-Act as a senior computational linguist and NLP engineer specialising in Iranian languages. Build a standalone, production-quality, modular project that
+Act as a senior computational linguist and NLP engineer specialising in Kurdish. Build a standalone, production-quality, modular project that
 
 1. **extracts** raw lexical and textual data from compiled dictionaries (`.mdx`, read in-process with `mdict-utils`), offline wiki dumps (`.zim`, read with `libzim`) and plain-text corpora;
 2. **implements reusable linguistic skills** — orthography, phonology/IPA, morphology, verbs, syntax (alignment), language identification, transliteration — separately for

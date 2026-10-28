@@ -4,7 +4,7 @@
 
 # Language identification
 
-Script is not language. The Arabic-script news data used for training contains **Gurani/Hawrami** sections, the Latin-script data contains whole sections of **Zazaki** — both are related Iranian languages that share most letters with Sorani and Kurmanji, and both would silently pollute a wordlist.
+Script is not language. The Arabic-script news data used for training contains **Gurani/Hawrami** sections, the Latin-script data contains whole sections of **Zazaki** — both are closely related varieties, counted by many speakers as part of Kurdish, that share most letters with Sorani and Kurmanji but have their own grammar and vocabulary, and both would silently pollute a wordlist.
 
 ## Method (`shared_utils/lid.py`)
 

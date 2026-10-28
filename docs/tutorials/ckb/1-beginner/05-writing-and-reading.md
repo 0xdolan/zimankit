@@ -66,7 +66,7 @@ Sorani uses the Eastern Arabic digits, written left to right inside right-to-lef
 
 ## Latin transliteration
 
-Kurds in Iraq occasionally write Sorani in Latin letters, usually with the Hawar letters of Kurmanji. zimankit's transliterator (`to_latin`) follows that convention and writes the hidden *i*:
+Kurds in Başûr occasionally write Sorani in Latin letters, usually with the Hawar letters of Kurmanji. zimankit's transliterator (`to_latin`) follows that convention and writes the hidden *i*:
 
 <!-- gen:sentences
 ئەمڕۆ هەوا خۆشە. | The weather is nice today.

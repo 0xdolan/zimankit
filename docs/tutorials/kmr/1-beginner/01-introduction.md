@@ -10,12 +10,12 @@
 
 ## What is Kurmanji?
 
-Kurdish is a West Iranian language, related to Persian and Balochi and more distantly to English. It is a family of closely related varieties. **Northern Kurdish**, called **Kurmanji** (*Kurmancî*), is the largest: roughly 15–20 million speakers in
+Kurdish is an **Indo-European** language in its own right: a **macrolanguage** made up of closely related varieties, with its own history, literature and standard written forms. As an Indo-European language it is a distant relative of most languages of Europe and South Asia, English included, and it shares some vocabulary with its neighbours, but it is a distinct language. **Northern Kurdish**, called **Kurmanji** (*Kurmancî*), is the largest: roughly 15–20 million speakers in
 
-* south-eastern **Turkey** (Amed / Diyarbakır, Wan, Mêrdîn, Colemêrg …),
-* north-eastern **Syria** (Qamişlo, Kobanî, Efrîn),
-* the **Duhok** region of Iraq (where the local form is called *Badînî*),
-* north-western **Iran**, **Armenia** and **Georgia**,
+* **Bakur**, Northern Kurdistan, in Turkey (Amed / Diyarbakır, Wan, Mêrdîn, Colemêrg …),
+* **Rojava**, Western Kurdistan, in Syria (Qamişlo, Kobanî, Efrîn),
+* **Behdînan**, the Duhok region of Başûr (where the local form is called *Badînî*),
+* the north of **Rojhilat**, Eastern Kurdistan (in Iran), and **Armenia** and **Georgia**,
 * and a large diaspora in Europe.
 
 Its closest relative is **Central Kurdish (Sorani)**, which has its own course in this series.
@@ -24,7 +24,7 @@ Its closest relative is **Central Kurdish (Sorani)**, which has its own course i
 
 Kurmanji is written in the **Hawar alphabet**, a Latin alphabet of 31 letters designed in 1932 by Celadet Bedirxan. It is almost perfectly **phonetic**: each letter is one sound and each sound is one letter. Once you know the letters you can pronounce any word you read.
 
-In Iraq and Iran Kurmanji is also written in the Arabic-based Kurdish alphabet; every word in this course is shown in that script too.
+In Başûr and Rojhilat Kurmanji is also written in the Arabic-based Kurdish alphabet; every word in this course is shown in that script too.
 
 ## Your first words
 

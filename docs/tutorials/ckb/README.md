@@ -1,6 +1,6 @@
 # Central Kurdish (Sorani) course
 
-**سۆرانی** — *Soranî* — is the Kurdish variety of the Kurdistan Region of Iraq and western Iran, written in an Arabic-based alphabet from right to left. This course takes you from your first letter to the full verb system.
+**سۆرانی** — *Soranî* — is the Kurdish variety of Başûr (Southern Kurdistan, the Kurdistan Region of Iraq) and Rojhilat (Eastern Kurdistan, in Iran), written in an Arabic-based alphabet from right to left. This course takes you from your first letter to the full verb system.
 
 [⌂ All courses](../README.md) · [Kurmanji course](../kmr/README.md)
 

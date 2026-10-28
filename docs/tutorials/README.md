@@ -4,8 +4,8 @@ Two complete, self-paced courses for people who know **no Kurdish at all**:
 
 | course | script | spoken mainly in | start here |
 |---|---|---|---|
-| **Central Kurdish (Sorani, `ckb`)** | Arabic-based alphabet, right to left | Kurdistan Region of Iraq (Erbil, Sulaymaniyah), western Iran | [Sorani course](ckb/README.md) |
-| **Northern Kurdish (Kurmanji, `kmr`)** | Latin (Hawar) alphabet, left to right | Turkey, Syria, northern Iraq (Duhok), the diaspora | [Kurmanji course](kmr/README.md) |
+| **Central Kurdish (Sorani, `ckb`)** | Arabic-based alphabet, right to left | Başûr / Southern Kurdistan (Kurdistan Region of Iraq: Erbil, Sulaymaniyah), Rojhilat / Eastern Kurdistan (in Iran) | [Sorani course](ckb/README.md) |
+| **Northern Kurdish (Kurmanji, `kmr`)** | Latin (Hawar) alphabet, left to right | Bakur / Northern Kurdistan (in Turkey), Rojava / Western Kurdistan (in Syria), Behdînan (Duhok), the diaspora | [Kurmanji course](kmr/README.md) |
 
 The two are close relatives. They share most core vocabulary (*ziman* / *زمان* “language”, *av* / *ئاو* “water”) and the same big idea in the past tense (ergativity), but they differ in script, gender, case and many endings. Learn one first. If you later add the other, every Kurmanji lesson has a matching Sorani lesson with the same number and topic, so you can compare them side by side.
 
