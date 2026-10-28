@@ -38,7 +38,7 @@ _L = "ئابپتجچحخدرڕزژسشعغفڤقکگلڵمنهەوۆیێ"  # can
 _SEQ_RE = re.compile("|".join(map(re.escape, sorted(CKB_SEQUENCE_MAP, key=len, reverse=True))))
 _CHAR_TABLE = str.maketrans(CKB_CHAR_MAP)
 _DROP_MARKS = str.maketrans({c: None for c in ARABIC_DIACRITICS + TATWEEL})
-_WORD_START = rf"(?<![{_L}‌])"
+_WORD_START = r"(?<![\w‌])"  # any letter (also non-Kurdish ones such as ث) continues a word
 _INITIAL_R_RE = re.compile(_WORD_START + "ر")
 _INITIAL_VOWEL_RE = re.compile(_WORD_START + "([اەێۆ])")
 _INITIAL_ALEF_HAMZA = (

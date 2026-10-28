@@ -16,8 +16,8 @@ suffix          after vowel            meaning            gender evidence
 -an             -yan                   oblique pl         -
 -ek             -yek                   indefinite         -
 -ekê            -yekê                  indef. oblique     feminine
--ekî            -yekî                  indef. oblique     masculine
--eke            -yeke                  indef. ezafe       -
+-ekî            -yekî                  indef. obl | ez.   masculine
+-eke            -yeke                  indef. ezafe       feminine
 -in / -inan     -                      indef. pl / obl    -
 -o / -ino       -                      vocative m / pl    masculine / -
 ==============  =====================  =================  ===============
@@ -43,10 +43,10 @@ VOWELS = set("aeêiîouû")
 INFLECTIONS: tuple[tuple[str, str, dict[str, str], str | None], ...] = (
     ("ekê", "INDEF.OBL.F", {"definite": "ind", "number": "sg", "case": "obl", "gender": "f"}, "C"),
     ("yekê", "INDEF.OBL.F", {"definite": "ind", "number": "sg", "case": "obl", "gender": "f"}, "V"),
-    ("ekî", "INDEF.OBL.M", {"definite": "ind", "number": "sg", "case": "obl", "gender": "m"}, "C"),
-    ("yekî", "INDEF.OBL.M", {"definite": "ind", "number": "sg", "case": "obl", "gender": "m"}, "V"),
-    ("eke", "INDEF.EZ", {"definite": "ind", "number": "sg", "ezafe": "yes"}, "C"),
-    ("yeke", "INDEF.EZ", {"definite": "ind", "number": "sg", "ezafe": "yes"}, "V"),
+    ("ekî", "INDEF.OBL.M|INDEF.EZ.M", {"definite": "ind", "number": "sg", "gender": "m"}, "C"),
+    ("yekî", "INDEF.OBL.M|INDEF.EZ.M", {"definite": "ind", "number": "sg", "gender": "m"}, "V"),
+    ("eke", "INDEF.EZ.F", {"definite": "ind", "number": "sg", "ezafe": "yes", "gender": "f"}, "C"),
+    ("yeke", "INDEF.EZ.F", {"definite": "ind", "number": "sg", "ezafe": "yes", "gender": "f"}, "V"),
     ("inan", "INDEF.PL.OBL", {"definite": "ind", "number": "pl", "case": "obl"}, "C"),
     ("ine", "INDEF.PL.EZ", {"definite": "ind", "number": "pl", "ezafe": "yes"}, "C"),
     ("ek", "INDEF", {"definite": "ind", "number": "sg", "case": "dir"}, "C"),
@@ -68,7 +68,7 @@ INFLECTIONS: tuple[tuple[str, str, dict[str, str], str | None], ...] = (
 DERIVATIONS: tuple[tuple[str, str, str], ...] = (
     ("ahî", "ABST", "NOUN"), ("tî", "ABST", "NOUN"), ("anî", "ABST", "NOUN"), ("î", "ABST|ADJZ", "NOUN"),
     ("dar", "POSSR", "ADJ"), ("van", "AGENT", "NOUN"), ("kar", "AGENT", "NOUN"), ("ger", "AGENT", "NOUN"),
-    ("stan", "PLACE", "NOUN"), ("geh", "PLACE", "NOUN"), ("xane", "PLACE", "NOUN"), ("ane", "ADVZ", "ADV"),
+    ("istan", "PLACE", "NOUN"), ("stan", "PLACE", "NOUN"),  # kurd+istan, bulgar+istan ("geh", "PLACE", "NOUN"), ("xane", "PLACE", "NOUN"), ("ane", "ADVZ", "ADV"),
     ("tir", "CMPR", "ADJ"), ("tirîn", "SUPL", "ADJ"), ("ok", "DIM", "NOUN"), ("ik", "DIM", "NOUN"),
 )
 POS_PRIORITY = ("VERB", "NOUN", "PROPN", "ADJ", "ADV", "PRON", "NUM", "ADP", "CCONJ", "SCONJ", "DET", "AUX", "PART", "INTJ")
@@ -84,6 +84,42 @@ def function_words() -> dict[str, tuple[str, dict[str, str]]]:
         cols = (line.split("\t") + ["", ""])[:3]
         feats = dict(kv.split("=", 1) for kv in cols[2].split("|") if "=" in kv)
         out.setdefault(cols[0], (cols[1], feats))
+    return out
+
+
+# Declension generator: (cell, suffix after a consonant, after a vowel), per gender.
+# None = the cell is not generated for that stem shape (vocatives and the rare
+# indefinite plural are listed for consonant-final stems only).
+DECLENSION: dict[str, tuple[tuple[str, str | None, str | None], ...]] = {
+    "f": (
+        ("def.dir.sg", "", ""), ("def.obl.sg", "ê", "yê"), ("def.ez.sg", "a", "ya"),
+        ("ind.dir.sg", "ek", "yek"), ("ind.obl.sg", "ekê", "yekê"), ("ind.ez.sg", "eke", "yeke"),
+        ("def.dir.pl", "", ""), ("def.obl.pl", "an", "yan"), ("def.ez.pl", "ên", "yên"),
+        ("ind.dir.pl", "in", None), ("voc.sg", "ê", None), ("voc.pl", "ino", None),
+    ),
+    "m": (
+        ("def.dir.sg", "", ""), ("def.obl.sg", "î", ""), ("def.ez.sg", "ê", "yê"),  # li çiya, ji xanî
+        ("ind.dir.sg", "ek", "yek"), ("ind.obl.sg", "ekî", "yekî"), ("ind.ez.sg", "ekî", "yekî"),
+        ("def.dir.pl", "", ""), ("def.obl.pl", "an", "yan"), ("def.ez.pl", "ên", "yên"),
+        ("ind.dir.pl", "in", None), ("voc.sg", "o", None), ("voc.pl", "ino", None),
+    ),
+}
+
+
+def attach(stem: str, suffix: str) -> str:
+    """Join stem and suffix; a final î shortens to i before y (xanî + yê -> xaniyê)."""
+    if stem.endswith("î") and suffix.startswith("y"):
+        return stem[:-1] + "i" + suffix
+    return stem + suffix
+
+
+def decline(stem: str, gender: str) -> list[tuple[str, str | None]]:
+    """All case/number/definiteness forms of a noun of gender ``f`` or ``m``: ``[(cell, form), ...]``."""
+    vowel_final = stem[-1] in VOWELS
+    out = []
+    for cell, after_c, after_v in DECLENSION[gender]:
+        suf = after_v if vowel_final else after_c
+        out.append((cell, None if suf is None else attach(stem, suf)))
     return out
 
 
@@ -119,6 +155,8 @@ class KmrAnalyzer:
                 stem = word[: -len(suf)]
                 if _cond(stem, need):
                     out.append((stem, [(suf, tag)], dict(feats), "NOUN"))
+                    if suf.startswith("y") and stem.endswith("i"):  # xani+yê -> xanî
+                        out.append((stem[:-1] + "î", [(suf, tag)], dict(feats), "NOUN"))
                     for dsuf, dtag, dpos in DERIVATIONS:
                         if stem.endswith(dsuf) and len(stem) - len(dsuf) >= 2:
                             out.append((stem[: -len(dsuf)], [(dsuf, dtag), (suf, tag)], dict(feats), dpos))
@@ -132,6 +170,8 @@ class KmrAnalyzer:
         g = self.lexicon.gender_of(stem)
         if g and "gender" not in feats:
             feats["gender"] = g
+        if tag == "INDEF.OBL.M|INDEF.EZ.M":  # mirovekî: "a man (obl)" or "a ... man (ezafe)"
+            return [{**feats, "case": "obl"}, {**feats, "ezafe": "yes"}]
         if tag != "EZ.M|OBL.F":
             return [feats]
         if g == "f":

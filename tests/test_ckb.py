@@ -102,3 +102,36 @@ def test_plural_person_syncretism():
     readings = [f.features for f in idx.lookup("دەکەن") if f.lemma == "کردن"]
     assert [r["person"] for r in readings] == ["2pl|3pl"]
     assert {f.features.get("person") for f in idx.lookup("دەکەین")} == {"1pl"}
+
+
+@pytest.mark.parametrize("stem", ["پیاو", "کتێب", "دەرگا", "ماسی", "خانە", "مامۆستا"])
+def test_decline_round_trip(stem):
+    """Every generated nominal form is analysed back to its stem."""
+    from zimankit.skills_ckb.morphology import decline
+
+    lex = SimpleLexicon()
+    lex.add(stem, "NOUN")
+    an = CkbAnalyzer(lex)
+    for cell, form in decline(stem):
+        if form is None or cell in ("bare", "dem"):
+            continue
+        assert any(a.lemma == stem for a in an.analyze(form)[:3]), (cell, form)
+
+
+@pytest.mark.parametrize("inf, form, feature", [
+    ("هاتن", "مەیە", ("polarity", "neg")),
+    ("ویستن", "دەمەوێت", ("person", "1sg")),
+    ("گوتن", "گوترا", ("voice", "passive")),
+    ("ناردن", "نێردرا", ("voice", "passive")),
+])
+def test_verb_fixes(inf, form, feature):
+    idx = verbs.default_index()
+    assert any(f.lemma == inf and f.features.get(feature[0]) == feature[1] for f in idx.lookup(form))
+    assert not idx.lookup("دەوێم") and not idx.lookup("ڵرا")
+
+
+def test_normalize_word_start_after_foreign_letter():
+    """A non-Kurdish letter inside a word is not a word boundary (no ئ inserted after ث)."""
+    assert normalize("ثەورە") == "ثەورە"
+    assert normalize("اسپ") == "ئاسپ"
+    assert normalize("ئەو رۆژە") == "ئەو ڕۆژە"

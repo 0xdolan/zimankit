@@ -41,9 +41,16 @@ IRREGULAR: dict[str, dict[tuple[str, str], str]] = {
         **{("subjunctive", p): "ب" + f for p, f in zip(PERSONS, ("ێم", "ێیت", "ێت", "ێین", "ێن", "ێن"))},
         ("imperative", "2sg"): "وەرە",
         ("imperative", "2pl"): "وەرن",
+        ("prohibitive", "2sg"): "مەیە",
+        ("prohibitive", "2pl"): "مەیەن",
     },
     "چوون": {("imperative", "2sg"): "بڕۆ", ("imperative", "2pl"): "بڕۆن"},
 }
+# Present-stem tenses whose person marker is a set-2 clitic (دەمەوێت "I want", lit. "to-me it is wanted");
+# such verbs have no imperative and no passive.
+CLITIC_SUBJECT_PRESENT = {"ویستن": "ەوێت"}
+# Passive stems that the rules below do not derive.
+PASSIVE_STEM = {"گرتن": "گیر", "گوتن": "گوتر", "وتن": "وتر", "بیستن": "بیستر"}
 
 
 @dataclass(frozen=True)
@@ -190,9 +197,11 @@ def _set1_past(stem: str, person: str) -> str:
 
 
 def _passive_stem(v: Verb) -> str:
-    if v.base_infinitive == "گرتن":
-        return "گیر"
+    if v.base_infinitive in PASSIVE_STEM:
+        return PASSIVE_STEM[v.base_infinitive]
     p = v.present
+    if p.endswith(("ر", "ڕ")):
+        return p + "در"  # نێر -> نێردرا, کڕ -> کڕدرا
     if p.endswith("ۆ"):
         return p[:-1] + "ور"
     if p.endswith(("ە", "ێ", "ی")):
@@ -212,6 +221,10 @@ def _with_suffix(form: str, suffix: str) -> str:
         return form
     if form.endswith("ە"):
         return form + "وە"  # کردە + وە  -> کردەوە
+    if form.endswith("ا"):
+        return form + "یەوە"  # گەڕا + یەوە -> گەڕایەوە (a glide after ا)
+    if form.endswith("ی"):
+        return form + "ەوە"  # کردی + ەوە -> کردیەوە
     if form and form[-1] in VOWEL_END:
         return form + "وە"
     return form + suffix
@@ -226,13 +239,21 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
         yield VerbForm(_with_suffix(pre + surface, suf), lemma, {"pos": "VERB", **feat})
 
     pres, past = v.present, v.past
+    clitic_present = CLITIC_SUBJECT_PRESENT.get(v.base_infinitive)
     for p in PERSONS:
-        # present indicative, negative, subjunctive
-        yield from emit(irregular.get(("present", p), "دە" + _set1_present(pres, p)), tense="present", mood="indicative", person=p)
-        yield from emit(irregular.get(("present_neg", p), "نا" + _set1_present(pres, p)), tense="present", mood="indicative", person=p, polarity="neg")
-        subj = irregular.get(("subjunctive", p), ("" if pre and not v.light else "ب") + _set1_present(pres, p))
-        yield from emit(subj, tense="present", mood="subjunctive", person=p)
-        yield from emit(irregular.get(("subjunctive_neg", p), "نە" + _set1_present(pres, p)), tense="present", mood="subjunctive", person=p, polarity="neg")
+        if clitic_present:
+            cl = SET2[p] + clitic_present
+            yield from emit("دە" + cl, tense="present", mood="indicative", person=p)
+            yield from emit("نا" + cl, tense="present", mood="indicative", person=p, polarity="neg")
+            yield from emit("ب" + cl, tense="present", mood="subjunctive", person=p)
+            yield from emit("نە" + cl, tense="present", mood="subjunctive", person=p, polarity="neg")
+        else:
+            # present indicative, negative, subjunctive
+            yield from emit(irregular.get(("present", p), "دە" + _set1_present(pres, p)), tense="present", mood="indicative", person=p)
+            yield from emit(irregular.get(("present_neg", p), "نا" + _set1_present(pres, p)), tense="present", mood="indicative", person=p, polarity="neg")
+            subj = irregular.get(("subjunctive", p), ("" if pre and not v.light else "ب") + _set1_present(pres, p))
+            yield from emit(subj, tense="present", mood="subjunctive", person=p)
+            yield from emit(irregular.get(("subjunctive_neg", p), "نە" + _set1_present(pres, p)), tense="present", mood="subjunctive", person=p, polarity="neg")
         if v.transitive:
             cl = SET2[p]
             yield from emit(past + cl, tense="past", aspect="perfective", agent=p, alignment="ergative")
@@ -243,10 +264,11 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
             perf_cl = {"1sg": "مە", "2sg": "تە", "3sg": "یەتی", "1pl": "مانە", "2pl": "تانە", "3pl": "یانە"}[p]
             yield from emit(perf_base + perf_cl, tense="present_perfect", agent=p, alignment="ergative")
             yield from emit(past + "بوو" + cl, tense="past_perfect", agent=p, alignment="ergative")
-            ps = _passive_stem(v)
-            yield from emit("دە" + ps + _set1_present("ێ", p), tense="present", voice="passive", person=p)
-            yield from emit("نا" + ps + _set1_present("ێ", p), tense="present", voice="passive", person=p, polarity="neg")
-            yield from emit(_set1_past(ps + "ا", p), tense="past", voice="passive", person=p)
+            if not clitic_present:
+                ps = _passive_stem(v)
+                yield from emit("دە" + ps + _set1_present("ێ", p), tense="present", voice="passive", person=p)
+                yield from emit("نا" + ps + _set1_present("ێ", p), tense="present", voice="passive", person=p, polarity="neg")
+                yield from emit(_set1_past(ps + "ا", p), tense="past", voice="passive", person=p)
         else:
             yield from emit(_set1_past(past, p), tense="past", aspect="perfective", person=p, alignment="accusative")
             if p == "2sg":
@@ -278,14 +300,15 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
     # imperative / prohibitive
     imp_sg = pres if _vowel_final(pres) else pres + "ە"
     b = "" if pre and not v.light else "ب"
-    yield from emit(irregular.get(("imperative", "2sg"), b + imp_sg), mood="imperative", person="2sg")
-    yield from emit(irregular.get(("imperative", "2pl"), b + pres + "ن"), mood="imperative", person="2pl")
-    yield from emit("مە" + imp_sg, mood="imperative", person="2sg", polarity="neg")
-    yield from emit("مە" + pres + "ن", mood="imperative", person="2pl", polarity="neg")
+    if not clitic_present:
+        yield from emit(irregular.get(("imperative", "2sg"), b + imp_sg), mood="imperative", person="2sg")
+        yield from emit(irregular.get(("imperative", "2pl"), b + pres + "ن"), mood="imperative", person="2pl")
+        yield from emit(irregular.get(("prohibitive", "2sg"), "مە" + imp_sg), mood="imperative", person="2sg", polarity="neg")
+        yield from emit(irregular.get(("prohibitive", "2pl"), "مە" + pres + "ن"), mood="imperative", person="2pl", polarity="neg")
     # non-finite
     yield VerbForm(lemma, lemma, {"pos": "VERB", "form": "infinitive"})
     yield from emit(_perfect_base(past), form="past_participle")
-    if v.transitive:
+    if v.transitive and not clitic_present:
         ps = _passive_stem(v)
         yield from emit(ps + "او", form="passive_participle")
         yield from emit(ps + "اوە", tense="present_perfect", voice="passive", person="3sg")

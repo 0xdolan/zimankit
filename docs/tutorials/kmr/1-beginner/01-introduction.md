@@ -1,0 +1,77 @@
+<!-- nav:top -->
+[⌂ Northern Kurdish (Kurmanji) course](../README.md) · [2. The Hawar alphabet →](02-alphabet.md)
+<!-- nav:top -->
+
+# 1. Welcome to Kurmanji
+
+**Level:** 🟢 Beginner · lesson 1 of 23
+
+**On this page:** [What is Kurmanji?](#what-is-kurmanji) · [The writing system in one minute](#the-writing-system-in-one-minute) · [Your first words](#your-first-words) · [What makes Kurmanji grammar interesting](#what-makes-kurmanji-grammar-interesting) · [How this course works](#how-this-course-works) · [Summary](#summary)
+
+## What is Kurmanji?
+
+Kurdish is a West Iranian language, related to Persian and Balochi and more distantly to English. It is a family of closely related varieties. **Northern Kurdish**, called **Kurmanji** (*Kurmancî*), is the largest: roughly 15–20 million speakers in
+
+* south-eastern **Turkey** (Amed / Diyarbakır, Wan, Mêrdîn, Colemêrg …),
+* north-eastern **Syria** (Qamişlo, Kobanî, Efrîn),
+* the **Duhok** region of Iraq (where the local form is called *Badînî*),
+* north-western **Iran**, **Armenia** and **Georgia**,
+* and a large diaspora in Europe.
+
+Its closest relative is **Central Kurdish (Sorani)**, which has its own course in this series.
+
+## The writing system in one minute
+
+Kurmanji is written in the **Hawar alphabet**, a Latin alphabet of 31 letters designed in 1932 by Celadet Bedirxan. It is almost perfectly **phonetic**: each letter is one sound and each sound is one letter. Once you know the letters you can pronounce any word you read.
+
+In Iraq and Iran Kurmanji is also written in the Arabic-based Kurdish alphabet; every word in this course is shown in that script too.
+
+## Your first words
+
+<!-- gen:sentences ipa=1
+Silav! | Hello!
+Tu çawa yî? | How are you?
+Ez baş im, spas. | I'm fine, thanks.
+Navê te çi ye? | What is your name?
+Navê min Rojda ye. | My name is Rojda.
+Bi xêr hatî! | Welcome!
+-->
+| # | Kurdish | Arabic script | IPA | English |
+|---|---|---|---|---|
+| 1 | Silav! | سلاڤ! | /sɪlaːv/ | Hello! |
+| 2 | Tu çawa yî? | تو چاوا یی؟ | /tʊ tʃaːwaː jiː/ | How are you? |
+| 3 | Ez baş im, spas. | ئەز باش ئم، سپاس. | /ɛz baːʃ ɪm spaːs/ | I'm fine, thanks. |
+| 4 | Navê te çi ye? | ناڤێ تە چ یە؟ | /naːveː tɛ tʃɪ jɛ/ | What is your name? |
+| 5 | Navê min Rojda ye. | ناڤێ من ڕۆژدا یە. | /naːveː mɪn roːʒdaː jɛ/ | My name is Rojda. |
+| 6 | Bi xêr hatî! | ب خێر هاتی! | /bɪ xeːɾ haːtiː/ | Welcome! |
+<!-- /gen -->
+
+`ː` in the IPA marks a long vowel. You will see why *ê*, *î* and *û* are long in lesson 3.
+
+## What makes Kurmanji grammar interesting
+
+| idea | example | lesson |
+|---|---|---|
+| every noun is **masculine or feminine** | *bav m* father, *jin f* woman | 7 |
+| nouns have two **cases**, direct and oblique | *jin* → *jinê* | 9 |
+| a linking ending (**ezafe**) joins nouns to adjectives and owners | *mala min* my house | 8 |
+| the verb comes **last** | *Ez nan dixwim* — I bread eat | 10 |
+| in the past, transitive verbs are **ergative**: the doer is oblique and the verb agrees with the object | *Min tu dîtî* I saw you | 14 |
+
+## How this course works
+
+* Lessons 1–10 (🟢) teach reading, pronunciation and the core grammar of simple sentences.
+* Lessons 11–17 (🟡) add demonstratives, the subjunctive and future, the past tenses and ergativity.
+* Lessons 18–23 (🔴) complete the verb system, the passive and the written standard.
+* The **reference** pages give every verb of the course fully conjugated and every noun in every case.
+
+## Summary
+
+* Kurmanji = Northern Kurdish, written in the phonetic Latin Hawar alphabet.
+* Six first phrases: *Silav! Tu çawa yî? Ez baş im, spas. Navê te çi ye? Navê min … ye. Bi xêr hatî!*
+* Next: the 31 letters.
+
+<!-- nav:bottom -->
+---
+[⌂ Northern Kurdish (Kurmanji) course](../README.md) · [2. The Hawar alphabet →](02-alphabet.md)
+<!-- nav:bottom -->

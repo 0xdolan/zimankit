@@ -137,6 +137,39 @@ def _ends_with_vowel(stem: str) -> bool:
     return False
 
 
+CLITICS = ("م", "ت", "ی", "مان", "تان", "یان")  # set 2: 1sg 2sg 3sg 1pl 2pl 3pl
+PERSONS = ("1sg", "2sg", "3sg", "1pl", "2pl", "3pl")
+
+
+def _after(stem: str, after_c: str, after_v: str) -> str:
+    return stem + (after_v if _ends_with_vowel(stem) else after_c)
+
+
+def decline(stem: str) -> list[tuple[str, str | None]]:
+    """Generate the nominal forms of a Central Kurdish noun: ``[(cell, form), ...]``.
+
+    The allomorphs are the ones the analyzer peels (SLOTS); after a vowel the
+    definite suffix is کە, except after ی / ێ where a glide is written (ماسییەکە).
+    """
+    v = _ends_with_vowel(stem)
+    glide = v and stem[-1] in "یێ"
+    defsg = stem + ("یەکە" if glide else "کە" if v else "ەکە")
+    defpl = stem + ("یەکان" if glide else "کان" if v else "ەکان")
+    return [
+        ("bare", stem),
+        ("def.sg", defsg),
+        ("def.pl", defpl),
+        ("ind.sg", _after(stem, "ێک", "یەک")),
+        ("pl", None if stem.endswith("ە") else _after(stem, "ان", "یان")),
+        ("ezafe", stem + "ی"),
+        ("dem", _after(stem, "ە", "یە")),  # ئەم / ئەو … ە
+        ("ind.ezafe", _after(stem, "ێکی", "یەکی")),
+        ("def.sg.add", defsg + "ش"),
+        *((f"def.sg+{p}", defsg + c) for p, c in zip(PERSONS, CLITICS)),
+        *((f"bare+{p}", stem + c) for p, c in zip(PERSONS, CLITICS)),
+    ]
+
+
 def _peel(word: str, slot: int, segs: list[tuple[str, str, Affix]], out: list) -> None:
     out.append((word, list(segs)))
     if len(out) > 400:

@@ -70,12 +70,12 @@ python run_pipeline.py --langs kmr --force     # recompute everything for one va
 | lexicon / dictionary lemmas | 76 902 | 122 729 |
 | lexicon declension forms | — | 387 582 |
 | verbs in the paradigm index | 7 041 | 6 317 |
-| **accepted forms** | **328 881** | **503 606** |
-| **accepted lemmas** | **≈ 101 000** | **≈ 122 600** |
-| spelling variants mapped | 24 922 | — |
-| IPA vs. reference transcriptions | 0.965 (n = 178) | 0.978 (n = 18 472) |
+| **accepted forms** | **329 190** | **506 407** |
+| **accepted lemmas** | **≈ 100 800** | **≈ 122 100** |
+| spelling variants mapped | 24 924 | — |
+| IPA vs. reference transcriptions | 0.965 (n = 178) | 0.978 (n = 18 473) |
 
-Largest rejection reasons — ckb: unknown rare stems (342 k), Arabic-only letters (4.9 k); kmr: unknown rare stems (62 k), rare proper nouns (33 k), non-Hawar characters (9.4 k, mostly scraped JavaScript and English).
+Largest rejection reasons — ckb: unknown rare stems (342 k), Arabic-only letters (4.9 k); kmr: unknown rare stems (60 k), rare proper nouns (33 k), non-Hawar characters (9.4 k, mostly scraped JavaScript and English).
 
 ## Real rows
 

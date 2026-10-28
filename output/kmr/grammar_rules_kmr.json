@@ -292,43 +292,43 @@
       },
       {
         "form": "ekî",
-        "tag": "INDEF.OBL.M",
+        "tag": "INDEF.OBL.M|INDEF.EZ.M",
         "features": {
           "definite": "ind",
           "number": "sg",
-          "case": "obl",
           "gender": "m"
         },
         "after": "C"
       },
       {
         "form": "yekî",
-        "tag": "INDEF.OBL.M",
+        "tag": "INDEF.OBL.M|INDEF.EZ.M",
         "features": {
           "definite": "ind",
           "number": "sg",
-          "case": "obl",
           "gender": "m"
         },
         "after": "V"
       },
       {
         "form": "eke",
-        "tag": "INDEF.EZ",
+        "tag": "INDEF.EZ.F",
         "features": {
           "definite": "ind",
           "number": "sg",
-          "ezafe": "yes"
+          "ezafe": "yes",
+          "gender": "f"
         },
         "after": "C"
       },
       {
         "form": "yeke",
-        "tag": "INDEF.EZ",
+        "tag": "INDEF.EZ.F",
         "features": {
           "definite": "ind",
           "number": "sg",
-          "ezafe": "yes"
+          "ezafe": "yes",
+          "gender": "f"
         },
         "after": "V"
       },
@@ -546,24 +546,14 @@
         "pos": "NOUN"
       },
       {
+        "form": "istan",
+        "tag": "PLACE",
+        "pos": "NOUN"
+      },
+      {
         "form": "stan",
         "tag": "PLACE",
         "pos": "NOUN"
-      },
-      {
-        "form": "geh",
-        "tag": "PLACE",
-        "pos": "NOUN"
-      },
-      {
-        "form": "xane",
-        "tag": "PLACE",
-        "pos": "NOUN"
-      },
-      {
-        "form": "ane",
-        "tag": "ADVZ",
-        "pos": "ADV"
       },
       {
         "form": "tir",

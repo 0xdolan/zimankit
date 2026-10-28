@@ -64,3 +64,54 @@ def test_translit():
     assert to_arabic("roj") == "ڕۆژ"
     assert to_arabic("mirov") == "مرۆڤ"
     assert to_arabic("inca") == "ئنجا"
+
+
+@pytest.mark.parametrize("stem, gender", [("jin", "f"), ("mal", "f"), ("bav", "m"), ("mirov", "m"), ("xanî", "m"), ("çiya", "m")])
+def test_decline_round_trip(stem, gender):
+    """Every generated case form is analysed back to its stem with the cell's features."""
+    from zimankit.skills_kmr.morphology import decline
+
+    lex = SimpleLexicon()
+    lex.add(stem, "NOUN", gender)
+    an = KmrAnalyzer(lex)
+    expect = {"obl": ("case", "obl"), "ez": ("ezafe", "yes")}
+    for cell, form in decline(stem, gender):
+        if form is None or form == stem or cell.startswith("voc"):
+            continue
+        readings = [a for a in an.analyze(form) if a.lemma == stem]
+        assert readings, (cell, form)
+        kind = cell.split(".")[1]
+        if kind in expect:
+            k, v = expect[kind]
+            assert any(a.features.get(k) == v for a in readings), (cell, form)
+
+
+def test_decline_forms():
+    from zimankit.skills_kmr.morphology import decline
+
+    assert dict(decline("xanî", "m"))["def.ez.sg"] == "xaniyê"
+    assert dict(decline("jin", "f"))["ind.ez.sg"] == "jineke"
+    assert dict(decline("mirov", "m"))["ind.ez.sg"] == "mirovekî"
+
+
+@pytest.mark.parametrize("inf, cell, form", [
+    ("hatin", ("imperative", "neg", "2sg"), "neyê"),
+    ("axaftin", ("present", None, "1sg"), "diaxivim"),
+    ("axaftin", ("present", "neg", "1sg"), "naxivim"),
+    ("anîn", ("past", None, "2sg"), "aniyî"),
+    ("şûştin", ("imperative", "neg", "pl"), "neşon"),
+])
+def test_verb_regressions(inf, cell, form):
+    v = next(v for v in verbs.load_core_verbs() if v.infinitive == inf)
+    kind, pol, person = cell
+    forms = [f.form for f in verbs.conjugate(v)
+             if (f.features.get("tense") == kind or f.features.get("mood") == kind)
+             and f.features.get("polarity") == pol and f.features.get("person", "").replace("2pl", "pl") == person
+             and f.features.get("aspect") in (None, "perfective")]
+    assert form in forms
+
+
+def test_istan_derivation():
+    lex = SimpleLexicon()
+    lex.add("kurd", "NOUN", "m")
+    assert KmrAnalyzer(lex).best("Kurdistan").segmentation == "kurd+istan"

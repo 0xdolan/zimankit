@@ -96,6 +96,13 @@ def make_verb(infinitive: str, transitive: bool | None = None, present: str | No
     return Verb(infinitive, past, present or guess_present_stem(past), True if transitive is None else transitive, "", source)
 
 
+def _join(stem: str, suffix: str) -> str:
+    """Attach a suffix; a stem-final î shortens to i before y (anî+yî -> aniyî, zanî+ye -> zaniye)."""
+    if stem.endswith("î") and suffix.startswith("y"):
+        return stem[:-1] + "i" + suffix
+    return stem + suffix
+
+
 def _ending(stem: str, person: str, tense: str) -> str:
     vowel_final = stem[-1] in VOWELS
     if vowel_final:
@@ -106,22 +113,28 @@ def _ending(stem: str, person: str, tense: str) -> str:
 
 
 def _present_prefix(v: Verb, kind: str) -> str:
-    vowel_initial = v.present[0] in VOWELS
+    """Prefix for a present-stem form.
+
+    ê/î-initial stems contract with the prefixes (têm, tînim, nayêm, bêm, neyê);
+    a-initial stems keep di- and merge na- (diaxivim, naxivim, baxivim).
+    """
+    first = v.present[0]
+    ei_initial = first in "êî"
     base = v.infinitive[len(v.preverb):]
     if kind == "ind":
         if base == "rûniştin":
             return ""
-        return "t" if vowel_initial else "di"
+        return "t" if ei_initial else "di"
     if kind == "neg":
         if base in NI_NEGATION:
             return "ni"
-        return "nay" if vowel_initial else "na"
+        return "nay" if ei_initial else "n" if first == "a" else "na"
     if kind == "subj":
         if v.preverb:
             return ""
-        return "b" if vowel_initial else "bi"
+        return "b" if first in VOWELS else "bi"
     if kind == "negsubj":
-        return "ney" if vowel_initial else "ne"
+        return "ney" if ei_initial else "ne"
     raise ValueError(kind)
 
 
@@ -140,14 +153,14 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
         yield from emit(_present_prefix(v, "neg") + pres + e, tense="present", mood="indicative", person=p, polarity="neg", agreement="subject")
         yield from emit(_present_prefix(v, "subj") + pres + e, mood="subjunctive", person=p, agreement="subject")
         yield from emit(_present_prefix(v, "negsubj") + pres + e, mood="subjunctive", person=p, polarity="neg", agreement="subject")
-        pe = _ending(past, p, "past")
-        yield from emit(past + pe, tense="past", aspect="perfective", person=p, agreement=agr_past, alignment=align)
-        yield from emit("ne" + past + pe, tense="past", aspect="perfective", person=p, polarity="neg", agreement=agr_past, alignment=align)
-        yield from emit("di" + past + pe, tense="past", aspect="progressive", person=p, agreement=agr_past, alignment=align)
-        yield from emit("nedi" + past + pe, tense="past", aspect="progressive", person=p, polarity="neg", agreement=agr_past, alignment=align)
+        pe = _join(past, _ending(past, p, "past"))
+        yield from emit(pe, tense="past", aspect="perfective", person=p, agreement=agr_past, alignment=align)
+        yield from emit("ne" + pe, tense="past", aspect="perfective", person=p, polarity="neg", agreement=agr_past, alignment=align)
+        yield from emit("di" + pe, tense="past", aspect="progressive", person=p, agreement=agr_past, alignment=align)
+        yield from emit("nedi" + pe, tense="past", aspect="progressive", person=p, polarity="neg", agreement=agr_past, alignment=align)
         vowel_final = past[-1] in VOWELS
         perf = {"1sg": "me", "2sg": "yî", "3sg": "ye", "pl": "ne"} if vowel_final else {"1sg": "ime", "2sg": "iyî", "3sg": "iye", "pl": "ine"}
-        yield from emit(past + perf[p], tense="present_perfect", person=p, agreement=agr_past, alignment=align)
+        yield from emit(_join(past, perf[p]), tense="present_perfect", person=p, agreement=agr_past, alignment=align)
         plup = past + ("bû" if vowel_final else "ibû")
         yield from emit(plup + _ending(plup, p, "past"), tense="past_perfect", person=p, agreement=agr_past, alignment=align)
     # imperative
@@ -161,8 +174,11 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
         imp = {"2sg": sub + pres + ("" if stem_v else "e"), "2pl": sub + pres + ("n" if stem_v else "in")}
     for p, f in imp.items():
         yield from emit(f, mood="imperative", person=p)
-        neg = "ne" + pres + ("" if pres[-1] in VOWELS else ("e" if p == "2sg" else "in"))
-        yield from emit(neg, mood="imperative", person=p, polarity="neg")
+        if pres[-1] in VOWELS:
+            end = "" if p == "2sg" else "n"
+        else:
+            end = "e" if p == "2sg" else "in"
+        yield from emit(_present_prefix(v, "negsubj") + pres + end, mood="imperative", person=p, polarity="neg")
     yield VerbForm(lemma, lemma, {"pos": "VERB", "form": "infinitive"})
     yield from emit(past + ("yî" if past[-1] in VOWELS else "î"), form="past_participle")
 
