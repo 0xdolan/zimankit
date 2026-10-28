@@ -1,83 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280">
   <!-- Kaggle dataset cover: 560x280 header, the centre 280x280 (x 140-420) is the thumbnail.
-       Deliberately contains no counts, so it never needs updating when the data is rebuilt.
+       Contains no counts, so it never needs updating when the data is rebuilt.
+       The sun is the Roj emblem of the flag of Kurdistan (public domain), path used verbatim.
        Render: inkscape assets/kaggle-cover.svg -o assets/dataset-cover-image.png -w 560 -h 280 -->
   <defs>
-    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
-      <stop offset="0" stop-color="#173229"/>
-      <stop offset="1" stop-color="#0b1713"/>
+    <radialGradient id="bg" cx="50%" cy="38%" r="80%">
+      <stop offset="0" stop-color="#16362b"/>
+      <stop offset="0.6" stop-color="#0e211a"/>
+      <stop offset="1" stop-color="#091410"/>
     </radialGradient>
-    <polygon id="ray" points="-7,-56 7,-56 0,-112"/>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FEBD11" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FEBD11" stop-opacity="0"/>
+    </radialGradient>
+    <path id="roj" fill="#FEBD11" d="M500 0l36.76 258.27L647.78 22.34 607 280 782.46 87.37 667.73 321.53 892.01 189.3 713.57 379.16l253.17-60.05-226.32 128.67L1000 465.23 745.92 521.3l242.91 93.4-259.27-21.53L934.23 754.2 692.8 657l148.24 214.4-202.12-164.26 78.63 248.7-144.86-216.71 2.04 260.88L500 750.1 425.27 1000l2.04-260.88-144.86 216.7 78.63-248.69L158.96 871.4 307.2 657 65.77 754.21l204.67-161.05-259.27 21.53 242.91-93.4L0 465.23l259.58-17.45L33.26 319.1l253.17 60.05L108 189.3l224.28 132.22L217.55 87.37 393 280 352.2 22.34l111.05 235.93z"/>
   </defs>
-  <rect width="560" height="280" fill="url(#bg)"/>
-  <rect width="560" height="4" fill="#ED2024"/>
-  <rect y="276" width="560" height="4" fill="#278E43"/>
 
-  <!-- the sun: 21 rays -->
-  <g transform="translate(280 124)" fill="#FEBD11">
-    <circle r="48" opacity="0.14"/>
-    <g opacity="0.22">
-      <use href="#ray"/>
-      <use href="#ray" transform="rotate(17.142857)"/>
-      <use href="#ray" transform="rotate(34.285714)"/>
-      <use href="#ray" transform="rotate(51.428571)"/>
-      <use href="#ray" transform="rotate(68.571429)"/>
-      <use href="#ray" transform="rotate(85.714286)"/>
-      <use href="#ray" transform="rotate(102.857143)"/>
-      <use href="#ray" transform="rotate(120)"/>
-      <use href="#ray" transform="rotate(137.142857)"/>
-      <use href="#ray" transform="rotate(154.285714)"/>
-      <use href="#ray" transform="rotate(171.428571)"/>
-      <use href="#ray" transform="rotate(188.571429)"/>
-      <use href="#ray" transform="rotate(205.714286)"/>
-      <use href="#ray" transform="rotate(222.857143)"/>
-      <use href="#ray" transform="rotate(240)"/>
-      <use href="#ray" transform="rotate(257.142857)"/>
-      <use href="#ray" transform="rotate(274.285714)"/>
-      <use href="#ray" transform="rotate(291.428571)"/>
-      <use href="#ray" transform="rotate(308.571429)"/>
-      <use href="#ray" transform="rotate(325.714286)"/>
-      <use href="#ray" transform="rotate(342.857143)"/>
+  <rect width="560" height="280" fill="url(#bg)"/>
+
+  <!-- centre: emblem and title (this square is also the thumbnail) -->
+  <circle cx="280" cy="92" r="88" fill="url(#glow)"/>
+  <use href="#roj" transform="translate(226 38) scale(0.108)"/>
+  <g text-anchor="middle" fill="#F7F3E8" font-family="IBM Plex Sans">
+    <text x="280" y="190" font-weight="600" font-size="28" letter-spacing="0.5">Kurdish Lexicon</text>
+    <text x="280" y="212" font-size="12" opacity="0.75">Sorani · Kurmanji</text>
+    <text x="280" y="240" font-weight="500" font-size="7.5" letter-spacing="1.6" fill="#FEBD11" opacity="0.9">LEMMA · MORPHOLOGY · IPA · DEFINITIONS</text>
+  </g>
+
+  <!-- side cards: one dataset row each -->
+  <g fill="#ffffff" fill-opacity="0.045" stroke="#F7F3E8" stroke-opacity="0.16">
+    <rect x="18" y="62" width="110" height="128" rx="8"/>
+    <rect x="432" y="62" width="110" height="128" rx="8"/>
+  </g>
+
+  <g fill="#F7F3E8" font-family="IBM Plex Sans">
+    <!-- Sorani -->
+    <text x="73" y="80" text-anchor="middle" font-weight="600" font-size="7.5" letter-spacing="1.6" fill="#FEBD11">SORANÎ · CKB</text>
+    <text x="73" y="114" text-anchor="middle" font-family="Vazirmatn" font-weight="600" font-size="21" direction="rtl">کتێبەکەم</text>
+    <g font-size="8.5">
+      <text x="28" y="140" opacity="0.55">lemma</text>
+      <text x="28" y="153" opacity="0.55">pos</text>
+      <text x="28" y="166" opacity="0.55">feats</text>
+      <text x="28" y="179" opacity="0.55">ipa</text>
+      <g text-anchor="end">
+        <text x="118" y="141" font-family="Vazirmatn" font-size="10" direction="rtl" text-anchor="start">کتێب</text>
+        <text x="118" y="153">NOUN</text>
+        <text x="118" y="166">def · my</text>
+        <text x="118" y="179" font-family="DejaVu Sans" font-size="8" fill="#FEBD11">kɯteːbækæm</text>
+      </g>
+    </g>
+
+    <!-- Kurmanji -->
+    <text x="487" y="80" text-anchor="middle" font-weight="600" font-size="7.5" letter-spacing="1.6" fill="#FEBD11">KURMANCÎ · KMR</text>
+    <text x="487" y="114" text-anchor="middle" font-weight="600" font-size="21">jinekê</text>
+    <g font-size="8.5">
+      <text x="442" y="140" opacity="0.55">lemma</text>
+      <text x="442" y="153" opacity="0.55">pos</text>
+      <text x="442" y="166" opacity="0.55">feats</text>
+      <text x="442" y="179" opacity="0.55">ipa</text>
+      <g text-anchor="end">
+        <text x="532" y="140">jin</text>
+        <text x="532" y="153">NOUN · f</text>
+        <text x="532" y="166">indef · obl</text>
+        <text x="532" y="179" font-family="DejaVu Sans" font-size="8" fill="#FEBD11">ʒɪnɛkeː</text>
+      </g>
+    </g>
+
+    <!-- links -->
+    <g text-anchor="middle">
+      <text x="73" y="216" font-weight="600" font-size="7" letter-spacing="1.6" fill="#FEBD11">GITHUB</text>
+      <text x="73" y="230" font-size="8.5" opacity="0.8">github.com/</text>
+      <text x="73" y="242" font-weight="600" font-size="8.5">0xdolan/zimankit</text>
+      <text x="487" y="216" font-weight="600" font-size="7" letter-spacing="1.6" fill="#FEBD11">KAGGLE</text>
+      <text x="487" y="230" font-size="8.5" opacity="0.8">kaggle.com/datasets/</text>
+      <text x="487" y="242" font-weight="600" font-size="8.5">zeroxdolan/kurdish-lexicon</text>
     </g>
   </g>
 
-  <!-- centre: "language" in both varieties -->
-  <g text-anchor="middle" fill="#F7F3E8">
-    <text x="280" y="134" font-family="Vazirmatn" font-weight="700" font-size="58" direction="rtl">زمان</text>
-    <text x="280" y="180" font-family="IBM Plex Sans" font-weight="600" font-size="30">ziman</text>
-    <text x="280" y="204" font-family="DejaVu Sans" font-size="13" opacity="0.7">/zɪˈmaːn/</text>
-    <text x="280" y="252" font-family="IBM Plex Sans" font-weight="500" font-size="11"
-          letter-spacing="4" opacity="0.75">KURDISH LEXICON</text>
-  </g>
-
-  <g stroke="#F7F3E8" stroke-opacity="0.16">
-    <line x1="140" y1="56" x2="140" y2="200"/>
-    <line x1="420" y1="56" x2="420" y2="200"/>
-    <line x1="30" y1="208" x2="110" y2="208"/>
-    <line x1="450" y1="208" x2="530" y2="208"/>
-  </g>
-
-  <!-- left: Sorani, a sample form with its IPA, GitHub -->
-  <g text-anchor="middle" fill="#F7F3E8">
-    <text x="70" y="78" font-family="Vazirmatn" font-weight="600" font-size="22" direction="rtl">سۆرانی</text>
-    <text x="70" y="96" font-family="IBM Plex Sans" font-size="10" opacity="0.7">Sorani · ckb</text>
-    <text x="70" y="136" font-family="Vazirmatn" font-weight="500" font-size="17" direction="rtl">کتێبەکەم</text>
-    <text x="70" y="153" font-family="DejaVu Sans" font-size="10" fill="#FEBD11">/kɯteːbækæm/</text>
-    <text x="70" y="168" font-family="IBM Plex Sans" font-style="italic" font-size="9.5" opacity="0.6">my book</text>
-    <text x="70" y="226" font-family="IBM Plex Sans" font-weight="600" font-size="7.5" letter-spacing="2" fill="#FEBD11">GITHUB</text>
-    <text x="70" y="240" font-family="IBM Plex Sans" font-size="9" opacity="0.85">github.com/</text>
-    <text x="70" y="252" font-family="IBM Plex Sans" font-weight="600" font-size="9" opacity="0.85">0xdolan/zimankit</text>
-  </g>
-
-  <!-- right: Kurmanji, a sample form with its IPA, Kaggle -->
-  <g text-anchor="middle" fill="#F7F3E8">
-    <text x="490" y="78" font-family="IBM Plex Sans" font-weight="600" font-size="21">Kurmancî</text>
-    <text x="490" y="96" font-family="IBM Plex Sans" font-size="10" opacity="0.7">Kurmanji · kmr</text>
-    <text x="490" y="136" font-family="IBM Plex Sans" font-weight="500" font-size="17">jinekê</text>
-    <text x="490" y="153" font-family="DejaVu Sans" font-size="10" fill="#FEBD11">/ʒɪnɛkeː/</text>
-    <text x="490" y="168" font-family="IBM Plex Sans" font-style="italic" font-size="9.5" opacity="0.6">a woman (oblique)</text>
-    <text x="490" y="226" font-family="IBM Plex Sans" font-weight="600" font-size="7.5" letter-spacing="2" fill="#FEBD11">KAGGLE</text>
-    <text x="490" y="240" font-family="IBM Plex Sans" font-size="9" opacity="0.85">kaggle.com/datasets/</text>
-    <text x="490" y="252" font-family="IBM Plex Sans" font-weight="600" font-size="9" opacity="0.85">zeroxdolan/kurdish-lexicon</text>
-  </g>
+  <!-- flag band -->
+  <rect y="271" width="560" height="3" fill="#ED2024"/>
+  <rect y="274" width="560" height="3" fill="#FFFFFF"/>
+  <rect y="277" width="560" height="3" fill="#278E43"/>
 </svg>
