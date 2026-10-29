@@ -1,4 +1,8 @@
-# zimankit
+<p align="center">
+  <img src="assets/brand/logo/png/zimankit-logo-256.png" width="160" alt="zimankit logo: the deq tree-of-life figure with the Kurdish sun at its heart">
+</p>
+
+<h1 align="center">zimankit · زمانکیت</h1>
 
 **Kurdish language skills and wordlist builder** for Central Kurdish (Sorani, `ckb`, Arabic script) and Northern Kurdish (Kurmanji, `kmr`, Hawar Latin script).
 
@@ -83,6 +87,16 @@ zimankit/
 کتێبەکەم,کتێب,NOUN,k(ɯ)teːbækæm,"{""definite"":""def"",""enclitic"":""1sg"",""number"":""sg"",""seg"":""کتێب+ەکە+م""}",kitêbekem,137,"encyclopedia,news,web",0.31
 jinekê,jin,NOUN,ʒɪnɛkeː,"{""case"":""obl"",""definite"":""ind"",""gender"":""f"",""number"":""sg"",""seg"":""jin+ekê""}",ژنەکێ,530,"encyclopedia,lexicon-form,news",0.754
 ```
+
+## The logo
+
+<p align="center"><img src="assets/brand/story/zimankit-logo-construction.png" width="720" alt="deq figure + the sun of the flag of Kurdistan = the zimankit logo"></p>
+
+The logo is a sign of **deq**, the traditional hand-poked tattoo of Kurdish and Yazidi women: the figure of the **tree of life**, with a dot, two raised branches, a trunk through a circle, two roots and a dot. At its heart shines **Roj**, the 21-rayed sun of the flag of Kurdistan; *roj* / *ڕۆژ* means both "sun" and "day".
+
+It is a picture of a living language (*ziman*). Its two branches, **Sorani** and **Kurmanji**, grow from one trunk. Its roots reach into the deep history of Kurdish, and its circle is the language passed from one generation to the next. Its dots, which in deq protect against the evil eye, recall the small marks that tell Kurdish letters apart (ی / ێ, ر / ڕ, ل / ڵ).
+
+The full story, with the history and meaning of deq, sources, colours, usage, and every logo, icon, social, ad and print file, is in **[assets/brand/](assets/brand/README.md)**.
 
 ## Licence
 

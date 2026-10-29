@@ -1,3 +1,5 @@
+<p align="center"><img src="../../assets/brand/logo/png/zimankit-logo-128.png" width="96" alt="zimankit logo"></p>
+
 # Learn Kurdish: Sorani and Kurmanji from zero
 
 Two complete, self-paced courses for people who know **no Kurdish at all**:

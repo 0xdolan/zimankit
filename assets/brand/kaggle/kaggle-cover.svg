@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="560" height="280" viewBox="0 0 560 280">
   <!-- Kaggle dataset cover: 560x280 header, the centre 280x280 (x 140-420) is the thumbnail.
        Contains no counts, so it never needs updating when the data is rebuilt.
-       The sun is the Roj emblem of the flag of Kurdistan (public domain), path used verbatim.
-       Render: inkscape assets/kaggle-cover.svg -o assets/dataset-cover-image.png -w 560 -h 280 -->
+       At the centre is the zimankit mark; scripts/make_brand.py rewrites it between the mark comments
+       and renders dataset-cover-image.png. -->
   <defs>
     <radialGradient id="bg" cx="50%" cy="38%" r="80%">
       <stop offset="0" stop-color="#16362b"/>
@@ -13,14 +13,13 @@
       <stop offset="0" stop-color="#FEBD11" stop-opacity="0.28"/>
       <stop offset="1" stop-color="#FEBD11" stop-opacity="0"/>
     </radialGradient>
-    <path id="roj" fill="#FEBD11" d="M500 0l36.76 258.27L647.78 22.34 607 280 782.46 87.37 667.73 321.53 892.01 189.3 713.57 379.16l253.17-60.05-226.32 128.67L1000 465.23 745.92 521.3l242.91 93.4-259.27-21.53L934.23 754.2 692.8 657l148.24 214.4-202.12-164.26 78.63 248.7-144.86-216.71 2.04 260.88L500 750.1 425.27 1000l2.04-260.88-144.86 216.7 78.63-248.69L158.96 871.4 307.2 657 65.77 754.21l204.67-161.05-259.27 21.53 242.91-93.4L0 465.23l259.58-17.45L33.26 319.1l253.17 60.05L108 189.3l224.28 132.22L217.55 87.37 393 280 352.2 22.34l111.05 235.93z"/>
   </defs>
 
   <rect width="560" height="280" fill="url(#bg)"/>
 
   <!-- centre: emblem and title (this square is also the thumbnail) -->
-  <circle cx="280" cy="92" r="88" fill="url(#glow)"/>
-  <use href="#roj" transform="translate(226 38) scale(0.108)"/>
+  <circle cx="280" cy="92" r="70" fill="url(#glow)"/>
+  <!-- mark --><g transform="translate(220.57 32.57) scale(0.11607)"><path fill="#FEBD11" transform="translate(-178.00 52.00) scale(1.5333)" d="M450 150l11.24 76.264 33.222-69.563-11.738 76.19 52.249-56.68-33.674 69.344 66.634-38.761-52.616 56.338 75.098-17.399-66.885 38.327 76.89 5.51-75.21 16.909 71.85 27.929-76.852-6.011 60.425 47.867-71.666-28.397 43.632 63.55-60.113-48.259 22.962 73.589-43.217-63.834.25 77.087L450 376.264 427.518 450l.251-77.087-43.217 63.834 22.962-73.589-60.113 48.26 43.632-63.551-71.666 28.397 60.425-47.867-76.852 6.011 71.85-27.93-75.21-16.908 76.89-5.51-66.885-38.327 75.098 17.399-52.616-56.338 66.634 38.76-33.674-69.343 52.249 56.68-11.738-76.19 33.221 69.563z"/><g fill="none" stroke="#F3EEE2" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"><path d="M430 190 L512 268 L594 190"/><path d="M512 268 V756"/><path d="M430 840 L512 756 L594 840"/><circle cx="512" cy="512" r="112"/></g><g fill="#F3EEE2"><circle cx="512" cy="122" r="26"/><circle cx="512" cy="908" r="26"/></g></g><!-- /mark -->
   <g text-anchor="middle" fill="#F7F3E8" font-family="IBM Plex Sans">
     <text x="280" y="190" font-weight="600" font-size="28" letter-spacing="0.5">Kurdish Lexicon</text>
     <text x="280" y="212" font-size="12" opacity="0.75">Sorani · Kurmanji</text>

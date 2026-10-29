@@ -44,8 +44,8 @@ FEATURE_COLUMNS = {
     "prontype": "pron_type", "numtype": "num_type", "adptype": "adp_type", "deixis": "deixis",
 }
 BOOL_FEATURES = {"ezafe", "additive", "demonstrative"}
-# Kaggle cover (560x280; the thumbnail is the centre 280x280), source: assets/kaggle-cover.svg
-COVER_IMAGE = Path(__file__).resolve().parents[2] / "assets" / "dataset-cover-image.png"
+# Kaggle cover (560x280; the thumbnail is the centre 280x280), source: assets/brand/kaggle/kaggle-cover.svg
+COVER_IMAGE = Path(__file__).resolve().parents[2] / "assets" / "brand" / "kaggle" / "dataset-cover-image.png"
 GOLD_TAGS = {"lexicon", "lexicon-form", "core", "dictionary"}
 
 WORD_COLUMNS = [

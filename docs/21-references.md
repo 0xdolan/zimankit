@@ -16,6 +16,10 @@ Grammars and linguistic descriptions that the rules follow (general scholarship;
 * Universal Dependencies guidelines (UPOS / features) — <https://universaldependencies.org/u/>.
 * Kurdish Academy / KRG orthography conventions for Central Kurdish (standard letter inventory, ڕ / ڵ, ە vs ه).
 
+## The logo
+
+The logo is a deq sign (the tree-of-life figure) with the sun of the flag of Kurdistan. Its story and its sources on deq, the flag and the word *roj* are in [assets/brand/README.md](../assets/brand/README.md#sources).
+
 <!-- nav:bottom -->
 ---
 [← Glossary](20-glossary.md) · [⌂ Contents](00-index.md)
