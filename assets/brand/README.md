@@ -20,6 +20,25 @@ The zimankit logo is a **deq** sign, the figure of the **tree of life**, with **
 
 **Decline and revival.** The practice largely stopped in the second half of the twentieth century. Many came to see it as old-fashioned or as forbidden by religion, and henna often took its place. Today, deq is being revived as an expression of Kurdish identity, often worn as a vertical line of small signs down the spine or the arm.
 
+## Deq today
+
+These images show how deq signs are worn and drawn today: as a vertical line of small signs down the back, the arm or on paper. The tree-of-life figure that the logo is built on appears in each of them.
+
+<table>
+<tr>
+<td align="center" width="33%"><img src="story/deq/deq-tattoo-back.jpg" width="240" alt="a line of deq signs tattooed down a woman's spine"><br><sub>A line of deq signs down the spine</sub></td>
+<td align="center" width="33%"><img src="story/deq/deq-tattoo-arm.jpg" width="240" alt="deq signs tattooed down the upper arm"><br><sub>Deq signs down the arm</sub></td>
+<td align="center" width="33%"><img src="story/deq/deq-sequence-art-print.jpg" width="240" alt="a line of deq signs printed on an art board"><br><sub>A line of deq signs as an art print</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="story/deq/deq-sequence-sun-and-tree.png" width="160" alt="a drawn line of deq signs"><br><sub>A drawn line of deq signs</sub></td>
+<td align="center"><img src="story/deq/deq-sequence-tree-of-life.png" width="160" alt="a drawn line of deq signs with the tree-of-life figure in the middle"><br><sub>The tree-of-life figure, between dots, in a line of signs</sub></td>
+<td align="center"><img src="story/deq/deq-tree-of-life-sign.png" width="160" alt="the tree-of-life deq sign"><br><sub>The tree-of-life sign: the source of the logo</sub></td>
+</tr>
+</table>
+
+<sub>Photos and drawings shared by the project author as examples of deq worn today; their original sources are not known. If you are the author of one of them and want it credited or removed, please open an issue.</sub>
+
 ## The sign: the tree of life
 
 The figure in the logo is a deq sign. It is a dot, a V shape opening upwards, a line passing through a circle, a V shape opening downwards, and a dot. It is read as the **tree of life** (or a sacred plant), a symbol of fertility, productivity and life force:
@@ -34,7 +53,7 @@ The sun at the heart of the figure is **Roj**, the emblem at the centre of the *
 
 ## Why this logo for zimankit
 
-*Ziman* means "language" in both Sorani and Kurmanji. The logo puts the sun of the flag at the heart of a deq sign of life and growth: Kurdish, a living language, carried forward. Deq is also a kind of writing, signs passed from hand to hand that carry meaning, and zimankit is about written Kurdish. Like the dots of deq, the small marks of Kurdish letters (ی and ێ, ر and ڕ, ل and ڵ) are small but essential, and the toolkit takes care to keep them right.
+*Ziman* means "language" in both Sorani and Kurmanji. The logo puts the sun of the flag at the heart of a deq sign of life and growth: Kurdish, a living language, carried forward. Deq is also a kind of writing, signs passed from hand to hand that carry meaning, and zimankit is about written Kurdish.
 
 ## Colours
 
@@ -77,7 +96,8 @@ assets/brand/
 │              large-mobile-banner-320x100 · billboard-970x250 · medium-rectangle-300x250
 │              large-rectangle-336x280 · half-page-300x600 · wide-skyscraper-160x600
 ├── print/     poster-a4 (PDF + 300 dpi PNG) · sticker-75mm (PDF + 300 dpi PNG)
-├── story/     zimankit-logo-construction (@1x @2x)
+├── story/     zimankit-logo-construction (@1x @2x) · deq/ (deq photos and drawings, see "Deq today")
+├── screenshots/ website-home · website-home-dark · website-home-mobile · website-playground
 ├── kaggle/    kaggle-cover.svg (hand-made layout) · dataset-cover-image.png (560x280)
 └── src/       the same compositions with live text
 ```

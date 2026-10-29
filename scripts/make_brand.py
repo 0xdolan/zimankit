@@ -358,7 +358,8 @@ def render() -> int:
             raise SystemExit(f"{tool} is required to render PNGs (use --svg to skip)")
     for d in ("logo/png", "icons", "wordmark", "social", "ads", "print", "story", "kaggle"):
         for p in (OUT / d).rglob("*.png"):
-            p.unlink()
+            if "deq" not in p.parent.parts:  # story/deq/ holds photos, not generated files
+                p.unlink()
     lg = OUT / "logo"
 
     # Logo: every size from favicon to print; small sizes use the bold mark.

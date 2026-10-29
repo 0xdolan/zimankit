@@ -1,13 +1,30 @@
 [project]
 name = "zimankit"
-version = "0.1.0"
+dynamic = ["version"]
 description = "Kurdish (Central / Sorani ckb and Northern / Kurmanji kmr) NLP skills: orthography, IPA, morphology, verbs, ergativity, language ID and wordlist building"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "GPL-3.0-or-later"
 license-files = ["LICENSE"]
 authors = [{ name = "Dolan H." }]
+keywords = ["kurdish", "sorani", "kurmanji", "nlp", "ipa", "morphology", "transliteration", "ergativity"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: Kurdish",
+    "Programming Language :: Python :: 3",
+    "Topic :: Text Processing :: Linguistic",
+]
+
 dependencies = []
+
+[project.urls]
+Homepage = "https://0xdolan.github.io/zimankit/"
+Documentation = "https://0xdolan.github.io/zimankit/guide.html"
+Source = "https://github.com/0xdolan/zimankit"
+Changelog = "https://github.com/0xdolan/zimankit/blob/main/CHANGELOG.md"
+Issues = "https://github.com/0xdolan/zimankit/issues"
 
 [project.optional-dependencies]
 data = ["mdict-utils>=1.3", "libzim>=3.4"]
@@ -24,8 +41,13 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools.packages.find]
 include = ["zimankit*"]
 
+[tool.setuptools.dynamic]
+version = { attr = "zimankit.__version__" }
+
 [tool.setuptools.package-data]
 "zimankit.data" = ["*.tsv"]
+"zimankit.skills_ckb" = ["config.toml"]
+"zimankit.skills_kmr" = ["config.toml"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

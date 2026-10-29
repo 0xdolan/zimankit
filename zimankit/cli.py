@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from dataclasses import asdict
 import sys
 from typing import Iterable
 
@@ -44,7 +45,7 @@ def cmd_tokenize(a) -> None:
     from .shared_utils.tokenizer import tokenize
 
     for t in _inputs(a.text):
-        print(" ".join(tok.text for tok in tokenize(t)) if not a.json else json.dumps([tok.__dict__ for tok in tokenize(t)], ensure_ascii=False))
+        print(" ".join(tok.text for tok in tokenize(t)) if not a.json else json.dumps([asdict(tok) for tok in tokenize(t)], ensure_ascii=False))
 
 
 def cmd_lid(a) -> None:
@@ -150,7 +151,10 @@ def cmd_rules(a) -> None:
 
 
 def main(argv: list[str] | None = None) -> int:
+    from . import __version__
+
     ap = argparse.ArgumentParser(prog="zimankit", description="Kurdish (ckb / kmr) NLP skills")
+    ap.add_argument("--version", action="version", version=f"zimankit {__version__}")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     def add(name, fn, help_, text=True):
