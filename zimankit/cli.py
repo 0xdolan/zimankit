@@ -150,7 +150,10 @@ def cmd_rules(a) -> None:
 
 
 def main(argv: list[str] | None = None) -> int:
+    from . import __version__
+
     ap = argparse.ArgumentParser(prog="zimankit", description="Kurdish (ckb / kmr) NLP skills")
+    ap.add_argument("--version", action="version", version=f"zimankit {__version__}")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     def add(name, fn, help_, text=True):
