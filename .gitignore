@@ -16,3 +16,4 @@ examples/rust/target/
 examples/typescript/node_modules/
 examples/go/zimankit-example
 _site/
+build/
