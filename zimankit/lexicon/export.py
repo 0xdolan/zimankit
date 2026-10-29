@@ -330,7 +330,8 @@ def _write_sqlite(path: Path, tables: dict[str, tuple[list[str], list[dict]]]) -
         if not rows:
             continue
         pk = " PRIMARY KEY" if cols[0] == "id" else ""
-        con.execute(f"CREATE TABLE {name} ({', '.join(f'"{c}" {_sql_type(c)}' + (pk if i == 0 else '') for i, c in enumerate(cols))})")
+        defs = ", ".join(f'"{c}" {_sql_type(c)}' + (pk if i == 0 else "") for i, c in enumerate(cols))
+        con.execute(f"CREATE TABLE {name} ({defs})")
         con.executemany(f"INSERT INTO {name} VALUES ({', '.join('?' * len(cols))})", ([r[c] for c in cols] for r in rows))
     con.executescript(
         """
