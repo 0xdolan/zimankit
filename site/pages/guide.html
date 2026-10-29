@@ -1,0 +1,211 @@
+<!-- title: Guide | description: How to install zimankit and use every skill: the zimankit command, the Python API, the wordlist pipeline, the Kaggle dataset, the tutorials and the agent skills. -->
+<div class="doc">
+<nav class="toc" aria-label="On this page">
+  <strong>Guide</strong>
+  <a href="#install">Install</a>
+  <a href="#start">Getting started</a>
+  <a href="#lang">Choosing the language</a>
+  <a href="#cli">The zimankit command</a>
+  <a href="#normalize">· normalize, validate</a>
+  <a href="#tokenize">· tokenize</a>
+  <a href="#lid">· lid</a>
+  <a href="#ipa">· ipa</a>
+  <a href="#translit">· translit</a>
+  <a href="#analyze">· analyze</a>
+  <a href="#conjugate">· conjugate</a>
+  <a href="#ergativity">· ergativity</a>
+  <a href="#rules">· rules</a>
+  <a href="#python">Python API</a>
+  <a href="#pipeline">Wordlist pipeline</a>
+  <a href="#kaggle">Kaggle dataset</a>
+  <a href="#learn">Tutorials and docs</a>
+  <a href="#skills">Agent skills</a>
+  <a href="#ports">Other languages</a>
+  <a href="#versions">Versions and releases</a>
+  <a href="#help">Troubleshooting</a>
+</nav>
+<article>
+<h1 style="margin-top:0">zimankit guide</h1>
+<p class="muted">zimankit {{version}}. Everything here also works in the <a href="playground.html">playground</a>, without installing anything.</p>
+
+<h2 id="install">Install</h2>
+<p>zimankit needs <strong>Python 3.11 or newer</strong>. The skills use only the standard library. Download every file from the <a href="https://github.com/0xdolan/zimankit/releases/latest">latest release</a>.</p>
+<table>
+  <tr><th>how</th><th>command</th></tr>
+  <tr><td>pip, release wheel</td><td><code>pip install https://github.com/0xdolan/zimankit/releases/download/v{{version}}/zimankit-{{version}}-py3-none-any.whl</code></td></tr>
+  <tr><td>pip, from GitHub</td><td><code>pip install "git+https://github.com/0xdolan/zimankit.git@v{{version}}"</code></td></tr>
+  <tr><td>Debian, Ubuntu, Kali</td><td><code>sudo apt install ./python3-zimankit_{{version}}-1_all.deb</code></td></tr>
+  <tr><td>pipx (isolated command)</td><td><code>pipx install "git+https://github.com/0xdolan/zimankit.git@v{{version}}"</code></td></tr>
+  <tr><td>from source</td><td><code>git clone https://github.com/0xdolan/zimankit.git &amp;&amp; cd zimankit &amp;&amp; pip install -e ".[dev]"</code></td></tr>
+</table>
+<p>Optional extras: <code>[data]</code> (<code>mdict-utils</code>, <code>libzim</code>) to read <code>.mdx</code> dictionaries and <code>.zim</code> wiki dumps, <code>[kaggle]</code> (<code>pyarrow</code>) for the Parquet export, <code>[dev]</code> for the tests. Each release also has a <code>SHA256SUMS</code> file: <code>sha256sum -c SHA256SUMS --ignore-missing</code>.</p>
+<p>The wordlist pipeline, the docs and the tutorials are in the repository, not in the wheel: use the source archive or a clone for them.</p>
+
+<h2 id="start">Getting started</h2>
+<ol class="steps">
+  <li><strong>Check the install</strong>: <code>zimankit --version</code> prints <code>zimankit {{version}}</code>.</li>
+  <li><strong>List the commands</strong>: <code>zimankit --help</code>, and <code>zimankit &lt;command&gt; --help</code> for each one.</li>
+  <li><strong>Try a word</strong>: <code>zimankit analyze کتێبەکەم jinekê</code>.</li>
+  <li><strong>Pipe text in</strong>: every command that takes text reads its arguments, or standard input line by line when there are none: <code>cat text.txt | zimankit normalize</code>.</li>
+</ol>
+<p>Without installing, run the package from a clone as <code>python -m zimankit …</code>.</p>
+
+<h2 id="lang">Choosing the language</h2>
+<p>zimankit decides from the script: text in the Arabic-based script is treated as <strong>Sorani</strong> (<code>ckb</code>), text in Latin letters as <strong>Kurmanji</strong> (<code>kmr</code>). Override it with <code>--lang ckb</code> or <code>--lang kmr</code>. To find out which language a text is in, use <a href="#lid"><code>lid</code></a>.</p>
+
+<h2 id="cli">The zimankit command</h2>
+<table>
+  <tr><th>command</th><th>does</th><th>options</th></tr>
+  <tr><td><code>normalize</code></td><td>orthographic normalisation</td><td><code>--lang</code></td></tr>
+  <tr><td><code>validate</code></td><td>normalises each word and reports spelling problems</td><td><code>--lang</code></td></tr>
+  <tr><td><code>tokenize</code></td><td>splits text into words and punctuation</td><td><code>--json</code></td></tr>
+  <tr><td><code>lid</code></td><td>language identification</td><td><code>--json</code></td></tr>
+  <tr><td><code>ipa</code></td><td>grapheme to phoneme (IPA)</td><td><code>--syllables</code>, <code>--narrow</code> (kmr), <code>--plain</code> (ckb)</td></tr>
+  <tr><td><code>translit</code></td><td>Sorani Arabic script → Latin, Kurmanji Latin → Arabic script</td><td><code>--lang</code></td></tr>
+  <tr><td><code>analyze</code></td><td>morphological analysis</td><td><code>--top N</code>, <code>--json</code></td></tr>
+  <tr><td><code>conjugate</code></td><td>full verb paradigm</td><td><code>--present STEM</code>, <code>--transitive yes|no</code></td></tr>
+  <tr><td><code>ergativity</code></td><td>Kurmanji clause alignment and agreement check</td><td></td></tr>
+  <tr><td><code>rules</code></td><td>exports <code>grammar_rules_&lt;lang&gt;.json</code></td><td><code>--lang</code> (required), <code>--out</code></td></tr>
+</table>
+
+<h3 id="normalize">normalize, validate</h3>
+<p>Folds Arabic and Persian look-alike letters (ك ي ى ھ ة) to the Kurdish ones, repairs the legacy ه + ZWNJ spelling of ە, writes word-initial ڕ, and cleans invisible characters. In Kurmanji it folds look-alikes such as é ü ı ș to ê û i ş.</p>
+<pre><span class="p">$</span> zimankit normalize كوردي Kurdî
+کوردی
+Kurdî
+
+<span class="p">$</span> zimankit validate كتێب
+كتێب	کتێب	OK</pre>
+<p><code>validate</code> prints the input, the normalised word, and <code>OK</code> or the problems found.</p>
+
+<h3 id="tokenize">tokenize</h3>
+<pre><span class="p">$</span> zimankit tokenize "کتێبەکەم، خوێندەوە."
+کتێبەکەم ، خوێندەوە .</pre>
+<p>With <code>--json</code> each token comes with its kind (<code>word</code>, <code>number</code>, <code>punct</code>) and its start and end offsets.</p>
+
+<h3 id="lid">lid</h3>
+<p>Identifies Central Kurdish (<code>ckb</code>), Northern Kurdish (<code>kmr</code>), Zazaki (<code>zza</code>), Gorani / Hawrami (<code>hac</code>), Persian (<code>fas</code>), Arabic (<code>arb</code>), Turkish (<code>tur</code>) and English (<code>eng</code>) from function words, diagnostic letters and morphology. It prints the language, the confidence and the start of the text.</p>
+<pre><span class="p">$</span> zimankit lid "ئەمڕۆ هەوا خۆشە" "Îro hewa xweş e" "Ma yew roje şima ra vat ke ziwanê ma zaf rind o"
+ckb	1.0	ئەمڕۆ هەوا خۆشە
+kmr	1.0	Îro hewa xweş e
+zza	0.995	Ma yew roje şima ra vat ke ziwanê ma zaf rind o</pre>
+
+<h3 id="ipa">ipa</h3>
+<p>A phonemic transcription. For Sorani it re-inserts the unwritten vowel (bizroke), marked in brackets, and resolves و and ی as consonant or vowel. <code>--syllables</code> puts dots between syllables, <code>--narrow</code> adds Kurmanji aspiration and ŋ, and <code>--plain</code> leaves the Sorani bizroke unmarked.</p>
+<pre><span class="p">$</span> zimankit ipa پیاوەکە کتێبەکەم jinekê dîtin
+pjaːwækæ
+k(ɯ)teːbækæm
+ʒɪnɛkeː
+diːtɯn
+
+<span class="p">$</span> zimankit ipa --syllables کتێبەکەم jinekê
+k(ɯ).teː.bæ.kæm
+ʒɪ.nɛ.keː</pre>
+
+<h3 id="translit">translit</h3>
+<pre><span class="p">$</span> zimankit translit "ئەمڕۆ هەوا خۆشە" "Îro hewa xweş e"
+emrro hewa xoşe
+ئیرۆ هەوا خوەش ئە</pre>
+
+<h3 id="analyze">analyze</h3>
+<p>For each word: the word, lemma, part of speech, segmentation, gloss, features and score. <code>--top N</code> shows the N best analyses, <code>--json</code> prints one JSON object per word.</p>
+<pre><span class="p">$</span> zimankit analyze کتێبەکەم jinekê
+کتێبەکەم	کتێب	NOUN	کتێب+ەکە+م	STEM+DEF.SG+1SG	{"definite": "def", "number": "sg", "enclitic": "1sg"}	-2.8
+jinekê	jin	NOUN	jin+ekê	STEM+INDEF.OBL.F	{"definite": "ind", "number": "sg", "case": "obl", "gender": "f"}	-2.5
+
+<span class="p">$</span> zimankit analyze xwendiye
+xwendiye	xwendin	VERB	xwendiye	VERB	{"tense": "present_perfect", "person": "3sg", "agreement": "object", "alignment": "ergative", …}	7.0</pre>
+
+<h3 id="conjugate">conjugate</h3>
+<p>Every form of a verb, one per line, with its features. Verbs in the reference list are conjugated directly. For others, zimankit builds the paradigm from the infinitive; give the present stem with <code>--present</code> and the transitivity with <code>--transitive</code> when it cannot guess them.</p>
+<pre><span class="p">$</span> zimankit conjugate کردن | head -4
+دەکەم	tense=present,mood=indicative,person=1sg
+ناکەم	tense=present,mood=indicative,person=1sg,polarity=neg
+بکەم	tense=present,mood=subjunctive,person=1sg
+نەکەم	tense=present,mood=subjunctive,person=1sg,polarity=neg
+
+<span class="p">$</span> zimankit conjugate kirin | head -2
+dikim	tense=present,mood=indicative,person=1sg,agreement=subject
+nakim	tense=present,mood=indicative,person=1sg,polarity=neg,agreement=subject</pre>
+
+<h3 id="ergativity">ergativity</h3>
+<p>Kurmanji is split-ergative: in the present the verb agrees with the subject, but in past transitive clauses the agent takes the oblique case and the verb agrees with the <em>object</em>. <code>ergativity</code> finds the verb, agent and object and checks the agreement.</p>
+<pre><span class="p">$</span> echo "Min tu dîtim." | zimankit ergativity
+{"sentence": "Min tu dîtim.", "verb": "dîtim", "lemma": "dîtin", "tense_stem": "past", "transitive": true,
+ "alignment": "ergative", "agent": {"token": "Min", "case": "obl", "person": "1sg", …},
+ "object": {"token": "tu", "case": "dir", "person": "2sg", …}, "verb_person": "1sg", "controller": "object",
+ "agreement_ok": false, "notes": ["verb ending marks 1sg but object 'tu' is 2sg"]}</pre>
+<p>The correct sentence is <em>Min tu dîtî</em> (“I saw you”), where the verb agrees with <em>tu</em>.</p>
+
+<h3 id="rules">rules</h3>
+<pre><span class="p">$</span> zimankit rules --lang kmr --out grammar_rules_kmr.json</pre>
+<p>Writes the grammar rules zimankit uses as JSON, for use in other tools: alphabet, orthography, phonology, morphology, verbs, syntax and the regular expressions.</p>
+
+<h2 id="python">Python API</h2>
+<pre>from zimankit import analyze, normalize, to_ipa, identify, detect_script, __version__
+
+normalize("كوردي")                        <span class="c"># 'کوردی'</span>
+to_ipa("jinekê")                          <span class="c"># 'ʒɪnɛkeː'</span>
+best = analyze("کتێبەکەم")[0]
+best.lemma, best.pos, best.segmentation   <span class="c"># ('کتێب', 'NOUN', 'کتێب+ەکە+م')</span>
+best.features                             <span class="c"># {'definite': 'def', 'number': 'sg', 'enclitic': '1sg'}</span>
+r = identify("Îro hewa xweş e")
+r.lang, r.confidence                      <span class="c"># ('kmr', 1.0)</span></pre>
+<p>Every function takes an optional <code>lang="ckb"</code> or <code>lang="kmr"</code>. The full skills are in the subpackages:</p>
+<table>
+  <tr><th>module</th><th>contents</th></tr>
+  <tr><td><code>zimankit.skills_ckb</code></td><td><code>orthography</code>, <code>phonology_ipa</code> (<code>text_to_ipa</code>, <code>to_latin</code>), <code>morphology</code> (<code>CkbAnalyzer</code>), <code>verbs</code> (<code>conjugate</code>)</td></tr>
+  <tr><td><code>zimankit.skills_kmr</code></td><td><code>orthography</code>, <code>phonology_ipa</code>, <code>translit</code> (<code>to_arabic</code>), <code>morphology</code> (<code>KmrAnalyzer</code>), <code>verbs</code>, <code>syntax</code> (<code>detect_alignment</code>)</td></tr>
+  <tr><td><code>zimankit.shared_utils</code></td><td><code>normalizer</code>, <code>tokenizer</code>, <code>lid</code>, <code>phonology_core</code>, <code>text_helpers</code>, <code>unicode_tables</code></td></tr>
+</table>
+<pre>from zimankit.skills_kmr.syntax import detect_alignment
+detect_alignment("Min tu dîtî.").to_dict()["agreement_ok"]   <span class="c"># True</span>
+
+from zimankit.skills_ckb import verbs
+idx = verbs.default_index()
+forms = list(verbs.conjugate(idx.verbs["کردن"]))
+forms[0].form, forms[0].features                           <span class="c"># ('دەکەم', {'tense': 'present', …})</span></pre>
+
+<h2 id="pipeline">Wordlist pipeline</h2>
+<p>From a clone, <code>run_pipeline.py</code> builds clean wordlists from your own data: <code>.mdx</code> dictionaries, <code>.zim</code> wiki dumps (Wikipedia, Wiktionary) and plain-text corpora.</p>
+<pre>pip install -e ".[data]"
+cp config/sources.example.toml config/sources.local.toml   <span class="c"># set the paths; the file is git-ignored</span>
+python run_pipeline.py                 <span class="c"># all stages; cached stages are reused</span>
+python run_pipeline.py --stages build  <span class="c"># only rebuild the outputs</span>
+python run_pipeline.py --force         <span class="c"># recompute every stage</span></pre>
+<p>Stages: <code>lexicon</code>, <code>dictionaries</code>, <code>corpus</code>, <code>build</code>, <code>rules</code>, <code>export</code>. The outputs in <code>output/ckb/</code> and <code>output/kmr/</code> are <code>clean_wordlist_&lt;lang&gt;.csv</code> (grapheme, lemma, pos, ipa, morph_meta, translit, frequency, sources, confidence), lemma tables, spelling-variant maps and <code>grammar_rules_&lt;lang&gt;.json</code>. See <a href="https://github.com/0xdolan/zimankit/blob/main/docs/16-lexicon-pipeline.md">chapter 16</a>.</p>
+
+<h2 id="kaggle">Kaggle dataset</h2>
+<p>The <code>export</code> stage flattens the outputs into a dataset with one row per word and 59 columns (features, IPA, syllables, both scripts, definitions, frequency), as CSV, Parquet and SQLite, with a data card and cover, in <code>output/kaggle/</code>:</p>
+<pre>pip install -e ".[kaggle]"
+python run_pipeline.py --stages export</pre>
+<p>The published dataset is <a href="https://www.kaggle.com/datasets/zeroxdolan/kurdish-lexicon">Kurdish Lexicon: Sorani &amp; Kurmanji Word Database</a> on Kaggle (CC BY-SA 4.0).</p>
+
+<h2 id="learn">Tutorials and docs</h2>
+<ul>
+  <li><a href="https://github.com/0xdolan/zimankit/blob/main/docs/tutorials/README.md"><strong>Tutorials</strong></a>: two complete courses, <a href="https://github.com/0xdolan/zimankit/blob/main/docs/tutorials/ckb/README.md">Sorani</a> and <a href="https://github.com/0xdolan/zimankit/blob/main/docs/tutorials/kmr/README.md">Kurmanji</a>, 23 lessons each from the alphabet to ergativity, tagged beginner, intermediate and advanced. Their tables are generated by zimankit and tested.</li>
+  <li><a href="https://github.com/0xdolan/zimankit/blob/main/docs/00-index.md"><strong>Developer documentation</strong></a>: 21 chapters on data ingestion, Unicode, language identification, tokenisation, the orthography, phonology, morphology and verbs of each variety, transliteration, the pipeline, a regex cookbook, testing, a glossary and references.</li>
+</ul>
+
+<h2 id="skills">Agent skills</h2>
+<p>The <a href="https://github.com/0xdolan/zimankit/blob/main/skills/README.md"><code>skills/</code></a> folder has ten self-contained skills (<code>SKILL.md</code> with front matter) that an AI agent can load to work with Kurdish: orthography, IPA, morphology and verbs for each variety, language identification and the wordlist builder. They call the zimankit package.</p>
+
+<h2 id="ports">Other languages</h2>
+<p><a href="https://github.com/0xdolan/zimankit/blob/main/examples/README.md"><code>examples/</code></a> implements the same portable core (normalisation and suffix segmentation) in shell, Python, TypeScript, Rust, Go, Java and C#, with the same expected output, so you can port the rules to any stack.</p>
+
+<h2 id="versions">Versions and releases</h2>
+<p>zimankit follows <a href="https://semver.org/">Semantic Versioning</a>; changes are listed in the <a href="https://github.com/0xdolan/zimankit/blob/main/CHANGELOG.md">changelog</a>. Development follows git flow: features are merged into <code>develop</code>, and each release is merged into <code>main</code> and tagged <code>vX.Y.Z</code>. The tag builds and publishes the wheel, sdist, <code>.deb</code> and source archives. See <a href="https://github.com/0xdolan/zimankit/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
+
+<h2 id="help">Troubleshooting</h2>
+<h3>“zimankit: command not found”</h3>
+<p>pip installed the command into a directory that is not on your <code>PATH</code> (often <code>~/.local/bin</code>). Add it to <code>PATH</code>, use <code>pipx</code>, or run <code>python -m zimankit</code>.</p>
+<h3>“requires a different Python”</h3>
+<p>zimankit needs Python 3.11 or newer (<code>python3 --version</code>).</p>
+<h3>The wrong language is used</h3>
+<p>The language is chosen from the script. Mixed or transliterated text may need <code>--lang ckb</code> or <code>--lang kmr</code>.</p>
+<h3>Arabic-script text shows in the wrong order in the terminal</h3>
+<p>Many terminals do not support right-to-left text. The output itself is correct: redirect it to a file, or use a terminal with bidi support.</p>
+<h3>Report a problem</h3>
+<p>Open an <a href="https://github.com/0xdolan/zimankit/issues">issue</a> with the command, the input and the output you expected.</p>
+</article>
+</div>
