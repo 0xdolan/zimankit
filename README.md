@@ -92,9 +92,7 @@ jinekê,jin,NOUN,ʒɪnɛkeː,"{""case"":""obl"",""definite"":""ind"",""gender"":
 
 <p align="center"><img src="assets/brand/story/zimankit-logo-construction.png" width="720" alt="deq figure + the sun of the flag of Kurdistan = the zimankit logo"></p>
 
-The logo is a sign of **deq**, the traditional hand-poked tattoo of Kurdish and Yazidi women: the figure of the **tree of life**, with a dot, two raised branches, a trunk through a circle, two roots and a dot. At its heart shines **Roj**, the 21-rayed sun of the flag of Kurdistan; *roj* / *ڕۆژ* means both "sun" and "day".
-
-It is a picture of a living language (*ziman*). Its two branches, **Sorani** and **Kurmanji**, grow from one trunk. Its roots reach into the deep history of Kurdish, and its circle is the language passed from one generation to the next. Its dots, which in deq protect against the evil eye, recall the small marks that tell Kurdish letters apart (ی / ێ, ر / ڕ, ل / ڵ).
+The logo is a sign of **deq**, the traditional hand-poked tattoo of Kurdish women: the figure read as the **tree of life**, a symbol of fertility, growth and life force. Its circle stands for the cycle of life, its line and V shapes for a sprout or a tree, and its dots for protection against the evil eye. At its heart shines **Roj**, the 21-rayed sun of the flag of Kurdistan; *roj* / *ڕۆژ* means both "sun" and "day". Together they stand for Kurdish (*ziman*, "language") as a living language.
 
 The full story, with the history and meaning of deq, sources, colours, usage, and every logo, icon, social, ad and print file, is in **[assets/brand/](assets/brand/README.md)**.
 

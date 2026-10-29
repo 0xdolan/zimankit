@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the zimankit brand kit (logo, icons, wordmarks, social, ads, print, story) into assets/brand/.
+"""Generate the zimankit brand kit (logo, icons, wordmarks, social, ads, print, story image) into assets/brand/.
 
 The logo is a **deq** sign, the figure of the tree of life (a dot, two branches, a trunk
 through a circle, two roots, a dot), with **Roj**, the 21-rayed sun of the flag of Kurdistan,
@@ -18,7 +18,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import math
 import shutil
 import subprocess
 import tempfile
@@ -267,82 +266,6 @@ def story_construction() -> str:
     return svg("\n  ".join(out), w, h, title="zimankit logo: deq + Roj")
 
 
-def story_anatomy() -> str:
-    t = THEMES["light"]
-    w, h = 2000, 1100
-    size, y0 = 860, 120  # mark square on the page
-    x0 = (w - size) / 2
-    k = size / (1024 - 2 * MARK_BOX)
-
-    def at(px: float, py: float) -> tuple[float, float]:
-        return x0 + (px - MARK_BOX) * k, y0 + (py - MARK_BOX) * k
-
-    out = [f'<rect width="{w}" height="{h}" rx="24" fill="{t["bg"]}"/>', place(mark(t["ink"]), x0, y0, size)]
-    # (point on the mark, side, label y, title, line 1, line 2)
-    parts = [
-        ((512, 122), "L", 150, "Dot", "protection against the evil eye;", "a mark above the line, like a letter's dot"),
-        ((560, 222), "R", 210, "Two branches", "growth and new life;", "Sorani and Kurmanji, one trunk"),
-        ((620, 512), "R", 520, "Circle", "the cycle of life, completeness;", "language passed from one generation to the next"),
-        ((300, 420), "L", 450, "Roj, the sun", "21 rays, as on the flag of Kurdistan:", "the source of life, a new day"),
-        ((512, 680), "L", 760, "Trunk", "one language that holds", "the branches and the roots together"),
-        ((560, 800), "R", 830, "Roots", "ancient roots in the land;", "the deep history of Kurdish"),
-        ((512, 908), "L", 1000, "Dot", "protection again, below the line:", "the sign is guarded at both ends"),
-    ]
-    for (px, py), side, ly, title, l1, l2 in parts:
-        ax, ay = at(px, py)
-        lx = 690 if side == "L" else 1310
-        anchor = "end" if side == "L" else "start"
-        out.append(f'<path d="M{ax:.1f} {ay:.1f} L{lx + (10 if side == "L" else -10)} {ly - 14}" stroke="{t["sub"]}" '
-                   f'stroke-width="2" fill="none" stroke-dasharray="2 6" stroke-linecap="round"/>')
-        out.append(f'<circle cx="{ax:.1f}" cy="{ay:.1f}" r="7" fill="{t["bg"]}" stroke="{t["fg"]}" stroke-width="3"/>')
-        tx = lx - 10 if side == "L" else lx + 10
-        out += [text(tx, ly - 6, 36, title, t["fg"], 600, anchor),
-                text(tx, ly + 34, 25, l1, t["sub"], anchor=anchor), text(tx, ly + 66, 25, l2, t["sub"], anchor=anchor)]
-    return svg("\n  ".join(out), w, h, title="zimankit logo: anatomy")
-
-
-def story_deq_signs() -> str:
-    """A line of deq signs in the manner of the hand-poked sequences worn down the spine or arm."""
-    t = THEMES["light"]
-    ink = t["ink"]
-    w, h = 1800, 560
-    st = f'fill="none" stroke="{ink}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"'
-
-    def dot(x: float, y: float, r: float = 6) -> str:
-        return f'<circle cx="{x}" cy="{y}" r="{r}" fill="{ink}"/>'
-
-    signs = []
-    # Roj: an arc with rays above a dot (worn on the forehead)
-    rays = "".join(f'<path d="M{150 + 62 * math.cos(a):.1f} {250 - 62 * math.sin(a):.1f} '
-                   f'L{150 + 96 * math.cos(a):.1f} {250 - 96 * math.sin(a):.1f}"/>'
-                   for a in [i * math.pi / 8 for i in range(1, 8)])
-    signs.append(("Roj", "the sun", f'<g {st}><path d="M78 250 A72 72 0 0 1 222 250"/><path d="M60 250 H240"/>{rays}</g>'
-                  + dot(150, 290)))
-    # the tree-of-life figure
-    signs.append(("Tree of life", "the figure", f'<g {st}><path d="M420 160 L450 190 L480 160"/><path d="M450 190 V330"/>'
-                  f'<ellipse cx="450" cy="260" rx="30" ry="42"/><path d="M420 360 L450 330 L480 360"/></g>'
-                  + dot(450, 136) + dot(450, 384)))
-    # mountains / chevrons with ticks
-    signs.append(("Çiya", "mountains", f'<g {st}><path d="M650 320 L710 220 L770 320"/><path d="M690 320 L750 250 L810 320"/>'
-                  f'<path d="M672 284 l-14 10 M686 260 l-14 10 M792 290 l14 10"/></g>' + dot(730, 360)))
-    # ear of wheat / tree: chevrons on a stem
-    chev = "".join(f'<path d="M995 {y} L1030 {y + 30} L1065 {y}"/>' for y in (170, 210, 250, 290))
-    signs.append(("Genim", "wheat, plenty", f'<g {st}><path d="M1030 150 V370"/>{chev}</g>'
-                  + dot(990, 210, 5) + dot(1070, 210, 5) + dot(990, 290, 5) + dot(1070, 290, 5)))
-    # dots in a cross: protection
-    signs.append(("Xal", "dots, protection", dot(1320, 260, 9) + dot(1320, 214) + dot(1320, 306) + dot(1274, 260) + dot(1366, 260)))
-    # the sun-and-dot: a small spiral sun
-    small_rays = "".join(f'<path d="M{1600 + 46 * math.cos(a):.1f} {260 - 46 * math.sin(a):.1f} '
-                         f'L{1600 + 70 * math.cos(a):.1f} {260 - 70 * math.sin(a):.1f}"/>'
-                         for a in [i * math.pi / 4 for i in range(8)])
-    signs.append(("Roj", "a small sun", f'<g {st}><circle cx="1600" cy="260" r="28"/>{small_rays}</g>' + dot(1600, 260, 7)))
-    out = [f'<rect width="{w}" height="{h}" rx="24" fill="{t["bg"]}"/>']
-    xs = (150, 450, 730, 1030, 1320, 1600)
-    for x, (name, gloss, art) in zip(xs, signs):
-        out += [art, text(x, 470, 34, name, t["fg"], 600, "middle"), text(x, 510, 24, gloss, t["sub"], anchor="middle")]
-    return svg("\n  ".join(out), w, h, title="deq signs")
-
-
 # ---------------------------------------------------------------- the kit
 
 SOCIAL = {  # name: (w, h)
@@ -401,8 +324,6 @@ def build() -> dict[str, str]:
     f["src/print/poster-a4.svg"] = poster
     f["print/sticker-75mm.svg"] = svg(disc_logo("light", rim=False), 75, 75, full, unit="mm")
     f["src/story/zimankit-logo-construction.svg"] = story_construction()
-    f["src/story/zimankit-logo-anatomy.svg"] = story_anatomy()
-    f["src/story/deq-signs.svg"] = story_deq_signs()
     return f
 
 

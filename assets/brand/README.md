@@ -12,47 +12,29 @@ The zimankit logo is a **deq** sign, the figure of the **tree of life**, with **
 
 ## Deq: the Kurdish tattoo
 
-**Deq** (دەق; also called **xal**, خاڵ, "dot, mark") is the traditional hand-poked tattoo of the Kurds. It is worn above all by women, by Muslim Kurds and by **Yazidis** alike. Among Yazidi women it has carried even greater weight, as part of religious life. Neighbouring Arab, Assyrian, Armenian and Turkish communities of Upper Mesopotamia and Anatolia knew closely related practices, often under the name *daqq*.
+**Deq** (دەق; also called **xal**, خاڵ) is the traditional hand-poked tattoo of the Kurds, worn above all by women, on the face and hands. Among **Yazidi** women it has carried even greater weight, as part of religious life. Neighbouring Arab and Turkish communities knew a very similar practice, often called *daqq*.
 
-**How it was made.** A woman of the community, often a mother tattooing her own children, drew the design on the skin. She pricked it with a sewing needle and rubbed in an ink of **soot mixed with breast milk**, traditionally the milk of a mother of a daughter, which was believed to make the mark permanent. Herbs or ox bile were sometimes added. Deq was worn on the face (forehead, chin, cheeks), the hands, the neck and the legs.
+**How it was made.** Women of the community did the tattooing, often a mother tattooing her own children. The design was drawn on the skin and pricked with a sewing needle. An ink of **soot mixed with breast milk** was spread over it, traditionally the milk of a mother of a daughter, which was believed to make the mark permanent. Herbs or ox bile were sometimes added.
 
-**What it meant.** A deq was never only decoration. Depending on the sign and where it was placed, it could:
-- protect against the evil eye and against illness;
-- carry a wish for health and fertility;
-- mark beauty, or belonging to a family and a tribe;
-- serve as a remedy (dots at the temples against migraine).
+**What it meant.** A deq was never only decoration. Depending on the sign and where it was placed, it could protect against evil and illness, carry a wish for health and fertility, or serve as a remedy (dots at the temples against migraine). Its motifs come mostly from nature: stars, the sun and the moon, plants and crops, tools, birds and deer. The meaning of a sign can change from one community to another.
 
-Most motifs come from the world around the wearer: the sun and the moon, stars, mountains, wheat and other crops, plants, combs, birds and gazelles. Every sign has a name, and its meaning can change from one community to another. A woman's deq has been described as a record of her life written on the skin.
-
-**Decline and revival.** The practice faded in the second half of the twentieth century. Many people came to see it as old-fashioned or, for religious reasons, as forbidden, and henna often took its place. Today, deq is being revived. Kurdish tattoo artists rework the old signs, and young Kurds wear them, often as a vertical line of small signs down the spine or the arm, as an expression of Kurdish identity.
-
-<p align="center"><img src="story/deq-signs.png" width="820" alt="a line of deq signs: Roj the sun, the tree-of-life figure, mountains, wheat, protective dots, a small sun"></p>
-
-<sub>A few common deq signs, redrawn for this project. Names in Kurmanji: *roj* sun, *çiya* mountain, *genim* wheat, *xal* dot.</sub>
+**Decline and revival.** The practice largely stopped in the second half of the twentieth century. Many came to see it as old-fashioned or as forbidden by religion, and henna often took its place. Today, deq is being revived as an expression of Kurdish identity, often worn as a vertical line of small signs down the spine or the arm.
 
 ## The sign: the tree of life
 
-The figure at the centre of the logo is one of the deq signs worn in these vertical lines. It is a dot, two branches raised like arms, a trunk passing through a circle, two roots, and a dot. It is read as the **tree of life**, a sacred plant that stands for fertility, growth and life force:
+The figure in the logo is a deq sign. It is a dot, a V shape opening upwards, a line passing through a circle, a V shape opening downwards, and a dot. It is read as the **tree of life** (or a sacred plant), a symbol of fertility, productivity and life force:
 
 - **The circle**: the cycle of life, completeness and eternity.
-- **The line and the V shapes**: a sprout, an ear of wheat or a tree. They carry the wish for a long life, for growth and for plenty.
-- **The dots**: protective talismans against the evil eye (*nazar*) and harm.
+- **The line and the V shapes**: together they suggest a sprout, wheat or a tree, a wish for a long life, growth and fertility.
+- **The dots**: protective talismans against the evil eye (*nazar*) and negative energy.
 
 ## The sun: Roj
 
-The sun at the heart of the figure is **Roj**, the emblem at the centre of the **flag of Kurdistan**, drawn with the exact path of the flag's official image. In Kurdish, *roj* (Kurmanji) and *ڕۆژ* (Sorani) mean both **the sun** and **the day**. On the flag, the yellow sun "represents the source of life and light of the people". Its **21 rays** hold religious and cultural importance in Yazidism, Yarsanism and Alevism, and 21 March is **Newroz**, the Kurdish new year. The sun is also a deq sign of its own: *Roj*, an arc with rays above a dot, worn on the forehead as the source of life.
+The sun at the heart of the figure is **Roj**, the emblem at the centre of the **flag of Kurdistan**, drawn with the exact path of the flag's official image. In Kurdish, *roj* (Kurmanji) and *ڕۆژ* (Sorani) mean both **the sun** and **the day**. On the flag, the yellow sun "represents the source of life and light of the people", and its **21 rays** hold religious and cultural importance in Yazidism, Yarsanism and Alevism.
 
-## Why this logo for a language toolkit
+## Why this logo for zimankit
 
-*Ziman* means "language" in both Sorani and Kurmanji. The tree of life is a picture of a living language:
-
-<p align="center"><img src="story/zimankit-logo-anatomy.png" width="820" alt="anatomy of the logo: dot, two branches, circle, Roj, trunk, roots, dot"></p>
-
-1. **Signs that carry meaning.** Deq is a writing on the skin, older than the alphabet, that says who you are and what protects you. zimankit is about written Kurdish: its letters, its sounds and its forms.
-2. **Two branches, one trunk.** The raised branches are the two great written varieties, **Sorani** and **Kurmanji**. They grow from one trunk, one language, and zimankit serves both and transliterates between their scripts.
-3. **Roots.** The roots reach down into the deep history of Kurdish. The wordlists are grown from it: dictionaries, encyclopedias, news and the spoken word.
-4. **The circle and the sun.** Language is passed from one generation to the next, a cycle with no end. At its heart is Roj, the sun and the day: the light the language lives by.
-5. **The dots.** The dots guard the sign at both ends. In Kurdish writing, dots and small marks are what tell letters apart (ی and ێ, ر and ڕ, ل and ڵ), and zimankit's normalizers and tests guard them in the same way.
+*Ziman* means "language" in both Sorani and Kurmanji. The logo puts the sun of the flag at the heart of a deq sign of life and growth: Kurdish, a living language, carried forward. Deq is also a kind of writing, signs passed from hand to hand that carry meaning, and zimankit is about written Kurdish. Like the dots of deq, the small marks of Kurdish letters (ی and ێ, ر and ڕ, ل and ڵ) are small but essential, and the toolkit takes care to keep them right.
 
 ## Colours
 
@@ -95,7 +77,7 @@ assets/brand/
 │              large-mobile-banner-320x100 · billboard-970x250 · medium-rectangle-300x250
 │              large-rectangle-336x280 · half-page-300x600 · wide-skyscraper-160x600
 ├── print/     poster-a4 (PDF + 300 dpi PNG) · sticker-75mm (PDF + 300 dpi PNG)
-├── story/     zimankit-logo-construction · zimankit-logo-anatomy · deq-signs (@1x @2x)
+├── story/     zimankit-logo-construction (@1x @2x)
 ├── kaggle/    kaggle-cover.svg (hand-made layout) · dataset-cover-image.png (560x280)
 └── src/       the same compositions with live text
 ```
@@ -132,8 +114,6 @@ On deq:
 - "Deq: Kurdish tattooing", NaTakallam. <https://natakallam.com/blog/deq-kurdish-tattooing/>
 - "The evil eye and the needle: preserving cultural heritage", Institute of Development Studies. <https://www.ids.ac.uk/opinions/the-evil-eye-and-the-needle-preserving-cultural-heritage/>
 - "Fatê Temel's desire to keep traditional tattooing (deq/xal) alive", SBS Kurdish. <https://www.sbs.com.au/language/kurdish/en/podcast-episode/fate-temels-desire-to-keep-traditional-tattooing-deq-xal-alive/n7e8v4lqw>
-- "Partridge eyes and stars: traditional tattoos of Amazigh, Bedouin and Kurdish women", Middle East Eye.
-- The motifs documented by the Kurdish anthropologist **Ahmet Yavuklu**.
 
 On Roj and the flag:
 
@@ -144,8 +124,8 @@ On Roj and the flag:
 - *roj*, Wîkîferheng. <https://ku.wiktionary.org/wiki/roj>
 - *ڕۆژ*, Wîkîferheng. <https://ku.wiktionary.org/wiki/%DA%95%DB%86%DA%98>
 
-The readings of the tree-of-life sign above are the commonly given ones. Deq meanings were passed on orally and vary between regions and families, so no single reading is the only correct one.
+The tree-of-life reading of the sign was supplied by the project author. Deq meanings were passed on orally and vary between regions and families, so no single reading of a sign is the only correct one.
 
 ## Licence
 
-The logo and every file in this folder are licensed under GPL-3.0-or-later, like the rest of zimankit. The sun is the emblem of the flag of Kurdistan, which is in the public domain. The deq signs are traditional and belong to no one. They are redrawn here with respect, as a tribute to the women who wore them.
+The logo and every file in this folder are licensed under GPL-3.0-or-later, like the rest of zimankit. The sun is the emblem of the flag of Kurdistan, which is in the public domain. The deq sign is traditional and belongs to no one. It is redrawn here with respect, as a tribute to the women who wore it.
