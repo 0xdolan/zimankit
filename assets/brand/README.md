@@ -97,6 +97,7 @@ assets/brand/
 │              large-rectangle-336x280 · half-page-300x600 · wide-skyscraper-160x600
 ├── print/     poster-a4 (PDF + 300 dpi PNG) · sticker-75mm (PDF + 300 dpi PNG)
 ├── story/     zimankit-logo-construction (@1x @2x) · deq/ (deq photos and drawings, see "Deq today")
+├── screenshots/ website-home · website-home-dark · website-home-mobile · website-playground
 ├── kaggle/    kaggle-cover.svg (hand-made layout) · dataset-cover-image.png (560x280)
 └── src/       the same compositions with live text
 ```

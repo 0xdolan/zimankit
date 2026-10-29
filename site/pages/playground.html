@@ -1,0 +1,58 @@
+<!-- title: Playground | description: Run zimankit in your browser: analyse, transliterate, conjugate and check Kurdish text in Sorani and Kurmanji, with no installation. -->
+<section style="padding-top:2.5rem"><div class="wrap">
+  <h1 style="margin:0 0 .3rem">Playground</h1>
+  <p class="intro">The real zimankit {{version}} runs in your browser through <a href="https://pyodide.org">Pyodide</a> (Python compiled to WebAssembly). Nothing you type leaves your computer. The first load downloads about 10 MB.</p>
+
+  <div class="tools" role="toolbar" aria-label="Command">
+    <button data-cmd="analyze" aria-pressed="true">Analyze</button>
+    <button data-cmd="ipa">IPA</button>
+    <button data-cmd="translit">Transliterate</button>
+    <button data-cmd="conjugate">Conjugate</button>
+    <button data-cmd="ergativity">Ergativity</button>
+    <button data-cmd="lid">Language ID</button>
+    <button data-cmd="normalize">Normalize</button>
+    <button data-cmd="validate">Validate</button>
+    <button data-cmd="tokenize">Tokenize</button>
+  </div>
+
+  <div class="play">
+    <div>
+      <label for="input" class="small muted" id="hint">Words in Sorani or Kurmanji, one per line or separated by spaces</label>
+      <textarea id="input" rows="6" dir="auto" spellcheck="false">کتێبەکەم
+ماڵەکانمان
+jinekê
+xwendiye</textarea>
+      <div class="opts" id="opts"></div>
+      <div class="opts">
+        <label>Language <select id="lang"><option value="">detect from the script</option><option value="ckb">Sorani (ckb)</option><option value="kmr">Kurmanji (kmr)</option></select></label>
+        <button class="btn primary" id="run" type="button" disabled>Run</button>
+      </div>
+      <div class="examples" id="examples"></div>
+      <p class="small muted" id="cmdline" style="margin-top:1rem"></p>
+    </div>
+    <div>
+      <div class="terminal" id="term"><div class="bar"><i></i><i></i><i></i></div><pre class="out" id="out" aria-live="polite"></pre></div>
+      <div class="result" id="table" hidden aria-live="polite"></div>
+      <p class="status" id="status"><span class="dot"></span><span>Loading Python…</span></p>
+    </div>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+  <h2>What each command does</h2>
+  <table>
+    <tr><th>command</th><th>input</th><th>output</th></tr>
+    <tr><td>Analyze</td><td>words</td><td>lemma, part of speech, segmentation, gloss and features, best analysis first</td></tr>
+    <tr><td>IPA</td><td>words or text</td><td>a phonemic transcription; with syllables, dots between syllables</td></tr>
+    <tr><td>Transliterate</td><td>text</td><td>Sorani in Latin letters, or Kurmanji in the Arabic-based script</td></tr>
+    <tr><td>Conjugate</td><td>one infinitive (کردن, kirin)</td><td>every form of the verb with its tense, mood, person and polarity</td></tr>
+    <tr><td>Ergativity</td><td>Kurmanji sentences</td><td>the clause alignment, agent, object and whether the verb agrees</td></tr>
+    <tr><td>Language ID</td><td>sentences</td><td>the language (ckb, kmr, zza, hac, fas, arb, tur, eng) and a confidence</td></tr>
+    <tr><td>Normalize / Validate</td><td>text / words</td><td>the standard spelling / problems with a word, or OK</td></tr>
+    <tr><td>Tokenize</td><td>text</td><td>words and punctuation separated by spaces</td></tr>
+  </table>
+  <p class="muted small">The same commands are available in the terminal as <code>zimankit &lt;command&gt;</code>. See the <a href="guide.html#cli">guide</a>.</p>
+</div></section>
+
+<script src="https://cdn.jsdelivr.net/pyodide/v0.27.7/full/pyodide.js"></script>
+<script src="js/playground.js"></script>

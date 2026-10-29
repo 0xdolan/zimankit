@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from dataclasses import asdict
 import sys
 from typing import Iterable
 
@@ -44,7 +45,7 @@ def cmd_tokenize(a) -> None:
     from .shared_utils.tokenizer import tokenize
 
     for t in _inputs(a.text):
-        print(" ".join(tok.text for tok in tokenize(t)) if not a.json else json.dumps([tok.__dict__ for tok in tokenize(t)], ensure_ascii=False))
+        print(" ".join(tok.text for tok in tokenize(t)) if not a.json else json.dumps([asdict(tok) for tok in tokenize(t)], ensure_ascii=False))
 
 
 def cmd_lid(a) -> None:

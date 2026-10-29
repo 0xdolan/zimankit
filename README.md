@@ -4,6 +4,21 @@
 
 <h1 align="center">zimankit · زمانکیت</h1>
 
+<p align="center">
+  <a href="https://0xdolan.github.io/zimankit/"><strong>Website</strong></a> ·
+  <a href="https://0xdolan.github.io/zimankit/playground.html"><strong>Try it in your browser</strong></a> ·
+  <a href="https://0xdolan.github.io/zimankit/guide.html">Guide</a> ·
+  <a href="https://github.com/0xdolan/zimankit/releases/latest">Download</a> ·
+  <a href="CHANGELOG.md">Changelog</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/0xdolan/zimankit/actions/workflows/ci.yml"><img src="https://github.com/0xdolan/zimankit/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/0xdolan/zimankit/releases/latest"><img src="https://img.shields.io/github/v/release/0xdolan/zimankit?color=FEBD11&amp;labelColor=22332A" alt="latest release"></a>
+  <img src="https://img.shields.io/badge/python-3.11%2B-22332A" alt="Python 3.11+">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/licence-GPL--3.0--or--later-278E43" alt="GPL-3.0-or-later"></a>
+</p>
+
 **Kurdish language skills and wordlist builder** for Central Kurdish (Sorani, `ckb`, Arabic script) and Northern Kurdish (Kurmanji, `kmr`, Hawar Latin script).
 
 *ziman* means "language" in both varieties.
@@ -16,6 +31,20 @@
 | Outputs | `clean_wordlist_ckb.csv` (329 190 forms) · `clean_wordlist_kmr.csv` (506 407 forms) · lemma tables · variant maps · grammar-rule JSON |
 | Quality | 94 tests incl. the ground-truth matrix and the tutorial drift check · IPA agrees 96.5 % (ckb) / 97.8 % (kmr) with reference transcriptions in the data |
 | Dependencies | standard library only for the skills; `mdict-utils`, `libzim` for data ingestion |
+
+<p align="center"><a href="https://0xdolan.github.io/zimankit/playground.html"><img src="assets/brand/screenshots/website-playground.png" width="820" alt="the zimankit playground: Kurdish words analysed in the browser"></a></p>
+
+## Install
+
+zimankit needs Python 3.11 or newer and has no dependencies. Every file is on the [latest release](https://github.com/0xdolan/zimankit/releases/latest):
+
+```bash
+pip install "git+https://github.com/0xdolan/zimankit.git@v0.1.0"                 # pip, from GitHub
+pip install https://github.com/0xdolan/zimankit/releases/download/v0.1.0/zimankit-0.1.0-py3-none-any.whl
+sudo apt install ./python3-zimankit_0.1.0-1_all.deb                               # Debian, Ubuntu, Kali
+```
+
+The release also has the sdist, the full source as `.zip` and `.tar.gz`, and `SHA256SUMS`. The [guide](https://0xdolan.github.io/zimankit/guide.html) covers every command and the Python API.
 
 ## Quick start
 
@@ -56,7 +85,7 @@ Start at the **[documentation index](docs/00-index.md)**.
 | Cross-cutting | [15 Transliteration](docs/15-transliteration.md) · [16 Wordlist pipeline](docs/16-lexicon-pipeline.md) · [17 Regex cookbook](docs/17-regex-cookbook.md) · [18 Multi-language examples](docs/18-multi-language-examples.md) · [19 Testing](docs/19-testing.md) |
 | Reference | [20 Glossary](docs/20-glossary.md) · [21 References](docs/21-references.md) |
 
-Also: [agent skills](skills/README.md) · [cross-language examples](examples/README.md) · [engineering brief](PROMPT.md).
+Also: [agent skills](skills/README.md) · [cross-language examples](examples/README.md) · [engineering brief](PROMPT.md) · [contributing and releases](CONTRIBUTING.md) · [changelog](CHANGELOG.md) · [website source](site/).
 
 ## Layout
 
@@ -76,6 +105,9 @@ zimankit/
 ├── output/{ckb,kmr}/        generated wordlists and reports
 ├── output/kaggle/           flat Kaggle dataset (export stage)
 ├── docs/                    developer chapters · tutorials/{ckb,kmr} (generated tables)
+├── assets/brand/           logo, icons, social, ads, print, screenshots (scripts/make_brand.py)
+├── site/                   website source (scripts/build_site.sh → _site/, deployed from main)
+├── .github/workflows/      CI · release (on vX.Y.Z tags) · website
 ├── examples/  skills/  scripts/  tests/
 ```
 
