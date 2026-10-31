@@ -33,10 +33,10 @@
 <p>zimankit needs <strong>Python 3.11 or newer</strong>. The skills use only the standard library. Download every file from the <a href="https://github.com/0xdolan/zimankit/releases/latest">latest release</a>.</p>
 <table>
   <tr><th>how</th><th>command</th></tr>
-  <tr><td>pip, release wheel</td><td><code>pip install https://github.com/0xdolan/zimankit/releases/download/v{{version}}/zimankit-{{version}}-py3-none-any.whl</code></td></tr>
+  <tr><td>pip, from <a href="https://pypi.org/project/zimankit/">PyPI</a></td><td><code>pip install zimankit</code></td></tr>
   <tr><td>pip, from GitHub</td><td><code>pip install "git+https://github.com/0xdolan/zimankit.git@v{{version}}"</code></td></tr>
   <tr><td>Debian, Ubuntu, Kali</td><td><code>sudo apt install ./python3-zimankit_{{version}}-1_all.deb</code></td></tr>
-  <tr><td>pipx (isolated command)</td><td><code>pipx install "git+https://github.com/0xdolan/zimankit.git@v{{version}}"</code></td></tr>
+  <tr><td>pipx (isolated command)</td><td><code>pipx install zimankit</code></td></tr>
   <tr><td>from source</td><td><code>git clone https://github.com/0xdolan/zimankit.git &amp;&amp; cd zimankit &amp;&amp; pip install -e ".[dev]"</code></td></tr>
 </table>
 <p>Optional extras: <code>[data]</code> (<code>mdict-utils</code>, <code>libzim</code>) to read <code>.mdx</code> dictionaries and <code>.zim</code> wiki dumps, <code>[kaggle]</code> (<code>pyarrow</code>) for the Parquet export, <code>[dev]</code> for the tests. Each release also has a <code>SHA256SUMS</code> file: <code>sha256sum -c SHA256SUMS --ignore-missing</code>.</p>
@@ -211,7 +211,7 @@ python run_pipeline.py --stages export</pre>
 <p><a href="https://github.com/0xdolan/zimankit/blob/main/examples/README.md"><code>examples/</code></a> implements the same portable core (normalisation and suffix segmentation) in shell, Python, TypeScript, Rust, Go, Java and C#, with the same expected output, so you can port the rules to any stack.</p>
 
 <h2 id="versions">Versions and releases</h2>
-<p>zimankit follows <a href="https://semver.org/">Semantic Versioning</a>; changes are listed in the <a href="https://github.com/0xdolan/zimankit/blob/main/CHANGELOG.md">changelog</a>. Development follows git flow: features are merged into <code>develop</code>, and each release is merged into <code>main</code> and tagged <code>vX.Y.Z</code>. The tag builds and publishes the wheel, sdist, <code>.deb</code> and source archives. See <a href="https://github.com/0xdolan/zimankit/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
+<p>zimankit follows <a href="https://semver.org/">Semantic Versioning</a>; changes are listed in the <a href="https://github.com/0xdolan/zimankit/blob/main/CHANGELOG.md">changelog</a>. Development follows git flow: features are merged into <code>develop</code>, and each release is merged into <code>main</code> and tagged <code>vX.Y.Z</code>. The tag publishes the wheel and sdist to <a href="https://pypi.org/project/zimankit/">PyPI</a>, and the wheel, sdist, <code>.deb</code> and source archives to a GitHub release. See <a href="https://github.com/0xdolan/zimankit/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
 
 <h2 id="help">Troubleshooting</h2>
 <h3>“zimankit: command not found”</h3>
