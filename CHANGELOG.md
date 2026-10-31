@@ -4,6 +4,8 @@ All notable changes to zimankit are recorded here. The format follows [Keep a Ch
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-31
+
 ### Added
 
 - **Sentence structure**: `zimankit parse` and `zimankit.parse()` give the head and relation of each word (Universal Dependencies labels) with a plain-language explanation, using rules over the morphology. They cover subject and object by case and alignment (Kurmanji) or order (Sorani), adpositions, ezafe, determiners, coordination and the copula. Complex sentences get an approximate structure.
@@ -14,6 +16,15 @@ All notable changes to zimankit are recorded here. The format follows [Keep a Ch
 - **Fonts**: Manrope for Latin text and Sahel for Kurdish in the Arabic-based script, with Estedad and Vazirmatn as choices for the reader. All are hosted with the site and contain every Kurdish letter.
 - **PyPI**: `pip install zimankit`. Each version tag publishes the wheel and sdist through Trusted Publishing, and CI checks the package metadata on every push.
 - **Website**: a full redesign. A clean white look with shadcn/ui-style tokens and Lucide icons, in light by default with an optional dark theme. Every page works from phone to desktop, with a mobile menu, collapsible contents, copy buttons, and a word table beside the sentence diagram. The sentence diagram is on the home page, with new screenshots in `assets/brand/screenshots/`.
+
+### Changed
+
+- **Brand kit**: the logo files, wordmarks, icons, social cards, ads, print files and the Kaggle cover are regenerated in the new design: white and black grounds, Manrope and Sahel, and the flag band with the flag's sun in its middle.
+- **Install**: `pip install zimankit` is now the main way to install.
+
+### Fixed
+
+- A package classifier that PyPI does not accept is removed, and the README's links and images now work on the PyPI page.
 
 ## [0.1.0] - 2026-10-29
 
@@ -30,5 +41,6 @@ The first release.
 - **Releases**: wheel, sdist, a Debian package and source archives, built by `scripts/build_release.sh` and published by GitHub Actions when a version tag is pushed. Continuous integration runs the tests on Python 3.11 to 3.13.
 - **Website**: <https://0xdolan.github.io/zimankit/> has the guide, the story of the logo, the brand kit and a live playground that runs zimankit in the browser.
 
-[Unreleased]: https://github.com/0xdolan/zimankit/compare/v0.1.0...develop
+[Unreleased]: https://github.com/0xdolan/zimankit/compare/v0.2.0...develop
+[0.2.0]: https://github.com/0xdolan/zimankit/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/0xdolan/zimankit/releases/tag/v0.1.0
