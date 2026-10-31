@@ -1,48 +1,128 @@
 <!-- title: Playground | description: Run zimankit in your browser: analyse, transliterate, conjugate and check Kurdish text in Sorani and Kurmanji, with no installation. -->
-<section style="padding-top:2.5rem"><div class="wrap">
-  <h1 style="margin:0 0 .3rem">Playground</h1>
-  <p class="intro">The real zimankit {{version}} runs in your browser through <a href="https://pyodide.org">Pyodide</a> (Python compiled to WebAssembly). Nothing you type leaves your computer. The first load downloads about 10 MB.</p>
-
-  <div class="tools" role="toolbar" aria-label="Command">
-    <button data-cmd="analyze" aria-pressed="true">Analyze</button>
-    <button data-cmd="ipa">IPA</button>
-    <button data-cmd="translit">Transliterate</button>
-    <button data-cmd="conjugate">Conjugate</button>
-    <button data-cmd="ergativity">Ergativity</button>
-    <button data-cmd="lid">Language ID</button>
-    <button data-cmd="normalize">Normalize</button>
-    <button data-cmd="validate">Validate</button>
-    <button data-cmd="tokenize">Tokenize</button>
+<div class="wrap">
+  <div class="page-head">
+    <h1>Playground</h1>
+    <p class="intro">The real zimankit {{version}} runs in your browser. Nothing you type leaves your computer. The first load downloads about 10&nbsp;MB.</p>
   </div>
 
-  <div class="play">
-    <div>
-      <label for="input" class="small muted" id="hint">Words in Sorani or Kurmanji, one per line or separated by spaces</label>
-      <textarea id="input" rows="6" dir="auto" spellcheck="false">کتێبەکەم
-ماڵەکانمان
-jinekê
-xwendiye</textarea>
-      <div class="opts" id="opts"></div>
-      <div class="opts">
-        <label>Language <select id="lang"><option value="">detect from the script</option><option value="ckb">Sorani (ckb)</option><option value="kmr">Kurmanji (kmr)</option></select></label>
-        <button class="btn primary" id="run" type="button" disabled>Run</button>
+  <div class="tools" role="toolbar" aria-label="Tool">
+    <button type="button" data-cmd="sentence" aria-pressed="true">Sentence</button>
+    <button type="button" data-cmd="analyze">Analyze</button>
+    <button type="button" data-cmd="ipa">IPA</button>
+    <button type="button" data-cmd="translit">Transliterate</button>
+    <button type="button" data-cmd="conjugate">Conjugate</button>
+    <button type="button" data-cmd="ergativity">Ergativity</button>
+    <button type="button" data-cmd="lid">Language ID</button>
+    <button type="button" data-cmd="normalize">Normalize</button>
+    <button type="button" data-cmd="validate">Validate</button>
+    <button type="button" data-cmd="tokenize">Tokenize</button>
+  </div>
+  <p class="status" id="status" role="status"><span class="dot"></span><span>Loading Python…</span></p>
+
+  <div class="sent" id="sent">
+    <div class="sent-input">
+      <div>
+        <label class="field-label" for="s-input">A sentence in Sorani or Kurmanji</label>
+        <input type="text" id="s-input" dir="auto" spellcheck="false" autocomplete="off" value="Min pirtûka nû li dibistanê xwend.">
       </div>
-      <div class="examples" id="examples"></div>
-      <p class="small muted" id="cmdline" style="margin-top:1rem"></p>
+      <div>
+        <label class="field-label" for="s-lang">Language</label>
+        <select id="s-lang"><option value="">Detect from the script</option><option value="ckb">Sorani (ckb)</option><option value="kmr">Kurmanji (kmr)</option></select>
+      </div>
     </div>
-    <div>
-      <div class="terminal" id="term"><div class="bar"><i></i><i></i><i></i></div><pre class="out" id="out" aria-live="polite"></pre></div>
-      <div class="result" id="table" hidden aria-live="polite"></div>
-      <p class="status" id="status"><span class="dot"></span><span>Loading Python…</span></p>
+    <div id="s-examples"></div>
+    <p id="s-trans"></p>
+    <div class="diagram-bar">
+      <p class="panel-title">Diagram</p>
+      <div class="actions">
+        <button class="btn" type="button" id="s-reset" hidden>{{icon:x}} Show all</button>
+        <button class="btn" type="button" id="c-toggle" aria-expanded="false" aria-controls="c-panel">{{icon:palette}} Colours</button>
+        <button class="btn" type="button" id="x-open" disabled>{{icon:download}} Export image</button>
+      </div>
     </div>
+    <div class="colours" id="c-panel" hidden>
+      <div class="presets" id="c-presets" role="group" aria-label="Colour presets"><span>Preset</span></div>
+      <div class="swatches" id="c-swatches"></div>
+    </div>
+    <div class="diagram" id="s-diagram" aria-label="Sentence diagram">
+      <div class="diagram-state">{{icon:loader-circle}}<span>Getting the analyser ready…</span></div>
+    </div>
+    <p class="hint" id="s-hint" hidden>Swipe sideways to see the whole sentence.</p>
+    <div class="legend" id="s-legend"></div>
+    <div class="s-grid">
+      <div class="s-words">
+        <p class="panel-title">Words in this sentence</p>
+        <div id="s-words"></div>
+      </div>
+      <div class="s-panel" id="s-panel" aria-live="polite"></div>
+    </div>
+    <p class="s-foot">Each arrow points from a word to the word that depends on it. The labels follow <a href="https://universaldependencies.org/u/dep/">Universal Dependencies</a>. The analysis comes from zimankit's own rules, so complex sentences get an approximate structure. <a href="https://github.com/0xdolan/zimankit/issues">Tell us</a> when it is wrong, or read <a href="https://github.com/0xdolan/zimankit/blob/main/docs/22-sentence-structure.md">how it works</a>.</p>
   </div>
-</div></section>
+
+  <dialog class="export" id="x-dialog" aria-labelledby="x-title">
+    <div class="export-head">
+      <h2 id="x-title">Export image</h2>
+      <button class="icon-btn" type="button" id="x-close" aria-label="Close">{{icon:x}}</button>
+    </div>
+    <div class="export-body">
+      <div class="preview"><canvas id="x-canvas" role="img" aria-label="Preview of the exported image"></canvas></div>
+      <div class="export-opts">
+        <div><label class="field-label" for="x-format">Format</label>
+          <select id="x-format">
+            <option value="png">PNG: sharp, best for social media</option>
+            <option value="jpg">JPG: smaller file</option>
+            <option value="svg">SVG: vector, scales to any size</option>
+            <option value="pdf">PDF: for documents and printing</option>
+          </select></div>
+        <div><label class="field-label" for="x-size">Size</label>
+          <select id="x-size">
+            <option value="1200x630">Landscape 1200 × 630: X, LinkedIn, Facebook</option>
+            <option value="1080x1080">Square 1080 × 1080: Instagram, Facebook</option>
+            <option value="1080x1350">Portrait 1080 × 1350: Instagram</option>
+            <option value="1080x1920">Story 1080 × 1920: Instagram, WhatsApp</option>
+          </select></div>
+        <div><label class="field-label" for="x-theme">Background</label>
+          <select id="x-theme"><option value="light">Light</option><option value="dark">Dark</option></select></div>
+        <div><label class="field-label" for="x-quality">Resolution</label>
+          <select id="x-quality"><option value="2">High (2×)</option><option value="3">Very high (3×)</option><option value="1">Standard (1×)</option></select></div>
+        <label class="export-check" id="x-trans-row"><input type="checkbox" id="x-trans" checked> Include the translation</label>
+        <p id="x-note"></p>
+        <button class="btn primary" type="button" id="x-download">{{icon:download}} <span id="x-label">Download PNG</span></button>
+        <button class="btn" type="button" id="x-share" hidden>{{icon:share-2}} Share</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div id="play" hidden>
+    <div class="head tool-head">
+      <h2 id="t-title"></h2>
+      <p class="intro" id="t-desc"></p>
+    </div>
+    <div class="tool-input">
+      <div class="tool-fields">
+        <div class="tool-text">
+          <label class="field-label" for="input" id="hint">Words</label>
+          <textarea id="input" rows="3" dir="auto" spellcheck="false"></textarea>
+        </div>
+        <div id="t-langbox">
+          <label class="field-label" for="lang">Language</label>
+          <select id="lang"><option value="">Detect from the script</option><option value="ckb">Sorani (ckb)</option><option value="kmr">Kurmanji (kmr)</option></select>
+        </div>
+      </div>
+      <div class="opts" id="t-opts"></div>
+      <div class="ex-group" id="t-ex"><span>Try</span><span class="ex-list" id="examples"></span></div>
+    </div>
+    <div id="t-result" aria-live="polite"></div>
+    <div id="t-learn"></div>
+  </div>
+</div>
 
 <section class="alt"><div class="wrap">
-  <h2>What each command does</h2>
+  <div class="head"><h2>What each tool does</h2></div>
   <table>
     <tr><th>command</th><th>input</th><th>output</th></tr>
-    <tr><td>Analyze</td><td>words</td><td>lemma, part of speech, segmentation, gloss and features, best analysis first</td></tr>
+    <tr><td>Sentence</td><td>one sentence</td><td>a diagram of how the words depend on each other: click a word for its role, position and form</td></tr>
+    <tr><td>Analyze</td><td>words</td><td>dictionary form, word class, parts and features, best reading first</td></tr>
     <tr><td>IPA</td><td>words or text</td><td>a phonemic transcription; with syllables, dots between syllables</td></tr>
     <tr><td>Transliterate</td><td>text</td><td>Sorani in Latin letters, or Kurmanji in the Arabic-based script</td></tr>
     <tr><td>Conjugate</td><td>one infinitive (کردن, kirin)</td><td>every form of the verb with its tense, mood, person and polarity</td></tr>
@@ -55,4 +135,8 @@ xwendiye</textarea>
 </div></section>
 
 <script src="https://cdn.jsdelivr.net/pyodide/v0.27.7/full/pyodide.js"></script>
+<script src="js/lessons.js"></script>
+<script src="js/learn.js"></script>
+<script src="js/sentence.js"></script>
+<script src="js/sentence-tools.js"></script>
 <script src="js/playground.js"></script>

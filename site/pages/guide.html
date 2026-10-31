@@ -1,7 +1,7 @@
 <!-- title: Guide | description: How to install zimankit and use every skill: the zimankit command, the Python API, the wordlist pipeline, the Kaggle dataset, the tutorials and the agent skills. -->
 <div class="doc">
-<nav class="toc" aria-label="On this page">
-  <strong>Guide</strong>
+<details class="toc" open>
+  <summary>On this page</summary>
   <a href="#install">Install</a>
   <a href="#start">Getting started</a>
   <a href="#lang">Choosing the language</a>
@@ -14,6 +14,7 @@
   <a href="#analyze">· analyze</a>
   <a href="#conjugate">· conjugate</a>
   <a href="#ergativity">· ergativity</a>
+  <a href="#parse">· parse</a>
   <a href="#rules">· rules</a>
   <a href="#python">Python API</a>
   <a href="#pipeline">Wordlist pipeline</a>
@@ -23,19 +24,19 @@
   <a href="#ports">Other languages</a>
   <a href="#versions">Versions and releases</a>
   <a href="#help">Troubleshooting</a>
-</nav>
+</details>
 <article>
-<h1 style="margin-top:0">zimankit guide</h1>
+<h1>zimankit guide</h1>
 <p class="muted">zimankit {{version}}. Everything here also works in the <a href="playground.html">playground</a>, without installing anything.</p>
 
 <h2 id="install">Install</h2>
 <p>zimankit needs <strong>Python 3.11 or newer</strong>. The skills use only the standard library. Download every file from the <a href="https://github.com/0xdolan/zimankit/releases/latest">latest release</a>.</p>
 <table>
   <tr><th>how</th><th>command</th></tr>
-  <tr><td>pip, release wheel</td><td><code>pip install https://github.com/0xdolan/zimankit/releases/download/v{{version}}/zimankit-{{version}}-py3-none-any.whl</code></td></tr>
+  <tr><td>pip, from <a href="https://pypi.org/project/zimankit/">PyPI</a></td><td><code>pip install zimankit</code></td></tr>
   <tr><td>pip, from GitHub</td><td><code>pip install "git+https://github.com/0xdolan/zimankit.git@v{{version}}"</code></td></tr>
   <tr><td>Debian, Ubuntu, Kali</td><td><code>sudo apt install ./python3-zimankit_{{version}}-1_all.deb</code></td></tr>
-  <tr><td>pipx (isolated command)</td><td><code>pipx install "git+https://github.com/0xdolan/zimankit.git@v{{version}}"</code></td></tr>
+  <tr><td>pipx (isolated command)</td><td><code>pipx install zimankit</code></td></tr>
   <tr><td>from source</td><td><code>git clone https://github.com/0xdolan/zimankit.git &amp;&amp; cd zimankit &amp;&amp; pip install -e ".[dev]"</code></td></tr>
 </table>
 <p>Optional extras: <code>[data]</code> (<code>mdict-utils</code>, <code>libzim</code>) to read <code>.mdx</code> dictionaries and <code>.zim</code> wiki dumps, <code>[kaggle]</code> (<code>pyarrow</code>) for the Parquet export, <code>[dev]</code> for the tests. Each release also has a <code>SHA256SUMS</code> file: <code>sha256sum -c SHA256SUMS --ignore-missing</code>.</p>
@@ -65,6 +66,7 @@
   <tr><td><code>analyze</code></td><td>morphological analysis</td><td><code>--top N</code>, <code>--json</code></td></tr>
   <tr><td><code>conjugate</code></td><td>full verb paradigm</td><td><code>--present STEM</code>, <code>--transitive yes|no</code></td></tr>
   <tr><td><code>ergativity</code></td><td>Kurmanji clause alignment and agreement check</td><td></td></tr>
+  <tr><td><code>parse</code></td><td>sentence structure: the head and relation of each word</td><td><code>--lang</code>, <code>--json</code></td></tr>
   <tr><td><code>rules</code></td><td>exports <code>grammar_rules_&lt;lang&gt;.json</code></td><td><code>--lang</code> (required), <code>--out</code></td></tr>
 </table>
 
@@ -137,12 +139,27 @@ nakim	tense=present,mood=indicative,person=1sg,polarity=neg,agreement=subject</p
  "agreement_ok": false, "notes": ["verb ending marks 1sg but object 'tu' is 2sg"]}</pre>
 <p>The correct sentence is <em>Min tu dîtî</em> (“I saw you”), where the verb agrees with <em>tu</em>.</p>
 
+<h3 id="parse">parse</h3>
+<p>The structure of a sentence: for each word its position, form, dictionary form, word class, head (0 for the root) and relation, with <a href="https://universaldependencies.org/u/dep/">Universal Dependencies</a> labels. <code>--json</code> adds the morphology, a plain-language explanation of each word, the word order and, for Kurmanji, the alignment. The <a href="playground.html">playground</a> draws this as a diagram: click a word for its role, position and form, with links to the matching lessons, choose your own colours, and export the diagram as PNG, JPG, SVG or PDF.</p>
+<pre><span class="p">$</span> zimankit parse "Min pirtûka nû li dibistanê xwend."
+1	Min	min	PRON	6	nsubj
+2	pirtûka	pirtûk	NOUN	6	obj
+3	nû	nû	NOUN	2	nmod
+4	li	li	ADP	5	case
+5	dibistanê	dibistan	NOUN	6	obl
+6	xwend	xwendin	VERB	0	root
+7	.	.	PUNCT	6	punct</pre>
+<p>The analysis is a set of rules over zimankit's morphology, not a trained parser. It is reliable for simple clauses and approximate for complex ones: words the morphology does not know, and sentences with several clauses, can be attached wrongly. <code>notes</code> in the JSON says when the rules were unsure. <a href="https://github.com/0xdolan/zimankit/blob/main/docs/22-sentence-structure.md">Chapter 22</a> explains the rules, the relations and the limits. Words joined by ezafe are labelled <code>amod</code> only when they are known adjectives, and otherwise <code>nmod</code>.</p>
+
 <h3 id="rules">rules</h3>
 <pre><span class="p">$</span> zimankit rules --lang kmr --out grammar_rules_kmr.json</pre>
 <p>Writes the grammar rules zimankit uses as JSON, for use in other tools: alphabet, orthography, phonology, morphology, verbs, syntax and the regular expressions.</p>
 
 <h2 id="python">Python API</h2>
-<pre>from zimankit import analyze, normalize, to_ipa, identify, detect_script, __version__
+<pre>from zimankit import analyze, normalize, parse, to_ipa, identify, detect_script, __version__
+
+[(w.text, w.deprel, w.head) for w in parse("Ew baş e.").tokens]
+<span class="c"># [('Ew', 'nsubj', 2), ('baş', 'root', 0), ('e', 'cop', 2), ('.', 'punct', 2)]</span>
 
 normalize("كوردي")                        <span class="c"># 'کوردی'</span>
 to_ipa("jinekê")                          <span class="c"># 'ʒɪnɛkeː'</span>
@@ -184,17 +201,17 @@ python run_pipeline.py --stages export</pre>
 <h2 id="learn">Tutorials and docs</h2>
 <ul>
   <li><a href="https://github.com/0xdolan/zimankit/blob/main/docs/tutorials/README.md"><strong>Tutorials</strong></a>: two complete courses, <a href="https://github.com/0xdolan/zimankit/blob/main/docs/tutorials/ckb/README.md">Sorani</a> and <a href="https://github.com/0xdolan/zimankit/blob/main/docs/tutorials/kmr/README.md">Kurmanji</a>, 23 lessons each from the alphabet to ergativity, tagged beginner, intermediate and advanced. Their tables are generated by zimankit and tested.</li>
-  <li><a href="https://github.com/0xdolan/zimankit/blob/main/docs/00-index.md"><strong>Developer documentation</strong></a>: 21 chapters on data ingestion, Unicode, language identification, tokenisation, the orthography, phonology, morphology and verbs of each variety, transliteration, the pipeline, a regex cookbook, testing, a glossary and references.</li>
+  <li><a href="https://github.com/0xdolan/zimankit/blob/main/docs/00-index.md"><strong>Developer documentation</strong></a>: 22 chapters on data ingestion, Unicode, language identification, tokenisation, the orthography, phonology, morphology and verbs of each variety, transliteration, sentence structure, the pipeline, a regex cookbook, testing, a glossary and references.</li>
 </ul>
 
 <h2 id="skills">Agent skills</h2>
-<p>The <a href="https://github.com/0xdolan/zimankit/blob/main/skills/README.md"><code>skills/</code></a> folder has ten self-contained skills (<code>SKILL.md</code> with front matter) that an AI agent can load to work with Kurdish: orthography, IPA, morphology and verbs for each variety, language identification and the wordlist builder. They call the zimankit package.</p>
+<p>The <a href="https://github.com/0xdolan/zimankit/blob/main/skills/README.md"><code>skills/</code></a> folder has eleven self-contained skills (<code>SKILL.md</code> with front matter) that an AI agent can load to work with Kurdish: orthography, IPA, morphology and verbs for each variety, sentence structure, language identification and the wordlist builder. They call the zimankit package.</p>
 
 <h2 id="ports">Other languages</h2>
 <p><a href="https://github.com/0xdolan/zimankit/blob/main/examples/README.md"><code>examples/</code></a> implements the same portable core (normalisation and suffix segmentation) in shell, Python, TypeScript, Rust, Go, Java and C#, with the same expected output, so you can port the rules to any stack.</p>
 
 <h2 id="versions">Versions and releases</h2>
-<p>zimankit follows <a href="https://semver.org/">Semantic Versioning</a>; changes are listed in the <a href="https://github.com/0xdolan/zimankit/blob/main/CHANGELOG.md">changelog</a>. Development follows git flow: features are merged into <code>develop</code>, and each release is merged into <code>main</code> and tagged <code>vX.Y.Z</code>. The tag builds and publishes the wheel, sdist, <code>.deb</code> and source archives. See <a href="https://github.com/0xdolan/zimankit/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
+<p>zimankit follows <a href="https://semver.org/">Semantic Versioning</a>; changes are listed in the <a href="https://github.com/0xdolan/zimankit/blob/main/CHANGELOG.md">changelog</a>. Development follows git flow: features are merged into <code>develop</code>, and each release is merged into <code>main</code> and tagged <code>vX.Y.Z</code>. The tag publishes the wheel and sdist to <a href="https://pypi.org/project/zimankit/">PyPI</a>, and the wheel, sdist, <code>.deb</code> and source archives to a GitHub release. See <a href="https://github.com/0xdolan/zimankit/blob/main/CONTRIBUTING.md">CONTRIBUTING.md</a>.</p>
 
 <h2 id="help">Troubleshooting</h2>
 <h3>“zimankit: command not found”</h3>

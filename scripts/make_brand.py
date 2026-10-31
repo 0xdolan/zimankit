@@ -11,7 +11,7 @@ public domain). See assets/brand/README.md for the story and the sources.
 
 Every SVG with text is written twice: with live text under assets/brand/src/ and with the
 text converted to paths at its final place, so it renders without the fonts installed
-(IBM Plex Sans and IBM Plex Sans Arabic).
+(Manrope and Sahel, as TTF files in a folder fontconfig can see; see site/fonts/ for their sources).
 """
 
 from __future__ import annotations
@@ -40,24 +40,25 @@ FLAG_SUN = (
 C = {
     "sun": "#FEBD11",  # the flag's sun
     "ink": "#22332A",  # deq ink: green-black
-    "sand": "#F4EDE0",  # warm ground, like skin and undyed wool
-    "rim": "#3A3A34",
-    "night": "#13211C",  # dark ground
+    "paper": "#FFFFFF",  # light ground
+    "rim": "#D4D4D4",
+    "night": "#0A0A0A",  # dark ground
     "pale": "#F3EEE2",  # ink on the dark ground
-    "muted": "#5B5F58",
-    "muted-dark": "#BDB7A8",
+    "muted": "#5C5C5C",
+    "muted-dark": "#A8A8A8",
     "red": "#ED2024", "white": "#FFFFFF", "green": "#278E43",  # the flag's band
 }
 THEMES = {
-    "light": {"bg": C["sand"], "ink": C["ink"], "fg": "#151A17", "sub": C["muted"], "accent": "#9A6B00"},
+    "light": {"bg": C["paper"], "ink": C["ink"], "fg": "#0A0A0A", "sub": C["muted"], "accent": "#7A5600"},
     "dark": {"bg": C["night"], "ink": C["pale"], "fg": C["pale"], "sub": C["muted-dark"], "accent": C["sun"]},
 }
+BAND_MIDDLE = "#E5E5E5"  # the flag's white, visible on a white ground
 
-LATIN, ARABIC = "IBM Plex Sans", "IBM Plex Sans Arabic"
+LATIN, ARABIC = "Manrope", "Sahel"
 NAME, NAME_CKB = "zimankit", "زمانکیت"
 TAGLINE = "Kurdish language toolkit · Sorani · Kurmanji"
 # Advance widths per 1 px of font size, measured with Inkscape.
-EM = {"name": 3.95, "name_ckb": 3.04, "tagline": 19.2, "url": 13.5}
+EM = {"name": 4.1, "name_ckb": 3.18, "tagline": 19.11, "url": 13.8}
 
 # ---------------------------------------------------------------- the mark
 
@@ -127,8 +128,12 @@ def text(x: float, y: float, size: float, s: str, fill: str, weight: int = 400, 
 
 
 def flag_band(w: float, h: float, thick: float) -> str:
-    return "".join(f'<rect y="{h - (3 - i) * thick:.1f}" width="{w}" height="{thick + 0.5:.1f}" fill="{c}"/>'
-                   for i, c in enumerate((C["red"], C["white"], C["green"])))
+    """The flag across the foot of a card: red, white, green, with its sun in the middle, standing on the bottom edge."""
+    band = 3 * thick
+    parts = "".join(f'<rect x="{i * w / 3:.1f}" y="{h - band:.1f}" width="{w / 3 + 0.5:.1f}" height="{band:.1f}" fill="{c}"/>'
+                    for i, c in enumerate((C["red"], BAND_MIDDLE, C["green"])))
+    r = band * 1.5
+    return parts + sun(w / 2, h - r, r)
 
 
 # ---------------------------------------------------------------- compositions
@@ -153,14 +158,11 @@ def wordmark(theme: str, layout: str) -> tuple[str, int, int]:
     return svg(ground + body, w, h), w, h
 
 
-def card(w: int, h: int, theme: str = "dark", url: bool = True, band: bool = True, tagline: str = TAGLINE) -> str:
+def card(w: int, h: int, theme: str = "light", url: bool = True, band: bool = True, tagline: str = TAGLINE) -> str:
     """A social or ad card: the layout follows the aspect ratio."""
     t = THEMES[theme]
     r = w / h
     out = [f'<rect width="{w}" height="{h}" fill="{t["bg"]}"/>']
-    if theme == "dark":
-        out.append(f'<defs><radialGradient id="glow"><stop offset="0" stop-color="{C["sun"]}" stop-opacity="0.16"/>'
-                   f'<stop offset="1" stop-color="{C["sun"]}" stop-opacity="0"/></radialGradient></defs>')
     logo = mark(t["ink"], uid=f"c{w}x{h}")
     bandh = max(2, round(min(w, h) * 0.012)) if band else 0
     inner_h = h - 3 * bandh
@@ -168,8 +170,6 @@ def card(w: int, h: int, theme: str = "dark", url: bool = True, band: bool = Tru
         pad = inner_h * (0.16 if r < 5 else 0.12)
         size = inner_h - 2 * pad
         x0 = pad * (1.4 if r < 5 else 1.0)
-        if theme == "dark":
-            out.append(f'<circle cx="{x0 + size / 2:.1f}" cy="{pad + size / 2:.1f}" r="{size * 0.62:.1f}" fill="url(#glow)"/>')
         out.append(place(logo, x0, pad, size))
         tx = x0 + size + pad * (0.9 if r < 5 else 0.7)
         avail = w - tx - pad * 1.2
@@ -203,8 +203,6 @@ def card(w: int, h: int, theme: str = "dark", url: bool = True, band: bool = Tru
         size = min(w - 2 * pad, inner_h - 2 * pad - text_h - pad * 0.5)
         total = size + pad * 0.6 + text_h
         y0 = (inner_h - total) / 2
-        if theme == "dark":
-            out.append(f'<circle cx="{w / 2:.1f}" cy="{y0 + size / 2:.1f}" r="{size * 0.62:.1f}" fill="url(#glow)"/>')
         out.append(place(logo, (w - size) / 2, y0, size))
         y = y0 + size + pad * 0.6 + s * 0.8
         out.append(text(w / 2, y, s, NAME, t["fg"], 600, "middle"))
@@ -260,7 +258,7 @@ def story_construction() -> str:
     labels = (("Deq", "the tree-of-life figure,", "a hand-poked Kurdish tattoo"),
               ("Roj", "the 21-rayed sun of", "the flag of Kurdistan"),
               ("zimankit", "the sun at the heart", "of the tree of life"))
-    for x, (a, b, c) in zip(cols, labels):
+    for x, (a, b, c) in zip(cols, labels, strict=True):
         out += [text(x, 610, 46, a, t["fg"], 600, "middle", spacing=0.5),
                 text(x, 664, 30, b, t["sub"], anchor="middle"), text(x, 702, 30, c, t["sub"], anchor="middle")]
     return svg("\n  ".join(out), w, h, title="zimankit logo: deq + Roj")
@@ -299,6 +297,7 @@ def build() -> dict[str, str]:
     f["logo/svg/zimankit-logo.svg"] = svg(disc_logo("light"), 1024, 1024, full)
     f["logo/svg/zimankit-logo-small.svg"] = svg(disc_logo("light", bold=True), 1024, 1024, full)
     f["logo/svg/zimankit-logo-dark.svg"] = svg(disc_logo("dark"), 1024, 1024, full)
+    f["logo/svg/zimankit-sun.svg"] = svg(sun(150, 150, 150), 300, 300, title="the sun of the flag of Kurdistan")
     f["logo/svg/zimankit-mark.svg"] = svg(mark(C["ink"]), 1024, 1024, crop)
     f["logo/svg/zimankit-mark-on-dark.svg"] = svg(mark(C["pale"]), 1024, 1024, crop)
     f["logo/svg/zimankit-mark-mono-black.svg"] = svg(mark("#000000", mono=True), 1024, 1024, crop)
@@ -314,8 +313,8 @@ def build() -> dict[str, str]:
             body, _, _ = wordmark(theme, layout)
             f[f"src/wordmark/zimankit-wordmark-{layout}-{theme}.svg"] = body
     for name, (w, h) in SOCIAL.items():
-        f[f"src/social/{name}-{w}x{h}.svg"] = card(w, h, "dark")
-    f["src/social/og-image-light-1200x630.svg"] = card(1200, 630, "light")
+        f[f"src/social/{name}-{w}x{h}.svg"] = card(w, h, "light")
+    f["src/social/og-image-dark-1200x630.svg"] = card(1200, 630, "dark")
     for name, (w, h) in ADS.items():
         for theme in ("dark", "light"):
             f[f"src/ads/{name}-{w}x{h}-{theme}.svg"] = card(w, h, theme, band=w * h > 20000 and min(w, h) >= 90)
@@ -395,14 +394,14 @@ def render() -> int:
             src.write_text(app_icon(size, **kw), encoding="utf-8")
             png(src, ic / f"{name}.png", size)
             if name in ("apple-touch-icon", "app-store-1024x1024", "play-store-512x512"):
-                no_alpha(ic / f"{name}.png", C["sand"])  # the stores reject transparency
+                no_alpha(ic / f"{name}.png", C["paper"])  # the stores reject transparency
     (ic / "site.webmanifest").write_text(json.dumps({
         "name": "zimankit", "short_name": "zimankit",
         "description": "Kurdish language toolkit for Sorani and Kurmanji",
         "icons": [{"src": "android-chrome-192x192.png", "sizes": "192x192", "type": "image/png"},
                   {"src": "android-chrome-512x512.png", "sizes": "512x512", "type": "image/png"},
                   {"src": "maskable-icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}],
-        "theme_color": C["night"], "background_color": C["sand"], "display": "standalone",
+        "theme_color": "#FFFFFF", "background_color": "#FFFFFF", "display": "standalone",
     }, indent=2) + "\n", encoding="utf-8")
 
     # Everything with text: flatten, then PNG at 1x and 2x (wordmarks also 3x).
@@ -438,9 +437,9 @@ def write_kaggle_mark() -> None:
     if not kc.exists():
         return
     src = kc.read_text(encoding="utf-8")
-    a, b = "<!-- mark -->", "<!-- /mark -->"
+    a, b = "<!-- mark -->", "<!-- /mark -->"  # the mark and the flag band
     if a in src and b in src:
-        new = place(mark(C["pale"], uid="kg"), 228, 40, 104)
+        new = place(mark(C["ink"], uid="kg"), 228, 30, 112) + flag_band(560, 280, 2)
         head, rest = src.split(a, 1)
         kc.write_text(f"{head}{a}{new}{b}{rest.split(b, 1)[1]}", encoding="utf-8")
 

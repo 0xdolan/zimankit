@@ -37,17 +37,32 @@ def version() -> str:
     return re.search(r'__version__ = "(.+?)"', (ROOT / "zimankit" / "__init__.py").read_text()).group(1)
 
 
+def icon(name: str, extra: str = "") -> str:
+    """An inline Lucide icon from site/icons/."""
+    svg = (SRC / "icons" / f"{name}.svg").read_text(encoding="utf-8")
+    svg = re.sub(r"<!--.*?-->\s*", "", svg, flags=re.S)
+    svg = re.sub(r'\s+width="24"\s+height="24"', "", svg)
+    svg = re.sub(r'class="[^"]*"', f'class="icon" aria-hidden="true"{extra}', svg, count=1)
+    return re.sub(r">\s+<", "><", re.sub(r"\s*\n\s*", " ", svg)).strip()
+
+
+def icons_in(html: str) -> str:
+    return re.sub(r"\{\{icon:([\w-]+)\}\}", lambda m: icon(m[1]), html)
+
+
 def layout(name: str, title: str, description: str, body: str, ver: str) -> str:
     full = "zimankit · Kurdish language toolkit" if name == "index" else f"{title} · zimankit"
     nav = "".join(f'<a href="{h}">{t}</a>' for h, t in NAV)
+    theme = "".join(icon(i, f' data-t="{t}"') for i, t in (("sun", "light"), ("moon", "dark"), ("monitor", "system")))
+    menu = icon("menu", ' data-m="menu"') + icon("x", ' data-m="x" hidden')
     return f"""<!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{full}</title>
 <meta name="description" content="{description}">
-<meta name="theme-color" content="#13211C">
+<meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="favicon.ico" sizes="48x48">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -58,17 +73,20 @@ def layout(name: str, title: str, description: str, body: str, ver: str) -> str:
 <meta property="og:url" content="{URL}{'' if name == 'index' else name + '.html'}">
 <meta property="og:image" content="{URL}brand/social/og-image-1200x630.png">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="fonts/Sahel.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/site.css">
 <script src="js/site.js"></script>
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <a class="brand" href="index.html"><img class="on-light" src="brand/logo/svg/zimankit-mark-small.svg" alt="" width="30" height="30"><img class="on-dark" src="brand/logo/svg/zimankit-mark-on-dark.svg" alt="" width="30" height="30"><span>zimankit</span></a>
-  <button class="menu" aria-expanded="false" aria-label="Menu">Menu</button>
-  <nav class="nav">{nav}<a href="{REPO}">GitHub</a><button class="theme" type="button">Theme: system</button></nav>
+  <a class="brand" href="index.html"><img class="on-light" src="brand/logo/svg/zimankit-mark-small.svg" alt="" width="28" height="28"><img class="on-dark" src="brand/logo/svg/zimankit-mark-on-dark.svg" alt="" width="28" height="28"><span>zimankit</span></a>
+  <nav class="nav" aria-label="Main">{nav}</nav>
+  <a class="icon-btn" href="{REPO}" aria-label="zimankit on GitHub" title="GitHub">{icon("github")}</a>
+  <button class="icon-btn theme" type="button" aria-label="Change theme">{theme}</button>
+  <button class="icon-btn menu" type="button" aria-expanded="false" aria-label="Open menu">{menu}</button>
 </div></header>
 <main>
 {body}
@@ -76,11 +94,15 @@ def layout(name: str, title: str, description: str, body: str, ver: str) -> str:
 <div class="band"></div>
 <footer><div class="wrap">
   <span>zimankit {ver} · Made with ♥ by <a href="https://github.com/0xdolan">0xdolan</a></span>
-  <span class="spacer"></span>
-  <a href="{REPO}">Source</a><a href="{REPO}/releases/latest">Releases</a><a href="{REPO}/blob/main/CHANGELOG.md">Changelog</a>
-  <a href="{REPO}/blob/main/docs/00-index.md">Docs</a><a href="{REPO}/blob/main/docs/tutorials/README.md">Tutorials</a>
-  <a href="https://www.kaggle.com/datasets/zeroxdolan/kurdish-lexicon">Kaggle</a><a href="{REPO}/blob/main/LICENSE">GPL-3.0-or-later</a>
+  <label class="font-pick">Kurdish font <select class="rtl-font" aria-label="Font for Kurdish text in the Arabic-based script"><option>Sahel</option><option>Estedad</option><option>Vazirmatn</option></select></label>
+  <nav aria-label="Footer">
+    <a href="{REPO}">Source</a><a href="{REPO}/releases/latest">Releases</a><a href="https://pypi.org/project/zimankit/">PyPI</a><a href="{REPO}/blob/main/CHANGELOG.md">Changelog</a>
+    <a href="{REPO}/blob/main/docs/00-index.md">Docs</a><a href="{REPO}/blob/main/docs/tutorials/README.md">Tutorials</a>
+    <a href="https://www.kaggle.com/datasets/zeroxdolan/kurdish-lexicon">Kaggle</a><a href="{REPO}/blob/main/LICENSE">GPL-3.0-or-later</a>
+  </nav>
 </div></footer>
+<template id="i-copy">{icon("copy")}</template>
+<template id="i-check">{icon("check")}</template>
 </body>
 </html>
 """
@@ -100,12 +122,26 @@ def isolate_arabic(html: str) -> str:
     return CODE.sub(inner, html)
 
 
+def write_lessons() -> None:
+    """Titles of the tutorials and chapters, for the playground's "Learn more" links; a link to a missing page stops the build."""
+    docs = ROOT / "docs"
+    titles = {}
+    for path in docs.rglob("*.md"):
+        match = re.search(r"^# (.+)$", path.read_text(encoding="utf-8"), re.M)
+        titles[path.relative_to(docs).as_posix()] = match[1] if match else path.stem
+    (OUT / "js" / "lessons.js").write_text("window.zkLessons = " + json.dumps(titles, ensure_ascii=False) + ";\n", encoding="utf-8")
+    learn = (SRC / "js" / "learn.js").read_text(encoding="utf-8")
+    missing = [p for p in re.findall(r'"([\w/.-]+\.md)"', learn) if p not in titles]
+    if missing:
+        raise SystemExit(f"site/js/learn.js links to missing pages: {missing}")
+
+
 def main() -> int:
     ver = version()
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir()
-    for d in ("css", "js"):
+    for d in ("css", "js", "fonts", "py"):
         shutil.copytree(SRC / d, OUT / d)
     # Brand files used by the pages and offered for download; the live-text sources stay out.
     shutil.copytree(BRAND, OUT / "brand", ignore=shutil.ignore_patterns("src", "README.md"))
@@ -120,12 +156,15 @@ def main() -> int:
     wheel = next(pkg.glob("zimankit-*.whl")).name
     (pkg / "wheel.json").write_text(json.dumps({"wheel": wheel, "version": ver}) + "\n")
 
+    write_lessons()
     for page in sorted((SRC / "pages").glob("*.html")):
         text = page.read_text(encoding="utf-8")
         meta = re.match(r"<!--\s*title:\s*(.+?)\s*\|\s*description:\s*(.+?)\s*-->\n", text)
         if not meta:
             raise SystemExit(f"{page}: first line must be <!-- title: … | description: … -->")
         body = isolate_arabic(text[meta.end():].replace("{{version}}", ver))
+        body = re.sub(r"<table\b.*?</table>", lambda m: f'<div class="table-wrap">{m[0]}</div>', body, flags=re.S)
+        body = icons_in(body)
         (OUT / page.name).write_text(layout(page.stem, meta[1], meta[2], body, ver), encoding="utf-8")
     (OUT / ".nojekyll").write_text("")
     print(f"site built in {OUT.relative_to(ROOT)}/ (zimankit {ver}, {wheel})")

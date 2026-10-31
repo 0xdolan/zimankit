@@ -2,14 +2,15 @@
 
 Quick API::
 
-    from zimankit import analyze, normalize, to_ipa, identify
+    from zimankit import analyze, normalize, parse, to_ipa, identify
     analyze("کتێبەکەم")[0].segmentation   # 'کتێب+ەکە+م'
     to_ipa("jinekê")                        # 'ʒɪnɛkeː'
+    parse("Ew baş e.").tokens[1].deprel     # 'root'
 """
 
 from __future__ import annotations
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 from .shared_utils.lid import identify
 from .shared_utils.text_helpers import detect_script
@@ -49,4 +50,11 @@ def analyze(word: str, lang: str | None = None):
     return _ANALYZERS[lg].analyze(word)
 
 
-__all__ = ["analyze", "normalize", "to_ipa", "identify", "detect_script", "__version__"]
+def parse(sentence: str, lang: str | None = None):
+    """Dependency structure of a sentence: see zimankit.dependency."""
+    from .dependency import parse as f
+
+    return f(sentence, lang)
+
+
+__all__ = ["analyze", "normalize", "parse", "to_ipa", "identify", "detect_script", "__version__"]
