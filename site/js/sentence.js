@@ -37,6 +37,7 @@
     if (parent) parent.append(e);
     return e;
   }
+  const fontStack = () => `Manrope, ${getComputedStyle(document.documentElement).getPropertyValue("--rtl-font").trim() || "Sahel"}, sans-serif`;
   const ctx = document.createElement("canvas").getContext("2d");
   function width(text, font) { ctx.font = font; return ctx.measureText(text).width; }
   const groupOf = (w) => "g-" + (GROUP[w.deprel] || "fn");
@@ -44,24 +45,24 @@
   const byId = (id) => parsed.tokens[id - 1];
   const dependents = (w) => parsed.tokens.filter((d) => d.head === w.id);
 
-  function draw() {
-    const box = $("s-diagram");
-    box.replaceChildren();
+  // Word and arrow positions, in diagram units. The page and the image export both draw from this.
+  function geometry(opts) {
+    const { gap = 26, step = 36 } = opts || {}; // the export tightens the columns and raises the arrows to fit its format
     const toks = parsed.tokens;
-    if (!toks.length) return;
     const rtl = parsed.lang === "ckb";
     const arcs = toks.filter((w) => w.head > 0 && w.upos !== "PUNCT");
+    const font = fontStack();
 
     // columns: wide enough for the word, its class and form, and for the label of a one-step arrow
     const cols = toks.map((w) => Math.max(
-      width(w.text, "600 20px 'IBM Plex Sans Arabic'"), width(w.pos_name, "500 11.5px 'IBM Plex Sans'"),
-      w.segmentation !== w.text ? width(w.segmentation, "12px 'IBM Plex Sans Arabic'") : 0, 34) + 26);
+      width(w.text, `700 20px ${font}`), width(w.pos_name, `500 12px ${font}`),
+      w.segmentation !== w.text ? width(w.segmentation, `12px ${font}`) : 0, 34) + gap);
     const centre = [];
     let x = 10;
-    cols.forEach((c, i) => { centre.push(x + c / 2); x += c; });
+    cols.forEach((c) => { centre.push(x + c / 2); x += c; });
     arcs.filter((a) => Math.abs(a.id - a.head) === 1).forEach((a) => {
       const i = Math.min(a.id, a.head) - 1;
-      const need = width(label(a), "600 12.5px 'IBM Plex Sans'") + 22 - (centre[i + 1] - centre[i]);
+      const need = width(label(a), `700 13px ${font}`) + gap - 4 - (centre[i + 1] - centre[i]);
       if (need > 0) for (let k = i + 1; k < centre.length; k++) centre[k] += need;
       if (need > 0) x += need;
     });
@@ -82,7 +83,7 @@
       level[a.id] = l;
     });
     const maxLevel = Math.max(0, ...Object.values(level));
-    const rise = (l) => 24 + l * 36;
+    const rise = (l) => 24 + l * step;
     const y0 = rise(maxLevel) + 44;
 
     // ports: arrows meeting at a word fan out, the longest nearest the middle
@@ -96,6 +97,15 @@
           .forEach((a, i) => { port[a.id + (a.id === w.id ? "d" : "h")] = side * Math.min(4 + i * 7, 22); });
       });
     });
+    return { toks, rtl, arcs, cols, total, px, level, rise, y0, port, maxLevel, height: y0 + 92, root: toks.find((w) => w.head === 0) };
+  }
+
+  function draw() {
+    const box = $("s-diagram");
+    box.replaceChildren();
+    const toks = parsed.tokens;
+    if (!toks.length) return;
+    const { rtl, arcs, cols, total, px, level, rise, y0, port } = geometry();
 
     const svg = el("svg", { width: total, height: y0 + 92, viewBox: `0 0 ${total} ${y0 + 92}`, role: "group" }, box);
     arcs.forEach((a) => {
@@ -110,7 +120,7 @@
       el("path", { class: "hit", d }, g);
       const lab = el("g", { class: "lab" }, g);
       const t = label(a);
-      const lw = width(t, "600 12.5px 'IBM Plex Sans'") + 10;
+      const lw = width(t, `700 13px ${fontStack()}`) + 10;
       const mid = (xd + xh) / 2;
       el("rect", { x: mid - lw / 2, y: y - h - 9, width: lw, height: 18, rx: 4 }, lab);
       el("text", { x: mid, y: y - h + 4 }, lab, t);
@@ -124,7 +134,7 @@
       el("path", { class: "tip", d: `M${px(root.id) - 5} ${y0 - 10} L${px(root.id) + 5} ${y0 - 10} L${px(root.id)} ${y0 - 2} Z` }, g);
       el("path", { class: "hit", d: `M${px(root.id)} 26 V${y0 - 9}` }, g);
       const lab = el("g", { class: "lab" }, g);
-      const lw = width(label(root), "600 12.5px 'IBM Plex Sans'") + 10;
+      const lw = width(label(root), `700 13px ${fontStack()}`) + 10;
       const lx = Math.min(Math.max(px(root.id), lw / 2 + 2), total - lw / 2 - 2);
       el("rect", { x: lx - lw / 2, y: 6, width: lw, height: 18, rx: 4 }, lab);
       el("text", { x: lx, y: 19 }, lab, label(root));
@@ -140,7 +150,7 @@
       el("text", { class: "t", x: cx, y: y0 + 28 }, g, w.text);
       el("text", { class: "p", x: cx, y: y0 + 47 }, g, w.pos_name);
       if (seg) el("text", { class: "s", x: cx, y: y0 + 66 }, g, w.segmentation);
-      g.addEventListener("click", (e) => { e.stopPropagation(); choose(w.id); });
+      g.addEventListener("click", (e) => { e.stopPropagation(); choose(w.id); revealPanel(); });
       g.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") { e.preventDefault(); choose(w.id); }
         const step = { ArrowRight: rtl ? -1 : 1, ArrowLeft: rtl ? 1 : -1 }[e.key];
@@ -154,6 +164,7 @@
     });
     svg.addEventListener("click", () => choose(null));
     if (rtl) box.scrollLeft = box.scrollWidth;
+    $("s-hint").hidden = box.scrollWidth <= box.clientWidth + 2;
     paint();
   }
 
@@ -181,6 +192,8 @@
       w.classList.toggle("dim", !(free || self || onWord.has(id)));
       w.classList.toggle("sel", id === selected);
     });
+    $("s-reset").hidden = selected === null && filter === null;
+    document.querySelectorAll("#s-words tr[data-id]").forEach((r) => r.classList.toggle("sel", +r.dataset.id === selected));
     document.querySelectorAll("#s-legend button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.rel === filter ? "true" : "false"));
   }
 
@@ -217,6 +230,13 @@
     }
     row(dl, "Next", (d) => { d.textContent = "Click any word, arrow or colour to see what it does in the sentence."; });
     parsed.notes.forEach((n) => row(dl, "Note", (d) => { d.textContent = n; }));
+    panel.append(window.zkLearn.section(window.zkLearn.forWord(parsed.tokens.find((w) => w.head === 0), parsed), "Learn more about this sentence"));
+  }
+
+  function backButton(panel) {
+    const b = html("button", "btn small back", panel, "Back to the whole sentence");
+    b.type = "button";
+    b.addEventListener("click", () => choose(null));
   }
 
   function explainWord(w) {
@@ -252,11 +272,13 @@
         row(dl, "Features", (d) => feats.forEach(([k, v]) => {
           const c = html("span", "chip", d);
           html("small", "", c, k);
-          html("span", "", c, v);
+          html("span", "", c, String(v).replaceAll("|", " / "));
         }));
       }
     }
     row(dl, "Explanation", (d) => { d.textContent = w.detail; });
+    panel.append(window.zkLearn.section(window.zkLearn.forWord(w, parsed), "Learn more about this"));
+    backButton(panel);
   }
 
   function explainRelation(name) {
@@ -268,6 +290,54 @@
     html("p", "", panel, words[0].meaning.charAt(0).toUpperCase() + words[0].meaning.slice(1) + ".");
     const dl = html("dl", "", panel);
     row(dl, "In this sentence", (d) => words.forEach((w) => d.append(chipFor(w, w.head ? "→ " + byId(w.head).text : ""))));
+    panel.append(window.zkLearn.section(window.zkLearn.forWord(words[0], parsed), "Learn more about this"));
+    backButton(panel);
+  }
+
+  function wordTable() {
+    const box = $("s-words");
+    box.replaceChildren();
+    const wrap = html("div", "table-wrap", box);
+    const t = html("table", "", wrap);
+    const head = html("tr", "", t);
+    ["Word", "Role", "Depends on"].forEach((x) => { html("th", "", head, x).scope = "col"; });
+    parsed.tokens.filter((w) => w.upos !== "PUNCT").forEach((w) => {
+      const tr = html("tr", groupOf(w), t);
+      tr.dataset.id = w.id;
+      const first = html("td", "", tr);
+      const b = html("button", "w-text", first, w.text);
+      b.type = "button";
+      b.setAttribute("aria-label", `${w.text}: ${w.relation}`);
+      const rel = html("span", "w-rel", html("td", "", tr));
+      html("i", "", rel);
+      rel.append(w.relation);
+      html("td", "w-head", tr, w.head ? byId(w.head).text : "–");
+      tr.addEventListener("click", () => { choose(w.id); revealPanel(); });
+    });
+  }
+
+  // On a narrow screen the explanation sits above the table, so bring it into view.
+  function revealPanel() {
+    if (!window.matchMedia("(max-width: 900px)").matches) return;
+    const calm = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    $("s-panel").scrollIntoView({ behavior: calm ? "auto" : "smooth", block: "nearest" });
+  }
+
+  function state(iconSvg, text) {
+    const box = $("s-diagram");
+    box.innerHTML = '<div class="diagram-state"></div>';
+    const st = box.firstChild;
+    if (iconSvg) st.innerHTML = iconSvg;
+    html("span", "", st, text);
+    $("s-hint").hidden = true;
+  }
+
+  function clearDetails() {
+    $("s-legend").replaceChildren();
+    $("s-words").replaceChildren();
+    $("s-panel").replaceChildren();
+    $("s-panel").className = "s-panel";
+    $("s-panel").hidden = true;
   }
 
   function choose(id) {
@@ -301,40 +371,74 @@
   function render() {
     if (!py) return;
     const text = $("s-input").value.trim();
-    py.globals.set("S_TEXT", text);
-    py.globals.set("S_LANG", $("s-lang").value);
-    parsed = JSON.parse(py.runPython(`
+    selected = null;
+    filter = null;
+    const known = EXAMPLES.find(([x]) => x === text);
+    $("s-trans").textContent = known ? known[1] : "";
+    if (!text) {
+      parsed = null;
+      clearDetails();
+      state("", "Type a sentence above, or pick an example.");
+      document.dispatchEvent(new Event("zk-parsed"));
+      return;
+    }
+    try {
+      py.globals.set("S_TEXT", text);
+      py.globals.set("S_LANG", $("s-lang").value);
+      parsed = JSON.parse(py.runPython(`
 import json, zimankit
 json.dumps(zimankit.parse(S_TEXT, S_LANG or None).to_dict(), ensure_ascii=False)
 `));
-    selected = null;
-    filter = null;
-    const known = EXAMPLES.find(([s]) => s === text);
-    $("s-trans").textContent = known ? known[1] : "";
+    } catch (e) {
+      parsed = null;
+      clearDetails();
+      state("", "This sentence could not be analysed. Please try another one, or tell us about it.");
+      document.dispatchEvent(new Event("zk-parsed"));
+      return;
+    }
+    $("s-panel").hidden = false;
     draw();
     legend();
-    if (parsed.tokens.length) overview(); else $("s-panel").replaceChildren();
+    wordTable();
+    overview();
     paint();
+    document.dispatchEvent(new Event("zk-parsed"));
   }
 
   window.zkSentence = {
+    current: () => parsed,
+    geometry,
+    fontStack,
+    label,
+    groupOf: (w) => GROUP[w.deprel] || "fn",
+    translation: () => { const k = parsed && EXAMPLES.find(([x]) => x === $("s-input").value.trim()); return k ? k[1] : ""; },
     init() {
-      EXAMPLES.forEach(([s, gloss]) => {
-        const b = document.createElement("button");
-        b.type = "button";
-        b.textContent = s;
-        b.dir = "auto";
-        b.title = gloss;
-        b.addEventListener("click", () => { $("s-input").value = s; render(); });
-        $("s-examples").append(b);
+      document.addEventListener("zk-font", () => { if (parsed) { draw(); legend(); wordTable(); paint(); } });
+      [["Kurmanji", EXAMPLES.slice(0, 5)], ["Sorani", EXAMPLES.slice(5)]].forEach(([name, list]) => {
+        const group = html("div", "ex-group", $("s-examples"));
+        html("span", "", group, name);
+        list.forEach(([s, gloss]) => {
+          const b = html("button", "", group, s);
+          b.type = "button";
+          b.title = gloss;
+          b.addEventListener("click", () => { $("s-input").value = s; render(); });
+        });
+      });
+      $("s-reset").addEventListener("click", () => { selected = null; choose(null); });
+      // a click on the empty part of the diagram, or Escape, also clears the selection
+      $("s-diagram").addEventListener("click", (e) => { if (parsed && !e.target.closest(".w, .edge")) choose(null); });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && parsed && !$("sent").hidden && !document.querySelector("dialog[open]") && (selected !== null || filter !== null)) choose(null);
       });
       $("s-input").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(render, 250); });
       $("s-lang").addEventListener("change", render);
     },
+    failed() { clearDetails(); state("", "The analyser could not start. Check your connection and reload the page."); },
     ready(instance) {
       py = instance;
+      window.zkTools.init();
       render();
-      if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (parsed) { draw(); } });
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (parsed) { draw(); wordTable(); } });
     },
   };
 })();

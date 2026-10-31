@@ -117,7 +117,9 @@ def _choose(cands: list[Analysis], nxt: list[Analysis] | None, after_prep: bool,
     if best.pos in ("VERB", "ADP", "PRON", "DET", "CCONJ", "SCONJ", "AUX", "ADV", "NUM", "PART"):
         return best
     def simplest(fits) -> Analysis | None:  # dibistan+ê, not dib+istan+ê; then the analyser's own ranking
-        rank = lambda a: (sum(t in DERIVATION for _, t in a.segments), -a.score)
+        def rank(a: Analysis) -> tuple:
+            return sum(t in DERIVATION for _, t in a.segments), -a.score
+
         return min((a for a in cands if fits(a)), key=rank, default=None)
 
     found = None

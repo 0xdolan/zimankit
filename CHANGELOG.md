@@ -9,8 +9,11 @@ All notable changes to zimankit are recorded here. The format follows [Keep a Ch
 - **Sentence structure**: `zimankit parse` and `zimankit.parse()` give the head and relation of each word (Universal Dependencies labels) with a plain-language explanation, using rules over the morphology. They cover subject and object by case and alignment (Kurmanji) or order (Sorani), adpositions, ezafe, determiners, coordination and the copula. Complex sentences get an approximate structure.
 - **Sentence diagram in the playground**: coloured arrows between the words of a Sorani or Kurmanji sentence. Click a word, an arrow or a colour to see its role, position, form and what depends on it.
 - **Documentation**: [chapter 22, Sentence structure](docs/22-sentence-structure.md), new glossary entries, the `kurdish-sentence-structure` agent skill, and the guide's `parse` section.
+- **Diagram colours and export**: choose a colour for each relation or a preset (high contrast, colour-blind safe, single colour), with a warning for colours that are hard to read. Export the diagram as PNG, JPG, SVG or PDF in standard social media sizes at up to 3× resolution, with a header, footer and colour key, in light or dark.
+- **Playground tools**: a view made for each tool, with result tables, verb grids by tense and person, before-and-after comparisons, readable JSON, and copy and download as JSON or CSV. Each tool and each word in the diagram links to the matching tutorial and documentation chapter.
+- **Fonts**: Manrope for Latin text and Sahel for Kurdish in the Arabic-based script, with Estedad and Vazirmatn as choices for the reader. All are hosted with the site and contain every Kurdish letter.
 - **PyPI**: `pip install zimankit`. Each version tag publishes the wheel and sdist through Trusted Publishing, and CI checks the package metadata on every push.
-- **Website**: the sentence diagram on the home page, and new screenshots in `assets/brand/screenshots/` and on the brand page.
+- **Website**: a full redesign. A clean white look with shadcn/ui-style tokens and Lucide icons, in light by default with an optional dark theme. Every page works from phone to desktop, with a mobile menu, collapsible contents, copy buttons, and a word table beside the sentence diagram. The sentence diagram is on the home page, with new screenshots in `assets/brand/screenshots/`.
 
 ## [0.1.0] - 2026-10-29
 

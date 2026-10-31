@@ -12,7 +12,7 @@ It is a set of rules over zimankit's morphology, not a trained parser. It is rel
 
 <p align="center"><a href="https://0xdolan.github.io/zimankit/playground.html"><img src="../assets/brand/screenshots/website-sentence-word.png" width="760" alt="a Kurmanji sentence drawn as coloured arrows between its words, with one word selected and explained"></a></p>
 
-The [playground](https://0xdolan.github.io/zimankit/playground.html) draws the result as a diagram. Click a word, an arrow or a colour to see its role, position, form and what depends on it.
+The [playground](https://0xdolan.github.io/zimankit/playground.html) draws the result as a diagram. Click a word, an arrow or a colour to see its role, position, form and what depends on it, with links to the lessons that explain it. "Show all", Escape or a click on the empty part of the diagram clears the selection. You can also choose the colours, and export the diagram as PNG, JPG, SVG or PDF in standard social media sizes.
 
 ## Command line
 
