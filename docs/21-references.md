@@ -1,5 +1,5 @@
 <!-- nav:top -->
-[← Glossary](20-glossary.md) · [⌂ Contents](00-index.md)
+[← Glossary](20-glossary.md) · [⌂ Contents](00-index.md) · [Sentence structure →](22-sentence-structure.md)
 <!-- nav:top -->
 
 # References and further reading
@@ -13,7 +13,7 @@ Grammars and linguistic descriptions that the rules follow (general scholarship;
 * G. Haig & E. Öpengin, "Kurmanji Kurdish in Turkey: structure, varieties, and status" (2018).
 * E. Öpengin, *The Mukri Variety of Central Kurdish* (2016).
 * Unicode Standard, chapter 9 (Middle East-I: Arabic) and the Unicode Arabic-script code charts.
-* Universal Dependencies guidelines (UPOS / features) — <https://universaldependencies.org/u/>.
+* Universal Dependencies guidelines (UPOS / features / relations) — <https://universaldependencies.org/u/>.
 * Kurdish Academy / KRG orthography conventions for Central Kurdish (standard letter inventory, ڕ / ڵ, ە vs ه).
 
 ## The logo
@@ -22,5 +22,5 @@ The logo is a deq sign (the tree-of-life figure) with the sun of the flag of Kur
 
 <!-- nav:bottom -->
 ---
-[← Glossary](20-glossary.md) · [⌂ Contents](00-index.md)
+[← Glossary](20-glossary.md) · [⌂ Contents](00-index.md) · [Sentence structure →](22-sentence-structure.md)
 <!-- nav:bottom -->

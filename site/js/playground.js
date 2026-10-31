@@ -30,9 +30,12 @@
   }
 
   function select(name) {
+    document.querySelectorAll(".tools button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.cmd === name ? "true" : "false"));
+    $("sent").hidden = name !== "sentence";
+    $("play").hidden = name === "sentence";
+    if (name === "sentence") return;
     cmd = name;
     const c = COMMANDS[name];
-    document.querySelectorAll(".tools button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.cmd === name ? "true" : "false"));
     $("hint").textContent = c.hint;
     $("opts").innerHTML = "";
     c.opts.forEach(([flag, label, value, on]) => {
@@ -76,7 +79,7 @@
   function run() {
     const args = argv();
     $("cmdline").textContent = args ? "$ zimankit " + args.map((a) => (/\s/.test(a) ? JSON.stringify(a) : a)).join(" ") : "";
-    if (!py || !args) return;
+    if (!py || !args || $("play").hidden) return;
     const table = ["analyze", "lid"].includes(cmd);
     if (table) args.splice(1, 0, "--json");
     py.globals.set("ARGS", py.toPy(args));
@@ -147,6 +150,7 @@ out
       py.runPython("import zimankit");
       setStatus(`zimankit ${meta.version} is running in your browser`, true);
       $("run").disabled = false;
+      window.zkSentence.ready(py);
       run();
     } catch (e) {
       py = null;
@@ -160,7 +164,8 @@ out
     $("lang").addEventListener("change", run);
     $("opts").addEventListener("change", run);
     $("input").addEventListener("keydown", (e) => { if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) run(); });
-    select("analyze");
+    select("sentence");
+    window.zkSentence.init();
     boot();
   });
 })();

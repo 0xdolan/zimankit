@@ -25,6 +25,11 @@
 | sonority | — | relative loudness; governs cluster legality |
 | epenthesis | — | insertion of a vowel to repair a cluster |
 | Hawar | — | the Latin alphabet of Kurmanji (1932) |
+| subject | kirde / بکەر | who or what does the action; `nsubj` |
+| object | bireser / بەرکار | what the action is done to; `obj` |
+| head, dependent | — | in a dependency structure, each word (the dependent) hangs from one other word (its head) |
+| root | — | the word that heads the whole sentence: the main verb or the predicate |
+| deprel | — | dependency relation: the label on the link from a head to a dependent |
 
 <!-- nav:bottom -->
 ---

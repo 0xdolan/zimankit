@@ -7,7 +7,7 @@
 **On this page:** [Ground-truth matrix (`tests/test_ground_truth.py`)](#ground-truth-matrix-teststest_ground_truthpy) · [What else is covered](#what-else-is-covered) · [Data-level checks (build report)](#data-level-checks-build-report) · [Known limitations](#known-limitations)
 
 ```bash
-python -m pytest -q          # 44+ tests
+python -m pytest -q          # 120+ tests
 ./scripts/check_examples.sh  # cross-language examples vs expected_output.txt
 ```
 

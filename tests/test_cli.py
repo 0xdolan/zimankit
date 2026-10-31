@@ -40,3 +40,9 @@ def test_conjugate_and_ergativity(capsys):
     assert run(capsys, "conjugate", "kirin").splitlines()[0] == "dikim\ttense=present,mood=indicative,person=1sg,agreement=subject"
     out = json.loads(run(capsys, "ergativity", "Min tu dîtim."))
     assert out["alignment"] == "ergative" and out["agreement_ok"] is False
+
+
+def test_parse_command(capsys):
+    assert run(capsys, "parse", "Ew baş e.").splitlines()[:3] == ["1\tEw\tew\tPRON\t2\tnsubj", "2\tbaş\tbaş\tNOUN\t0\troot", "3\te\te\tAUX\t2\tcop"]
+    out = json.loads(run(capsys, "parse", "--json", "Min tu dîtî."))
+    assert out["lang"] == "kmr" and out["alignment"]["alignment"] == "ergative"

@@ -33,6 +33,7 @@ zimankit/
 │   └── sources.local.toml       real paths (git-ignored)
 ├── zimankit/
 │   ├── cli.py                   `python -m zimankit <command>`
+│   ├── dependency.py            sentence structure: head and relation of each word
 │   ├── rules.py                 grammar_rules_<lang>.json exporter
 │   ├── tools/                   mdx_extractor.py, zim_cleaner.py
 │   ├── shared_utils/            unicode_tables, normalizer, tokenizer, lid, phonology_core, text_helpers, schema
