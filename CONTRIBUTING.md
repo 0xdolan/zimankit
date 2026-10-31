@@ -49,5 +49,7 @@ Continuous integration builds the package and checks its metadata and classifier
 
 - `python -m pytest -q` runs the whole suite, including the ground-truth matrix and the tutorial drift check.
 - Tutorial tables are generated: run `python scripts/gen_tutorials.py` after changing a skill.
-- Brand files are generated: run `uv run python scripts/make_brand.py` after changing the logo (needs Inkscape and ImageMagick).
-- The website lives in [`site/`](site/). Preview it with `python -m http.server -d site` after `scripts/build_site.sh`.
+- Brand files are generated: run `uv run python scripts/make_brand.py` after changing the logo (needs Inkscape, ImageMagick, and the Manrope and Sahel fonts).
+- The website lives in [`site/`](site/). Build and preview it with `scripts/build_site.sh && python3 -m http.server -d _site 8123`.
+- `uv run --no-project --with playwright python scripts/check_site.py` checks the built site in a browser at phone to desktop widths: errors, sideways scrolling, broken images, tap targets and the playground. Add `--shots assets/brand/screenshots` to retake the screenshots.
+- Site colours are tokens at the top of `site/css/site.css`; a test keeps text at 4.5:1 contrast in both themes. Icons are [Lucide](https://lucide.dev) (ISC, see `site/icons/LICENSE`). Fonts are hosted in `site/fonts/` under the Open Font License: Manrope for Latin text and Sahel for the Arabic-based script, with Estedad and Vazirmatn as choices for the reader.

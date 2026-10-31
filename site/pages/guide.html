@@ -1,7 +1,7 @@
 <!-- title: Guide | description: How to install zimankit and use every skill: the zimankit command, the Python API, the wordlist pipeline, the Kaggle dataset, the tutorials and the agent skills. -->
 <div class="doc">
-<nav class="toc" aria-label="On this page">
-  <strong>Guide</strong>
+<details class="toc" open>
+  <summary>On this page</summary>
   <a href="#install">Install</a>
   <a href="#start">Getting started</a>
   <a href="#lang">Choosing the language</a>
@@ -24,9 +24,9 @@
   <a href="#ports">Other languages</a>
   <a href="#versions">Versions and releases</a>
   <a href="#help">Troubleshooting</a>
-</nav>
+</details>
 <article>
-<h1 style="margin-top:0">zimankit guide</h1>
+<h1>zimankit guide</h1>
 <p class="muted">zimankit {{version}}. Everything here also works in the <a href="playground.html">playground</a>, without installing anything.</p>
 
 <h2 id="install">Install</h2>
@@ -140,7 +140,7 @@ nakim	tense=present,mood=indicative,person=1sg,polarity=neg,agreement=subject</p
 <p>The correct sentence is <em>Min tu dîtî</em> (“I saw you”), where the verb agrees with <em>tu</em>.</p>
 
 <h3 id="parse">parse</h3>
-<p>The structure of a sentence: for each word its position, form, dictionary form, word class, head (0 for the root) and relation, with <a href="https://universaldependencies.org/u/dep/">Universal Dependencies</a> labels. <code>--json</code> adds the morphology, a plain-language explanation of each word, the word order and, for Kurmanji, the alignment. The <a href="playground.html">playground</a> draws this as a diagram you can click.</p>
+<p>The structure of a sentence: for each word its position, form, dictionary form, word class, head (0 for the root) and relation, with <a href="https://universaldependencies.org/u/dep/">Universal Dependencies</a> labels. <code>--json</code> adds the morphology, a plain-language explanation of each word, the word order and, for Kurmanji, the alignment. The <a href="playground.html">playground</a> draws this as a diagram: click a word for its role, position and form, with links to the matching lessons, choose your own colours, and export the diagram as PNG, JPG, SVG or PDF.</p>
 <pre><span class="p">$</span> zimankit parse "Min pirtûka nû li dibistanê xwend."
 1	Min	min	PRON	6	nsubj
 2	pirtûka	pirtûk	NOUN	6	obj
