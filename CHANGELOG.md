@@ -4,6 +4,10 @@ All notable changes to zimankit are recorded here. The format follows [Keep a Ch
 
 ## [Unreleased]
 
+### Added
+
+- **Lexicon bundle**: `run_pipeline.py --stages bundle` packs the published lexicon into one reproducible file, `zimankit-lexicon-<version>.tar.zst`, for tools that build on it. It holds the words and lemmas as Parquet, the spelling variants, the grammar rules, the data card and the licence notice, and is attached to the GitHub release.
+
 ## [0.2.0] - 2026-10-31
 
 ### Added

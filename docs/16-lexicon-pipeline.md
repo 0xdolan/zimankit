@@ -9,6 +9,7 @@
 ```bash
 python run_pipeline.py                         # lexicon → dictionaries → corpus → build → rules → export
 python run_pipeline.py --stages build,rules    # reuse cached harvests
+python run_pipeline.py --stages bundle         # release asset, after export; never part of a plain run
 python run_pipeline.py --langs kmr --force     # recompute everything for one variety
 ```
 
@@ -22,6 +23,7 @@ python run_pipeline.py --langs kmr --force     # recompute everything for one va
 | 4 | build | all of the above + core tables | `output/<lang>/…` | ~1.5 min / variety |
 | 5 | rules | code tables | `output/<lang>/grammar_rules_<lang>.json` | seconds |
 | 6 | export | stage 4 outputs + `lexicon_wiki.jsonl` | `output/kaggle/…` | ~2.5 min |
+| 7 | bundle (only when asked for) | stage 5 and 6 outputs | `output/bundle/zimankit-lexicon-<version>.tar.zst` | ~1 min |
 
 \* 8 workers, ~1.8 GB of text.
 
