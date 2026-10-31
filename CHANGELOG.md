@@ -4,6 +4,13 @@ All notable changes to zimankit are recorded here. The format follows [Keep a Ch
 
 ## [Unreleased]
 
+### Added
+
+- **Sentence structure**: `zimankit parse` and `zimankit.parse()` give the head and relation of each word (Universal Dependencies labels) with a plain-language explanation, using rules over the morphology. They cover subject and object by case and alignment (Kurmanji) or order (Sorani), adpositions, ezafe, determiners, coordination and the copula. Complex sentences get an approximate structure.
+- **Sentence diagram in the playground**: coloured arrows between the words of a Sorani or Kurmanji sentence. Click a word, an arrow or a colour to see its role, position, form and what depends on it.
+- **Documentation**: [chapter 22, Sentence structure](docs/22-sentence-structure.md), new glossary entries, the `kurdish-sentence-structure` agent skill, and the guide's `parse` section.
+- **Website**: the sentence diagram on the home page, and new screenshots in `assets/brand/screenshots/` and on the brand page.
+
 ## [0.1.0] - 2026-10-29
 
 The first release.

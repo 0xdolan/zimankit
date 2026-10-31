@@ -25,14 +25,14 @@
 
 | | |
 |---|---|
-| Skills | orthography · IPA / G2P · syllabification · transliteration · morphology · verb paradigms · split-ergativity checking · language identification |
+| Skills | orthography · IPA / G2P · syllabification · transliteration · morphology · verb paradigms · split-ergativity checking · sentence structure · language identification |
 | Data readers | `.mdx` dictionaries (in-process via `mdict-utils`) · `.zim` wiki dumps (`libzim`) · plain-text corpora |
 | Kaggle dataset | `output/kaggle/` — one row per word, 59 flat columns (features, IPA, syllables, both scripts, definitions, frequency) as CSV · Parquet · SQLite + data card |
 | Outputs | `clean_wordlist_ckb.csv` (329 190 forms) · `clean_wordlist_kmr.csv` (506 407 forms) · lemma tables · variant maps · grammar-rule JSON |
-| Quality | 94 tests incl. the ground-truth matrix and the tutorial drift check · IPA agrees 96.5 % (ckb) / 97.8 % (kmr) with reference transcriptions in the data |
+| Quality | 120+ tests incl. the ground-truth matrix and the tutorial drift check · IPA agrees 96.5 % (ckb) / 97.8 % (kmr) with reference transcriptions in the data |
 | Dependencies | standard library only for the skills; `mdict-utils`, `libzim` for data ingestion |
 
-<p align="center"><a href="https://0xdolan.github.io/zimankit/playground.html"><img src="assets/brand/screenshots/website-playground.png" width="820" alt="the zimankit playground: Kurdish words analysed in the browser"></a></p>
+<p align="center"><a href="https://0xdolan.github.io/zimankit/playground.html"><img src="assets/brand/screenshots/website-sentence-word.png" width="820" alt="the zimankit playground: a Kurmanji sentence drawn as coloured arrows between its words, with one word explained"></a></p>
 
 ## Install
 
@@ -56,6 +56,7 @@ python -m zimankit analyze کتێبەکەم jinekê
 python -m zimankit ipa پیاوەکە کتێبەکەم jinekê dîtin      # pjaːwækæ k(ɯ)teːbækæm ʒɪnɛkeː diːtɯn
 python -m zimankit conjugate کردن
 echo "Min tu dîtim." | python -m zimankit ergativity       # agreement_ok: false
+python -m zimankit parse "Min pirtûka nû li dibistanê xwend."   # head and relation of each word
 python -m zimankit lid "Ma yew roje şima ra vat ke ziwanê ma zaf rind o"   # zza
 python -m pytest -q
 ```
@@ -84,6 +85,7 @@ Start at the **[documentation index](docs/00-index.md)**.
 | Northern Kurdish | [11 Orthography](docs/11-kmr-orthography.md) · [12 Phonology & IPA](docs/12-kmr-phonology-ipa.md) · [13 Morphology](docs/13-kmr-morphology.md) · [14 Verbs & ergativity](docs/14-kmr-verbs-ergativity.md) |
 | Cross-cutting | [15 Transliteration](docs/15-transliteration.md) · [16 Wordlist pipeline](docs/16-lexicon-pipeline.md) · [17 Regex cookbook](docs/17-regex-cookbook.md) · [18 Multi-language examples](docs/18-multi-language-examples.md) · [19 Testing](docs/19-testing.md) |
 | Reference | [20 Glossary](docs/20-glossary.md) · [21 References](docs/21-references.md) |
+| Sentences | [22 Sentence structure](docs/22-sentence-structure.md) |
 
 Also: [agent skills](skills/README.md) · [cross-language examples](examples/README.md) · [engineering brief](PROMPT.md) · [contributing and releases](CONTRIBUTING.md) · [changelog](CHANGELOG.md) · [website source](site/).
 
@@ -100,6 +102,7 @@ zimankit/
 │   ├── skills_kmr/          orthography · phonology_ipa · morphology · verbs · syntax · translit · config.toml
 │   ├── lexicon/             wiki_lexicon · corpus · harvest · builder · export
 │   ├── data/                authored reference tables (core verbs, function words)
+│   ├── dependency.py        sentence structure: head and relation of each word
 │   ├── rules.py             grammar_rules_<lang>.json exporter
 │   └── cli.py               python -m zimankit …
 ├── output/{ckb,kmr}/        generated wordlists and reports
