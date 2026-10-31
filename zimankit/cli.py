@@ -8,9 +8,9 @@ from __future__ import annotations
 
 import argparse
 import json
-from dataclasses import asdict
 import sys
-from typing import Iterable
+from collections.abc import Iterable
+from dataclasses import asdict
 
 
 def _inputs(args: list[str]) -> Iterable[str]:
@@ -132,6 +132,19 @@ def cmd_ergativity(a) -> None:
         print(json.dumps(detect_alignment(t).to_dict(), ensure_ascii=False))
 
 
+def cmd_parse(a) -> None:
+    from .dependency import parse
+
+    for t in _inputs(a.text):
+        p = parse(t, a.lang)
+        if a.json:
+            print(json.dumps(p.to_dict(), ensure_ascii=False))
+            continue
+        for w in p.tokens:
+            print(f"{w.id}\t{w.text}\t{w.lemma}\t{w.upos}\t{w.head}\t{w.deprel}")
+        print()
+
+
 def cmd_validate(a) -> None:
     for t in _inputs(a.text):
         lang = _lang_of(t, a.lang)
@@ -182,6 +195,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--transitive", choices=["yes", "no"])
     add("ergativity", cmd_ergativity, "kmr clause alignment / agreement check")
     add("validate", cmd_validate, "orthographic validation of words")
+    add("parse", cmd_parse, "sentence structure: head and relation of each word").add_argument("--json", action="store_true")
     p = add("rules", cmd_rules, "export grammar_rules_<lang>.json", text=False)
     p.add_argument("--out")
     a = ap.parse_args(argv)
