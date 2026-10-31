@@ -7,7 +7,7 @@ description: Conjugate Northern Kurdish (Kurmanji) verbs and check clause alignm
 
 Conjugate Northern Kurdish (Kurmanji) verbs and check clause alignment: present (nominative-accusative) vs past transitive (ergative: oblique agent, direct object, verb agrees with object). Use for Kurmanji verb paradigms, agreement checking or grammar correction of past-tense transitive sentences.
 
-Full explanation: [docs/14-kmr-verbs-ergativity.md](../../docs/14-kmr-verbs-ergativity.md)
+Full explanation: [docs/14-kmr-verbs-ergativity.md](../../docs/14-kmr-verbs-ergativity.md). For the whole sentence, use [kurdish-sentence-structure](../kurdish-sentence-structure/SKILL.md).
 
 ## Commands
 

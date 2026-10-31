@@ -34,6 +34,8 @@ python -m zimankit normalize "به‌ڕێوه‌به‌رایه‌تی ئاوی 
 python -m zimankit conjugate کردن | head
 python -m zimankit conjugate dîtin | grep past
 echo "Min tu dîtim." | python -m zimankit ergativity   # agreement_ok: false
+
+python -m zimankit parse "Min pirtûka nû li dibistanê xwend."   # head and relation of each word, see chapter 22
 python -m zimankit lid "Ma yew roje şima ra vat ke ziwanê ma zaf rind o"   # zza
 python -m zimankit validate صەبر رۆژ کتێب
 ```
