@@ -5,10 +5,10 @@ on:
     tags: ["v*"]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,6 +24,50 @@ jobs:
         run: scripts/build_release.sh "$GITHUB_REF_NAME"
       - name: Test the .deb
         run: sudo apt-get install -y ./dist/python3-zimankit_*_all.deb && /usr/bin/zimankit --version
+      - name: Keep only the wheel and sdist for PyPI
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          mkdir pypi-dist
+          cp "dist/zimankit-$version-py3-none-any.whl" "dist/zimankit-$version.tar.gz" pypi-dist/
+          python -m pip install twine
+          python -m twine check --strict pypi-dist/*
+      - uses: actions/upload-artifact@v4
+        with:
+          name: python-dist
+          path: pypi-dist/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-files
+          path: dist/
+
+  # Trusted Publishing: PyPI trusts this workflow through OpenID Connect, so no password or token is stored.
+  # One-time setup on pypi.org is described in CONTRIBUTING.md.
+  pypi:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/project/zimankit/
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: python-dist
+          path: dist/
+      - uses: pypa/gh-action-pypi-publish@release/v1
+
+  github-release:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: release-files
+          path: dist/
       - name: Release notes from CHANGELOG.md
         run: |
           version="${GITHUB_REF_NAME#v}"

@@ -8,6 +8,14 @@
 
 ## Install
 
+To use the skills in your own project:
+
+```bash
+pip install zimankit
+```
+
+To work on zimankit or build the wordlists, use a clone:
+
 ```bash
 cd zimankit
 uv venv --python 3.13 .venv            # or: python3 -m venv .venv
