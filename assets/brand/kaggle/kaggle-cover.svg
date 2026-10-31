@@ -3,83 +3,66 @@
        Contains no counts, so it never needs updating when the data is rebuilt.
        At the centre is the zimankit mark; scripts/make_brand.py rewrites it between the mark comments
        and renders dataset-cover-image.png. -->
-  <defs>
-    <radialGradient id="bg" cx="50%" cy="38%" r="80%">
-      <stop offset="0" stop-color="#16362b"/>
-      <stop offset="0.6" stop-color="#0e211a"/>
-      <stop offset="1" stop-color="#091410"/>
-    </radialGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#FEBD11" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#FEBD11" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-
-  <rect width="560" height="280" fill="url(#bg)"/>
+  <rect width="560" height="280" fill="#FFFFFF"/>
 
   <!-- centre: emblem and title (this square is also the thumbnail) -->
-  <circle cx="280" cy="92" r="70" fill="url(#glow)"/>
-  <!-- mark --><g transform="translate(220.57 32.57) scale(0.11607)"><path fill="#FEBD11" transform="translate(-178.00 52.00) scale(1.5333)" d="M450 150l11.24 76.264 33.222-69.563-11.738 76.19 52.249-56.68-33.674 69.344 66.634-38.761-52.616 56.338 75.098-17.399-66.885 38.327 76.89 5.51-75.21 16.909 71.85 27.929-76.852-6.011 60.425 47.867-71.666-28.397 43.632 63.55-60.113-48.259 22.962 73.589-43.217-63.834.25 77.087L450 376.264 427.518 450l.251-77.087-43.217 63.834 22.962-73.589-60.113 48.26 43.632-63.551-71.666 28.397 60.425-47.867-76.852 6.011 71.85-27.93-75.21-16.908 76.89-5.51-66.885-38.327 75.098 17.399-52.616-56.338 66.634 38.76-33.674-69.343 52.249 56.68-11.738-76.19 33.221 69.563z"/><g fill="none" stroke="#F3EEE2" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"><path d="M430 190 L512 268 L594 190"/><path d="M512 268 V756"/><path d="M430 840 L512 756 L594 840"/><circle cx="512" cy="512" r="112"/></g><g fill="#F3EEE2"><circle cx="512" cy="122" r="26"/><circle cx="512" cy="908" r="26"/></g></g><!-- /mark -->
-  <g text-anchor="middle" fill="#F7F3E8" font-family="IBM Plex Sans">
-    <text x="280" y="190" font-weight="600" font-size="28" letter-spacing="0.5">Kurdish Lexicon</text>
+  <!-- mark --><g transform="translate(220.00 22.00) scale(0.12500)"><path fill="#FEBD11" transform="translate(-178.00 52.00) scale(1.5333)" d="M450 150l11.24 76.264 33.222-69.563-11.738 76.19 52.249-56.68-33.674 69.344 66.634-38.761-52.616 56.338 75.098-17.399-66.885 38.327 76.89 5.51-75.21 16.909 71.85 27.929-76.852-6.011 60.425 47.867-71.666-28.397 43.632 63.55-60.113-48.259 22.962 73.589-43.217-63.834.25 77.087L450 376.264 427.518 450l.251-77.087-43.217 63.834 22.962-73.589-60.113 48.26 43.632-63.551-71.666 28.397 60.425-47.867-76.852 6.011 71.85-27.93-75.21-16.908 76.89-5.51-66.885-38.327 75.098 17.399-52.616-56.338 66.634 38.76-33.674-69.343 52.249 56.68-11.738-76.19 33.221 69.563z"/><g fill="none" stroke="#22332A" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"><path d="M430 190 L512 268 L594 190"/><path d="M512 268 V756"/><path d="M430 840 L512 756 L594 840"/><circle cx="512" cy="512" r="112"/></g><g fill="#22332A"><circle cx="512" cy="122" r="26"/><circle cx="512" cy="908" r="26"/></g></g><rect x="0.0" y="274.0" width="187.2" height="6.0" fill="#ED2024"/><rect x="186.7" y="274.0" width="187.2" height="6.0" fill="#E5E5E5"/><rect x="373.3" y="274.0" width="187.2" height="6.0" fill="#278E43"/><path fill="#FEBD11" transform="translate(253.00 253.00) scale(0.0600)" d="M450 150l11.24 76.264 33.222-69.563-11.738 76.19 52.249-56.68-33.674 69.344 66.634-38.761-52.616 56.338 75.098-17.399-66.885 38.327 76.89 5.51-75.21 16.909 71.85 27.929-76.852-6.011 60.425 47.867-71.666-28.397 43.632 63.55-60.113-48.259 22.962 73.589-43.217-63.834.25 77.087L450 376.264 427.518 450l.251-77.087-43.217 63.834 22.962-73.589-60.113 48.26 43.632-63.551-71.666 28.397 60.425-47.867-76.852 6.011 71.85-27.93-75.21-16.908 76.89-5.51-66.885-38.327 75.098 17.399-52.616-56.338 66.634 38.76-33.674-69.343 52.249 56.68-11.738-76.19 33.221 69.563z"/><!-- /mark -->
+  <g text-anchor="middle" fill="#0A0A0A" font-family="Manrope">
+    <text x="280" y="186" font-weight="600" font-size="28" letter-spacing="0.5">Kurdish Lexicon</text>
     <text x="280" y="212" font-size="12" opacity="0.75">Sorani · Kurmanji</text>
-    <text x="280" y="240" font-weight="500" font-size="7.5" letter-spacing="1.6" fill="#FEBD11" opacity="0.9">LEMMA · MORPHOLOGY · IPA · DEFINITIONS</text>
+    <text x="280" y="240" font-weight="500" font-size="7.5" letter-spacing="1.6" fill="#7A5600" opacity="0.9">LEMMA · MORPHOLOGY · IPA · DEFINITIONS</text>
   </g>
 
   <!-- side cards: one real dataset row each (values from kurdish_words_<lang>) -->
-  <g fill="#ffffff" fill-opacity="0.045" stroke="#F7F3E8" stroke-opacity="0.16">
+  <g fill="#FAFAFA" stroke="#E5E5E5">
     <rect x="12" y="58" width="122" height="134" rx="8"/>
     <rect x="426" y="58" width="122" height="134" rx="8"/>
   </g>
 
-  <g fill="#F7F3E8" font-family="IBM Plex Sans">
+  <g fill="#0A0A0A" font-family="Manrope">
     <!-- Sorani: three morphemes stacked, ماڵ + ەکان + مان -->
-    <text x="73" y="75" text-anchor="middle" font-weight="600" font-size="7.5" letter-spacing="1.6" fill="#FEBD11">SORANÎ · CKB</text>
-    <text x="73" y="106" text-anchor="middle" font-family="Vazirmatn" font-weight="600" font-size="19" direction="rtl">ماڵەکانمان</text>
+    <text x="73" y="75" text-anchor="middle" font-weight="600" font-size="7.5" letter-spacing="1.6" fill="#7A5600">SORANÎ · CKB</text>
+    <text x="73" y="106" text-anchor="middle" font-family="Sahel" font-weight="600" font-size="19" direction="rtl">ماڵەکانمان</text>
     <text x="73" y="123" text-anchor="middle" font-style="italic" font-size="8.5" opacity="0.65">our houses</text>
     <g font-size="8.5">
-      <text x="22" y="145" opacity="0.55">lemma</text>
-      <text x="22" y="157" opacity="0.55">pos</text>
-      <text x="22" y="169" opacity="0.55">feats</text>
-      <text x="22" y="181" opacity="0.55">ipa</text>
-      <text x="124" y="146" font-family="Vazirmatn" font-size="10" direction="rtl" text-anchor="start">ماڵ</text>
+      <text x="22" y="145" opacity="0.65">lemma</text>
+      <text x="22" y="157" opacity="0.65">pos</text>
+      <text x="22" y="169" opacity="0.65">feats</text>
+      <text x="22" y="181" opacity="0.65">ipa</text>
+      <text x="124" y="146" font-family="Sahel" font-size="10" direction="rtl" text-anchor="start">ماڵ</text>
       <g text-anchor="end">
         <text x="124" y="157">NOUN</text>
         <text x="124" y="169">def · pl · our</text>
-        <text x="124" y="181" font-family="DejaVu Sans" font-size="7.5" fill="#FEBD11">maːɫækaːnmaːn</text>
+        <text x="124" y="181" font-family="DejaVu Sans" font-size="7.5" fill="#7A5600">maːɫækaːnmaːn</text>
       </g>
     </g>
 
     <!-- Kurmanji: a transitive verb in an ergative tense -->
-    <text x="487" y="75" text-anchor="middle" font-weight="600" font-size="7.5" letter-spacing="1.6" fill="#FEBD11">KURMANCÎ · KMR</text>
+    <text x="487" y="75" text-anchor="middle" font-weight="600" font-size="7.5" letter-spacing="1.6" fill="#7A5600">KURMANCÎ · KMR</text>
     <text x="487" y="106" text-anchor="middle" font-weight="600" font-size="19">xwendiye</text>
     <text x="487" y="123" text-anchor="middle" font-style="italic" font-size="8.5" opacity="0.65">has read (it)</text>
     <g font-size="8.5">
-      <text x="436" y="145" opacity="0.55">lemma</text>
-      <text x="436" y="157" opacity="0.55">pos</text>
-      <text x="436" y="169" opacity="0.55">feats</text>
-      <text x="436" y="181" opacity="0.55">ipa</text>
+      <text x="436" y="145" opacity="0.65">lemma</text>
+      <text x="436" y="157" opacity="0.65">pos</text>
+      <text x="436" y="169" opacity="0.65">feats</text>
+      <text x="436" y="181" opacity="0.65">ipa</text>
       <g text-anchor="end">
         <text x="538" y="145">xwendin</text>
         <text x="538" y="157">VERB</text>
         <text x="538" y="169">perfect · ergative</text>
-        <text x="538" y="181" font-family="DejaVu Sans" font-size="7.5" fill="#FEBD11">xʷɛndɪjɛ</text>
+        <text x="538" y="181" font-family="DejaVu Sans" font-size="7.5" fill="#7A5600">xʷɛndɪjɛ</text>
       </g>
     </g>
 
     <!-- links -->
     <g text-anchor="middle">
-      <text x="73" y="216" font-weight="600" font-size="7" letter-spacing="1.6" fill="#FEBD11">GITHUB</text>
+      <text x="73" y="216" font-weight="600" font-size="7" letter-spacing="1.6" fill="#7A5600">GITHUB</text>
       <text x="73" y="230" font-size="8.5" opacity="0.8">github.com/</text>
       <text x="73" y="242" font-weight="600" font-size="8.5">0xdolan/zimankit</text>
-      <text x="487" y="216" font-weight="600" font-size="7" letter-spacing="1.6" fill="#FEBD11">KAGGLE</text>
+      <text x="487" y="216" font-weight="600" font-size="7" letter-spacing="1.6" fill="#7A5600">KAGGLE</text>
       <text x="487" y="230" font-size="8.5" opacity="0.8">kaggle.com/datasets/</text>
       <text x="487" y="242" font-weight="600" font-size="8.5">zeroxdolan/kurdish-lexicon</text>
     </g>
   </g>
 
-  <!-- flag band -->
-  <rect y="271" width="560" height="3" fill="#ED2024"/>
-  <rect y="274" width="560" height="3" fill="#FFFFFF"/>
-  <rect y="277" width="560" height="3" fill="#278E43"/>
 </svg>
