@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **شورام**<br><sub>şuram</sub><br><sub>/ʃuɾaːm/</sub> | **نەشورام**<br><sub>neşuram</sub><br><sub>/næʃuɾaːm/</sub> | **دەشورام**<br><sub>deşuram</sub><br><sub>/dæʃuɾaːm/</sub> | **نەدەشورام**<br><sub>nedeşuram</sub><br><sub>/nædæʃuɾaːm/</sub> |
-| 2sg | تۆ | **شورایت**<br><sub>şurayt</sub><br><sub>/ʃuɾaːjt/</sub> | **نەشورایت**<br><sub>neşurayt</sub><br><sub>/næʃuɾaːjt/</sub> | **دەشورایت**<br><sub>deşurayt</sub><br><sub>/dæʃuɾaːjt/</sub> | **نەدەشورایت**<br><sub>nedeşurayt</sub><br><sub>/nædæʃuɾaːjt/</sub> |
-| 3sg | ئەو | **شورا**<br><sub>şura</sub><br><sub>/ʃuɾaː/</sub> | **نەشورا**<br><sub>neşura</sub><br><sub>/næʃuɾaː/</sub> | **دەشورا**<br><sub>deşura</sub><br><sub>/dæʃuɾaː/</sub> | **نەدەشورا**<br><sub>nedeşura</sub><br><sub>/nædæʃuɾaː/</sub> |
-| 1pl | ئێمە | **شوراین**<br><sub>şurayn</sub><br><sub>/ʃuɾaːjn/</sub> | **نەشوراین**<br><sub>neşurayn</sub><br><sub>/næʃuɾaːjn/</sub> | **دەشوراین**<br><sub>deşurayn</sub><br><sub>/dæʃuɾaːjn/</sub> | **نەدەشوراین**<br><sub>nedeşurayn</sub><br><sub>/nædæʃuɾaːjn/</sub> |
-| 2pl | ئێوە | **شوران**<br><sub>şuran</sub><br><sub>/ʃuɾaːn/</sub> | **نەشوران**<br><sub>neşuran</sub><br><sub>/næʃuɾaːn/</sub> | **دەشوران**<br><sub>deşuran</sub><br><sub>/dæʃuɾaːn/</sub> | **نەدەشوران**<br><sub>nedeşuran</sub><br><sub>/nædæʃuɾaːn/</sub> |
-| 3pl | ئەوان | **شوران**<br><sub>şuran</sub><br><sub>/ʃuɾaːn/</sub> | **نەشوران**<br><sub>neşuran</sub><br><sub>/næʃuɾaːn/</sub> | **دەشوران**<br><sub>deşuran</sub><br><sub>/dæʃuɾaːn/</sub> | **نەدەشوران**<br><sub>nedeşuran</sub><br><sub>/nædæʃuɾaːn/</sub> |
+| 1sg | من | **شوشترام**<br><sub>şuştram</sub><br><sub>/ʃuʃtɾaːm/</sub> | **نەشورام**<br><sub>neşuram</sub><br><sub>/næʃuɾaːm/</sub> | **دەشورام**<br><sub>deşuram</sub><br><sub>/dæʃuɾaːm/</sub> | **نەدەشورام**<br><sub>nedeşuram</sub><br><sub>/nædæʃuɾaːm/</sub> |
+| 2sg | تۆ | **شوشترایت**<br><sub>şuştrayt</sub><br><sub>/ʃuʃtɾaːjt/</sub> | **نەشورایت**<br><sub>neşurayt</sub><br><sub>/næʃuɾaːjt/</sub> | **دەشورایت**<br><sub>deşurayt</sub><br><sub>/dæʃuɾaːjt/</sub> | **نەدەشورایت**<br><sub>nedeşurayt</sub><br><sub>/nædæʃuɾaːjt/</sub> |
+| 3sg | ئەو | **شوشترا**<br><sub>şuştra</sub><br><sub>/ʃuʃtɾaː/</sub> | **نەشورا**<br><sub>neşura</sub><br><sub>/næʃuɾaː/</sub> | **دەشورا**<br><sub>deşura</sub><br><sub>/dæʃuɾaː/</sub> | **نەدەشورا**<br><sub>nedeşura</sub><br><sub>/nædæʃuɾaː/</sub> |
+| 1pl | ئێمە | **شوشتراین**<br><sub>şuştrayn</sub><br><sub>/ʃuʃtɾaːjn/</sub> | **نەشوراین**<br><sub>neşurayn</sub><br><sub>/næʃuɾaːjn/</sub> | **دەشوراین**<br><sub>deşurayn</sub><br><sub>/dæʃuɾaːjn/</sub> | **نەدەشوراین**<br><sub>nedeşurayn</sub><br><sub>/nædæʃuɾaːjn/</sub> |
+| 2pl | ئێوە | **شوشتران**<br><sub>şuştran</sub><br><sub>/ʃuʃtɾaːn/</sub> | **نەشوران**<br><sub>neşuran</sub><br><sub>/næʃuɾaːn/</sub> | **دەشوران**<br><sub>deşuran</sub><br><sub>/dæʃuɾaːn/</sub> | **نەدەشوران**<br><sub>nedeşuran</sub><br><sub>/nædæʃuɾaːn/</sub> |
+| 3pl | ئەوان | **شوشتران**<br><sub>şuştran</sub><br><sub>/ʃuʃtɾaːn/</sub> | **نەشوران**<br><sub>neşuran</sub><br><sub>/næʃuɾaːn/</sub> | **دەشوران**<br><sub>deşuran</sub><br><sub>/dæʃuɾaːn/</sub> | **نەدەشوران**<br><sub>nedeşuran</sub><br><sub>/nædæʃuɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

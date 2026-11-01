@@ -32,12 +32,14 @@ Also recognised:
 * **Final ە/یە** (`کوردە`, `مامۆستایە`, `ماڵدایە`, `چاکترە`). One word cannot show which job it does: copula, definite ezafe, demonstrative, vocative or short definite. So it gets the tag `E` and the feature `copula=3sg|ezafe.def|dem|voc|def.short`, and the next word and any ئەم/ئەو decide. A word listed in the lexicon stays whole.
 * **Person copula after -دا**: `ماڵ+دا+م` "I am at home" (`copula=1sg`). Elsewhere the same endings are the enclitics, so `باشم` is "my good" here. The sentence parser reads `تۆ زیرەکیت` as a copula when the subject pronoun's person matches.
 * **Other indefinites**: `چرایێک`, `کەسانێک`, and with a known stem `کوڕێ`, `کوڕەک`. `ێ` also marks a place (`لە تارانێ`); it is the same segment, so it is tagged `POSTP.E` with `postposition=e|indef`.
-* **Plural -گەل**: `کوڕگەل`.
+* **Plural -گەل**: `کوڕگەل`. An ە-final noun is recognised in the plural without its ە (`پەنجەر+ان` → `پەنجەرە`), though the sources differ on that form, so `decline` leaves the cell empty.
+* **Contracted definite**: `ماس+ێکە` → `ماسی`.
+* **Adverbs of manner**, when the middle is known: `بە+خێرا+یی`, `بە+جوان+ی`.
 * **Derivation**: `سنە+یی`, `ڕەش+ایی`, and with a known remainder the prefixes `بێ+کار`, `نا+دیار`, `هاو+کار`.
 * **Compounds** of two known words, with the linkers ەو او بە ە و or none: `گوڵ+ە+گەنم`, `دەم+و+چاو`, `شار+ەو+شار`. They score below any known stem, and inflected compounds (`گوڵەگەنمەکە`) are not split.
 * **پێ, لێ, تێ, بۆ + clitic** are adpositions: `پێ+م`, `لێ+ی`, `بۆ+مان`.
 | CMP | تر، ترین | | comparative, superlative |
-| DERIV | ایەتی، ێتی، ی، یی، ایی، انە، ستان، کار، دار | | abstract, nisba, adverbial, place, agent, possessor |
+| DERIV | ایەتی، ێتی، ی، یی، ایی، انە، ستان، کار، دار، گەر، چی، وان، ساز، مەند، ناک، خانە، زانی، ناسی، ۆکە، ۆڵە، یلە | | abstract, nisba, adverbial, place, agent, possessor |
 
 **Vowel- vs consonant-final is phonological**, not orthographic: `پیاو` ends in the consonant /w/ (→ `پیاوەکە`), `کوردی` in the vowel /iː/ (→ `کوردییەکە`). `_ends_with_vowel` treats final `و`/`ی` after a vowel letter as glides.
 

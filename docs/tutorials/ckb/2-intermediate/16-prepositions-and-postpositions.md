@@ -48,6 +48,8 @@ Sorani often frames a noun between a preposition and an ending that completes it
 | **لە … ێ** | in, at (colloquial) | لە تاران**ێ** *in Tehran* |
 | **لە … ڕا** | from | لە کوێ**ڕا** *from where* |
 
+بە before a noun is a separate word (بە ئۆتۆمبێل *by car*). In adverbs of manner it joins the word: بەخێرایی *quickly*, بەجوانی *nicely*.
+
 The second half is written **attached** to the noun (after a vowel ەوە becomes وە: لە دەرگاکە**وە**), and so is a copula after it: من لە ماڵ**دام** *I am at home*, لە ماڵ**دایە** *he is at home*. The preposition stays a separate word.
 
 <!-- gen:sentences ipa=1

@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **گیرام**<br><sub>gîram</sub><br><sub>/ɡiːɾaːm/</sub> | **نەگیرام**<br><sub>negîram</sub><br><sub>/næɡiːɾaːm/</sub> | **دەگیرام**<br><sub>degîram</sub><br><sub>/dæɡiːɾaːm/</sub> | **نەدەگیرام**<br><sub>nedegîram</sub><br><sub>/nædæɡiːɾaːm/</sub> |
-| 2sg | تۆ | **گیرایت**<br><sub>gîrayt</sub><br><sub>/ɡiːɾaːjt/</sub> | **نەگیرایت**<br><sub>negîrayt</sub><br><sub>/næɡiːɾaːjt/</sub> | **دەگیرایت**<br><sub>degîrayt</sub><br><sub>/dæɡiːɾaːjt/</sub> | **نەدەگیرایت**<br><sub>nedegîrayt</sub><br><sub>/nædæɡiːɾaːjt/</sub> |
-| 3sg | ئەو | **گیرا**<br><sub>gîra</sub><br><sub>/ɡiːɾaː/</sub> | **نەگیرا**<br><sub>negîra</sub><br><sub>/næɡiːɾaː/</sub> | **دەگیرا**<br><sub>degîra</sub><br><sub>/dæɡiːɾaː/</sub> | **نەدەگیرا**<br><sub>nedegîra</sub><br><sub>/nædæɡiːɾaː/</sub> |
-| 1pl | ئێمە | **گیراین**<br><sub>gîrayn</sub><br><sub>/ɡiːɾaːjn/</sub> | **نەگیراین**<br><sub>negîrayn</sub><br><sub>/næɡiːɾaːjn/</sub> | **دەگیراین**<br><sub>degîrayn</sub><br><sub>/dæɡiːɾaːjn/</sub> | **نەدەگیراین**<br><sub>nedegîrayn</sub><br><sub>/nædæɡiːɾaːjn/</sub> |
-| 2pl | ئێوە | **گیران**<br><sub>gîran</sub><br><sub>/ɡiːɾaːn/</sub> | **نەگیران**<br><sub>negîran</sub><br><sub>/næɡiːɾaːn/</sub> | **دەگیران**<br><sub>degîran</sub><br><sub>/dæɡiːɾaːn/</sub> | **نەدەگیران**<br><sub>nedegîran</sub><br><sub>/nædæɡiːɾaːn/</sub> |
-| 3pl | ئەوان | **گیران**<br><sub>gîran</sub><br><sub>/ɡiːɾaːn/</sub> | **نەگیران**<br><sub>negîran</sub><br><sub>/næɡiːɾaːn/</sub> | **دەگیران**<br><sub>degîran</sub><br><sub>/dæɡiːɾaːn/</sub> | **نەدەگیران**<br><sub>nedegîran</sub><br><sub>/nædæɡiːɾaːn/</sub> |
+| 1sg | من | **گرترام**<br><sub>girtiram</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)ɾaːm/</sub> | **نەگیرام**<br><sub>negîram</sub><br><sub>/næɡiːɾaːm/</sub> | **دەگیرام**<br><sub>degîram</sub><br><sub>/dæɡiːɾaːm/</sub> | **نەدەگیرام**<br><sub>nedegîram</sub><br><sub>/nædæɡiːɾaːm/</sub> |
+| 2sg | تۆ | **گرترایت**<br><sub>girtirayt</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)ɾaːjt/</sub> | **نەگیرایت**<br><sub>negîrayt</sub><br><sub>/næɡiːɾaːjt/</sub> | **دەگیرایت**<br><sub>degîrayt</sub><br><sub>/dæɡiːɾaːjt/</sub> | **نەدەگیرایت**<br><sub>nedegîrayt</sub><br><sub>/nædæɡiːɾaːjt/</sub> |
+| 3sg | ئەو | **گرترا**<br><sub>girtira</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)ɾaː/</sub> | **نەگیرا**<br><sub>negîra</sub><br><sub>/næɡiːɾaː/</sub> | **دەگیرا**<br><sub>degîra</sub><br><sub>/dæɡiːɾaː/</sub> | **نەدەگیرا**<br><sub>nedegîra</sub><br><sub>/nædæɡiːɾaː/</sub> |
+| 1pl | ئێمە | **گرتراین**<br><sub>girtirayn</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)ɾaːjn/</sub> | **نەگیراین**<br><sub>negîrayn</sub><br><sub>/næɡiːɾaːjn/</sub> | **دەگیراین**<br><sub>degîrayn</sub><br><sub>/dæɡiːɾaːjn/</sub> | **نەدەگیراین**<br><sub>nedegîrayn</sub><br><sub>/nædæɡiːɾaːjn/</sub> |
+| 2pl | ئێوە | **گرتران**<br><sub>girtiran</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)ɾaːn/</sub> | **نەگیران**<br><sub>negîran</sub><br><sub>/næɡiːɾaːn/</sub> | **دەگیران**<br><sub>degîran</sub><br><sub>/dæɡiːɾaːn/</sub> | **نەدەگیران**<br><sub>nedegîran</sub><br><sub>/nædæɡiːɾaːn/</sub> |
+| 3pl | ئەوان | **گرتران**<br><sub>girtiran</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)ɾaːn/</sub> | **نەگیران**<br><sub>negîran</sub><br><sub>/næɡiːɾaːn/</sub> | **دەگیران**<br><sub>degîran</sub><br><sub>/dæɡiːɾaːn/</sub> | **نەدەگیران**<br><sub>nedegîran</sub><br><sub>/nædæɡiːɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

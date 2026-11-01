@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **برام**<br><sub>biram</sub><br><sub>/b(ɯ)ɾaːm/</sub> | **نەبرام**<br><sub>nebram</sub><br><sub>/næbɾaːm/</sub> | **دەبرام**<br><sub>debram</sub><br><sub>/dæbɾaːm/</sub> | **نەدەبرام**<br><sub>nedebram</sub><br><sub>/nædæbɾaːm/</sub> |
-| 2sg | تۆ | **برایت**<br><sub>birayt</sub><br><sub>/b(ɯ)ɾaːjt/</sub> | **نەبرایت**<br><sub>nebrayt</sub><br><sub>/næbɾaːjt/</sub> | **دەبرایت**<br><sub>debrayt</sub><br><sub>/dæbɾaːjt/</sub> | **نەدەبرایت**<br><sub>nedebrayt</sub><br><sub>/nædæbɾaːjt/</sub> |
-| 3sg | ئەو | **برا**<br><sub>bira</sub><br><sub>/b(ɯ)ɾaː/</sub> | **نەبرا**<br><sub>nebra</sub><br><sub>/næbɾaː/</sub> | **دەبرا**<br><sub>debra</sub><br><sub>/dæbɾaː/</sub> | **نەدەبرا**<br><sub>nedebra</sub><br><sub>/nædæbɾaː/</sub> |
-| 1pl | ئێمە | **براین**<br><sub>birayn</sub><br><sub>/b(ɯ)ɾaːjn/</sub> | **نەبراین**<br><sub>nebrayn</sub><br><sub>/næbɾaːjn/</sub> | **دەبراین**<br><sub>debrayn</sub><br><sub>/dæbɾaːjn/</sub> | **نەدەبراین**<br><sub>nedebrayn</sub><br><sub>/nædæbɾaːjn/</sub> |
-| 2pl | ئێوە | **بران**<br><sub>biran</sub><br><sub>/b(ɯ)ɾaːn/</sub> | **نەبران**<br><sub>nebran</sub><br><sub>/næbɾaːn/</sub> | **دەبران**<br><sub>debran</sub><br><sub>/dæbɾaːn/</sub> | **نەدەبران**<br><sub>nedebran</sub><br><sub>/nædæbɾaːn/</sub> |
-| 3pl | ئەوان | **بران**<br><sub>biran</sub><br><sub>/b(ɯ)ɾaːn/</sub> | **نەبران**<br><sub>nebran</sub><br><sub>/næbɾaːn/</sub> | **دەبران**<br><sub>debran</sub><br><sub>/dæbɾaːn/</sub> | **نەدەبران**<br><sub>nedebran</sub><br><sub>/nædæbɾaːn/</sub> |
+| 1sg | من | **بردرام**<br><sub>birdiram</sub><br><sub>/b(ɯ)ɾd(ɯ)ɾaːm/</sub> | **نەبرام**<br><sub>nebram</sub><br><sub>/næbɾaːm/</sub> | **دەبرام**<br><sub>debram</sub><br><sub>/dæbɾaːm/</sub> | **نەدەبرام**<br><sub>nedebram</sub><br><sub>/nædæbɾaːm/</sub> |
+| 2sg | تۆ | **بردرایت**<br><sub>birdirayt</sub><br><sub>/b(ɯ)ɾd(ɯ)ɾaːjt/</sub> | **نەبرایت**<br><sub>nebrayt</sub><br><sub>/næbɾaːjt/</sub> | **دەبرایت**<br><sub>debrayt</sub><br><sub>/dæbɾaːjt/</sub> | **نەدەبرایت**<br><sub>nedebrayt</sub><br><sub>/nædæbɾaːjt/</sub> |
+| 3sg | ئەو | **بردرا**<br><sub>birdira</sub><br><sub>/b(ɯ)ɾd(ɯ)ɾaː/</sub> | **نەبرا**<br><sub>nebra</sub><br><sub>/næbɾaː/</sub> | **دەبرا**<br><sub>debra</sub><br><sub>/dæbɾaː/</sub> | **نەدەبرا**<br><sub>nedebra</sub><br><sub>/nædæbɾaː/</sub> |
+| 1pl | ئێمە | **بردراین**<br><sub>birdirayn</sub><br><sub>/b(ɯ)ɾd(ɯ)ɾaːjn/</sub> | **نەبراین**<br><sub>nebrayn</sub><br><sub>/næbɾaːjn/</sub> | **دەبراین**<br><sub>debrayn</sub><br><sub>/dæbɾaːjn/</sub> | **نەدەبراین**<br><sub>nedebrayn</sub><br><sub>/nædæbɾaːjn/</sub> |
+| 2pl | ئێوە | **بردران**<br><sub>birdiran</sub><br><sub>/b(ɯ)ɾd(ɯ)ɾaːn/</sub> | **نەبران**<br><sub>nebran</sub><br><sub>/næbɾaːn/</sub> | **دەبران**<br><sub>debran</sub><br><sub>/dæbɾaːn/</sub> | **نەدەبران**<br><sub>nedebran</sub><br><sub>/nædæbɾaːn/</sub> |
+| 3pl | ئەوان | **بردران**<br><sub>birdiran</sub><br><sub>/b(ɯ)ɾd(ɯ)ɾaːn/</sub> | **نەبران**<br><sub>nebran</sub><br><sub>/næbɾaːn/</sub> | **دەبران**<br><sub>debran</sub><br><sub>/dæbɾaːn/</sub> | **نەدەبران**<br><sub>nedebran</sub><br><sub>/nædæbɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

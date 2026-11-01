@@ -13,6 +13,11 @@ Central Kurdish, checked against the written-standard and grammar sources in [ch
 - **`-ەوە` verbs**: no three-`و` forms (`چووەوە`, was `چوووە`); the perfect has `ت` (`خوێندووەتەوە`); `دۆزییەوە`.
 - **Missing tenses**: negative perfects (`نەکردووە`, `نەهاتبوو`), the written long perfect (`هاتوومە`, with `هاتووم` as a variant), the past subjunctive (`خواردبا`, `خواردبێت`, `خواردبووبا`) and the full passive (`بکرێت`, `نەکرا`, `دەکرا`, `کرابوو`, `کرابا`). Reference pages show them, and the lexicon now reads very common forms such as `بکرێت` and `نەبووە` as verbs.
 - **Nouns and function words**: final ە/یە (`مامۆستایە`, `ماڵدایە`), `ماڵدام`, indefinite `چرایێک`, `کەسانێک`, `کوڕێ`, plural `-گەل`, `سنەیی`, `ڕەشایی`, prefixes `بێ` `نا` `هاو`, compounds (`گوڵ+ە+گەنم`), and `پێ` `لێ` `تێ` as adpositions rather than nouns.
+- **Verb list and guesser**: more core verbs (`خواستن`, `گواستن`, `سەندن`, `دڕان`, `دانان` and others), no false `وتن` splits (`پاڵاوتن`), and intransitive `ا` → `ێ` (`دەدڕێت`).
+- **Imperatives**: `بچۆ` with `بڕۆ` also accepted, `بێ`, `نایێم`, and `ویستن` has a rare imperative and passive.
+- **Recognised, never shown first**: `دەکا`, `دەڵێ`, `دەمەوێ`, `دەژێت`, `هاتۆتەوە`, `بکەرەوە`, `گرترا`, `ئەچم`.
+- **Nouns**: `ماسێکە`, `پەنجەران`, adverbs of manner (`بەخێرایی`), more suffixes (`-گەر`, `-زانی`), and `برا` reads as "brother". `مامۆستایان` returns both its readings.
+- **Spelling variants**: `STANDARD_OVERRIDES` for spellings where frequency prefers the non-standard form (`وەکو`, `بەرامبەر`, `نیە`).
 - **Agent clitic position**: on a preverb or compound verb it sits on the first part in every tense (`هەڵمنەگرت`, `هەڵمدەگرت`, `هەڵمگرتووە`). The older shapes stay recognised as a variant.
 - **Split verbs**: `FormIndex.lookup_split` and the sentence parser read `هەڵم گرت`, `ڕای گەیاند` and `دەستم پێ کرد` as one verb. New relation `compound:prt`.
 - **Object clitics**: `دەتبینم`, `هەڵیدەگرم`, `بمگرە`, `بینیمیت`, `گرتمی`, and `بۆمی` with two clitics.

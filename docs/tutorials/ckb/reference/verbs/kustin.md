@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **کوژرام**<br><sub>kujram</sub><br><sub>/kuʒɾaːm/</sub> | **نەکوژرام**<br><sub>nekujram</sub><br><sub>/nækuʒɾaːm/</sub> | **دەکوژرام**<br><sub>dekujram</sub><br><sub>/dækuʒɾaːm/</sub> | **نەدەکوژرام**<br><sub>nedekujram</sub><br><sub>/nædækuʒɾaːm/</sub> |
-| 2sg | تۆ | **کوژرایت**<br><sub>kujrayt</sub><br><sub>/kuʒɾaːjt/</sub> | **نەکوژرایت**<br><sub>nekujrayt</sub><br><sub>/nækuʒɾaːjt/</sub> | **دەکوژرایت**<br><sub>dekujrayt</sub><br><sub>/dækuʒɾaːjt/</sub> | **نەدەکوژرایت**<br><sub>nedekujrayt</sub><br><sub>/nædækuʒɾaːjt/</sub> |
-| 3sg | ئەو | **کوژرا**<br><sub>kujra</sub><br><sub>/kuʒɾaː/</sub> | **نەکوژرا**<br><sub>nekujra</sub><br><sub>/nækuʒɾaː/</sub> | **دەکوژرا**<br><sub>dekujra</sub><br><sub>/dækuʒɾaː/</sub> | **نەدەکوژرا**<br><sub>nedekujra</sub><br><sub>/nædækuʒɾaː/</sub> |
-| 1pl | ئێمە | **کوژراین**<br><sub>kujrayn</sub><br><sub>/kuʒɾaːjn/</sub> | **نەکوژراین**<br><sub>nekujrayn</sub><br><sub>/nækuʒɾaːjn/</sub> | **دەکوژراین**<br><sub>dekujrayn</sub><br><sub>/dækuʒɾaːjn/</sub> | **نەدەکوژراین**<br><sub>nedekujrayn</sub><br><sub>/nædækuʒɾaːjn/</sub> |
-| 2pl | ئێوە | **کوژران**<br><sub>kujran</sub><br><sub>/kuʒɾaːn/</sub> | **نەکوژران**<br><sub>nekujran</sub><br><sub>/nækuʒɾaːn/</sub> | **دەکوژران**<br><sub>dekujran</sub><br><sub>/dækuʒɾaːn/</sub> | **نەدەکوژران**<br><sub>nedekujran</sub><br><sub>/nædækuʒɾaːn/</sub> |
-| 3pl | ئەوان | **کوژران**<br><sub>kujran</sub><br><sub>/kuʒɾaːn/</sub> | **نەکوژران**<br><sub>nekujran</sub><br><sub>/nækuʒɾaːn/</sub> | **دەکوژران**<br><sub>dekujran</sub><br><sub>/dækuʒɾaːn/</sub> | **نەدەکوژران**<br><sub>nedekujran</sub><br><sub>/nædækuʒɾaːn/</sub> |
+| 1sg | من | **کوشترام**<br><sub>kuştram</sub><br><sub>/kuʃtɾaːm/</sub> | **نەکوژرام**<br><sub>nekujram</sub><br><sub>/nækuʒɾaːm/</sub> | **دەکوژرام**<br><sub>dekujram</sub><br><sub>/dækuʒɾaːm/</sub> | **نەدەکوژرام**<br><sub>nedekujram</sub><br><sub>/nædækuʒɾaːm/</sub> |
+| 2sg | تۆ | **کوشترایت**<br><sub>kuştrayt</sub><br><sub>/kuʃtɾaːjt/</sub> | **نەکوژرایت**<br><sub>nekujrayt</sub><br><sub>/nækuʒɾaːjt/</sub> | **دەکوژرایت**<br><sub>dekujrayt</sub><br><sub>/dækuʒɾaːjt/</sub> | **نەدەکوژرایت**<br><sub>nedekujrayt</sub><br><sub>/nædækuʒɾaːjt/</sub> |
+| 3sg | ئەو | **کوشترا**<br><sub>kuştra</sub><br><sub>/kuʃtɾaː/</sub> | **نەکوژرا**<br><sub>nekujra</sub><br><sub>/nækuʒɾaː/</sub> | **دەکوژرا**<br><sub>dekujra</sub><br><sub>/dækuʒɾaː/</sub> | **نەدەکوژرا**<br><sub>nedekujra</sub><br><sub>/nædækuʒɾaː/</sub> |
+| 1pl | ئێمە | **کوشتراین**<br><sub>kuştrayn</sub><br><sub>/kuʃtɾaːjn/</sub> | **نەکوژراین**<br><sub>nekujrayn</sub><br><sub>/nækuʒɾaːjn/</sub> | **دەکوژراین**<br><sub>dekujrayn</sub><br><sub>/dækuʒɾaːjn/</sub> | **نەدەکوژراین**<br><sub>nedekujrayn</sub><br><sub>/nædækuʒɾaːjn/</sub> |
+| 2pl | ئێوە | **کوشتران**<br><sub>kuştran</sub><br><sub>/kuʃtɾaːn/</sub> | **نەکوژران**<br><sub>nekujran</sub><br><sub>/nækuʒɾaːn/</sub> | **دەکوژران**<br><sub>dekujran</sub><br><sub>/dækuʒɾaːn/</sub> | **نەدەکوژران**<br><sub>nedekujran</sub><br><sub>/nædækuʒɾaːn/</sub> |
+| 3pl | ئەوان | **کوشتران**<br><sub>kuştran</sub><br><sub>/kuʃtɾaːn/</sub> | **نەکوژران**<br><sub>nekujran</sub><br><sub>/nækuʒɾaːn/</sub> | **دەکوژران**<br><sub>dekujran</sub><br><sub>/dækuʒɾaːn/</sub> | **نەدەکوژران**<br><sub>nedekujran</sub><br><sub>/nædækuʒɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

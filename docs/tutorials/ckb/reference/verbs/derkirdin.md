@@ -127,12 +127,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **دەرکرام**<br><sub>derkiram</sub><br><sub>/dæɾk(ɯ)ɾaːm/</sub> | **دەرنەکرام**<br><sub>dernekram</sub><br><sub>/dæɾnækɾaːm/</sub> | **دەردەکرام**<br><sub>derdekram</sub><br><sub>/dæɾdækɾaːm/</sub> | **دەرنەدەکرام**<br><sub>dernedekram</sub><br><sub>/dæɾnædækɾaːm/</sub> |
-| 2sg | تۆ | **دەرکرایت**<br><sub>derkirayt</sub><br><sub>/dæɾk(ɯ)ɾaːjt/</sub> | **دەرنەکرایت**<br><sub>dernekrayt</sub><br><sub>/dæɾnækɾaːjt/</sub> | **دەردەکرایت**<br><sub>derdekrayt</sub><br><sub>/dæɾdækɾaːjt/</sub> | **دەرنەدەکرایت**<br><sub>dernedekrayt</sub><br><sub>/dæɾnædækɾaːjt/</sub> |
-| 3sg | ئەو | **دەرکرا**<br><sub>derkira</sub><br><sub>/dæɾk(ɯ)ɾaː/</sub> | **دەرنەکرا**<br><sub>dernekra</sub><br><sub>/dæɾnækɾaː/</sub> | **دەردەکرا**<br><sub>derdekra</sub><br><sub>/dæɾdækɾaː/</sub> | **دەرنەدەکرا**<br><sub>dernedekra</sub><br><sub>/dæɾnædækɾaː/</sub> |
-| 1pl | ئێمە | **دەرکراین**<br><sub>derkirayn</sub><br><sub>/dæɾk(ɯ)ɾaːjn/</sub> | **دەرنەکراین**<br><sub>dernekrayn</sub><br><sub>/dæɾnækɾaːjn/</sub> | **دەردەکراین**<br><sub>derdekrayn</sub><br><sub>/dæɾdækɾaːjn/</sub> | **دەرنەدەکراین**<br><sub>dernedekrayn</sub><br><sub>/dæɾnædækɾaːjn/</sub> |
-| 2pl | ئێوە | **دەرکران**<br><sub>derkiran</sub><br><sub>/dæɾk(ɯ)ɾaːn/</sub> | **دەرنەکران**<br><sub>dernekran</sub><br><sub>/dæɾnækɾaːn/</sub> | **دەردەکران**<br><sub>derdekran</sub><br><sub>/dæɾdækɾaːn/</sub> | **دەرنەدەکران**<br><sub>dernedekran</sub><br><sub>/dæɾnædækɾaːn/</sub> |
-| 3pl | ئەوان | **دەرکران**<br><sub>derkiran</sub><br><sub>/dæɾk(ɯ)ɾaːn/</sub> | **دەرنەکران**<br><sub>dernekran</sub><br><sub>/dæɾnækɾaːn/</sub> | **دەردەکران**<br><sub>derdekran</sub><br><sub>/dæɾdækɾaːn/</sub> | **دەرنەدەکران**<br><sub>dernedekran</sub><br><sub>/dæɾnædækɾaːn/</sub> |
+| 1sg | من | **دەرکردرام**<br><sub>derkiridram</sub><br><sub>/dæɾk(ɯ)ɾ(ɯ)dɾaːm/</sub> | **دەرنەکرام**<br><sub>dernekram</sub><br><sub>/dæɾnækɾaːm/</sub> | **دەردەکرام**<br><sub>derdekram</sub><br><sub>/dæɾdækɾaːm/</sub> | **دەرنەدەکرام**<br><sub>dernedekram</sub><br><sub>/dæɾnædækɾaːm/</sub> |
+| 2sg | تۆ | **دەرکردرایت**<br><sub>derkiridrayt</sub><br><sub>/dæɾk(ɯ)ɾ(ɯ)dɾaːjt/</sub> | **دەرنەکرایت**<br><sub>dernekrayt</sub><br><sub>/dæɾnækɾaːjt/</sub> | **دەردەکرایت**<br><sub>derdekrayt</sub><br><sub>/dæɾdækɾaːjt/</sub> | **دەرنەدەکرایت**<br><sub>dernedekrayt</sub><br><sub>/dæɾnædækɾaːjt/</sub> |
+| 3sg | ئەو | **دەرکردرا**<br><sub>derkiridra</sub><br><sub>/dæɾk(ɯ)ɾ(ɯ)dɾaː/</sub> | **دەرنەکرا**<br><sub>dernekra</sub><br><sub>/dæɾnækɾaː/</sub> | **دەردەکرا**<br><sub>derdekra</sub><br><sub>/dæɾdækɾaː/</sub> | **دەرنەدەکرا**<br><sub>dernedekra</sub><br><sub>/dæɾnædækɾaː/</sub> |
+| 1pl | ئێمە | **دەرکردراین**<br><sub>derkiridrayn</sub><br><sub>/dæɾk(ɯ)ɾ(ɯ)dɾaːjn/</sub> | **دەرنەکراین**<br><sub>dernekrayn</sub><br><sub>/dæɾnækɾaːjn/</sub> | **دەردەکراین**<br><sub>derdekrayn</sub><br><sub>/dæɾdækɾaːjn/</sub> | **دەرنەدەکراین**<br><sub>dernedekrayn</sub><br><sub>/dæɾnædækɾaːjn/</sub> |
+| 2pl | ئێوە | **دەرکردران**<br><sub>derkiridran</sub><br><sub>/dæɾk(ɯ)ɾ(ɯ)dɾaːn/</sub> | **دەرنەکران**<br><sub>dernekran</sub><br><sub>/dæɾnækɾaːn/</sub> | **دەردەکران**<br><sub>derdekran</sub><br><sub>/dæɾdækɾaːn/</sub> | **دەرنەدەکران**<br><sub>dernedekran</sub><br><sub>/dæɾnædækɾaːn/</sub> |
+| 3pl | ئەوان | **دەرکردران**<br><sub>derkiridran</sub><br><sub>/dæɾk(ɯ)ɾ(ɯ)dɾaːn/</sub> | **دەرنەکران**<br><sub>dernekran</sub><br><sub>/dæɾnækɾaːn/</sub> | **دەردەکران**<br><sub>derdekran</sub><br><sub>/dæɾdækɾaːn/</sub> | **دەرنەدەکران**<br><sub>dernedekran</sub><br><sub>/dæɾnædækɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

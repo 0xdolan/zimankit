@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **فرۆشرام**<br><sub>firoşram</sub><br><sub>/f(ɯ)ɾoːʃɾaːm/</sub> | **نەفرۆشرام**<br><sub>nefroşram</sub><br><sub>/næfɾoːʃɾaːm/</sub> | **دەفرۆشرام**<br><sub>defroşram</sub><br><sub>/dæfɾoːʃɾaːm/</sub> | **نەدەفرۆشرام**<br><sub>nedefroşram</sub><br><sub>/nædæfɾoːʃɾaːm/</sub> |
-| 2sg | تۆ | **فرۆشرایت**<br><sub>firoşrayt</sub><br><sub>/f(ɯ)ɾoːʃɾaːjt/</sub> | **نەفرۆشرایت**<br><sub>nefroşrayt</sub><br><sub>/næfɾoːʃɾaːjt/</sub> | **دەفرۆشرایت**<br><sub>defroşrayt</sub><br><sub>/dæfɾoːʃɾaːjt/</sub> | **نەدەفرۆشرایت**<br><sub>nedefroşrayt</sub><br><sub>/nædæfɾoːʃɾaːjt/</sub> |
-| 3sg | ئەو | **فرۆشرا**<br><sub>firoşra</sub><br><sub>/f(ɯ)ɾoːʃɾaː/</sub> | **نەفرۆشرا**<br><sub>nefroşra</sub><br><sub>/næfɾoːʃɾaː/</sub> | **دەفرۆشرا**<br><sub>defroşra</sub><br><sub>/dæfɾoːʃɾaː/</sub> | **نەدەفرۆشرا**<br><sub>nedefroşra</sub><br><sub>/nædæfɾoːʃɾaː/</sub> |
-| 1pl | ئێمە | **فرۆشراین**<br><sub>firoşrayn</sub><br><sub>/f(ɯ)ɾoːʃɾaːjn/</sub> | **نەفرۆشراین**<br><sub>nefroşrayn</sub><br><sub>/næfɾoːʃɾaːjn/</sub> | **دەفرۆشراین**<br><sub>defroşrayn</sub><br><sub>/dæfɾoːʃɾaːjn/</sub> | **نەدەفرۆشراین**<br><sub>nedefroşrayn</sub><br><sub>/nædæfɾoːʃɾaːjn/</sub> |
-| 2pl | ئێوە | **فرۆشران**<br><sub>firoşran</sub><br><sub>/f(ɯ)ɾoːʃɾaːn/</sub> | **نەفرۆشران**<br><sub>nefroşran</sub><br><sub>/næfɾoːʃɾaːn/</sub> | **دەفرۆشران**<br><sub>defroşran</sub><br><sub>/dæfɾoːʃɾaːn/</sub> | **نەدەفرۆشران**<br><sub>nedefroşran</sub><br><sub>/nædæfɾoːʃɾaːn/</sub> |
-| 3pl | ئەوان | **فرۆشران**<br><sub>firoşran</sub><br><sub>/f(ɯ)ɾoːʃɾaːn/</sub> | **نەفرۆشران**<br><sub>nefroşran</sub><br><sub>/næfɾoːʃɾaːn/</sub> | **دەفرۆشران**<br><sub>defroşran</sub><br><sub>/dæfɾoːʃɾaːn/</sub> | **نەدەفرۆشران**<br><sub>nedefroşran</sub><br><sub>/nædæfɾoːʃɾaːn/</sub> |
+| 1sg | من | **فرۆشترام**<br><sub>firoştram</sub><br><sub>/f(ɯ)ɾoːʃtɾaːm/</sub> | **نەفرۆشرام**<br><sub>nefroşram</sub><br><sub>/næfɾoːʃɾaːm/</sub> | **دەفرۆشرام**<br><sub>defroşram</sub><br><sub>/dæfɾoːʃɾaːm/</sub> | **نەدەفرۆشرام**<br><sub>nedefroşram</sub><br><sub>/nædæfɾoːʃɾaːm/</sub> |
+| 2sg | تۆ | **فرۆشترایت**<br><sub>firoştrayt</sub><br><sub>/f(ɯ)ɾoːʃtɾaːjt/</sub> | **نەفرۆشرایت**<br><sub>nefroşrayt</sub><br><sub>/næfɾoːʃɾaːjt/</sub> | **دەفرۆشرایت**<br><sub>defroşrayt</sub><br><sub>/dæfɾoːʃɾaːjt/</sub> | **نەدەفرۆشرایت**<br><sub>nedefroşrayt</sub><br><sub>/nædæfɾoːʃɾaːjt/</sub> |
+| 3sg | ئەو | **فرۆشترا**<br><sub>firoştra</sub><br><sub>/f(ɯ)ɾoːʃtɾaː/</sub> | **نەفرۆشرا**<br><sub>nefroşra</sub><br><sub>/næfɾoːʃɾaː/</sub> | **دەفرۆشرا**<br><sub>defroşra</sub><br><sub>/dæfɾoːʃɾaː/</sub> | **نەدەفرۆشرا**<br><sub>nedefroşra</sub><br><sub>/nædæfɾoːʃɾaː/</sub> |
+| 1pl | ئێمە | **فرۆشتراین**<br><sub>firoştrayn</sub><br><sub>/f(ɯ)ɾoːʃtɾaːjn/</sub> | **نەفرۆشراین**<br><sub>nefroşrayn</sub><br><sub>/næfɾoːʃɾaːjn/</sub> | **دەفرۆشراین**<br><sub>defroşrayn</sub><br><sub>/dæfɾoːʃɾaːjn/</sub> | **نەدەفرۆشراین**<br><sub>nedefroşrayn</sub><br><sub>/nædæfɾoːʃɾaːjn/</sub> |
+| 2pl | ئێوە | **فرۆشتران**<br><sub>firoştran</sub><br><sub>/f(ɯ)ɾoːʃtɾaːn/</sub> | **نەفرۆشران**<br><sub>nefroşran</sub><br><sub>/næfɾoːʃɾaːn/</sub> | **دەفرۆشران**<br><sub>defroşran</sub><br><sub>/dæfɾoːʃɾaːn/</sub> | **نەدەفرۆشران**<br><sub>nedefroşran</sub><br><sub>/nædæfɾoːʃɾaːn/</sub> |
+| 3pl | ئەوان | **فرۆشتران**<br><sub>firoştran</sub><br><sub>/f(ɯ)ɾoːʃtɾaːn/</sub> | **نەفرۆشران**<br><sub>nefroşran</sub><br><sub>/næfɾoːʃɾaːn/</sub> | **دەفرۆشران**<br><sub>defroşran</sub><br><sub>/dæfɾoːʃɾaːn/</sub> | **نەدەفرۆشران**<br><sub>nedefroşran</sub><br><sub>/nædæfɾoːʃɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

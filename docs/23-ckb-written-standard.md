@@ -21,10 +21,10 @@ Two ideas run through it:
 | `ە` and `ه` are different letters | `سەر` | `سهر`, `سه ر` | normalised where safe |
 | `ڕ` and `ر` are different letters, and every initial r is `ڕ` | `ڕاست`, `کوڕ` | `راست` | initial `ر` normalised; elsewhere needs the lexicon |
 | `ئ` before an initial vowel | `ئاو`, `ئەو` | `او`, `ەو` | normalised |
-| `ئ` drops inside compounds | `ڕۆژاوا`, `گوڵاو`, `ماڵاوایی` | `ڕۆژئاوا`, `گوڵئاو` | not flagged; common forms stay recognised |
+| `ئ` drops inside compounds | `ڕۆژاوا`, `گوڵاو`, `ماڵاوایی` | `ڕۆژئاوا`, `گوڵئاو` | `validate_word` for the listed words; common forms stay recognised |
 | `وو` is never initial | `وشە`, `ورچ` | `ووشە`, `وورچ` | `validate_word` |
 | final û after a consonant is `وو` | `چوو`, `مێژوو`, `وەکوو` | `چو`, `وەکو` | `validate_word` |
-| medial û is `وو` | `کەرکووک`, `حوکوومەت` | `کەرکوک` | not flagged; needs a curated list |
+| medial û is `وو` | `کەرکووک`, `حوکوومەت` | `کەرکوک` | `validate_word` for the listed words |
 | plain î is one `ی` | `تیر`, `کوردی` | `تییر`, `کوردیی` as the bare word | not flagged; needs the lexicon |
 | `یی` for î after a vowel | `کۆتایی`, `سنەیی` | `کۆتای` | generated correctly by the morphology |
 | `یە` is written solid | `سپییە`, `چییە`, `نییە`, `مامۆستایە` | `سپی یە`, `سپی‌یە` | ZWNJ form normalised |
@@ -105,15 +105,15 @@ These are open, so zimankit should not change them silently. The interim choice 
 | `ئەمجارە` | `ئەم جارە` in Hashemi; solid in the 2004 pamphlet | do not flag |
 | `حەوت سەد`, `ئەلفبێ` | `حەوتسەد` in the 2010 pamphlet; `ئەلفوبێ` in the 2004 pamphlet | prefer Hashemi, warn only |
 | clitic after `نە`/`دە` on a simple verb | spaced `نەم هێنا`, `دەمان سڕی` in school material; also solid `دەمانخوێند` | keep solid |
-| plural of ە-final nouns | `قوتابخانان`, `پەنجەران`, `دەرگەیان` | not generated |
+| plural of ە-final nouns | `قوتابخانان`, `پەنجەران`, `دەرگەیان` | recognise, not generated |
 | definite after a vowel | by syllable count, both `چراکە` and `چرایەکە`, or by final letter | by final letter |
 | negative past subjunctive with a clitic | not printed in the sources checked; `نەمخواردبا` follows the clitic rule, `نەخواردبام` is the alternative | generate the first, accept both |
 | 3sg pluperfect + ەوە | `دۆزیبووەوە` or `هێنابوویەوە` | the first |
-| imperative + ەوە | `بکەرەوە` or `بکەوە` | not changed |
-| `هاتن` negative | `نایەم`, `مەیە` or `نایێم`, `مەیێ` | the common forms |
-| `چوون` imperative | `بچۆ` in the sources; `بڕۆ` in zimankit | not changed |
+| imperative + ەوە | `بکەرەوە` or `بکەوە` | show `بکەوە`, accept both |
+| `هاتن` negative | `نایەم`, `مەیە` or `نایێم`, `مەیێ` | show the common forms, accept both |
+| `چوون` imperative | `بچۆ` in the sources; `بڕۆ` is also used | show `بچۆ`, accept both |
 | passive after ر | `د` inserted, or `سپێررا`, `برا` regionally | keep `د` |
-| `ماسییەکە` or `ماسێکە` | | generate the first |
+| `ماسییەکە` or `ماسێکە` | | generate the first, accept both |
 | vocative | `ە` masculine, `ێ` feminine, `ینە` plural, or `ە` for both | not implemented |
 | number + plural noun, `پیاوەکە هاتن` | common usage; no explicit rule found | warn only |
 | terminology | `هاوەڵناو`/`ئاوەڵناو`, `جێناو`/`ڕاناو`, `کار`/`کردار` | list both |
@@ -124,8 +124,7 @@ These are open, so zimankit should not change them silently. The interim choice 
 In the order they depend on each other:
 
 1. **Parser:** circumpositions over several words, subordinate clauses, Kurdish labels (`نیهاد`, `جێگری بکەر`), and a Sorani agreement check.
-2. **Lexicon overrides:** a curated table so that the standard form is chosen when frequency prefers another (`وەکوو`, `بەرانبەر`, `کەرکووک`).
-3. **Generated pages and lessons:** print split forms first and teach them. zimankit can now read that spelling, so this no longer has to wait.
+2. **Generated pages and lessons:** print split forms first and teach them. zimankit can now read that spelling, so this no longer has to wait.
 
 Some transliterations are also still doubtful and have not been checked against a source, such as `rakridin` for `ڕاکردن` and `hellîgrit` for `هەڵیگرت`.
 

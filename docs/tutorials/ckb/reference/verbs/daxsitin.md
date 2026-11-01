@@ -127,12 +127,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **داخرام**<br><sub>daxram</sub><br><sub>/daːxɾaːm/</sub> | **دانەخرام**<br><sub>danexram</sub><br><sub>/daːnæxɾaːm/</sub> | **دادەخرام**<br><sub>dadexram</sub><br><sub>/daːdæxɾaːm/</sub> | **دانەدەخرام**<br><sub>danedexram</sub><br><sub>/daːnædæxɾaːm/</sub> |
-| 2sg | تۆ | **داخرایت**<br><sub>daxrayt</sub><br><sub>/daːxɾaːjt/</sub> | **دانەخرایت**<br><sub>danexrayt</sub><br><sub>/daːnæxɾaːjt/</sub> | **دادەخرایت**<br><sub>dadexrayt</sub><br><sub>/daːdæxɾaːjt/</sub> | **دانەدەخرایت**<br><sub>danedexrayt</sub><br><sub>/daːnædæxɾaːjt/</sub> |
-| 3sg | ئەو | **داخرا**<br><sub>daxra</sub><br><sub>/daːxɾaː/</sub> | **دانەخرا**<br><sub>danexra</sub><br><sub>/daːnæxɾaː/</sub> | **دادەخرا**<br><sub>dadexra</sub><br><sub>/daːdæxɾaː/</sub> | **دانەدەخرا**<br><sub>danedexra</sub><br><sub>/daːnædæxɾaː/</sub> |
-| 1pl | ئێمە | **داخراین**<br><sub>daxrayn</sub><br><sub>/daːxɾaːjn/</sub> | **دانەخراین**<br><sub>danexrayn</sub><br><sub>/daːnæxɾaːjn/</sub> | **دادەخراین**<br><sub>dadexrayn</sub><br><sub>/daːdæxɾaːjn/</sub> | **دانەدەخراین**<br><sub>danedexrayn</sub><br><sub>/daːnædæxɾaːjn/</sub> |
-| 2pl | ئێوە | **داخران**<br><sub>daxran</sub><br><sub>/daːxɾaːn/</sub> | **دانەخران**<br><sub>danexran</sub><br><sub>/daːnæxɾaːn/</sub> | **دادەخران**<br><sub>dadexran</sub><br><sub>/daːdæxɾaːn/</sub> | **دانەدەخران**<br><sub>danedexran</sub><br><sub>/daːnædæxɾaːn/</sub> |
-| 3pl | ئەوان | **داخران**<br><sub>daxran</sub><br><sub>/daːxɾaːn/</sub> | **دانەخران**<br><sub>danexran</sub><br><sub>/daːnæxɾaːn/</sub> | **دادەخران**<br><sub>dadexran</sub><br><sub>/daːdæxɾaːn/</sub> | **دانەدەخران**<br><sub>danedexran</sub><br><sub>/daːnædæxɾaːn/</sub> |
+| 1sg | من | **داخسترام**<br><sub>daxsitram</sub><br><sub>/daːxs(ɯ)tɾaːm/</sub> | **دانەخرام**<br><sub>danexram</sub><br><sub>/daːnæxɾaːm/</sub> | **دادەخرام**<br><sub>dadexram</sub><br><sub>/daːdæxɾaːm/</sub> | **دانەدەخرام**<br><sub>danedexram</sub><br><sub>/daːnædæxɾaːm/</sub> |
+| 2sg | تۆ | **داخسترایت**<br><sub>daxsitrayt</sub><br><sub>/daːxs(ɯ)tɾaːjt/</sub> | **دانەخرایت**<br><sub>danexrayt</sub><br><sub>/daːnæxɾaːjt/</sub> | **دادەخرایت**<br><sub>dadexrayt</sub><br><sub>/daːdæxɾaːjt/</sub> | **دانەدەخرایت**<br><sub>danedexrayt</sub><br><sub>/daːnædæxɾaːjt/</sub> |
+| 3sg | ئەو | **داخسترا**<br><sub>daxsitra</sub><br><sub>/daːxs(ɯ)tɾaː/</sub> | **دانەخرا**<br><sub>danexra</sub><br><sub>/daːnæxɾaː/</sub> | **دادەخرا**<br><sub>dadexra</sub><br><sub>/daːdæxɾaː/</sub> | **دانەدەخرا**<br><sub>danedexra</sub><br><sub>/daːnædæxɾaː/</sub> |
+| 1pl | ئێمە | **داخستراین**<br><sub>daxsitrayn</sub><br><sub>/daːxs(ɯ)tɾaːjn/</sub> | **دانەخراین**<br><sub>danexrayn</sub><br><sub>/daːnæxɾaːjn/</sub> | **دادەخراین**<br><sub>dadexrayn</sub><br><sub>/daːdæxɾaːjn/</sub> | **دانەدەخراین**<br><sub>danedexrayn</sub><br><sub>/daːnædæxɾaːjn/</sub> |
+| 2pl | ئێوە | **داخستران**<br><sub>daxsitran</sub><br><sub>/daːxs(ɯ)tɾaːn/</sub> | **دانەخران**<br><sub>danexran</sub><br><sub>/daːnæxɾaːn/</sub> | **دادەخران**<br><sub>dadexran</sub><br><sub>/daːdæxɾaːn/</sub> | **دانەدەخران**<br><sub>danedexran</sub><br><sub>/daːnædæxɾaːn/</sub> |
+| 3pl | ئەوان | **داخستران**<br><sub>daxsitran</sub><br><sub>/daːxs(ɯ)tɾaːn/</sub> | **دانەخران**<br><sub>danexran</sub><br><sub>/daːnæxɾaːn/</sub> | **دادەخران**<br><sub>dadexran</sub><br><sub>/daːdæxɾaːn/</sub> | **دانەدەخران**<br><sub>danedexran</sub><br><sub>/daːnædæxɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

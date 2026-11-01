@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **خوێنرام**<br><sub>xwênram</sub><br><sub>/xweːnɾaːm/</sub> | **نەخوێنرام**<br><sub>nexwênram</sub><br><sub>/næxweːnɾaːm/</sub> | **دەخوێنرام**<br><sub>dexwênram</sub><br><sub>/dæxweːnɾaːm/</sub> | **نەدەخوێنرام**<br><sub>nedexwênram</sub><br><sub>/nædæxweːnɾaːm/</sub> |
-| 2sg | تۆ | **خوێنرایت**<br><sub>xwênrayt</sub><br><sub>/xweːnɾaːjt/</sub> | **نەخوێنرایت**<br><sub>nexwênrayt</sub><br><sub>/næxweːnɾaːjt/</sub> | **دەخوێنرایت**<br><sub>dexwênrayt</sub><br><sub>/dæxweːnɾaːjt/</sub> | **نەدەخوێنرایت**<br><sub>nedexwênrayt</sub><br><sub>/nædæxweːnɾaːjt/</sub> |
-| 3sg | ئەو | **خوێنرا**<br><sub>xwênra</sub><br><sub>/xweːnɾaː/</sub> | **نەخوێنرا**<br><sub>nexwênra</sub><br><sub>/næxweːnɾaː/</sub> | **دەخوێنرا**<br><sub>dexwênra</sub><br><sub>/dæxweːnɾaː/</sub> | **نەدەخوێنرا**<br><sub>nedexwênra</sub><br><sub>/nædæxweːnɾaː/</sub> |
-| 1pl | ئێمە | **خوێنراین**<br><sub>xwênrayn</sub><br><sub>/xweːnɾaːjn/</sub> | **نەخوێنراین**<br><sub>nexwênrayn</sub><br><sub>/næxweːnɾaːjn/</sub> | **دەخوێنراین**<br><sub>dexwênrayn</sub><br><sub>/dæxweːnɾaːjn/</sub> | **نەدەخوێنراین**<br><sub>nedexwênrayn</sub><br><sub>/nædæxweːnɾaːjn/</sub> |
-| 2pl | ئێوە | **خوێنران**<br><sub>xwênran</sub><br><sub>/xweːnɾaːn/</sub> | **نەخوێنران**<br><sub>nexwênran</sub><br><sub>/næxweːnɾaːn/</sub> | **دەخوێنران**<br><sub>dexwênran</sub><br><sub>/dæxweːnɾaːn/</sub> | **نەدەخوێنران**<br><sub>nedexwênran</sub><br><sub>/nædæxweːnɾaːn/</sub> |
-| 3pl | ئەوان | **خوێنران**<br><sub>xwênran</sub><br><sub>/xweːnɾaːn/</sub> | **نەخوێنران**<br><sub>nexwênran</sub><br><sub>/næxweːnɾaːn/</sub> | **دەخوێنران**<br><sub>dexwênran</sub><br><sub>/dæxweːnɾaːn/</sub> | **نەدەخوێنران**<br><sub>nedexwênran</sub><br><sub>/nædæxweːnɾaːn/</sub> |
+| 1sg | من | **خوێندرام**<br><sub>xwêndram</sub><br><sub>/xweːndɾaːm/</sub> | **نەخوێنرام**<br><sub>nexwênram</sub><br><sub>/næxweːnɾaːm/</sub> | **دەخوێنرام**<br><sub>dexwênram</sub><br><sub>/dæxweːnɾaːm/</sub> | **نەدەخوێنرام**<br><sub>nedexwênram</sub><br><sub>/nædæxweːnɾaːm/</sub> |
+| 2sg | تۆ | **خوێندرایت**<br><sub>xwêndrayt</sub><br><sub>/xweːndɾaːjt/</sub> | **نەخوێنرایت**<br><sub>nexwênrayt</sub><br><sub>/næxweːnɾaːjt/</sub> | **دەخوێنرایت**<br><sub>dexwênrayt</sub><br><sub>/dæxweːnɾaːjt/</sub> | **نەدەخوێنرایت**<br><sub>nedexwênrayt</sub><br><sub>/nædæxweːnɾaːjt/</sub> |
+| 3sg | ئەو | **خوێندرا**<br><sub>xwêndra</sub><br><sub>/xweːndɾaː/</sub> | **نەخوێنرا**<br><sub>nexwênra</sub><br><sub>/næxweːnɾaː/</sub> | **دەخوێنرا**<br><sub>dexwênra</sub><br><sub>/dæxweːnɾaː/</sub> | **نەدەخوێنرا**<br><sub>nedexwênra</sub><br><sub>/nædæxweːnɾaː/</sub> |
+| 1pl | ئێمە | **خوێندراین**<br><sub>xwêndrayn</sub><br><sub>/xweːndɾaːjn/</sub> | **نەخوێنراین**<br><sub>nexwênrayn</sub><br><sub>/næxweːnɾaːjn/</sub> | **دەخوێنراین**<br><sub>dexwênrayn</sub><br><sub>/dæxweːnɾaːjn/</sub> | **نەدەخوێنراین**<br><sub>nedexwênrayn</sub><br><sub>/nædæxweːnɾaːjn/</sub> |
+| 2pl | ئێوە | **خوێندران**<br><sub>xwêndran</sub><br><sub>/xweːndɾaːn/</sub> | **نەخوێنران**<br><sub>nexwênran</sub><br><sub>/næxweːnɾaːn/</sub> | **دەخوێنران**<br><sub>dexwênran</sub><br><sub>/dæxweːnɾaːn/</sub> | **نەدەخوێنران**<br><sub>nedexwênran</sub><br><sub>/nædæxweːnɾaːn/</sub> |
+| 3pl | ئەوان | **خوێندران**<br><sub>xwêndran</sub><br><sub>/xweːndɾaːn/</sub> | **نەخوێنران**<br><sub>nexwênran</sub><br><sub>/næxweːnɾaːn/</sub> | **دەخوێنران**<br><sub>dexwênran</sub><br><sub>/dæxweːnɾaːn/</sub> | **نەدەخوێنران**<br><sub>nedexwênran</sub><br><sub>/nædæxweːnɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

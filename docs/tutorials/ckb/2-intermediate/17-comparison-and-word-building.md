@@ -43,6 +43,9 @@ Sorani creates many words with a small set of suffixes. Once you know them you c
 | **-کار** | people who do something | کرێکار *worker* | کرێ *wage* |
 | **-دار** | people/things that have something | پارەدار *rich* | پارە *money* |
 | **-انە** | adverbs (*-ly*), *-wise* | ڕۆژانە *daily* | ڕۆژ *day* |
+| **-گەر، -چی، -وان** | people who work with something | ئاسنگەر، ڕاوچی، باخەوان | ئاسن، ڕاو، باخ |
+| **-زانی، -ناسی** | -logy, -nomy | زیندەزانی، ئەستێرەناسی | |
+| **بێ-، نا-، هاو-** | without, not, co- | بێکەس، ناپاک، هاوکار | |
 
 ## How zimankit takes words apart
 
@@ -78,7 +81,7 @@ Derivational suffixes are less reliable than inflectional ones. *-ی* can be a n
 ## Summary
 
 * **-تر** comparative with **لە** *than*; **-ترین** superlative before the noun.
-* Word-building suffixes: -ی، -ایەتی، -ستان، -کار، -دار، -انە.
+* Word-building suffixes include -ی، -ایەتی، -ستان، -کار، -دار، -انە، -گەر، -زانی.
 
 <!-- nav:bottom -->
 ---

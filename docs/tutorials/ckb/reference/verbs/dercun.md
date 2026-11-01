@@ -108,8 +108,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **دەربڕۆ**<br><sub>derbirro</sub><br><sub>/dæɾb(ɯ)roː/</sub> | **دەرمەچە**<br><sub>dermeçe</sub><br><sub>/dæɾmætʃæ/</sub> |
-| 2pl | ئێوە | **دەربڕۆن**<br><sub>derbirron</sub><br><sub>/dæɾb(ɯ)roːn/</sub> | **دەرمەچن**<br><sub>dermeçin</sub><br><sub>/dæɾmætʃ(ɯ)n/</sub> |
+| 2sg | تۆ | **دەربچۆ**<br><sub>derbiço</sub><br><sub>/dæɾb(ɯ)tʃoː/</sub> | **دەرمەچۆ**<br><sub>dermeço</sub><br><sub>/dæɾmætʃoː/</sub> |
+| 2pl | ئێوە | **دەربچن**<br><sub>derbiçin</sub><br><sub>/dæɾb(ɯ)tʃ(ɯ)n/</sub> | **دەرمەچن**<br><sub>dermeçin</sub><br><sub>/dæɾmætʃ(ɯ)n/</sub> |
 
 ## Other forms
 

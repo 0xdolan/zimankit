@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **خورام**<br><sub>xuram</sub><br><sub>/xuɾaːm/</sub> | **نەخورام**<br><sub>nexuram</sub><br><sub>/næxuɾaːm/</sub> | **دەخورام**<br><sub>dexuram</sub><br><sub>/dæxuɾaːm/</sub> | **نەدەخورام**<br><sub>nedexuram</sub><br><sub>/nædæxuɾaːm/</sub> |
-| 2sg | تۆ | **خورایت**<br><sub>xurayt</sub><br><sub>/xuɾaːjt/</sub> | **نەخورایت**<br><sub>nexurayt</sub><br><sub>/næxuɾaːjt/</sub> | **دەخورایت**<br><sub>dexurayt</sub><br><sub>/dæxuɾaːjt/</sub> | **نەدەخورایت**<br><sub>nedexurayt</sub><br><sub>/nædæxuɾaːjt/</sub> |
-| 3sg | ئەو | **خورا**<br><sub>xura</sub><br><sub>/xuɾaː/</sub> | **نەخورا**<br><sub>nexura</sub><br><sub>/næxuɾaː/</sub> | **دەخورا**<br><sub>dexura</sub><br><sub>/dæxuɾaː/</sub> | **نەدەخورا**<br><sub>nedexura</sub><br><sub>/nædæxuɾaː/</sub> |
-| 1pl | ئێمە | **خوراین**<br><sub>xurayn</sub><br><sub>/xuɾaːjn/</sub> | **نەخوراین**<br><sub>nexurayn</sub><br><sub>/næxuɾaːjn/</sub> | **دەخوراین**<br><sub>dexurayn</sub><br><sub>/dæxuɾaːjn/</sub> | **نەدەخوراین**<br><sub>nedexurayn</sub><br><sub>/nædæxuɾaːjn/</sub> |
-| 2pl | ئێوە | **خوران**<br><sub>xuran</sub><br><sub>/xuɾaːn/</sub> | **نەخوران**<br><sub>nexuran</sub><br><sub>/næxuɾaːn/</sub> | **دەخوران**<br><sub>dexuran</sub><br><sub>/dæxuɾaːn/</sub> | **نەدەخوران**<br><sub>nedexuran</sub><br><sub>/nædæxuɾaːn/</sub> |
-| 3pl | ئەوان | **خوران**<br><sub>xuran</sub><br><sub>/xuɾaːn/</sub> | **نەخوران**<br><sub>nexuran</sub><br><sub>/næxuɾaːn/</sub> | **دەخوران**<br><sub>dexuran</sub><br><sub>/dæxuɾaːn/</sub> | **نەدەخوران**<br><sub>nedexuran</sub><br><sub>/nædæxuɾaːn/</sub> |
+| 1sg | من | **خواردرام**<br><sub>xwardiram</sub><br><sub>/xwaːɾd(ɯ)ɾaːm/</sub> | **نەخورام**<br><sub>nexuram</sub><br><sub>/næxuɾaːm/</sub> | **دەخورام**<br><sub>dexuram</sub><br><sub>/dæxuɾaːm/</sub> | **نەدەخورام**<br><sub>nedexuram</sub><br><sub>/nædæxuɾaːm/</sub> |
+| 2sg | تۆ | **خواردرایت**<br><sub>xwardirayt</sub><br><sub>/xwaːɾd(ɯ)ɾaːjt/</sub> | **نەخورایت**<br><sub>nexurayt</sub><br><sub>/næxuɾaːjt/</sub> | **دەخورایت**<br><sub>dexurayt</sub><br><sub>/dæxuɾaːjt/</sub> | **نەدەخورایت**<br><sub>nedexurayt</sub><br><sub>/nædæxuɾaːjt/</sub> |
+| 3sg | ئەو | **خواردرا**<br><sub>xwardira</sub><br><sub>/xwaːɾd(ɯ)ɾaː/</sub> | **نەخورا**<br><sub>nexura</sub><br><sub>/næxuɾaː/</sub> | **دەخورا**<br><sub>dexura</sub><br><sub>/dæxuɾaː/</sub> | **نەدەخورا**<br><sub>nedexura</sub><br><sub>/nædæxuɾaː/</sub> |
+| 1pl | ئێمە | **خواردراین**<br><sub>xwardirayn</sub><br><sub>/xwaːɾd(ɯ)ɾaːjn/</sub> | **نەخوراین**<br><sub>nexurayn</sub><br><sub>/næxuɾaːjn/</sub> | **دەخوراین**<br><sub>dexurayn</sub><br><sub>/dæxuɾaːjn/</sub> | **نەدەخوراین**<br><sub>nedexurayn</sub><br><sub>/nædæxuɾaːjn/</sub> |
+| 2pl | ئێوە | **خواردران**<br><sub>xwardiran</sub><br><sub>/xwaːɾd(ɯ)ɾaːn/</sub> | **نەخوران**<br><sub>nexuran</sub><br><sub>/næxuɾaːn/</sub> | **دەخوران**<br><sub>dexuran</sub><br><sub>/dæxuɾaːn/</sub> | **نەدەخوران**<br><sub>nedexuran</sub><br><sub>/nædæxuɾaːn/</sub> |
+| 3pl | ئەوان | **خواردران**<br><sub>xwardiran</sub><br><sub>/xwaːɾd(ɯ)ɾaːn/</sub> | **نەخوران**<br><sub>nexuran</sub><br><sub>/næxuɾaːn/</sub> | **دەخوران**<br><sub>dexuran</sub><br><sub>/dæxuɾaːn/</sub> | **نەدەخوران**<br><sub>nedexuran</sub><br><sub>/nædæxuɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

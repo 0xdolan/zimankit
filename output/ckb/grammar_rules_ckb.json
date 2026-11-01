@@ -634,6 +634,24 @@
             }
           },
           {
+            "form": "ێکە",
+            "tag": "DEF.SG",
+            "after": "C",
+            "features": {
+              "definite": "def",
+              "number": "sg"
+            }
+          },
+          {
+            "form": "ێکان",
+            "tag": "DEF.PL",
+            "after": "C",
+            "features": {
+              "definite": "def",
+              "number": "pl"
+            }
+          },
+          {
             "form": "ەک",
             "tag": "INDEF",
             "after": "C",
@@ -735,6 +753,111 @@
             "after": null,
             "features": {
               "derivation": "adverbial"
+            }
+          },
+          {
+            "form": "انە",
+            "tag": "PL+E",
+            "after": "C",
+            "features": {
+              "copula": "dem",
+              "number": "pl"
+            }
+          },
+          {
+            "form": "زانی",
+            "tag": "SCIENCE",
+            "after": null,
+            "features": {
+              "derivation": "logy"
+            }
+          },
+          {
+            "form": "ناسی",
+            "tag": "SCIENCE",
+            "after": null,
+            "features": {
+              "derivation": "nomy"
+            }
+          },
+          {
+            "form": "خانە",
+            "tag": "PLACE",
+            "after": null,
+            "features": {
+              "derivation": "place"
+            }
+          },
+          {
+            "form": "گەر",
+            "tag": "AGENT",
+            "after": null,
+            "features": {
+              "derivation": "agent"
+            }
+          },
+          {
+            "form": "چی",
+            "tag": "AGENT",
+            "after": null,
+            "features": {
+              "derivation": "agent"
+            }
+          },
+          {
+            "form": "وان",
+            "tag": "AGENT",
+            "after": null,
+            "features": {
+              "derivation": "agent"
+            }
+          },
+          {
+            "form": "ساز",
+            "tag": "AGENT",
+            "after": null,
+            "features": {
+              "derivation": "agent"
+            }
+          },
+          {
+            "form": "مەند",
+            "tag": "POSSR",
+            "after": null,
+            "features": {
+              "derivation": "possessor"
+            }
+          },
+          {
+            "form": "ناک",
+            "tag": "POSSR",
+            "after": null,
+            "features": {
+              "derivation": "possessor"
+            }
+          },
+          {
+            "form": "ۆکە",
+            "tag": "DIM",
+            "after": null,
+            "features": {
+              "derivation": "diminutive"
+            }
+          },
+          {
+            "form": "ۆڵە",
+            "tag": "DIM",
+            "after": null,
+            "features": {
+              "derivation": "diminutive"
+            }
+          },
+          {
+            "form": "یلە",
+            "tag": "DIM",
+            "after": null,
+            "features": {
+              "derivation": "diminutive"
             }
           },
           {
@@ -1064,6 +1187,13 @@
         "alignment": "ergative"
       },
       {
+        "form": "کردرام",
+        "tense": "past",
+        "voice": "passive",
+        "person": "1sg",
+        "variant": "past_stem"
+      },
+      {
         "form": "دەکرێم",
         "tense": "present",
         "voice": "passive",
@@ -1197,7 +1327,22 @@
         "person": "2sg"
       },
       {
+        "form": "دەکەی",
+        "variant": "short",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "2sg"
+      },
+      {
         "form": "ناکەیت",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "2sg",
+        "polarity": "neg"
+      },
+      {
+        "form": "ناکەی",
+        "variant": "short",
         "tense": "present",
         "mood": "indicative",
         "person": "2sg",
@@ -1210,7 +1355,22 @@
         "person": "2sg"
       },
       {
+        "form": "بکەی",
+        "variant": "short",
+        "tense": "present",
+        "mood": "subjunctive",
+        "person": "2sg"
+      },
+      {
         "form": "نەکەیت",
+        "tense": "present",
+        "mood": "subjunctive",
+        "person": "2sg",
+        "polarity": "neg"
+      },
+      {
+        "form": "نەکەی",
+        "variant": "short",
         "tense": "present",
         "mood": "subjunctive",
         "person": "2sg",
@@ -1345,13 +1505,35 @@
         "alignment": "ergative"
       },
       {
+        "form": "کردرایت",
+        "tense": "past",
+        "voice": "passive",
+        "person": "2sg",
+        "variant": "past_stem"
+      },
+      {
         "form": "دەکرێیت",
         "tense": "present",
         "voice": "passive",
         "person": "2sg"
       },
       {
+        "form": "دەکرێی",
+        "variant": "short",
+        "tense": "present",
+        "voice": "passive",
+        "person": "2sg"
+      },
+      {
         "form": "ناکرێیت",
+        "tense": "present",
+        "voice": "passive",
+        "person": "2sg",
+        "polarity": "neg"
+      },
+      {
+        "form": "ناکرێی",
+        "variant": "short",
         "tense": "present",
         "voice": "passive",
         "person": "2sg",
@@ -1365,7 +1547,24 @@
         "person": "2sg"
       },
       {
+        "form": "بکرێی",
+        "variant": "short",
+        "tense": "present",
+        "mood": "subjunctive",
+        "voice": "passive",
+        "person": "2sg"
+      },
+      {
         "form": "نەکرێیت",
+        "tense": "present",
+        "mood": "subjunctive",
+        "voice": "passive",
+        "person": "2sg",
+        "polarity": "neg"
+      },
+      {
+        "form": "نەکرێی",
+        "variant": "short",
         "tense": "present",
         "mood": "subjunctive",
         "voice": "passive",
@@ -1478,7 +1677,22 @@
         "person": "3sg"
       },
       {
+        "form": "دەکا",
+        "variant": "short",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "3sg"
+      },
+      {
         "form": "ناکات",
+        "tense": "present",
+        "mood": "indicative",
+        "person": "3sg",
+        "polarity": "neg"
+      },
+      {
+        "form": "ناکا",
+        "variant": "short",
         "tense": "present",
         "mood": "indicative",
         "person": "3sg",
@@ -1491,7 +1705,22 @@
         "person": "3sg"
       },
       {
+        "form": "بکا",
+        "variant": "short",
+        "tense": "present",
+        "mood": "subjunctive",
+        "person": "3sg"
+      },
+      {
         "form": "نەکات",
+        "tense": "present",
+        "mood": "subjunctive",
+        "person": "3sg",
+        "polarity": "neg"
+      },
+      {
+        "form": "نەکا",
+        "variant": "short",
         "tense": "present",
         "mood": "subjunctive",
         "person": "3sg",
@@ -1633,13 +1862,35 @@
         "alignment": "ergative"
       },
       {
+        "form": "کردرا",
+        "tense": "past",
+        "voice": "passive",
+        "person": "3sg",
+        "variant": "past_stem"
+      },
+      {
         "form": "دەکرێت",
         "tense": "present",
         "voice": "passive",
         "person": "3sg"
       },
       {
+        "form": "دەکرێ",
+        "variant": "short",
+        "tense": "present",
+        "voice": "passive",
+        "person": "3sg"
+      },
+      {
         "form": "ناکرێت",
+        "tense": "present",
+        "voice": "passive",
+        "person": "3sg",
+        "polarity": "neg"
+      },
+      {
+        "form": "ناکرێ",
+        "variant": "short",
         "tense": "present",
         "voice": "passive",
         "person": "3sg",
@@ -1653,7 +1904,24 @@
         "person": "3sg"
       },
       {
+        "form": "بکرێ",
+        "variant": "short",
+        "tense": "present",
+        "mood": "subjunctive",
+        "voice": "passive",
+        "person": "3sg"
+      },
+      {
         "form": "نەکرێت",
+        "tense": "present",
+        "mood": "subjunctive",
+        "voice": "passive",
+        "person": "3sg",
+        "polarity": "neg"
+      },
+      {
+        "form": "نەکرێ",
+        "variant": "short",
         "tense": "present",
         "mood": "subjunctive",
         "voice": "passive",
@@ -1912,6 +2180,13 @@
         "mood": "subjunctive",
         "agent": "1pl",
         "alignment": "ergative"
+      },
+      {
+        "form": "کردراین",
+        "tense": "past",
+        "voice": "passive",
+        "person": "1pl",
+        "variant": "past_stem"
       },
       {
         "form": "دەکرێین",
@@ -2195,6 +2470,13 @@
         "alignment": "ergative"
       },
       {
+        "form": "کردران",
+        "tense": "past",
+        "voice": "passive",
+        "person": "2pl",
+        "variant": "past_stem"
+      },
+      {
         "form": "دەکرێن",
         "tense": "present",
         "voice": "passive",
@@ -2474,6 +2756,13 @@
         "mood": "subjunctive",
         "agent": "3pl",
         "alignment": "ergative"
+      },
+      {
+        "form": "کردران",
+        "tense": "past",
+        "voice": "passive",
+        "person": "3pl",
+        "variant": "past_stem"
       },
       {
         "form": "دەکرێن",

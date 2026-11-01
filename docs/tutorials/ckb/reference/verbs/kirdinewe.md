@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **کرامەوە**<br><sub>kiramewe</sub><br><sub>/k(ɯ)ɾaːmæwæ/</sub> | **نەکرامەوە**<br><sub>nekramewe</sub><br><sub>/nækɾaːmæwæ/</sub> | **دەکرامەوە**<br><sub>dekramewe</sub><br><sub>/dækɾaːmæwæ/</sub> | **نەدەکرامەوە**<br><sub>nedekramewe</sub><br><sub>/nædækɾaːmæwæ/</sub> |
-| 2sg | تۆ | **کرایتەوە**<br><sub>kiraytewe</sub><br><sub>/k(ɯ)ɾaːjtæwæ/</sub> | **نەکرایتەوە**<br><sub>nekraytewe</sub><br><sub>/nækɾaːjtæwæ/</sub> | **دەکرایتەوە**<br><sub>dekraytewe</sub><br><sub>/dækɾaːjtæwæ/</sub> | **نەدەکرایتەوە**<br><sub>nedekraytewe</sub><br><sub>/nædækɾaːjtæwæ/</sub> |
-| 3sg | ئەو | **کرایەوە**<br><sub>kirayewe</sub><br><sub>/k(ɯ)ɾaːjæwæ/</sub> | **نەکرایەوە**<br><sub>nekrayewe</sub><br><sub>/nækɾaːjæwæ/</sub> | **دەکرایەوە**<br><sub>dekrayewe</sub><br><sub>/dækɾaːjæwæ/</sub> | **نەدەکرایەوە**<br><sub>nedekrayewe</sub><br><sub>/nædækɾaːjæwæ/</sub> |
-| 1pl | ئێمە | **کراینەوە**<br><sub>kiraynewe</sub><br><sub>/k(ɯ)ɾaːjnæwæ/</sub> | **نەکراینەوە**<br><sub>nekraynewe</sub><br><sub>/nækɾaːjnæwæ/</sub> | **دەکراینەوە**<br><sub>dekraynewe</sub><br><sub>/dækɾaːjnæwæ/</sub> | **نەدەکراینەوە**<br><sub>nedekraynewe</sub><br><sub>/nædækɾaːjnæwæ/</sub> |
-| 2pl | ئێوە | **کرانەوە**<br><sub>kiranewe</sub><br><sub>/k(ɯ)ɾaːnæwæ/</sub> | **نەکرانەوە**<br><sub>nekranewe</sub><br><sub>/nækɾaːnæwæ/</sub> | **دەکرانەوە**<br><sub>dekranewe</sub><br><sub>/dækɾaːnæwæ/</sub> | **نەدەکرانەوە**<br><sub>nedekranewe</sub><br><sub>/nædækɾaːnæwæ/</sub> |
-| 3pl | ئەوان | **کرانەوە**<br><sub>kiranewe</sub><br><sub>/k(ɯ)ɾaːnæwæ/</sub> | **نەکرانەوە**<br><sub>nekranewe</sub><br><sub>/nækɾaːnæwæ/</sub> | **دەکرانەوە**<br><sub>dekranewe</sub><br><sub>/dækɾaːnæwæ/</sub> | **نەدەکرانەوە**<br><sub>nedekranewe</sub><br><sub>/nædækɾaːnæwæ/</sub> |
+| 1sg | من | **کردرامەوە**<br><sub>kirdiramewe</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaːmæwæ/</sub> | **نەکرامەوە**<br><sub>nekramewe</sub><br><sub>/nækɾaːmæwæ/</sub> | **دەکرامەوە**<br><sub>dekramewe</sub><br><sub>/dækɾaːmæwæ/</sub> | **نەدەکرامەوە**<br><sub>nedekramewe</sub><br><sub>/nædækɾaːmæwæ/</sub> |
+| 2sg | تۆ | **کردرایتەوە**<br><sub>kirdiraytewe</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaːjtæwæ/</sub> | **نەکرایتەوە**<br><sub>nekraytewe</sub><br><sub>/nækɾaːjtæwæ/</sub> | **دەکرایتەوە**<br><sub>dekraytewe</sub><br><sub>/dækɾaːjtæwæ/</sub> | **نەدەکرایتەوە**<br><sub>nedekraytewe</sub><br><sub>/nædækɾaːjtæwæ/</sub> |
+| 3sg | ئەو | **کردرایەوە**<br><sub>kirdirayewe</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaːjæwæ/</sub> | **نەکرایەوە**<br><sub>nekrayewe</sub><br><sub>/nækɾaːjæwæ/</sub> | **دەکرایەوە**<br><sub>dekrayewe</sub><br><sub>/dækɾaːjæwæ/</sub> | **نەدەکرایەوە**<br><sub>nedekrayewe</sub><br><sub>/nædækɾaːjæwæ/</sub> |
+| 1pl | ئێمە | **کردراینەوە**<br><sub>kirdiraynewe</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaːjnæwæ/</sub> | **نەکراینەوە**<br><sub>nekraynewe</sub><br><sub>/nækɾaːjnæwæ/</sub> | **دەکراینەوە**<br><sub>dekraynewe</sub><br><sub>/dækɾaːjnæwæ/</sub> | **نەدەکراینەوە**<br><sub>nedekraynewe</sub><br><sub>/nædækɾaːjnæwæ/</sub> |
+| 2pl | ئێوە | **کردرانەوە**<br><sub>kirdiranewe</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaːnæwæ/</sub> | **نەکرانەوە**<br><sub>nekranewe</sub><br><sub>/nækɾaːnæwæ/</sub> | **دەکرانەوە**<br><sub>dekranewe</sub><br><sub>/dækɾaːnæwæ/</sub> | **نەدەکرانەوە**<br><sub>nedekranewe</sub><br><sub>/nædækɾaːnæwæ/</sub> |
+| 3pl | ئەوان | **کردرانەوە**<br><sub>kirdiranewe</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaːnæwæ/</sub> | **نەکرانەوە**<br><sub>nekranewe</sub><br><sub>/nækɾaːnæwæ/</sub> | **دەکرانەوە**<br><sub>dekranewe</sub><br><sub>/dækɾaːnæwæ/</sub> | **نەدەکرانەوە**<br><sub>nedekranewe</sub><br><sub>/nædækɾaːnæwæ/</sub> |
 
 ## Passive: perfect tenses
 

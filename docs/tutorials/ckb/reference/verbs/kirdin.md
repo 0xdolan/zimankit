@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **کرام**<br><sub>kiram</sub><br><sub>/k(ɯ)ɾaːm/</sub> | **نەکرام**<br><sub>nekram</sub><br><sub>/nækɾaːm/</sub> | **دەکرام**<br><sub>dekram</sub><br><sub>/dækɾaːm/</sub> | **نەدەکرام**<br><sub>nedekram</sub><br><sub>/nædækɾaːm/</sub> |
-| 2sg | تۆ | **کرایت**<br><sub>kirayt</sub><br><sub>/k(ɯ)ɾaːjt/</sub> | **نەکرایت**<br><sub>nekrayt</sub><br><sub>/nækɾaːjt/</sub> | **دەکرایت**<br><sub>dekrayt</sub><br><sub>/dækɾaːjt/</sub> | **نەدەکرایت**<br><sub>nedekrayt</sub><br><sub>/nædækɾaːjt/</sub> |
-| 3sg | ئەو | **کرا**<br><sub>kira</sub><br><sub>/k(ɯ)ɾaː/</sub> | **نەکرا**<br><sub>nekra</sub><br><sub>/nækɾaː/</sub> | **دەکرا**<br><sub>dekra</sub><br><sub>/dækɾaː/</sub> | **نەدەکرا**<br><sub>nedekra</sub><br><sub>/nædækɾaː/</sub> |
-| 1pl | ئێمە | **کراین**<br><sub>kirayn</sub><br><sub>/k(ɯ)ɾaːjn/</sub> | **نەکراین**<br><sub>nekrayn</sub><br><sub>/nækɾaːjn/</sub> | **دەکراین**<br><sub>dekrayn</sub><br><sub>/dækɾaːjn/</sub> | **نەدەکراین**<br><sub>nedekrayn</sub><br><sub>/nædækɾaːjn/</sub> |
-| 2pl | ئێوە | **کران**<br><sub>kiran</sub><br><sub>/k(ɯ)ɾaːn/</sub> | **نەکران**<br><sub>nekran</sub><br><sub>/nækɾaːn/</sub> | **دەکران**<br><sub>dekran</sub><br><sub>/dækɾaːn/</sub> | **نەدەکران**<br><sub>nedekran</sub><br><sub>/nædækɾaːn/</sub> |
-| 3pl | ئەوان | **کران**<br><sub>kiran</sub><br><sub>/k(ɯ)ɾaːn/</sub> | **نەکران**<br><sub>nekran</sub><br><sub>/nækɾaːn/</sub> | **دەکران**<br><sub>dekran</sub><br><sub>/dækɾaːn/</sub> | **نەدەکران**<br><sub>nedekran</sub><br><sub>/nædækɾaːn/</sub> |
+| 1sg | من | **کردرام**<br><sub>kirdiram</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaːm/</sub> | **نەکرام**<br><sub>nekram</sub><br><sub>/nækɾaːm/</sub> | **دەکرام**<br><sub>dekram</sub><br><sub>/dækɾaːm/</sub> | **نەدەکرام**<br><sub>nedekram</sub><br><sub>/nædækɾaːm/</sub> |
+| 2sg | تۆ | **کردرایت**<br><sub>kirdirayt</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaːjt/</sub> | **نەکرایت**<br><sub>nekrayt</sub><br><sub>/nækɾaːjt/</sub> | **دەکرایت**<br><sub>dekrayt</sub><br><sub>/dækɾaːjt/</sub> | **نەدەکرایت**<br><sub>nedekrayt</sub><br><sub>/nædækɾaːjt/</sub> |
+| 3sg | ئەو | **کردرا**<br><sub>kirdira</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaː/</sub> | **نەکرا**<br><sub>nekra</sub><br><sub>/nækɾaː/</sub> | **دەکرا**<br><sub>dekra</sub><br><sub>/dækɾaː/</sub> | **نەدەکرا**<br><sub>nedekra</sub><br><sub>/nædækɾaː/</sub> |
+| 1pl | ئێمە | **کردراین**<br><sub>kirdirayn</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaːjn/</sub> | **نەکراین**<br><sub>nekrayn</sub><br><sub>/nækɾaːjn/</sub> | **دەکراین**<br><sub>dekrayn</sub><br><sub>/dækɾaːjn/</sub> | **نەدەکراین**<br><sub>nedekrayn</sub><br><sub>/nædækɾaːjn/</sub> |
+| 2pl | ئێوە | **کردران**<br><sub>kirdiran</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaːn/</sub> | **نەکران**<br><sub>nekran</sub><br><sub>/nækɾaːn/</sub> | **دەکران**<br><sub>dekran</sub><br><sub>/dækɾaːn/</sub> | **نەدەکران**<br><sub>nedekran</sub><br><sub>/nædækɾaːn/</sub> |
+| 3pl | ئەوان | **کردران**<br><sub>kirdiran</sub><br><sub>/k(ɯ)ɾd(ɯ)ɾaːn/</sub> | **نەکران**<br><sub>nekran</sub><br><sub>/nækɾaːn/</sub> | **دەکران**<br><sub>dekran</sub><br><sub>/dækɾaːn/</sub> | **نەدەکران**<br><sub>nedekran</sub><br><sub>/nædækɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

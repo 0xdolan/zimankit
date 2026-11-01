@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **بینرام**<br><sub>bînram</sub><br><sub>/biːnɾaːm/</sub> | **نەبینرام**<br><sub>nebînram</sub><br><sub>/næbiːnɾaːm/</sub> | **دەبینرام**<br><sub>debînram</sub><br><sub>/dæbiːnɾaːm/</sub> | **نەدەبینرام**<br><sub>nedebînram</sub><br><sub>/nædæbiːnɾaːm/</sub> |
-| 2sg | تۆ | **بینرایت**<br><sub>bînrayt</sub><br><sub>/biːnɾaːjt/</sub> | **نەبینرایت**<br><sub>nebînrayt</sub><br><sub>/næbiːnɾaːjt/</sub> | **دەبینرایت**<br><sub>debînrayt</sub><br><sub>/dæbiːnɾaːjt/</sub> | **نەدەبینرایت**<br><sub>nedebînrayt</sub><br><sub>/nædæbiːnɾaːjt/</sub> |
-| 3sg | ئەو | **بینرا**<br><sub>bînra</sub><br><sub>/biːnɾaː/</sub> | **نەبینرا**<br><sub>nebînra</sub><br><sub>/næbiːnɾaː/</sub> | **دەبینرا**<br><sub>debînra</sub><br><sub>/dæbiːnɾaː/</sub> | **نەدەبینرا**<br><sub>nedebînra</sub><br><sub>/nædæbiːnɾaː/</sub> |
-| 1pl | ئێمە | **بینراین**<br><sub>bînrayn</sub><br><sub>/biːnɾaːjn/</sub> | **نەبینراین**<br><sub>nebînrayn</sub><br><sub>/næbiːnɾaːjn/</sub> | **دەبینراین**<br><sub>debînrayn</sub><br><sub>/dæbiːnɾaːjn/</sub> | **نەدەبینراین**<br><sub>nedebînrayn</sub><br><sub>/nædæbiːnɾaːjn/</sub> |
-| 2pl | ئێوە | **بینران**<br><sub>bînran</sub><br><sub>/biːnɾaːn/</sub> | **نەبینران**<br><sub>nebînran</sub><br><sub>/næbiːnɾaːn/</sub> | **دەبینران**<br><sub>debînran</sub><br><sub>/dæbiːnɾaːn/</sub> | **نەدەبینران**<br><sub>nedebînran</sub><br><sub>/nædæbiːnɾaːn/</sub> |
-| 3pl | ئەوان | **بینران**<br><sub>bînran</sub><br><sub>/biːnɾaːn/</sub> | **نەبینران**<br><sub>nebînran</sub><br><sub>/næbiːnɾaːn/</sub> | **دەبینران**<br><sub>debînran</sub><br><sub>/dæbiːnɾaːn/</sub> | **نەدەبینران**<br><sub>nedebînran</sub><br><sub>/nædæbiːnɾaːn/</sub> |
+| 1sg | من | **دیترام**<br><sub>dîtram</sub><br><sub>/diːtɾaːm/</sub> | **نەبینرام**<br><sub>nebînram</sub><br><sub>/næbiːnɾaːm/</sub> | **دەبینرام**<br><sub>debînram</sub><br><sub>/dæbiːnɾaːm/</sub> | **نەدەبینرام**<br><sub>nedebînram</sub><br><sub>/nædæbiːnɾaːm/</sub> |
+| 2sg | تۆ | **دیترایت**<br><sub>dîtrayt</sub><br><sub>/diːtɾaːjt/</sub> | **نەبینرایت**<br><sub>nebînrayt</sub><br><sub>/næbiːnɾaːjt/</sub> | **دەبینرایت**<br><sub>debînrayt</sub><br><sub>/dæbiːnɾaːjt/</sub> | **نەدەبینرایت**<br><sub>nedebînrayt</sub><br><sub>/nædæbiːnɾaːjt/</sub> |
+| 3sg | ئەو | **دیترا**<br><sub>dîtra</sub><br><sub>/diːtɾaː/</sub> | **نەبینرا**<br><sub>nebînra</sub><br><sub>/næbiːnɾaː/</sub> | **دەبینرا**<br><sub>debînra</sub><br><sub>/dæbiːnɾaː/</sub> | **نەدەبینرا**<br><sub>nedebînra</sub><br><sub>/nædæbiːnɾaː/</sub> |
+| 1pl | ئێمە | **دیتراین**<br><sub>dîtrayn</sub><br><sub>/diːtɾaːjn/</sub> | **نەبینراین**<br><sub>nebînrayn</sub><br><sub>/næbiːnɾaːjn/</sub> | **دەبینراین**<br><sub>debînrayn</sub><br><sub>/dæbiːnɾaːjn/</sub> | **نەدەبینراین**<br><sub>nedebînrayn</sub><br><sub>/nædæbiːnɾaːjn/</sub> |
+| 2pl | ئێوە | **دیتران**<br><sub>dîtran</sub><br><sub>/diːtɾaːn/</sub> | **نەبینران**<br><sub>nebînran</sub><br><sub>/næbiːnɾaːn/</sub> | **دەبینران**<br><sub>debînran</sub><br><sub>/dæbiːnɾaːn/</sub> | **نەدەبینران**<br><sub>nedebînran</sub><br><sub>/nædæbiːnɾaːn/</sub> |
+| 3pl | ئەوان | **دیتران**<br><sub>dîtran</sub><br><sub>/diːtɾaːn/</sub> | **نەبینران**<br><sub>nebînran</sub><br><sub>/næbiːnɾaːn/</sub> | **دەبینران**<br><sub>debînran</sub><br><sub>/dæbiːnɾaːn/</sub> | **نەدەبینران**<br><sub>nedebînran</sub><br><sub>/nædæbiːnɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

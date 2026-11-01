@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **گەیەنرام**<br><sub>geyenram</sub><br><sub>/ɡæjænɾaːm/</sub> | **نەگەیەنرام**<br><sub>negeyenram</sub><br><sub>/næɡæjænɾaːm/</sub> | **دەگەیەنرام**<br><sub>degeyenram</sub><br><sub>/dæɡæjænɾaːm/</sub> | **نەدەگەیەنرام**<br><sub>nedegeyenram</sub><br><sub>/nædæɡæjænɾaːm/</sub> |
-| 2sg | تۆ | **گەیەنرایت**<br><sub>geyenrayt</sub><br><sub>/ɡæjænɾaːjt/</sub> | **نەگەیەنرایت**<br><sub>negeyenrayt</sub><br><sub>/næɡæjænɾaːjt/</sub> | **دەگەیەنرایت**<br><sub>degeyenrayt</sub><br><sub>/dæɡæjænɾaːjt/</sub> | **نەدەگەیەنرایت**<br><sub>nedegeyenrayt</sub><br><sub>/nædæɡæjænɾaːjt/</sub> |
-| 3sg | ئەو | **گەیەنرا**<br><sub>geyenra</sub><br><sub>/ɡæjænɾaː/</sub> | **نەگەیەنرا**<br><sub>negeyenra</sub><br><sub>/næɡæjænɾaː/</sub> | **دەگەیەنرا**<br><sub>degeyenra</sub><br><sub>/dæɡæjænɾaː/</sub> | **نەدەگەیەنرا**<br><sub>nedegeyenra</sub><br><sub>/nædæɡæjænɾaː/</sub> |
-| 1pl | ئێمە | **گەیەنراین**<br><sub>geyenrayn</sub><br><sub>/ɡæjænɾaːjn/</sub> | **نەگەیەنراین**<br><sub>negeyenrayn</sub><br><sub>/næɡæjænɾaːjn/</sub> | **دەگەیەنراین**<br><sub>degeyenrayn</sub><br><sub>/dæɡæjænɾaːjn/</sub> | **نەدەگەیەنراین**<br><sub>nedegeyenrayn</sub><br><sub>/nædæɡæjænɾaːjn/</sub> |
-| 2pl | ئێوە | **گەیەنران**<br><sub>geyenran</sub><br><sub>/ɡæjænɾaːn/</sub> | **نەگەیەنران**<br><sub>negeyenran</sub><br><sub>/næɡæjænɾaːn/</sub> | **دەگەیەنران**<br><sub>degeyenran</sub><br><sub>/dæɡæjænɾaːn/</sub> | **نەدەگەیەنران**<br><sub>nedegeyenran</sub><br><sub>/nædæɡæjænɾaːn/</sub> |
-| 3pl | ئەوان | **گەیەنران**<br><sub>geyenran</sub><br><sub>/ɡæjænɾaːn/</sub> | **نەگەیەنران**<br><sub>negeyenran</sub><br><sub>/næɡæjænɾaːn/</sub> | **دەگەیەنران**<br><sub>degeyenran</sub><br><sub>/dæɡæjænɾaːn/</sub> | **نەدەگەیەنران**<br><sub>nedegeyenran</sub><br><sub>/nædæɡæjænɾaːn/</sub> |
+| 1sg | من | **گەیاندرام**<br><sub>geyandram</sub><br><sub>/ɡæjaːndɾaːm/</sub> | **نەگەیەنرام**<br><sub>negeyenram</sub><br><sub>/næɡæjænɾaːm/</sub> | **دەگەیەنرام**<br><sub>degeyenram</sub><br><sub>/dæɡæjænɾaːm/</sub> | **نەدەگەیەنرام**<br><sub>nedegeyenram</sub><br><sub>/nædæɡæjænɾaːm/</sub> |
+| 2sg | تۆ | **گەیاندرایت**<br><sub>geyandrayt</sub><br><sub>/ɡæjaːndɾaːjt/</sub> | **نەگەیەنرایت**<br><sub>negeyenrayt</sub><br><sub>/næɡæjænɾaːjt/</sub> | **دەگەیەنرایت**<br><sub>degeyenrayt</sub><br><sub>/dæɡæjænɾaːjt/</sub> | **نەدەگەیەنرایت**<br><sub>nedegeyenrayt</sub><br><sub>/nædæɡæjænɾaːjt/</sub> |
+| 3sg | ئەو | **گەیاندرا**<br><sub>geyandra</sub><br><sub>/ɡæjaːndɾaː/</sub> | **نەگەیەنرا**<br><sub>negeyenra</sub><br><sub>/næɡæjænɾaː/</sub> | **دەگەیەنرا**<br><sub>degeyenra</sub><br><sub>/dæɡæjænɾaː/</sub> | **نەدەگەیەنرا**<br><sub>nedegeyenra</sub><br><sub>/nædæɡæjænɾaː/</sub> |
+| 1pl | ئێمە | **گەیاندراین**<br><sub>geyandrayn</sub><br><sub>/ɡæjaːndɾaːjn/</sub> | **نەگەیەنراین**<br><sub>negeyenrayn</sub><br><sub>/næɡæjænɾaːjn/</sub> | **دەگەیەنراین**<br><sub>degeyenrayn</sub><br><sub>/dæɡæjænɾaːjn/</sub> | **نەدەگەیەنراین**<br><sub>nedegeyenrayn</sub><br><sub>/nædæɡæjænɾaːjn/</sub> |
+| 2pl | ئێوە | **گەیاندران**<br><sub>geyandran</sub><br><sub>/ɡæjaːndɾaːn/</sub> | **نەگەیەنران**<br><sub>negeyenran</sub><br><sub>/næɡæjænɾaːn/</sub> | **دەگەیەنران**<br><sub>degeyenran</sub><br><sub>/dæɡæjænɾaːn/</sub> | **نەدەگەیەنران**<br><sub>nedegeyenran</sub><br><sub>/nædæɡæjænɾaːn/</sub> |
+| 3pl | ئەوان | **گەیاندران**<br><sub>geyandran</sub><br><sub>/ɡæjaːndɾaːn/</sub> | **نەگەیەنران**<br><sub>negeyenran</sub><br><sub>/næɡæjænɾaːn/</sub> | **دەگەیەنران**<br><sub>degeyenran</sub><br><sub>/dæɡæjænɾaːn/</sub> | **نەدەگەیەنران**<br><sub>nedegeyenran</sub><br><sub>/nædæɡæjænɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

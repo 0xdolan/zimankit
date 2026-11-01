@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **شکێنرام**<br><sub>şkênram</sub><br><sub>/ʃkeːnɾaːm/</sub> | **نەشکێنرام**<br><sub>neşkênram</sub><br><sub>/næʃkeːnɾaːm/</sub> | **دەشکێنرام**<br><sub>deşkênram</sub><br><sub>/dæʃkeːnɾaːm/</sub> | **نەدەشکێنرام**<br><sub>nedeşkênram</sub><br><sub>/nædæʃkeːnɾaːm/</sub> |
-| 2sg | تۆ | **شکێنرایت**<br><sub>şkênrayt</sub><br><sub>/ʃkeːnɾaːjt/</sub> | **نەشکێنرایت**<br><sub>neşkênrayt</sub><br><sub>/næʃkeːnɾaːjt/</sub> | **دەشکێنرایت**<br><sub>deşkênrayt</sub><br><sub>/dæʃkeːnɾaːjt/</sub> | **نەدەشکێنرایت**<br><sub>nedeşkênrayt</sub><br><sub>/nædæʃkeːnɾaːjt/</sub> |
-| 3sg | ئەو | **شکێنرا**<br><sub>şkênra</sub><br><sub>/ʃkeːnɾaː/</sub> | **نەشکێنرا**<br><sub>neşkênra</sub><br><sub>/næʃkeːnɾaː/</sub> | **دەشکێنرا**<br><sub>deşkênra</sub><br><sub>/dæʃkeːnɾaː/</sub> | **نەدەشکێنرا**<br><sub>nedeşkênra</sub><br><sub>/nædæʃkeːnɾaː/</sub> |
-| 1pl | ئێمە | **شکێنراین**<br><sub>şkênrayn</sub><br><sub>/ʃkeːnɾaːjn/</sub> | **نەشکێنراین**<br><sub>neşkênrayn</sub><br><sub>/næʃkeːnɾaːjn/</sub> | **دەشکێنراین**<br><sub>deşkênrayn</sub><br><sub>/dæʃkeːnɾaːjn/</sub> | **نەدەشکێنراین**<br><sub>nedeşkênrayn</sub><br><sub>/nædæʃkeːnɾaːjn/</sub> |
-| 2pl | ئێوە | **شکێنران**<br><sub>şkênran</sub><br><sub>/ʃkeːnɾaːn/</sub> | **نەشکێنران**<br><sub>neşkênran</sub><br><sub>/næʃkeːnɾaːn/</sub> | **دەشکێنران**<br><sub>deşkênran</sub><br><sub>/dæʃkeːnɾaːn/</sub> | **نەدەشکێنران**<br><sub>nedeşkênran</sub><br><sub>/nædæʃkeːnɾaːn/</sub> |
-| 3pl | ئەوان | **شکێنران**<br><sub>şkênran</sub><br><sub>/ʃkeːnɾaːn/</sub> | **نەشکێنران**<br><sub>neşkênran</sub><br><sub>/næʃkeːnɾaːn/</sub> | **دەشکێنران**<br><sub>deşkênran</sub><br><sub>/dæʃkeːnɾaːn/</sub> | **نەدەشکێنران**<br><sub>nedeşkênran</sub><br><sub>/nædæʃkeːnɾaːn/</sub> |
+| 1sg | من | **شکاندرام**<br><sub>şkandram</sub><br><sub>/ʃkaːndɾaːm/</sub> | **نەشکێنرام**<br><sub>neşkênram</sub><br><sub>/næʃkeːnɾaːm/</sub> | **دەشکێنرام**<br><sub>deşkênram</sub><br><sub>/dæʃkeːnɾaːm/</sub> | **نەدەشکێنرام**<br><sub>nedeşkênram</sub><br><sub>/nædæʃkeːnɾaːm/</sub> |
+| 2sg | تۆ | **شکاندرایت**<br><sub>şkandrayt</sub><br><sub>/ʃkaːndɾaːjt/</sub> | **نەشکێنرایت**<br><sub>neşkênrayt</sub><br><sub>/næʃkeːnɾaːjt/</sub> | **دەشکێنرایت**<br><sub>deşkênrayt</sub><br><sub>/dæʃkeːnɾaːjt/</sub> | **نەدەشکێنرایت**<br><sub>nedeşkênrayt</sub><br><sub>/nædæʃkeːnɾaːjt/</sub> |
+| 3sg | ئەو | **شکاندرا**<br><sub>şkandra</sub><br><sub>/ʃkaːndɾaː/</sub> | **نەشکێنرا**<br><sub>neşkênra</sub><br><sub>/næʃkeːnɾaː/</sub> | **دەشکێنرا**<br><sub>deşkênra</sub><br><sub>/dæʃkeːnɾaː/</sub> | **نەدەشکێنرا**<br><sub>nedeşkênra</sub><br><sub>/nædæʃkeːnɾaː/</sub> |
+| 1pl | ئێمە | **شکاندراین**<br><sub>şkandrayn</sub><br><sub>/ʃkaːndɾaːjn/</sub> | **نەشکێنراین**<br><sub>neşkênrayn</sub><br><sub>/næʃkeːnɾaːjn/</sub> | **دەشکێنراین**<br><sub>deşkênrayn</sub><br><sub>/dæʃkeːnɾaːjn/</sub> | **نەدەشکێنراین**<br><sub>nedeşkênrayn</sub><br><sub>/nædæʃkeːnɾaːjn/</sub> |
+| 2pl | ئێوە | **شکاندران**<br><sub>şkandran</sub><br><sub>/ʃkaːndɾaːn/</sub> | **نەشکێنران**<br><sub>neşkênran</sub><br><sub>/næʃkeːnɾaːn/</sub> | **دەشکێنران**<br><sub>deşkênran</sub><br><sub>/dæʃkeːnɾaːn/</sub> | **نەدەشکێنران**<br><sub>nedeşkênran</sub><br><sub>/nædæʃkeːnɾaːn/</sub> |
+| 3pl | ئەوان | **شکاندران**<br><sub>şkandran</sub><br><sub>/ʃkaːndɾaːn/</sub> | **نەشکێنران**<br><sub>neşkênran</sub><br><sub>/næʃkeːnɾaːn/</sub> | **دەشکێنران**<br><sub>deşkênran</sub><br><sub>/dæʃkeːnɾaːn/</sub> | **نەدەشکێنران**<br><sub>nedeşkênran</sub><br><sub>/nædæʃkeːnɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

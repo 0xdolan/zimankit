@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **خرام**<br><sub>xiram</sub><br><sub>/x(ɯ)ɾaːm/</sub> | **نەخرام**<br><sub>nexram</sub><br><sub>/næxɾaːm/</sub> | **دەخرام**<br><sub>dexram</sub><br><sub>/dæxɾaːm/</sub> | **نەدەخرام**<br><sub>nedexram</sub><br><sub>/nædæxɾaːm/</sub> |
-| 2sg | تۆ | **خرایت**<br><sub>xirayt</sub><br><sub>/x(ɯ)ɾaːjt/</sub> | **نەخرایت**<br><sub>nexrayt</sub><br><sub>/næxɾaːjt/</sub> | **دەخرایت**<br><sub>dexrayt</sub><br><sub>/dæxɾaːjt/</sub> | **نەدەخرایت**<br><sub>nedexrayt</sub><br><sub>/nædæxɾaːjt/</sub> |
-| 3sg | ئەو | **خرا**<br><sub>xira</sub><br><sub>/x(ɯ)ɾaː/</sub> | **نەخرا**<br><sub>nexra</sub><br><sub>/næxɾaː/</sub> | **دەخرا**<br><sub>dexra</sub><br><sub>/dæxɾaː/</sub> | **نەدەخرا**<br><sub>nedexra</sub><br><sub>/nædæxɾaː/</sub> |
-| 1pl | ئێمە | **خراین**<br><sub>xirayn</sub><br><sub>/x(ɯ)ɾaːjn/</sub> | **نەخراین**<br><sub>nexrayn</sub><br><sub>/næxɾaːjn/</sub> | **دەخراین**<br><sub>dexrayn</sub><br><sub>/dæxɾaːjn/</sub> | **نەدەخراین**<br><sub>nedexrayn</sub><br><sub>/nædæxɾaːjn/</sub> |
-| 2pl | ئێوە | **خران**<br><sub>xiran</sub><br><sub>/x(ɯ)ɾaːn/</sub> | **نەخران**<br><sub>nexran</sub><br><sub>/næxɾaːn/</sub> | **دەخران**<br><sub>dexran</sub><br><sub>/dæxɾaːn/</sub> | **نەدەخران**<br><sub>nedexran</sub><br><sub>/nædæxɾaːn/</sub> |
-| 3pl | ئەوان | **خران**<br><sub>xiran</sub><br><sub>/x(ɯ)ɾaːn/</sub> | **نەخران**<br><sub>nexran</sub><br><sub>/næxɾaːn/</sub> | **دەخران**<br><sub>dexran</sub><br><sub>/dæxɾaːn/</sub> | **نەدەخران**<br><sub>nedexran</sub><br><sub>/nædæxɾaːn/</sub> |
+| 1sg | من | **خسترام**<br><sub>xistiram</sub><br><sub>/x(ɯ)st(ɯ)ɾaːm/</sub> | **نەخرام**<br><sub>nexram</sub><br><sub>/næxɾaːm/</sub> | **دەخرام**<br><sub>dexram</sub><br><sub>/dæxɾaːm/</sub> | **نەدەخرام**<br><sub>nedexram</sub><br><sub>/nædæxɾaːm/</sub> |
+| 2sg | تۆ | **خسترایت**<br><sub>xistirayt</sub><br><sub>/x(ɯ)st(ɯ)ɾaːjt/</sub> | **نەخرایت**<br><sub>nexrayt</sub><br><sub>/næxɾaːjt/</sub> | **دەخرایت**<br><sub>dexrayt</sub><br><sub>/dæxɾaːjt/</sub> | **نەدەخرایت**<br><sub>nedexrayt</sub><br><sub>/nædæxɾaːjt/</sub> |
+| 3sg | ئەو | **خسترا**<br><sub>xistira</sub><br><sub>/x(ɯ)st(ɯ)ɾaː/</sub> | **نەخرا**<br><sub>nexra</sub><br><sub>/næxɾaː/</sub> | **دەخرا**<br><sub>dexra</sub><br><sub>/dæxɾaː/</sub> | **نەدەخرا**<br><sub>nedexra</sub><br><sub>/nædæxɾaː/</sub> |
+| 1pl | ئێمە | **خستراین**<br><sub>xistirayn</sub><br><sub>/x(ɯ)st(ɯ)ɾaːjn/</sub> | **نەخراین**<br><sub>nexrayn</sub><br><sub>/næxɾaːjn/</sub> | **دەخراین**<br><sub>dexrayn</sub><br><sub>/dæxɾaːjn/</sub> | **نەدەخراین**<br><sub>nedexrayn</sub><br><sub>/nædæxɾaːjn/</sub> |
+| 2pl | ئێوە | **خستران**<br><sub>xistiran</sub><br><sub>/x(ɯ)st(ɯ)ɾaːn/</sub> | **نەخران**<br><sub>nexran</sub><br><sub>/næxɾaːn/</sub> | **دەخران**<br><sub>dexran</sub><br><sub>/dæxɾaːn/</sub> | **نەدەخران**<br><sub>nedexran</sub><br><sub>/nædæxɾaːn/</sub> |
+| 3pl | ئەوان | **خستران**<br><sub>xistiran</sub><br><sub>/x(ɯ)st(ɯ)ɾaːn/</sub> | **نەخران**<br><sub>nexran</sub><br><sub>/næxɾaːn/</sub> | **دەخران**<br><sub>dexran</sub><br><sub>/dæxɾaːn/</sub> | **نەدەخران**<br><sub>nedexran</sub><br><sub>/nædæxɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

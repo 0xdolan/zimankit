@@ -107,4 +107,28 @@ Every verb below is conjugated in full on its own page: all tenses, moods, negat
 | [**پێکهاتن**](pekhatin.md) | pêkhatin | to consist of, to be formed | intransitive | پێکدێم | پێکهات |
 | [**بەکارهێنان**](bekarhenan.md) | bekarhênan | to use | transitive | بەکاردەهێنم | بەکاریهێنا |
 | [**دەستپێکردن**](destpekridin.md) | destpêkridin | to begin | transitive | دەستپێدەکەم | دەستپێیکرد |
+| [**نان**](nan.md) | nan | bread | transitive | دەنێم | نای |
+| [**پاڵاوتن**](pallawtin.md) | pallawtin | to filter | transitive | دەپاڵێوم | پاڵاوتی |
+| [**سرەوتن**](sirewtin.md) | sirewtin | to calm down | intransitive | دەسرەوم | سرەوت |
+| [**خواستن**](xwastin.md) | xwastin | to ask for | transitive | دەخوازم | خواستی |
+| [**گواستن**](gwastin.md) | gwastin | to carry, to move | transitive | دەگوێزم | گواستی |
+| [**ڕستن**](ristin.md) | ristin | to spin | transitive | دەڕێسم | ڕستی |
+| [**ناشتن**](nastin.md) | naştin | to bury, to plant | transitive | دەنێژم | ناشتی |
+| [**هاوێشتن**](hawestin.md) | hawêştin | to throw | transitive | دەهاوێم | هاوێشتی |
+| [**ڤەشارتن**](vesartin.md) | veşartin | to hide | transitive | دەڤەشێرم | ڤەشارتی |
+| [**سەندن**](sendin.md) | sendin | to take | transitive | دەسێنم | سەندی |
+| [**گەستن**](gestin.md) | gestin | to bite | transitive | دەگەزم | گەستی |
+| [**کڕۆشتن**](kirrostin.md) | kirroştin | to gnaw | transitive | دەکڕۆژم | کڕۆشتی |
+| [**دروون**](dirun.md) | dirûn | to sew | transitive | دەدرووم | درووی |
+| [**سوون**](sun.md) | sûn | to rub | transitive | دەسووم | سووی |
+| [**جوون**](cun.md) | cûn | to chew | transitive | دەجووم | جووی |
+| [**شیان**](syan.md) | şyan | to be worthy | intransitive | دەشێم | شیا |
+| [**زان**](zan.md) | zan | to give birth | intransitive | دەزێم | زا |
+| [**برژان**](birjan.md) | birjan | to be roasted | intransitive | دەبرژێم | برژا |
+| [**فەوتان**](fewtan.md) | fewtan | to perish | intransitive | دەفەوتێم | فەوتا |
+| [**دڕان**](dirran.md) | dirran | to tear (intr.) | intransitive | دەدڕێم | دڕا |
+| [**سڕان**](sirran.md) | sirran | to go numb | intransitive | دەسڕێم | سڕا |
+| [**شنین**](sinin.md) | şinîn | to blow gently | intransitive | دەشنێم | شنی |
+| [**ڕۆشتن**](rostin.md) | roştin | to go | intransitive | دەڕۆم | ڕۆشت |
+| [**دانان**](danan.md) | danan | to put down | transitive | دادەنێم | داینا |
 <!-- /gen -->

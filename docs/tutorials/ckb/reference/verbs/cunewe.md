@@ -107,8 +107,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بڕۆوە**<br><sub>birrowe</sub><br><sub>/b(ɯ)roːwæ/</sub> | **مەچەوە**<br><sub>meçewe</sub><br><sub>/mætʃæwæ/</sub> |
-| 2pl | ئێوە | **بڕۆنەوە**<br><sub>birronewe</sub><br><sub>/b(ɯ)roːnæwæ/</sub> | **مەچنەوە**<br><sub>meçnewe</sub><br><sub>/mætʃnæwæ/</sub> |
+| 2sg | تۆ | **بچۆوە**<br><sub>biçowe</sub><br><sub>/b(ɯ)tʃoːwæ/</sub> | **مەچۆوە**<br><sub>meçowe</sub><br><sub>/mætʃoːwæ/</sub> |
+| 2pl | ئێوە | **بچنەوە**<br><sub>biçnewe</sub><br><sub>/b(ɯ)tʃnæwæ/</sub> | **مەچنەوە**<br><sub>meçnewe</sub><br><sub>/mætʃnæwæ/</sub> |
 
 ## Other forms
 

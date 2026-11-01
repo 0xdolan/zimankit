@@ -107,8 +107,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **وەرەوە**<br><sub>werewe</sub><br><sub>/wæɾæwæ/</sub> | **مەیەوە**<br><sub>meyewe</sub><br><sub>/mæjæwæ/</sub> |
-| 2pl | ئێوە | **وەرنەوە**<br><sub>wernewe</sub><br><sub>/wæɾnæwæ/</sub> | **مەیەنەوە**<br><sub>meyenewe</sub><br><sub>/mæjænæwæ/</sub> |
+| 2sg | تۆ | **وەرەوە**<br><sub>werewe</sub><br><sub>/wæɾæwæ/</sub> | **مەیێوە**<br><sub>meyêwe</sub><br><sub>/mæjeːwæ/</sub> |
+| 2pl | ئێوە | **وەرنەوە**<br><sub>wernewe</sub><br><sub>/wæɾnæwæ/</sub> | **مەیێنەوە**<br><sub>meyênewe</sub><br><sub>/mæjeːnæwæ/</sub> |
 
 ## Other forms
 

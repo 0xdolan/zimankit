@@ -68,7 +68,7 @@ grapheme,lemma,pos,ipa,morph_meta,translit,frequency,sources,confidence
 بۆیە,بۆیە,ADV,boːjæ,"{""seg"":""بۆیە""}",boye,107647,"bilingual,core,dictionary,encyclopedia,news,web",1.0
 هەرێم,هەرێم,NOUN,hæɾeːm,"{""seg"":""هەرێم""}",herêm,107334,"bilingual,dictionary,encyclopedia,news,web",0.55
 تر,تر,ADJ,t(ɯ)ɾ,"{""prontype"":""ind"",""seg"":""تر""}",tir,105364,"bilingual,core,dictionary,encyclopedia,news,web",1.0
-ناو,ناو,NOUN,naːw,"{""seg"":""ناو""}",naw,103691,"bilingual,dictionary,encyclopedia,lexicon,news,web",1.0
+ناو,نان,VERB,naːw,"{""form"":""past_participle"",""seg"":""ناو"",""transitivity"":""transitive""}",naw,103691,"core,dictionary,encyclopedia,news,web",1.0
 ئێران,ئێران,NOUN,ʔeːɾaːn,"{""seg"":""ئێران""}",êran,101902,"bilingual,dictionary,encyclopedia,lexicon,news,web",1.0
 کوردی,کوردی,NOUN,kuɾdiː,"{""seg"":""کوردی""}",kurdî,101590,"bilingual,dictionary,encyclopedia,lexicon,news,web",1.0
 پارتی,پارتی,NOUN,paːɾtiː,"{""seg"":""پارتی""}",partî,101437,"bilingual,dictionary,encyclopedia,news,web",0.55
@@ -173,7 +173,7 @@ grapheme,lemma,pos,ipa,morph_meta,translit,frequency,sources,confidence
 بن,بن,NOUN,b(ɯ)n,"{""seg"":""بن""}",bin,51121,"bilingual,dictionary,encyclopedia,news,web",0.55
 ئاماژەی,ئاماژە,NOUN,ʔaːmaːʒæj,"{""enclitic"":""3sg|ezafe"",""seg"":""ئاماژە+ی""}",amajey,51103,"dictionary,encyclopedia,news,web",0.45
 کاتی,کات,NOUN,kaːtiː,"{""enclitic"":""3sg|ezafe"",""seg"":""کات+ی""}",katî,50695,"bilingual,dictionary,encyclopedia,news,web",0.6
-بارزانی,بارزانی,NOUN,baːɾzaːniː,"{""compound"":""zero"",""seg"":""بار+زانی""}",barzanî,50624,"corpus,encyclopedia,news,web",0.4
+بارزانی,بار,NOUN,baːɾzaːniː,"{""derivation"":""logy"",""seg"":""بار+زانی""}",barzanî,50624,"encyclopedia,news,web",0.45
 گەلی,گەلی,NOUN,ɡæliː,"{""seg"":""گەلی""}",gelî,50528,"bilingual,dictionary,encyclopedia,lexicon,news,web",1.0
 ناوچەی,ناوچە,NOUN,naːwtʃæj,"{""enclitic"":""3sg|ezafe"",""seg"":""ناوچە+ی""}",nawçey,50264,"bilingual,dictionary,encyclopedia,news,web",0.6
 بکەین,کردن,VERB,b(ɯ)kæjn,"{""mood"":""subjunctive"",""person"":""1pl"",""seg"":""بکەین"",""tense"":""present"",""transitivity"":""transitive""}",bikeyn,50222,"core,encyclopedia,news,web",1.0

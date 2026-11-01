@@ -101,6 +101,8 @@ SLOTS: tuple[tuple[str, tuple[Affix, ...]], ...] = (
         _a("ێک", "INDEF", "C", "NOUN", definite="ind", number="sg"),
         _a("یەک", "INDEF", "V", "NOUN", definite="ind", number="sg"),
         _a("یێک", "INDEF", "V", "NOUN", definite="ind", number="sg"),
+        _a("ێکە", "DEF.SG", "C", "NOUN", definite="def", number="sg"),  # ماسێکە: the ی of ماسی contracts
+        _a("ێکان", "DEF.PL", "C", "NOUN", definite="def", number="pl"),
         _a("ەک", "INDEF", "C", "NOUN", definite="ind", number="sg"),
         _a("ان", "PL", "C", "NOUN", number="pl"),
         _a("یان", "PL", "V", "NOUN", number="pl"),
@@ -116,6 +118,19 @@ SLOTS: tuple[tuple[str, tuple[Affix, ...]], ...] = (
         _a("یەتی", "ABST", None, "NOUN", derivation="abstract"),
         _a("ێتی", "ABST", "C", "NOUN", derivation="abstract"),
         _a("انە", "ADVZ", None, "ADV", derivation="adverbial"),
+        _a("انە", "PL+E", "C", "NOUN", number="pl", copula="dem"),  # ئەو پیاوانە
+        _a("زانی", "SCIENCE", None, "NOUN", derivation="logy"),  # زیندەزانی
+        _a("ناسی", "SCIENCE", None, "NOUN", derivation="nomy"),  # ئەستێرەناسی
+        _a("خانە", "PLACE", None, "NOUN", derivation="place"),
+        _a("گەر", "AGENT", None, "NOUN", derivation="agent"),  # ئاسنگەر
+        _a("چی", "AGENT", None, "NOUN", derivation="agent"),  # ڕاوچی
+        _a("وان", "AGENT", None, "NOUN", derivation="agent"),  # باخەوان
+        _a("ساز", "AGENT", None, "NOUN", derivation="agent"),
+        _a("مەند", "POSSR", None, "ADJ", derivation="possessor"),
+        _a("ناک", "POSSR", None, "ADJ", derivation="possessor"),
+        _a("ۆکە", "DIM", None, "NOUN", derivation="diminutive"),
+        _a("ۆڵە", "DIM", None, "NOUN", derivation="diminutive"),
+        _a("یلە", "DIM", None, "NOUN", derivation="diminutive"),
         _a("ستان", "PLACE", None, "NOUN", derivation="place"),
         _a("کار", "AGENT", None, "NOUN", derivation="agent"),
         _a("دار", "POSSR", None, "ADJ", derivation="possessor"),
@@ -127,7 +142,8 @@ SLOTS: tuple[tuple[str, tuple[Affix, ...]], ...] = (
 PROCLITICS = (("لە", "PREP.LE"), ("بە", "PREP.BE"), ("بۆ", "PREP.BO"))
 DERIV_PREFIXES = (("بێ", "PRIV"), ("نا", "NEG"), ("هاو", "CO"))  # بێکار, نادیار, هاوکار
 INTERFIXES = ("ەو", "او", "بە", "ە", "و", "")  # compound linkers: گوڵ+ە+گەنم, دەم+و+چاو
-FULL_SCORE_WORDS = frozenset({"تر", "دیکە"})  # adjectives that inflect like any other: تریش, دیکەوە
+FULL_SCORE_WORDS = frozenset({"تر", "دیکە", "برا"})  # they inflect like any other word: تریش, دیکەوە, براکەم
+DERIVED_TAGS = ("NISBA", "ABST", "ADVZ", "PLACE", "AGENT", "POSSR", "SCIENCE", "DIM")
 CLITIC_ADPOSITIONS = frozenset({"پێ", "لێ", "تێ", "بۆ"})  # پێم, لێی, بۆمان
 ENCLITIC_TAGS = frozenset({"1SG", "2SG", "3SG/EZ", "1PL", "2PL", "3PL"})
 POS_PRIORITY = ("VERB", "NOUN", "PROPN", "ADJ", "ADV", "PRON", "NUM", "ADP", "CCONJ", "SCONJ", "DET", "PART", "INTJ")
@@ -225,6 +241,11 @@ def _peel(word: str, slot: int, segs: list[tuple[str, str, Affix]], out: list) -
             _peel(stem, i + 1, [(af.form, af.tag, af)] + segs, out)
 
 
+def lemma_seg(word: str, lemma: str, segs: list) -> str:
+    """The stem as written in *word*: the lemma may have recovered a letter the surface form lacks."""
+    return word[: len(word) - sum(len(f) for f, _, _ in segs)] if segs else lemma
+
+
 class CkbAnalyzer:
     """Rank-ordered morphological analyses for Central Kurdish tokens."""
 
@@ -260,9 +281,15 @@ class CkbAnalyzer:
                 if len(form) == 1 and prev_slot == "NUMDEF":
                     score += 0.6  # ەکە+م, ەکان+ی: enclitic after a definite suffix
                 prev_slot = next(n for n, afs in SLOTS if af in afs)
-                if af.tag in ("NISBA", "ABST", "ADVZ") and stem not in self.lexicon:
+                if af.tag in ("NISBA", "ABST", "ADVZ", "SCIENCE", "DIM") and stem not in self.lexicon:
                     score -= 1.5
-                if af.tag in ("NISBA", "ABST", "ADVZ", "PLACE", "AGENT", "POSSR") and stem in self.fw:
+                if af.form in ("گەر", "چی", "وان", "ساز", "مەند", "ناک", "خانە") and stem not in self.lexicon:
+                    score -= 3.0  # short and easily accidental
+                if af.tag in ("AGENT", "POSSR", "DIM", "SCIENCE") and af.form != "کار" and af.form != "دار" and len(stem) < 3:
+                    score -= 12.0  # سە+یلە+م is not a diminutive
+                if af.form in ("ێکە", "ێکان") and stem + "ی" not in self.lexicon:
+                    score -= 12.0  # پیاوێکە is پیاو+ێک+ە
+                if af.tag in DERIVED_TAGS and stem in self.fw:
                     score -= 6.0  # بێ+کار is the prefix, not a preposition with an agent suffix
                 inner = stem + "".join(s[0] for s in segs[: segs.index((form, tag, af)) + 1])
                 if prev_slot in ("DERIV", "PL0") and inner in self.lexicon:
@@ -285,6 +312,12 @@ class CkbAnalyzer:
                     score -= 12.0  # a verb is a verb: بووە, کردە, نیشاندام
                 feats.update(dict(af.features))
                 pos_hint = pos_hint or af.pos_hint
+            # the listed word behind a changed stem: ماس+ێکە is ماسی, پەنجەر+ان is پەنجەرە
+            if any(f in ("ێکە", "ێکان") for f, _, _ in segs) and stem + "ی" in self.lexicon:
+                stem += "ی"
+            elif stem not in self.lexicon and stem + "ە" in self.lexicon and any(t == "PL" for _, t, _ in segs):
+                score += self._stem_score(stem + "ە") - self._stem_score(stem)
+                stem += "ە"
             pos = self._choose_pos(stem, pos_hint, inflected=bool(segs))
             if stem in self.fw and not segs:
                 pos, extra = self.fw[stem]
@@ -293,10 +326,21 @@ class CkbAnalyzer:
                 pos = "ADP"
                 feats["adptype"] = "bare"
                 score += 5.0
-            seg_list = prefix + [(stem, "STEM")] + [(f, t) for f, t, _ in segs]
+            seg_list = prefix + [(lemma_seg(word, stem, segs), "STEM")] + [(f, t) for f, t, _ in segs]
             surface = "".join(p for p, _ in prefix) + word
             results.append(Analysis(surface, stem, pos, feats, seg_list, round(score - 0.3 * len(prefix), 3)))
         return results
+
+    def _manner(self, word: str) -> list[Analysis]:
+        """بە+خێرا+یی, بە+جوان+ی: the adverbs of manner, when the middle is a known word."""
+        out = []
+        if word.startswith("بە"):
+            for end in ("یی", "ی"):
+                stem = word[2 : -len(end)]
+                if word.endswith(end) and len(stem) >= 3 and self.lexicon.pos_of(stem) & {"ADJ", "NOUN"}:
+                    segs = [("بە", "CONFIX.BE"), (stem, "STEM"), (end, "CONFIX.Y")]
+                    out.append(Analysis(word, stem, "ADV", {"derivation": "manner"}, segs, self._stem_score(stem) - 0.3))
+        return out
 
     def _stacked_adposition(self, word: str) -> list[Analysis]:
         """Two clitics on one adposition: بۆ+م+ی (بۆمی نووسی "he wrote to me")."""
@@ -403,9 +447,18 @@ class CkbAnalyzer:
                 feats = {k: str(val) for k, val in vf.features.items() if k != "pos"}
                 score = 6.0 if self.verbs.verbs[vf.lemma].source == "core" else 4.5
                 out.append(Analysis(word, vf.lemma, "VERB", {**feats, "object": obj, "transitivity": "transitive"}, [(word, "VERB")], score))
+        if not out and not self.verbs.lookup(word) and word.startswith("ئە") and word not in self.lexicon and word not in self.fw:
+            for vf in self.verbs.lookup("دە" + word[2:]):  # ئەچم, ئەخوارد: the eastern marker, recognised and never generated
+                if self.verbs.verbs[vf.lemma].source == "core":
+                    feats = {k: str(val) for k, val in vf.features.items() if k != "pos"}
+                    out.append(Analysis(word, vf.lemma, "VERB", {**feats, "variant": "dialect_ae"}, [(word, "VERB")], 6.0))
         for vf in self.verbs.lookup(word):
+            if vf.lemma in self.fw:
+                continue  # a verb guessed from a function word: یان
             v = self.verbs.verbs.get(vf.lemma)
             score = (7.0 if v is None or v.source == "core" else 5.5) + math.log1p(self.lexicon.freq(word)) / 4
+            if word in self.fw and (vf.features.get("variant") or self.fw[word][0] == "NOUN"):
+                score -= 4.0  # بێ the adposition, برا "brother"
             rivals = {f.lemma for f in self.verbs.lookup(word)} - {vf.lemma}
             if v is not None and v.light and rivals and vf.features.get("agent") not in (None, "external"):
                 score -= 0.5  # a listed verb wins: دیاریکرد is دیاریکردن, not دیار+ی+کرد
@@ -428,10 +481,10 @@ class CkbAnalyzer:
             if word.startswith(pre) and len(rest) >= 2 and word not in self.lexicon and word not in self.fw:
                 results += [a for a in self._nominal(rest, [(pre, tag)]) if a.lemma in self.lexicon]
         if word not in self.lexicon and word not in self.fw and not self.verbs.lookup(word):
-            results += self._prefixed(word) + self._compound(word) + self._stacked_adposition(word)
+            results += self._prefixed(word) + self._compound(word) + self._stacked_adposition(word) + self._manner(word)
         best: dict[tuple[str, str], Analysis] = {}
         for a in results:
-            key = (a.segmentation, a.pos)
+            key = (a.segmentation, a.gloss, a.pos)
             if key not in best or a.score > best[key].score:
                 best[key] = a
         return sorted(best.values(), key=lambda a: a.score, reverse=True)

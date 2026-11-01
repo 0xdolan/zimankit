@@ -117,6 +117,12 @@ _ILLEGAL_SEQUENCES = (
     ("ێێ", "double long e"),
     ("ۆۆ", "double long o"),
 )
+# Where frequency prefers another spelling than the written standard.  Only forms the sources name;
+# the non-standard form stays recognised, and the builder lists it as a variant of the standard one.
+STANDARD_OVERRIDES = {
+    "وەکو": "وەکوو", "تاکو": "تاکوو", "بەرامبەر": "بەرانبەر", "کەرکوک": "کەرکووک", "نیە": "نییە", "چیە": "چییە",
+    "ڕۆژئاوا": "ڕۆژاوا", "خۆرئاوا": "خۆراوا", "ماڵئاوایی": "ماڵاوایی",
+}
 _FINAL_U_OK = frozenset({"تو", "کو", "وود", "ئەبو"})  # short and foreign words with a written single و
 
 
@@ -163,6 +169,8 @@ def validate_word(word: str) -> list[str]:
         problems.append("ZWNJ inside یی: write it solid (سپییە, چییە)")
     if "یییی" in word:
         problems.append("more than three ی")
+    if word in STANDARD_OVERRIDES:
+        problems.append(f"the standard spelling is {STANDARD_OVERRIDES[word]}")
     return problems
 
 

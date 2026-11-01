@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **کەنرام**<br><sub>kenram</sub><br><sub>/kænɾaːm/</sub> | **نەکەنرام**<br><sub>nekenram</sub><br><sub>/nækænɾaːm/</sub> | **دەکەنرام**<br><sub>dekenram</sub><br><sub>/dækænɾaːm/</sub> | **نەدەکەنرام**<br><sub>nedekenram</sub><br><sub>/nædækænɾaːm/</sub> |
-| 2sg | تۆ | **کەنرایت**<br><sub>kenrayt</sub><br><sub>/kænɾaːjt/</sub> | **نەکەنرایت**<br><sub>nekenrayt</sub><br><sub>/nækænɾaːjt/</sub> | **دەکەنرایت**<br><sub>dekenrayt</sub><br><sub>/dækænɾaːjt/</sub> | **نەدەکەنرایت**<br><sub>nedekenrayt</sub><br><sub>/nædækænɾaːjt/</sub> |
-| 3sg | ئەو | **کەنرا**<br><sub>kenra</sub><br><sub>/kænɾaː/</sub> | **نەکەنرا**<br><sub>nekenra</sub><br><sub>/nækænɾaː/</sub> | **دەکەنرا**<br><sub>dekenra</sub><br><sub>/dækænɾaː/</sub> | **نەدەکەنرا**<br><sub>nedekenra</sub><br><sub>/nædækænɾaː/</sub> |
-| 1pl | ئێمە | **کەنراین**<br><sub>kenrayn</sub><br><sub>/kænɾaːjn/</sub> | **نەکەنراین**<br><sub>nekenrayn</sub><br><sub>/nækænɾaːjn/</sub> | **دەکەنراین**<br><sub>dekenrayn</sub><br><sub>/dækænɾaːjn/</sub> | **نەدەکەنراین**<br><sub>nedekenrayn</sub><br><sub>/nædækænɾaːjn/</sub> |
-| 2pl | ئێوە | **کەنران**<br><sub>kenran</sub><br><sub>/kænɾaːn/</sub> | **نەکەنران**<br><sub>nekenran</sub><br><sub>/nækænɾaːn/</sub> | **دەکەنران**<br><sub>dekenran</sub><br><sub>/dækænɾaːn/</sub> | **نەدەکەنران**<br><sub>nedekenran</sub><br><sub>/nædækænɾaːn/</sub> |
-| 3pl | ئەوان | **کەنران**<br><sub>kenran</sub><br><sub>/kænɾaːn/</sub> | **نەکەنران**<br><sub>nekenran</sub><br><sub>/nækænɾaːn/</sub> | **دەکەنران**<br><sub>dekenran</sub><br><sub>/dækænɾaːn/</sub> | **نەدەکەنران**<br><sub>nedekenran</sub><br><sub>/nædækænɾaːn/</sub> |
+| 1sg | من | **کەندرام**<br><sub>kendram</sub><br><sub>/kændɾaːm/</sub> | **نەکەنرام**<br><sub>nekenram</sub><br><sub>/nækænɾaːm/</sub> | **دەکەنرام**<br><sub>dekenram</sub><br><sub>/dækænɾaːm/</sub> | **نەدەکەنرام**<br><sub>nedekenram</sub><br><sub>/nædækænɾaːm/</sub> |
+| 2sg | تۆ | **کەندرایت**<br><sub>kendrayt</sub><br><sub>/kændɾaːjt/</sub> | **نەکەنرایت**<br><sub>nekenrayt</sub><br><sub>/nækænɾaːjt/</sub> | **دەکەنرایت**<br><sub>dekenrayt</sub><br><sub>/dækænɾaːjt/</sub> | **نەدەکەنرایت**<br><sub>nedekenrayt</sub><br><sub>/nædækænɾaːjt/</sub> |
+| 3sg | ئەو | **کەندرا**<br><sub>kendra</sub><br><sub>/kændɾaː/</sub> | **نەکەنرا**<br><sub>nekenra</sub><br><sub>/nækænɾaː/</sub> | **دەکەنرا**<br><sub>dekenra</sub><br><sub>/dækænɾaː/</sub> | **نەدەکەنرا**<br><sub>nedekenra</sub><br><sub>/nædækænɾaː/</sub> |
+| 1pl | ئێمە | **کەندراین**<br><sub>kendrayn</sub><br><sub>/kændɾaːjn/</sub> | **نەکەنراین**<br><sub>nekenrayn</sub><br><sub>/nækænɾaːjn/</sub> | **دەکەنراین**<br><sub>dekenrayn</sub><br><sub>/dækænɾaːjn/</sub> | **نەدەکەنراین**<br><sub>nedekenrayn</sub><br><sub>/nædækænɾaːjn/</sub> |
+| 2pl | ئێوە | **کەندران**<br><sub>kendran</sub><br><sub>/kændɾaːn/</sub> | **نەکەنران**<br><sub>nekenran</sub><br><sub>/nækænɾaːn/</sub> | **دەکەنران**<br><sub>dekenran</sub><br><sub>/dækænɾaːn/</sub> | **نەدەکەنران**<br><sub>nedekenran</sub><br><sub>/nædækænɾaːn/</sub> |
+| 3pl | ئەوان | **کەندران**<br><sub>kendran</sub><br><sub>/kændɾaːn/</sub> | **نەکەنران**<br><sub>nekenran</sub><br><sub>/nækænɾaːn/</sub> | **دەکەنران**<br><sub>dekenran</sub><br><sub>/dækænɾaːn/</sub> | **نەدەکەنران**<br><sub>nedekenran</sub><br><sub>/nædækænɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

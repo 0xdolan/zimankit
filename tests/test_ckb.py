@@ -332,3 +332,48 @@ def test_listed_verb_beats_a_clitic_on_a_noun_part():
     index = verbs.FormIndex([make("ڕوودان")])
     assert CkbAnalyzer(verbs=index).best("ڕوویدا").lemma == "ڕوودان"
 
+
+@pytest.mark.parametrize("form, lemma", [
+    ("دەکا", "کردن"), ("دەڵێ", "گوتن"), ("دەخوا", "خواردن"), ("دەمەوێ", "ویستن"), ("دەکەی", "کردن"), ("دەبینرێ", "بینین"), ("دەژێت", "ژیان"),
+    ("بچۆ", "چوون"), ("بڕۆ", "چوون"), ("مەچۆ", "چوون"), ("نایێم", "هاتن"), ("ویسترا", "ویستن"), ("گرترا", "گرتن"), ("بردرا", "بردن"),
+    ("بکەرەوە", "کردنەوە"), ("هاتۆتەوە", "هاتنەوە"), ("ئەچم", "چوون"), ("ئەخوارد", "خواردن"), ("دادەنێم", "دانان"), ("دەخوازم", "خواستن"),
+])
+def test_variants_and_regional_forms(form, lemma):
+    assert CkbAnalyzer().best(form).lemma == lemma
+
+
+@pytest.mark.parametrize("word, pos", [("بێ", "ADP"), ("نا", "PART"), ("نان", "NOUN"), ("برا", "NOUN"), ("با", "NOUN")])
+def test_new_verb_forms_do_not_hide_common_words(word, pos):
+    assert CkbAnalyzer().best(word).pos == pos
+
+
+def test_guessing_present_stems():
+    known = {v.infinitive: v for v in verbs.load_core_verbs() if not v.preverb and not v.suffix}
+    assert verbs.guess_present_stem("دڕا", False) == "دڕێ" and verbs.guess_present_stem("شکا", True) == "شک"
+    assert verbs.guess_present_stem("دروو") == "دروو"
+    assert verbs.make_verb("پاڵاوتن", None, None, "guess", known).preverb == ""
+
+
+@pytest.mark.parametrize("word, lemma, segmentation", [
+    ("ماسێکە", "ماسی", "ماس+ێکە"), ("پەنجەران", "پەنجەرە", "پەنجەر+ان"), ("بەخێرایی", "خێرا", "بە+خێرا+یی"), ("ئاسنگەر", "ئاسن", "ئاسن+گەر"),
+])
+def test_recovered_lemmas_and_new_suffixes(word, lemma, segmentation):
+    lex = SimpleLexicon()
+    for w in ("ماسی", "پەنجەرە", "ئاسن"):
+        lex.add(w, "NOUN")
+    lex.add("خێرا", "ADJ")
+    a = CkbAnalyzer(lex).best(word)
+    assert (a.lemma, a.segmentation) == (lemma, segmentation)
+
+
+def test_both_readings_of_yan_are_returned():
+    lex = SimpleLexicon()
+    lex.add("مامۆستا", "NOUN")
+    glosses = {a.gloss for a in CkbAnalyzer(lex).analyze("مامۆستایان")}
+    assert {"STEM+3PL", "STEM+PL"} <= glosses
+
+
+@pytest.mark.parametrize("word, standard", [("وەکو", "وەکوو"), ("بەرامبەر", "بەرانبەر"), ("نیە", "نییە"), ("ڕۆژئاوا", "ڕۆژاوا")])
+def test_validator_names_the_standard_spelling(word, standard):
+    assert any(standard in p for p in validate_word(word))
+

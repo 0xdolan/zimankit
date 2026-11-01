@@ -1,121 +1,187 @@
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)
 
-# چوون — to go
+# جوون — to chew
 
 | | |
 |---|---|
-| infinitive | **چوون** (çûn) /tʃuːn/ |
-| meaning | to go |
-| present stem | **چ** |
-| past stem | **چوو** |
-| transitivity | intransitive |
+| infinitive | **جوون** (cûn) /dʒuːn/ |
+| meaning | to chew |
+| present stem | **جوو** |
+| past stem | **جوو** |
+| transitivity | transitive — ergative in past tenses |
 
 ## Present-stem forms
 
-*چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
 
 | person | pronoun | Present | Present negative |
 |---|---|---|---|
-| 1sg | من | **دەچم**<br><sub>deçim</sub><br><sub>/dætʃ(ɯ)m/</sub> | **ناچم**<br><sub>naçim</sub><br><sub>/naːtʃ(ɯ)m/</sub> |
-| 2sg | تۆ | **دەچیت**<br><sub>deçît</sub><br><sub>/dætʃiːt/</sub> | **ناچیت**<br><sub>naçît</sub><br><sub>/naːtʃiːt/</sub> |
-| 3sg | ئەو | **دەچێت**<br><sub>deçêt</sub><br><sub>/dætʃeːt/</sub> | **ناچێت**<br><sub>naçêt</sub><br><sub>/naːtʃeːt/</sub> |
-| 1pl | ئێمە | **دەچین**<br><sub>deçîn</sub><br><sub>/dætʃiːn/</sub> | **ناچین**<br><sub>naçîn</sub><br><sub>/naːtʃiːn/</sub> |
-| 2pl | ئێوە | **دەچن**<br><sub>deçin</sub><br><sub>/dætʃ(ɯ)n/</sub> | **ناچن**<br><sub>naçin</sub><br><sub>/naːtʃ(ɯ)n/</sub> |
-| 3pl | ئەوان | **دەچن**<br><sub>deçin</sub><br><sub>/dætʃ(ɯ)n/</sub> | **ناچن**<br><sub>naçin</sub><br><sub>/naːtʃ(ɯ)n/</sub> |
+| 1sg | من | **دەجووم**<br><sub>decûm</sub><br><sub>/dædʒuːm/</sub> | **ناجووم**<br><sub>nacûm</sub><br><sub>/naːdʒuːm/</sub> |
+| 2sg | تۆ | **دەجوویت**<br><sub>decûyt</sub><br><sub>/dædʒuːjt/</sub> | **ناجوویت**<br><sub>nacûyt</sub><br><sub>/naːdʒuːjt/</sub> |
+| 3sg | ئەو | **دەجووت**<br><sub>decût</sub><br><sub>/dædʒuːt/</sub> | **ناجووت**<br><sub>nacût</sub><br><sub>/naːdʒuːt/</sub> |
+| 1pl | ئێمە | **دەجووین**<br><sub>decûyn</sub><br><sub>/dædʒuːjn/</sub> | **ناجووین**<br><sub>nacûyn</sub><br><sub>/naːdʒuːjn/</sub> |
+| 2pl | ئێوە | **دەجوون**<br><sub>decûn</sub><br><sub>/dædʒuːn/</sub> | **ناجوون**<br><sub>nacûn</sub><br><sub>/naːdʒuːn/</sub> |
+| 3pl | ئەوان | **دەجوون**<br><sub>decûn</sub><br><sub>/dædʒuːn/</sub> | **ناجوون**<br><sub>nacûn</sub><br><sub>/naːdʒuːn/</sub> |
 
 ## Subjunctive
 
-*چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **بچم**<br><sub>biçim</sub><br><sub>/b(ɯ)tʃ(ɯ)m/</sub> | **نەچم**<br><sub>neçim</sub><br><sub>/nætʃ(ɯ)m/</sub> |
-| 2sg | تۆ | **بچیت**<br><sub>biçît</sub><br><sub>/b(ɯ)tʃiːt/</sub> | **نەچیت**<br><sub>neçît</sub><br><sub>/nætʃiːt/</sub> |
-| 3sg | ئەو | **بچێت**<br><sub>biçêt</sub><br><sub>/b(ɯ)tʃeːt/</sub> | **نەچێت**<br><sub>neçêt</sub><br><sub>/nætʃeːt/</sub> |
-| 1pl | ئێمە | **بچین**<br><sub>biçîn</sub><br><sub>/b(ɯ)tʃiːn/</sub> | **نەچین**<br><sub>neçîn</sub><br><sub>/nætʃiːn/</sub> |
-| 2pl | ئێوە | **بچن**<br><sub>biçin</sub><br><sub>/b(ɯ)tʃ(ɯ)n/</sub> | **نەچن**<br><sub>neçin</sub><br><sub>/nætʃ(ɯ)n/</sub> |
-| 3pl | ئەوان | **بچن**<br><sub>biçin</sub><br><sub>/b(ɯ)tʃ(ɯ)n/</sub> | **نەچن**<br><sub>neçin</sub><br><sub>/nætʃ(ɯ)n/</sub> |
+| 1sg | من | **بجووم**<br><sub>bicûm</sub><br><sub>/b(ɯ)dʒuːm/</sub> | **نەجووم**<br><sub>necûm</sub><br><sub>/nædʒuːm/</sub> |
+| 2sg | تۆ | **بجوویت**<br><sub>bicûyt</sub><br><sub>/b(ɯ)dʒuːjt/</sub> | **نەجوویت**<br><sub>necûyt</sub><br><sub>/nædʒuːjt/</sub> |
+| 3sg | ئەو | **بجووت**<br><sub>bicût</sub><br><sub>/b(ɯ)dʒuːt/</sub> | **نەجووت**<br><sub>necût</sub><br><sub>/nædʒuːt/</sub> |
+| 1pl | ئێمە | **بجووین**<br><sub>bicûyn</sub><br><sub>/b(ɯ)dʒuːjn/</sub> | **نەجووین**<br><sub>necûyn</sub><br><sub>/nædʒuːjn/</sub> |
+| 2pl | ئێوە | **بجوون**<br><sub>bicûn</sub><br><sub>/b(ɯ)dʒuːn/</sub> | **نەجوون**<br><sub>necûn</sub><br><sub>/nædʒuːn/</sub> |
+| 3pl | ئەوان | **بجوون**<br><sub>bicûn</sub><br><sub>/b(ɯ)dʒuːn/</sub> | **نەجوون**<br><sub>necûn</sub><br><sub>/nædʒuːn/</sub> |
 
 ## Simple past
 
-*چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **چووم**<br><sub>çûm</sub><br><sub>/tʃuːm/</sub> | **نەچووم**<br><sub>neçûm</sub><br><sub>/nætʃuːm/</sub> |
-| 2sg | تۆ | **چوویت**<br><sub>çûyt</sub><br><sub>/tʃuːjt/</sub> | **نەچوویت**<br><sub>neçûyt</sub><br><sub>/nætʃuːjt/</sub> |
-| 3sg | ئەو | **چوو**<br><sub>çû</sub><br><sub>/tʃuː/</sub> | **نەچوو**<br><sub>neçû</sub><br><sub>/nætʃuː/</sub> |
-| 1pl | ئێمە | **چووین**<br><sub>çûyn</sub><br><sub>/tʃuːjn/</sub> | **نەچووین**<br><sub>neçûyn</sub><br><sub>/nætʃuːjn/</sub> |
-| 2pl | ئێوە | **چوون**<br><sub>çûn</sub><br><sub>/tʃuːn/</sub> | **نەچوون**<br><sub>neçûn</sub><br><sub>/nætʃuːn/</sub> |
-| 3pl | ئەوان | **چوون**<br><sub>çûn</sub><br><sub>/tʃuːn/</sub> | **نەچوون**<br><sub>neçûn</sub><br><sub>/nætʃuːn/</sub> |
+| 1sg | من | **جووم**<br><sub>cûm</sub><br><sub>/dʒuːm/</sub> | **نەمجوو**<br><sub>nemcû</sub><br><sub>/næmdʒuː/</sub> |
+| 2sg | تۆ | **جووت**<br><sub>cût</sub><br><sub>/dʒuːt/</sub> | **نەتجوو**<br><sub>netcû</sub><br><sub>/nætdʒuː/</sub> |
+| 3sg | ئەو | **جووی**<br><sub>cûy</sub><br><sub>/dʒuːj/</sub> | **نەیجوو**<br><sub>neycû</sub><br><sub>/næjdʒuː/</sub> |
+| 1pl | ئێمە | **جوومان**<br><sub>cûman</sub><br><sub>/dʒuːmaːn/</sub> | **نەمانجوو**<br><sub>nemancû</sub><br><sub>/næmaːndʒuː/</sub> |
+| 2pl | ئێوە | **جووتان**<br><sub>cûtan</sub><br><sub>/dʒuːtaːn/</sub> | **نەتانجوو**<br><sub>netancû</sub><br><sub>/nætaːndʒuː/</sub> |
+| 3pl | ئەوان | **جوویان**<br><sub>cûyan</sub><br><sub>/dʒuːjaːn/</sub> | **نەیانجوو**<br><sub>neyancû</sub><br><sub>/næjaːndʒuː/</sub> |
+
+> Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
 ## Past progressive
 
-*چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **دەچووم**<br><sub>deçûm</sub><br><sub>/dætʃuːm/</sub> | **نەدەچووم**<br><sub>nedeçûm</sub><br><sub>/nædætʃuːm/</sub> |
-| 2sg | تۆ | **دەچوویت**<br><sub>deçûyt</sub><br><sub>/dætʃuːjt/</sub> | **نەدەچوویت**<br><sub>nedeçûyt</sub><br><sub>/nædætʃuːjt/</sub> |
-| 3sg | ئەو | **دەچوو**<br><sub>deçû</sub><br><sub>/dætʃuː/</sub> | **نەدەچوو**<br><sub>nedeçû</sub><br><sub>/nædætʃuː/</sub> |
-| 1pl | ئێمە | **دەچووین**<br><sub>deçûyn</sub><br><sub>/dætʃuːjn/</sub> | **نەدەچووین**<br><sub>nedeçûyn</sub><br><sub>/nædætʃuːjn/</sub> |
-| 2pl | ئێوە | **دەچوون**<br><sub>deçûn</sub><br><sub>/dætʃuːn/</sub> | **نەدەچوون**<br><sub>nedeçûn</sub><br><sub>/nædætʃuːn/</sub> |
-| 3pl | ئەوان | **دەچوون**<br><sub>deçûn</sub><br><sub>/dætʃuːn/</sub> | **نەدەچوون**<br><sub>nedeçûn</sub><br><sub>/nædætʃuːn/</sub> |
+| 1sg | من | **دەمجوو**<br><sub>demcû</sub><br><sub>/dæmdʒuː/</sub> | **نەمدەجوو**<br><sub>nemdecû</sub><br><sub>/næmdædʒuː/</sub> |
+| 2sg | تۆ | **دەتجوو**<br><sub>detcû</sub><br><sub>/dætdʒuː/</sub> | **نەتدەجوو**<br><sub>netdecû</sub><br><sub>/nætdædʒuː/</sub> |
+| 3sg | ئەو | **دەیجوو**<br><sub>deycû</sub><br><sub>/dæjdʒuː/</sub> | **نەیدەجوو**<br><sub>neydecû</sub><br><sub>/næjdædʒuː/</sub> |
+| 1pl | ئێمە | **دەمانجوو**<br><sub>demancû</sub><br><sub>/dæmaːndʒuː/</sub> | **نەماندەجوو**<br><sub>nemandecû</sub><br><sub>/næmaːndædʒuː/</sub> |
+| 2pl | ئێوە | **دەتانجوو**<br><sub>detancû</sub><br><sub>/dætaːndʒuː/</sub> | **نەتاندەجوو**<br><sub>netandecû</sub><br><sub>/nætaːndædʒuː/</sub> |
+| 3pl | ئەوان | **دەیانجوو**<br><sub>deyancû</sub><br><sub>/dæjaːndʒuː/</sub> | **نەیاندەجوو**<br><sub>neyandecû</sub><br><sub>/næjaːndædʒuː/</sub> |
+
+> Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
 ## Perfect tenses
 
-*چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **چوومە**<br><sub>çûme</sub><br><sub>/tʃuːmæ/</sub> | **نەچوومە**<br><sub>neçûme</sub><br><sub>/nætʃuːmæ/</sub> | **چووبووم**<br><sub>çûbûm</sub><br><sub>/tʃuːbuːm/</sub> | **نەچووبووم**<br><sub>neçûbûm</sub><br><sub>/nætʃuːbuːm/</sub> |
-| 2sg | تۆ | **چوویتە**<br><sub>çûyte</sub><br><sub>/tʃuːjtæ/</sub> | **نەچوویتە**<br><sub>neçûyte</sub><br><sub>/nætʃuːjtæ/</sub> | **چووبوویت**<br><sub>çûbûyt</sub><br><sub>/tʃuːbuːjt/</sub> | **نەچووبوویت**<br><sub>neçûbûyt</sub><br><sub>/nætʃuːbuːjt/</sub> |
-| 3sg | ئەو | **چووە**<br><sub>çûwe</sub><br><sub>/tʃuːwæ/</sub> | **نەچووە**<br><sub>neçûwe</sub><br><sub>/nætʃuːwæ/</sub> | **چووبوو**<br><sub>çûbû</sub><br><sub>/tʃuːbuː/</sub> | **نەچووبوو**<br><sub>neçûbû</sub><br><sub>/nætʃuːbuː/</sub> |
-| 1pl | ئێمە | **چووینە**<br><sub>çûyne</sub><br><sub>/tʃuːjnæ/</sub> | **نەچووینە**<br><sub>neçûyne</sub><br><sub>/nætʃuːjnæ/</sub> | **چووبووین**<br><sub>çûbûyn</sub><br><sub>/tʃuːbuːjn/</sub> | **نەچووبووین**<br><sub>neçûbûyn</sub><br><sub>/nætʃuːbuːjn/</sub> |
-| 2pl | ئێوە | **چوونە**<br><sub>çûne</sub><br><sub>/tʃuːnæ/</sub> | **نەچوونە**<br><sub>neçûne</sub><br><sub>/nætʃuːnæ/</sub> | **چووبوون**<br><sub>çûbûn</sub><br><sub>/tʃuːbuːn/</sub> | **نەچووبوون**<br><sub>neçûbûn</sub><br><sub>/nætʃuːbuːn/</sub> |
-| 3pl | ئەوان | **چوونە**<br><sub>çûne</sub><br><sub>/tʃuːnæ/</sub> | **نەچوونە**<br><sub>neçûne</sub><br><sub>/nætʃuːnæ/</sub> | **چووبوون**<br><sub>çûbûn</sub><br><sub>/tʃuːbuːn/</sub> | **نەچووبوون**<br><sub>neçûbûn</sub><br><sub>/nætʃuːbuːn/</sub> |
+| 1sg | من | **جوومە**<br><sub>cûme</sub><br><sub>/dʒuːmæ/</sub> | **نەمجووە**<br><sub>nemcûwe</sub><br><sub>/næmdʒuːwæ/</sub> | **جووبووم**<br><sub>cûbûm</sub><br><sub>/dʒuːbuːm/</sub> | **نەمجووبوو**<br><sub>nemcûbû</sub><br><sub>/næmdʒuːbuː/</sub> |
+| 2sg | تۆ | **جووتە**<br><sub>cûte</sub><br><sub>/dʒuːtæ/</sub> | **نەتجووە**<br><sub>netcûwe</sub><br><sub>/nætdʒuːwæ/</sub> | **جووبووت**<br><sub>cûbût</sub><br><sub>/dʒuːbuːt/</sub> | **نەتجووبوو**<br><sub>netcûbû</sub><br><sub>/nætdʒuːbuː/</sub> |
+| 3sg | ئەو | **جوویەتی**<br><sub>cûyetî</sub><br><sub>/dʒuːjætiː/</sub> | **نەیجووە**<br><sub>neycûwe</sub><br><sub>/næjdʒuːwæ/</sub> | **جووبووی**<br><sub>cûbûy</sub><br><sub>/dʒuːbuːj/</sub> | **نەیجووبوو**<br><sub>neycûbû</sub><br><sub>/næjdʒuːbuː/</sub> |
+| 1pl | ئێمە | **جوومانە**<br><sub>cûmane</sub><br><sub>/dʒuːmaːnæ/</sub> | **نەمانجووە**<br><sub>nemancûwe</sub><br><sub>/næmaːndʒuːwæ/</sub> | **جووبوومان**<br><sub>cûbûman</sub><br><sub>/dʒuːbuːmaːn/</sub> | **نەمانجووبوو**<br><sub>nemancûbû</sub><br><sub>/næmaːndʒuːbuː/</sub> |
+| 2pl | ئێوە | **جووتانە**<br><sub>cûtane</sub><br><sub>/dʒuːtaːnæ/</sub> | **نەتانجووە**<br><sub>netancûwe</sub><br><sub>/nætaːndʒuːwæ/</sub> | **جووبووتان**<br><sub>cûbûtan</sub><br><sub>/dʒuːbuːtaːn/</sub> | **نەتانجووبوو**<br><sub>netancûbû</sub><br><sub>/nætaːndʒuːbuː/</sub> |
+| 3pl | ئەوان | **جوویانە**<br><sub>cûyane</sub><br><sub>/dʒuːjaːnæ/</sub> | **نەیانجووە**<br><sub>neyancûwe</sub><br><sub>/næjaːndʒuːwæ/</sub> | **جووبوویان**<br><sub>cûbûyan</sub><br><sub>/dʒuːbuːjaːn/</sub> | **نەیانجووبوو**<br><sub>neyancûbû</sub><br><sub>/næjaːndʒuːbuː/</sub> |
+
+> Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
 ## Past subjunctive
 
-*چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **چووبام**<br><sub>çûbam</sub><br><sub>/tʃuːbaːm/</sub> | **چووبێتم**<br><sub>çûbêtim</sub><br><sub>/tʃuːbeːt(ɯ)m/</sub> | **چووبووبام**<br><sub>çûbûbam</sub><br><sub>/tʃuːbuːbaːm/</sub> |
-| 2sg | تۆ | **چووبایت**<br><sub>çûbayt</sub><br><sub>/tʃuːbaːjt/</sub> | **چووبێتیت**<br><sub>çûbêtît</sub><br><sub>/tʃuːbeːtiːt/</sub> | **چووبووبایت**<br><sub>çûbûbayt</sub><br><sub>/tʃuːbuːbaːjt/</sub> |
-| 3sg | ئەو | **چووبا**<br><sub>çûba</sub><br><sub>/tʃuːbaː/</sub> | **چووبێت**<br><sub>çûbêt</sub><br><sub>/tʃuːbeːt/</sub> | **چووبووبا**<br><sub>çûbûba</sub><br><sub>/tʃuːbuːbaː/</sub> |
-| 1pl | ئێمە | **چووباین**<br><sub>çûbayn</sub><br><sub>/tʃuːbaːjn/</sub> | **چووبێتین**<br><sub>çûbêtîn</sub><br><sub>/tʃuːbeːtiːn/</sub> | **چووبووباین**<br><sub>çûbûbayn</sub><br><sub>/tʃuːbuːbaːjn/</sub> |
-| 2pl | ئێوە | **چووبان**<br><sub>çûban</sub><br><sub>/tʃuːbaːn/</sub> | **چووبێتن**<br><sub>çûbêtin</sub><br><sub>/tʃuːbeːt(ɯ)n/</sub> | **چووبووبان**<br><sub>çûbûban</sub><br><sub>/tʃuːbuːbaːn/</sub> |
-| 3pl | ئەوان | **چووبان**<br><sub>çûban</sub><br><sub>/tʃuːbaːn/</sub> | **چووبێتن**<br><sub>çûbêtin</sub><br><sub>/tʃuːbeːt(ɯ)n/</sub> | **چووبووبان**<br><sub>çûbûban</sub><br><sub>/tʃuːbuːbaːn/</sub> |
+| 1sg | من | **جووبام**<br><sub>cûbam</sub><br><sub>/dʒuːbaːm/</sub> | **جووبێتم**<br><sub>cûbêtim</sub><br><sub>/dʒuːbeːt(ɯ)m/</sub> | **جووبووبام**<br><sub>cûbûbam</sub><br><sub>/dʒuːbuːbaːm/</sub> |
+| 2sg | تۆ | **جووبات**<br><sub>cûbat</sub><br><sub>/dʒuːbaːt/</sub> | **جووبێتت**<br><sub>cûbêtit</sub><br><sub>/dʒuːbeːt(ɯ)t/</sub> | **جووبووبات**<br><sub>cûbûbat</sub><br><sub>/dʒuːbuːbaːt/</sub> |
+| 3sg | ئەو | **جووبای**<br><sub>cûbay</sub><br><sub>/dʒuːbaːj/</sub> | **جووبێتی**<br><sub>cûbêtî</sub><br><sub>/dʒuːbeːtiː/</sub> | **جووبووبای**<br><sub>cûbûbay</sub><br><sub>/dʒuːbuːbaːj/</sub> |
+| 1pl | ئێمە | **جووبامان**<br><sub>cûbaman</sub><br><sub>/dʒuːbaːmaːn/</sub> | **جووبێتمان**<br><sub>cûbêtman</sub><br><sub>/dʒuːbeːtmaːn/</sub> | **جووبووبامان**<br><sub>cûbûbaman</sub><br><sub>/dʒuːbuːbaːmaːn/</sub> |
+| 2pl | ئێوە | **جووباتان**<br><sub>cûbatan</sub><br><sub>/dʒuːbaːtaːn/</sub> | **جووبێتتان**<br><sub>cûbêttan</sub><br><sub>/dʒuːbeːttaːn/</sub> | **جووبووباتان**<br><sub>cûbûbatan</sub><br><sub>/dʒuːbuːbaːtaːn/</sub> |
+| 3pl | ئەوان | **جووبایان**<br><sub>cûbayan</sub><br><sub>/dʒuːbaːjaːn/</sub> | **جووبێتیان**<br><sub>cûbêtyan</sub><br><sub>/dʒuːbeːtjaːn/</sub> | **جووبووبایان**<br><sub>cûbûbayan</sub><br><sub>/dʒuːbuːbaːjaːn/</sub> |
 
 ## Past subjunctive negative
 
-*چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **نەچووبام**<br><sub>neçûbam</sub><br><sub>/nætʃuːbaːm/</sub> | **نەچووبێتم**<br><sub>neçûbêtim</sub><br><sub>/nætʃuːbeːt(ɯ)m/</sub> | **نەچووبووبام**<br><sub>neçûbûbam</sub><br><sub>/nætʃuːbuːbaːm/</sub> |
-| 2sg | تۆ | **نەچووبایت**<br><sub>neçûbayt</sub><br><sub>/nætʃuːbaːjt/</sub> | **نەچووبێتیت**<br><sub>neçûbêtît</sub><br><sub>/nætʃuːbeːtiːt/</sub> | **نەچووبووبایت**<br><sub>neçûbûbayt</sub><br><sub>/nætʃuːbuːbaːjt/</sub> |
-| 3sg | ئەو | **نەچووبا**<br><sub>neçûba</sub><br><sub>/nætʃuːbaː/</sub> | **نەچووبێت**<br><sub>neçûbêt</sub><br><sub>/nætʃuːbeːt/</sub> | **نەچووبووبا**<br><sub>neçûbûba</sub><br><sub>/nætʃuːbuːbaː/</sub> |
-| 1pl | ئێمە | **نەچووباین**<br><sub>neçûbayn</sub><br><sub>/nætʃuːbaːjn/</sub> | **نەچووبێتین**<br><sub>neçûbêtîn</sub><br><sub>/nætʃuːbeːtiːn/</sub> | **نەچووبووباین**<br><sub>neçûbûbayn</sub><br><sub>/nætʃuːbuːbaːjn/</sub> |
-| 2pl | ئێوە | **نەچووبان**<br><sub>neçûban</sub><br><sub>/nætʃuːbaːn/</sub> | **نەچووبێتن**<br><sub>neçûbêtin</sub><br><sub>/nætʃuːbeːt(ɯ)n/</sub> | **نەچووبووبان**<br><sub>neçûbûban</sub><br><sub>/nætʃuːbuːbaːn/</sub> |
-| 3pl | ئەوان | **نەچووبان**<br><sub>neçûban</sub><br><sub>/nætʃuːbaːn/</sub> | **نەچووبێتن**<br><sub>neçûbêtin</sub><br><sub>/nætʃuːbeːt(ɯ)n/</sub> | **نەچووبووبان**<br><sub>neçûbûban</sub><br><sub>/nætʃuːbuːbaːn/</sub> |
+| 1sg | من | **نەمجووبا**<br><sub>nemcûba</sub><br><sub>/næmdʒuːbaː/</sub> | **نەمجووبێت**<br><sub>nemcûbêt</sub><br><sub>/næmdʒuːbeːt/</sub> | **نەمجووبووبا**<br><sub>nemcûbûba</sub><br><sub>/næmdʒuːbuːbaː/</sub> |
+| 2sg | تۆ | **نەتجووبا**<br><sub>netcûba</sub><br><sub>/nætdʒuːbaː/</sub> | **نەتجووبێت**<br><sub>netcûbêt</sub><br><sub>/nætdʒuːbeːt/</sub> | **نەتجووبووبا**<br><sub>netcûbûba</sub><br><sub>/nætdʒuːbuːbaː/</sub> |
+| 3sg | ئەو | **نەیجووبا**<br><sub>neycûba</sub><br><sub>/næjdʒuːbaː/</sub> | **نەیجووبێت**<br><sub>neycûbêt</sub><br><sub>/næjdʒuːbeːt/</sub> | **نەیجووبووبا**<br><sub>neycûbûba</sub><br><sub>/næjdʒuːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەمانجووبا**<br><sub>nemancûba</sub><br><sub>/næmaːndʒuːbaː/</sub> | **نەمانجووبێت**<br><sub>nemancûbêt</sub><br><sub>/næmaːndʒuːbeːt/</sub> | **نەمانجووبووبا**<br><sub>nemancûbûba</sub><br><sub>/næmaːndʒuːbuːbaː/</sub> |
+| 2pl | ئێوە | **نەتانجووبا**<br><sub>netancûba</sub><br><sub>/nætaːndʒuːbaː/</sub> | **نەتانجووبێت**<br><sub>netancûbêt</sub><br><sub>/nætaːndʒuːbeːt/</sub> | **نەتانجووبووبا**<br><sub>netancûbûba</sub><br><sub>/nætaːndʒuːbuːbaː/</sub> |
+| 3pl | ئەوان | **نەیانجووبا**<br><sub>neyancûba</sub><br><sub>/næjaːndʒuːbaː/</sub> | **نەیانجووبێت**<br><sub>neyancûbêt</sub><br><sub>/næjaːndʒuːbeːt/</sub> | **نەیانجووبووبا**<br><sub>neyancûbûba</sub><br><sub>/næjaːndʒuːbuːbaː/</sub> |
+
+## Passive: present and subjunctive
+
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
+
+| person | pronoun | Passive present | Passive present negative | Passive subjunctive | Passive subjunctive negative |
+|---|---|---|---|---|---|
+| 1sg | من | **دەجوورێم**<br><sub>decûrêm</sub><br><sub>/dædʒuːɾeːm/</sub> | **ناجوورێم**<br><sub>nacûrêm</sub><br><sub>/naːdʒuːɾeːm/</sub> | **بجوورێم**<br><sub>bicûrêm</sub><br><sub>/b(ɯ)dʒuːɾeːm/</sub> | **نەجوورێم**<br><sub>necûrêm</sub><br><sub>/nædʒuːɾeːm/</sub> |
+| 2sg | تۆ | **دەجوورێیت**<br><sub>decûrêyt</sub><br><sub>/dædʒuːɾeːjt/</sub> | **ناجوورێیت**<br><sub>nacûrêyt</sub><br><sub>/naːdʒuːɾeːjt/</sub> | **بجوورێیت**<br><sub>bicûrêyt</sub><br><sub>/b(ɯ)dʒuːɾeːjt/</sub> | **نەجوورێیت**<br><sub>necûrêyt</sub><br><sub>/nædʒuːɾeːjt/</sub> |
+| 3sg | ئەو | **دەجوورێت**<br><sub>decûrêt</sub><br><sub>/dædʒuːɾeːt/</sub> | **ناجوورێت**<br><sub>nacûrêt</sub><br><sub>/naːdʒuːɾeːt/</sub> | **بجوورێت**<br><sub>bicûrêt</sub><br><sub>/b(ɯ)dʒuːɾeːt/</sub> | **نەجوورێت**<br><sub>necûrêt</sub><br><sub>/nædʒuːɾeːt/</sub> |
+| 1pl | ئێمە | **دەجوورێین**<br><sub>decûrêyn</sub><br><sub>/dædʒuːɾeːjn/</sub> | **ناجوورێین**<br><sub>nacûrêyn</sub><br><sub>/naːdʒuːɾeːjn/</sub> | **بجوورێین**<br><sub>bicûrêyn</sub><br><sub>/b(ɯ)dʒuːɾeːjn/</sub> | **نەجوورێین**<br><sub>necûrêyn</sub><br><sub>/nædʒuːɾeːjn/</sub> |
+| 2pl | ئێوە | **دەجوورێن**<br><sub>decûrên</sub><br><sub>/dædʒuːɾeːn/</sub> | **ناجوورێن**<br><sub>nacûrên</sub><br><sub>/naːdʒuːɾeːn/</sub> | **بجوورێن**<br><sub>bicûrên</sub><br><sub>/b(ɯ)dʒuːɾeːn/</sub> | **نەجوورێن**<br><sub>necûrên</sub><br><sub>/nædʒuːɾeːn/</sub> |
+| 3pl | ئەوان | **دەجوورێن**<br><sub>decûrên</sub><br><sub>/dædʒuːɾeːn/</sub> | **ناجوورێن**<br><sub>nacûrên</sub><br><sub>/naːdʒuːɾeːn/</sub> | **بجوورێن**<br><sub>bicûrên</sub><br><sub>/b(ɯ)dʒuːɾeːn/</sub> | **نەجوورێن**<br><sub>necûrên</sub><br><sub>/nædʒuːɾeːn/</sub> |
+
+## Passive: past
+
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
+
+| person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
+|---|---|---|---|---|---|
+| 1sg | من | **جوورام**<br><sub>cûram</sub><br><sub>/dʒuːɾaːm/</sub> | **نەجوورام**<br><sub>necûram</sub><br><sub>/nædʒuːɾaːm/</sub> | **دەجوورام**<br><sub>decûram</sub><br><sub>/dædʒuːɾaːm/</sub> | **نەدەجوورام**<br><sub>nedecûram</sub><br><sub>/nædædʒuːɾaːm/</sub> |
+| 2sg | تۆ | **جوورایت**<br><sub>cûrayt</sub><br><sub>/dʒuːɾaːjt/</sub> | **نەجوورایت**<br><sub>necûrayt</sub><br><sub>/nædʒuːɾaːjt/</sub> | **دەجوورایت**<br><sub>decûrayt</sub><br><sub>/dædʒuːɾaːjt/</sub> | **نەدەجوورایت**<br><sub>nedecûrayt</sub><br><sub>/nædædʒuːɾaːjt/</sub> |
+| 3sg | ئەو | **جوورا**<br><sub>cûra</sub><br><sub>/dʒuːɾaː/</sub> | **نەجوورا**<br><sub>necûra</sub><br><sub>/nædʒuːɾaː/</sub> | **دەجوورا**<br><sub>decûra</sub><br><sub>/dædʒuːɾaː/</sub> | **نەدەجوورا**<br><sub>nedecûra</sub><br><sub>/nædædʒuːɾaː/</sub> |
+| 1pl | ئێمە | **جووراین**<br><sub>cûrayn</sub><br><sub>/dʒuːɾaːjn/</sub> | **نەجووراین**<br><sub>necûrayn</sub><br><sub>/nædʒuːɾaːjn/</sub> | **دەجووراین**<br><sub>decûrayn</sub><br><sub>/dædʒuːɾaːjn/</sub> | **نەدەجووراین**<br><sub>nedecûrayn</sub><br><sub>/nædædʒuːɾaːjn/</sub> |
+| 2pl | ئێوە | **جووران**<br><sub>cûran</sub><br><sub>/dʒuːɾaːn/</sub> | **نەجووران**<br><sub>necûran</sub><br><sub>/nædʒuːɾaːn/</sub> | **دەجووران**<br><sub>decûran</sub><br><sub>/dædʒuːɾaːn/</sub> | **نەدەجووران**<br><sub>nedecûran</sub><br><sub>/nædædʒuːɾaːn/</sub> |
+| 3pl | ئەوان | **جووران**<br><sub>cûran</sub><br><sub>/dʒuːɾaːn/</sub> | **نەجووران**<br><sub>necûran</sub><br><sub>/nædʒuːɾaːn/</sub> | **دەجووران**<br><sub>decûran</sub><br><sub>/dædʒuːɾaːn/</sub> | **نەدەجووران**<br><sub>nedecûran</sub><br><sub>/nædædʒuːɾaːn/</sub> |
+
+## Passive: perfect tenses
+
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
+
+| person | pronoun | Passive perfect | Passive perfect negative | Passive past perfect | Passive past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **جووراوم**<br><sub>cûrawm</sub><br><sub>/dʒuːɾaːwm/</sub> | **نەجووراوم**<br><sub>necûrawm</sub><br><sub>/nædʒuːɾaːwm/</sub> | **جوورابووم**<br><sub>cûrabûm</sub><br><sub>/dʒuːɾaːbuːm/</sub> | **نەجوورابووم**<br><sub>necûrabûm</sub><br><sub>/nædʒuːɾaːbuːm/</sub> |
+| 2sg | تۆ | **جووراویت**<br><sub>cûrawît</sub><br><sub>/dʒuːɾaːwiːt/</sub> | **نەجووراویت**<br><sub>necûrawît</sub><br><sub>/nædʒuːɾaːwiːt/</sub> | **جوورابوویت**<br><sub>cûrabûyt</sub><br><sub>/dʒuːɾaːbuːjt/</sub> | **نەجوورابوویت**<br><sub>necûrabûyt</sub><br><sub>/nædʒuːɾaːbuːjt/</sub> |
+| 3sg | ئەو | **جووراوە**<br><sub>cûrawe</sub><br><sub>/dʒuːɾaːwæ/</sub> | **نەجووراوە**<br><sub>necûrawe</sub><br><sub>/nædʒuːɾaːwæ/</sub> | **جوورابوو**<br><sub>cûrabû</sub><br><sub>/dʒuːɾaːbuː/</sub> | **نەجوورابوو**<br><sub>necûrabû</sub><br><sub>/nædʒuːɾaːbuː/</sub> |
+| 1pl | ئێمە | **جووراوین**<br><sub>cûrawîn</sub><br><sub>/dʒuːɾaːwiːn/</sub> | **نەجووراوین**<br><sub>necûrawîn</sub><br><sub>/nædʒuːɾaːwiːn/</sub> | **جوورابووین**<br><sub>cûrabûyn</sub><br><sub>/dʒuːɾaːbuːjn/</sub> | **نەجوورابووین**<br><sub>necûrabûyn</sub><br><sub>/nædʒuːɾaːbuːjn/</sub> |
+| 2pl | ئێوە | **جووراون**<br><sub>cûrawn</sub><br><sub>/dʒuːɾaːwn/</sub> | **نەجووراون**<br><sub>necûrawn</sub><br><sub>/nædʒuːɾaːwn/</sub> | **جوورابوون**<br><sub>cûrabûn</sub><br><sub>/dʒuːɾaːbuːn/</sub> | **نەجوورابوون**<br><sub>necûrabûn</sub><br><sub>/nædʒuːɾaːbuːn/</sub> |
+| 3pl | ئەوان | **جووراون**<br><sub>cûrawn</sub><br><sub>/dʒuːɾaːwn/</sub> | **نەجووراون**<br><sub>necûrawn</sub><br><sub>/nædʒuːɾaːwn/</sub> | **جوورابوون**<br><sub>cûrabûn</sub><br><sub>/dʒuːɾaːbuːn/</sub> | **نەجوورابوون**<br><sub>necûrabûn</sub><br><sub>/nædʒuːɾaːbuːn/</sub> |
+
+## Passive: past subjunctive
+
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
+
+| person | pronoun | Passive past subjunctive | Passive perfect subjunctive | Passive past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **جوورابام**<br><sub>cûrabam</sub><br><sub>/dʒuːɾaːbaːm/</sub> | **جوورابێتم**<br><sub>cûrabêtim</sub><br><sub>/dʒuːɾaːbeːt(ɯ)m/</sub> | **جوورابووبام**<br><sub>cûrabûbam</sub><br><sub>/dʒuːɾaːbuːbaːm/</sub> |
+| 2sg | تۆ | **جوورابایت**<br><sub>cûrabayt</sub><br><sub>/dʒuːɾaːbaːjt/</sub> | **جوورابێتیت**<br><sub>cûrabêtît</sub><br><sub>/dʒuːɾaːbeːtiːt/</sub> | **جوورابووبایت**<br><sub>cûrabûbayt</sub><br><sub>/dʒuːɾaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **جوورابا**<br><sub>cûraba</sub><br><sub>/dʒuːɾaːbaː/</sub> | **جوورابێت**<br><sub>cûrabêt</sub><br><sub>/dʒuːɾaːbeːt/</sub> | **جوورابووبا**<br><sub>cûrabûba</sub><br><sub>/dʒuːɾaːbuːbaː/</sub> |
+| 1pl | ئێمە | **جووراباین**<br><sub>cûrabayn</sub><br><sub>/dʒuːɾaːbaːjn/</sub> | **جوورابێتین**<br><sub>cûrabêtîn</sub><br><sub>/dʒuːɾaːbeːtiːn/</sub> | **جوورابووباین**<br><sub>cûrabûbayn</sub><br><sub>/dʒuːɾaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **جوورابان**<br><sub>cûraban</sub><br><sub>/dʒuːɾaːbaːn/</sub> | **جوورابێتن**<br><sub>cûrabêtin</sub><br><sub>/dʒuːɾaːbeːt(ɯ)n/</sub> | **جوورابووبان**<br><sub>cûrabûban</sub><br><sub>/dʒuːɾaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **جوورابان**<br><sub>cûraban</sub><br><sub>/dʒuːɾaːbaːn/</sub> | **جوورابێتن**<br><sub>cûrabêtin</sub><br><sub>/dʒuːɾaːbeːt(ɯ)n/</sub> | **جوورابووبان**<br><sub>cûrabûban</sub><br><sub>/dʒuːɾaːbuːbaːn/</sub> |
 
 ## Imperative
 
-*چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
+*جوون* (cûn) “to chew” — present stem **جوو**, past stem **جوو**, transitive
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بڕۆ**<br><sub>birro</sub><br><sub>/b(ɯ)roː/</sub> | **مەچە**<br><sub>meçe</sub><br><sub>/mætʃæ/</sub> |
-| 2pl | ئێوە | **بڕۆن**<br><sub>birron</sub><br><sub>/b(ɯ)roːn/</sub> | **مەچن**<br><sub>meçin</sub><br><sub>/mætʃ(ɯ)n/</sub> |
+| 2sg | تۆ | **بجوو**<br><sub>bicû</sub><br><sub>/b(ɯ)dʒuː/</sub> | **مەجوو**<br><sub>mecû</sub><br><sub>/mædʒuː/</sub> |
+| 2pl | ئێوە | **بجوون**<br><sub>bicûn</sub><br><sub>/b(ɯ)dʒuːn/</sub> | **مەجوون**<br><sub>mecûn</sub><br><sub>/mædʒuːn/</sub> |
 
 ## Other forms
 
 | form | Kurdish | Latin |
 |---|---|---|
-| infinitive | **چوون** | çûn |
-| past participle | **چوو** | çû |
+| past perfective, agent clitic elsewhere | **جوو** | cû |
+| past progressive, agent clitic elsewhere | **دەجوو** | decû |
+| present perfect, agent clitic elsewhere | **جووە** | cûwe |
+| past perfect, agent clitic elsewhere | **جووبوو** | cûbû |
+| past subj, agent clitic elsewhere | **جووبا** | cûba |
+| perfect subj, agent clitic elsewhere | **جووبێت** | cûbêt |
+| pluperfect subj, agent clitic elsewhere | **جووبووبا** | cûbûba |
+| infinitive | **جوون** | cûn |
+| past participle | **جوو** | cû |
+| passive participle | **جووراو** | cûraw |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

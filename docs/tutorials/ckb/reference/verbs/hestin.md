@@ -126,12 +126,12 @@
 
 | person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
 |---|---|---|---|---|---|
-| 1sg | من | **هێڵرام**<br><sub>hêllram</sub><br><sub>/heːɫɾaːm/</sub> | **نەهێڵرام**<br><sub>nehêllram</sub><br><sub>/næheːɫɾaːm/</sub> | **دەهێڵرام**<br><sub>dehêllram</sub><br><sub>/dæheːɫɾaːm/</sub> | **نەدەهێڵرام**<br><sub>nedehêllram</sub><br><sub>/nædæheːɫɾaːm/</sub> |
-| 2sg | تۆ | **هێڵرایت**<br><sub>hêllrayt</sub><br><sub>/heːɫɾaːjt/</sub> | **نەهێڵرایت**<br><sub>nehêllrayt</sub><br><sub>/næheːɫɾaːjt/</sub> | **دەهێڵرایت**<br><sub>dehêllrayt</sub><br><sub>/dæheːɫɾaːjt/</sub> | **نەدەهێڵرایت**<br><sub>nedehêllrayt</sub><br><sub>/nædæheːɫɾaːjt/</sub> |
-| 3sg | ئەو | **هێڵرا**<br><sub>hêllra</sub><br><sub>/heːɫɾaː/</sub> | **نەهێڵرا**<br><sub>nehêllra</sub><br><sub>/næheːɫɾaː/</sub> | **دەهێڵرا**<br><sub>dehêllra</sub><br><sub>/dæheːɫɾaː/</sub> | **نەدەهێڵرا**<br><sub>nedehêllra</sub><br><sub>/nædæheːɫɾaː/</sub> |
-| 1pl | ئێمە | **هێڵراین**<br><sub>hêllrayn</sub><br><sub>/heːɫɾaːjn/</sub> | **نەهێڵراین**<br><sub>nehêllrayn</sub><br><sub>/næheːɫɾaːjn/</sub> | **دەهێڵراین**<br><sub>dehêllrayn</sub><br><sub>/dæheːɫɾaːjn/</sub> | **نەدەهێڵراین**<br><sub>nedehêllrayn</sub><br><sub>/nædæheːɫɾaːjn/</sub> |
-| 2pl | ئێوە | **هێڵران**<br><sub>hêllran</sub><br><sub>/heːɫɾaːn/</sub> | **نەهێڵران**<br><sub>nehêllran</sub><br><sub>/næheːɫɾaːn/</sub> | **دەهێڵران**<br><sub>dehêllran</sub><br><sub>/dæheːɫɾaːn/</sub> | **نەدەهێڵران**<br><sub>nedehêllran</sub><br><sub>/nædæheːɫɾaːn/</sub> |
-| 3pl | ئەوان | **هێڵران**<br><sub>hêllran</sub><br><sub>/heːɫɾaːn/</sub> | **نەهێڵران**<br><sub>nehêllran</sub><br><sub>/næheːɫɾaːn/</sub> | **دەهێڵران**<br><sub>dehêllran</sub><br><sub>/dæheːɫɾaːn/</sub> | **نەدەهێڵران**<br><sub>nedehêllran</sub><br><sub>/nædæheːɫɾaːn/</sub> |
+| 1sg | من | **هێشترام**<br><sub>hêştram</sub><br><sub>/heːʃtɾaːm/</sub> | **نەهێڵرام**<br><sub>nehêllram</sub><br><sub>/næheːɫɾaːm/</sub> | **دەهێڵرام**<br><sub>dehêllram</sub><br><sub>/dæheːɫɾaːm/</sub> | **نەدەهێڵرام**<br><sub>nedehêllram</sub><br><sub>/nædæheːɫɾaːm/</sub> |
+| 2sg | تۆ | **هێشترایت**<br><sub>hêştrayt</sub><br><sub>/heːʃtɾaːjt/</sub> | **نەهێڵرایت**<br><sub>nehêllrayt</sub><br><sub>/næheːɫɾaːjt/</sub> | **دەهێڵرایت**<br><sub>dehêllrayt</sub><br><sub>/dæheːɫɾaːjt/</sub> | **نەدەهێڵرایت**<br><sub>nedehêllrayt</sub><br><sub>/nædæheːɫɾaːjt/</sub> |
+| 3sg | ئەو | **هێشترا**<br><sub>hêştra</sub><br><sub>/heːʃtɾaː/</sub> | **نەهێڵرا**<br><sub>nehêllra</sub><br><sub>/næheːɫɾaː/</sub> | **دەهێڵرا**<br><sub>dehêllra</sub><br><sub>/dæheːɫɾaː/</sub> | **نەدەهێڵرا**<br><sub>nedehêllra</sub><br><sub>/nædæheːɫɾaː/</sub> |
+| 1pl | ئێمە | **هێشتراین**<br><sub>hêştrayn</sub><br><sub>/heːʃtɾaːjn/</sub> | **نەهێڵراین**<br><sub>nehêllrayn</sub><br><sub>/næheːɫɾaːjn/</sub> | **دەهێڵراین**<br><sub>dehêllrayn</sub><br><sub>/dæheːɫɾaːjn/</sub> | **نەدەهێڵراین**<br><sub>nedehêllrayn</sub><br><sub>/nædæheːɫɾaːjn/</sub> |
+| 2pl | ئێوە | **هێشتران**<br><sub>hêştran</sub><br><sub>/heːʃtɾaːn/</sub> | **نەهێڵران**<br><sub>nehêllran</sub><br><sub>/næheːɫɾaːn/</sub> | **دەهێڵران**<br><sub>dehêllran</sub><br><sub>/dæheːɫɾaːn/</sub> | **نەدەهێڵران**<br><sub>nedehêllran</sub><br><sub>/nædæheːɫɾaːn/</sub> |
+| 3pl | ئەوان | **هێشتران**<br><sub>hêştran</sub><br><sub>/heːʃtɾaːn/</sub> | **نەهێڵران**<br><sub>nehêllran</sub><br><sub>/næheːɫɾaːn/</sub> | **دەهێڵران**<br><sub>dehêllran</sub><br><sub>/dæheːɫɾaːn/</sub> | **نەدەهێڵران**<br><sub>nedehêllran</sub><br><sub>/nædæheːɫɾaːn/</sub> |
 
 ## Passive: perfect tenses
 

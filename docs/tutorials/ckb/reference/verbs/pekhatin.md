@@ -108,8 +108,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **پێکوەرە**<br><sub>pêkwere</sub><br><sub>/peːkwæɾæ/</sub> | **پێکمەیە**<br><sub>pêkmeye</sub><br><sub>/peːkmæjæ/</sub> |
-| 2pl | ئێوە | **پێکوەرن**<br><sub>pêkwern</sub><br><sub>/peːkwæɾn/</sub> | **پێکمەیەن**<br><sub>pêkmeyen</sub><br><sub>/peːkmæjæn/</sub> |
+| 2sg | تۆ | **پێکوەرە**<br><sub>pêkwere</sub><br><sub>/peːkwæɾæ/</sub> | **پێکمەیێ**<br><sub>pêkmeyê</sub><br><sub>/peːkmæjeː/</sub> |
+| 2pl | ئێوە | **پێکوەرن**<br><sub>pêkwern</sub><br><sub>/peːkwæɾn/</sub> | **پێکمەیێن**<br><sub>pêkmeyên</sub><br><sub>/peːkmæjeːn/</sub> |
 
 ## Other forms
 

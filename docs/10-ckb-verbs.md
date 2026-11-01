@@ -11,7 +11,7 @@
 ## Stems
 
 * past stem = infinitive − `ن`: `کردن → کرد`, `چوون → چوو`, `نووسین → نووسی`, `هێنان → هێنا`.
-* present stem is lexical: `کردن → کە`, `بردن → بە`, `گوتن → ڵێ`, `خواردن → خۆ`, `هاتن → ێ`. Reference list: `zimankit/data/ckb_verbs_core.tsv`; verbs from the lexicon use its stem, otherwise `guess_present_stem` applies the regular patterns (`-اند → -ێن`, `-ارد → -ێر`, `-ا/-ی → ∅`).
+* present stem is lexical: `کردن → کە`, `بردن → بە`, `گوتن → ڵێ`, `خواردن → خۆ`, `هاتن → ێ`. Reference list: `zimankit/data/ckb_verbs_core.tsv`; verbs from the lexicon use its stem, otherwise `guess_present_stem` applies the regular patterns (`-اند → -ێن`, `-ارد → -ێر`, `-ی → ∅`, `-ا → ∅` if transitive and `-ێ` if intransitive, `-وو` unchanged).
 * preverbs precede the aspect marker. Simple ones are `هەڵ وەر دەر دا ڕا ڕۆ ڕێ تێ پێ لێ`, and complex (ناسادە) ones are `پێدا تێدا پێڕا تێڕا لێڕا تێوە پێوە لێوە پێک تێک ڕێک وێک لێک`: `هەڵدەگرم`. `ب` follows the preverb and may be dropped: `هەڵبگرم` or `هەڵگرم`, `دابنیشە` or `دانیشە`. Both forms are generated, the bare one with `variant=no_b`.
 * `ڕاکردن` means "run" but takes the agent clitics (`ڕام کرد`), so it is listed as transitive and has no passive.
 
@@ -36,6 +36,10 @@
 | imperative | بکە (2sg) · بکەن (2pl) · مەکە (prohibitive) | | |
 
 Intransitive `هاتن`: `هاتم هاتیت هات هاتین هاتن`, perfect `هاتوومە هاتوویتە هاتووە هاتووینە هاتوونە` (the written form; `هاتووم هاتوویت هاتوون` are spoken and generated with `variant=short`), irregular present `دێم دێیت دێت`, negative `نایەم`, imperative `وەرە`.
+
+Other irregular cells: the imperative of `چوون` is `بچۆ`, `بچن`, and `بڕۆ`, `بڕۆن` (from `ڕۆیشتن`) are accepted too. `هاتن` keeps `وەرە`, `وەرن`, `نایەم`, `مەیە` first and also accepts `بێ`, `بێن`, `نایێم`, `مەیێ`. `ویستن` has a rare imperative (`بتەوێ`) and passive (`ویسترا`).
+
+Recognised but never shown first: dropped `ت` in speech and poetry (`دەکا`, `دەڵێ`, `دەمەوێ`, `دەکەی`, `دەبینرێ`, with `variant=short`), `دەژێت` beside `دەژی`, `هاتۆتەوە`, `بکەرەوە` (older or Sulaimani; the current textbook has `بکەوە`), `گرترا` and `بردرا`, and `ئەچم`, `ئەخوارد` with the eastern `ئە-` for core verbs (`variant=dialect_ae`). A variant never hides a function word (`بێ`, the adposition). The forms `نا` and `نان` of the verb "put" are not indexed, because they are almost always the particle and the noun.
 
 `-ەوە` verbs attach the suffix after the person ending: `دەکەمەوە`, `دەکاتەوە`, `کردیەوە`. Three `و` never occur: `چوو + ەوە = چووەوە`, `کردبوو + ەوە = کردبووەوە`. A stem in `ی` keeps its 3sg ending: `دۆزی + ی + ەوە = دۆزییەوە`. The perfect adds `ت` before `ەوە` and uses the long endings: `خوێندووەتەوە`, `خوێندوومانەتەوە`, `چووینەتەوە`. The 1sg and 2sg perfects (`کردوومەتەوە`, `هاتوویتەتەوە`) follow the pattern but are not printed in the sources checked.
 

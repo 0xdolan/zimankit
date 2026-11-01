@@ -368,7 +368,8 @@ def build(cfg: Config, lang: str) -> dict:
                 pos, fw_feats = d.fw[w]
                 feats = dict(fw_feats)
             else:
-                pos = "VERB" if ("VERB" in e.pos and w in index.verbs) else next((p for p in POS_ORDER if p in e.pos), "X")
+                hidden = getattr(d.verbs, "HIDDEN_FORMS", {}).get(w, ())  # نان is the noun "bread"
+                pos = "VERB" if ("VERB" in e.pos and w in index.verbs and w not in hidden) else next((p for p in POS_ORDER if p in e.pos and p != "VERB" or p in e.pos and w not in hidden), "X")
                 if a is not None and a.lemma == w:
                     feats = dict(a.features)
                 if e.gender and pos in ("NOUN", "PROPN"):
@@ -425,20 +426,24 @@ def build(cfg: Config, lang: str) -> dict:
     # Central Kurdish spelling variants of accepted forms
     variants: list[tuple[str, str, int, int]] = []
     if lang == "ckb":
-        from ..skills_ckb.orthography import spelling_variants
+        from ..skills_ckb.orthography import STANDARD_OVERRIDES, spelling_variants, validate_word
 
         ratio = cfg.settings["ckb"]["variant_ratio"]
         for w in pending_variants:
             f = counts.get(w, 0)
             best = None
             for v in spelling_variants(w, 32):
-                if v in accepted and accepted[v].frequency >= ratio * max(f, 1):
+                # the target must itself be standard: not ووتی, not چو
+                if v in accepted and accepted[v].frequency >= ratio * max(f, 1) and not validate_word(v):
                     if best is None or accepted[v].frequency > accepted[best].frequency:
                         best = v
             if best:
                 variants.append((w, best, f, accepted[best].frequency))
             else:
                 rejected.append((w, f, "unknown stem (not in lexicon, too rare for a new lemma)"))
+        # frequency cannot pick the standard form here: the common spelling is the non-standard one
+        variants += [(w, std, accepted[w].frequency, accepted[std].frequency)
+                     for w, std in STANDARD_OVERRIDES.items() if w in accepted and std in accepted]
     else:
         rejected += [(w, counts.get(w, 0), "unknown stem (not in lexicon, too rare for a new lemma)") for w in pending_variants]
 

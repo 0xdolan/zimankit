@@ -47,6 +47,8 @@ For the full written standard, what zimankit implements of it and where the auth
 
 ## Spelling variants
 
+Frequency cannot always choose the standard form, because the common spelling is sometimes the non-standard one (`وەکو` beats `وەکوو` about 7 to 1). `STANDARD_OVERRIDES` lists the cases the sources name: `وەکو تاکو بەرامبەر کەرکوک نیە چیە ڕۆژئاوا خۆرئاوا ماڵئاوایی`. These stay recognised, `validate_word` names the standard spelling, and the builder lists them in the variants file. A variant target must itself pass `validate_word`.
+
 Unstandardised text confuses `ر/ڕ`, `ل/ڵ`, `ی/ێ`, `و/ۆ`, `و/وو`, `ه/ە`. `spelling_variants(word)` toggles these; the builder maps a rare unknown form to a **much more frequent accepted variant** (ratio ≥ 5) and writes the pair to `spelling_variants_ckb.csv` (e.g. `بەلام → بەڵام`, `گول → گوڵ`) instead of putting the misspelling in the wordlist.
 
 <!-- nav:bottom -->

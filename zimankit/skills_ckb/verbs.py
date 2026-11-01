@@ -52,13 +52,20 @@ IRREGULAR: dict[str, dict[tuple[str, str], str]] = {
         ("prohibitive", "2sg"): "مەیە",
         ("prohibitive", "2pl"): "مەیەن",
     },
-    "چوون": {("imperative", "2sg"): "بڕۆ", ("imperative", "2pl"): "بڕۆن"},
+    "چوون": {("imperative", "2sg"): "بچۆ", ("imperative", "2pl"): "بچن", ("prohibitive", "2sg"): "مەچۆ", ("prohibitive", "2pl"): "مەچن"},
+}
+# Accepted alongside the cells above, but not the form shown first.
+IRREGULAR_VARIANTS: dict[str, dict[tuple[str, str], str]] = {
+    "هاتن": {("imperative", "2sg"): "بێ", ("imperative", "2pl"): "بێن", ("prohibitive", "2sg"): "مەیێ", ("prohibitive", "2pl"): "مەیێن"},
+    "چوون": {("imperative", "2sg"): "بڕۆ", ("imperative", "2pl"): "بڕۆن"},  # from ڕۆیشتن
 }
 # Present-stem tenses whose person marker is a set-2 clitic (دەمەوێت "I want", lit. "to-me it is wanted");
-# such verbs have no imperative and no passive.
+# the imperative (بتەوێ) and the passive (ویسترا) are rare.
 CLITIC_SUBJECT_PRESENT = {"ویستن": "ەوێت"}
 # Passive stems that the rules below do not derive.
-PASSIVE_STEM = {"گرتن": "گیر", "گوتن": "گوتر", "وتن": "وتر", "بیستن": "بیستر"}
+PASSIVE_STEM = {"گرتن": "گیر", "گوتن": "گوتر", "وتن": "وتر", "بیستن": "بیستر", "ویستن": "ویستر"}
+# Forms that are almost always another word: the particle نا and the noun نان, not "put".
+HIDDEN_FORMS = {"نان": frozenset({"نا", "نان"})}
 
 
 @dataclass(frozen=True)
@@ -119,8 +126,12 @@ def past_stem_of(infinitive: str) -> str | None:
     return None
 
 
-def guess_present_stem(past: str) -> str:
+def guess_present_stem(past: str, transitive: bool | None = None) -> str:
     """Rule-of-thumb present stem for verbs missing from the reference list."""
+    if past.endswith("وو"):
+        return past  # دروو, سوو, جوو; چوون and بوون are in the list
+    if past.endswith("ا") and transitive is False:
+        return past[:-1] + "ێ"  # دڕا -> دڕێ, فەوتا -> فەوتێ
     if past.endswith("اند"):
         return past[:-3] + "ێن"  # causative شکاند -> شکێن
     if past.endswith("ارد"):
@@ -159,6 +170,8 @@ def make_verb(infinitive: str, transitive: bool | None = None, present: str | No
     for k in range(2, len(core) - 2):
         rest = core[k:]
         if rest in known and not known[rest].preverb:
+            if rest in ("وتن", "گوتن") and core[:k] not in PREVERBS:
+                continue  # پاڵاوتن is not پاڵا + وتن
             base = known[rest]
             pre = core[:k]
             return Verb(infinitive, base.past, base.present, base.transitive if transitive is None else transitive,
@@ -166,7 +179,7 @@ def make_verb(infinitive: str, transitive: bool | None = None, present: str | No
     past = past_stem_of(core)
     if not past:
         return None
-    pres = present or guess_present_stem(past)
+    pres = present or guess_present_stem(past, transitive)
     tr = True if transitive is None else transitive
     return Verb(infinitive, past, pres, tr, "", suffix, source)
 
@@ -248,16 +261,24 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
     pre, suf, lemma = v.preverb, v.suffix, v.infinitive
     irregular = IRREGULAR.get(v.base_infinitive, {})
     pres, past = v.present, v.past
+    clitic_present = CLITIC_SUBJECT_PRESENT.get(v.base_infinitive)
     # on a guessed verb a vowel-final stem + با/بێت is more often another word: کوبا, ڕازی بێت
     past_subjunctives = PAST_SUBJUNCTIVES if v.source == "core" or past[-1:] not in VOWEL_END else ()
 
     def emit(surface: str, **feat):
         if suf and feat.get("tense") == "present_perfect":  # خوێندووەتەوە, چووینەتەوە
             yield VerbForm(pre + surface + "تەوە", lemma, {"pos": "VERB", **feat})
+            if surface.endswith("ووە"):  # هاتۆتەوە, recognised but not shown
+                yield VerbForm(pre + surface[:-3] + "ۆتەوە", lemma, {"pos": "VERB", **feat, "variant": "contracted"})
             return
         if suf and past.endswith("ی") and surface.endswith(past):  # دۆزی + ی + ەوە
             surface += "ی"
         yield VerbForm(_with_suffix(pre + surface, suf), lemma, {"pos": "VERB", **feat})
+        # speech and poetry drop the ت: دەکا, دەڵێ, دەمەوێ, دەکەی
+        if feat.get("tense") == "present" and "variant" not in feat and "goal" not in feat:
+            person = feat.get("person")
+            if surface.endswith("ت") and (person == "3sg" or clitic_present or (person == "2sg" and surface.endswith("یت"))):
+                yield from emit(surface[:-1], variant="short", **feat)
 
     # the clitic belongs directly on the first part in every tense (RW, the grade 12 handout):
     # هەڵم+نەگرت, هەڵم+دەگرت, هەڵم+گرتووە.  The older solid shapes stay recognised as a variant.
@@ -268,7 +289,6 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
         if pre and not v.light:
             yield from emit(surface, variant="no_b", **feat)
 
-    clitic_present = CLITIC_SUBJECT_PRESENT.get(v.base_infinitive)
     for p in PERSONS:
         if clitic_present:
             cl = SET2[p] + clitic_present
@@ -306,7 +326,9 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
                 yield from emit("نە" + cl + past + mark, polarity="neg", **subj, **late)
                 yield from emit("نە" + past + mark + cl, polarity="neg", variant="clitic_end", **subj)
             ps = _passive_stem(v)
-            if not clitic_present and lemma not in NO_PASSIVE and len(ps) >= 2:  # a lone ر is a guessed stem
+            if past[-1:] in ("ت", "د") and lemma not in NO_PASSIVE and not clitic_present:  # گرترا, بردرا: recognised, not shown
+                yield from emit(_set1_past(past + "را", p), tense="past", voice="passive", person=p, variant="past_stem")
+            if (not clitic_present or v.base_infinitive in PASSIVE_STEM) and lemma not in NO_PASSIVE and len(ps) >= 2:  # a lone ر is a guessed stem
                 yield from emit("دە" + ps + _set1_present("ێ", p), tense="present", voice="passive", person=p)
                 yield from emit("نا" + ps + _set1_present("ێ", p), tense="present", voice="passive", person=p, polarity="neg")
                 yield from emit("ب" + ps + _set1_present("ێ", p), tense="present", mood="subjunctive", voice="passive", person=p)
@@ -373,8 +395,23 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
                     yield from emit(first + past + "بوو", tense="past_perfect", **agent, **polarity)
                     for mark, tense in past_subjunctives:
                         yield from emit(first + past + mark, tense=tense, mood="subjunctive", **agent, **polarity)
+    if pres.endswith("ی") and not clitic_present:  # دەژی, also دەژێت
+        yield from emit("دە" + pres[:-1] + "ێت", tense="present", mood="indicative", person="3sg", variant="root_i")
+    if v.base_infinitive == "هاتن":  # نایەم is the common spelling; نایێم is argued for and recognised
+        for p, end in zip(PERSONS, ("ێم", "ێیت", "ێت", "ێین", "ێن", "ێن")):
+            yield from emit("نای" + end, tense="present", mood="indicative", person=p, polarity="neg", variant="ye")
+            yield from emit("نەی" + end, tense="present", mood="subjunctive", person=p, polarity="neg", variant="ye")
     # imperative / prohibitive
     imp_sg = pres if _vowel_final(pres) else pres + "ە"
+    for (cell, p), form in IRREGULAR_VARIANTS.get(v.base_infinitive, {}).items():
+        polarity = {"polarity": "neg"} if cell == "prohibitive" else {}
+        yield from emit(form, mood="imperative", person=p, variant="other", **polarity)
+    if suf and imp_sg.endswith("ە") and not clitic_present:  # بکەرەوە: older or Sulaimani, recognised
+        yield VerbForm(pre + "ب" + imp_sg + "رەوە", lemma, {"pos": "VERB", "mood": "imperative", "person": "2sg", "variant": "er"})
+    if clitic_present:  # بتەوێ, مەتەوێ: rare
+        for p, cl in (("2sg", "ت"), ("2pl", "تان")):
+            yield from emit("ب" + cl + "ەوێ", mood="imperative", person=p)
+            yield from emit("مە" + cl + "ەوێ", mood="imperative", person=p, polarity="neg")
     if not clitic_present:
         yield from emit(irregular.get(("imperative", "2sg"), "ب" + imp_sg), mood="imperative", person="2sg")
         yield from emit(irregular.get(("imperative", "2pl"), "ب" + pres + "ن"), mood="imperative", person="2pl")
@@ -405,8 +442,10 @@ class FormIndex:
         if v.infinitive in self.verbs:
             return
         self.verbs[v.infinitive] = v
+        hidden = HIDDEN_FORMS.get(v.infinitive, ())
         for f in conjugate(v):
-            self._add_form(f)
+            if f.form not in hidden:
+                self._add_form(f)
 
     def _add_form(self, f: VerbForm) -> None:
         """Index *f*; persons that share a surface form (2pl/3pl ـن) become one ``2pl|3pl`` reading."""
