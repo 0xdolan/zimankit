@@ -4,6 +4,14 @@ All notable changes to zimankit are recorded here. The format follows [Keep a Ch
 
 ## [Unreleased]
 
+### Added
+
+- **Kaggle upload**: `scripts/publish_kaggle.py` publishes a new dataset version with a bar for the whole upload and one for the current file. If it stops for any reason, running it again continues from the last byte received, even after a reboot.
+
+### Fixed
+
+- **"Brother" is `bira`**: Central Kurdish `برا` stays `bira`, and Kurmanji `bra`, `brayê` and `brayên` are reported as non-standard and no longer enter the lexicon.
+
 ## [0.3.0] - 2026-11-01
 
 Central Kurdish is corrected against the written standard and the grammar sources. Spelling, transliteration, IPA, lemmas and word classes all change for some Central Kurdish words, so results will differ from 0.2.0: rebuild anything that stores them. Kurmanji is not affected.

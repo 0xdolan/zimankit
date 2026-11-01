@@ -64,12 +64,17 @@ def normalize_word(word: str, lowercase: bool = True) -> str:
     return normalize(word, KmrOrthographyOptions(lowercase=lowercase))
 
 
+STANDARD_OVERRIDES = {"bra": "bira", "brayê": "birayê", "brayên": "birayên"}
+
+
 def validate_word(word: str) -> list[str]:
     """Problems with a (lower-cased) Kurmanji word; empty list = valid."""
     problems: list[str] = []
     if not word:
         return ["empty"]
     w = lower(word)
+    if w in STANDARD_OVERRIDES:
+        problems.append(f"the standard spelling is {STANDARD_OVERRIDES[w]}")
     foreign = sorted({c for c in w if c in KMR_FOREIGN_LETTERS})
     if foreign:
         problems.append("foreign letter(s): " + "".join(foreign))

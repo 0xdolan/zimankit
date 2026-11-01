@@ -38,6 +38,17 @@ gh release upload vX.Y.Z output/bundle/zimankit-lexicon-X.Y.Z.tar.zst output/bun
 
 The stage needs `zstd` and `pyarrow` (`pip install 'zimankit[kaggle]'`).
 
+## The Kaggle dataset
+
+The same export is published as a new version of the Kaggle dataset, after the bundle:
+
+```bash
+python scripts/publish_kaggle.py --check   # what would be uploaded; uploads nothing
+python scripts/publish_kaggle.py
+```
+
+If the upload stops for any reason, run the same command again and it continues from the last byte Kaggle received. The resume state is kept in `~/.cache/zimankit/kaggle-upload`, so a reboot does not lose it. Rebuilding the export changes the files, and those upload again from the start.
+
 ## PyPI: Trusted Publishing
 
 zimankit publishes to [PyPI](https://pypi.org/project/zimankit/) with [Trusted Publishing](https://docs.pypi.org/trusted-publishers/): PyPI trusts this repository's release workflow through OpenID Connect, so no password or API token is stored anywhere.

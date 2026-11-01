@@ -419,3 +419,6 @@ def test_ezafe_after_a_final_i_is_written_in_latin(word, latin):
 def test_negative_participle():
     assert any(f.features.get("form") == "past_participle" for f in verbs.default_index().lookup("نەهاتوو"))
 
+
+def test_brother_is_bira():
+    assert to_latin("برا") == "bira" and to_latin("برایەک") == "birayek"
