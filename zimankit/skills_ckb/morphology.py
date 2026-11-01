@@ -39,7 +39,7 @@ from typing import Iterable
 
 from ..shared_utils.schema import Analysis, EmptyLexicon, LexiconLike
 from .orthography import normalize_word
-from .verbs import FormIndex, default_index
+from .verbs import PREVERBS, FormIndex, VerbForm, default_index
 
 VOWEL_LETTERS = set("اەۆێیو")
 
@@ -298,6 +298,18 @@ class CkbAnalyzer:
             results.append(Analysis(surface, stem, pos, feats, seg_list, round(score - 0.3 * len(prefix), 3)))
         return results
 
+    def _stacked_adposition(self, word: str) -> list[Analysis]:
+        """Two clitics on one adposition: بۆ+م+ی (بۆمی نووسی "he wrote to me")."""
+        out = []
+        for host in CLITIC_ADPOSITIONS:
+            rest = word[len(host) :]
+            if word.startswith(host):
+                for first in CLITICS:
+                    if rest.startswith(first) and rest[len(first) :] in CLITICS:
+                        second = rest[len(first) :]
+                        out.append(Analysis(word, host, "ADP", {"adptype": "bare"}, [(host, "STEM"), (first, "CLITIC"), (second, "CLITIC")], 8.0))
+        return out
+
     def _prefixed(self, word: str) -> list[Analysis]:
         """بێ+کار, ها+و: only when the remainder is a known word."""
         out = []
@@ -336,11 +348,67 @@ class CkbAnalyzer:
                 return p
         return hint or "NOUN"
 
+    def _object_clitic(self, word: str) -> list[tuple[VerbForm, str]]:
+        """Forms with a pronoun object: دەتبینم, هەڵیدەگرم, بمگرە, بینیمیت, گرتمی, بردینیان.
+
+        They multiply the paradigm by six, so they are recognised by stripping the object and looking
+        the rest up, not listed.  A reading needs a transitive verb, and a first or second person
+        object must differ from the subject.
+        """
+        found: list[tuple[VerbForm, str]] = []
+
+        def transitive(form: str, core_only: bool = False) -> list[VerbForm]:
+            verbs = ((f, self.verbs.verbs[f.lemma]) for f in self.verbs.lookup(form))
+            return [f for f, v in verbs if v.transitive and (v.source == "core" or not core_only)]
+
+        def add(form: str, obj: str, ok, core_only: bool = False) -> None:
+            for f in transitive(form, core_only):
+                # "I see me" needs خۆ; only a third person can differ from a subject of the same person
+                if ok(f.features) and (obj.startswith("3") or obj not in str(f.features.get("person", f.features.get("agent")))):
+                    found.append((f, obj))
+
+        def present(ft: dict, clitic: str) -> bool:
+            if ft.get("mood") == "imperative":
+                return clitic not in ("ت", "تان")  # no "see yourself" order
+            return ft.get("tense") == "present" and "voice" not in ft and "person" in ft
+
+        def past(ft: dict) -> bool:
+            return ft.get("tense") == "past" and ft.get("aspect") == "perfective" and "polarity" not in ft and "voice" not in ft
+
+        for cl, obj in zip(CLITICS, PERSONS):
+            # دە+ت+بینم, بم+گرە, and on a preverb هەڵ+ی+دەگرم, ڕا+م+بهێنە
+            for head in ("دە", "نا", "ب", "نە", "مە", *PREVERBS):
+                rest = word[len(head + cl) :]
+                if word.startswith(head + cl) and len(rest) >= 2:
+                    # a short remainder is too easily another word on a guessed verb: دەیلی
+                    add(head + rest, obj, lambda ft, c=cl: present(ft, c), core_only=len(rest) < 4)
+        for end, obj in (("یت", "2sg"), ("م", "1sg"), ("ین", "1pl"), ("یان", "3pl"), ("ن", "2pl|3pl")):  # بینیم+یت, ڕامهێنا+یت
+            if word.endswith(end) and len(word) > len(end) + 2:
+                # core verbs only: on guessed ones these match other words (بریتین, بریتانی, درامی)
+                add(word[: -len(end)], obj, lambda ft: past(ft) and ft.get("agent") in ("1sg", "2sg", "1pl", "2pl"), core_only=True)
+        for agent, cl3 in (("3sg", "ی"), ("3pl", "یان")):  # گرت+م+ی, برد+ین+یان
+            if word.endswith(cl3):
+                bare = word[: -len(cl3)]
+                for end, obj in (("مان", "1pl"), ("تان", "2pl"), ("م", "1sg"), ("ت", "2sg"), ("ین", "1pl"), ("یت", "2sg")):
+                    if bare.endswith(end) and len(bare) > len(end) + 1:
+                        for f in transitive(bare[: -len(end)], core_only=True):
+                            if past(f.features) and f.features.get("agent") == "external":
+                                found.append((VerbForm(f.form, f.lemma, {**f.features, "agent": agent}), obj))
+        return found
+
     def _verbal(self, word: str) -> list[Analysis]:
         out = []
+        if not self.verbs.lookup(word) and word not in self.lexicon and word not in self.fw:
+            for vf, obj in self._object_clitic(word):
+                feats = {k: str(val) for k, val in vf.features.items() if k != "pos"}
+                score = 6.0 if self.verbs.verbs[vf.lemma].source == "core" else 4.5
+                out.append(Analysis(word, vf.lemma, "VERB", {**feats, "object": obj, "transitivity": "transitive"}, [(word, "VERB")], score))
         for vf in self.verbs.lookup(word):
             v = self.verbs.verbs.get(vf.lemma)
             score = (7.0 if v is None or v.source == "core" else 5.5) + math.log1p(self.lexicon.freq(word)) / 4
+            rivals = {f.lemma for f in self.verbs.lookup(word)} - {vf.lemma}
+            if v is not None and v.light and rivals and vf.features.get("agent") not in (None, "external"):
+                score -= 0.5  # a listed verb wins: دیاریکرد is دیاریکردن, not دیار+ی+کرد
             feats = {k: str(val) for k, val in vf.features.items() if k != "pos"}
             if feats.get("form") == "infinitive":
                 score += 0.2
@@ -360,7 +428,7 @@ class CkbAnalyzer:
             if word.startswith(pre) and len(rest) >= 2 and word not in self.lexicon and word not in self.fw:
                 results += [a for a in self._nominal(rest, [(pre, tag)]) if a.lemma in self.lexicon]
         if word not in self.lexicon and word not in self.fw and not self.verbs.lookup(word):
-            results += self._prefixed(word) + self._compound(word)
+            results += self._prefixed(word) + self._compound(word) + self._stacked_adposition(word)
         best: dict[tuple[str, str], Analysis] = {}
         for a in results:
             key = (a.segmentation, a.pos)

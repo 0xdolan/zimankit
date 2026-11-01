@@ -13,7 +13,7 @@
   ];
   const GROUP = {
     root: "root", nsubj: "nsubj", obj: "obj", obl: "obl", case: "case", amod: "mod", nmod: "mod", "nmod:poss": "mod",
-    det: "det", nummod: "det", conj: "conj", cc: "conj", advmod: "adv", aux: "fn", cop: "fn", mark: "fn", punct: "fn", dep: "fn",
+    det: "det", nummod: "det", conj: "conj", cc: "conj", advmod: "adv", aux: "fn", cop: "fn", mark: "fn", punct: "fn", dep: "fn", "compound:prt": "fn",
   };
   const SVG = "http://www.w3.org/2000/svg";
   const $ = (id) => document.getElementById(id);

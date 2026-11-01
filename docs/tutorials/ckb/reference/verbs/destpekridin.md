@@ -43,12 +43,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **دەستپێمکرد**<br><sub>destpêmkird</sub><br><sub>/dæstpeːmk(ɯ)ɾd/</sub> | **دەستپێنەمکرد**<br><sub>destpênemkird</sub><br><sub>/dæstpeːnæmk(ɯ)ɾd/</sub> |
-| 2sg | تۆ | **دەستپێتکرد**<br><sub>destpêtkird</sub><br><sub>/dæstpeːtk(ɯ)ɾd/</sub> | **دەستپێنەتکرد**<br><sub>destpênetkird</sub><br><sub>/dæstpeːnætk(ɯ)ɾd/</sub> |
-| 3sg | ئەو | **دەستپێیکرد**<br><sub>destpêykird</sub><br><sub>/dæstpeːjk(ɯ)ɾd/</sub> | **دەستپێنەیکرد**<br><sub>destpêneykird</sub><br><sub>/dæstpeːnæjk(ɯ)ɾd/</sub> |
-| 1pl | ئێمە | **دەستپێمانکرد**<br><sub>destpêmankird</sub><br><sub>/dæstpeːmaːnk(ɯ)ɾd/</sub> | **دەستپێنەمانکرد**<br><sub>destpênemankird</sub><br><sub>/dæstpeːnæmaːnk(ɯ)ɾd/</sub> |
-| 2pl | ئێوە | **دەستپێتانکرد**<br><sub>destpêtankird</sub><br><sub>/dæstpeːtaːnk(ɯ)ɾd/</sub> | **دەستپێنەتانکرد**<br><sub>destpênetankird</sub><br><sub>/dæstpeːnætaːnk(ɯ)ɾd/</sub> |
-| 3pl | ئەوان | **دەستپێیانکرد**<br><sub>destpêyankird</sub><br><sub>/dæstpeːjaːnk(ɯ)ɾd/</sub> | **دەستپێنەیانکرد**<br><sub>destpêneyankird</sub><br><sub>/dæstpeːnæjaːnk(ɯ)ɾd/</sub> |
+| 1sg | من | **دەستپێمکرد**<br><sub>destpêmkird</sub><br><sub>/dæstpeːmk(ɯ)ɾd/</sub> | **دەستپێمنەکرد**<br><sub>destpêmnekrid</sub><br><sub>/dæstpeːmnækɾ(ɯ)d/</sub> |
+| 2sg | تۆ | **دەستپێتکرد**<br><sub>destpêtkird</sub><br><sub>/dæstpeːtk(ɯ)ɾd/</sub> | **دەستپێتنەکرد**<br><sub>destpêtnekrid</sub><br><sub>/dæstpeːtnækɾ(ɯ)d/</sub> |
+| 3sg | ئەو | **دەستپێیکرد**<br><sub>destpêykird</sub><br><sub>/dæstpeːjk(ɯ)ɾd/</sub> | **دەستپێینەکرد**<br><sub>destpêynekrid</sub><br><sub>/dæstpeːjnækɾ(ɯ)d/</sub> |
+| 1pl | ئێمە | **دەستپێمانکرد**<br><sub>destpêmankird</sub><br><sub>/dæstpeːmaːnk(ɯ)ɾd/</sub> | **دەستپێماننەکرد**<br><sub>destpêmannekrid</sub><br><sub>/dæstpeːmaːnnækɾ(ɯ)d/</sub> |
+| 2pl | ئێوە | **دەستپێتانکرد**<br><sub>destpêtankird</sub><br><sub>/dæstpeːtaːnk(ɯ)ɾd/</sub> | **دەستپێتاننەکرد**<br><sub>destpêtannekrid</sub><br><sub>/dæstpeːtaːnnækɾ(ɯ)d/</sub> |
+| 3pl | ئەوان | **دەستپێیانکرد**<br><sub>destpêyankird</sub><br><sub>/dæstpeːjaːnk(ɯ)ɾd/</sub> | **دەستپێیاننەکرد**<br><sub>destpêyannekrid</sub><br><sub>/dæstpeːjaːnnækɾ(ɯ)d/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -58,12 +58,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **دەستپێدەمکرد**<br><sub>destpêdemkird</sub><br><sub>/dæstpeːdæmk(ɯ)ɾd/</sub> | **دەستپێنەمدەکرد**<br><sub>destpênemdekrid</sub><br><sub>/dæstpeːnæmdækɾ(ɯ)d/</sub> |
-| 2sg | تۆ | **دەستپێدەتکرد**<br><sub>destpêdetkird</sub><br><sub>/dæstpeːdætk(ɯ)ɾd/</sub> | **دەستپێنەتدەکرد**<br><sub>destpênetdekrid</sub><br><sub>/dæstpeːnætdækɾ(ɯ)d/</sub> |
-| 3sg | ئەو | **دەستپێدەیکرد**<br><sub>destpêdeykird</sub><br><sub>/dæstpeːdæjk(ɯ)ɾd/</sub> | **دەستپێنەیدەکرد**<br><sub>destpêneydekrid</sub><br><sub>/dæstpeːnæjdækɾ(ɯ)d/</sub> |
-| 1pl | ئێمە | **دەستپێدەمانکرد**<br><sub>destpêdemankird</sub><br><sub>/dæstpeːdæmaːnk(ɯ)ɾd/</sub> | **دەستپێنەماندەکرد**<br><sub>destpênemandekrid</sub><br><sub>/dæstpeːnæmaːndækɾ(ɯ)d/</sub> |
-| 2pl | ئێوە | **دەستپێدەتانکرد**<br><sub>destpêdetankird</sub><br><sub>/dæstpeːdætaːnk(ɯ)ɾd/</sub> | **دەستپێنەتاندەکرد**<br><sub>destpênetandekrid</sub><br><sub>/dæstpeːnætaːndækɾ(ɯ)d/</sub> |
-| 3pl | ئەوان | **دەستپێدەیانکرد**<br><sub>destpêdeyankird</sub><br><sub>/dæstpeːdæjaːnk(ɯ)ɾd/</sub> | **دەستپێنەیاندەکرد**<br><sub>destpêneyandekrid</sub><br><sub>/dæstpeːnæjaːndækɾ(ɯ)d/</sub> |
+| 1sg | من | **دەستپێمدەکرد**<br><sub>destpêmdekrid</sub><br><sub>/dæstpeːmdækɾ(ɯ)d/</sub> | **دەستپێمنەدەکرد**<br><sub>destpêmnedekrid</sub><br><sub>/dæstpeːmnædækɾ(ɯ)d/</sub> |
+| 2sg | تۆ | **دەستپێتدەکرد**<br><sub>destpêtdekrid</sub><br><sub>/dæstpeːtdækɾ(ɯ)d/</sub> | **دەستپێتنەدەکرد**<br><sub>destpêtnedekrid</sub><br><sub>/dæstpeːtnædækɾ(ɯ)d/</sub> |
+| 3sg | ئەو | **دەستپێیدەکرد**<br><sub>destpêydekrid</sub><br><sub>/dæstpeːjdækɾ(ɯ)d/</sub> | **دەستپێینەدەکرد**<br><sub>destpêynedekrid</sub><br><sub>/dæstpeːjnædækɾ(ɯ)d/</sub> |
+| 1pl | ئێمە | **دەستپێماندەکرد**<br><sub>destpêmandekrid</sub><br><sub>/dæstpeːmaːndækɾ(ɯ)d/</sub> | **دەستپێماننەدەکرد**<br><sub>destpêmannedekrid</sub><br><sub>/dæstpeːmaːnnædækɾ(ɯ)d/</sub> |
+| 2pl | ئێوە | **دەستپێتاندەکرد**<br><sub>destpêtandekrid</sub><br><sub>/dæstpeːtaːndækɾ(ɯ)d/</sub> | **دەستپێتاننەدەکرد**<br><sub>destpêtannedekrid</sub><br><sub>/dæstpeːtaːnnædækɾ(ɯ)d/</sub> |
+| 3pl | ئەوان | **دەستپێیاندەکرد**<br><sub>destpêyandekrid</sub><br><sub>/dæstpeːjaːndækɾ(ɯ)d/</sub> | **دەستپێیاننەدەکرد**<br><sub>destpêyannedekrid</sub><br><sub>/dæstpeːjaːnnædækɾ(ɯ)d/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -73,12 +73,12 @@
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **دەستپێکردوومە**<br><sub>destpêkridûme</sub><br><sub>/dæstpeːkɾ(ɯ)duːmæ/</sub> | **دەستپێنەمکردووە**<br><sub>destpênemkirdûwe</sub><br><sub>/dæstpeːnæmk(ɯ)ɾduːwæ/</sub> | **دەستپێکردبووم**<br><sub>destpêkridbûm</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːm/</sub> | **دەستپێنەمکردبوو**<br><sub>destpênemkiridbû</sub><br><sub>/dæstpeːnæmk(ɯ)ɾ(ɯ)dbuː/</sub> |
-| 2sg | تۆ | **دەستپێکردووتە**<br><sub>destpêkridûte</sub><br><sub>/dæstpeːkɾ(ɯ)duːtæ/</sub> | **دەستپێنەتکردووە**<br><sub>destpênetkirdûwe</sub><br><sub>/dæstpeːnætk(ɯ)ɾduːwæ/</sub> | **دەستپێکردبووت**<br><sub>destpêkridbût</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːt/</sub> | **دەستپێنەتکردبوو**<br><sub>destpênetkiridbû</sub><br><sub>/dæstpeːnætk(ɯ)ɾ(ɯ)dbuː/</sub> |
-| 3sg | ئەو | **دەستپێکردوویەتی**<br><sub>destpêkridûyetî</sub><br><sub>/dæstpeːkɾ(ɯ)duːjætiː/</sub> | **دەستپێنەیکردووە**<br><sub>destpêneykirdûwe</sub><br><sub>/dæstpeːnæjk(ɯ)ɾduːwæ/</sub> | **دەستپێکردبووی**<br><sub>destpêkridbûy</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːj/</sub> | **دەستپێنەیکردبوو**<br><sub>destpêneykiridbû</sub><br><sub>/dæstpeːnæjk(ɯ)ɾ(ɯ)dbuː/</sub> |
-| 1pl | ئێمە | **دەستپێکردوومانە**<br><sub>destpêkridûmane</sub><br><sub>/dæstpeːkɾ(ɯ)duːmaːnæ/</sub> | **دەستپێنەمانکردووە**<br><sub>destpênemankirdûwe</sub><br><sub>/dæstpeːnæmaːnk(ɯ)ɾduːwæ/</sub> | **دەستپێکردبوومان**<br><sub>destpêkridbûman</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːmaːn/</sub> | **دەستپێنەمانکردبوو**<br><sub>destpênemankiridbû</sub><br><sub>/dæstpeːnæmaːnk(ɯ)ɾ(ɯ)dbuː/</sub> |
-| 2pl | ئێوە | **دەستپێکردووتانە**<br><sub>destpêkridûtane</sub><br><sub>/dæstpeːkɾ(ɯ)duːtaːnæ/</sub> | **دەستپێنەتانکردووە**<br><sub>destpênetankirdûwe</sub><br><sub>/dæstpeːnætaːnk(ɯ)ɾduːwæ/</sub> | **دەستپێکردبووتان**<br><sub>destpêkridbûtan</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːtaːn/</sub> | **دەستپێنەتانکردبوو**<br><sub>destpênetankiridbû</sub><br><sub>/dæstpeːnætaːnk(ɯ)ɾ(ɯ)dbuː/</sub> |
-| 3pl | ئەوان | **دەستپێکردوویانە**<br><sub>destpêkridûyane</sub><br><sub>/dæstpeːkɾ(ɯ)duːjaːnæ/</sub> | **دەستپێنەیانکردووە**<br><sub>destpêneyankirdûwe</sub><br><sub>/dæstpeːnæjaːnk(ɯ)ɾduːwæ/</sub> | **دەستپێکردبوویان**<br><sub>destpêkridbûyan</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːjaːn/</sub> | **دەستپێنەیانکردبوو**<br><sub>destpêneyankiridbû</sub><br><sub>/dæstpeːnæjaːnk(ɯ)ɾ(ɯ)dbuː/</sub> |
+| 1sg | من | **دەستپێمکردووە**<br><sub>destpêmkirdûwe</sub><br><sub>/dæstpeːmk(ɯ)ɾduːwæ/</sub> | **دەستپێمنەکردووە**<br><sub>destpêmnekridûwe</sub><br><sub>/dæstpeːmnækɾ(ɯ)duːwæ/</sub> | **دەستپێمکردبوو**<br><sub>destpêmkiridbû</sub><br><sub>/dæstpeːmk(ɯ)ɾ(ɯ)dbuː/</sub> | **دەستپێمنەکردبوو**<br><sub>destpêmnekridbû</sub><br><sub>/dæstpeːmnækɾ(ɯ)dbuː/</sub> |
+| 2sg | تۆ | **دەستپێتکردووە**<br><sub>destpêtkirdûwe</sub><br><sub>/dæstpeːtk(ɯ)ɾduːwæ/</sub> | **دەستپێتنەکردووە**<br><sub>destpêtnekridûwe</sub><br><sub>/dæstpeːtnækɾ(ɯ)duːwæ/</sub> | **دەستپێتکردبوو**<br><sub>destpêtkiridbû</sub><br><sub>/dæstpeːtk(ɯ)ɾ(ɯ)dbuː/</sub> | **دەستپێتنەکردبوو**<br><sub>destpêtnekridbû</sub><br><sub>/dæstpeːtnækɾ(ɯ)dbuː/</sub> |
+| 3sg | ئەو | **دەستپێیکردووە**<br><sub>destpêykirdûwe</sub><br><sub>/dæstpeːjk(ɯ)ɾduːwæ/</sub> | **دەستپێینەکردووە**<br><sub>destpêynekridûwe</sub><br><sub>/dæstpeːjnækɾ(ɯ)duːwæ/</sub> | **دەستپێیکردبوو**<br><sub>destpêykiridbû</sub><br><sub>/dæstpeːjk(ɯ)ɾ(ɯ)dbuː/</sub> | **دەستپێینەکردبوو**<br><sub>destpêynekridbû</sub><br><sub>/dæstpeːjnækɾ(ɯ)dbuː/</sub> |
+| 1pl | ئێمە | **دەستپێمانکردووە**<br><sub>destpêmankirdûwe</sub><br><sub>/dæstpeːmaːnk(ɯ)ɾduːwæ/</sub> | **دەستپێماننەکردووە**<br><sub>destpêmannekridûwe</sub><br><sub>/dæstpeːmaːnnækɾ(ɯ)duːwæ/</sub> | **دەستپێمانکردبوو**<br><sub>destpêmankiridbû</sub><br><sub>/dæstpeːmaːnk(ɯ)ɾ(ɯ)dbuː/</sub> | **دەستپێماننەکردبوو**<br><sub>destpêmannekridbû</sub><br><sub>/dæstpeːmaːnnækɾ(ɯ)dbuː/</sub> |
+| 2pl | ئێوە | **دەستپێتانکردووە**<br><sub>destpêtankirdûwe</sub><br><sub>/dæstpeːtaːnk(ɯ)ɾduːwæ/</sub> | **دەستپێتاننەکردووە**<br><sub>destpêtannekridûwe</sub><br><sub>/dæstpeːtaːnnækɾ(ɯ)duːwæ/</sub> | **دەستپێتانکردبوو**<br><sub>destpêtankiridbû</sub><br><sub>/dæstpeːtaːnk(ɯ)ɾ(ɯ)dbuː/</sub> | **دەستپێتاننەکردبوو**<br><sub>destpêtannekridbû</sub><br><sub>/dæstpeːtaːnnækɾ(ɯ)dbuː/</sub> |
+| 3pl | ئەوان | **دەستپێیانکردووە**<br><sub>destpêyankirdûwe</sub><br><sub>/dæstpeːjaːnk(ɯ)ɾduːwæ/</sub> | **دەستپێیاننەکردووە**<br><sub>destpêyannekridûwe</sub><br><sub>/dæstpeːjaːnnækɾ(ɯ)duːwæ/</sub> | **دەستپێیانکردبوو**<br><sub>destpêyankiridbû</sub><br><sub>/dæstpeːjaːnk(ɯ)ɾ(ɯ)dbuː/</sub> | **دەستپێیاننەکردبوو**<br><sub>destpêyannekridbû</sub><br><sub>/dæstpeːjaːnnækɾ(ɯ)dbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -88,12 +88,12 @@
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **دەستپێکردبام**<br><sub>destpêkridbam</sub><br><sub>/dæstpeːkɾ(ɯ)dbaːm/</sub> | **دەستپێکردبێتم**<br><sub>destpêkridbêtim</sub><br><sub>/dæstpeːkɾ(ɯ)dbeːt(ɯ)m/</sub> | **دەستپێکردبووبام**<br><sub>destpêkridbûbam</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːbaːm/</sub> |
-| 2sg | تۆ | **دەستپێکردبات**<br><sub>destpêkridbat</sub><br><sub>/dæstpeːkɾ(ɯ)dbaːt/</sub> | **دەستپێکردبێتت**<br><sub>destpêkridbêtit</sub><br><sub>/dæstpeːkɾ(ɯ)dbeːt(ɯ)t/</sub> | **دەستپێکردبووبات**<br><sub>destpêkridbûbat</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːbaːt/</sub> |
-| 3sg | ئەو | **دەستپێکردبای**<br><sub>destpêkridbay</sub><br><sub>/dæstpeːkɾ(ɯ)dbaːj/</sub> | **دەستپێکردبێتی**<br><sub>destpêkridbêtî</sub><br><sub>/dæstpeːkɾ(ɯ)dbeːtiː/</sub> | **دەستپێکردبووبای**<br><sub>destpêkridbûbay</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːbaːj/</sub> |
-| 1pl | ئێمە | **دەستپێکردبامان**<br><sub>destpêkridbaman</sub><br><sub>/dæstpeːkɾ(ɯ)dbaːmaːn/</sub> | **دەستپێکردبێتمان**<br><sub>destpêkridbêtman</sub><br><sub>/dæstpeːkɾ(ɯ)dbeːtmaːn/</sub> | **دەستپێکردبووبامان**<br><sub>destpêkridbûbaman</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːbaːmaːn/</sub> |
-| 2pl | ئێوە | **دەستپێکردباتان**<br><sub>destpêkridbatan</sub><br><sub>/dæstpeːkɾ(ɯ)dbaːtaːn/</sub> | **دەستپێکردبێتتان**<br><sub>destpêkridbêttan</sub><br><sub>/dæstpeːkɾ(ɯ)dbeːttaːn/</sub> | **دەستپێکردبووباتان**<br><sub>destpêkridbûbatan</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːbaːtaːn/</sub> |
-| 3pl | ئەوان | **دەستپێکردبایان**<br><sub>destpêkridbayan</sub><br><sub>/dæstpeːkɾ(ɯ)dbaːjaːn/</sub> | **دەستپێکردبێتیان**<br><sub>destpêkridbêtyan</sub><br><sub>/dæstpeːkɾ(ɯ)dbeːtjaːn/</sub> | **دەستپێکردبووبایان**<br><sub>destpêkridbûbayan</sub><br><sub>/dæstpeːkɾ(ɯ)dbuːbaːjaːn/</sub> |
+| 1sg | من | **دەستپێمکردبا**<br><sub>destpêmkiridba</sub><br><sub>/dæstpeːmk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێمکردبێت**<br><sub>destpêmkiridbêt</sub><br><sub>/dæstpeːmk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێمکردبووبا**<br><sub>destpêmkiridbûba</sub><br><sub>/dæstpeːmk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 2sg | تۆ | **دەستپێتکردبا**<br><sub>destpêtkiridba</sub><br><sub>/dæstpeːtk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێتکردبێت**<br><sub>destpêtkiridbêt</sub><br><sub>/dæstpeːtk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێتکردبووبا**<br><sub>destpêtkiridbûba</sub><br><sub>/dæstpeːtk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 3sg | ئەو | **دەستپێیکردبا**<br><sub>destpêykiridba</sub><br><sub>/dæstpeːjk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێیکردبێت**<br><sub>destpêykiridbêt</sub><br><sub>/dæstpeːjk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێیکردبووبا**<br><sub>destpêykiridbûba</sub><br><sub>/dæstpeːjk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 1pl | ئێمە | **دەستپێمانکردبا**<br><sub>destpêmankiridba</sub><br><sub>/dæstpeːmaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێمانکردبێت**<br><sub>destpêmankiridbêt</sub><br><sub>/dæstpeːmaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێمانکردبووبا**<br><sub>destpêmankiridbûba</sub><br><sub>/dæstpeːmaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 2pl | ئێوە | **دەستپێتانکردبا**<br><sub>destpêtankiridba</sub><br><sub>/dæstpeːtaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێتانکردبێت**<br><sub>destpêtankiridbêt</sub><br><sub>/dæstpeːtaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێتانکردبووبا**<br><sub>destpêtankiridbûba</sub><br><sub>/dæstpeːtaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 3pl | ئەوان | **دەستپێیانکردبا**<br><sub>destpêyankiridba</sub><br><sub>/dæstpeːjaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێیانکردبێت**<br><sub>destpêyankiridbêt</sub><br><sub>/dæstpeːjaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێیانکردبووبا**<br><sub>destpêyankiridbûba</sub><br><sub>/dæstpeːjaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
 
 ## Past subjunctive negative
 
@@ -101,12 +101,12 @@
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **دەستپێنەمکردبا**<br><sub>destpênemkiridba</sub><br><sub>/dæstpeːnæmk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێنەمکردبێت**<br><sub>destpênemkiridbêt</sub><br><sub>/dæstpeːnæmk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێنەمکردبووبا**<br><sub>destpênemkiridbûba</sub><br><sub>/dæstpeːnæmk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 2sg | تۆ | **دەستپێنەتکردبا**<br><sub>destpênetkiridba</sub><br><sub>/dæstpeːnætk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێنەتکردبێت**<br><sub>destpênetkiridbêt</sub><br><sub>/dæstpeːnætk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێنەتکردبووبا**<br><sub>destpênetkiridbûba</sub><br><sub>/dæstpeːnætk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 3sg | ئەو | **دەستپێنەیکردبا**<br><sub>destpêneykiridba</sub><br><sub>/dæstpeːnæjk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێنەیکردبێت**<br><sub>destpêneykiridbêt</sub><br><sub>/dæstpeːnæjk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێنەیکردبووبا**<br><sub>destpêneykiridbûba</sub><br><sub>/dæstpeːnæjk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 1pl | ئێمە | **دەستپێنەمانکردبا**<br><sub>destpênemankiridba</sub><br><sub>/dæstpeːnæmaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێنەمانکردبێت**<br><sub>destpênemankiridbêt</sub><br><sub>/dæstpeːnæmaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێنەمانکردبووبا**<br><sub>destpênemankiridbûba</sub><br><sub>/dæstpeːnæmaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 2pl | ئێوە | **دەستپێنەتانکردبا**<br><sub>destpênetankiridba</sub><br><sub>/dæstpeːnætaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێنەتانکردبێت**<br><sub>destpênetankiridbêt</sub><br><sub>/dæstpeːnætaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێنەتانکردبووبا**<br><sub>destpênetankiridbûba</sub><br><sub>/dæstpeːnætaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 3pl | ئەوان | **دەستپێنەیانکردبا**<br><sub>destpêneyankiridba</sub><br><sub>/dæstpeːnæjaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەستپێنەیانکردبێت**<br><sub>destpêneyankiridbêt</sub><br><sub>/dæstpeːnæjaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەستپێنەیانکردبووبا**<br><sub>destpêneyankiridbûba</sub><br><sub>/dæstpeːnæjaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 1sg | من | **دەستپێمنەکردبا**<br><sub>destpêmnekridba</sub><br><sub>/dæstpeːmnækɾ(ɯ)dbaː/</sub> | **دەستپێمنەکردبێت**<br><sub>destpêmnekridbêt</sub><br><sub>/dæstpeːmnækɾ(ɯ)dbeːt/</sub> | **دەستپێمنەکردبووبا**<br><sub>destpêmnekridbûba</sub><br><sub>/dæstpeːmnækɾ(ɯ)dbuːbaː/</sub> |
+| 2sg | تۆ | **دەستپێتنەکردبا**<br><sub>destpêtnekridba</sub><br><sub>/dæstpeːtnækɾ(ɯ)dbaː/</sub> | **دەستپێتنەکردبێت**<br><sub>destpêtnekridbêt</sub><br><sub>/dæstpeːtnækɾ(ɯ)dbeːt/</sub> | **دەستپێتنەکردبووبا**<br><sub>destpêtnekridbûba</sub><br><sub>/dæstpeːtnækɾ(ɯ)dbuːbaː/</sub> |
+| 3sg | ئەو | **دەستپێینەکردبا**<br><sub>destpêynekridba</sub><br><sub>/dæstpeːjnækɾ(ɯ)dbaː/</sub> | **دەستپێینەکردبێت**<br><sub>destpêynekridbêt</sub><br><sub>/dæstpeːjnækɾ(ɯ)dbeːt/</sub> | **دەستپێینەکردبووبا**<br><sub>destpêynekridbûba</sub><br><sub>/dæstpeːjnækɾ(ɯ)dbuːbaː/</sub> |
+| 1pl | ئێمە | **دەستپێماننەکردبا**<br><sub>destpêmannekridba</sub><br><sub>/dæstpeːmaːnnækɾ(ɯ)dbaː/</sub> | **دەستپێماننەکردبێت**<br><sub>destpêmannekridbêt</sub><br><sub>/dæstpeːmaːnnækɾ(ɯ)dbeːt/</sub> | **دەستپێماننەکردبووبا**<br><sub>destpêmannekridbûba</sub><br><sub>/dæstpeːmaːnnækɾ(ɯ)dbuːbaː/</sub> |
+| 2pl | ئێوە | **دەستپێتاننەکردبا**<br><sub>destpêtannekridba</sub><br><sub>/dæstpeːtaːnnækɾ(ɯ)dbaː/</sub> | **دەستپێتاننەکردبێت**<br><sub>destpêtannekridbêt</sub><br><sub>/dæstpeːtaːnnækɾ(ɯ)dbeːt/</sub> | **دەستپێتاننەکردبووبا**<br><sub>destpêtannekridbûba</sub><br><sub>/dæstpeːtaːnnækɾ(ɯ)dbuːbaː/</sub> |
+| 3pl | ئەوان | **دەستپێیاننەکردبا**<br><sub>destpêyannekridba</sub><br><sub>/dæstpeːjaːnnækɾ(ɯ)dbaː/</sub> | **دەستپێیاننەکردبێت**<br><sub>destpêyannekridbêt</sub><br><sub>/dæstpeːjaːnnækɾ(ɯ)dbeːt/</sub> | **دەستپێیاننەکردبووبا**<br><sub>destpêyannekridbûba</sub><br><sub>/dæstpeːjaːnnækɾ(ɯ)dbuːbaː/</sub> |
 
 ## Passive: present and subjunctive
 

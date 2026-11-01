@@ -43,12 +43,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **هەڵمبژارد**<br><sub>hellmibjard</sub><br><sub>/hæɫm(ɯ)bʒaːɾd/</sub> | **هەڵنەمبژارد**<br><sub>hellnembjard</sub><br><sub>/hæɫnæmbʒaːɾd/</sub> |
-| 2sg | تۆ | **هەڵتبژارد**<br><sub>helltibjard</sub><br><sub>/hæɫt(ɯ)bʒaːɾd/</sub> | **هەڵنەتبژارد**<br><sub>hellnetbijard</sub><br><sub>/hæɫnætb(ɯ)ʒaːɾd/</sub> |
-| 3sg | ئەو | **هەڵیبژارد**<br><sub>hellîbjard</sub><br><sub>/hæɫiːbʒaːɾd/</sub> | **هەڵنەیبژارد**<br><sub>hellneybjard</sub><br><sub>/hæɫnæjbʒaːɾd/</sub> |
-| 1pl | ئێمە | **هەڵمانبژارد**<br><sub>hellmanbjard</sub><br><sub>/hæɫmaːnbʒaːɾd/</sub> | **هەڵنەمانبژارد**<br><sub>hellnemanbjard</sub><br><sub>/hæɫnæmaːnbʒaːɾd/</sub> |
-| 2pl | ئێوە | **هەڵتانبژارد**<br><sub>helltanbjard</sub><br><sub>/hæɫtaːnbʒaːɾd/</sub> | **هەڵنەتانبژارد**<br><sub>hellnetanbjard</sub><br><sub>/hæɫnætaːnbʒaːɾd/</sub> |
-| 3pl | ئەوان | **هەڵیانبژارد**<br><sub>hellyanbjard</sub><br><sub>/hæɫjaːnbʒaːɾd/</sub> | **هەڵنەیانبژارد**<br><sub>hellneyanbjard</sub><br><sub>/hæɫnæjaːnbʒaːɾd/</sub> |
+| 1sg | من | **هەڵمبژارد**<br><sub>hellmibjard</sub><br><sub>/hæɫm(ɯ)bʒaːɾd/</sub> | **هەڵمنەبژارد**<br><sub>hellminebjard</sub><br><sub>/hæɫm(ɯ)næbʒaːɾd/</sub> |
+| 2sg | تۆ | **هەڵتبژارد**<br><sub>helltibjard</sub><br><sub>/hæɫt(ɯ)bʒaːɾd/</sub> | **هەڵتنەبژارد**<br><sub>helltinebjard</sub><br><sub>/hæɫt(ɯ)næbʒaːɾd/</sub> |
+| 3sg | ئەو | **هەڵیبژارد**<br><sub>hellîbjard</sub><br><sub>/hæɫiːbʒaːɾd/</sub> | **هەڵینەبژارد**<br><sub>hellînebjard</sub><br><sub>/hæɫiːnæbʒaːɾd/</sub> |
+| 1pl | ئێمە | **هەڵمانبژارد**<br><sub>hellmanbjard</sub><br><sub>/hæɫmaːnbʒaːɾd/</sub> | **هەڵماننەبژارد**<br><sub>hellmannebjard</sub><br><sub>/hæɫmaːnnæbʒaːɾd/</sub> |
+| 2pl | ئێوە | **هەڵتانبژارد**<br><sub>helltanbjard</sub><br><sub>/hæɫtaːnbʒaːɾd/</sub> | **هەڵتاننەبژارد**<br><sub>helltannebjard</sub><br><sub>/hæɫtaːnnæbʒaːɾd/</sub> |
+| 3pl | ئەوان | **هەڵیانبژارد**<br><sub>hellyanbjard</sub><br><sub>/hæɫjaːnbʒaːɾd/</sub> | **هەڵیاننەبژارد**<br><sub>hellyannebjard</sub><br><sub>/hæɫjaːnnæbʒaːɾd/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -58,12 +58,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **هەڵدەمبژارد**<br><sub>helldembjard</sub><br><sub>/hæɫdæmbʒaːɾd/</sub> | **هەڵنەمدەبژارد**<br><sub>hellnemdebjard</sub><br><sub>/hæɫnæmdæbʒaːɾd/</sub> |
-| 2sg | تۆ | **هەڵدەتبژارد**<br><sub>helldetbijard</sub><br><sub>/hæɫdætb(ɯ)ʒaːɾd/</sub> | **هەڵنەتدەبژارد**<br><sub>hellnetdebjard</sub><br><sub>/hæɫnætdæbʒaːɾd/</sub> |
-| 3sg | ئەو | **هەڵدەیبژارد**<br><sub>helldeybjard</sub><br><sub>/hæɫdæjbʒaːɾd/</sub> | **هەڵنەیدەبژارد**<br><sub>hellneydebjard</sub><br><sub>/hæɫnæjdæbʒaːɾd/</sub> |
-| 1pl | ئێمە | **هەڵدەمانبژارد**<br><sub>helldemanbjard</sub><br><sub>/hæɫdæmaːnbʒaːɾd/</sub> | **هەڵنەماندەبژارد**<br><sub>hellnemandebjard</sub><br><sub>/hæɫnæmaːndæbʒaːɾd/</sub> |
-| 2pl | ئێوە | **هەڵدەتانبژارد**<br><sub>helldetanbjard</sub><br><sub>/hæɫdætaːnbʒaːɾd/</sub> | **هەڵنەتاندەبژارد**<br><sub>hellnetandebjard</sub><br><sub>/hæɫnætaːndæbʒaːɾd/</sub> |
-| 3pl | ئەوان | **هەڵدەیانبژارد**<br><sub>helldeyanbjard</sub><br><sub>/hæɫdæjaːnbʒaːɾd/</sub> | **هەڵنەیاندەبژارد**<br><sub>hellneyandebjard</sub><br><sub>/hæɫnæjaːndæbʒaːɾd/</sub> |
+| 1sg | من | **هەڵمدەبژارد**<br><sub>hellmidebjard</sub><br><sub>/hæɫm(ɯ)dæbʒaːɾd/</sub> | **هەڵمنەدەبژارد**<br><sub>hellminedebjard</sub><br><sub>/hæɫm(ɯ)nædæbʒaːɾd/</sub> |
+| 2sg | تۆ | **هەڵتدەبژارد**<br><sub>helltidebjard</sub><br><sub>/hæɫt(ɯ)dæbʒaːɾd/</sub> | **هەڵتنەدەبژارد**<br><sub>helltinedebjard</sub><br><sub>/hæɫt(ɯ)nædæbʒaːɾd/</sub> |
+| 3sg | ئەو | **هەڵیدەبژارد**<br><sub>hellîdebjard</sub><br><sub>/hæɫiːdæbʒaːɾd/</sub> | **هەڵینەدەبژارد**<br><sub>hellînedebjard</sub><br><sub>/hæɫiːnædæbʒaːɾd/</sub> |
+| 1pl | ئێمە | **هەڵماندەبژارد**<br><sub>hellmandebjard</sub><br><sub>/hæɫmaːndæbʒaːɾd/</sub> | **هەڵماننەدەبژارد**<br><sub>hellmannedebjard</sub><br><sub>/hæɫmaːnnædæbʒaːɾd/</sub> |
+| 2pl | ئێوە | **هەڵتاندەبژارد**<br><sub>helltandebjard</sub><br><sub>/hæɫtaːndæbʒaːɾd/</sub> | **هەڵتاننەدەبژارد**<br><sub>helltannedebjard</sub><br><sub>/hæɫtaːnnædæbʒaːɾd/</sub> |
+| 3pl | ئەوان | **هەڵیاندەبژارد**<br><sub>hellyandebjard</sub><br><sub>/hæɫjaːndæbʒaːɾd/</sub> | **هەڵیاننەدەبژارد**<br><sub>hellyannedebjard</sub><br><sub>/hæɫjaːnnædæbʒaːɾd/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -73,12 +73,12 @@
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **هەڵبژاردوومە**<br><sub>hellbijardûme</sub><br><sub>/hæɫb(ɯ)ʒaːɾduːmæ/</sub> | **هەڵنەمبژاردووە**<br><sub>hellnembjardûwe</sub><br><sub>/hæɫnæmbʒaːɾduːwæ/</sub> | **هەڵبژاردبووم**<br><sub>hellbijardibûm</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːm/</sub> | **هەڵنەمبژاردبوو**<br><sub>hellnembjardibû</sub><br><sub>/hæɫnæmbʒaːɾd(ɯ)buː/</sub> |
-| 2sg | تۆ | **هەڵبژاردووتە**<br><sub>hellbijardûte</sub><br><sub>/hæɫb(ɯ)ʒaːɾduːtæ/</sub> | **هەڵنەتبژاردووە**<br><sub>hellnetbijardûwe</sub><br><sub>/hæɫnætb(ɯ)ʒaːɾduːwæ/</sub> | **هەڵبژاردبووت**<br><sub>hellbijardibût</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːt/</sub> | **هەڵنەتبژاردبوو**<br><sub>hellnetbijardibû</sub><br><sub>/hæɫnætb(ɯ)ʒaːɾd(ɯ)buː/</sub> |
-| 3sg | ئەو | **هەڵبژاردوویەتی**<br><sub>hellbijardûyetî</sub><br><sub>/hæɫb(ɯ)ʒaːɾduːjætiː/</sub> | **هەڵنەیبژاردووە**<br><sub>hellneybjardûwe</sub><br><sub>/hæɫnæjbʒaːɾduːwæ/</sub> | **هەڵبژاردبووی**<br><sub>hellbijardibûy</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːj/</sub> | **هەڵنەیبژاردبوو**<br><sub>hellneybjardibû</sub><br><sub>/hæɫnæjbʒaːɾd(ɯ)buː/</sub> |
-| 1pl | ئێمە | **هەڵبژاردوومانە**<br><sub>hellbijardûmane</sub><br><sub>/hæɫb(ɯ)ʒaːɾduːmaːnæ/</sub> | **هەڵنەمانبژاردووە**<br><sub>hellnemanbjardûwe</sub><br><sub>/hæɫnæmaːnbʒaːɾduːwæ/</sub> | **هەڵبژاردبوومان**<br><sub>hellbijardibûman</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːmaːn/</sub> | **هەڵنەمانبژاردبوو**<br><sub>hellnemanbjardibû</sub><br><sub>/hæɫnæmaːnbʒaːɾd(ɯ)buː/</sub> |
-| 2pl | ئێوە | **هەڵبژاردووتانە**<br><sub>hellbijardûtane</sub><br><sub>/hæɫb(ɯ)ʒaːɾduːtaːnæ/</sub> | **هەڵنەتانبژاردووە**<br><sub>hellnetanbjardûwe</sub><br><sub>/hæɫnætaːnbʒaːɾduːwæ/</sub> | **هەڵبژاردبووتان**<br><sub>hellbijardibûtan</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːtaːn/</sub> | **هەڵنەتانبژاردبوو**<br><sub>hellnetanbjardibû</sub><br><sub>/hæɫnætaːnbʒaːɾd(ɯ)buː/</sub> |
-| 3pl | ئەوان | **هەڵبژاردوویانە**<br><sub>hellbijardûyane</sub><br><sub>/hæɫb(ɯ)ʒaːɾduːjaːnæ/</sub> | **هەڵنەیانبژاردووە**<br><sub>hellneyanbjardûwe</sub><br><sub>/hæɫnæjaːnbʒaːɾduːwæ/</sub> | **هەڵبژاردبوویان**<br><sub>hellbijardibûyan</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːjaːn/</sub> | **هەڵنەیانبژاردبوو**<br><sub>hellneyanbjardibû</sub><br><sub>/hæɫnæjaːnbʒaːɾd(ɯ)buː/</sub> |
+| 1sg | من | **هەڵمبژاردووە**<br><sub>hellmibjardûwe</sub><br><sub>/hæɫm(ɯ)bʒaːɾduːwæ/</sub> | **هەڵمنەبژاردووە**<br><sub>hellminebjardûwe</sub><br><sub>/hæɫm(ɯ)næbʒaːɾduːwæ/</sub> | **هەڵمبژاردبوو**<br><sub>hellmibjardibû</sub><br><sub>/hæɫm(ɯ)bʒaːɾd(ɯ)buː/</sub> | **هەڵمنەبژاردبوو**<br><sub>hellminebjardibû</sub><br><sub>/hæɫm(ɯ)næbʒaːɾd(ɯ)buː/</sub> |
+| 2sg | تۆ | **هەڵتبژاردووە**<br><sub>helltibjardûwe</sub><br><sub>/hæɫt(ɯ)bʒaːɾduːwæ/</sub> | **هەڵتنەبژاردووە**<br><sub>helltinebjardûwe</sub><br><sub>/hæɫt(ɯ)næbʒaːɾduːwæ/</sub> | **هەڵتبژاردبوو**<br><sub>helltibjardibû</sub><br><sub>/hæɫt(ɯ)bʒaːɾd(ɯ)buː/</sub> | **هەڵتنەبژاردبوو**<br><sub>helltinebjardibû</sub><br><sub>/hæɫt(ɯ)næbʒaːɾd(ɯ)buː/</sub> |
+| 3sg | ئەو | **هەڵیبژاردووە**<br><sub>hellîbjardûwe</sub><br><sub>/hæɫiːbʒaːɾduːwæ/</sub> | **هەڵینەبژاردووە**<br><sub>hellînebjardûwe</sub><br><sub>/hæɫiːnæbʒaːɾduːwæ/</sub> | **هەڵیبژاردبوو**<br><sub>hellîbjardibû</sub><br><sub>/hæɫiːbʒaːɾd(ɯ)buː/</sub> | **هەڵینەبژاردبوو**<br><sub>hellînebjardibû</sub><br><sub>/hæɫiːnæbʒaːɾd(ɯ)buː/</sub> |
+| 1pl | ئێمە | **هەڵمانبژاردووە**<br><sub>hellmanbjardûwe</sub><br><sub>/hæɫmaːnbʒaːɾduːwæ/</sub> | **هەڵماننەبژاردووە**<br><sub>hellmannebjardûwe</sub><br><sub>/hæɫmaːnnæbʒaːɾduːwæ/</sub> | **هەڵمانبژاردبوو**<br><sub>hellmanbjardibû</sub><br><sub>/hæɫmaːnbʒaːɾd(ɯ)buː/</sub> | **هەڵماننەبژاردبوو**<br><sub>hellmannebjardibû</sub><br><sub>/hæɫmaːnnæbʒaːɾd(ɯ)buː/</sub> |
+| 2pl | ئێوە | **هەڵتانبژاردووە**<br><sub>helltanbjardûwe</sub><br><sub>/hæɫtaːnbʒaːɾduːwæ/</sub> | **هەڵتاننەبژاردووە**<br><sub>helltannebjardûwe</sub><br><sub>/hæɫtaːnnæbʒaːɾduːwæ/</sub> | **هەڵتانبژاردبوو**<br><sub>helltanbjardibû</sub><br><sub>/hæɫtaːnbʒaːɾd(ɯ)buː/</sub> | **هەڵتاننەبژاردبوو**<br><sub>helltannebjardibû</sub><br><sub>/hæɫtaːnnæbʒaːɾd(ɯ)buː/</sub> |
+| 3pl | ئەوان | **هەڵیانبژاردووە**<br><sub>hellyanbjardûwe</sub><br><sub>/hæɫjaːnbʒaːɾduːwæ/</sub> | **هەڵیاننەبژاردووە**<br><sub>hellyannebjardûwe</sub><br><sub>/hæɫjaːnnæbʒaːɾduːwæ/</sub> | **هەڵیانبژاردبوو**<br><sub>hellyanbjardibû</sub><br><sub>/hæɫjaːnbʒaːɾd(ɯ)buː/</sub> | **هەڵیاننەبژاردبوو**<br><sub>hellyannebjardibû</sub><br><sub>/hæɫjaːnnæbʒaːɾd(ɯ)buː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -88,12 +88,12 @@
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **هەڵبژاردبام**<br><sub>hellbijardibam</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)baːm/</sub> | **هەڵبژاردبێتم**<br><sub>hellbijardibêtim</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)beːt(ɯ)m/</sub> | **هەڵبژاردبووبام**<br><sub>hellbijardibûbam</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːbaːm/</sub> |
-| 2sg | تۆ | **هەڵبژاردبات**<br><sub>hellbijardibat</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)baːt/</sub> | **هەڵبژاردبێتت**<br><sub>hellbijardibêtit</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)beːt(ɯ)t/</sub> | **هەڵبژاردبووبات**<br><sub>hellbijardibûbat</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːbaːt/</sub> |
-| 3sg | ئەو | **هەڵبژاردبای**<br><sub>hellbijardibay</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)baːj/</sub> | **هەڵبژاردبێتی**<br><sub>hellbijardibêtî</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)beːtiː/</sub> | **هەڵبژاردبووبای**<br><sub>hellbijardibûbay</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːbaːj/</sub> |
-| 1pl | ئێمە | **هەڵبژاردبامان**<br><sub>hellbijardibaman</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)baːmaːn/</sub> | **هەڵبژاردبێتمان**<br><sub>hellbijardibêtman</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)beːtmaːn/</sub> | **هەڵبژاردبووبامان**<br><sub>hellbijardibûbaman</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːbaːmaːn/</sub> |
-| 2pl | ئێوە | **هەڵبژاردباتان**<br><sub>hellbijardibatan</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)baːtaːn/</sub> | **هەڵبژاردبێتتان**<br><sub>hellbijardibêttan</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)beːttaːn/</sub> | **هەڵبژاردبووباتان**<br><sub>hellbijardibûbatan</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːbaːtaːn/</sub> |
-| 3pl | ئەوان | **هەڵبژاردبایان**<br><sub>hellbijardibayan</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)baːjaːn/</sub> | **هەڵبژاردبێتیان**<br><sub>hellbijardibêtyan</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)beːtjaːn/</sub> | **هەڵبژاردبووبایان**<br><sub>hellbijardibûbayan</sub><br><sub>/hæɫb(ɯ)ʒaːɾd(ɯ)buːbaːjaːn/</sub> |
+| 1sg | من | **هەڵمبژاردبا**<br><sub>hellmibjardiba</sub><br><sub>/hæɫm(ɯ)bʒaːɾd(ɯ)baː/</sub> | **هەڵمبژاردبێت**<br><sub>hellmibjardibêt</sub><br><sub>/hæɫm(ɯ)bʒaːɾd(ɯ)beːt/</sub> | **هەڵمبژاردبووبا**<br><sub>hellmibjardibûba</sub><br><sub>/hæɫm(ɯ)bʒaːɾd(ɯ)buːbaː/</sub> |
+| 2sg | تۆ | **هەڵتبژاردبا**<br><sub>helltibjardiba</sub><br><sub>/hæɫt(ɯ)bʒaːɾd(ɯ)baː/</sub> | **هەڵتبژاردبێت**<br><sub>helltibjardibêt</sub><br><sub>/hæɫt(ɯ)bʒaːɾd(ɯ)beːt/</sub> | **هەڵتبژاردبووبا**<br><sub>helltibjardibûba</sub><br><sub>/hæɫt(ɯ)bʒaːɾd(ɯ)buːbaː/</sub> |
+| 3sg | ئەو | **هەڵیبژاردبا**<br><sub>hellîbjardiba</sub><br><sub>/hæɫiːbʒaːɾd(ɯ)baː/</sub> | **هەڵیبژاردبێت**<br><sub>hellîbjardibêt</sub><br><sub>/hæɫiːbʒaːɾd(ɯ)beːt/</sub> | **هەڵیبژاردبووبا**<br><sub>hellîbjardibûba</sub><br><sub>/hæɫiːbʒaːɾd(ɯ)buːbaː/</sub> |
+| 1pl | ئێمە | **هەڵمانبژاردبا**<br><sub>hellmanbjardiba</sub><br><sub>/hæɫmaːnbʒaːɾd(ɯ)baː/</sub> | **هەڵمانبژاردبێت**<br><sub>hellmanbjardibêt</sub><br><sub>/hæɫmaːnbʒaːɾd(ɯ)beːt/</sub> | **هەڵمانبژاردبووبا**<br><sub>hellmanbjardibûba</sub><br><sub>/hæɫmaːnbʒaːɾd(ɯ)buːbaː/</sub> |
+| 2pl | ئێوە | **هەڵتانبژاردبا**<br><sub>helltanbjardiba</sub><br><sub>/hæɫtaːnbʒaːɾd(ɯ)baː/</sub> | **هەڵتانبژاردبێت**<br><sub>helltanbjardibêt</sub><br><sub>/hæɫtaːnbʒaːɾd(ɯ)beːt/</sub> | **هەڵتانبژاردبووبا**<br><sub>helltanbjardibûba</sub><br><sub>/hæɫtaːnbʒaːɾd(ɯ)buːbaː/</sub> |
+| 3pl | ئەوان | **هەڵیانبژاردبا**<br><sub>hellyanbjardiba</sub><br><sub>/hæɫjaːnbʒaːɾd(ɯ)baː/</sub> | **هەڵیانبژاردبێت**<br><sub>hellyanbjardibêt</sub><br><sub>/hæɫjaːnbʒaːɾd(ɯ)beːt/</sub> | **هەڵیانبژاردبووبا**<br><sub>hellyanbjardibûba</sub><br><sub>/hæɫjaːnbʒaːɾd(ɯ)buːbaː/</sub> |
 
 ## Past subjunctive negative
 
@@ -101,12 +101,12 @@
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **هەڵنەمبژاردبا**<br><sub>hellnembjardiba</sub><br><sub>/hæɫnæmbʒaːɾd(ɯ)baː/</sub> | **هەڵنەمبژاردبێت**<br><sub>hellnembjardibêt</sub><br><sub>/hæɫnæmbʒaːɾd(ɯ)beːt/</sub> | **هەڵنەمبژاردبووبا**<br><sub>hellnembjardibûba</sub><br><sub>/hæɫnæmbʒaːɾd(ɯ)buːbaː/</sub> |
-| 2sg | تۆ | **هەڵنەتبژاردبا**<br><sub>hellnetbijardiba</sub><br><sub>/hæɫnætb(ɯ)ʒaːɾd(ɯ)baː/</sub> | **هەڵنەتبژاردبێت**<br><sub>hellnetbijardibêt</sub><br><sub>/hæɫnætb(ɯ)ʒaːɾd(ɯ)beːt/</sub> | **هەڵنەتبژاردبووبا**<br><sub>hellnetbijardibûba</sub><br><sub>/hæɫnætb(ɯ)ʒaːɾd(ɯ)buːbaː/</sub> |
-| 3sg | ئەو | **هەڵنەیبژاردبا**<br><sub>hellneybjardiba</sub><br><sub>/hæɫnæjbʒaːɾd(ɯ)baː/</sub> | **هەڵنەیبژاردبێت**<br><sub>hellneybjardibêt</sub><br><sub>/hæɫnæjbʒaːɾd(ɯ)beːt/</sub> | **هەڵنەیبژاردبووبا**<br><sub>hellneybjardibûba</sub><br><sub>/hæɫnæjbʒaːɾd(ɯ)buːbaː/</sub> |
-| 1pl | ئێمە | **هەڵنەمانبژاردبا**<br><sub>hellnemanbjardiba</sub><br><sub>/hæɫnæmaːnbʒaːɾd(ɯ)baː/</sub> | **هەڵنەمانبژاردبێت**<br><sub>hellnemanbjardibêt</sub><br><sub>/hæɫnæmaːnbʒaːɾd(ɯ)beːt/</sub> | **هەڵنەمانبژاردبووبا**<br><sub>hellnemanbjardibûba</sub><br><sub>/hæɫnæmaːnbʒaːɾd(ɯ)buːbaː/</sub> |
-| 2pl | ئێوە | **هەڵنەتانبژاردبا**<br><sub>hellnetanbjardiba</sub><br><sub>/hæɫnætaːnbʒaːɾd(ɯ)baː/</sub> | **هەڵنەتانبژاردبێت**<br><sub>hellnetanbjardibêt</sub><br><sub>/hæɫnætaːnbʒaːɾd(ɯ)beːt/</sub> | **هەڵنەتانبژاردبووبا**<br><sub>hellnetanbjardibûba</sub><br><sub>/hæɫnætaːnbʒaːɾd(ɯ)buːbaː/</sub> |
-| 3pl | ئەوان | **هەڵنەیانبژاردبا**<br><sub>hellneyanbjardiba</sub><br><sub>/hæɫnæjaːnbʒaːɾd(ɯ)baː/</sub> | **هەڵنەیانبژاردبێت**<br><sub>hellneyanbjardibêt</sub><br><sub>/hæɫnæjaːnbʒaːɾd(ɯ)beːt/</sub> | **هەڵنەیانبژاردبووبا**<br><sub>hellneyanbjardibûba</sub><br><sub>/hæɫnæjaːnbʒaːɾd(ɯ)buːbaː/</sub> |
+| 1sg | من | **هەڵمنەبژاردبا**<br><sub>hellminebjardiba</sub><br><sub>/hæɫm(ɯ)næbʒaːɾd(ɯ)baː/</sub> | **هەڵمنەبژاردبێت**<br><sub>hellminebjardibêt</sub><br><sub>/hæɫm(ɯ)næbʒaːɾd(ɯ)beːt/</sub> | **هەڵمنەبژاردبووبا**<br><sub>hellminebjardibûba</sub><br><sub>/hæɫm(ɯ)næbʒaːɾd(ɯ)buːbaː/</sub> |
+| 2sg | تۆ | **هەڵتنەبژاردبا**<br><sub>helltinebjardiba</sub><br><sub>/hæɫt(ɯ)næbʒaːɾd(ɯ)baː/</sub> | **هەڵتنەبژاردبێت**<br><sub>helltinebjardibêt</sub><br><sub>/hæɫt(ɯ)næbʒaːɾd(ɯ)beːt/</sub> | **هەڵتنەبژاردبووبا**<br><sub>helltinebjardibûba</sub><br><sub>/hæɫt(ɯ)næbʒaːɾd(ɯ)buːbaː/</sub> |
+| 3sg | ئەو | **هەڵینەبژاردبا**<br><sub>hellînebjardiba</sub><br><sub>/hæɫiːnæbʒaːɾd(ɯ)baː/</sub> | **هەڵینەبژاردبێت**<br><sub>hellînebjardibêt</sub><br><sub>/hæɫiːnæbʒaːɾd(ɯ)beːt/</sub> | **هەڵینەبژاردبووبا**<br><sub>hellînebjardibûba</sub><br><sub>/hæɫiːnæbʒaːɾd(ɯ)buːbaː/</sub> |
+| 1pl | ئێمە | **هەڵماننەبژاردبا**<br><sub>hellmannebjardiba</sub><br><sub>/hæɫmaːnnæbʒaːɾd(ɯ)baː/</sub> | **هەڵماننەبژاردبێت**<br><sub>hellmannebjardibêt</sub><br><sub>/hæɫmaːnnæbʒaːɾd(ɯ)beːt/</sub> | **هەڵماننەبژاردبووبا**<br><sub>hellmannebjardibûba</sub><br><sub>/hæɫmaːnnæbʒaːɾd(ɯ)buːbaː/</sub> |
+| 2pl | ئێوە | **هەڵتاننەبژاردبا**<br><sub>helltannebjardiba</sub><br><sub>/hæɫtaːnnæbʒaːɾd(ɯ)baː/</sub> | **هەڵتاننەبژاردبێت**<br><sub>helltannebjardibêt</sub><br><sub>/hæɫtaːnnæbʒaːɾd(ɯ)beːt/</sub> | **هەڵتاننەبژاردبووبا**<br><sub>helltannebjardibûba</sub><br><sub>/hæɫtaːnnæbʒaːɾd(ɯ)buːbaː/</sub> |
+| 3pl | ئەوان | **هەڵیاننەبژاردبا**<br><sub>hellyannebjardiba</sub><br><sub>/hæɫjaːnnæbʒaːɾd(ɯ)baː/</sub> | **هەڵیاننەبژاردبێت**<br><sub>hellyannebjardibêt</sub><br><sub>/hæɫjaːnnæbʒaːɾd(ɯ)beːt/</sub> | **هەڵیاننەبژاردبووبا**<br><sub>hellyannebjardibûba</sub><br><sub>/hæɫjaːnnæbʒaːɾd(ɯ)buːbaː/</sub> |
 
 ## Passive: present and subjunctive
 

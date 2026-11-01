@@ -43,12 +43,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **لێمدا**<br><sub>lêmda</sub><br><sub>/leːmdaː/</sub> | **لێنەمدا**<br><sub>lênemda</sub><br><sub>/leːnæmdaː/</sub> |
-| 2sg | تۆ | **لێتدا**<br><sub>lêtda</sub><br><sub>/leːtdaː/</sub> | **لێنەتدا**<br><sub>lênetda</sub><br><sub>/leːnætdaː/</sub> |
-| 3sg | ئەو | **لێیدا**<br><sub>lêyda</sub><br><sub>/leːjdaː/</sub> | **لێنەیدا**<br><sub>lêneyda</sub><br><sub>/leːnæjdaː/</sub> |
-| 1pl | ئێمە | **لێماندا**<br><sub>lêmanda</sub><br><sub>/leːmaːndaː/</sub> | **لێنەماندا**<br><sub>lênemanda</sub><br><sub>/leːnæmaːndaː/</sub> |
-| 2pl | ئێوە | **لێتاندا**<br><sub>lêtanda</sub><br><sub>/leːtaːndaː/</sub> | **لێنەتاندا**<br><sub>lênetanda</sub><br><sub>/leːnætaːndaː/</sub> |
-| 3pl | ئەوان | **لێیاندا**<br><sub>lêyanda</sub><br><sub>/leːjaːndaː/</sub> | **لێنەیاندا**<br><sub>lêneyanda</sub><br><sub>/leːnæjaːndaː/</sub> |
+| 1sg | من | **لێمدا**<br><sub>lêmda</sub><br><sub>/leːmdaː/</sub> | **لێمنەدا**<br><sub>lêmneda</sub><br><sub>/leːmnædaː/</sub> |
+| 2sg | تۆ | **لێتدا**<br><sub>lêtda</sub><br><sub>/leːtdaː/</sub> | **لێتنەدا**<br><sub>lêtneda</sub><br><sub>/leːtnædaː/</sub> |
+| 3sg | ئەو | **لێیدا**<br><sub>lêyda</sub><br><sub>/leːjdaː/</sub> | **لێینەدا**<br><sub>lêyneda</sub><br><sub>/leːjnædaː/</sub> |
+| 1pl | ئێمە | **لێماندا**<br><sub>lêmanda</sub><br><sub>/leːmaːndaː/</sub> | **لێماننەدا**<br><sub>lêmanneda</sub><br><sub>/leːmaːnnædaː/</sub> |
+| 2pl | ئێوە | **لێتاندا**<br><sub>lêtanda</sub><br><sub>/leːtaːndaː/</sub> | **لێتاننەدا**<br><sub>lêtanneda</sub><br><sub>/leːtaːnnædaː/</sub> |
+| 3pl | ئەوان | **لێیاندا**<br><sub>lêyanda</sub><br><sub>/leːjaːndaː/</sub> | **لێیاننەدا**<br><sub>lêyanneda</sub><br><sub>/leːjaːnnædaː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -58,12 +58,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **لێدەمدا**<br><sub>lêdemda</sub><br><sub>/leːdæmdaː/</sub> | **لێنەمدەدا**<br><sub>lênemdeda</sub><br><sub>/leːnæmdædaː/</sub> |
-| 2sg | تۆ | **لێدەتدا**<br><sub>lêdetda</sub><br><sub>/leːdætdaː/</sub> | **لێنەتدەدا**<br><sub>lênetdeda</sub><br><sub>/leːnætdædaː/</sub> |
-| 3sg | ئەو | **لێدەیدا**<br><sub>lêdeyda</sub><br><sub>/leːdæjdaː/</sub> | **لێنەیدەدا**<br><sub>lêneydeda</sub><br><sub>/leːnæjdædaː/</sub> |
-| 1pl | ئێمە | **لێدەماندا**<br><sub>lêdemanda</sub><br><sub>/leːdæmaːndaː/</sub> | **لێنەماندەدا**<br><sub>lênemandeda</sub><br><sub>/leːnæmaːndædaː/</sub> |
-| 2pl | ئێوە | **لێدەتاندا**<br><sub>lêdetanda</sub><br><sub>/leːdætaːndaː/</sub> | **لێنەتاندەدا**<br><sub>lênetandeda</sub><br><sub>/leːnætaːndædaː/</sub> |
-| 3pl | ئەوان | **لێدەیاندا**<br><sub>lêdeyanda</sub><br><sub>/leːdæjaːndaː/</sub> | **لێنەیاندەدا**<br><sub>lêneyandeda</sub><br><sub>/leːnæjaːndædaː/</sub> |
+| 1sg | من | **لێمدەدا**<br><sub>lêmdeda</sub><br><sub>/leːmdædaː/</sub> | **لێمنەدەدا**<br><sub>lêmnededa</sub><br><sub>/leːmnædædaː/</sub> |
+| 2sg | تۆ | **لێتدەدا**<br><sub>lêtdeda</sub><br><sub>/leːtdædaː/</sub> | **لێتنەدەدا**<br><sub>lêtnededa</sub><br><sub>/leːtnædædaː/</sub> |
+| 3sg | ئەو | **لێیدەدا**<br><sub>lêydeda</sub><br><sub>/leːjdædaː/</sub> | **لێینەدەدا**<br><sub>lêynededa</sub><br><sub>/leːjnædædaː/</sub> |
+| 1pl | ئێمە | **لێماندەدا**<br><sub>lêmandeda</sub><br><sub>/leːmaːndædaː/</sub> | **لێماننەدەدا**<br><sub>lêmannededa</sub><br><sub>/leːmaːnnædædaː/</sub> |
+| 2pl | ئێوە | **لێتاندەدا**<br><sub>lêtandeda</sub><br><sub>/leːtaːndædaː/</sub> | **لێتاننەدەدا**<br><sub>lêtannededa</sub><br><sub>/leːtaːnnædædaː/</sub> |
+| 3pl | ئەوان | **لێیاندەدا**<br><sub>lêyandeda</sub><br><sub>/leːjaːndædaː/</sub> | **لێیاننەدەدا**<br><sub>lêyannededa</sub><br><sub>/leːjaːnnædædaː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -73,12 +73,12 @@
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **لێداومە**<br><sub>lêdawme</sub><br><sub>/leːdaːwmæ/</sub> | **لێنەمداوە**<br><sub>lênemdawe</sub><br><sub>/leːnæmdaːwæ/</sub> | **لێدابووم**<br><sub>lêdabûm</sub><br><sub>/leːdaːbuːm/</sub> | **لێنەمدابوو**<br><sub>lênemdabû</sub><br><sub>/leːnæmdaːbuː/</sub> |
-| 2sg | تۆ | **لێداوتە**<br><sub>lêdawte</sub><br><sub>/leːdaːwtæ/</sub> | **لێنەتداوە**<br><sub>lênetdawe</sub><br><sub>/leːnætdaːwæ/</sub> | **لێدابووت**<br><sub>lêdabût</sub><br><sub>/leːdaːbuːt/</sub> | **لێنەتدابوو**<br><sub>lênetdabû</sub><br><sub>/leːnætdaːbuː/</sub> |
-| 3sg | ئەو | **لێداویەتی**<br><sub>lêdawyetî</sub><br><sub>/leːdaːwjætiː/</sub> | **لێنەیداوە**<br><sub>lêneydawe</sub><br><sub>/leːnæjdaːwæ/</sub> | **لێدابووی**<br><sub>lêdabûy</sub><br><sub>/leːdaːbuːj/</sub> | **لێنەیدابوو**<br><sub>lêneydabû</sub><br><sub>/leːnæjdaːbuː/</sub> |
-| 1pl | ئێمە | **لێداومانە**<br><sub>lêdawmane</sub><br><sub>/leːdaːwmaːnæ/</sub> | **لێنەمانداوە**<br><sub>lênemandawe</sub><br><sub>/leːnæmaːndaːwæ/</sub> | **لێدابوومان**<br><sub>lêdabûman</sub><br><sub>/leːdaːbuːmaːn/</sub> | **لێنەماندابوو**<br><sub>lênemandabû</sub><br><sub>/leːnæmaːndaːbuː/</sub> |
-| 2pl | ئێوە | **لێداوتانە**<br><sub>lêdawtane</sub><br><sub>/leːdaːwtaːnæ/</sub> | **لێنەتانداوە**<br><sub>lênetandawe</sub><br><sub>/leːnætaːndaːwæ/</sub> | **لێدابووتان**<br><sub>lêdabûtan</sub><br><sub>/leːdaːbuːtaːn/</sub> | **لێنەتاندابوو**<br><sub>lênetandabû</sub><br><sub>/leːnætaːndaːbuː/</sub> |
-| 3pl | ئەوان | **لێداویانە**<br><sub>lêdawyane</sub><br><sub>/leːdaːwjaːnæ/</sub> | **لێنەیانداوە**<br><sub>lêneyandawe</sub><br><sub>/leːnæjaːndaːwæ/</sub> | **لێدابوویان**<br><sub>lêdabûyan</sub><br><sub>/leːdaːbuːjaːn/</sub> | **لێنەیاندابوو**<br><sub>lêneyandabû</sub><br><sub>/leːnæjaːndaːbuː/</sub> |
+| 1sg | من | **لێمداوە**<br><sub>lêmdawe</sub><br><sub>/leːmdaːwæ/</sub> | **لێمنەداوە**<br><sub>lêmnedawe</sub><br><sub>/leːmnædaːwæ/</sub> | **لێمدابوو**<br><sub>lêmdabû</sub><br><sub>/leːmdaːbuː/</sub> | **لێمنەدابوو**<br><sub>lêmnedabû</sub><br><sub>/leːmnædaːbuː/</sub> |
+| 2sg | تۆ | **لێتداوە**<br><sub>lêtdawe</sub><br><sub>/leːtdaːwæ/</sub> | **لێتنەداوە**<br><sub>lêtnedawe</sub><br><sub>/leːtnædaːwæ/</sub> | **لێتدابوو**<br><sub>lêtdabû</sub><br><sub>/leːtdaːbuː/</sub> | **لێتنەدابوو**<br><sub>lêtnedabû</sub><br><sub>/leːtnædaːbuː/</sub> |
+| 3sg | ئەو | **لێیداوە**<br><sub>lêydawe</sub><br><sub>/leːjdaːwæ/</sub> | **لێینەداوە**<br><sub>lêynedawe</sub><br><sub>/leːjnædaːwæ/</sub> | **لێیدابوو**<br><sub>lêydabû</sub><br><sub>/leːjdaːbuː/</sub> | **لێینەدابوو**<br><sub>lêynedabû</sub><br><sub>/leːjnædaːbuː/</sub> |
+| 1pl | ئێمە | **لێمانداوە**<br><sub>lêmandawe</sub><br><sub>/leːmaːndaːwæ/</sub> | **لێماننەداوە**<br><sub>lêmannedawe</sub><br><sub>/leːmaːnnædaːwæ/</sub> | **لێماندابوو**<br><sub>lêmandabû</sub><br><sub>/leːmaːndaːbuː/</sub> | **لێماننەدابوو**<br><sub>lêmannedabû</sub><br><sub>/leːmaːnnædaːbuː/</sub> |
+| 2pl | ئێوە | **لێتانداوە**<br><sub>lêtandawe</sub><br><sub>/leːtaːndaːwæ/</sub> | **لێتاننەداوە**<br><sub>lêtannedawe</sub><br><sub>/leːtaːnnædaːwæ/</sub> | **لێتاندابوو**<br><sub>lêtandabû</sub><br><sub>/leːtaːndaːbuː/</sub> | **لێتاننەدابوو**<br><sub>lêtannedabû</sub><br><sub>/leːtaːnnædaːbuː/</sub> |
+| 3pl | ئەوان | **لێیانداوە**<br><sub>lêyandawe</sub><br><sub>/leːjaːndaːwæ/</sub> | **لێیاننەداوە**<br><sub>lêyannedawe</sub><br><sub>/leːjaːnnædaːwæ/</sub> | **لێیاندابوو**<br><sub>lêyandabû</sub><br><sub>/leːjaːndaːbuː/</sub> | **لێیاننەدابوو**<br><sub>lêyannedabû</sub><br><sub>/leːjaːnnædaːbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -88,12 +88,12 @@
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **لێدابام**<br><sub>lêdabam</sub><br><sub>/leːdaːbaːm/</sub> | **لێدابێتم**<br><sub>lêdabêtim</sub><br><sub>/leːdaːbeːt(ɯ)m/</sub> | **لێدابووبام**<br><sub>lêdabûbam</sub><br><sub>/leːdaːbuːbaːm/</sub> |
-| 2sg | تۆ | **لێدابات**<br><sub>lêdabat</sub><br><sub>/leːdaːbaːt/</sub> | **لێدابێتت**<br><sub>lêdabêtit</sub><br><sub>/leːdaːbeːt(ɯ)t/</sub> | **لێدابووبات**<br><sub>lêdabûbat</sub><br><sub>/leːdaːbuːbaːt/</sub> |
-| 3sg | ئەو | **لێدابای**<br><sub>lêdabay</sub><br><sub>/leːdaːbaːj/</sub> | **لێدابێتی**<br><sub>lêdabêtî</sub><br><sub>/leːdaːbeːtiː/</sub> | **لێدابووبای**<br><sub>lêdabûbay</sub><br><sub>/leːdaːbuːbaːj/</sub> |
-| 1pl | ئێمە | **لێدابامان**<br><sub>lêdabaman</sub><br><sub>/leːdaːbaːmaːn/</sub> | **لێدابێتمان**<br><sub>lêdabêtman</sub><br><sub>/leːdaːbeːtmaːn/</sub> | **لێدابووبامان**<br><sub>lêdabûbaman</sub><br><sub>/leːdaːbuːbaːmaːn/</sub> |
-| 2pl | ئێوە | **لێداباتان**<br><sub>lêdabatan</sub><br><sub>/leːdaːbaːtaːn/</sub> | **لێدابێتتان**<br><sub>lêdabêttan</sub><br><sub>/leːdaːbeːttaːn/</sub> | **لێدابووباتان**<br><sub>lêdabûbatan</sub><br><sub>/leːdaːbuːbaːtaːn/</sub> |
-| 3pl | ئەوان | **لێدابایان**<br><sub>lêdabayan</sub><br><sub>/leːdaːbaːjaːn/</sub> | **لێدابێتیان**<br><sub>lêdabêtyan</sub><br><sub>/leːdaːbeːtjaːn/</sub> | **لێدابووبایان**<br><sub>lêdabûbayan</sub><br><sub>/leːdaːbuːbaːjaːn/</sub> |
+| 1sg | من | **لێمدابا**<br><sub>lêmdaba</sub><br><sub>/leːmdaːbaː/</sub> | **لێمدابێت**<br><sub>lêmdabêt</sub><br><sub>/leːmdaːbeːt/</sub> | **لێمدابووبا**<br><sub>lêmdabûba</sub><br><sub>/leːmdaːbuːbaː/</sub> |
+| 2sg | تۆ | **لێتدابا**<br><sub>lêtdaba</sub><br><sub>/leːtdaːbaː/</sub> | **لێتدابێت**<br><sub>lêtdabêt</sub><br><sub>/leːtdaːbeːt/</sub> | **لێتدابووبا**<br><sub>lêtdabûba</sub><br><sub>/leːtdaːbuːbaː/</sub> |
+| 3sg | ئەو | **لێیدابا**<br><sub>lêydaba</sub><br><sub>/leːjdaːbaː/</sub> | **لێیدابێت**<br><sub>lêydabêt</sub><br><sub>/leːjdaːbeːt/</sub> | **لێیدابووبا**<br><sub>lêydabûba</sub><br><sub>/leːjdaːbuːbaː/</sub> |
+| 1pl | ئێمە | **لێماندابا**<br><sub>lêmandaba</sub><br><sub>/leːmaːndaːbaː/</sub> | **لێماندابێت**<br><sub>lêmandabêt</sub><br><sub>/leːmaːndaːbeːt/</sub> | **لێماندابووبا**<br><sub>lêmandabûba</sub><br><sub>/leːmaːndaːbuːbaː/</sub> |
+| 2pl | ئێوە | **لێتاندابا**<br><sub>lêtandaba</sub><br><sub>/leːtaːndaːbaː/</sub> | **لێتاندابێت**<br><sub>lêtandabêt</sub><br><sub>/leːtaːndaːbeːt/</sub> | **لێتاندابووبا**<br><sub>lêtandabûba</sub><br><sub>/leːtaːndaːbuːbaː/</sub> |
+| 3pl | ئەوان | **لێیاندابا**<br><sub>lêyandaba</sub><br><sub>/leːjaːndaːbaː/</sub> | **لێیاندابێت**<br><sub>lêyandabêt</sub><br><sub>/leːjaːndaːbeːt/</sub> | **لێیاندابووبا**<br><sub>lêyandabûba</sub><br><sub>/leːjaːndaːbuːbaː/</sub> |
 
 ## Past subjunctive negative
 
@@ -101,12 +101,12 @@
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **لێنەمدابا**<br><sub>lênemdaba</sub><br><sub>/leːnæmdaːbaː/</sub> | **لێنەمدابێت**<br><sub>lênemdabêt</sub><br><sub>/leːnæmdaːbeːt/</sub> | **لێنەمدابووبا**<br><sub>lênemdabûba</sub><br><sub>/leːnæmdaːbuːbaː/</sub> |
-| 2sg | تۆ | **لێنەتدابا**<br><sub>lênetdaba</sub><br><sub>/leːnætdaːbaː/</sub> | **لێنەتدابێت**<br><sub>lênetdabêt</sub><br><sub>/leːnætdaːbeːt/</sub> | **لێنەتدابووبا**<br><sub>lênetdabûba</sub><br><sub>/leːnætdaːbuːbaː/</sub> |
-| 3sg | ئەو | **لێنەیدابا**<br><sub>lêneydaba</sub><br><sub>/leːnæjdaːbaː/</sub> | **لێنەیدابێت**<br><sub>lêneydabêt</sub><br><sub>/leːnæjdaːbeːt/</sub> | **لێنەیدابووبا**<br><sub>lêneydabûba</sub><br><sub>/leːnæjdaːbuːbaː/</sub> |
-| 1pl | ئێمە | **لێنەماندابا**<br><sub>lênemandaba</sub><br><sub>/leːnæmaːndaːbaː/</sub> | **لێنەماندابێت**<br><sub>lênemandabêt</sub><br><sub>/leːnæmaːndaːbeːt/</sub> | **لێنەماندابووبا**<br><sub>lênemandabûba</sub><br><sub>/leːnæmaːndaːbuːbaː/</sub> |
-| 2pl | ئێوە | **لێنەتاندابا**<br><sub>lênetandaba</sub><br><sub>/leːnætaːndaːbaː/</sub> | **لێنەتاندابێت**<br><sub>lênetandabêt</sub><br><sub>/leːnætaːndaːbeːt/</sub> | **لێنەتاندابووبا**<br><sub>lênetandabûba</sub><br><sub>/leːnætaːndaːbuːbaː/</sub> |
-| 3pl | ئەوان | **لێنەیاندابا**<br><sub>lêneyandaba</sub><br><sub>/leːnæjaːndaːbaː/</sub> | **لێنەیاندابێت**<br><sub>lêneyandabêt</sub><br><sub>/leːnæjaːndaːbeːt/</sub> | **لێنەیاندابووبا**<br><sub>lêneyandabûba</sub><br><sub>/leːnæjaːndaːbuːbaː/</sub> |
+| 1sg | من | **لێمنەدابا**<br><sub>lêmnedaba</sub><br><sub>/leːmnædaːbaː/</sub> | **لێمنەدابێت**<br><sub>lêmnedabêt</sub><br><sub>/leːmnædaːbeːt/</sub> | **لێمنەدابووبا**<br><sub>lêmnedabûba</sub><br><sub>/leːmnædaːbuːbaː/</sub> |
+| 2sg | تۆ | **لێتنەدابا**<br><sub>lêtnedaba</sub><br><sub>/leːtnædaːbaː/</sub> | **لێتنەدابێت**<br><sub>lêtnedabêt</sub><br><sub>/leːtnædaːbeːt/</sub> | **لێتنەدابووبا**<br><sub>lêtnedabûba</sub><br><sub>/leːtnædaːbuːbaː/</sub> |
+| 3sg | ئەو | **لێینەدابا**<br><sub>lêynedaba</sub><br><sub>/leːjnædaːbaː/</sub> | **لێینەدابێت**<br><sub>lêynedabêt</sub><br><sub>/leːjnædaːbeːt/</sub> | **لێینەدابووبا**<br><sub>lêynedabûba</sub><br><sub>/leːjnædaːbuːbaː/</sub> |
+| 1pl | ئێمە | **لێماننەدابا**<br><sub>lêmannedaba</sub><br><sub>/leːmaːnnædaːbaː/</sub> | **لێماننەدابێت**<br><sub>lêmannedabêt</sub><br><sub>/leːmaːnnædaːbeːt/</sub> | **لێماننەدابووبا**<br><sub>lêmannedabûba</sub><br><sub>/leːmaːnnædaːbuːbaː/</sub> |
+| 2pl | ئێوە | **لێتاننەدابا**<br><sub>lêtannedaba</sub><br><sub>/leːtaːnnædaːbaː/</sub> | **لێتاننەدابێت**<br><sub>lêtannedabêt</sub><br><sub>/leːtaːnnædaːbeːt/</sub> | **لێتاننەدابووبا**<br><sub>lêtannedabûba</sub><br><sub>/leːtaːnnædaːbuːbaː/</sub> |
+| 3pl | ئەوان | **لێیاننەدابا**<br><sub>lêyannedaba</sub><br><sub>/leːjaːnnædaːbaː/</sub> | **لێیاننەدابێت**<br><sub>lêyannedabêt</sub><br><sub>/leːjaːnnædaːbeːt/</sub> | **لێیاننەدابووبا**<br><sub>lêyannedabûba</sub><br><sub>/leːjaːnnædaːbuːbaː/</sub> |
 
 ## Passive: present and subjunctive
 

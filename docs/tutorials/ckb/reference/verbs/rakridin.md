@@ -43,12 +43,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **ڕامکرد**<br><sub>ramkird</sub><br><sub>/raːmk(ɯ)ɾd/</sub> | **ڕانەمکرد**<br><sub>ranemkird</sub><br><sub>/raːnæmk(ɯ)ɾd/</sub> |
-| 2sg | تۆ | **ڕاتکرد**<br><sub>ratkird</sub><br><sub>/raːtk(ɯ)ɾd/</sub> | **ڕانەتکرد**<br><sub>ranetkird</sub><br><sub>/raːnætk(ɯ)ɾd/</sub> |
-| 3sg | ئەو | **ڕایکرد**<br><sub>raykird</sub><br><sub>/raːjk(ɯ)ɾd/</sub> | **ڕانەیکرد**<br><sub>raneykird</sub><br><sub>/raːnæjk(ɯ)ɾd/</sub> |
-| 1pl | ئێمە | **ڕامانکرد**<br><sub>ramankird</sub><br><sub>/raːmaːnk(ɯ)ɾd/</sub> | **ڕانەمانکرد**<br><sub>ranemankird</sub><br><sub>/raːnæmaːnk(ɯ)ɾd/</sub> |
-| 2pl | ئێوە | **ڕاتانکرد**<br><sub>ratankird</sub><br><sub>/raːtaːnk(ɯ)ɾd/</sub> | **ڕانەتانکرد**<br><sub>ranetankird</sub><br><sub>/raːnætaːnk(ɯ)ɾd/</sub> |
-| 3pl | ئەوان | **ڕایانکرد**<br><sub>rayankird</sub><br><sub>/raːjaːnk(ɯ)ɾd/</sub> | **ڕانەیانکرد**<br><sub>raneyankird</sub><br><sub>/raːnæjaːnk(ɯ)ɾd/</sub> |
+| 1sg | من | **ڕامکرد**<br><sub>ramkird</sub><br><sub>/raːmk(ɯ)ɾd/</sub> | **ڕامنەکرد**<br><sub>ramnekrid</sub><br><sub>/raːmnækɾ(ɯ)d/</sub> |
+| 2sg | تۆ | **ڕاتکرد**<br><sub>ratkird</sub><br><sub>/raːtk(ɯ)ɾd/</sub> | **ڕاتنەکرد**<br><sub>ratnekrid</sub><br><sub>/raːtnækɾ(ɯ)d/</sub> |
+| 3sg | ئەو | **ڕایکرد**<br><sub>raykird</sub><br><sub>/raːjk(ɯ)ɾd/</sub> | **ڕاینەکرد**<br><sub>raynekrid</sub><br><sub>/raːjnækɾ(ɯ)d/</sub> |
+| 1pl | ئێمە | **ڕامانکرد**<br><sub>ramankird</sub><br><sub>/raːmaːnk(ɯ)ɾd/</sub> | **ڕاماننەکرد**<br><sub>ramannekrid</sub><br><sub>/raːmaːnnækɾ(ɯ)d/</sub> |
+| 2pl | ئێوە | **ڕاتانکرد**<br><sub>ratankird</sub><br><sub>/raːtaːnk(ɯ)ɾd/</sub> | **ڕاتاننەکرد**<br><sub>ratannekrid</sub><br><sub>/raːtaːnnækɾ(ɯ)d/</sub> |
+| 3pl | ئەوان | **ڕایانکرد**<br><sub>rayankird</sub><br><sub>/raːjaːnk(ɯ)ɾd/</sub> | **ڕایاننەکرد**<br><sub>rayannekrid</sub><br><sub>/raːjaːnnækɾ(ɯ)d/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -58,12 +58,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **ڕادەمکرد**<br><sub>rademkird</sub><br><sub>/raːdæmk(ɯ)ɾd/</sub> | **ڕانەمدەکرد**<br><sub>ranemdekrid</sub><br><sub>/raːnæmdækɾ(ɯ)d/</sub> |
-| 2sg | تۆ | **ڕادەتکرد**<br><sub>radetkird</sub><br><sub>/raːdætk(ɯ)ɾd/</sub> | **ڕانەتدەکرد**<br><sub>ranetdekrid</sub><br><sub>/raːnætdækɾ(ɯ)d/</sub> |
-| 3sg | ئەو | **ڕادەیکرد**<br><sub>radeykird</sub><br><sub>/raːdæjk(ɯ)ɾd/</sub> | **ڕانەیدەکرد**<br><sub>raneydekrid</sub><br><sub>/raːnæjdækɾ(ɯ)d/</sub> |
-| 1pl | ئێمە | **ڕادەمانکرد**<br><sub>rademankird</sub><br><sub>/raːdæmaːnk(ɯ)ɾd/</sub> | **ڕانەماندەکرد**<br><sub>ranemandekrid</sub><br><sub>/raːnæmaːndækɾ(ɯ)d/</sub> |
-| 2pl | ئێوە | **ڕادەتانکرد**<br><sub>radetankird</sub><br><sub>/raːdætaːnk(ɯ)ɾd/</sub> | **ڕانەتاندەکرد**<br><sub>ranetandekrid</sub><br><sub>/raːnætaːndækɾ(ɯ)d/</sub> |
-| 3pl | ئەوان | **ڕادەیانکرد**<br><sub>radeyankird</sub><br><sub>/raːdæjaːnk(ɯ)ɾd/</sub> | **ڕانەیاندەکرد**<br><sub>raneyandekrid</sub><br><sub>/raːnæjaːndækɾ(ɯ)d/</sub> |
+| 1sg | من | **ڕامدەکرد**<br><sub>ramdekrid</sub><br><sub>/raːmdækɾ(ɯ)d/</sub> | **ڕامنەدەکرد**<br><sub>ramnedekrid</sub><br><sub>/raːmnædækɾ(ɯ)d/</sub> |
+| 2sg | تۆ | **ڕاتدەکرد**<br><sub>ratdekrid</sub><br><sub>/raːtdækɾ(ɯ)d/</sub> | **ڕاتنەدەکرد**<br><sub>ratnedekrid</sub><br><sub>/raːtnædækɾ(ɯ)d/</sub> |
+| 3sg | ئەو | **ڕایدەکرد**<br><sub>raydekrid</sub><br><sub>/raːjdækɾ(ɯ)d/</sub> | **ڕاینەدەکرد**<br><sub>raynedekrid</sub><br><sub>/raːjnædækɾ(ɯ)d/</sub> |
+| 1pl | ئێمە | **ڕاماندەکرد**<br><sub>ramandekrid</sub><br><sub>/raːmaːndækɾ(ɯ)d/</sub> | **ڕاماننەدەکرد**<br><sub>ramannedekrid</sub><br><sub>/raːmaːnnædækɾ(ɯ)d/</sub> |
+| 2pl | ئێوە | **ڕاتاندەکرد**<br><sub>ratandekrid</sub><br><sub>/raːtaːndækɾ(ɯ)d/</sub> | **ڕاتاننەدەکرد**<br><sub>ratannedekrid</sub><br><sub>/raːtaːnnædækɾ(ɯ)d/</sub> |
+| 3pl | ئەوان | **ڕایاندەکرد**<br><sub>rayandekrid</sub><br><sub>/raːjaːndækɾ(ɯ)d/</sub> | **ڕایاننەدەکرد**<br><sub>rayannedekrid</sub><br><sub>/raːjaːnnædækɾ(ɯ)d/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -73,12 +73,12 @@
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **ڕاکردوومە**<br><sub>rakridûme</sub><br><sub>/raːkɾ(ɯ)duːmæ/</sub> | **ڕانەمکردووە**<br><sub>ranemkirdûwe</sub><br><sub>/raːnæmk(ɯ)ɾduːwæ/</sub> | **ڕاکردبووم**<br><sub>rakridbûm</sub><br><sub>/raːkɾ(ɯ)dbuːm/</sub> | **ڕانەمکردبوو**<br><sub>ranemkiridbû</sub><br><sub>/raːnæmk(ɯ)ɾ(ɯ)dbuː/</sub> |
-| 2sg | تۆ | **ڕاکردووتە**<br><sub>rakridûte</sub><br><sub>/raːkɾ(ɯ)duːtæ/</sub> | **ڕانەتکردووە**<br><sub>ranetkirdûwe</sub><br><sub>/raːnætk(ɯ)ɾduːwæ/</sub> | **ڕاکردبووت**<br><sub>rakridbût</sub><br><sub>/raːkɾ(ɯ)dbuːt/</sub> | **ڕانەتکردبوو**<br><sub>ranetkiridbû</sub><br><sub>/raːnætk(ɯ)ɾ(ɯ)dbuː/</sub> |
-| 3sg | ئەو | **ڕاکردوویەتی**<br><sub>rakridûyetî</sub><br><sub>/raːkɾ(ɯ)duːjætiː/</sub> | **ڕانەیکردووە**<br><sub>raneykirdûwe</sub><br><sub>/raːnæjk(ɯ)ɾduːwæ/</sub> | **ڕاکردبووی**<br><sub>rakridbûy</sub><br><sub>/raːkɾ(ɯ)dbuːj/</sub> | **ڕانەیکردبوو**<br><sub>raneykiridbû</sub><br><sub>/raːnæjk(ɯ)ɾ(ɯ)dbuː/</sub> |
-| 1pl | ئێمە | **ڕاکردوومانە**<br><sub>rakridûmane</sub><br><sub>/raːkɾ(ɯ)duːmaːnæ/</sub> | **ڕانەمانکردووە**<br><sub>ranemankirdûwe</sub><br><sub>/raːnæmaːnk(ɯ)ɾduːwæ/</sub> | **ڕاکردبوومان**<br><sub>rakridbûman</sub><br><sub>/raːkɾ(ɯ)dbuːmaːn/</sub> | **ڕانەمانکردبوو**<br><sub>ranemankiridbû</sub><br><sub>/raːnæmaːnk(ɯ)ɾ(ɯ)dbuː/</sub> |
-| 2pl | ئێوە | **ڕاکردووتانە**<br><sub>rakridûtane</sub><br><sub>/raːkɾ(ɯ)duːtaːnæ/</sub> | **ڕانەتانکردووە**<br><sub>ranetankirdûwe</sub><br><sub>/raːnætaːnk(ɯ)ɾduːwæ/</sub> | **ڕاکردبووتان**<br><sub>rakridbûtan</sub><br><sub>/raːkɾ(ɯ)dbuːtaːn/</sub> | **ڕانەتانکردبوو**<br><sub>ranetankiridbû</sub><br><sub>/raːnætaːnk(ɯ)ɾ(ɯ)dbuː/</sub> |
-| 3pl | ئەوان | **ڕاکردوویانە**<br><sub>rakridûyane</sub><br><sub>/raːkɾ(ɯ)duːjaːnæ/</sub> | **ڕانەیانکردووە**<br><sub>raneyankirdûwe</sub><br><sub>/raːnæjaːnk(ɯ)ɾduːwæ/</sub> | **ڕاکردبوویان**<br><sub>rakridbûyan</sub><br><sub>/raːkɾ(ɯ)dbuːjaːn/</sub> | **ڕانەیانکردبوو**<br><sub>raneyankiridbû</sub><br><sub>/raːnæjaːnk(ɯ)ɾ(ɯ)dbuː/</sub> |
+| 1sg | من | **ڕامکردووە**<br><sub>ramkirdûwe</sub><br><sub>/raːmk(ɯ)ɾduːwæ/</sub> | **ڕامنەکردووە**<br><sub>ramnekridûwe</sub><br><sub>/raːmnækɾ(ɯ)duːwæ/</sub> | **ڕامکردبوو**<br><sub>ramkiridbû</sub><br><sub>/raːmk(ɯ)ɾ(ɯ)dbuː/</sub> | **ڕامنەکردبوو**<br><sub>ramnekridbû</sub><br><sub>/raːmnækɾ(ɯ)dbuː/</sub> |
+| 2sg | تۆ | **ڕاتکردووە**<br><sub>ratkirdûwe</sub><br><sub>/raːtk(ɯ)ɾduːwæ/</sub> | **ڕاتنەکردووە**<br><sub>ratnekridûwe</sub><br><sub>/raːtnækɾ(ɯ)duːwæ/</sub> | **ڕاتکردبوو**<br><sub>ratkiridbû</sub><br><sub>/raːtk(ɯ)ɾ(ɯ)dbuː/</sub> | **ڕاتنەکردبوو**<br><sub>ratnekridbû</sub><br><sub>/raːtnækɾ(ɯ)dbuː/</sub> |
+| 3sg | ئەو | **ڕایکردووە**<br><sub>raykirdûwe</sub><br><sub>/raːjk(ɯ)ɾduːwæ/</sub> | **ڕاینەکردووە**<br><sub>raynekridûwe</sub><br><sub>/raːjnækɾ(ɯ)duːwæ/</sub> | **ڕایکردبوو**<br><sub>raykiridbû</sub><br><sub>/raːjk(ɯ)ɾ(ɯ)dbuː/</sub> | **ڕاینەکردبوو**<br><sub>raynekridbû</sub><br><sub>/raːjnækɾ(ɯ)dbuː/</sub> |
+| 1pl | ئێمە | **ڕامانکردووە**<br><sub>ramankirdûwe</sub><br><sub>/raːmaːnk(ɯ)ɾduːwæ/</sub> | **ڕاماننەکردووە**<br><sub>ramannekridûwe</sub><br><sub>/raːmaːnnækɾ(ɯ)duːwæ/</sub> | **ڕامانکردبوو**<br><sub>ramankiridbû</sub><br><sub>/raːmaːnk(ɯ)ɾ(ɯ)dbuː/</sub> | **ڕاماننەکردبوو**<br><sub>ramannekridbû</sub><br><sub>/raːmaːnnækɾ(ɯ)dbuː/</sub> |
+| 2pl | ئێوە | **ڕاتانکردووە**<br><sub>ratankirdûwe</sub><br><sub>/raːtaːnk(ɯ)ɾduːwæ/</sub> | **ڕاتاننەکردووە**<br><sub>ratannekridûwe</sub><br><sub>/raːtaːnnækɾ(ɯ)duːwæ/</sub> | **ڕاتانکردبوو**<br><sub>ratankiridbû</sub><br><sub>/raːtaːnk(ɯ)ɾ(ɯ)dbuː/</sub> | **ڕاتاننەکردبوو**<br><sub>ratannekridbû</sub><br><sub>/raːtaːnnækɾ(ɯ)dbuː/</sub> |
+| 3pl | ئەوان | **ڕایانکردووە**<br><sub>rayankirdûwe</sub><br><sub>/raːjaːnk(ɯ)ɾduːwæ/</sub> | **ڕایاننەکردووە**<br><sub>rayannekridûwe</sub><br><sub>/raːjaːnnækɾ(ɯ)duːwæ/</sub> | **ڕایانکردبوو**<br><sub>rayankiridbû</sub><br><sub>/raːjaːnk(ɯ)ɾ(ɯ)dbuː/</sub> | **ڕایاننەکردبوو**<br><sub>rayannekridbû</sub><br><sub>/raːjaːnnækɾ(ɯ)dbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -88,12 +88,12 @@
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **ڕاکردبام**<br><sub>rakridbam</sub><br><sub>/raːkɾ(ɯ)dbaːm/</sub> | **ڕاکردبێتم**<br><sub>rakridbêtim</sub><br><sub>/raːkɾ(ɯ)dbeːt(ɯ)m/</sub> | **ڕاکردبووبام**<br><sub>rakridbûbam</sub><br><sub>/raːkɾ(ɯ)dbuːbaːm/</sub> |
-| 2sg | تۆ | **ڕاکردبات**<br><sub>rakridbat</sub><br><sub>/raːkɾ(ɯ)dbaːt/</sub> | **ڕاکردبێتت**<br><sub>rakridbêtit</sub><br><sub>/raːkɾ(ɯ)dbeːt(ɯ)t/</sub> | **ڕاکردبووبات**<br><sub>rakridbûbat</sub><br><sub>/raːkɾ(ɯ)dbuːbaːt/</sub> |
-| 3sg | ئەو | **ڕاکردبای**<br><sub>rakridbay</sub><br><sub>/raːkɾ(ɯ)dbaːj/</sub> | **ڕاکردبێتی**<br><sub>rakridbêtî</sub><br><sub>/raːkɾ(ɯ)dbeːtiː/</sub> | **ڕاکردبووبای**<br><sub>rakridbûbay</sub><br><sub>/raːkɾ(ɯ)dbuːbaːj/</sub> |
-| 1pl | ئێمە | **ڕاکردبامان**<br><sub>rakridbaman</sub><br><sub>/raːkɾ(ɯ)dbaːmaːn/</sub> | **ڕاکردبێتمان**<br><sub>rakridbêtman</sub><br><sub>/raːkɾ(ɯ)dbeːtmaːn/</sub> | **ڕاکردبووبامان**<br><sub>rakridbûbaman</sub><br><sub>/raːkɾ(ɯ)dbuːbaːmaːn/</sub> |
-| 2pl | ئێوە | **ڕاکردباتان**<br><sub>rakridbatan</sub><br><sub>/raːkɾ(ɯ)dbaːtaːn/</sub> | **ڕاکردبێتتان**<br><sub>rakridbêttan</sub><br><sub>/raːkɾ(ɯ)dbeːttaːn/</sub> | **ڕاکردبووباتان**<br><sub>rakridbûbatan</sub><br><sub>/raːkɾ(ɯ)dbuːbaːtaːn/</sub> |
-| 3pl | ئەوان | **ڕاکردبایان**<br><sub>rakridbayan</sub><br><sub>/raːkɾ(ɯ)dbaːjaːn/</sub> | **ڕاکردبێتیان**<br><sub>rakridbêtyan</sub><br><sub>/raːkɾ(ɯ)dbeːtjaːn/</sub> | **ڕاکردبووبایان**<br><sub>rakridbûbayan</sub><br><sub>/raːkɾ(ɯ)dbuːbaːjaːn/</sub> |
+| 1sg | من | **ڕامکردبا**<br><sub>ramkiridba</sub><br><sub>/raːmk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕامکردبێت**<br><sub>ramkiridbêt</sub><br><sub>/raːmk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕامکردبووبا**<br><sub>ramkiridbûba</sub><br><sub>/raːmk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 2sg | تۆ | **ڕاتکردبا**<br><sub>ratkiridba</sub><br><sub>/raːtk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕاتکردبێت**<br><sub>ratkiridbêt</sub><br><sub>/raːtk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕاتکردبووبا**<br><sub>ratkiridbûba</sub><br><sub>/raːtk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 3sg | ئەو | **ڕایکردبا**<br><sub>raykiridba</sub><br><sub>/raːjk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕایکردبێت**<br><sub>raykiridbêt</sub><br><sub>/raːjk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕایکردبووبا**<br><sub>raykiridbûba</sub><br><sub>/raːjk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 1pl | ئێمە | **ڕامانکردبا**<br><sub>ramankiridba</sub><br><sub>/raːmaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕامانکردبێت**<br><sub>ramankiridbêt</sub><br><sub>/raːmaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕامانکردبووبا**<br><sub>ramankiridbûba</sub><br><sub>/raːmaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 2pl | ئێوە | **ڕاتانکردبا**<br><sub>ratankiridba</sub><br><sub>/raːtaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕاتانکردبێت**<br><sub>ratankiridbêt</sub><br><sub>/raːtaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕاتانکردبووبا**<br><sub>ratankiridbûba</sub><br><sub>/raːtaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 3pl | ئەوان | **ڕایانکردبا**<br><sub>rayankiridba</sub><br><sub>/raːjaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕایانکردبێت**<br><sub>rayankiridbêt</sub><br><sub>/raːjaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕایانکردبووبا**<br><sub>rayankiridbûba</sub><br><sub>/raːjaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
 
 ## Past subjunctive negative
 
@@ -101,12 +101,12 @@
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **ڕانەمکردبا**<br><sub>ranemkiridba</sub><br><sub>/raːnæmk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەمکردبێت**<br><sub>ranemkiridbêt</sub><br><sub>/raːnæmk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەمکردبووبا**<br><sub>ranemkiridbûba</sub><br><sub>/raːnæmk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 2sg | تۆ | **ڕانەتکردبا**<br><sub>ranetkiridba</sub><br><sub>/raːnætk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەتکردبێت**<br><sub>ranetkiridbêt</sub><br><sub>/raːnætk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەتکردبووبا**<br><sub>ranetkiridbûba</sub><br><sub>/raːnætk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 3sg | ئەو | **ڕانەیکردبا**<br><sub>raneykiridba</sub><br><sub>/raːnæjk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەیکردبێت**<br><sub>raneykiridbêt</sub><br><sub>/raːnæjk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەیکردبووبا**<br><sub>raneykiridbûba</sub><br><sub>/raːnæjk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 1pl | ئێمە | **ڕانەمانکردبا**<br><sub>ranemankiridba</sub><br><sub>/raːnæmaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەمانکردبێت**<br><sub>ranemankiridbêt</sub><br><sub>/raːnæmaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەمانکردبووبا**<br><sub>ranemankiridbûba</sub><br><sub>/raːnæmaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 2pl | ئێوە | **ڕانەتانکردبا**<br><sub>ranetankiridba</sub><br><sub>/raːnætaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەتانکردبێت**<br><sub>ranetankiridbêt</sub><br><sub>/raːnætaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەتانکردبووبا**<br><sub>ranetankiridbûba</sub><br><sub>/raːnætaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 3pl | ئەوان | **ڕانەیانکردبا**<br><sub>raneyankiridba</sub><br><sub>/raːnæjaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەیانکردبێت**<br><sub>raneyankiridbêt</sub><br><sub>/raːnæjaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەیانکردبووبا**<br><sub>raneyankiridbûba</sub><br><sub>/raːnæjaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 1sg | من | **ڕامنەکردبا**<br><sub>ramnekridba</sub><br><sub>/raːmnækɾ(ɯ)dbaː/</sub> | **ڕامنەکردبێت**<br><sub>ramnekridbêt</sub><br><sub>/raːmnækɾ(ɯ)dbeːt/</sub> | **ڕامنەکردبووبا**<br><sub>ramnekridbûba</sub><br><sub>/raːmnækɾ(ɯ)dbuːbaː/</sub> |
+| 2sg | تۆ | **ڕاتنەکردبا**<br><sub>ratnekridba</sub><br><sub>/raːtnækɾ(ɯ)dbaː/</sub> | **ڕاتنەکردبێت**<br><sub>ratnekridbêt</sub><br><sub>/raːtnækɾ(ɯ)dbeːt/</sub> | **ڕاتنەکردبووبا**<br><sub>ratnekridbûba</sub><br><sub>/raːtnækɾ(ɯ)dbuːbaː/</sub> |
+| 3sg | ئەو | **ڕاینەکردبا**<br><sub>raynekridba</sub><br><sub>/raːjnækɾ(ɯ)dbaː/</sub> | **ڕاینەکردبێت**<br><sub>raynekridbêt</sub><br><sub>/raːjnækɾ(ɯ)dbeːt/</sub> | **ڕاینەکردبووبا**<br><sub>raynekridbûba</sub><br><sub>/raːjnækɾ(ɯ)dbuːbaː/</sub> |
+| 1pl | ئێمە | **ڕاماننەکردبا**<br><sub>ramannekridba</sub><br><sub>/raːmaːnnækɾ(ɯ)dbaː/</sub> | **ڕاماننەکردبێت**<br><sub>ramannekridbêt</sub><br><sub>/raːmaːnnækɾ(ɯ)dbeːt/</sub> | **ڕاماننەکردبووبا**<br><sub>ramannekridbûba</sub><br><sub>/raːmaːnnækɾ(ɯ)dbuːbaː/</sub> |
+| 2pl | ئێوە | **ڕاتاننەکردبا**<br><sub>ratannekridba</sub><br><sub>/raːtaːnnækɾ(ɯ)dbaː/</sub> | **ڕاتاننەکردبێت**<br><sub>ratannekridbêt</sub><br><sub>/raːtaːnnækɾ(ɯ)dbeːt/</sub> | **ڕاتاننەکردبووبا**<br><sub>ratannekridbûba</sub><br><sub>/raːtaːnnækɾ(ɯ)dbuːbaː/</sub> |
+| 3pl | ئەوان | **ڕایاننەکردبا**<br><sub>rayannekridba</sub><br><sub>/raːjaːnnækɾ(ɯ)dbaː/</sub> | **ڕایاننەکردبێت**<br><sub>rayannekridbêt</sub><br><sub>/raːjaːnnækɾ(ɯ)dbeːt/</sub> | **ڕایاننەکردبووبا**<br><sub>rayannekridbûba</sub><br><sub>/raːjaːnnækɾ(ɯ)dbuːbaː/</sub> |
 
 ## Imperative
 

@@ -13,6 +13,10 @@ Central Kurdish, checked against the written-standard and grammar sources in [ch
 - **`-ەوە` verbs**: no three-`و` forms (`چووەوە`, was `چوووە`); the perfect has `ت` (`خوێندووەتەوە`); `دۆزییەوە`.
 - **Missing tenses**: negative perfects (`نەکردووە`, `نەهاتبوو`), the written long perfect (`هاتوومە`, with `هاتووم` as a variant), the past subjunctive (`خواردبا`, `خواردبێت`, `خواردبووبا`) and the full passive (`بکرێت`, `نەکرا`, `دەکرا`, `کرابوو`, `کرابا`). Reference pages show them, and the lexicon now reads very common forms such as `بکرێت` and `نەبووە` as verbs.
 - **Nouns and function words**: final ە/یە (`مامۆستایە`, `ماڵدایە`), `ماڵدام`, indefinite `چرایێک`, `کەسانێک`, `کوڕێ`, plural `-گەل`, `سنەیی`, `ڕەشایی`, prefixes `بێ` `نا` `هاو`, compounds (`گوڵ+ە+گەنم`), and `پێ` `لێ` `تێ` as adpositions rather than nouns.
+- **Agent clitic position**: on a preverb or compound verb it sits on the first part in every tense (`هەڵمنەگرت`, `هەڵمدەگرت`, `هەڵمگرتووە`). The older shapes stay recognised as a variant.
+- **Split verbs**: `FormIndex.lookup_split` and the sentence parser read `هەڵم گرت`, `ڕای گەیاند` and `دەستم پێ کرد` as one verb. New relation `compound:prt`.
+- **Object clitics**: `دەتبینم`, `هەڵیدەگرم`, `بمگرە`, `بینیمیت`, `گرتمی`, and `بۆمی` with two clitics.
+- **Preverbs**: the full list of simple and complex preverbs.
 - **Lexicon builder**: a core verb reading now beats a dictionary entry with no word class, so `کردووە`, `هاتووە` and `داوە` are verbs rather than nouns with broken lemmas. A word with a known remainder after `بێ`, `نا` or `هاو` is accepted.
 - **Sentence structure**: bare adpositions (`پێی وت`), `من لە ماڵدام`, `تۆ زیرەکیت`, and definite adjective phrases (`پیاوە باشەکە هات`).
 - **Preverb verbs**: `ب` is generated after the preverb (`هەڵبگرم`, `دابنیشە`), with the bare form as a variant. `ڕاکردن` takes the agent clitics.

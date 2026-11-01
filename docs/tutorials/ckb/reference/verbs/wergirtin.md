@@ -43,12 +43,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **وەرمگرت**<br><sub>wermigirt</sub><br><sub>/wæɾm(ɯ)ɡ(ɯ)ɾt/</sub> | **وەرنەمگرت**<br><sub>wernemgirt</sub><br><sub>/wæɾnæmɡ(ɯ)ɾt/</sub> |
-| 2sg | تۆ | **وەرتگرت**<br><sub>wertigirt</sub><br><sub>/wæɾt(ɯ)ɡ(ɯ)ɾt/</sub> | **وەرنەتگرت**<br><sub>wernetgirt</sub><br><sub>/wæɾnætɡ(ɯ)ɾt/</sub> |
-| 3sg | ئەو | **وەریگرت**<br><sub>werîgrit</sub><br><sub>/wæɾiːɡɾ(ɯ)t/</sub> | **وەرنەیگرت**<br><sub>werneygirt</sub><br><sub>/wæɾnæjɡ(ɯ)ɾt/</sub> |
-| 1pl | ئێمە | **وەرمانگرت**<br><sub>wermangirt</sub><br><sub>/wæɾmaːnɡ(ɯ)ɾt/</sub> | **وەرنەمانگرت**<br><sub>wernemangirt</sub><br><sub>/wæɾnæmaːnɡ(ɯ)ɾt/</sub> |
-| 2pl | ئێوە | **وەرتانگرت**<br><sub>wertangirt</sub><br><sub>/wæɾtaːnɡ(ɯ)ɾt/</sub> | **وەرنەتانگرت**<br><sub>wernetangirt</sub><br><sub>/wæɾnætaːnɡ(ɯ)ɾt/</sub> |
-| 3pl | ئەوان | **وەریانگرت**<br><sub>weryangirt</sub><br><sub>/wæɾjaːnɡ(ɯ)ɾt/</sub> | **وەرنەیانگرت**<br><sub>werneyangirt</sub><br><sub>/wæɾnæjaːnɡ(ɯ)ɾt/</sub> |
+| 1sg | من | **وەرمگرت**<br><sub>wermigirt</sub><br><sub>/wæɾm(ɯ)ɡ(ɯ)ɾt/</sub> | **وەرمنەگرت**<br><sub>werminegrit</sub><br><sub>/wæɾm(ɯ)næɡɾ(ɯ)t/</sub> |
+| 2sg | تۆ | **وەرتگرت**<br><sub>wertigirt</sub><br><sub>/wæɾt(ɯ)ɡ(ɯ)ɾt/</sub> | **وەرتنەگرت**<br><sub>wertinegrit</sub><br><sub>/wæɾt(ɯ)næɡɾ(ɯ)t/</sub> |
+| 3sg | ئەو | **وەریگرت**<br><sub>werîgrit</sub><br><sub>/wæɾiːɡɾ(ɯ)t/</sub> | **وەرینەگرت**<br><sub>werînegrit</sub><br><sub>/wæɾiːnæɡɾ(ɯ)t/</sub> |
+| 1pl | ئێمە | **وەرمانگرت**<br><sub>wermangirt</sub><br><sub>/wæɾmaːnɡ(ɯ)ɾt/</sub> | **وەرماننەگرت**<br><sub>wermannegrit</sub><br><sub>/wæɾmaːnnæɡɾ(ɯ)t/</sub> |
+| 2pl | ئێوە | **وەرتانگرت**<br><sub>wertangirt</sub><br><sub>/wæɾtaːnɡ(ɯ)ɾt/</sub> | **وەرتاننەگرت**<br><sub>wertannegrit</sub><br><sub>/wæɾtaːnnæɡɾ(ɯ)t/</sub> |
+| 3pl | ئەوان | **وەریانگرت**<br><sub>weryangirt</sub><br><sub>/wæɾjaːnɡ(ɯ)ɾt/</sub> | **وەریاننەگرت**<br><sub>weryannegrit</sub><br><sub>/wæɾjaːnnæɡɾ(ɯ)t/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -58,12 +58,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **وەردەمگرت**<br><sub>werdemgirt</sub><br><sub>/wæɾdæmɡ(ɯ)ɾt/</sub> | **وەرنەمدەگرت**<br><sub>wernemdegrit</sub><br><sub>/wæɾnæmdæɡɾ(ɯ)t/</sub> |
-| 2sg | تۆ | **وەردەتگرت**<br><sub>werdetgirt</sub><br><sub>/wæɾdætɡ(ɯ)ɾt/</sub> | **وەرنەتدەگرت**<br><sub>wernetdegrit</sub><br><sub>/wæɾnætdæɡɾ(ɯ)t/</sub> |
-| 3sg | ئەو | **وەردەیگرت**<br><sub>werdeygirt</sub><br><sub>/wæɾdæjɡ(ɯ)ɾt/</sub> | **وەرنەیدەگرت**<br><sub>werneydegrit</sub><br><sub>/wæɾnæjdæɡɾ(ɯ)t/</sub> |
-| 1pl | ئێمە | **وەردەمانگرت**<br><sub>werdemangirt</sub><br><sub>/wæɾdæmaːnɡ(ɯ)ɾt/</sub> | **وەرنەماندەگرت**<br><sub>wernemandegrit</sub><br><sub>/wæɾnæmaːndæɡɾ(ɯ)t/</sub> |
-| 2pl | ئێوە | **وەردەتانگرت**<br><sub>werdetangirt</sub><br><sub>/wæɾdætaːnɡ(ɯ)ɾt/</sub> | **وەرنەتاندەگرت**<br><sub>wernetandegrit</sub><br><sub>/wæɾnætaːndæɡɾ(ɯ)t/</sub> |
-| 3pl | ئەوان | **وەردەیانگرت**<br><sub>werdeyangirt</sub><br><sub>/wæɾdæjaːnɡ(ɯ)ɾt/</sub> | **وەرنەیاندەگرت**<br><sub>werneyandegrit</sub><br><sub>/wæɾnæjaːndæɡɾ(ɯ)t/</sub> |
+| 1sg | من | **وەرمدەگرت**<br><sub>wermidegrit</sub><br><sub>/wæɾm(ɯ)dæɡɾ(ɯ)t/</sub> | **وەرمنەدەگرت**<br><sub>werminedegrit</sub><br><sub>/wæɾm(ɯ)nædæɡɾ(ɯ)t/</sub> |
+| 2sg | تۆ | **وەرتدەگرت**<br><sub>wertidegrit</sub><br><sub>/wæɾt(ɯ)dæɡɾ(ɯ)t/</sub> | **وەرتنەدەگرت**<br><sub>wertinedegrit</sub><br><sub>/wæɾt(ɯ)nædæɡɾ(ɯ)t/</sub> |
+| 3sg | ئەو | **وەریدەگرت**<br><sub>werîdegrit</sub><br><sub>/wæɾiːdæɡɾ(ɯ)t/</sub> | **وەرینەدەگرت**<br><sub>werînedegrit</sub><br><sub>/wæɾiːnædæɡɾ(ɯ)t/</sub> |
+| 1pl | ئێمە | **وەرماندەگرت**<br><sub>wermandegrit</sub><br><sub>/wæɾmaːndæɡɾ(ɯ)t/</sub> | **وەرماننەدەگرت**<br><sub>wermannedegrit</sub><br><sub>/wæɾmaːnnædæɡɾ(ɯ)t/</sub> |
+| 2pl | ئێوە | **وەرتاندەگرت**<br><sub>wertandegrit</sub><br><sub>/wæɾtaːndæɡɾ(ɯ)t/</sub> | **وەرتاننەدەگرت**<br><sub>wertannedegrit</sub><br><sub>/wæɾtaːnnædæɡɾ(ɯ)t/</sub> |
+| 3pl | ئەوان | **وەریاندەگرت**<br><sub>weryandegrit</sub><br><sub>/wæɾjaːndæɡɾ(ɯ)t/</sub> | **وەریاننەدەگرت**<br><sub>weryannedegrit</sub><br><sub>/wæɾjaːnnædæɡɾ(ɯ)t/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -73,12 +73,12 @@
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **وەرگرتوومە**<br><sub>wergirtûme</sub><br><sub>/wæɾɡ(ɯ)ɾtuːmæ/</sub> | **وەرنەمگرتووە**<br><sub>wernemgirtûwe</sub><br><sub>/wæɾnæmɡ(ɯ)ɾtuːwæ/</sub> | **وەرگرتبووم**<br><sub>wergiritbûm</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːm/</sub> | **وەرنەمگرتبوو**<br><sub>wernemgiritbû</sub><br><sub>/wæɾnæmɡ(ɯ)ɾ(ɯ)tbuː/</sub> |
-| 2sg | تۆ | **وەرگرتووتە**<br><sub>wergirtûte</sub><br><sub>/wæɾɡ(ɯ)ɾtuːtæ/</sub> | **وەرنەتگرتووە**<br><sub>wernetgirtûwe</sub><br><sub>/wæɾnætɡ(ɯ)ɾtuːwæ/</sub> | **وەرگرتبووت**<br><sub>wergiritbût</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːt/</sub> | **وەرنەتگرتبوو**<br><sub>wernetgiritbû</sub><br><sub>/wæɾnætɡ(ɯ)ɾ(ɯ)tbuː/</sub> |
-| 3sg | ئەو | **وەرگرتوویەتی**<br><sub>wergirtûyetî</sub><br><sub>/wæɾɡ(ɯ)ɾtuːjætiː/</sub> | **وەرنەیگرتووە**<br><sub>werneygirtûwe</sub><br><sub>/wæɾnæjɡ(ɯ)ɾtuːwæ/</sub> | **وەرگرتبووی**<br><sub>wergiritbûy</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːj/</sub> | **وەرنەیگرتبوو**<br><sub>werneygiritbû</sub><br><sub>/wæɾnæjɡ(ɯ)ɾ(ɯ)tbuː/</sub> |
-| 1pl | ئێمە | **وەرگرتوومانە**<br><sub>wergirtûmane</sub><br><sub>/wæɾɡ(ɯ)ɾtuːmaːnæ/</sub> | **وەرنەمانگرتووە**<br><sub>wernemangirtûwe</sub><br><sub>/wæɾnæmaːnɡ(ɯ)ɾtuːwæ/</sub> | **وەرگرتبوومان**<br><sub>wergiritbûman</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːmaːn/</sub> | **وەرنەمانگرتبوو**<br><sub>wernemangiritbû</sub><br><sub>/wæɾnæmaːnɡ(ɯ)ɾ(ɯ)tbuː/</sub> |
-| 2pl | ئێوە | **وەرگرتووتانە**<br><sub>wergirtûtane</sub><br><sub>/wæɾɡ(ɯ)ɾtuːtaːnæ/</sub> | **وەرنەتانگرتووە**<br><sub>wernetangirtûwe</sub><br><sub>/wæɾnætaːnɡ(ɯ)ɾtuːwæ/</sub> | **وەرگرتبووتان**<br><sub>wergiritbûtan</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːtaːn/</sub> | **وەرنەتانگرتبوو**<br><sub>wernetangiritbû</sub><br><sub>/wæɾnætaːnɡ(ɯ)ɾ(ɯ)tbuː/</sub> |
-| 3pl | ئەوان | **وەرگرتوویانە**<br><sub>wergirtûyane</sub><br><sub>/wæɾɡ(ɯ)ɾtuːjaːnæ/</sub> | **وەرنەیانگرتووە**<br><sub>werneyangirtûwe</sub><br><sub>/wæɾnæjaːnɡ(ɯ)ɾtuːwæ/</sub> | **وەرگرتبوویان**<br><sub>wergiritbûyan</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːjaːn/</sub> | **وەرنەیانگرتبوو**<br><sub>werneyangiritbû</sub><br><sub>/wæɾnæjaːnɡ(ɯ)ɾ(ɯ)tbuː/</sub> |
+| 1sg | من | **وەرمگرتووە**<br><sub>wermigirtûwe</sub><br><sub>/wæɾm(ɯ)ɡ(ɯ)ɾtuːwæ/</sub> | **وەرمنەگرتووە**<br><sub>werminegritûwe</sub><br><sub>/wæɾm(ɯ)næɡɾ(ɯ)tuːwæ/</sub> | **وەرمگرتبوو**<br><sub>wermigritbû</sub><br><sub>/wæɾm(ɯ)ɡɾ(ɯ)tbuː/</sub> | **وەرمنەگرتبوو**<br><sub>werminegritbû</sub><br><sub>/wæɾm(ɯ)næɡɾ(ɯ)tbuː/</sub> |
+| 2sg | تۆ | **وەرتگرتووە**<br><sub>wertigirtûwe</sub><br><sub>/wæɾt(ɯ)ɡ(ɯ)ɾtuːwæ/</sub> | **وەرتنەگرتووە**<br><sub>wertinegritûwe</sub><br><sub>/wæɾt(ɯ)næɡɾ(ɯ)tuːwæ/</sub> | **وەرتگرتبوو**<br><sub>wertigritbû</sub><br><sub>/wæɾt(ɯ)ɡɾ(ɯ)tbuː/</sub> | **وەرتنەگرتبوو**<br><sub>wertinegritbû</sub><br><sub>/wæɾt(ɯ)næɡɾ(ɯ)tbuː/</sub> |
+| 3sg | ئەو | **وەریگرتووە**<br><sub>werîgritûwe</sub><br><sub>/wæɾiːɡɾ(ɯ)tuːwæ/</sub> | **وەرینەگرتووە**<br><sub>werînegritûwe</sub><br><sub>/wæɾiːnæɡɾ(ɯ)tuːwæ/</sub> | **وەریگرتبوو**<br><sub>werîgritbû</sub><br><sub>/wæɾiːɡɾ(ɯ)tbuː/</sub> | **وەرینەگرتبوو**<br><sub>werînegritbû</sub><br><sub>/wæɾiːnæɡɾ(ɯ)tbuː/</sub> |
+| 1pl | ئێمە | **وەرمانگرتووە**<br><sub>wermangirtûwe</sub><br><sub>/wæɾmaːnɡ(ɯ)ɾtuːwæ/</sub> | **وەرماننەگرتووە**<br><sub>wermannegritûwe</sub><br><sub>/wæɾmaːnnæɡɾ(ɯ)tuːwæ/</sub> | **وەرمانگرتبوو**<br><sub>wermangiritbû</sub><br><sub>/wæɾmaːnɡ(ɯ)ɾ(ɯ)tbuː/</sub> | **وەرماننەگرتبوو**<br><sub>wermannegritbû</sub><br><sub>/wæɾmaːnnæɡɾ(ɯ)tbuː/</sub> |
+| 2pl | ئێوە | **وەرتانگرتووە**<br><sub>wertangirtûwe</sub><br><sub>/wæɾtaːnɡ(ɯ)ɾtuːwæ/</sub> | **وەرتاننەگرتووە**<br><sub>wertannegritûwe</sub><br><sub>/wæɾtaːnnæɡɾ(ɯ)tuːwæ/</sub> | **وەرتانگرتبوو**<br><sub>wertangiritbû</sub><br><sub>/wæɾtaːnɡ(ɯ)ɾ(ɯ)tbuː/</sub> | **وەرتاننەگرتبوو**<br><sub>wertannegritbû</sub><br><sub>/wæɾtaːnnæɡɾ(ɯ)tbuː/</sub> |
+| 3pl | ئەوان | **وەریانگرتووە**<br><sub>weryangirtûwe</sub><br><sub>/wæɾjaːnɡ(ɯ)ɾtuːwæ/</sub> | **وەریاننەگرتووە**<br><sub>weryannegritûwe</sub><br><sub>/wæɾjaːnnæɡɾ(ɯ)tuːwæ/</sub> | **وەریانگرتبوو**<br><sub>weryangiritbû</sub><br><sub>/wæɾjaːnɡ(ɯ)ɾ(ɯ)tbuː/</sub> | **وەریاننەگرتبوو**<br><sub>weryannegritbû</sub><br><sub>/wæɾjaːnnæɡɾ(ɯ)tbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -88,12 +88,12 @@
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **وەرگرتبام**<br><sub>wergiritbam</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbaːm/</sub> | **وەرگرتبێتم**<br><sub>wergiritbêtim</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbeːt(ɯ)m/</sub> | **وەرگرتبووبام**<br><sub>wergiritbûbam</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːbaːm/</sub> |
-| 2sg | تۆ | **وەرگرتبات**<br><sub>wergiritbat</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbaːt/</sub> | **وەرگرتبێتت**<br><sub>wergiritbêtit</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbeːt(ɯ)t/</sub> | **وەرگرتبووبات**<br><sub>wergiritbûbat</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːbaːt/</sub> |
-| 3sg | ئەو | **وەرگرتبای**<br><sub>wergiritbay</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbaːj/</sub> | **وەرگرتبێتی**<br><sub>wergiritbêtî</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbeːtiː/</sub> | **وەرگرتبووبای**<br><sub>wergiritbûbay</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːbaːj/</sub> |
-| 1pl | ئێمە | **وەرگرتبامان**<br><sub>wergiritbaman</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbaːmaːn/</sub> | **وەرگرتبێتمان**<br><sub>wergiritbêtman</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbeːtmaːn/</sub> | **وەرگرتبووبامان**<br><sub>wergiritbûbaman</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːbaːmaːn/</sub> |
-| 2pl | ئێوە | **وەرگرتباتان**<br><sub>wergiritbatan</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbaːtaːn/</sub> | **وەرگرتبێتتان**<br><sub>wergiritbêttan</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbeːttaːn/</sub> | **وەرگرتبووباتان**<br><sub>wergiritbûbatan</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːbaːtaːn/</sub> |
-| 3pl | ئەوان | **وەرگرتبایان**<br><sub>wergiritbayan</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbaːjaːn/</sub> | **وەرگرتبێتیان**<br><sub>wergiritbêtyan</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbeːtjaːn/</sub> | **وەرگرتبووبایان**<br><sub>wergiritbûbayan</sub><br><sub>/wæɾɡ(ɯ)ɾ(ɯ)tbuːbaːjaːn/</sub> |
+| 1sg | من | **وەرمگرتبا**<br><sub>wermigritba</sub><br><sub>/wæɾm(ɯ)ɡɾ(ɯ)tbaː/</sub> | **وەرمگرتبێت**<br><sub>wermigritbêt</sub><br><sub>/wæɾm(ɯ)ɡɾ(ɯ)tbeːt/</sub> | **وەرمگرتبووبا**<br><sub>wermigritbûba</sub><br><sub>/wæɾm(ɯ)ɡɾ(ɯ)tbuːbaː/</sub> |
+| 2sg | تۆ | **وەرتگرتبا**<br><sub>wertigritba</sub><br><sub>/wæɾt(ɯ)ɡɾ(ɯ)tbaː/</sub> | **وەرتگرتبێت**<br><sub>wertigritbêt</sub><br><sub>/wæɾt(ɯ)ɡɾ(ɯ)tbeːt/</sub> | **وەرتگرتبووبا**<br><sub>wertigritbûba</sub><br><sub>/wæɾt(ɯ)ɡɾ(ɯ)tbuːbaː/</sub> |
+| 3sg | ئەو | **وەریگرتبا**<br><sub>werîgritba</sub><br><sub>/wæɾiːɡɾ(ɯ)tbaː/</sub> | **وەریگرتبێت**<br><sub>werîgritbêt</sub><br><sub>/wæɾiːɡɾ(ɯ)tbeːt/</sub> | **وەریگرتبووبا**<br><sub>werîgritbûba</sub><br><sub>/wæɾiːɡɾ(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **وەرمانگرتبا**<br><sub>wermangiritba</sub><br><sub>/wæɾmaːnɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **وەرمانگرتبێت**<br><sub>wermangiritbêt</sub><br><sub>/wæɾmaːnɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **وەرمانگرتبووبا**<br><sub>wermangiritbûba</sub><br><sub>/wæɾmaːnɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
+| 2pl | ئێوە | **وەرتانگرتبا**<br><sub>wertangiritba</sub><br><sub>/wæɾtaːnɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **وەرتانگرتبێت**<br><sub>wertangiritbêt</sub><br><sub>/wæɾtaːnɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **وەرتانگرتبووبا**<br><sub>wertangiritbûba</sub><br><sub>/wæɾtaːnɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
+| 3pl | ئەوان | **وەریانگرتبا**<br><sub>weryangiritba</sub><br><sub>/wæɾjaːnɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **وەریانگرتبێت**<br><sub>weryangiritbêt</sub><br><sub>/wæɾjaːnɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **وەریانگرتبووبا**<br><sub>weryangiritbûba</sub><br><sub>/wæɾjaːnɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
 
 ## Past subjunctive negative
 
@@ -101,12 +101,12 @@
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **وەرنەمگرتبا**<br><sub>wernemgiritba</sub><br><sub>/wæɾnæmɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **وەرنەمگرتبێت**<br><sub>wernemgiritbêt</sub><br><sub>/wæɾnæmɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **وەرنەمگرتبووبا**<br><sub>wernemgiritbûba</sub><br><sub>/wæɾnæmɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
-| 2sg | تۆ | **وەرنەتگرتبا**<br><sub>wernetgiritba</sub><br><sub>/wæɾnætɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **وەرنەتگرتبێت**<br><sub>wernetgiritbêt</sub><br><sub>/wæɾnætɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **وەرنەتگرتبووبا**<br><sub>wernetgiritbûba</sub><br><sub>/wæɾnætɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
-| 3sg | ئەو | **وەرنەیگرتبا**<br><sub>werneygiritba</sub><br><sub>/wæɾnæjɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **وەرنەیگرتبێت**<br><sub>werneygiritbêt</sub><br><sub>/wæɾnæjɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **وەرنەیگرتبووبا**<br><sub>werneygiritbûba</sub><br><sub>/wæɾnæjɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
-| 1pl | ئێمە | **وەرنەمانگرتبا**<br><sub>wernemangiritba</sub><br><sub>/wæɾnæmaːnɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **وەرنەمانگرتبێت**<br><sub>wernemangiritbêt</sub><br><sub>/wæɾnæmaːnɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **وەرنەمانگرتبووبا**<br><sub>wernemangiritbûba</sub><br><sub>/wæɾnæmaːnɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
-| 2pl | ئێوە | **وەرنەتانگرتبا**<br><sub>wernetangiritba</sub><br><sub>/wæɾnætaːnɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **وەرنەتانگرتبێت**<br><sub>wernetangiritbêt</sub><br><sub>/wæɾnætaːnɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **وەرنەتانگرتبووبا**<br><sub>wernetangiritbûba</sub><br><sub>/wæɾnætaːnɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
-| 3pl | ئەوان | **وەرنەیانگرتبا**<br><sub>werneyangiritba</sub><br><sub>/wæɾnæjaːnɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **وەرنەیانگرتبێت**<br><sub>werneyangiritbêt</sub><br><sub>/wæɾnæjaːnɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **وەرنەیانگرتبووبا**<br><sub>werneyangiritbûba</sub><br><sub>/wæɾnæjaːnɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
+| 1sg | من | **وەرمنەگرتبا**<br><sub>werminegritba</sub><br><sub>/wæɾm(ɯ)næɡɾ(ɯ)tbaː/</sub> | **وەرمنەگرتبێت**<br><sub>werminegritbêt</sub><br><sub>/wæɾm(ɯ)næɡɾ(ɯ)tbeːt/</sub> | **وەرمنەگرتبووبا**<br><sub>werminegritbûba</sub><br><sub>/wæɾm(ɯ)næɡɾ(ɯ)tbuːbaː/</sub> |
+| 2sg | تۆ | **وەرتنەگرتبا**<br><sub>wertinegritba</sub><br><sub>/wæɾt(ɯ)næɡɾ(ɯ)tbaː/</sub> | **وەرتنەگرتبێت**<br><sub>wertinegritbêt</sub><br><sub>/wæɾt(ɯ)næɡɾ(ɯ)tbeːt/</sub> | **وەرتنەگرتبووبا**<br><sub>wertinegritbûba</sub><br><sub>/wæɾt(ɯ)næɡɾ(ɯ)tbuːbaː/</sub> |
+| 3sg | ئەو | **وەرینەگرتبا**<br><sub>werînegritba</sub><br><sub>/wæɾiːnæɡɾ(ɯ)tbaː/</sub> | **وەرینەگرتبێت**<br><sub>werînegritbêt</sub><br><sub>/wæɾiːnæɡɾ(ɯ)tbeːt/</sub> | **وەرینەگرتبووبا**<br><sub>werînegritbûba</sub><br><sub>/wæɾiːnæɡɾ(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **وەرماننەگرتبا**<br><sub>wermannegritba</sub><br><sub>/wæɾmaːnnæɡɾ(ɯ)tbaː/</sub> | **وەرماننەگرتبێت**<br><sub>wermannegritbêt</sub><br><sub>/wæɾmaːnnæɡɾ(ɯ)tbeːt/</sub> | **وەرماننەگرتبووبا**<br><sub>wermannegritbûba</sub><br><sub>/wæɾmaːnnæɡɾ(ɯ)tbuːbaː/</sub> |
+| 2pl | ئێوە | **وەرتاننەگرتبا**<br><sub>wertannegritba</sub><br><sub>/wæɾtaːnnæɡɾ(ɯ)tbaː/</sub> | **وەرتاننەگرتبێت**<br><sub>wertannegritbêt</sub><br><sub>/wæɾtaːnnæɡɾ(ɯ)tbeːt/</sub> | **وەرتاننەگرتبووبا**<br><sub>wertannegritbûba</sub><br><sub>/wæɾtaːnnæɡɾ(ɯ)tbuːbaː/</sub> |
+| 3pl | ئەوان | **وەریاننەگرتبا**<br><sub>weryannegritba</sub><br><sub>/wæɾjaːnnæɡɾ(ɯ)tbaː/</sub> | **وەریاننەگرتبێت**<br><sub>weryannegritbêt</sub><br><sub>/wæɾjaːnnæɡɾ(ɯ)tbeːt/</sub> | **وەریاننەگرتبووبا**<br><sub>weryannegritbûba</sub><br><sub>/wæɾjaːnnæɡɾ(ɯ)tbuːbaː/</sub> |
 
 ## Passive: present and subjunctive
 

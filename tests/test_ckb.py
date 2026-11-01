@@ -269,3 +269,66 @@ def test_listed_word_keeps_its_final_e():
 @pytest.mark.parametrize("word", ["پێ", "لێ", "تێ", "پێم", "لێی", "تێیان", "بۆمان"])
 def test_bound_adpositions(word):
     assert CkbAnalyzer().best(word).pos == "ADP"
+
+
+@pytest.mark.parametrize("form, agent", [
+    ("هەڵمگرت", "1sg"), ("هەڵمنەگرت", "1sg"), ("هەڵمدەگرت", "1sg"), ("هەڵمگرتووە", "1sg"), ("هەڵمگرتبوو", "1sg"),
+    ("هەڵمگرتبا", "1sg"), ("دامانخست", "1pl"), ("داماننەخست", "1pl"), ("دامانخستووە", "1pl"), ("بەکارمهێنا", "1sg"),
+])
+def test_clitic_on_the_first_part_in_every_tense(form, agent):
+    readings = [f.features for f in verbs.default_index().lookup(form)]
+    assert any(r.get("agent") == agent and "variant" not in r for r in readings), readings
+
+
+@pytest.mark.parametrize("form", ["هەڵنەمگرت", "هەڵدەمگرت", "هەڵگرتوومە", "هەڵگرتم"])
+def test_older_clitic_positions_stay_recognised(form):
+    readings = verbs.default_index().lookup(form)
+    assert readings and all(f.features.get("variant") == "clitic_late" for f in readings if f.features.get("agent"))
+
+
+@pytest.mark.parametrize("tokens, span, lemma", [
+    ("هەڵم گرت", 2, "هەڵگرتن"), ("ڕای گەیاند", 2, "ڕاگەیاندن"), ("هەڵم نەگرت", 2, "هەڵگرتن"), ("هەڵم گرتووە", 2, "هەڵگرتن"),
+    ("بەکارم هێنا", 2, "بەکارهێنان"), ("پێک دێم", 2, "پێکهاتن"), ("لێی دا", 2, "لێدان"),
+    ("دەست پێ دەکەم", 3, "دەستپێکردن"), ("دەستم پێ کرد", 3, "دەستپێکردن"),
+])
+def test_lookup_split(tokens, span, lemma):
+    n, form = verbs.default_index().lookup_split(tokens.split())
+    assert (n, form.lemma) == (span, lemma)
+
+
+@pytest.mark.parametrize("tokens", ["نان خوارد", "ئەو دەگرم", "کتێب هات", "هەڵمان"])
+def test_lookup_split_needs_the_first_part(tokens):
+    assert verbs.default_index().lookup_split(tokens.split()) is None
+
+
+def test_preverb_spacing_classes():
+    idx = verbs.default_index().verbs
+    assert not idx["هەڵگرتن"].always_split and idx["پێکهاتن"].always_split and idx["بەکارهێنان"].always_split
+
+
+@pytest.mark.parametrize("word, lemma, features", [
+    ("دەتبینم", "بینین", {"person": "1sg", "object": "2sg"}), ("دەیبینم", "بینین", {"person": "1sg", "object": "3sg"}),
+    ("دەیبینێت", "بینین", {"person": "3sg", "object": "3sg"}), ("دەمبینیت", "بینین", {"person": "2sg", "object": "1sg"}),
+    ("نایناسم", "ناسین", {"person": "1sg", "object": "3sg"}), ("هەڵیدەگرم", "هەڵگرتن", {"person": "1sg", "object": "3sg"}),
+    ("بمگرە", "گرتن", {"object": "1sg"}), ("بیگرە", "گرتن", {"object": "3sg"}), ("بینیمیت", "بینین", {"agent": "1sg", "object": "2sg"}),
+    ("بینیتم", "بینین", {"agent": "2sg", "object": "1sg"}), ("گرتمی", "گرتن", {"agent": "3sg", "object": "1sg"}),
+    ("گرتمانی", "گرتن", {"agent": "3sg", "object": "1pl"}), ("بردینیان", "بردن", {"agent": "3pl", "object": "1pl"}),
+])
+def test_object_clitics(word, lemma, features):
+    a = CkbAnalyzer().best(word)
+    assert a.lemma == lemma and features.items() <= a.features.items()
+
+
+@pytest.mark.parametrize("word", ["دەمبینم", "بتگرە", "بیرم", "مەمک"])
+def test_no_object_reading(word):
+    assert "object" not in CkbAnalyzer().best(word).features
+
+
+def test_listed_verb_beats_a_clitic_on_a_noun_part():
+    known = {v.infinitive: v for v in verbs.load_core_verbs() if not v.preverb and not v.suffix}
+    make = lambda inf: verbs.make_verb(inf, True, None, "lexicon", known)
+    index = verbs.FormIndex([make("دیاریکردن"), make("دیارکردن")])
+    assert CkbAnalyzer(verbs=index).best("دیاریکرد").lemma == "دیاریکردن"
+    index = verbs.FormIndex([make("ڕوودان")])
+    assert CkbAnalyzer(verbs=index).best("ڕوویدا").lemma == "ڕوودان"
+

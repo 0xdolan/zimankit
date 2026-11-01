@@ -149,18 +149,18 @@ CKB_CELLS = {
     "subj": ("Subjunctive", dict(tense="present", mood="subjunctive", polarity=None, voice=None, variant=None)),
     "subj_neg": ("Subjunctive negative", dict(tense="present", mood="subjunctive", polarity="neg", voice=None)),
     "past": ("Simple past", dict(tense="past", aspect="perfective", polarity=None, voice=None, variant=None)),
-    "past_neg": ("Past negative", dict(tense="past", aspect="perfective", polarity="neg", voice=None)),
-    "past_prog": ("Past progressive", dict(tense="past", aspect="progressive", polarity=None, voice=None)),
-    "past_prog_neg": ("Past progressive negative", dict(tense="past", aspect="progressive", polarity="neg", voice=None)),
+    "past_neg": ("Past negative", dict(tense="past", aspect="perfective", polarity="neg", voice=None, variant=None)),
+    "past_prog": ("Past progressive", dict(tense="past", aspect="progressive", polarity=None, voice=None, variant=None)),
+    "past_prog_neg": ("Past progressive negative", dict(tense="past", aspect="progressive", polarity="neg", voice=None, variant=None)),
     "perfect": ("Present perfect", dict(tense="present_perfect", voice=None, polarity=None, variant=None)),
     "perfect_neg": ("Perfect negative", dict(tense="present_perfect", voice=None, polarity="neg", variant=None)),
-    "pluperfect": ("Past perfect", dict(tense="past_perfect", voice=None, polarity=None)),
-    "pluperfect_neg": ("Past perfect negative", dict(tense="past_perfect", voice=None, polarity="neg")),
-    "past_subj": ("Past subjunctive", dict(tense="past_subj", voice=None, polarity=None)),
+    "pluperfect": ("Past perfect", dict(tense="past_perfect", voice=None, polarity=None, variant=None)),
+    "pluperfect_neg": ("Past perfect negative", dict(tense="past_perfect", voice=None, polarity="neg", variant=None)),
+    "past_subj": ("Past subjunctive", dict(tense="past_subj", voice=None, polarity=None, variant=None)),
     "past_subj_neg": ("Past subjunctive negative", dict(tense="past_subj", voice=None, polarity="neg", variant=None)),
-    "perfect_subj": ("Perfect subjunctive", dict(tense="perfect_subj", voice=None, polarity=None)),
+    "perfect_subj": ("Perfect subjunctive", dict(tense="perfect_subj", voice=None, polarity=None, variant=None)),
     "perfect_subj_neg": ("Perfect subjunctive negative", dict(tense="perfect_subj", voice=None, polarity="neg", variant=None)),
-    "pluperfect_subj": ("Past perfect subjunctive", dict(tense="pluperfect_subj", voice=None, polarity=None)),
+    "pluperfect_subj": ("Past perfect subjunctive", dict(tense="pluperfect_subj", voice=None, polarity=None, variant=None)),
     "pluperfect_subj_neg": ("Past perfect subjunctive negative", dict(tense="pluperfect_subj", voice=None, polarity="neg", variant=None)),
     "passive_present": ("Passive present", dict(tense="present", mood=None, voice="passive", polarity=None)),
     "passive_present_neg": ("Passive present negative", dict(tense="present", mood=None, voice="passive", polarity="neg")),
@@ -220,12 +220,7 @@ def verb_cell(lang: Lang, v, cell: str) -> dict[str, str]:
 
 
 def _preferred(lang: Lang, v, forms: list[str]) -> str:
-    """Several surface forms can fill one cell (the index accepts all of them).  Teach the standard one:
-    for a Sorani preverb verb the agent clitic follows the preverb (هەڵمگرت rather than هەڵگرتم)."""
-    if lang.code == "ckb" and v.preverb and not v.light and len(forms) > 1:
-        for f in forms:
-            if not f[len(v.preverb):].startswith(v.past):
-                return f
+    """Several surface forms can fill one cell; the cell filters leave out variants, so the first is the standard one."""
     return forms[0]
 
 

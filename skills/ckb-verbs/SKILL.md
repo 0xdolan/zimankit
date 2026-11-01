@@ -29,7 +29,8 @@ from zimankit.skills_ckb.verbs import conjugate, default_index, make_verb
 2. Set-1 endings (م یت ێت ین ن) mark the subject of present tenses and intransitive pasts.
 3. Set-2 enclitics (م ت ی مان تان یان) mark the agent of transitive pasts: کردم, نەمکرد, دەمکرد — ergative alignment.
 4. Preverbs precede دە/نا; ب follows the preverb and may be dropped: هەڵدەگرم, هەڵبگرم or هەڵگرم.
-5. Irregulars: هاتن (دێم, نایەم, وەرە), چوون (imperative بڕۆ).
+5. The agent clitic sits on the first part of a preverb or compound verb in every tense: هەڵم گرت, هەڵم نەگرت, هەڵم گرتووە. Use `FormIndex.lookup_split` for verbs written over several tokens.
+6. Irregulars: هاتن (دێم, نایەم, وەرە), چوون (imperative بڕۆ).
 
 ## Checklist
 

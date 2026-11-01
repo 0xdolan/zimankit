@@ -43,12 +43,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **بەکارمهێنا**<br><sub>bekarmihêna</sub><br><sub>/bækaːɾm(ɯ)heːnaː/</sub> | **بەکارنەمهێنا**<br><sub>bekarnemhêna</sub><br><sub>/bækaːɾnæmheːnaː/</sub> |
-| 2sg | تۆ | **بەکارتهێنا**<br><sub>bekartihêna</sub><br><sub>/bækaːɾt(ɯ)heːnaː/</sub> | **بەکارنەتهێنا**<br><sub>bekarnethêna</sub><br><sub>/bækaːɾnætheːnaː/</sub> |
-| 3sg | ئەو | **بەکاریهێنا**<br><sub>bekarîhêna</sub><br><sub>/bækaːɾiːheːnaː/</sub> | **بەکارنەیهێنا**<br><sub>bekarneyhêna</sub><br><sub>/bækaːɾnæjheːnaː/</sub> |
-| 1pl | ئێمە | **بەکارمانهێنا**<br><sub>bekarmanhêna</sub><br><sub>/bækaːɾmaːnheːnaː/</sub> | **بەکارنەمانهێنا**<br><sub>bekarnemanhêna</sub><br><sub>/bækaːɾnæmaːnheːnaː/</sub> |
-| 2pl | ئێوە | **بەکارتانهێنا**<br><sub>bekartanhêna</sub><br><sub>/bækaːɾtaːnheːnaː/</sub> | **بەکارنەتانهێنا**<br><sub>bekarnetanhêna</sub><br><sub>/bækaːɾnætaːnheːnaː/</sub> |
-| 3pl | ئەوان | **بەکاریانهێنا**<br><sub>bekaryanhêna</sub><br><sub>/bækaːɾjaːnheːnaː/</sub> | **بەکارنەیانهێنا**<br><sub>bekarneyanhêna</sub><br><sub>/bækaːɾnæjaːnheːnaː/</sub> |
+| 1sg | من | **بەکارمهێنا**<br><sub>bekarmihêna</sub><br><sub>/bækaːɾm(ɯ)heːnaː/</sub> | **بەکارمنەهێنا**<br><sub>bekarminehêna</sub><br><sub>/bækaːɾm(ɯ)næheːnaː/</sub> |
+| 2sg | تۆ | **بەکارتهێنا**<br><sub>bekartihêna</sub><br><sub>/bækaːɾt(ɯ)heːnaː/</sub> | **بەکارتنەهێنا**<br><sub>bekartinehêna</sub><br><sub>/bækaːɾt(ɯ)næheːnaː/</sub> |
+| 3sg | ئەو | **بەکاریهێنا**<br><sub>bekarîhêna</sub><br><sub>/bækaːɾiːheːnaː/</sub> | **بەکارینەهێنا**<br><sub>bekarînehêna</sub><br><sub>/bækaːɾiːnæheːnaː/</sub> |
+| 1pl | ئێمە | **بەکارمانهێنا**<br><sub>bekarmanhêna</sub><br><sub>/bækaːɾmaːnheːnaː/</sub> | **بەکارماننەهێنا**<br><sub>bekarmannehêna</sub><br><sub>/bækaːɾmaːnnæheːnaː/</sub> |
+| 2pl | ئێوە | **بەکارتانهێنا**<br><sub>bekartanhêna</sub><br><sub>/bækaːɾtaːnheːnaː/</sub> | **بەکارتاننەهێنا**<br><sub>bekartannehêna</sub><br><sub>/bækaːɾtaːnnæheːnaː/</sub> |
+| 3pl | ئەوان | **بەکاریانهێنا**<br><sub>bekaryanhêna</sub><br><sub>/bækaːɾjaːnheːnaː/</sub> | **بەکاریاننەهێنا**<br><sub>bekaryannehêna</sub><br><sub>/bækaːɾjaːnnæheːnaː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -58,12 +58,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **بەکاردەمهێنا**<br><sub>bekardemhêna</sub><br><sub>/bækaːɾdæmheːnaː/</sub> | **بەکارنەمدەهێنا**<br><sub>bekarnemdehêna</sub><br><sub>/bækaːɾnæmdæheːnaː/</sub> |
-| 2sg | تۆ | **بەکاردەتهێنا**<br><sub>bekardethêna</sub><br><sub>/bækaːɾdætheːnaː/</sub> | **بەکارنەتدەهێنا**<br><sub>bekarnetdehêna</sub><br><sub>/bækaːɾnætdæheːnaː/</sub> |
-| 3sg | ئەو | **بەکاردەیهێنا**<br><sub>bekardeyhêna</sub><br><sub>/bækaːɾdæjheːnaː/</sub> | **بەکارنەیدەهێنا**<br><sub>bekarneydehêna</sub><br><sub>/bækaːɾnæjdæheːnaː/</sub> |
-| 1pl | ئێمە | **بەکاردەمانهێنا**<br><sub>bekardemanhêna</sub><br><sub>/bækaːɾdæmaːnheːnaː/</sub> | **بەکارنەماندەهێنا**<br><sub>bekarnemandehêna</sub><br><sub>/bækaːɾnæmaːndæheːnaː/</sub> |
-| 2pl | ئێوە | **بەکاردەتانهێنا**<br><sub>bekardetanhêna</sub><br><sub>/bækaːɾdætaːnheːnaː/</sub> | **بەکارنەتاندەهێنا**<br><sub>bekarnetandehêna</sub><br><sub>/bækaːɾnætaːndæheːnaː/</sub> |
-| 3pl | ئەوان | **بەکاردەیانهێنا**<br><sub>bekardeyanhêna</sub><br><sub>/bækaːɾdæjaːnheːnaː/</sub> | **بەکارنەیاندەهێنا**<br><sub>bekarneyandehêna</sub><br><sub>/bækaːɾnæjaːndæheːnaː/</sub> |
+| 1sg | من | **بەکارمدەهێنا**<br><sub>bekarmidehêna</sub><br><sub>/bækaːɾm(ɯ)dæheːnaː/</sub> | **بەکارمنەدەهێنا**<br><sub>bekarminedehêna</sub><br><sub>/bækaːɾm(ɯ)nædæheːnaː/</sub> |
+| 2sg | تۆ | **بەکارتدەهێنا**<br><sub>bekartidehêna</sub><br><sub>/bækaːɾt(ɯ)dæheːnaː/</sub> | **بەکارتنەدەهێنا**<br><sub>bekartinedehêna</sub><br><sub>/bækaːɾt(ɯ)nædæheːnaː/</sub> |
+| 3sg | ئەو | **بەکاریدەهێنا**<br><sub>bekarîdehêna</sub><br><sub>/bækaːɾiːdæheːnaː/</sub> | **بەکارینەدەهێنا**<br><sub>bekarînedehêna</sub><br><sub>/bækaːɾiːnædæheːnaː/</sub> |
+| 1pl | ئێمە | **بەکارماندەهێنا**<br><sub>bekarmandehêna</sub><br><sub>/bækaːɾmaːndæheːnaː/</sub> | **بەکارماننەدەهێنا**<br><sub>bekarmannedehêna</sub><br><sub>/bækaːɾmaːnnædæheːnaː/</sub> |
+| 2pl | ئێوە | **بەکارتاندەهێنا**<br><sub>bekartandehêna</sub><br><sub>/bækaːɾtaːndæheːnaː/</sub> | **بەکارتاننەدەهێنا**<br><sub>bekartannedehêna</sub><br><sub>/bækaːɾtaːnnædæheːnaː/</sub> |
+| 3pl | ئەوان | **بەکاریاندەهێنا**<br><sub>bekaryandehêna</sub><br><sub>/bækaːɾjaːndæheːnaː/</sub> | **بەکاریاننەدەهێنا**<br><sub>bekaryannedehêna</sub><br><sub>/bækaːɾjaːnnædæheːnaː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -73,12 +73,12 @@
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **بەکارهێناومە**<br><sub>bekarhênawme</sub><br><sub>/bækaːɾheːnaːwmæ/</sub> | **بەکارنەمهێناوە**<br><sub>bekarnemhênawe</sub><br><sub>/bækaːɾnæmheːnaːwæ/</sub> | **بەکارهێنابووم**<br><sub>bekarhênabûm</sub><br><sub>/bækaːɾheːnaːbuːm/</sub> | **بەکارنەمهێنابوو**<br><sub>bekarnemhênabû</sub><br><sub>/bækaːɾnæmheːnaːbuː/</sub> |
-| 2sg | تۆ | **بەکارهێناوتە**<br><sub>bekarhênawte</sub><br><sub>/bækaːɾheːnaːwtæ/</sub> | **بەکارنەتهێناوە**<br><sub>bekarnethênawe</sub><br><sub>/bækaːɾnætheːnaːwæ/</sub> | **بەکارهێنابووت**<br><sub>bekarhênabût</sub><br><sub>/bækaːɾheːnaːbuːt/</sub> | **بەکارنەتهێنابوو**<br><sub>bekarnethênabû</sub><br><sub>/bækaːɾnætheːnaːbuː/</sub> |
-| 3sg | ئەو | **بەکارهێناویەتی**<br><sub>bekarhênawyetî</sub><br><sub>/bækaːɾheːnaːwjætiː/</sub> | **بەکارنەیهێناوە**<br><sub>bekarneyhênawe</sub><br><sub>/bækaːɾnæjheːnaːwæ/</sub> | **بەکارهێنابووی**<br><sub>bekarhênabûy</sub><br><sub>/bækaːɾheːnaːbuːj/</sub> | **بەکارنەیهێنابوو**<br><sub>bekarneyhênabû</sub><br><sub>/bækaːɾnæjheːnaːbuː/</sub> |
-| 1pl | ئێمە | **بەکارهێناومانە**<br><sub>bekarhênawmane</sub><br><sub>/bækaːɾheːnaːwmaːnæ/</sub> | **بەکارنەمانهێناوە**<br><sub>bekarnemanhênawe</sub><br><sub>/bækaːɾnæmaːnheːnaːwæ/</sub> | **بەکارهێنابوومان**<br><sub>bekarhênabûman</sub><br><sub>/bækaːɾheːnaːbuːmaːn/</sub> | **بەکارنەمانهێنابوو**<br><sub>bekarnemanhênabû</sub><br><sub>/bækaːɾnæmaːnheːnaːbuː/</sub> |
-| 2pl | ئێوە | **بەکارهێناوتانە**<br><sub>bekarhênawtane</sub><br><sub>/bækaːɾheːnaːwtaːnæ/</sub> | **بەکارنەتانهێناوە**<br><sub>bekarnetanhênawe</sub><br><sub>/bækaːɾnætaːnheːnaːwæ/</sub> | **بەکارهێنابووتان**<br><sub>bekarhênabûtan</sub><br><sub>/bækaːɾheːnaːbuːtaːn/</sub> | **بەکارنەتانهێنابوو**<br><sub>bekarnetanhênabû</sub><br><sub>/bækaːɾnætaːnheːnaːbuː/</sub> |
-| 3pl | ئەوان | **بەکارهێناویانە**<br><sub>bekarhênawyane</sub><br><sub>/bækaːɾheːnaːwjaːnæ/</sub> | **بەکارنەیانهێناوە**<br><sub>bekarneyanhênawe</sub><br><sub>/bækaːɾnæjaːnheːnaːwæ/</sub> | **بەکارهێنابوویان**<br><sub>bekarhênabûyan</sub><br><sub>/bækaːɾheːnaːbuːjaːn/</sub> | **بەکارنەیانهێنابوو**<br><sub>bekarneyanhênabû</sub><br><sub>/bækaːɾnæjaːnheːnaːbuː/</sub> |
+| 1sg | من | **بەکارمهێناوە**<br><sub>bekarmihênawe</sub><br><sub>/bækaːɾm(ɯ)heːnaːwæ/</sub> | **بەکارمنەهێناوە**<br><sub>bekarminehênawe</sub><br><sub>/bækaːɾm(ɯ)næheːnaːwæ/</sub> | **بەکارمهێنابوو**<br><sub>bekarmihênabû</sub><br><sub>/bækaːɾm(ɯ)heːnaːbuː/</sub> | **بەکارمنەهێنابوو**<br><sub>bekarminehênabû</sub><br><sub>/bækaːɾm(ɯ)næheːnaːbuː/</sub> |
+| 2sg | تۆ | **بەکارتهێناوە**<br><sub>bekartihênawe</sub><br><sub>/bækaːɾt(ɯ)heːnaːwæ/</sub> | **بەکارتنەهێناوە**<br><sub>bekartinehênawe</sub><br><sub>/bækaːɾt(ɯ)næheːnaːwæ/</sub> | **بەکارتهێنابوو**<br><sub>bekartihênabû</sub><br><sub>/bækaːɾt(ɯ)heːnaːbuː/</sub> | **بەکارتنەهێنابوو**<br><sub>bekartinehênabû</sub><br><sub>/bækaːɾt(ɯ)næheːnaːbuː/</sub> |
+| 3sg | ئەو | **بەکاریهێناوە**<br><sub>bekarîhênawe</sub><br><sub>/bækaːɾiːheːnaːwæ/</sub> | **بەکارینەهێناوە**<br><sub>bekarînehênawe</sub><br><sub>/bækaːɾiːnæheːnaːwæ/</sub> | **بەکاریهێنابوو**<br><sub>bekarîhênabû</sub><br><sub>/bækaːɾiːheːnaːbuː/</sub> | **بەکارینەهێنابوو**<br><sub>bekarînehênabû</sub><br><sub>/bækaːɾiːnæheːnaːbuː/</sub> |
+| 1pl | ئێمە | **بەکارمانهێناوە**<br><sub>bekarmanhênawe</sub><br><sub>/bækaːɾmaːnheːnaːwæ/</sub> | **بەکارماننەهێناوە**<br><sub>bekarmannehênawe</sub><br><sub>/bækaːɾmaːnnæheːnaːwæ/</sub> | **بەکارمانهێنابوو**<br><sub>bekarmanhênabû</sub><br><sub>/bækaːɾmaːnheːnaːbuː/</sub> | **بەکارماننەهێنابوو**<br><sub>bekarmannehênabû</sub><br><sub>/bækaːɾmaːnnæheːnaːbuː/</sub> |
+| 2pl | ئێوە | **بەکارتانهێناوە**<br><sub>bekartanhênawe</sub><br><sub>/bækaːɾtaːnheːnaːwæ/</sub> | **بەکارتاننەهێناوە**<br><sub>bekartannehênawe</sub><br><sub>/bækaːɾtaːnnæheːnaːwæ/</sub> | **بەکارتانهێنابوو**<br><sub>bekartanhênabû</sub><br><sub>/bækaːɾtaːnheːnaːbuː/</sub> | **بەکارتاننەهێنابوو**<br><sub>bekartannehênabû</sub><br><sub>/bækaːɾtaːnnæheːnaːbuː/</sub> |
+| 3pl | ئەوان | **بەکاریانهێناوە**<br><sub>bekaryanhênawe</sub><br><sub>/bækaːɾjaːnheːnaːwæ/</sub> | **بەکاریاننەهێناوە**<br><sub>bekaryannehênawe</sub><br><sub>/bækaːɾjaːnnæheːnaːwæ/</sub> | **بەکاریانهێنابوو**<br><sub>bekaryanhênabû</sub><br><sub>/bækaːɾjaːnheːnaːbuː/</sub> | **بەکاریاننەهێنابوو**<br><sub>bekaryannehênabû</sub><br><sub>/bækaːɾjaːnnæheːnaːbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -88,12 +88,12 @@
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **بەکارهێنابام**<br><sub>bekarhênabam</sub><br><sub>/bækaːɾheːnaːbaːm/</sub> | **بەکارهێنابێتم**<br><sub>bekarhênabêtim</sub><br><sub>/bækaːɾheːnaːbeːt(ɯ)m/</sub> | **بەکارهێنابووبام**<br><sub>bekarhênabûbam</sub><br><sub>/bækaːɾheːnaːbuːbaːm/</sub> |
-| 2sg | تۆ | **بەکارهێنابات**<br><sub>bekarhênabat</sub><br><sub>/bækaːɾheːnaːbaːt/</sub> | **بەکارهێنابێتت**<br><sub>bekarhênabêtit</sub><br><sub>/bækaːɾheːnaːbeːt(ɯ)t/</sub> | **بەکارهێنابووبات**<br><sub>bekarhênabûbat</sub><br><sub>/bækaːɾheːnaːbuːbaːt/</sub> |
-| 3sg | ئەو | **بەکارهێنابای**<br><sub>bekarhênabay</sub><br><sub>/bækaːɾheːnaːbaːj/</sub> | **بەکارهێنابێتی**<br><sub>bekarhênabêtî</sub><br><sub>/bækaːɾheːnaːbeːtiː/</sub> | **بەکارهێنابووبای**<br><sub>bekarhênabûbay</sub><br><sub>/bækaːɾheːnaːbuːbaːj/</sub> |
-| 1pl | ئێمە | **بەکارهێنابامان**<br><sub>bekarhênabaman</sub><br><sub>/bækaːɾheːnaːbaːmaːn/</sub> | **بەکارهێنابێتمان**<br><sub>bekarhênabêtman</sub><br><sub>/bækaːɾheːnaːbeːtmaːn/</sub> | **بەکارهێنابووبامان**<br><sub>bekarhênabûbaman</sub><br><sub>/bækaːɾheːnaːbuːbaːmaːn/</sub> |
-| 2pl | ئێوە | **بەکارهێناباتان**<br><sub>bekarhênabatan</sub><br><sub>/bækaːɾheːnaːbaːtaːn/</sub> | **بەکارهێنابێتتان**<br><sub>bekarhênabêttan</sub><br><sub>/bækaːɾheːnaːbeːttaːn/</sub> | **بەکارهێنابووباتان**<br><sub>bekarhênabûbatan</sub><br><sub>/bækaːɾheːnaːbuːbaːtaːn/</sub> |
-| 3pl | ئەوان | **بەکارهێنابایان**<br><sub>bekarhênabayan</sub><br><sub>/bækaːɾheːnaːbaːjaːn/</sub> | **بەکارهێنابێتیان**<br><sub>bekarhênabêtyan</sub><br><sub>/bækaːɾheːnaːbeːtjaːn/</sub> | **بەکارهێنابووبایان**<br><sub>bekarhênabûbayan</sub><br><sub>/bækaːɾheːnaːbuːbaːjaːn/</sub> |
+| 1sg | من | **بەکارمهێنابا**<br><sub>bekarmihênaba</sub><br><sub>/bækaːɾm(ɯ)heːnaːbaː/</sub> | **بەکارمهێنابێت**<br><sub>bekarmihênabêt</sub><br><sub>/bækaːɾm(ɯ)heːnaːbeːt/</sub> | **بەکارمهێنابووبا**<br><sub>bekarmihênabûba</sub><br><sub>/bækaːɾm(ɯ)heːnaːbuːbaː/</sub> |
+| 2sg | تۆ | **بەکارتهێنابا**<br><sub>bekartihênaba</sub><br><sub>/bækaːɾt(ɯ)heːnaːbaː/</sub> | **بەکارتهێنابێت**<br><sub>bekartihênabêt</sub><br><sub>/bækaːɾt(ɯ)heːnaːbeːt/</sub> | **بەکارتهێنابووبا**<br><sub>bekartihênabûba</sub><br><sub>/bækaːɾt(ɯ)heːnaːbuːbaː/</sub> |
+| 3sg | ئەو | **بەکاریهێنابا**<br><sub>bekarîhênaba</sub><br><sub>/bækaːɾiːheːnaːbaː/</sub> | **بەکاریهێنابێت**<br><sub>bekarîhênabêt</sub><br><sub>/bækaːɾiːheːnaːbeːt/</sub> | **بەکاریهێنابووبا**<br><sub>bekarîhênabûba</sub><br><sub>/bækaːɾiːheːnaːbuːbaː/</sub> |
+| 1pl | ئێمە | **بەکارمانهێنابا**<br><sub>bekarmanhênaba</sub><br><sub>/bækaːɾmaːnheːnaːbaː/</sub> | **بەکارمانهێنابێت**<br><sub>bekarmanhênabêt</sub><br><sub>/bækaːɾmaːnheːnaːbeːt/</sub> | **بەکارمانهێنابووبا**<br><sub>bekarmanhênabûba</sub><br><sub>/bækaːɾmaːnheːnaːbuːbaː/</sub> |
+| 2pl | ئێوە | **بەکارتانهێنابا**<br><sub>bekartanhênaba</sub><br><sub>/bækaːɾtaːnheːnaːbaː/</sub> | **بەکارتانهێنابێت**<br><sub>bekartanhênabêt</sub><br><sub>/bækaːɾtaːnheːnaːbeːt/</sub> | **بەکارتانهێنابووبا**<br><sub>bekartanhênabûba</sub><br><sub>/bækaːɾtaːnheːnaːbuːbaː/</sub> |
+| 3pl | ئەوان | **بەکاریانهێنابا**<br><sub>bekaryanhênaba</sub><br><sub>/bækaːɾjaːnheːnaːbaː/</sub> | **بەکاریانهێنابێت**<br><sub>bekaryanhênabêt</sub><br><sub>/bækaːɾjaːnheːnaːbeːt/</sub> | **بەکاریانهێنابووبا**<br><sub>bekaryanhênabûba</sub><br><sub>/bækaːɾjaːnheːnaːbuːbaː/</sub> |
 
 ## Past subjunctive negative
 
@@ -101,12 +101,12 @@
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **بەکارنەمهێنابا**<br><sub>bekarnemhênaba</sub><br><sub>/bækaːɾnæmheːnaːbaː/</sub> | **بەکارنەمهێنابێت**<br><sub>bekarnemhênabêt</sub><br><sub>/bækaːɾnæmheːnaːbeːt/</sub> | **بەکارنەمهێنابووبا**<br><sub>bekarnemhênabûba</sub><br><sub>/bækaːɾnæmheːnaːbuːbaː/</sub> |
-| 2sg | تۆ | **بەکارنەتهێنابا**<br><sub>bekarnethênaba</sub><br><sub>/bækaːɾnætheːnaːbaː/</sub> | **بەکارنەتهێنابێت**<br><sub>bekarnethênabêt</sub><br><sub>/bækaːɾnætheːnaːbeːt/</sub> | **بەکارنەتهێنابووبا**<br><sub>bekarnethênabûba</sub><br><sub>/bækaːɾnætheːnaːbuːbaː/</sub> |
-| 3sg | ئەو | **بەکارنەیهێنابا**<br><sub>bekarneyhênaba</sub><br><sub>/bækaːɾnæjheːnaːbaː/</sub> | **بەکارنەیهێنابێت**<br><sub>bekarneyhênabêt</sub><br><sub>/bækaːɾnæjheːnaːbeːt/</sub> | **بەکارنەیهێنابووبا**<br><sub>bekarneyhênabûba</sub><br><sub>/bækaːɾnæjheːnaːbuːbaː/</sub> |
-| 1pl | ئێمە | **بەکارنەمانهێنابا**<br><sub>bekarnemanhênaba</sub><br><sub>/bækaːɾnæmaːnheːnaːbaː/</sub> | **بەکارنەمانهێنابێت**<br><sub>bekarnemanhênabêt</sub><br><sub>/bækaːɾnæmaːnheːnaːbeːt/</sub> | **بەکارنەمانهێنابووبا**<br><sub>bekarnemanhênabûba</sub><br><sub>/bækaːɾnæmaːnheːnaːbuːbaː/</sub> |
-| 2pl | ئێوە | **بەکارنەتانهێنابا**<br><sub>bekarnetanhênaba</sub><br><sub>/bækaːɾnætaːnheːnaːbaː/</sub> | **بەکارنەتانهێنابێت**<br><sub>bekarnetanhênabêt</sub><br><sub>/bækaːɾnætaːnheːnaːbeːt/</sub> | **بەکارنەتانهێنابووبا**<br><sub>bekarnetanhênabûba</sub><br><sub>/bækaːɾnætaːnheːnaːbuːbaː/</sub> |
-| 3pl | ئەوان | **بەکارنەیانهێنابا**<br><sub>bekarneyanhênaba</sub><br><sub>/bækaːɾnæjaːnheːnaːbaː/</sub> | **بەکارنەیانهێنابێت**<br><sub>bekarneyanhênabêt</sub><br><sub>/bækaːɾnæjaːnheːnaːbeːt/</sub> | **بەکارنەیانهێنابووبا**<br><sub>bekarneyanhênabûba</sub><br><sub>/bækaːɾnæjaːnheːnaːbuːbaː/</sub> |
+| 1sg | من | **بەکارمنەهێنابا**<br><sub>bekarminehênaba</sub><br><sub>/bækaːɾm(ɯ)næheːnaːbaː/</sub> | **بەکارمنەهێنابێت**<br><sub>bekarminehênabêt</sub><br><sub>/bækaːɾm(ɯ)næheːnaːbeːt/</sub> | **بەکارمنەهێنابووبا**<br><sub>bekarminehênabûba</sub><br><sub>/bækaːɾm(ɯ)næheːnaːbuːbaː/</sub> |
+| 2sg | تۆ | **بەکارتنەهێنابا**<br><sub>bekartinehênaba</sub><br><sub>/bækaːɾt(ɯ)næheːnaːbaː/</sub> | **بەکارتنەهێنابێت**<br><sub>bekartinehênabêt</sub><br><sub>/bækaːɾt(ɯ)næheːnaːbeːt/</sub> | **بەکارتنەهێنابووبا**<br><sub>bekartinehênabûba</sub><br><sub>/bækaːɾt(ɯ)næheːnaːbuːbaː/</sub> |
+| 3sg | ئەو | **بەکارینەهێنابا**<br><sub>bekarînehênaba</sub><br><sub>/bækaːɾiːnæheːnaːbaː/</sub> | **بەکارینەهێنابێت**<br><sub>bekarînehênabêt</sub><br><sub>/bækaːɾiːnæheːnaːbeːt/</sub> | **بەکارینەهێنابووبا**<br><sub>bekarînehênabûba</sub><br><sub>/bækaːɾiːnæheːnaːbuːbaː/</sub> |
+| 1pl | ئێمە | **بەکارماننەهێنابا**<br><sub>bekarmannehênaba</sub><br><sub>/bækaːɾmaːnnæheːnaːbaː/</sub> | **بەکارماننەهێنابێت**<br><sub>bekarmannehênabêt</sub><br><sub>/bækaːɾmaːnnæheːnaːbeːt/</sub> | **بەکارماننەهێنابووبا**<br><sub>bekarmannehênabûba</sub><br><sub>/bækaːɾmaːnnæheːnaːbuːbaː/</sub> |
+| 2pl | ئێوە | **بەکارتاننەهێنابا**<br><sub>bekartannehênaba</sub><br><sub>/bækaːɾtaːnnæheːnaːbaː/</sub> | **بەکارتاننەهێنابێت**<br><sub>bekartannehênabêt</sub><br><sub>/bækaːɾtaːnnæheːnaːbeːt/</sub> | **بەکارتاننەهێنابووبا**<br><sub>bekartannehênabûba</sub><br><sub>/bækaːɾtaːnnæheːnaːbuːbaː/</sub> |
+| 3pl | ئەوان | **بەکاریاننەهێنابا**<br><sub>bekaryannehênaba</sub><br><sub>/bækaːɾjaːnnæheːnaːbaː/</sub> | **بەکاریاننەهێنابێت**<br><sub>bekaryannehênabêt</sub><br><sub>/bækaːɾjaːnnæheːnaːbeːt/</sub> | **بەکاریاننەهێنابووبا**<br><sub>bekaryannehênabûba</sub><br><sub>/bækaːɾjaːnnæheːnaːbuːbaː/</sub> |
 
 ## Passive: present and subjunctive
 

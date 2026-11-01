@@ -99,7 +99,7 @@ For Kurmanji, the agreement check is the same as `zimankit ergativity`. A plural
 - **Free word order.** The Sorani rule relies on order, so an object placed before the subject is read wrongly unless other marks decide it.
 - **Dropped subjects.** Kurdish often leaves out the subject. The verb ending and the Sorani person clitics show it, but no word is added to the structure.
 
-- **Sorani gaps.** Split preverbs (ڕای گەیاند) and object clitics on the verb (دەیبینم, بۆمی نووسی) are not analysed correctly yet, and the noun of a compound verb (دەستم لێ دا) is labelled `obj`. A definite adjective phrase is recognised only without a transitive verb (پیاوە باشەکە هات), because before one it could be a subject and an object (قوتابخانە کتێبەکەی نارد). There is no Sorani agreement check. See [chapter 23](23-ckb-written-standard.md#not-implemented-yet).
+- **Sorani gaps.** The parser knows the core verbs only, so a compound verb outside that list (تێک دەچم) is read word by word, and the noun of `دەستم لێ دا` is labelled `obj`. A definite adjective phrase is recognised only without a transitive verb (پیاوە باشەکە هات), because before one it could be a subject and an object (قوتابخانە کتێبەکەی نارد). There is no Sorani agreement check. See [chapter 23](23-ckb-written-standard.md#not-implemented-yet).
 
 If a simple sentence gets a wrong structure, please [open an issue](https://github.com/0xdolan/zimankit/issues) with the sentence.
 

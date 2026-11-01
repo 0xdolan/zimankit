@@ -46,6 +46,7 @@ RELATIONS = {
     "mark": ("subordinator", "a word that introduces a subordinate clause"),
     "cop": ("copula", "the verb “to be” linking the subject to the predicate"),
     "punct": ("punctuation", "punctuation, attached to the root"),
+    "compound:prt": ("verb part", "the first part of a verb written as separate words, such as a preverb"),
     "dep": ("other", "a word whose relation the rules could not classify; attached to the verb"),
 }
 KURDISH_TERMS = {  # standard grammar terms: (Kurmanji, Sorani)
@@ -159,6 +160,29 @@ def _definite_ezafe(words: list[Word], i: int) -> bool:
     return linked and (verb is None or verb.features.get("transitivity") != "transitive" or verb.features.get("voice") == "passive")
 
 
+def _join_split_verbs(words: list[Word], an) -> None:
+    """هەڵم گرت, ڕای گەیاند, دەست پێ دەکەم: mark the first parts, and give the last word the whole verb's reading."""
+    i = 0
+    while i < len(words) - 1:
+        window: list[str] = []
+        for w in words[i : i + 3]:
+            if w.upos == "PUNCT":
+                break  # never across punctuation
+            window.append(w.text)
+        found = an.verbs.lookup_split(window)
+        if found is None:
+            i += 1
+            continue
+        n, form = found
+        for w in words[i : i + n - 1]:
+            w.upos, w.features = "PART", {"verb_part": "yes"}
+        last = words[i + n - 1]
+        last.lemma, last.upos = form.lemma, "VERB"
+        last.features = {k: str(x) for k, x in form.features.items() if k != "pos"}
+        last.features["transitivity"] = "transitive" if an.verbs.verbs[form.lemma].transitive else "intransitive"
+        i += n
+
+
 def _sorani_clitics(words: list[Word], an) -> None:
     """Sorani endings the word analyser leaves whole: the goal -ە on verbs, ئەم/ئەو … -ە, the copula -ە."""
     for i, w in enumerate(words):
@@ -226,6 +250,7 @@ def parse(sentence: str, lang: str | None = None) -> Parse:
             a = Analysis(t.text, t.text, "NUM")
         words.append(Word(i + 1, t.text, a.lemma, a.pos, a.segmentation, a.gloss, dict(a.features)))
     if lang == "ckb":
+        _join_split_verbs(words, an)
         _sorani_clitics(words, an)
     p = Parse(sentence, lang, words)
     if not words:
@@ -335,7 +360,9 @@ def _attach(p: Parse) -> None:
     for i, w in enumerate(ws):
         if w.id in attached:
             continue
-        if w.upos == "PUNCT":
+        if w.features.get("verb_part"):
+            link(w, next(x for x in ws[i + 1 :] if x.upos == "VERB"), "compound:prt")
+        elif w.upos == "PUNCT":
             link(w, root, "punct")
         elif w.upos == "ADP" and w.features.get("adptype") == "prep":
             noun = next_nominal(i + 1)

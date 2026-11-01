@@ -29,7 +29,11 @@ from typing import Iterable, Iterator
 
 PERSONS = ("1sg", "2sg", "3sg", "1pl", "2pl", "3pl")
 SET2 = {"1sg": "م", "2sg": "ت", "3sg": "ی", "1pl": "مان", "2pl": "تان", "3pl": "یان"}
-PREVERBS = ("هەڵ", "وەر", "دەر", "دا", "ڕا", "تێ", "پێ", "لێ")
+# longest first; simple and complex (ناسادە) preverbs
+PREVERBS = ("پێدا", "تێدا", "پێڕا", "تێڕا", "لێڕا", "تێوە", "پێوە", "لێوە", "پێک", "تێک", "ڕێک", "وێک", "لێک",
+            "هەڵ", "وەر", "دەر", "دا", "ڕا", "ڕۆ", "ڕێ", "تێ", "پێ", "لێ")
+# written apart in every tense (تێک دەچم, پێ دەکەنێت); the others only around a clitic (هەڵدەگرم, هەڵم گرت)
+SPLIT_PREVERBS = frozenset({"پێ", "تێ", "لێ", "پێک", "تێک", "ڕێک"})
 VOWEL_END = "اەۆێیو"
 PERFECT_LONG = {"1sg": "مە", "2sg": "یتە", "3sg": "ە", "1pl": "ینە", "2pl": "نە", "3pl": "نە"}
 PERFECT_SHORT = {"1sg": "م", "2sg": "یت", "3sg": "ە", "1pl": "ین", "2pl": "ن", "3pl": "ن"}
@@ -67,6 +71,11 @@ class Verb:
     suffix: str = ""  # "ەوە" for verbs like کردنەوە
     source: str = "core"
     light: bool = False  # noun/adjective + light verb (بەکارهێنان): keeps subjunctive ب
+
+    @property
+    def always_split(self) -> bool:
+        """Is the first part written apart even with no clitic?  Noun + light verb and some preverbs are."""
+        return bool(self.preverb) and (self.light or self.preverb in SPLIT_PREVERBS)
 
     @property
     def base_infinitive(self) -> str:
@@ -250,6 +259,10 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
             surface += "ی"
         yield VerbForm(_with_suffix(pre + surface, suf), lemma, {"pos": "VERB", **feat})
 
+    # the clitic belongs directly on the first part in every tense (RW, the grade 12 handout):
+    # هەڵم+نەگرت, هەڵم+دەگرت, هەڵم+گرتووە.  The older solid shapes stay recognised as a variant.
+    late = {"variant": "clitic_late"} if pre else {}
+
     def no_b(surface: str, **feat):
         """ب follows a preverb (هەڵبگرم) and may be dropped (هەڵگرم): the bare form is a variant."""
         if pre and not v.light:
@@ -273,24 +286,24 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
             yield from emit(irregular.get(("subjunctive_neg", p), "نە" + _set1_present(pres, p)), tense="present", mood="subjunctive", person=p, polarity="neg")
         if v.transitive:
             cl = SET2[p]
-            yield from emit(past + cl, tense="past", aspect="perfective", agent=p, alignment="ergative")
-            yield from emit("نە" + cl + past, tense="past", aspect="perfective", agent=p, polarity="neg", alignment="ergative")
-            yield from emit("دە" + cl + past, tense="past", aspect="progressive", agent=p, alignment="ergative")
-            yield from emit("نە" + cl + "دە" + past, tense="past", aspect="progressive", agent=p, polarity="neg", alignment="ergative")
+            yield from emit(past + cl, tense="past", aspect="perfective", agent=p, alignment="ergative", **late)
+            yield from emit("نە" + cl + past, tense="past", aspect="perfective", agent=p, polarity="neg", alignment="ergative", **late)
+            yield from emit("دە" + cl + past, tense="past", aspect="progressive", agent=p, alignment="ergative", **late)
+            yield from emit("نە" + cl + "دە" + past, tense="past", aspect="progressive", agent=p, polarity="neg", alignment="ergative", **late)
             perf_base = _perfect_base(past)
             perf_cl = {"1sg": "مە", "2sg": "تە", "3sg": "یەتی", "1pl": "مانە", "2pl": "تانە", "3pl": "یانە"}[p]
             if suf and p == "3sg":
                 perf_cl = "یە"  # کردوویەتەوە
-            yield from emit(perf_base + perf_cl, tense="present_perfect", agent=p, alignment="ergative")
+            yield from emit(perf_base + perf_cl, tense="present_perfect", agent=p, alignment="ergative", **late)
             if p == "3sg" and not suf:
                 yield from emit(perf_base + "یە", tense="present_perfect", agent=p, alignment="ergative", variant="short")  # هێناویە
-            yield from emit("نە" + cl + perf_base + "ە", tense="present_perfect", agent=p, polarity="neg", alignment="ergative")
-            yield from emit(past + "بوو" + cl, tense="past_perfect", agent=p, alignment="ergative")
-            yield from emit("نە" + cl + past + "بوو", tense="past_perfect", agent=p, polarity="neg", alignment="ergative")
+            yield from emit("نە" + cl + perf_base + "ە", tense="present_perfect", agent=p, polarity="neg", alignment="ergative", **late)
+            yield from emit(past + "بوو" + cl, tense="past_perfect", agent=p, alignment="ergative", **late)
+            yield from emit("نە" + cl + past + "بوو", tense="past_perfect", agent=p, polarity="neg", alignment="ergative", **late)
             for mark, tense in past_subjunctives:
                 subj = {"tense": tense, "mood": "subjunctive", "agent": p, "alignment": "ergative"}
-                yield from emit(past + mark + cl, **subj)
-                yield from emit("نە" + cl + past + mark, polarity="neg", **subj)
+                yield from emit(past + mark + cl, **subj, **late)
+                yield from emit("نە" + cl + past + mark, polarity="neg", **subj, **late)
                 yield from emit("نە" + past + mark + cl, polarity="neg", variant="clitic_end", **subj)
             ps = _passive_stem(v)
             if not clitic_present and lemma not in NO_PASSIVE and len(ps) >= 2:  # a lone ر is a guessed stem
@@ -350,10 +363,16 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
             yield from emit(past + mark, tense=tense, mood="subjunctive", **ext)
             yield from emit("نە" + past + mark, tense=tense, mood="subjunctive", polarity="neg", **ext)
         if pre:
-            # with a preverb the clitic sits right after it: ڕا+ی+گەیاند, هەڵ+م+گرت
             for p in PERSONS:
-                yield VerbForm(_with_suffix(pre + SET2[p] + past, suf), lemma,
-                               {"pos": "VERB", "tense": "past", "aspect": "perfective", "agent": p, "alignment": "ergative"})
+                agent = {"agent": p, "alignment": "ergative"}
+                for neg, polarity in (("", {}), ("نە", {"polarity": "neg"})):
+                    first = SET2[p] + neg
+                    yield from emit(first + past, tense="past", aspect="perfective", **agent, **polarity)
+                    yield from emit(first + "دە" + past, tense="past", aspect="progressive", **agent, **polarity)
+                    yield from emit(first + _perfect_base(past) + "ە", tense="present_perfect", **agent, **polarity)
+                    yield from emit(first + past + "بوو", tense="past_perfect", **agent, **polarity)
+                    for mark, tense in past_subjunctives:
+                        yield from emit(first + past + mark, tense=tense, mood="subjunctive", **agent, **polarity)
     # imperative / prohibitive
     imp_sg = pres if _vowel_final(pres) else pres + "ە"
     if not clitic_present:
@@ -406,6 +425,26 @@ class FormIndex:
 
     def lookup(self, form: str) -> list[VerbForm]:
         return self._index.get(form, [])
+
+    def lookup_split(self, tokens: list[str]) -> tuple[int, VerbForm] | None:
+        """A verb written over several tokens: ``هەڵم گرت``, ``ڕای گەیاند``, ``دەست پێ دەکەم``, ``دەستم پێ کرد``.
+
+        Returns how many tokens it spans and its reading.  The tokens before the last must be exactly
+        the verb's first part, with or without a clitic, so an ordinary pair of words does not join.
+        """
+        for n in (3, 2):
+            if len(tokens) < n:
+                continue
+            *head, last = tokens[:n]
+            keys = [("".join(head), "")]  # دەستم پێ کرد: the clitic is on the noun, the key has it after پێ
+            if n == 3:
+                keys += [(head[0][: -len(c)] + head[1], c) for c in SET2.values() if head[0].endswith(c)]
+            for first, clitic in keys:
+                for f in self.lookup(first + clitic + last):
+                    pre = self.verbs[f.lemma].preverb
+                    if pre and not f.features.get("variant") and first in (pre, *(pre + c for c in SET2.values())):
+                        return n, f
+        return None
 
     def __len__(self) -> int:
         return len(self._index)

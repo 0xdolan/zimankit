@@ -63,9 +63,9 @@ The passive adds `د` after a root in `ر` or `ڕ`: `دەخوێنرێت`, but `�
 | compound words are solid | `دڵپاک`, `مارماسی`, `گوڵەگەنم`, `دەموچاو`, `شارەوشار` | `دڵ پاک` | not checked |
 | adjective after ە is separate | `کچە جوانەکە`, `شەوە گەرمەکە` | `کچەجوانەکە` | not checked |
 | compound infinitives are solid | `نانکردن`, `شەڕکردن`, `پێکهێنان` | `نان کردن` | not checked |
-| conjugated compounds split | `نان دەکەم`, `نانم کرد`, `نانم کردووە` | `نانمکرد` (see below) | generated solid |
+| conjugated compounds split | `نان دەکەم`, `نانم کرد`, `نانم کردووە` | `نانمکرد` (see below) | read when split; generated solid |
 | preverb, present is solid | `هەڵدەگرم` | `هەڵ دەگرم` | generated |
-| preverb, split around a clitic | `هەڵم گرت`, `ڕای گەیاند` | `ڕای‌گەیاند` | generated solid |
+| preverb, split around a clitic | `هەڵم گرت`, `ڕای گەیاند` | `ڕای‌گەیاند` | read when split; generated solid |
 | four parts | `پێ لێ هەڵگرتن`, `پێی لێ هەڵگرت` | | not implemented |
 | infinitive or finite verb | `ڕێککەوتن` (noun), `ڕێک کەوتن` (verb) | | not checked |
 | conjunction `و` is separate | `من و تۆ` | `من‌و تۆ` | ZWNJ form normalised |
@@ -91,7 +91,7 @@ The grade 12 handout and ڕێزمانی وێنەیی agree on this rule:
 2. Otherwise it goes on the first part of a compound or preverb verb, in every tense and polarity: `ڕامان خست`, `ڕامان نەخست`, `ڕامان دەخست`, `ڕامان خستووە`.
 3. On a simple verb it follows `نە` or `دە`, sits inside the perfect, or ends the verb.
 
-zimankit handles rule 3 and the affirmative simple past of rule 2. It still generates `هەڵنەمگرت`, `هەڵدەمگرت` and `هەڵگرتوومە`.
+zimankit follows all three rules. It still recognises the older shapes `هەڵنەمگرت`, `هەڵدەمگرت` and `هەڵگرتوومە` as a variant.
 
 ## Where the sources disagree
 
@@ -123,10 +123,9 @@ These are open, so zimankit should not change them silently. The interim choice 
 
 In the order they depend on each other:
 
-1. **Split forms:** correct clitic position in every tense, spacing classes for preverbs, then reading `هەڵم گرت`, `ڕای گەیاند` and `دەست پێ دەکەم` as one verb, then object clitics (`دەتبینم`, `بینیمیت`).
-2. **Parser:** circumpositions over several words, subordinate clauses, Kurdish labels (`نیهاد`, `جێگری بکەر`), and a Sorani agreement check.
-3. **Lexicon overrides:** a curated table so that the standard form is chosen when frequency prefers another (`وەکوو`, `بەرانبەر`, `کەرکووک`).
-4. **Generated pages and lessons:** print split forms first and teach them. This comes last on purpose: until step 1 is done, zimankit could not read the spelling its own course would teach.
+1. **Parser:** circumpositions over several words, subordinate clauses, Kurdish labels (`نیهاد`, `جێگری بکەر`), and a Sorani agreement check.
+2. **Lexicon overrides:** a curated table so that the standard form is chosen when frequency prefers another (`وەکوو`, `بەرانبەر`, `کەرکووک`).
+3. **Generated pages and lessons:** print split forms first and teach them. zimankit can now read that spelling, so this no longer has to wait.
 
 Some transliterations are also still doubtful and have not been checked against a source, such as `rakridin` for `ڕاکردن` and `hellîgrit` for `هەڵیگرت`.
 

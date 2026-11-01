@@ -43,12 +43,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **دامخست**<br><sub>damxist</sub><br><sub>/daːmx(ɯ)st/</sub> | **دانەمخست**<br><sub>danemxist</sub><br><sub>/daːnæmx(ɯ)st/</sub> |
-| 2sg | تۆ | **داتخست**<br><sub>datxist</sub><br><sub>/daːtx(ɯ)st/</sub> | **دانەتخست**<br><sub>danetxist</sub><br><sub>/daːnætx(ɯ)st/</sub> |
-| 3sg | ئەو | **دایخست**<br><sub>dayxist</sub><br><sub>/daːjx(ɯ)st/</sub> | **دانەیخست**<br><sub>daneyxist</sub><br><sub>/daːnæjx(ɯ)st/</sub> |
-| 1pl | ئێمە | **دامانخست**<br><sub>damanxist</sub><br><sub>/daːmaːnx(ɯ)st/</sub> | **دانەمانخست**<br><sub>danemanxist</sub><br><sub>/daːnæmaːnx(ɯ)st/</sub> |
-| 2pl | ئێوە | **داتانخست**<br><sub>datanxist</sub><br><sub>/daːtaːnx(ɯ)st/</sub> | **دانەتانخست**<br><sub>danetanxist</sub><br><sub>/daːnætaːnx(ɯ)st/</sub> |
-| 3pl | ئەوان | **دایانخست**<br><sub>dayanxist</sub><br><sub>/daːjaːnx(ɯ)st/</sub> | **دانەیانخست**<br><sub>daneyanxist</sub><br><sub>/daːnæjaːnx(ɯ)st/</sub> |
+| 1sg | من | **دامخست**<br><sub>damxist</sub><br><sub>/daːmx(ɯ)st/</sub> | **دامنەخست**<br><sub>damnexsit</sub><br><sub>/daːmnæxs(ɯ)t/</sub> |
+| 2sg | تۆ | **داتخست**<br><sub>datxist</sub><br><sub>/daːtx(ɯ)st/</sub> | **داتنەخست**<br><sub>datnexsit</sub><br><sub>/daːtnæxs(ɯ)t/</sub> |
+| 3sg | ئەو | **دایخست**<br><sub>dayxist</sub><br><sub>/daːjx(ɯ)st/</sub> | **داینەخست**<br><sub>daynexsit</sub><br><sub>/daːjnæxs(ɯ)t/</sub> |
+| 1pl | ئێمە | **دامانخست**<br><sub>damanxist</sub><br><sub>/daːmaːnx(ɯ)st/</sub> | **داماننەخست**<br><sub>damannexsit</sub><br><sub>/daːmaːnnæxs(ɯ)t/</sub> |
+| 2pl | ئێوە | **داتانخست**<br><sub>datanxist</sub><br><sub>/daːtaːnx(ɯ)st/</sub> | **داتاننەخست**<br><sub>datannexsit</sub><br><sub>/daːtaːnnæxs(ɯ)t/</sub> |
+| 3pl | ئەوان | **دایانخست**<br><sub>dayanxist</sub><br><sub>/daːjaːnx(ɯ)st/</sub> | **دایاننەخست**<br><sub>dayannexsit</sub><br><sub>/daːjaːnnæxs(ɯ)t/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -58,12 +58,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **دادەمخست**<br><sub>dademxist</sub><br><sub>/daːdæmx(ɯ)st/</sub> | **دانەمدەخست**<br><sub>danemdexsit</sub><br><sub>/daːnæmdæxs(ɯ)t/</sub> |
-| 2sg | تۆ | **دادەتخست**<br><sub>dadetxist</sub><br><sub>/daːdætx(ɯ)st/</sub> | **دانەتدەخست**<br><sub>danetdexsit</sub><br><sub>/daːnætdæxs(ɯ)t/</sub> |
-| 3sg | ئەو | **دادەیخست**<br><sub>dadeyxist</sub><br><sub>/daːdæjx(ɯ)st/</sub> | **دانەیدەخست**<br><sub>daneydexsit</sub><br><sub>/daːnæjdæxs(ɯ)t/</sub> |
-| 1pl | ئێمە | **دادەمانخست**<br><sub>dademanxist</sub><br><sub>/daːdæmaːnx(ɯ)st/</sub> | **دانەماندەخست**<br><sub>danemandexsit</sub><br><sub>/daːnæmaːndæxs(ɯ)t/</sub> |
-| 2pl | ئێوە | **دادەتانخست**<br><sub>dadetanxist</sub><br><sub>/daːdætaːnx(ɯ)st/</sub> | **دانەتاندەخست**<br><sub>danetandexsit</sub><br><sub>/daːnætaːndæxs(ɯ)t/</sub> |
-| 3pl | ئەوان | **دادەیانخست**<br><sub>dadeyanxist</sub><br><sub>/daːdæjaːnx(ɯ)st/</sub> | **دانەیاندەخست**<br><sub>daneyandexsit</sub><br><sub>/daːnæjaːndæxs(ɯ)t/</sub> |
+| 1sg | من | **دامدەخست**<br><sub>damdexsit</sub><br><sub>/daːmdæxs(ɯ)t/</sub> | **دامنەدەخست**<br><sub>damnedexsit</sub><br><sub>/daːmnædæxs(ɯ)t/</sub> |
+| 2sg | تۆ | **داتدەخست**<br><sub>datdexsit</sub><br><sub>/daːtdæxs(ɯ)t/</sub> | **داتنەدەخست**<br><sub>datnedexsit</sub><br><sub>/daːtnædæxs(ɯ)t/</sub> |
+| 3sg | ئەو | **دایدەخست**<br><sub>daydexsit</sub><br><sub>/daːjdæxs(ɯ)t/</sub> | **داینەدەخست**<br><sub>daynedexsit</sub><br><sub>/daːjnædæxs(ɯ)t/</sub> |
+| 1pl | ئێمە | **داماندەخست**<br><sub>damandexsit</sub><br><sub>/daːmaːndæxs(ɯ)t/</sub> | **داماننەدەخست**<br><sub>damannedexsit</sub><br><sub>/daːmaːnnædæxs(ɯ)t/</sub> |
+| 2pl | ئێوە | **داتاندەخست**<br><sub>datandexsit</sub><br><sub>/daːtaːndæxs(ɯ)t/</sub> | **داتاننەدەخست**<br><sub>datannedexsit</sub><br><sub>/daːtaːnnædæxs(ɯ)t/</sub> |
+| 3pl | ئەوان | **دایاندەخست**<br><sub>dayandexsit</sub><br><sub>/daːjaːndæxs(ɯ)t/</sub> | **دایاننەدەخست**<br><sub>dayannedexsit</sub><br><sub>/daːjaːnnædæxs(ɯ)t/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -73,12 +73,12 @@
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **داخستوومە**<br><sub>daxsitûme</sub><br><sub>/daːxs(ɯ)tuːmæ/</sub> | **دانەمخستووە**<br><sub>danemxistûwe</sub><br><sub>/daːnæmx(ɯ)stuːwæ/</sub> | **داخستبووم**<br><sub>daxsitbûm</sub><br><sub>/daːxs(ɯ)tbuːm/</sub> | **دانەمخستبوو**<br><sub>danemxisitbû</sub><br><sub>/daːnæmx(ɯ)s(ɯ)tbuː/</sub> |
-| 2sg | تۆ | **داخستووتە**<br><sub>daxsitûte</sub><br><sub>/daːxs(ɯ)tuːtæ/</sub> | **دانەتخستووە**<br><sub>danetxistûwe</sub><br><sub>/daːnætx(ɯ)stuːwæ/</sub> | **داخستبووت**<br><sub>daxsitbût</sub><br><sub>/daːxs(ɯ)tbuːt/</sub> | **دانەتخستبوو**<br><sub>danetxisitbû</sub><br><sub>/daːnætx(ɯ)s(ɯ)tbuː/</sub> |
-| 3sg | ئەو | **داخستوویەتی**<br><sub>daxsitûyetî</sub><br><sub>/daːxs(ɯ)tuːjætiː/</sub> | **دانەیخستووە**<br><sub>daneyxistûwe</sub><br><sub>/daːnæjx(ɯ)stuːwæ/</sub> | **داخستبووی**<br><sub>daxsitbûy</sub><br><sub>/daːxs(ɯ)tbuːj/</sub> | **دانەیخستبوو**<br><sub>daneyxisitbû</sub><br><sub>/daːnæjx(ɯ)s(ɯ)tbuː/</sub> |
-| 1pl | ئێمە | **داخستوومانە**<br><sub>daxsitûmane</sub><br><sub>/daːxs(ɯ)tuːmaːnæ/</sub> | **دانەمانخستووە**<br><sub>danemanxistûwe</sub><br><sub>/daːnæmaːnx(ɯ)stuːwæ/</sub> | **داخستبوومان**<br><sub>daxsitbûman</sub><br><sub>/daːxs(ɯ)tbuːmaːn/</sub> | **دانەمانخستبوو**<br><sub>danemanxisitbû</sub><br><sub>/daːnæmaːnx(ɯ)s(ɯ)tbuː/</sub> |
-| 2pl | ئێوە | **داخستووتانە**<br><sub>daxsitûtane</sub><br><sub>/daːxs(ɯ)tuːtaːnæ/</sub> | **دانەتانخستووە**<br><sub>danetanxistûwe</sub><br><sub>/daːnætaːnx(ɯ)stuːwæ/</sub> | **داخستبووتان**<br><sub>daxsitbûtan</sub><br><sub>/daːxs(ɯ)tbuːtaːn/</sub> | **دانەتانخستبوو**<br><sub>danetanxisitbû</sub><br><sub>/daːnætaːnx(ɯ)s(ɯ)tbuː/</sub> |
-| 3pl | ئەوان | **داخستوویانە**<br><sub>daxsitûyane</sub><br><sub>/daːxs(ɯ)tuːjaːnæ/</sub> | **دانەیانخستووە**<br><sub>daneyanxistûwe</sub><br><sub>/daːnæjaːnx(ɯ)stuːwæ/</sub> | **داخستبوویان**<br><sub>daxsitbûyan</sub><br><sub>/daːxs(ɯ)tbuːjaːn/</sub> | **دانەیانخستبوو**<br><sub>daneyanxisitbû</sub><br><sub>/daːnæjaːnx(ɯ)s(ɯ)tbuː/</sub> |
+| 1sg | من | **دامخستووە**<br><sub>damxistûwe</sub><br><sub>/daːmx(ɯ)stuːwæ/</sub> | **دامنەخستووە**<br><sub>damnexsitûwe</sub><br><sub>/daːmnæxs(ɯ)tuːwæ/</sub> | **دامخستبوو**<br><sub>damxisitbû</sub><br><sub>/daːmx(ɯ)s(ɯ)tbuː/</sub> | **دامنەخستبوو**<br><sub>damnexsitbû</sub><br><sub>/daːmnæxs(ɯ)tbuː/</sub> |
+| 2sg | تۆ | **داتخستووە**<br><sub>datxistûwe</sub><br><sub>/daːtx(ɯ)stuːwæ/</sub> | **داتنەخستووە**<br><sub>datnexsitûwe</sub><br><sub>/daːtnæxs(ɯ)tuːwæ/</sub> | **داتخستبوو**<br><sub>datxisitbû</sub><br><sub>/daːtx(ɯ)s(ɯ)tbuː/</sub> | **داتنەخستبوو**<br><sub>datnexsitbû</sub><br><sub>/daːtnæxs(ɯ)tbuː/</sub> |
+| 3sg | ئەو | **دایخستووە**<br><sub>dayxistûwe</sub><br><sub>/daːjx(ɯ)stuːwæ/</sub> | **داینەخستووە**<br><sub>daynexsitûwe</sub><br><sub>/daːjnæxs(ɯ)tuːwæ/</sub> | **دایخستبوو**<br><sub>dayxisitbû</sub><br><sub>/daːjx(ɯ)s(ɯ)tbuː/</sub> | **داینەخستبوو**<br><sub>daynexsitbû</sub><br><sub>/daːjnæxs(ɯ)tbuː/</sub> |
+| 1pl | ئێمە | **دامانخستووە**<br><sub>damanxistûwe</sub><br><sub>/daːmaːnx(ɯ)stuːwæ/</sub> | **داماننەخستووە**<br><sub>damannexsitûwe</sub><br><sub>/daːmaːnnæxs(ɯ)tuːwæ/</sub> | **دامانخستبوو**<br><sub>damanxisitbû</sub><br><sub>/daːmaːnx(ɯ)s(ɯ)tbuː/</sub> | **داماننەخستبوو**<br><sub>damannexsitbû</sub><br><sub>/daːmaːnnæxs(ɯ)tbuː/</sub> |
+| 2pl | ئێوە | **داتانخستووە**<br><sub>datanxistûwe</sub><br><sub>/daːtaːnx(ɯ)stuːwæ/</sub> | **داتاننەخستووە**<br><sub>datannexsitûwe</sub><br><sub>/daːtaːnnæxs(ɯ)tuːwæ/</sub> | **داتانخستبوو**<br><sub>datanxisitbû</sub><br><sub>/daːtaːnx(ɯ)s(ɯ)tbuː/</sub> | **داتاننەخستبوو**<br><sub>datannexsitbû</sub><br><sub>/daːtaːnnæxs(ɯ)tbuː/</sub> |
+| 3pl | ئەوان | **دایانخستووە**<br><sub>dayanxistûwe</sub><br><sub>/daːjaːnx(ɯ)stuːwæ/</sub> | **دایاننەخستووە**<br><sub>dayannexsitûwe</sub><br><sub>/daːjaːnnæxs(ɯ)tuːwæ/</sub> | **دایانخستبوو**<br><sub>dayanxisitbû</sub><br><sub>/daːjaːnx(ɯ)s(ɯ)tbuː/</sub> | **دایاننەخستبوو**<br><sub>dayannexsitbû</sub><br><sub>/daːjaːnnæxs(ɯ)tbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -88,12 +88,12 @@
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **داخستبام**<br><sub>daxsitbam</sub><br><sub>/daːxs(ɯ)tbaːm/</sub> | **داخستبێتم**<br><sub>daxsitbêtim</sub><br><sub>/daːxs(ɯ)tbeːt(ɯ)m/</sub> | **داخستبووبام**<br><sub>daxsitbûbam</sub><br><sub>/daːxs(ɯ)tbuːbaːm/</sub> |
-| 2sg | تۆ | **داخستبات**<br><sub>daxsitbat</sub><br><sub>/daːxs(ɯ)tbaːt/</sub> | **داخستبێتت**<br><sub>daxsitbêtit</sub><br><sub>/daːxs(ɯ)tbeːt(ɯ)t/</sub> | **داخستبووبات**<br><sub>daxsitbûbat</sub><br><sub>/daːxs(ɯ)tbuːbaːt/</sub> |
-| 3sg | ئەو | **داخستبای**<br><sub>daxsitbay</sub><br><sub>/daːxs(ɯ)tbaːj/</sub> | **داخستبێتی**<br><sub>daxsitbêtî</sub><br><sub>/daːxs(ɯ)tbeːtiː/</sub> | **داخستبووبای**<br><sub>daxsitbûbay</sub><br><sub>/daːxs(ɯ)tbuːbaːj/</sub> |
-| 1pl | ئێمە | **داخستبامان**<br><sub>daxsitbaman</sub><br><sub>/daːxs(ɯ)tbaːmaːn/</sub> | **داخستبێتمان**<br><sub>daxsitbêtman</sub><br><sub>/daːxs(ɯ)tbeːtmaːn/</sub> | **داخستبووبامان**<br><sub>daxsitbûbaman</sub><br><sub>/daːxs(ɯ)tbuːbaːmaːn/</sub> |
-| 2pl | ئێوە | **داخستباتان**<br><sub>daxsitbatan</sub><br><sub>/daːxs(ɯ)tbaːtaːn/</sub> | **داخستبێتتان**<br><sub>daxsitbêttan</sub><br><sub>/daːxs(ɯ)tbeːttaːn/</sub> | **داخستبووباتان**<br><sub>daxsitbûbatan</sub><br><sub>/daːxs(ɯ)tbuːbaːtaːn/</sub> |
-| 3pl | ئەوان | **داخستبایان**<br><sub>daxsitbayan</sub><br><sub>/daːxs(ɯ)tbaːjaːn/</sub> | **داخستبێتیان**<br><sub>daxsitbêtyan</sub><br><sub>/daːxs(ɯ)tbeːtjaːn/</sub> | **داخستبووبایان**<br><sub>daxsitbûbayan</sub><br><sub>/daːxs(ɯ)tbuːbaːjaːn/</sub> |
+| 1sg | من | **دامخستبا**<br><sub>damxisitba</sub><br><sub>/daːmx(ɯ)s(ɯ)tbaː/</sub> | **دامخستبێت**<br><sub>damxisitbêt</sub><br><sub>/daːmx(ɯ)s(ɯ)tbeːt/</sub> | **دامخستبووبا**<br><sub>damxisitbûba</sub><br><sub>/daːmx(ɯ)s(ɯ)tbuːbaː/</sub> |
+| 2sg | تۆ | **داتخستبا**<br><sub>datxisitba</sub><br><sub>/daːtx(ɯ)s(ɯ)tbaː/</sub> | **داتخستبێت**<br><sub>datxisitbêt</sub><br><sub>/daːtx(ɯ)s(ɯ)tbeːt/</sub> | **داتخستبووبا**<br><sub>datxisitbûba</sub><br><sub>/daːtx(ɯ)s(ɯ)tbuːbaː/</sub> |
+| 3sg | ئەو | **دایخستبا**<br><sub>dayxisitba</sub><br><sub>/daːjx(ɯ)s(ɯ)tbaː/</sub> | **دایخستبێت**<br><sub>dayxisitbêt</sub><br><sub>/daːjx(ɯ)s(ɯ)tbeːt/</sub> | **دایخستبووبا**<br><sub>dayxisitbûba</sub><br><sub>/daːjx(ɯ)s(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **دامانخستبا**<br><sub>damanxisitba</sub><br><sub>/daːmaːnx(ɯ)s(ɯ)tbaː/</sub> | **دامانخستبێت**<br><sub>damanxisitbêt</sub><br><sub>/daːmaːnx(ɯ)s(ɯ)tbeːt/</sub> | **دامانخستبووبا**<br><sub>damanxisitbûba</sub><br><sub>/daːmaːnx(ɯ)s(ɯ)tbuːbaː/</sub> |
+| 2pl | ئێوە | **داتانخستبا**<br><sub>datanxisitba</sub><br><sub>/daːtaːnx(ɯ)s(ɯ)tbaː/</sub> | **داتانخستبێت**<br><sub>datanxisitbêt</sub><br><sub>/daːtaːnx(ɯ)s(ɯ)tbeːt/</sub> | **داتانخستبووبا**<br><sub>datanxisitbûba</sub><br><sub>/daːtaːnx(ɯ)s(ɯ)tbuːbaː/</sub> |
+| 3pl | ئەوان | **دایانخستبا**<br><sub>dayanxisitba</sub><br><sub>/daːjaːnx(ɯ)s(ɯ)tbaː/</sub> | **دایانخستبێت**<br><sub>dayanxisitbêt</sub><br><sub>/daːjaːnx(ɯ)s(ɯ)tbeːt/</sub> | **دایانخستبووبا**<br><sub>dayanxisitbûba</sub><br><sub>/daːjaːnx(ɯ)s(ɯ)tbuːbaː/</sub> |
 
 ## Past subjunctive negative
 
@@ -101,12 +101,12 @@
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **دانەمخستبا**<br><sub>danemxisitba</sub><br><sub>/daːnæmx(ɯ)s(ɯ)tbaː/</sub> | **دانەمخستبێت**<br><sub>danemxisitbêt</sub><br><sub>/daːnæmx(ɯ)s(ɯ)tbeːt/</sub> | **دانەمخستبووبا**<br><sub>danemxisitbûba</sub><br><sub>/daːnæmx(ɯ)s(ɯ)tbuːbaː/</sub> |
-| 2sg | تۆ | **دانەتخستبا**<br><sub>danetxisitba</sub><br><sub>/daːnætx(ɯ)s(ɯ)tbaː/</sub> | **دانەتخستبێت**<br><sub>danetxisitbêt</sub><br><sub>/daːnætx(ɯ)s(ɯ)tbeːt/</sub> | **دانەتخستبووبا**<br><sub>danetxisitbûba</sub><br><sub>/daːnætx(ɯ)s(ɯ)tbuːbaː/</sub> |
-| 3sg | ئەو | **دانەیخستبا**<br><sub>daneyxisitba</sub><br><sub>/daːnæjx(ɯ)s(ɯ)tbaː/</sub> | **دانەیخستبێت**<br><sub>daneyxisitbêt</sub><br><sub>/daːnæjx(ɯ)s(ɯ)tbeːt/</sub> | **دانەیخستبووبا**<br><sub>daneyxisitbûba</sub><br><sub>/daːnæjx(ɯ)s(ɯ)tbuːbaː/</sub> |
-| 1pl | ئێمە | **دانەمانخستبا**<br><sub>danemanxisitba</sub><br><sub>/daːnæmaːnx(ɯ)s(ɯ)tbaː/</sub> | **دانەمانخستبێت**<br><sub>danemanxisitbêt</sub><br><sub>/daːnæmaːnx(ɯ)s(ɯ)tbeːt/</sub> | **دانەمانخستبووبا**<br><sub>danemanxisitbûba</sub><br><sub>/daːnæmaːnx(ɯ)s(ɯ)tbuːbaː/</sub> |
-| 2pl | ئێوە | **دانەتانخستبا**<br><sub>danetanxisitba</sub><br><sub>/daːnætaːnx(ɯ)s(ɯ)tbaː/</sub> | **دانەتانخستبێت**<br><sub>danetanxisitbêt</sub><br><sub>/daːnætaːnx(ɯ)s(ɯ)tbeːt/</sub> | **دانەتانخستبووبا**<br><sub>danetanxisitbûba</sub><br><sub>/daːnætaːnx(ɯ)s(ɯ)tbuːbaː/</sub> |
-| 3pl | ئەوان | **دانەیانخستبا**<br><sub>daneyanxisitba</sub><br><sub>/daːnæjaːnx(ɯ)s(ɯ)tbaː/</sub> | **دانەیانخستبێت**<br><sub>daneyanxisitbêt</sub><br><sub>/daːnæjaːnx(ɯ)s(ɯ)tbeːt/</sub> | **دانەیانخستبووبا**<br><sub>daneyanxisitbûba</sub><br><sub>/daːnæjaːnx(ɯ)s(ɯ)tbuːbaː/</sub> |
+| 1sg | من | **دامنەخستبا**<br><sub>damnexsitba</sub><br><sub>/daːmnæxs(ɯ)tbaː/</sub> | **دامنەخستبێت**<br><sub>damnexsitbêt</sub><br><sub>/daːmnæxs(ɯ)tbeːt/</sub> | **دامنەخستبووبا**<br><sub>damnexsitbûba</sub><br><sub>/daːmnæxs(ɯ)tbuːbaː/</sub> |
+| 2sg | تۆ | **داتنەخستبا**<br><sub>datnexsitba</sub><br><sub>/daːtnæxs(ɯ)tbaː/</sub> | **داتنەخستبێت**<br><sub>datnexsitbêt</sub><br><sub>/daːtnæxs(ɯ)tbeːt/</sub> | **داتنەخستبووبا**<br><sub>datnexsitbûba</sub><br><sub>/daːtnæxs(ɯ)tbuːbaː/</sub> |
+| 3sg | ئەو | **داینەخستبا**<br><sub>daynexsitba</sub><br><sub>/daːjnæxs(ɯ)tbaː/</sub> | **داینەخستبێت**<br><sub>daynexsitbêt</sub><br><sub>/daːjnæxs(ɯ)tbeːt/</sub> | **داینەخستبووبا**<br><sub>daynexsitbûba</sub><br><sub>/daːjnæxs(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **داماننەخستبا**<br><sub>damannexsitba</sub><br><sub>/daːmaːnnæxs(ɯ)tbaː/</sub> | **داماننەخستبێت**<br><sub>damannexsitbêt</sub><br><sub>/daːmaːnnæxs(ɯ)tbeːt/</sub> | **داماننەخستبووبا**<br><sub>damannexsitbûba</sub><br><sub>/daːmaːnnæxs(ɯ)tbuːbaː/</sub> |
+| 2pl | ئێوە | **داتاننەخستبا**<br><sub>datannexsitba</sub><br><sub>/daːtaːnnæxs(ɯ)tbaː/</sub> | **داتاننەخستبێت**<br><sub>datannexsitbêt</sub><br><sub>/daːtaːnnæxs(ɯ)tbeːt/</sub> | **داتاننەخستبووبا**<br><sub>datannexsitbûba</sub><br><sub>/daːtaːnnæxs(ɯ)tbuːbaː/</sub> |
+| 3pl | ئەوان | **دایاننەخستبا**<br><sub>dayannexsitba</sub><br><sub>/daːjaːnnæxs(ɯ)tbaː/</sub> | **دایاننەخستبێت**<br><sub>dayannexsitbêt</sub><br><sub>/daːjaːnnæxs(ɯ)tbeːt/</sub> | **دایاننەخستبووبا**<br><sub>dayannexsitbûba</sub><br><sub>/daːjaːnnæxs(ɯ)tbuːbaː/</sub> |
 
 ## Passive: present and subjunctive
 

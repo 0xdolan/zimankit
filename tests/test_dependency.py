@@ -12,7 +12,16 @@ def rels(sentence: str) -> list[tuple[str, str, int]]:
 @pytest.mark.parametrize("sentence, expected", [
     # Sorani: adpositions without a noun, copula after -دا and with a person ending, definite ezafe
     ("پێی وت.", [("پێی", "obl", 2), ("وت", "root", 0), (".", "punct", 2)]),
-    ("دەستم لێ دا.", [("دەستم", "obj", 3), ("لێ", "obl", 3), ("دا", "root", 0), (".", "punct", 3)]),
+    ("پارەم پێ نەما.", [("پارەم", "nsubj", 3), ("پێ", "obl", 3), ("نەما", "root", 0), (".", "punct", 3)]),
+    ("بۆمی نووسی.", [("بۆمی", "obl", 2), ("نووسی", "root", 0), (".", "punct", 2)]),
+    # verbs written over several tokens
+    ("هەڵم گرت.", [("هەڵم", "compound:prt", 2), ("گرت", "root", 0), (".", "punct", 2)]),
+    ("ڕای گەیاند.", [("ڕای", "compound:prt", 2), ("گەیاند", "root", 0), (".", "punct", 2)]),
+    ("دەستم پێ کرد.", [("دەستم", "compound:prt", 3), ("پێ", "compound:prt", 3), ("کرد", "root", 0), (".", "punct", 3)]),
+    ("دەستم لێ دا.", [("دەستم", "obj", 3), ("لێ", "compound:prt", 3), ("دا", "root", 0), (".", "punct", 3)]),
+    ("من کتێبەکەم هەڵ گرت.", [("من", "nsubj", 4), ("کتێبەکەم", "obj", 4), ("هەڵ", "compound:prt", 4), ("گرت", "root", 0), (".", "punct", 4)]),
+    # an object clitic on the verb
+    ("ئەو دەیبینێت.", [("ئەو", "nsubj", 2), ("دەیبینێت", "root", 0), (".", "punct", 2)]),
     ("پێی لێ هەڵگرت.", [("پێی", "obj", 3), ("لێ", "obl", 3), ("هەڵگرت", "root", 0), (".", "punct", 3)]),
     ("من لە ماڵدام.", [("من", "nsubj", 3), ("لە", "case", 3), ("ماڵدام", "root", 0), (".", "punct", 3)]),
     ("تۆ زیرەکیت.", [("تۆ", "nsubj", 2), ("زیرەکیت", "root", 0), (".", "punct", 2)]),
@@ -48,6 +57,15 @@ def rels(sentence: str) -> list[tuple[str, str, int]]:
 ])
 def test_structure(sentence, expected):
     assert rels(sentence) == expected
+
+
+def test_split_verb_reading_reaches_the_last_word():
+    verb = parse("هەڵم نەگرت.").tokens[1]
+    assert (verb.lemma, verb.upos, verb.features["agent"], verb.features["polarity"]) == ("هەڵگرتن", "VERB", "1sg", "neg")
+
+
+def test_split_verb_does_not_join_across_punctuation():
+    assert parse("هەڵم، گرت.").tokens[0].upos != "PART"
 
 
 def test_every_word_reaches_the_root():
