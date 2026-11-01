@@ -115,3 +115,8 @@ def test_istan_derivation():
     lex = SimpleLexicon()
     lex.add("kurd", "NOUN", "m")
     assert KmrAnalyzer(lex).best("Kurdistan").segmentation == "kurd+istan"
+
+
+def test_brother_is_bira():
+    assert validate_word("bira") == [] and validate_word("birayê") == []
+    assert validate_word("bra") == ["the standard spelling is bira"]

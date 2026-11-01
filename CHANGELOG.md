@@ -4,6 +4,16 @@ All notable changes to zimankit are recorded here. The format follows [Keep a Ch
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-11-01
+
+### Added
+
+- **Kaggle upload**: `scripts/publish_kaggle.py` publishes a new dataset version with a bar for the whole upload and one for the current file. If it stops for any reason, running it again continues from the last byte received, even after a reboot.
+
+### Fixed
+
+- **"Brother" is `bira`**: Central Kurdish `برا` stays `bira`, and Kurmanji `bra`, `brayê` and `brayên` are reported as non-standard and no longer enter the lexicon.
+
 ## [0.3.0] - 2026-11-01
 
 Central Kurdish is corrected against the written standard and the grammar sources. Spelling, transliteration, IPA, lemmas and word classes all change for some Central Kurdish words, so results will differ from 0.2.0: rebuild anything that stores them. Kurmanji is not affected.
@@ -84,7 +94,8 @@ The first release.
 - **Releases**: wheel, sdist, a Debian package and source archives, built by `scripts/build_release.sh` and published by GitHub Actions when a version tag is pushed. Continuous integration runs the tests on Python 3.11 to 3.13.
 - **Website**: <https://0xdolan.github.io/zimankit/> has the guide, the story of the logo, the brand kit and a live playground that runs zimankit in the browser.
 
-[Unreleased]: https://github.com/0xdolan/zimankit/compare/v0.3.0...develop
+[Unreleased]: https://github.com/0xdolan/zimankit/compare/v0.3.1...develop
+[0.3.1]: https://github.com/0xdolan/zimankit/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/0xdolan/zimankit/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/0xdolan/zimankit/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/0xdolan/zimankit/releases/tag/v0.1.0

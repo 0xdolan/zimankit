@@ -112,7 +112,7 @@ Stage 6 flattens the build into a self-contained dataset with a data card (`READ
 
 Definitions are cleaned in `clean_definition()`: placeholders dropped, "variant of X" / "see X" moved to `variant_of` / `see_also`, quoted citations, years, URLs, glued example sentences and deny-listed tokens cut off. `quality_tier`: `gold` = curated lexicon/dictionary, `silver` = analysed onto a known lemma, `bronze` = corpus evidence only. About 80 % of Kurmanji rows are paradigm forms from declension tables with `attested = false`; filter on it for a corpus-attested list.
 
-Publish with the Kaggle CLI (the dataset id comes from `[kaggle] dataset_id` in `config/pipeline.toml`): `kaggle datasets create -p output/kaggle`.
+Publish a new version with `python scripts/publish_kaggle.py` (the dataset id comes from `[kaggle] dataset_id` in `config/pipeline.toml`). It shows a bar for the whole upload and one for the current file, and if it stops for any reason, running it again continues from the last byte Kaggle received. `--check` shows what would be uploaded without uploading. A brand-new dataset is created once with `kaggle datasets create -p output/kaggle`.
 
 ## Tuning
 
