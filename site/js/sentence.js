@@ -12,8 +12,8 @@
     ["من و تۆ دەچینە بازاڕ.", "You and I go to the market."],
   ];
   const GROUP = {
-    root: "root", nsubj: "nsubj", obj: "obj", obl: "obl", case: "case", amod: "mod", nmod: "mod", "nmod:poss": "mod",
-    det: "det", nummod: "det", conj: "conj", cc: "conj", advmod: "adv", aux: "fn", cop: "fn", mark: "fn", punct: "fn", dep: "fn",
+    root: "root", nsubj: "nsubj", "nsubj:pass": "nsubj", obj: "obj", obl: "obl", case: "case", amod: "mod", nmod: "mod", "nmod:poss": "mod",
+    det: "det", nummod: "det", conj: "conj", cc: "conj", advmod: "adv", aux: "fn", cop: "fn", mark: "fn", punct: "fn", dep: "fn", "compound:prt": "fn", advcl: "conj", ccomp: "conj", "acl:relcl": "conj",
   };
   const SVG = "http://www.w3.org/2000/svg";
   const $ = (id) => document.getElementById(id);

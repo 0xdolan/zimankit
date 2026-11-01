@@ -10,7 +10,7 @@
 
 ## The linking vowel
 
-When a noun is followed by something that describes it, such as an adjective, another noun or a pronoun, Sorani puts a small **linking vowel**, the **ezafe**, between them. In Sorani it is **-ی** (*-î*, after a vowel *-y*):
+When a noun is followed by something that describes it, such as an adjective, another noun or a pronoun, Sorani puts a small **linking vowel**, the **ezafe**, between them. In Sorani it is **-ی** (*-î*, after a vowel *-y*). It is written even after a word that ends in ی: ماسیی, ڕۆژی جیهانیی ژنان *International Women's Day*, and after یی it makes three: سنەییی دڵسۆز *a devoted person from Sanandaj*.
 
 | phrase | parts | meaning |
 |---|---|---|
@@ -28,7 +28,7 @@ Adjectives always come **after** the noun, linked by the ezafe.
 | **پیاو** | man | **پیاو**<br><sub>pyaw</sub> | **پیاوی**<br><sub>pyawî</sub> | **پیاوێکی**<br><sub>pyawêkî</sub> |
 | **کتێب** | book | **کتێب**<br><sub>kitêb</sub> | **کتێبی**<br><sub>kitêbî</sub> | **کتێبێکی**<br><sub>kitêbêkî</sub> |
 | **دەرگا** | door | **دەرگا**<br><sub>derga</sub> | **دەرگای**<br><sub>dergay</sub> | **دەرگایەکی**<br><sub>dergayekî</sub> |
-| **ماسی** | fish | **ماسی**<br><sub>masî</sub> | **ماسیی**<br><sub>masî</sub> | **ماسییەکی**<br><sub>masîyekî</sub> |
+| **ماسی** | fish | **ماسی**<br><sub>masî</sub> | **ماسیی**<br><sub>masîy</sub> | **ماسییەکی**<br><sub>masîyekî</sub> |
 | **خانە** | house, room | **خانە**<br><sub>xane</sub> | **خانەی**<br><sub>xaney</sub> | **خانەیەکی**<br><sub>xaneyekî</sub> |
 <!-- /gen -->
 
@@ -41,7 +41,7 @@ With *a*, the indefinite ending comes first and the ezafe follows it: **پیاو
 With *the*, two things change:
 
 1. the definite ending **moves to the end of the whole phrase**;
-2. the ezafe after the noun becomes **-ە** (after a vowel **-یە**).
+2. the ezafe after the noun becomes **-ە**. A noun of two or more syllables ending in ا ۆ ێ ە takes nothing: دەرگا گەورەکە.
 
 | | indefinite | definite |
 |---|---|---|
@@ -50,7 +50,7 @@ With *the*, two things change:
 | door, big | دەرگایەکی گەورە *a big door* | **دەرگا گەورەکە** *the big door* |
 | book, new | کتێبێکی نوێ *a new book* | **کتێبە نوێیەکە** *the new book* |
 
-In دەرگا گەورەکە the ezafe disappears after the vowel ا in everyday writing (*dergay gewreke* is also heard).
+A personal clitic goes on the end of the whole phrase: **کچە زیرەکەکەت** *your clever daughter*.
 
 <!-- gen:sentences ipa=1
 پیاوە باشەکە هات. | The good man came.

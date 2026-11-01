@@ -25,7 +25,7 @@ from zimankit.skills_ckb.phonology_ipa import to_ipa, to_latin, syllables, G2POp
 
 ## Rules to apply
 
-1. و/ی: after or before a vowel letter = glide w/j; between consonants or final = u/iː; وو = uː, یی = iː.
+1. و/ی: after or before a vowel letter = glide w/j; between consonants = u/iː; final after a consonant: ی = iː, while û is written وو; وو is never word-initial; plain î is one ی (تیر), and یی needs a vowel before it (کۆتایی), a following ە (چییە) or an ezafe (کوردیی سنە).
 2. Bizroke /ɯ/ is inserted wherever a cluster breaks the rules: initial onsets C, Cw/Cj, s+stop; medial codas fricative+stop, nasal+stop; final codas falling sonority. Carve CɯC from the right.
 3. Initial ئ + consonant spells the bizroke itself (ئنجا ʔɯn.dʒaː).
 4. ە = æ, ا = aː, ێ = eː, ۆ = oː, ڵ = ɫ, ڕ = r, ر = ɾ (r word-initially).

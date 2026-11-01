@@ -47,3 +47,7 @@ Back to the [project README](../README.md) · [website](https://0xdolan.github.i
 ## Sentence structure
 
 22. [Sentence structure](22-sentence-structure.md)
+
+## Central Kurdish written standard
+
+23. [The Central Kurdish written standard](23-ckb-written-standard.md)

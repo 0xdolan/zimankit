@@ -17,6 +17,7 @@
 
 * *than* is **لە**: ئەو **لە** من گەورەترە. *He is bigger / older than me.*
 * The superlative stands **before** the noun, without ezafe: گەورەترین شار *the biggest city*.
+* The separate word **تر** means *other*: کابرایەکی تر *another man*. Do not confuse it with -تر *-er*, which is joined.
 
 <!-- gen:sentences ipa=1
 هەولێر لە سلێمانی گەورەترە. | Erbil is bigger than Sulaymaniyah.
@@ -42,6 +43,10 @@ Sorani creates many words with a small set of suffixes. Once you know them you c
 | **-کار** | people who do something | کرێکار *worker* | کرێ *wage* |
 | **-دار** | people/things that have something | پارەدار *rich* | پارە *money* |
 | **-انە** | adverbs (*-ly*), *-wise* | ڕۆژانە *daily* | ڕۆژ *day* |
+| **-ە** | nouns and past-stem adjectives | چاکە *goodness*, کردە *done* | چاک، کرد |
+| **-گەر، -چی، -وان** | people who work with something | ئاسنگەر، ڕاوچی، باخەوان | ئاسن، ڕاو، باخ |
+| **-زانی، -ناسی** | -logy, -nomy | زیندەزانی، ئەستێرەناسی | |
+| **بێ-، نا-، هاو-** | without, not, co- | بێکەس، ناپاک، هاوکار | |
 
 ## How zimankit takes words apart
 
@@ -52,7 +57,7 @@ The analyzer recognises these suffixes and also tells you when it is unsure:
 |---|---|---|---|---|
 | **گەورەتر** | گەورە+تر | STEM+CMPR | گەورە | degree=cmp |
 | **گەورەترین** | گەورە+ترین | STEM+SUPL | گەورە | degree=sup |
-| **کوردستان** | کورد+ستان | STEM+PLACE | کورد | derivation=place |
+| **کوردستان** | کوردستان | STEM | کوردستان | — |
 | **ڕۆژانە** | ڕۆژ+انە | STEM+ADVZ | ڕۆژ | derivation=adverbial |
 | **پارەدار** | پارە+دار | STEM+POSSR | پارە | derivation=possessor |
 | **کرێکار** | کرێ+کار | STEM+AGENT | کرێ | derivation=agent |
@@ -77,7 +82,7 @@ Derivational suffixes are less reliable than inflectional ones. *-ی* can be a n
 ## Summary
 
 * **-تر** comparative with **لە** *than*; **-ترین** superlative before the noun.
-* Word-building suffixes: -ی، -ایەتی، -ستان، -کار، -دار، -انە.
+* Word-building suffixes include -ی، -ایەتی، -ستان، -کار، -دار، -انە، -گەر، -زانی.
 
 <!-- nav:bottom -->
 ---

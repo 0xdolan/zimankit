@@ -1,6 +1,6 @@
 {
   "lang": "kmr",
-  "seconds": 59.1,
+  "seconds": 59.0,
   "lexicon_lemmas": 122729,
   "lexicon_forms": 387582,
   "dictionary_candidates": 4188,
@@ -47,8 +47,8 @@
     "news": 83589,
     "encyclopedia": 73671,
     "corpus": 7137,
-    "bilingual": 1810,
-    "core": 1646
+    "bilingual": 1790,
+    "core": 1666
   },
   "ipa_vs_reference": {
     "n": 18473,

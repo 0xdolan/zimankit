@@ -46,11 +46,11 @@ In the past tenses of **transitive** verbs, the doer (the *agent*) is not marked
 
 ## Where the clitic goes
 
-The agent clitic attaches to the **first word of the verb phrase**, the first thing that comes before the verb itself:
+The agent clitic goes:
 
-1. if there is an **object**, to the object: **نانم** خوارد;
-2. if the verb is **negative**, to نە: **نەم**خوارد *I didn't eat*;
-3. otherwise to the verb: **خواردم**.
+1. if there is an **object**, on the object, whatever the verb: **نانم** خوارد, **پەنجەرەکەتان** داخست;
+2. with no object, on a preverb or compound verb, after its first part: **هەڵم** گرت, **چارەسەرم** کرد (lesson 20);
+3. with no object, on a simple verb: after **نە** (**نەم**خوارد *I didn't eat*), after **دە** (**دەم**خوارد *I was eating*), inside the perfect (خواردوو**مە**), otherwise at the end (**خواردم**).
 
 The pronoun subject (من، تۆ…) can be added for emphasis, but it is not what carries the person: **من** نانم خوارد.
 
@@ -63,10 +63,10 @@ The pronoun subject (من، تۆ…) can be added for emphasis, but it is not wh
 |---|---|---|---|
 | 1sg | من | **کردم**<br><sub>kirdim</sub> | **نەمکرد**<br><sub>nemkird</sub> |
 | 2sg | تۆ | **کردت**<br><sub>kirdit</sub> | **نەتکرد**<br><sub>netkird</sub> |
-| 3sg | ئەو | **کردی**<br><sub>kiridî</sub> | **نەیکرد**<br><sub>neykird</sub> |
+| 3sg | ئەو | **کردی**<br><sub>kirdî</sub> | **نەیکرد**<br><sub>neykird</sub> |
 | 1pl | ئێمە | **کردمان**<br><sub>kirdiman</sub> | **نەمانکرد**<br><sub>nemankird</sub> |
 | 2pl | ئێوە | **کردتان**<br><sub>kirditan</sub> | **نەتانکرد**<br><sub>netankird</sub> |
-| 3pl | ئەوان | **کردیان**<br><sub>kiridyan</sub> | **نەیانکرد**<br><sub>neyankird</sub> |
+| 3pl | ئەوان | **کردیان**<br><sub>kirdyan</sub> | **نەیانکرد**<br><sub>neyankird</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 <!-- /gen -->
@@ -78,7 +78,7 @@ The pronoun subject (من، تۆ…) can be added for emphasis, but it is not wh
 |---|---|---|---|
 | 1sg | من | **نووسیم**<br><sub>nûsîm</sub> | **نەمنووسی**<br><sub>nemnûsî</sub> |
 | 2sg | تۆ | **نووسیت**<br><sub>nûsît</sub> | **نەتنووسی**<br><sub>netnûsî</sub> |
-| 3sg | ئەو | **نووسیی**<br><sub>nûsî</sub> | **نەینووسی**<br><sub>neynûsî</sub> |
+| 3sg | ئەو | **نووسیی**<br><sub>nûsîy</sub> | **نەینووسی**<br><sub>neynûsî</sub> |
 | 1pl | ئێمە | **نووسیمان**<br><sub>nûsîman</sub> | **نەماننووسی**<br><sub>nemannûsî</sub> |
 | 2pl | ئێوە | **نووسیتان**<br><sub>nûsîtan</sub> | **نەتاننووسی**<br><sub>netannûsî</sub> |
 | 3pl | ئەوان | **نووسییان**<br><sub>nûsîyan</sub> | **نەیاننووسی**<br><sub>neyannûsî</sub> |
@@ -93,7 +93,7 @@ The pronoun subject (من، تۆ…) can be added for emphasis, but it is not wh
 |---|---|---|---|
 | 1sg | من | **بینیم**<br><sub>bînîm</sub> | **نەمبینی**<br><sub>nembînî</sub> |
 | 2sg | تۆ | **بینیت**<br><sub>bînît</sub> | **نەتبینی**<br><sub>netbînî</sub> |
-| 3sg | ئەو | **بینیی**<br><sub>bînî</sub> | **نەیبینی**<br><sub>neybînî</sub> |
+| 3sg | ئەو | **بینیی**<br><sub>bînîy</sub> | **نەیبینی**<br><sub>neybînî</sub> |
 | 1pl | ئێمە | **بینیمان**<br><sub>bînîman</sub> | **نەمانبینی**<br><sub>nemanbînî</sub> |
 | 2pl | ئێوە | **بینیتان**<br><sub>bînîtan</sub> | **نەتانبینی**<br><sub>netanbînî</sub> |
 | 3pl | ئەوان | **بینییان**<br><sub>bînîyan</sub> | **نەیانبینی**<br><sub>neyanbînî</sub> |
@@ -119,7 +119,7 @@ The pronoun subject (من، تۆ…) can be added for emphasis, but it is not wh
 | 5 | پیاوەکەیان بینی. | pyawekeyan bînî. | /pjaːwækæjaːn biːniː/ | They saw the man. |
 <!-- /gen -->
 
-Notice **پیاوەکەیان بینی**: -یان on پیاوەکە here means *they*, not *their*. Only the past transitive verb tells you which. In the present, پیاوەکەیان دەبینن would mean *they see their man*.
+Notice **پیاوەکەیان بینی**: -یان on پیاوەکە here means *they*, not *their*. Only the past transitive verb tells you which. In the present, پیاوەکەیان دەبینن would mean *they (or you all) see their man*.
 
 ## Why it matters
 
@@ -150,7 +150,7 @@ The first one, *من نان خواردم*, is common in speech in some dialects.
 ## Summary
 
 * Past of **transitive** verbs: the agent is a **clitic** (م ت ی مان تان یان), not an ending.
-* The clitic sits on the first element before the verb: object, نە, or the verb itself.
+* The clitic follows the object; failing that, the first part of the verb, نە or دە; otherwise it ends the verb.
 * Intransitive verbs keep normal endings (هاتم); only transitive verbs are ergative.
 
 <!-- nav:bottom -->

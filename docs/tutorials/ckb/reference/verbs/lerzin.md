@@ -66,14 +66,40 @@
 
 *لەرزین* (lerzîn) “to tremble” — present stem **لەرز**, past stem **لەرزی**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **لەرزیوم**<br><sub>lerzîwm</sub><br><sub>/læɾziːwm/</sub> | **لەرزیبووم**<br><sub>lerzîbûm</sub><br><sub>/læɾziːbuːm/</sub> |
-| 2sg | تۆ | **لەرزیویت**<br><sub>lerzîwît</sub><br><sub>/læɾziːwiːt/</sub> | **لەرزیبوویت**<br><sub>lerzîbûyt</sub><br><sub>/læɾziːbuːjt/</sub> |
-| 3sg | ئەو | **لەرزیوە**<br><sub>lerzîwe</sub><br><sub>/læɾziːwæ/</sub> | **لەرزیبوو**<br><sub>lerzîbû</sub><br><sub>/læɾziːbuː/</sub> |
-| 1pl | ئێمە | **لەرزیوین**<br><sub>lerzîwîn</sub><br><sub>/læɾziːwiːn/</sub> | **لەرزیبووین**<br><sub>lerzîbûyn</sub><br><sub>/læɾziːbuːjn/</sub> |
-| 2pl | ئێوە | **لەرزیون**<br><sub>lerzîwn</sub><br><sub>/læɾziːwn/</sub> | **لەرزیبوون**<br><sub>lerzîbûn</sub><br><sub>/læɾziːbuːn/</sub> |
-| 3pl | ئەوان | **لەرزیون**<br><sub>lerzîwn</sub><br><sub>/læɾziːwn/</sub> | **لەرزیبوون**<br><sub>lerzîbûn</sub><br><sub>/læɾziːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **لەرزیومە**<br><sub>lerzîwme</sub><br><sub>/læɾziːwmæ/</sub> | **نەلەرزیومە**<br><sub>nelerzîwme</sub><br><sub>/nælæɾziːwmæ/</sub> | **لەرزیبووم**<br><sub>lerzîbûm</sub><br><sub>/læɾziːbuːm/</sub> | **نەلەرزیبووم**<br><sub>nelerzîbûm</sub><br><sub>/nælæɾziːbuːm/</sub> |
+| 2sg | تۆ | **لەرزیویتە**<br><sub>lerzîwîte</sub><br><sub>/læɾziːwiːtæ/</sub> | **نەلەرزیویتە**<br><sub>nelerzîwîte</sub><br><sub>/nælæɾziːwiːtæ/</sub> | **لەرزیبوویت**<br><sub>lerzîbûyt</sub><br><sub>/læɾziːbuːjt/</sub> | **نەلەرزیبوویت**<br><sub>nelerzîbûyt</sub><br><sub>/nælæɾziːbuːjt/</sub> |
+| 3sg | ئەو | **لەرزیوە**<br><sub>lerzîwe</sub><br><sub>/læɾziːwæ/</sub> | **نەلەرزیوە**<br><sub>nelerzîwe</sub><br><sub>/nælæɾziːwæ/</sub> | **لەرزیبوو**<br><sub>lerzîbû</sub><br><sub>/læɾziːbuː/</sub> | **نەلەرزیبوو**<br><sub>nelerzîbû</sub><br><sub>/nælæɾziːbuː/</sub> |
+| 1pl | ئێمە | **لەرزیوینە**<br><sub>lerzîwîne</sub><br><sub>/læɾziːwiːnæ/</sub> | **نەلەرزیوینە**<br><sub>nelerzîwîne</sub><br><sub>/nælæɾziːwiːnæ/</sub> | **لەرزیبووین**<br><sub>lerzîbûyn</sub><br><sub>/læɾziːbuːjn/</sub> | **نەلەرزیبووین**<br><sub>nelerzîbûyn</sub><br><sub>/nælæɾziːbuːjn/</sub> |
+| 2pl | ئێوە | **لەرزیونە**<br><sub>lerzîwne</sub><br><sub>/læɾziːwnæ/</sub> | **نەلەرزیونە**<br><sub>nelerzîwne</sub><br><sub>/nælæɾziːwnæ/</sub> | **لەرزیبوون**<br><sub>lerzîbûn</sub><br><sub>/læɾziːbuːn/</sub> | **نەلەرزیبوون**<br><sub>nelerzîbûn</sub><br><sub>/nælæɾziːbuːn/</sub> |
+| 3pl | ئەوان | **لەرزیونە**<br><sub>lerzîwne</sub><br><sub>/læɾziːwnæ/</sub> | **نەلەرزیونە**<br><sub>nelerzîwne</sub><br><sub>/nælæɾziːwnæ/</sub> | **لەرزیبوون**<br><sub>lerzîbûn</sub><br><sub>/læɾziːbuːn/</sub> | **نەلەرزیبوون**<br><sub>nelerzîbûn</sub><br><sub>/nælæɾziːbuːn/</sub> |
+
+## Past subjunctive
+
+*لەرزین* (lerzîn) “to tremble” — present stem **لەرز**, past stem **لەرزی**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **لەرزیبام**<br><sub>lerzîbam</sub><br><sub>/læɾziːbaːm/</sub> | **لەرزیبێتم**<br><sub>lerzîbêtim</sub><br><sub>/læɾziːbeːt(ɯ)m/</sub> | **لەرزیبووبام**<br><sub>lerzîbûbam</sub><br><sub>/læɾziːbuːbaːm/</sub> |
+| 2sg | تۆ | **لەرزیبایت**<br><sub>lerzîbayt</sub><br><sub>/læɾziːbaːjt/</sub> | **لەرزیبێتیت**<br><sub>lerzîbêtît</sub><br><sub>/læɾziːbeːtiːt/</sub> | **لەرزیبووبایت**<br><sub>lerzîbûbayt</sub><br><sub>/læɾziːbuːbaːjt/</sub> |
+| 3sg | ئەو | **لەرزیبا**<br><sub>lerzîba</sub><br><sub>/læɾziːbaː/</sub> | **لەرزیبێت**<br><sub>lerzîbêt</sub><br><sub>/læɾziːbeːt/</sub> | **لەرزیبووبا**<br><sub>lerzîbûba</sub><br><sub>/læɾziːbuːbaː/</sub> |
+| 1pl | ئێمە | **لەرزیباین**<br><sub>lerzîbayn</sub><br><sub>/læɾziːbaːjn/</sub> | **لەرزیبێتین**<br><sub>lerzîbêtîn</sub><br><sub>/læɾziːbeːtiːn/</sub> | **لەرزیبووباین**<br><sub>lerzîbûbayn</sub><br><sub>/læɾziːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **لەرزیبان**<br><sub>lerzîban</sub><br><sub>/læɾziːbaːn/</sub> | **لەرزیبێتن**<br><sub>lerzîbêtin</sub><br><sub>/læɾziːbeːt(ɯ)n/</sub> | **لەرزیبووبان**<br><sub>lerzîbûban</sub><br><sub>/læɾziːbuːbaːn/</sub> |
+| 3pl | ئەوان | **لەرزیبان**<br><sub>lerzîban</sub><br><sub>/læɾziːbaːn/</sub> | **لەرزیبێتن**<br><sub>lerzîbêtin</sub><br><sub>/læɾziːbeːt(ɯ)n/</sub> | **لەرزیبووبان**<br><sub>lerzîbûban</sub><br><sub>/læɾziːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*لەرزین* (lerzîn) “to tremble” — present stem **لەرز**, past stem **لەرزی**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەلەرزیبام**<br><sub>nelerzîbam</sub><br><sub>/nælæɾziːbaːm/</sub> | **نەلەرزیبێتم**<br><sub>nelerzîbêtim</sub><br><sub>/nælæɾziːbeːt(ɯ)m/</sub> | **نەلەرزیبووبام**<br><sub>nelerzîbûbam</sub><br><sub>/nælæɾziːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەلەرزیبایت**<br><sub>nelerzîbayt</sub><br><sub>/nælæɾziːbaːjt/</sub> | **نەلەرزیبێتیت**<br><sub>nelerzîbêtît</sub><br><sub>/nælæɾziːbeːtiːt/</sub> | **نەلەرزیبووبایت**<br><sub>nelerzîbûbayt</sub><br><sub>/nælæɾziːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەلەرزیبا**<br><sub>nelerzîba</sub><br><sub>/nælæɾziːbaː/</sub> | **نەلەرزیبێت**<br><sub>nelerzîbêt</sub><br><sub>/nælæɾziːbeːt/</sub> | **نەلەرزیبووبا**<br><sub>nelerzîbûba</sub><br><sub>/nælæɾziːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەلەرزیباین**<br><sub>nelerzîbayn</sub><br><sub>/nælæɾziːbaːjn/</sub> | **نەلەرزیبێتین**<br><sub>nelerzîbêtîn</sub><br><sub>/nælæɾziːbeːtiːn/</sub> | **نەلەرزیبووباین**<br><sub>nelerzîbûbayn</sub><br><sub>/nælæɾziːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەلەرزیبان**<br><sub>nelerzîban</sub><br><sub>/nælæɾziːbaːn/</sub> | **نەلەرزیبێتن**<br><sub>nelerzîbêtin</sub><br><sub>/nælæɾziːbeːt(ɯ)n/</sub> | **نەلەرزیبووبان**<br><sub>nelerzîbûban</sub><br><sub>/nælæɾziːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەلەرزیبان**<br><sub>nelerzîban</sub><br><sub>/nælæɾziːbaːn/</sub> | **نەلەرزیبێتن**<br><sub>nelerzîbêtin</sub><br><sub>/nælæɾziːbeːt(ɯ)n/</sub> | **نەلەرزیبووبان**<br><sub>nelerzîbûban</sub><br><sub>/nælæɾziːbuːbaːn/</sub> |
 
 ## Imperative
 

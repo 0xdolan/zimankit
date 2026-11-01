@@ -66,14 +66,40 @@
 
 *خەوتن* (xewtin) “to sleep” — present stem **خەو**, past stem **خەوت**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **خەوتووم**<br><sub>xewtûm</sub><br><sub>/xæwtuːm/</sub> | **خەوتبووم**<br><sub>xewtbûm</sub><br><sub>/xæwtbuːm/</sub> |
-| 2sg | تۆ | **خەوتوویت**<br><sub>xewtûyt</sub><br><sub>/xæwtuːjt/</sub> | **خەوتبوویت**<br><sub>xewtbûyt</sub><br><sub>/xæwtbuːjt/</sub> |
-| 3sg | ئەو | **خەوتووە**<br><sub>xewtûwe</sub><br><sub>/xæwtuːwæ/</sub> | **خەوتبوو**<br><sub>xewtbû</sub><br><sub>/xæwtbuː/</sub> |
-| 1pl | ئێمە | **خەوتووین**<br><sub>xewtûyn</sub><br><sub>/xæwtuːjn/</sub> | **خەوتبووین**<br><sub>xewtbûyn</sub><br><sub>/xæwtbuːjn/</sub> |
-| 2pl | ئێوە | **خەوتوون**<br><sub>xewtûn</sub><br><sub>/xæwtuːn/</sub> | **خەوتبوون**<br><sub>xewtbûn</sub><br><sub>/xæwtbuːn/</sub> |
-| 3pl | ئەوان | **خەوتوون**<br><sub>xewtûn</sub><br><sub>/xæwtuːn/</sub> | **خەوتبوون**<br><sub>xewtbûn</sub><br><sub>/xæwtbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **خەوتوومە**<br><sub>xewtûme</sub><br><sub>/xæwtuːmæ/</sub> | **نەخەوتوومە**<br><sub>nexewtûme</sub><br><sub>/næxæwtuːmæ/</sub> | **خەوتبووم**<br><sub>xewtbûm</sub><br><sub>/xæwtbuːm/</sub> | **نەخەوتبووم**<br><sub>nexewtbûm</sub><br><sub>/næxæwtbuːm/</sub> |
+| 2sg | تۆ | **خەوتوویتە**<br><sub>xewtûyte</sub><br><sub>/xæwtuːjtæ/</sub> | **نەخەوتوویتە**<br><sub>nexewtûyte</sub><br><sub>/næxæwtuːjtæ/</sub> | **خەوتبوویت**<br><sub>xewtbûyt</sub><br><sub>/xæwtbuːjt/</sub> | **نەخەوتبوویت**<br><sub>nexewtbûyt</sub><br><sub>/næxæwtbuːjt/</sub> |
+| 3sg | ئەو | **خەوتووە**<br><sub>xewtûwe</sub><br><sub>/xæwtuːwæ/</sub> | **نەخەوتووە**<br><sub>nexewtûwe</sub><br><sub>/næxæwtuːwæ/</sub> | **خەوتبوو**<br><sub>xewtbû</sub><br><sub>/xæwtbuː/</sub> | **نەخەوتبوو**<br><sub>nexewtbû</sub><br><sub>/næxæwtbuː/</sub> |
+| 1pl | ئێمە | **خەوتووینە**<br><sub>xewtûyne</sub><br><sub>/xæwtuːjnæ/</sub> | **نەخەوتووینە**<br><sub>nexewtûyne</sub><br><sub>/næxæwtuːjnæ/</sub> | **خەوتبووین**<br><sub>xewtbûyn</sub><br><sub>/xæwtbuːjn/</sub> | **نەخەوتبووین**<br><sub>nexewtbûyn</sub><br><sub>/næxæwtbuːjn/</sub> |
+| 2pl | ئێوە | **خەوتوونە**<br><sub>xewtûne</sub><br><sub>/xæwtuːnæ/</sub> | **نەخەوتوونە**<br><sub>nexewtûne</sub><br><sub>/næxæwtuːnæ/</sub> | **خەوتبوون**<br><sub>xewtbûn</sub><br><sub>/xæwtbuːn/</sub> | **نەخەوتبوون**<br><sub>nexewtbûn</sub><br><sub>/næxæwtbuːn/</sub> |
+| 3pl | ئەوان | **خەوتوونە**<br><sub>xewtûne</sub><br><sub>/xæwtuːnæ/</sub> | **نەخەوتوونە**<br><sub>nexewtûne</sub><br><sub>/næxæwtuːnæ/</sub> | **خەوتبوون**<br><sub>xewtbûn</sub><br><sub>/xæwtbuːn/</sub> | **نەخەوتبوون**<br><sub>nexewtbûn</sub><br><sub>/næxæwtbuːn/</sub> |
+
+## Past subjunctive
+
+*خەوتن* (xewtin) “to sleep” — present stem **خەو**, past stem **خەوت**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **خەوتبام**<br><sub>xewtbam</sub><br><sub>/xæwtbaːm/</sub> | **خەوتبێتم**<br><sub>xewtbêtim</sub><br><sub>/xæwtbeːt(ɯ)m/</sub> | **خەوتبووبام**<br><sub>xewtbûbam</sub><br><sub>/xæwtbuːbaːm/</sub> |
+| 2sg | تۆ | **خەوتبایت**<br><sub>xewtbayt</sub><br><sub>/xæwtbaːjt/</sub> | **خەوتبێتیت**<br><sub>xewtbêtît</sub><br><sub>/xæwtbeːtiːt/</sub> | **خەوتبووبایت**<br><sub>xewtbûbayt</sub><br><sub>/xæwtbuːbaːjt/</sub> |
+| 3sg | ئەو | **خەوتبا**<br><sub>xewtba</sub><br><sub>/xæwtbaː/</sub> | **خەوتبێت**<br><sub>xewtbêt</sub><br><sub>/xæwtbeːt/</sub> | **خەوتبووبا**<br><sub>xewtbûba</sub><br><sub>/xæwtbuːbaː/</sub> |
+| 1pl | ئێمە | **خەوتباین**<br><sub>xewtbayn</sub><br><sub>/xæwtbaːjn/</sub> | **خەوتبێتین**<br><sub>xewtbêtîn</sub><br><sub>/xæwtbeːtiːn/</sub> | **خەوتبووباین**<br><sub>xewtbûbayn</sub><br><sub>/xæwtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **خەوتبان**<br><sub>xewtban</sub><br><sub>/xæwtbaːn/</sub> | **خەوتبێتن**<br><sub>xewtbêtin</sub><br><sub>/xæwtbeːt(ɯ)n/</sub> | **خەوتبووبان**<br><sub>xewtbûban</sub><br><sub>/xæwtbuːbaːn/</sub> |
+| 3pl | ئەوان | **خەوتبان**<br><sub>xewtban</sub><br><sub>/xæwtbaːn/</sub> | **خەوتبێتن**<br><sub>xewtbêtin</sub><br><sub>/xæwtbeːt(ɯ)n/</sub> | **خەوتبووبان**<br><sub>xewtbûban</sub><br><sub>/xæwtbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*خەوتن* (xewtin) “to sleep” — present stem **خەو**, past stem **خەوت**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەخەوتبام**<br><sub>nexewtbam</sub><br><sub>/næxæwtbaːm/</sub> | **نەخەوتبێتم**<br><sub>nexewtbêtim</sub><br><sub>/næxæwtbeːt(ɯ)m/</sub> | **نەخەوتبووبام**<br><sub>nexewtbûbam</sub><br><sub>/næxæwtbuːbaːm/</sub> |
+| 2sg | تۆ | **نەخەوتبایت**<br><sub>nexewtbayt</sub><br><sub>/næxæwtbaːjt/</sub> | **نەخەوتبێتیت**<br><sub>nexewtbêtît</sub><br><sub>/næxæwtbeːtiːt/</sub> | **نەخەوتبووبایت**<br><sub>nexewtbûbayt</sub><br><sub>/næxæwtbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەخەوتبا**<br><sub>nexewtba</sub><br><sub>/næxæwtbaː/</sub> | **نەخەوتبێت**<br><sub>nexewtbêt</sub><br><sub>/næxæwtbeːt/</sub> | **نەخەوتبووبا**<br><sub>nexewtbûba</sub><br><sub>/næxæwtbuːbaː/</sub> |
+| 1pl | ئێمە | **نەخەوتباین**<br><sub>nexewtbayn</sub><br><sub>/næxæwtbaːjn/</sub> | **نەخەوتبێتین**<br><sub>nexewtbêtîn</sub><br><sub>/næxæwtbeːtiːn/</sub> | **نەخەوتبووباین**<br><sub>nexewtbûbayn</sub><br><sub>/næxæwtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەخەوتبان**<br><sub>nexewtban</sub><br><sub>/næxæwtbaːn/</sub> | **نەخەوتبێتن**<br><sub>nexewtbêtin</sub><br><sub>/næxæwtbeːt(ɯ)n/</sub> | **نەخەوتبووبان**<br><sub>nexewtbûban</sub><br><sub>/næxæwtbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەخەوتبان**<br><sub>nexewtban</sub><br><sub>/næxæwtbaːn/</sub> | **نەخەوتبێتن**<br><sub>nexewtbêtin</sub><br><sub>/næxæwtbeːt(ɯ)n/</sub> | **نەخەوتبووبان**<br><sub>nexewtbûban</sub><br><sub>/næxæwtbuːbaːn/</sub> |
 
 ## Imperative
 

@@ -77,6 +77,9 @@ class Row:
 # ---------------------------------------------------------------------------
 
 
+KNOWN_REMAINDER = ("priv", "neg", "co")  # بێ+کار: the analyser saw that the remainder is a known word
+
+
 class Dialect:
     def __init__(self, lang: str):
         self.lang = lang
@@ -84,7 +87,7 @@ class Dialect:
             from ..skills_ckb import morphology, orthography, phonology_ipa, verbs
 
             self.norm = orthography.normalize_word
-            self.validate = orthography.validate_word
+            self.validate = orthography.structural_problems
             self.ipa = phonology_ipa.to_ipa
             self.translit = phonology_ipa.to_latin
             self.verbs = verbs
@@ -343,13 +346,18 @@ def build(cfg: Config, lang: str) -> dict:
         )
         # a POS-less dictionary word that analyses into a known lemma is an inflected form
         posless_inflected = None
-        if w in lemmas and not lemmas[w].pos and w not in d.fw:
+        if w in lemmas and not lemmas[w].pos and w not in d.fw and not core_verb_reading:
             def plausible(x: Analysis) -> bool:
                 if x.lemma == w or x.lemma not in lemma_set or not lemmas[x.lemma].pos or x.score <= 0:
                     return False
                 last = x.segments[-1][0] if len(x.segments) > 1 else ""
                 # a one-letter enclitic (م ت ش) is only believable on a stem at least as frequent
-                return len(last) >= 2 or last == "ی" or counts.get(x.lemma, 0) >= freq
+                # دەدزێت, دەنووسێتەوە: a finite form is a verb however rare its infinitive; ماڵی, گونجاو or بزنی may not be
+                finite = (
+                    d.lang == "ckb" and x.pos == "VERB" and "variant" not in x.features and not x.lemma.endswith("یان")
+                    and (x.features.get("tense") == "present" or x.lemma.endswith("ەوە"))
+                )
+                return finite or len(last) >= 2 or last == "ی" or counts.get(x.lemma, 0) >= freq
 
             posless_inflected = next((x for x in alist or [] if plausible(x)), None)
         if posless_inflected is not None:
@@ -365,7 +373,8 @@ def build(cfg: Config, lang: str) -> dict:
                 pos, fw_feats = d.fw[w]
                 feats = dict(fw_feats)
             else:
-                pos = "VERB" if ("VERB" in e.pos and w in index.verbs) else next((p for p in POS_ORDER if p in e.pos), "X")
+                hidden = getattr(d.verbs, "HIDDEN_FORMS", {}).get(w, ())  # نان is the noun "bread"
+                pos = "VERB" if ("VERB" in e.pos and w in index.verbs and w not in hidden) else next((p for p in POS_ORDER if p in e.pos and p != "VERB" or p in e.pos and w not in hidden), "X")
                 if a is not None and a.lemma == w:
                     feats = dict(a.features)
                 if e.gender and pos in ("NOUN", "PROPN"):
@@ -382,7 +391,7 @@ def build(cfg: Config, lang: str) -> dict:
             srcs.add("lexicon-form")
             if a is not None and a.lemma == lemma:
                 seg = a.segmentation
-        elif a is not None and (a.lemma in lemma_set or a.pos == "VERB") and a.score > 0:
+        elif a is not None and (a.lemma in lemma_set or a.pos == "VERB" or a.features.get("derivation") in KNOWN_REMAINDER) and a.score > 0:
             lemma, pos, feats, seg = a.lemma, a.pos, dict(a.features), a.segmentation
             analysed = True
         else:
@@ -422,20 +431,24 @@ def build(cfg: Config, lang: str) -> dict:
     # Central Kurdish spelling variants of accepted forms
     variants: list[tuple[str, str, int, int]] = []
     if lang == "ckb":
-        from ..skills_ckb.orthography import spelling_variants
+        from ..skills_ckb.orthography import STANDARD_OVERRIDES, spelling_variants, validate_word
 
         ratio = cfg.settings["ckb"]["variant_ratio"]
         for w in pending_variants:
             f = counts.get(w, 0)
             best = None
             for v in spelling_variants(w, 32):
-                if v in accepted and accepted[v].frequency >= ratio * max(f, 1):
+                # the target must itself be standard: not ووتی, not چو
+                if v in accepted and accepted[v].frequency >= ratio * max(f, 1) and not validate_word(v):
                     if best is None or accepted[v].frequency > accepted[best].frequency:
                         best = v
             if best:
                 variants.append((w, best, f, accepted[best].frequency))
             else:
                 rejected.append((w, f, "unknown stem (not in lexicon, too rare for a new lemma)"))
+        # frequency cannot pick the standard form here: the common spelling is the non-standard one
+        variants += [(w, std, accepted[w].frequency, accepted[std].frequency)
+                     for w, std in STANDARD_OVERRIDES.items() if w in accepted and std in accepted]
     else:
         rejected += [(w, counts.get(w, 0), "unknown stem (not in lexicon, too rare for a new lemma)") for w in pending_variants]
 

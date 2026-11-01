@@ -10,7 +10,7 @@ Quick API::
 
 from __future__ import annotations
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 
 from .shared_utils.lid import identify
 from .shared_utils.text_helpers import detect_script

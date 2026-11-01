@@ -12,6 +12,7 @@ output/*/*.csv
 output/*/*.txt
 !output/*/sample_*.csv
 output/kaggle/
+output/bundle/
 examples/rust/target/
 examples/typescript/node_modules/
 examples/go/zimankit-example

@@ -35,7 +35,7 @@ def _ckb() -> dict:
                 {"id": "initial_hamza", "rule": "word-initial vowel letter gets ئ", "example": ["ەمە", "ئەمە"]},
                 {"id": "legacy_ae", "rule": "ه + ZWNJ -> ە; in legacy-encoded text word-final ه -> ە", "example": ["به‌ڕێوه‌به‌ر", "بەڕێوەبەر"]},
                 {"id": "zwnj", "rule": "micro-spaces -> ZWNJ; ZWNJ kept only between two joining letters"},
-                {"id": "squeeze", "rule": "ەە -> ە, ڕڕ -> ڕ, ڵڵ -> ڵ, ووو -> وو"},
+                {"id": "squeeze", "rule": "ەە -> ە, ڕڕ -> ڕ, ڵڵڵ -> ڵڵ, ووو -> وو, یییی -> ییی; ڵڵ (ئەڵڵا), ییی (سنەییی) and ر+ڕ, ل+ڵ stay"},
             ],
         },
         "phonology": {
@@ -45,7 +45,7 @@ def _ckb() -> dict:
                 "و / ی after a vowel letter -> /w/ /j/",
                 "و / ی before a vowel letter -> /w/ /j/ (onset cluster Cw / Cj)",
                 "و between consonants or word-finally -> /u/; ی -> /iː/",
-                "وو -> /uː/, یی -> /iː/; a glide is inserted before a following vowel",
+                "وو -> /uː/; after a vowel یی -> /jiː/, after a consonant a surface /iː/ (an ezafe or clitic ی is not a separate vowel); a glide is inserted before a following vowel",
             ],
             "phonotactics": {
                 "initial_onsets": "C, C+glide, sibilant+stop",

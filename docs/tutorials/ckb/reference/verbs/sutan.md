@@ -66,14 +66,40 @@
 
 *سووتان* (sûtan) “to burn (intr.)” — present stem **سووتێ**, past stem **سووتا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **سووتاوم**<br><sub>sûtawm</sub><br><sub>/suːtaːwm/</sub> | **سووتابووم**<br><sub>sûtabûm</sub><br><sub>/suːtaːbuːm/</sub> |
-| 2sg | تۆ | **سووتاویت**<br><sub>sûtawît</sub><br><sub>/suːtaːwiːt/</sub> | **سووتابوویت**<br><sub>sûtabûyt</sub><br><sub>/suːtaːbuːjt/</sub> |
-| 3sg | ئەو | **سووتاوە**<br><sub>sûtawe</sub><br><sub>/suːtaːwæ/</sub> | **سووتابوو**<br><sub>sûtabû</sub><br><sub>/suːtaːbuː/</sub> |
-| 1pl | ئێمە | **سووتاوین**<br><sub>sûtawîn</sub><br><sub>/suːtaːwiːn/</sub> | **سووتابووین**<br><sub>sûtabûyn</sub><br><sub>/suːtaːbuːjn/</sub> |
-| 2pl | ئێوە | **سووتاون**<br><sub>sûtawn</sub><br><sub>/suːtaːwn/</sub> | **سووتابوون**<br><sub>sûtabûn</sub><br><sub>/suːtaːbuːn/</sub> |
-| 3pl | ئەوان | **سووتاون**<br><sub>sûtawn</sub><br><sub>/suːtaːwn/</sub> | **سووتابوون**<br><sub>sûtabûn</sub><br><sub>/suːtaːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **سووتاومە**<br><sub>sûtawme</sub><br><sub>/suːtaːwmæ/</sub> | **نەسووتاومە**<br><sub>nesûtawme</sub><br><sub>/næsuːtaːwmæ/</sub> | **سووتابووم**<br><sub>sûtabûm</sub><br><sub>/suːtaːbuːm/</sub> | **نەسووتابووم**<br><sub>nesûtabûm</sub><br><sub>/næsuːtaːbuːm/</sub> |
+| 2sg | تۆ | **سووتاویتە**<br><sub>sûtawîte</sub><br><sub>/suːtaːwiːtæ/</sub> | **نەسووتاویتە**<br><sub>nesûtawîte</sub><br><sub>/næsuːtaːwiːtæ/</sub> | **سووتابوویت**<br><sub>sûtabûyt</sub><br><sub>/suːtaːbuːjt/</sub> | **نەسووتابوویت**<br><sub>nesûtabûyt</sub><br><sub>/næsuːtaːbuːjt/</sub> |
+| 3sg | ئەو | **سووتاوە**<br><sub>sûtawe</sub><br><sub>/suːtaːwæ/</sub> | **نەسووتاوە**<br><sub>nesûtawe</sub><br><sub>/næsuːtaːwæ/</sub> | **سووتابوو**<br><sub>sûtabû</sub><br><sub>/suːtaːbuː/</sub> | **نەسووتابوو**<br><sub>nesûtabû</sub><br><sub>/næsuːtaːbuː/</sub> |
+| 1pl | ئێمە | **سووتاوینە**<br><sub>sûtawîne</sub><br><sub>/suːtaːwiːnæ/</sub> | **نەسووتاوینە**<br><sub>nesûtawîne</sub><br><sub>/næsuːtaːwiːnæ/</sub> | **سووتابووین**<br><sub>sûtabûyn</sub><br><sub>/suːtaːbuːjn/</sub> | **نەسووتابووین**<br><sub>nesûtabûyn</sub><br><sub>/næsuːtaːbuːjn/</sub> |
+| 2pl | ئێوە | **سووتاونە**<br><sub>sûtawne</sub><br><sub>/suːtaːwnæ/</sub> | **نەسووتاونە**<br><sub>nesûtawne</sub><br><sub>/næsuːtaːwnæ/</sub> | **سووتابوون**<br><sub>sûtabûn</sub><br><sub>/suːtaːbuːn/</sub> | **نەسووتابوون**<br><sub>nesûtabûn</sub><br><sub>/næsuːtaːbuːn/</sub> |
+| 3pl | ئەوان | **سووتاونە**<br><sub>sûtawne</sub><br><sub>/suːtaːwnæ/</sub> | **نەسووتاونە**<br><sub>nesûtawne</sub><br><sub>/næsuːtaːwnæ/</sub> | **سووتابوون**<br><sub>sûtabûn</sub><br><sub>/suːtaːbuːn/</sub> | **نەسووتابوون**<br><sub>nesûtabûn</sub><br><sub>/næsuːtaːbuːn/</sub> |
+
+## Past subjunctive
+
+*سووتان* (sûtan) “to burn (intr.)” — present stem **سووتێ**, past stem **سووتا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **سووتابام**<br><sub>sûtabam</sub><br><sub>/suːtaːbaːm/</sub> | **سووتابێتم**<br><sub>sûtabêtim</sub><br><sub>/suːtaːbeːt(ɯ)m/</sub> | **سووتابووبام**<br><sub>sûtabûbam</sub><br><sub>/suːtaːbuːbaːm/</sub> |
+| 2sg | تۆ | **سووتابایت**<br><sub>sûtabayt</sub><br><sub>/suːtaːbaːjt/</sub> | **سووتابێتیت**<br><sub>sûtabêtît</sub><br><sub>/suːtaːbeːtiːt/</sub> | **سووتابووبایت**<br><sub>sûtabûbayt</sub><br><sub>/suːtaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **سووتابا**<br><sub>sûtaba</sub><br><sub>/suːtaːbaː/</sub> | **سووتابێت**<br><sub>sûtabêt</sub><br><sub>/suːtaːbeːt/</sub> | **سووتابووبا**<br><sub>sûtabûba</sub><br><sub>/suːtaːbuːbaː/</sub> |
+| 1pl | ئێمە | **سووتاباین**<br><sub>sûtabayn</sub><br><sub>/suːtaːbaːjn/</sub> | **سووتابێتین**<br><sub>sûtabêtîn</sub><br><sub>/suːtaːbeːtiːn/</sub> | **سووتابووباین**<br><sub>sûtabûbayn</sub><br><sub>/suːtaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **سووتابان**<br><sub>sûtaban</sub><br><sub>/suːtaːbaːn/</sub> | **سووتابێتن**<br><sub>sûtabêtin</sub><br><sub>/suːtaːbeːt(ɯ)n/</sub> | **سووتابووبان**<br><sub>sûtabûban</sub><br><sub>/suːtaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **سووتابان**<br><sub>sûtaban</sub><br><sub>/suːtaːbaːn/</sub> | **سووتابێتن**<br><sub>sûtabêtin</sub><br><sub>/suːtaːbeːt(ɯ)n/</sub> | **سووتابووبان**<br><sub>sûtabûban</sub><br><sub>/suːtaːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*سووتان* (sûtan) “to burn (intr.)” — present stem **سووتێ**, past stem **سووتا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەسووتابام**<br><sub>nesûtabam</sub><br><sub>/næsuːtaːbaːm/</sub> | **نەسووتابێتم**<br><sub>nesûtabêtim</sub><br><sub>/næsuːtaːbeːt(ɯ)m/</sub> | **نەسووتابووبام**<br><sub>nesûtabûbam</sub><br><sub>/næsuːtaːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەسووتابایت**<br><sub>nesûtabayt</sub><br><sub>/næsuːtaːbaːjt/</sub> | **نەسووتابێتیت**<br><sub>nesûtabêtît</sub><br><sub>/næsuːtaːbeːtiːt/</sub> | **نەسووتابووبایت**<br><sub>nesûtabûbayt</sub><br><sub>/næsuːtaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەسووتابا**<br><sub>nesûtaba</sub><br><sub>/næsuːtaːbaː/</sub> | **نەسووتابێت**<br><sub>nesûtabêt</sub><br><sub>/næsuːtaːbeːt/</sub> | **نەسووتابووبا**<br><sub>nesûtabûba</sub><br><sub>/næsuːtaːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەسووتاباین**<br><sub>nesûtabayn</sub><br><sub>/næsuːtaːbaːjn/</sub> | **نەسووتابێتین**<br><sub>nesûtabêtîn</sub><br><sub>/næsuːtaːbeːtiːn/</sub> | **نەسووتابووباین**<br><sub>nesûtabûbayn</sub><br><sub>/næsuːtaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەسووتابان**<br><sub>nesûtaban</sub><br><sub>/næsuːtaːbaːn/</sub> | **نەسووتابێتن**<br><sub>nesûtabêtin</sub><br><sub>/næsuːtaːbeːt(ɯ)n/</sub> | **نەسووتابووبان**<br><sub>nesûtabûban</sub><br><sub>/næsuːtaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەسووتابان**<br><sub>nesûtaban</sub><br><sub>/næsuːtaːbaːn/</sub> | **نەسووتابێتن**<br><sub>nesûtabêtin</sub><br><sub>/næsuːtaːbeːt(ɯ)n/</sub> | **نەسووتابووبان**<br><sub>nesûtabûban</sub><br><sub>/næsuːtaːbuːbaːn/</sub> |
 
 ## Imperative
 

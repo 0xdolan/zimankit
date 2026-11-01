@@ -66,14 +66,40 @@
 
 *هەڵسان* (hellsan) “to get up, to rise” — present stem **هەڵس**, past stem **هەڵسا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **هەڵساوم**<br><sub>hellsawm</sub><br><sub>/hæɫsaːwm/</sub> | **هەڵسابووم**<br><sub>hellsabûm</sub><br><sub>/hæɫsaːbuːm/</sub> |
-| 2sg | تۆ | **هەڵساویت**<br><sub>hellsawît</sub><br><sub>/hæɫsaːwiːt/</sub> | **هەڵسابوویت**<br><sub>hellsabûyt</sub><br><sub>/hæɫsaːbuːjt/</sub> |
-| 3sg | ئەو | **هەڵساوە**<br><sub>hellsawe</sub><br><sub>/hæɫsaːwæ/</sub> | **هەڵسابوو**<br><sub>hellsabû</sub><br><sub>/hæɫsaːbuː/</sub> |
-| 1pl | ئێمە | **هەڵساوین**<br><sub>hellsawîn</sub><br><sub>/hæɫsaːwiːn/</sub> | **هەڵسابووین**<br><sub>hellsabûyn</sub><br><sub>/hæɫsaːbuːjn/</sub> |
-| 2pl | ئێوە | **هەڵساون**<br><sub>hellsawn</sub><br><sub>/hæɫsaːwn/</sub> | **هەڵسابوون**<br><sub>hellsabûn</sub><br><sub>/hæɫsaːbuːn/</sub> |
-| 3pl | ئەوان | **هەڵساون**<br><sub>hellsawn</sub><br><sub>/hæɫsaːwn/</sub> | **هەڵسابوون**<br><sub>hellsabûn</sub><br><sub>/hæɫsaːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **هەڵساومە**<br><sub>hellsawme</sub><br><sub>/hæɫsaːwmæ/</sub> | **نەهەڵساومە**<br><sub>nehellsawme</sub><br><sub>/næhæɫsaːwmæ/</sub> | **هەڵسابووم**<br><sub>hellsabûm</sub><br><sub>/hæɫsaːbuːm/</sub> | **نەهەڵسابووم**<br><sub>nehellsabûm</sub><br><sub>/næhæɫsaːbuːm/</sub> |
+| 2sg | تۆ | **هەڵساویتە**<br><sub>hellsawîte</sub><br><sub>/hæɫsaːwiːtæ/</sub> | **نەهەڵساویتە**<br><sub>nehellsawîte</sub><br><sub>/næhæɫsaːwiːtæ/</sub> | **هەڵسابوویت**<br><sub>hellsabûyt</sub><br><sub>/hæɫsaːbuːjt/</sub> | **نەهەڵسابوویت**<br><sub>nehellsabûyt</sub><br><sub>/næhæɫsaːbuːjt/</sub> |
+| 3sg | ئەو | **هەڵساوە**<br><sub>hellsawe</sub><br><sub>/hæɫsaːwæ/</sub> | **نەهەڵساوە**<br><sub>nehellsawe</sub><br><sub>/næhæɫsaːwæ/</sub> | **هەڵسابوو**<br><sub>hellsabû</sub><br><sub>/hæɫsaːbuː/</sub> | **نەهەڵسابوو**<br><sub>nehellsabû</sub><br><sub>/næhæɫsaːbuː/</sub> |
+| 1pl | ئێمە | **هەڵساوینە**<br><sub>hellsawîne</sub><br><sub>/hæɫsaːwiːnæ/</sub> | **نەهەڵساوینە**<br><sub>nehellsawîne</sub><br><sub>/næhæɫsaːwiːnæ/</sub> | **هەڵسابووین**<br><sub>hellsabûyn</sub><br><sub>/hæɫsaːbuːjn/</sub> | **نەهەڵسابووین**<br><sub>nehellsabûyn</sub><br><sub>/næhæɫsaːbuːjn/</sub> |
+| 2pl | ئێوە | **هەڵساونە**<br><sub>hellsawne</sub><br><sub>/hæɫsaːwnæ/</sub> | **نەهەڵساونە**<br><sub>nehellsawne</sub><br><sub>/næhæɫsaːwnæ/</sub> | **هەڵسابوون**<br><sub>hellsabûn</sub><br><sub>/hæɫsaːbuːn/</sub> | **نەهەڵسابوون**<br><sub>nehellsabûn</sub><br><sub>/næhæɫsaːbuːn/</sub> |
+| 3pl | ئەوان | **هەڵساونە**<br><sub>hellsawne</sub><br><sub>/hæɫsaːwnæ/</sub> | **نەهەڵساونە**<br><sub>nehellsawne</sub><br><sub>/næhæɫsaːwnæ/</sub> | **هەڵسابوون**<br><sub>hellsabûn</sub><br><sub>/hæɫsaːbuːn/</sub> | **نەهەڵسابوون**<br><sub>nehellsabûn</sub><br><sub>/næhæɫsaːbuːn/</sub> |
+
+## Past subjunctive
+
+*هەڵسان* (hellsan) “to get up, to rise” — present stem **هەڵس**, past stem **هەڵسا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **هەڵسابام**<br><sub>hellsabam</sub><br><sub>/hæɫsaːbaːm/</sub> | **هەڵسابێتم**<br><sub>hellsabêtim</sub><br><sub>/hæɫsaːbeːt(ɯ)m/</sub> | **هەڵسابووبام**<br><sub>hellsabûbam</sub><br><sub>/hæɫsaːbuːbaːm/</sub> |
+| 2sg | تۆ | **هەڵسابایت**<br><sub>hellsabayt</sub><br><sub>/hæɫsaːbaːjt/</sub> | **هەڵسابێتیت**<br><sub>hellsabêtît</sub><br><sub>/hæɫsaːbeːtiːt/</sub> | **هەڵسابووبایت**<br><sub>hellsabûbayt</sub><br><sub>/hæɫsaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **هەڵسابا**<br><sub>hellsaba</sub><br><sub>/hæɫsaːbaː/</sub> | **هەڵسابێت**<br><sub>hellsabêt</sub><br><sub>/hæɫsaːbeːt/</sub> | **هەڵسابووبا**<br><sub>hellsabûba</sub><br><sub>/hæɫsaːbuːbaː/</sub> |
+| 1pl | ئێمە | **هەڵساباین**<br><sub>hellsabayn</sub><br><sub>/hæɫsaːbaːjn/</sub> | **هەڵسابێتین**<br><sub>hellsabêtîn</sub><br><sub>/hæɫsaːbeːtiːn/</sub> | **هەڵسابووباین**<br><sub>hellsabûbayn</sub><br><sub>/hæɫsaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **هەڵسابان**<br><sub>hellsaban</sub><br><sub>/hæɫsaːbaːn/</sub> | **هەڵسابێتن**<br><sub>hellsabêtin</sub><br><sub>/hæɫsaːbeːt(ɯ)n/</sub> | **هەڵسابووبان**<br><sub>hellsabûban</sub><br><sub>/hæɫsaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **هەڵسابان**<br><sub>hellsaban</sub><br><sub>/hæɫsaːbaːn/</sub> | **هەڵسابێتن**<br><sub>hellsabêtin</sub><br><sub>/hæɫsaːbeːt(ɯ)n/</sub> | **هەڵسابووبان**<br><sub>hellsabûban</sub><br><sub>/hæɫsaːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*هەڵسان* (hellsan) “to get up, to rise” — present stem **هەڵس**, past stem **هەڵسا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەهەڵسابام**<br><sub>nehellsabam</sub><br><sub>/næhæɫsaːbaːm/</sub> | **نەهەڵسابێتم**<br><sub>nehellsabêtim</sub><br><sub>/næhæɫsaːbeːt(ɯ)m/</sub> | **نەهەڵسابووبام**<br><sub>nehellsabûbam</sub><br><sub>/næhæɫsaːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەهەڵسابایت**<br><sub>nehellsabayt</sub><br><sub>/næhæɫsaːbaːjt/</sub> | **نەهەڵسابێتیت**<br><sub>nehellsabêtît</sub><br><sub>/næhæɫsaːbeːtiːt/</sub> | **نەهەڵسابووبایت**<br><sub>nehellsabûbayt</sub><br><sub>/næhæɫsaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەهەڵسابا**<br><sub>nehellsaba</sub><br><sub>/næhæɫsaːbaː/</sub> | **نەهەڵسابێت**<br><sub>nehellsabêt</sub><br><sub>/næhæɫsaːbeːt/</sub> | **نەهەڵسابووبا**<br><sub>nehellsabûba</sub><br><sub>/næhæɫsaːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەهەڵساباین**<br><sub>nehellsabayn</sub><br><sub>/næhæɫsaːbaːjn/</sub> | **نەهەڵسابێتین**<br><sub>nehellsabêtîn</sub><br><sub>/næhæɫsaːbeːtiːn/</sub> | **نەهەڵسابووباین**<br><sub>nehellsabûbayn</sub><br><sub>/næhæɫsaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەهەڵسابان**<br><sub>nehellsaban</sub><br><sub>/næhæɫsaːbaːn/</sub> | **نەهەڵسابێتن**<br><sub>nehellsabêtin</sub><br><sub>/næhæɫsaːbeːt(ɯ)n/</sub> | **نەهەڵسابووبان**<br><sub>nehellsabûban</sub><br><sub>/næhæɫsaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەهەڵسابان**<br><sub>nehellsaban</sub><br><sub>/næhæɫsaːbaːn/</sub> | **نەهەڵسابێتن**<br><sub>nehellsabêtin</sub><br><sub>/næhæɫsaːbeːt(ɯ)n/</sub> | **نەهەڵسابووبان**<br><sub>nehellsabûban</sub><br><sub>/næhæɫsaːbuːbaːn/</sub> |
 
 ## Imperative
 

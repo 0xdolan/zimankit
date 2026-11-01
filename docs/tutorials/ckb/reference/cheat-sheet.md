@@ -13,7 +13,7 @@ Everything on one page. Lesson numbers in brackets.
 | a | ێک | یەک | پیاوێک، دەرگایەک |
 | plural | ان | یان | پیاوان |
 | this / that | ئەم / ئەو … ە | … یە | ئەم پیاوە |
-| ezafe | ی | ی | پیاوی باش |
+| ezafe | ی | ی; after ی: یی (ماسیی); after یی: ییی (سنەییی) | پیاوی باش |
 | a + adj | ێکی | یەکی | پیاوێکی باش |
 | the + adj | noun-ە adj-ەکە | | پیاوە باشەکە |
 
@@ -41,12 +41,12 @@ Everything on one page. Lesson numbers in brackets.
 
 | person | pronoun | Present | Subjunctive | Simple past | Past progressive | Present perfect | Past perfect |
 |---|---|---|---|---|---|---|---|
-| 1sg | من | **دەکەم**<br><sub>dekem</sub> | **بکەم**<br><sub>bikem</sub> | **کردم**<br><sub>kirdim</sub> | **دەمکرد**<br><sub>demkird</sub> | **کردوومە**<br><sub>kiridûme</sub> | **کردبووم**<br><sub>kirdibûm</sub> |
-| 2sg | تۆ | **دەکەیت**<br><sub>dekeyt</sub> | **بکەیت**<br><sub>bikeyt</sub> | **کردت**<br><sub>kirdit</sub> | **دەتکرد**<br><sub>detkird</sub> | **کردووتە**<br><sub>kiridûte</sub> | **کردبووت**<br><sub>kirdibût</sub> |
-| 3sg | ئەو | **دەکات**<br><sub>dekat</sub> | **بکات**<br><sub>bikat</sub> | **کردی**<br><sub>kiridî</sub> | **دەیکرد**<br><sub>deykird</sub> | **کردوویەتی**<br><sub>kiridûyetî</sub> | **کردبووی**<br><sub>kirdibûy</sub> |
-| 1pl | ئێمە | **دەکەین**<br><sub>dekeyn</sub> | **بکەین**<br><sub>bikeyn</sub> | **کردمان**<br><sub>kirdiman</sub> | **دەمانکرد**<br><sub>demankird</sub> | **کردوومانە**<br><sub>kiridûmane</sub> | **کردبوومان**<br><sub>kirdibûman</sub> |
-| 2pl | ئێوە | **دەکەن**<br><sub>deken</sub> | **بکەن**<br><sub>biken</sub> | **کردتان**<br><sub>kirditan</sub> | **دەتانکرد**<br><sub>detankird</sub> | **کردووتانە**<br><sub>kiridûtane</sub> | **کردبووتان**<br><sub>kirdibûtan</sub> |
-| 3pl | ئەوان | **دەکەن**<br><sub>deken</sub> | **بکەن**<br><sub>biken</sub> | **کردیان**<br><sub>kiridyan</sub> | **دەیانکرد**<br><sub>deyankird</sub> | **کردوویانە**<br><sub>kiridûyane</sub> | **کردبوویان**<br><sub>kirdibûyan</sub> |
+| 1sg | من | **دەکەم**<br><sub>dekem</sub> | **بکەم**<br><sub>bikem</sub> | **کردم**<br><sub>kirdim</sub> | **دەمکرد**<br><sub>demkird</sub> | **کردوومە**<br><sub>kirdûme</sub> | **کردبووم**<br><sub>kirdibûm</sub> |
+| 2sg | تۆ | **دەکەیت**<br><sub>dekeyt</sub> | **بکەیت**<br><sub>bikeyt</sub> | **کردت**<br><sub>kirdit</sub> | **دەتکرد**<br><sub>detkird</sub> | **کردووتە**<br><sub>kirdûte</sub> | **کردبووت**<br><sub>kirdibût</sub> |
+| 3sg | ئەو | **دەکات**<br><sub>dekat</sub> | **بکات**<br><sub>bikat</sub> | **کردی**<br><sub>kirdî</sub> | **دەیکرد**<br><sub>deykird</sub> | **کردوویەتی**<br><sub>kirdûyetî</sub> | **کردبووی**<br><sub>kirdibûy</sub> |
+| 1pl | ئێمە | **دەکەین**<br><sub>dekeyn</sub> | **بکەین**<br><sub>bikeyn</sub> | **کردمان**<br><sub>kirdiman</sub> | **دەمانکرد**<br><sub>demankird</sub> | **کردوومانە**<br><sub>kirdûmane</sub> | **کردبوومان**<br><sub>kirdibûman</sub> |
+| 2pl | ئێوە | **دەکەن**<br><sub>deken</sub> | **بکەن**<br><sub>biken</sub> | **کردتان**<br><sub>kirditan</sub> | **دەتانکرد**<br><sub>detankird</sub> | **کردووتانە**<br><sub>kirdûtane</sub> | **کردبووتان**<br><sub>kirdibûtan</sub> |
+| 3pl | ئەوان | **دەکەن**<br><sub>deken</sub> | **بکەن**<br><sub>biken</sub> | **کردیان**<br><sub>kirdyan</sub> | **دەیانکرد**<br><sub>deyankird</sub> | **کردوویانە**<br><sub>kirdûyane</sub> | **کردبوویان**<br><sub>kirdibûyan</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 <!-- /gen -->
@@ -56,12 +56,12 @@ Everything on one page. Lesson numbers in brackets.
 
 | person | pronoun | Present | Subjunctive | Simple past | Past progressive | Present perfect | Past perfect |
 |---|---|---|---|---|---|---|---|
-| 1sg | من | **دێم**<br><sub>dêm</sub> | **بێم**<br><sub>bêm</sub> | **هاتم**<br><sub>hatim</sub> | **دەهاتم**<br><sub>dehatim</sub> | **هاتووم**<br><sub>hatûm</sub> | **هاتبووم**<br><sub>hatbûm</sub> |
-| 2sg | تۆ | **دێیت**<br><sub>dêyt</sub> | **بێیت**<br><sub>bêyt</sub> | **هاتیت**<br><sub>hatît</sub> | **دەهاتیت**<br><sub>dehatît</sub> | **هاتوویت**<br><sub>hatûyt</sub> | **هاتبوویت**<br><sub>hatbûyt</sub> |
+| 1sg | من | **دێم**<br><sub>dêm</sub> | **بێم**<br><sub>bêm</sub> | **هاتم**<br><sub>hatim</sub> | **دەهاتم**<br><sub>dehatim</sub> | **هاتوومە**<br><sub>hatûme</sub> | **هاتبووم**<br><sub>hatbûm</sub> |
+| 2sg | تۆ | **دێیت**<br><sub>dêyt</sub> | **بێیت**<br><sub>bêyt</sub> | **هاتیت**<br><sub>hatît</sub> | **دەهاتیت**<br><sub>dehatît</sub> | **هاتوویتە**<br><sub>hatûyte</sub> | **هاتبوویت**<br><sub>hatbûyt</sub> |
 | 3sg | ئەو | **دێت**<br><sub>dêt</sub> | **بێت**<br><sub>bêt</sub> | **هات**<br><sub>hat</sub> | **دەهات**<br><sub>dehat</sub> | **هاتووە**<br><sub>hatûwe</sub> | **هاتبوو**<br><sub>hatbû</sub> |
-| 1pl | ئێمە | **دێین**<br><sub>dêyn</sub> | **بێین**<br><sub>bêyn</sub> | **هاتین**<br><sub>hatîn</sub> | **دەهاتین**<br><sub>dehatîn</sub> | **هاتووین**<br><sub>hatûyn</sub> | **هاتبووین**<br><sub>hatbûyn</sub> |
-| 2pl | ئێوە | **دێن**<br><sub>dên</sub> | **بێن**<br><sub>bên</sub> | **هاتن**<br><sub>hatin</sub> | **دەهاتن**<br><sub>dehatin</sub> | **هاتوون**<br><sub>hatûn</sub> | **هاتبوون**<br><sub>hatbûn</sub> |
-| 3pl | ئەوان | **دێن**<br><sub>dên</sub> | **بێن**<br><sub>bên</sub> | **هاتن**<br><sub>hatin</sub> | **دەهاتن**<br><sub>dehatin</sub> | **هاتوون**<br><sub>hatûn</sub> | **هاتبوون**<br><sub>hatbûn</sub> |
+| 1pl | ئێمە | **دێین**<br><sub>dêyn</sub> | **بێین**<br><sub>bêyn</sub> | **هاتین**<br><sub>hatîn</sub> | **دەهاتین**<br><sub>dehatîn</sub> | **هاتووینە**<br><sub>hatûyne</sub> | **هاتبووین**<br><sub>hatbûyn</sub> |
+| 2pl | ئێوە | **دێن**<br><sub>dên</sub> | **بێن**<br><sub>bên</sub> | **هاتن**<br><sub>hatin</sub> | **دەهاتن**<br><sub>dehatin</sub> | **هاتوونە**<br><sub>hatûne</sub> | **هاتبوون**<br><sub>hatbûn</sub> |
+| 3pl | ئەوان | **دێن**<br><sub>dên</sub> | **بێن**<br><sub>bên</sub> | **هاتن**<br><sub>hatin</sub> | **دەهاتن**<br><sub>dehatin</sub> | **هاتوونە**<br><sub>hatûne</sub> | **هاتبوون**<br><sub>hatbûn</sub> |
 <!-- /gen -->
 
 | form | recipe | کردن | هاتن |
@@ -74,9 +74,9 @@ Everything on one page. Lesson numbers in brackets.
 | simple past | past stem + set 1 / set 2 | کردم | هاتم |
 | past negative | نە + … | نەمکرد | نەهاتم |
 | past progressive | دە + past stem | دەمکرد | دەهاتم |
-| present perfect | participle + set 1 / set 2 + ە | کردوومە | هاتووم |
+| present perfect | participle + set 1 / set 2 + ە | کردوومە | هاتوومە |
 | past perfect | past stem + بوو + … | کردبووم | هاتبووم |
-| passive present | pres. stem + ر + ێ | دەکرێت | — |
+| passive present | pres. stem + ر + ێ; after ر/ڕ: + د + ر + ێ (دەکڕدرێت) | دەکرێت | — |
 | passive past | pres. stem + را | کرا | — |
 
 ## Prepositions [16]

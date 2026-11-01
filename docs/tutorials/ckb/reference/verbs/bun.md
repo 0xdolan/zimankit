@@ -66,14 +66,40 @@
 
 *بوون* (bûn) “to be, to become” — present stem **ب**, past stem **بوو**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **بووم**<br><sub>bûm</sub><br><sub>/buːm/</sub> | **بووبووم**<br><sub>bûbûm</sub><br><sub>/buːbuːm/</sub> |
-| 2sg | تۆ | **بوویت**<br><sub>bûyt</sub><br><sub>/buːjt/</sub> | **بووبوویت**<br><sub>bûbûyt</sub><br><sub>/buːbuːjt/</sub> |
-| 3sg | ئەو | **بووە**<br><sub>bûwe</sub><br><sub>/buːwæ/</sub> | **بووبوو**<br><sub>bûbû</sub><br><sub>/buːbuː/</sub> |
-| 1pl | ئێمە | **بووین**<br><sub>bûyn</sub><br><sub>/buːjn/</sub> | **بووبووین**<br><sub>bûbûyn</sub><br><sub>/buːbuːjn/</sub> |
-| 2pl | ئێوە | **بوون**<br><sub>bûn</sub><br><sub>/buːn/</sub> | **بووبوون**<br><sub>bûbûn</sub><br><sub>/buːbuːn/</sub> |
-| 3pl | ئەوان | **بوون**<br><sub>bûn</sub><br><sub>/buːn/</sub> | **بووبوون**<br><sub>bûbûn</sub><br><sub>/buːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **بوومە**<br><sub>bûme</sub><br><sub>/buːmæ/</sub> | **نەبوومە**<br><sub>nebûme</sub><br><sub>/næbuːmæ/</sub> | **بووبووم**<br><sub>bûbûm</sub><br><sub>/buːbuːm/</sub> | **نەبووبووم**<br><sub>nebûbûm</sub><br><sub>/næbuːbuːm/</sub> |
+| 2sg | تۆ | **بوویتە**<br><sub>bûyte</sub><br><sub>/buːjtæ/</sub> | **نەبوویتە**<br><sub>nebûyte</sub><br><sub>/næbuːjtæ/</sub> | **بووبوویت**<br><sub>bûbûyt</sub><br><sub>/buːbuːjt/</sub> | **نەبووبوویت**<br><sub>nebûbûyt</sub><br><sub>/næbuːbuːjt/</sub> |
+| 3sg | ئەو | **بووە**<br><sub>bûwe</sub><br><sub>/buːwæ/</sub> | **نەبووە**<br><sub>nebûwe</sub><br><sub>/næbuːwæ/</sub> | **بووبوو**<br><sub>bûbû</sub><br><sub>/buːbuː/</sub> | **نەبووبوو**<br><sub>nebûbû</sub><br><sub>/næbuːbuː/</sub> |
+| 1pl | ئێمە | **بووینە**<br><sub>bûyne</sub><br><sub>/buːjnæ/</sub> | **نەبووینە**<br><sub>nebûyne</sub><br><sub>/næbuːjnæ/</sub> | **بووبووین**<br><sub>bûbûyn</sub><br><sub>/buːbuːjn/</sub> | **نەبووبووین**<br><sub>nebûbûyn</sub><br><sub>/næbuːbuːjn/</sub> |
+| 2pl | ئێوە | **بوونە**<br><sub>bûne</sub><br><sub>/buːnæ/</sub> | **نەبوونە**<br><sub>nebûne</sub><br><sub>/næbuːnæ/</sub> | **بووبوون**<br><sub>bûbûn</sub><br><sub>/buːbuːn/</sub> | **نەبووبوون**<br><sub>nebûbûn</sub><br><sub>/næbuːbuːn/</sub> |
+| 3pl | ئەوان | **بوونە**<br><sub>bûne</sub><br><sub>/buːnæ/</sub> | **نەبوونە**<br><sub>nebûne</sub><br><sub>/næbuːnæ/</sub> | **بووبوون**<br><sub>bûbûn</sub><br><sub>/buːbuːn/</sub> | **نەبووبوون**<br><sub>nebûbûn</sub><br><sub>/næbuːbuːn/</sub> |
+
+## Past subjunctive
+
+*بوون* (bûn) “to be, to become” — present stem **ب**, past stem **بوو**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **بووبام**<br><sub>bûbam</sub><br><sub>/buːbaːm/</sub> | **بووبێتم**<br><sub>bûbêtim</sub><br><sub>/buːbeːt(ɯ)m/</sub> | **بووبووبام**<br><sub>bûbûbam</sub><br><sub>/buːbuːbaːm/</sub> |
+| 2sg | تۆ | **بووبایت**<br><sub>bûbayt</sub><br><sub>/buːbaːjt/</sub> | **بووبێتیت**<br><sub>bûbêtît</sub><br><sub>/buːbeːtiːt/</sub> | **بووبووبایت**<br><sub>bûbûbayt</sub><br><sub>/buːbuːbaːjt/</sub> |
+| 3sg | ئەو | **بووبا**<br><sub>bûba</sub><br><sub>/buːbaː/</sub> | **بووبێت**<br><sub>bûbêt</sub><br><sub>/buːbeːt/</sub> | **بووبووبا**<br><sub>bûbûba</sub><br><sub>/buːbuːbaː/</sub> |
+| 1pl | ئێمە | **بووباین**<br><sub>bûbayn</sub><br><sub>/buːbaːjn/</sub> | **بووبێتین**<br><sub>bûbêtîn</sub><br><sub>/buːbeːtiːn/</sub> | **بووبووباین**<br><sub>bûbûbayn</sub><br><sub>/buːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **بووبان**<br><sub>bûban</sub><br><sub>/buːbaːn/</sub> | **بووبێتن**<br><sub>bûbêtin</sub><br><sub>/buːbeːt(ɯ)n/</sub> | **بووبووبان**<br><sub>bûbûban</sub><br><sub>/buːbuːbaːn/</sub> |
+| 3pl | ئەوان | **بووبان**<br><sub>bûban</sub><br><sub>/buːbaːn/</sub> | **بووبێتن**<br><sub>bûbêtin</sub><br><sub>/buːbeːt(ɯ)n/</sub> | **بووبووبان**<br><sub>bûbûban</sub><br><sub>/buːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*بوون* (bûn) “to be, to become” — present stem **ب**, past stem **بوو**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەبووبام**<br><sub>nebûbam</sub><br><sub>/næbuːbaːm/</sub> | **نەبووبێتم**<br><sub>nebûbêtim</sub><br><sub>/næbuːbeːt(ɯ)m/</sub> | **نەبووبووبام**<br><sub>nebûbûbam</sub><br><sub>/næbuːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەبووبایت**<br><sub>nebûbayt</sub><br><sub>/næbuːbaːjt/</sub> | **نەبووبێتیت**<br><sub>nebûbêtît</sub><br><sub>/næbuːbeːtiːt/</sub> | **نەبووبووبایت**<br><sub>nebûbûbayt</sub><br><sub>/næbuːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەبووبا**<br><sub>nebûba</sub><br><sub>/næbuːbaː/</sub> | **نەبووبێت**<br><sub>nebûbêt</sub><br><sub>/næbuːbeːt/</sub> | **نەبووبووبا**<br><sub>nebûbûba</sub><br><sub>/næbuːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەبووباین**<br><sub>nebûbayn</sub><br><sub>/næbuːbaːjn/</sub> | **نەبووبێتین**<br><sub>nebûbêtîn</sub><br><sub>/næbuːbeːtiːn/</sub> | **نەبووبووباین**<br><sub>nebûbûbayn</sub><br><sub>/næbuːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەبووبان**<br><sub>nebûban</sub><br><sub>/næbuːbaːn/</sub> | **نەبووبێتن**<br><sub>nebûbêtin</sub><br><sub>/næbuːbeːt(ɯ)n/</sub> | **نەبووبووبان**<br><sub>nebûbûban</sub><br><sub>/næbuːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەبووبان**<br><sub>nebûban</sub><br><sub>/næbuːbaːn/</sub> | **نەبووبێتن**<br><sub>nebûbêtin</sub><br><sub>/næbuːbeːt(ɯ)n/</sub> | **نەبووبووبان**<br><sub>nebûbûban</sub><br><sub>/næbuːbuːbaːn/</sub> |
 
 ## Imperative
 

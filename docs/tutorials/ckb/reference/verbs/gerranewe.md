@@ -66,14 +66,40 @@
 
 *گەڕانەوە* (gerranewe) “to return” — present stem **گەڕێ**, past stem **گەڕا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **گەڕاومەوە**<br><sub>gerrawmewe</sub><br><sub>/ɡæraːwmæwæ/</sub> | **گەڕابوومەوە**<br><sub>gerrabûmewe</sub><br><sub>/ɡæraːbuːmæwæ/</sub> |
-| 2sg | تۆ | **گەڕاویتەوە**<br><sub>gerrawîtewe</sub><br><sub>/ɡæraːwiːtæwæ/</sub> | **گەڕابوویتەوە**<br><sub>gerrabûytewe</sub><br><sub>/ɡæraːbuːjtæwæ/</sub> |
-| 3sg | ئەو | **گەڕاوەوە**<br><sub>gerrawewe</sub><br><sub>/ɡæraːwæwæ/</sub> | **گەڕابوووە**<br><sub>gerrabûwe</sub><br><sub>/ɡæraːbuːwæ/</sub> |
-| 1pl | ئێمە | **گەڕاوینەوە**<br><sub>gerrawînewe</sub><br><sub>/ɡæraːwiːnæwæ/</sub> | **گەڕابووینەوە**<br><sub>gerrabûynewe</sub><br><sub>/ɡæraːbuːjnæwæ/</sub> |
-| 2pl | ئێوە | **گەڕاونەوە**<br><sub>gerrawnewe</sub><br><sub>/ɡæraːwnæwæ/</sub> | **گەڕابوونەوە**<br><sub>gerrabûnewe</sub><br><sub>/ɡæraːbuːnæwæ/</sub> |
-| 3pl | ئەوان | **گەڕاونەوە**<br><sub>gerrawnewe</sub><br><sub>/ɡæraːwnæwæ/</sub> | **گەڕابوونەوە**<br><sub>gerrabûnewe</sub><br><sub>/ɡæraːbuːnæwæ/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **گەڕاومەتەوە**<br><sub>gerrawmetewe</sub><br><sub>/ɡæraːwmætæwæ/</sub> | **نەگەڕاومەتەوە**<br><sub>negerrawmetewe</sub><br><sub>/næɡæraːwmætæwæ/</sub> | **گەڕابوومەوە**<br><sub>gerrabûmewe</sub><br><sub>/ɡæraːbuːmæwæ/</sub> | **نەگەڕابوومەوە**<br><sub>negerrabûmewe</sub><br><sub>/næɡæraːbuːmæwæ/</sub> |
+| 2sg | تۆ | **گەڕاویتەتەوە**<br><sub>gerrawîtetewe</sub><br><sub>/ɡæraːwiːtætæwæ/</sub> | **نەگەڕاویتەتەوە**<br><sub>negerrawîtetewe</sub><br><sub>/næɡæraːwiːtætæwæ/</sub> | **گەڕابوویتەوە**<br><sub>gerrabûytewe</sub><br><sub>/ɡæraːbuːjtæwæ/</sub> | **نەگەڕابوویتەوە**<br><sub>negerrabûytewe</sub><br><sub>/næɡæraːbuːjtæwæ/</sub> |
+| 3sg | ئەو | **گەڕاوەتەوە**<br><sub>gerrawetewe</sub><br><sub>/ɡæraːwætæwæ/</sub> | **نەگەڕاوەتەوە**<br><sub>negerrawetewe</sub><br><sub>/næɡæraːwætæwæ/</sub> | **گەڕابووەوە**<br><sub>gerrabûwewe</sub><br><sub>/ɡæraːbuːwæwæ/</sub> | **نەگەڕابووەوە**<br><sub>negerrabûwewe</sub><br><sub>/næɡæraːbuːwæwæ/</sub> |
+| 1pl | ئێمە | **گەڕاوینەتەوە**<br><sub>gerrawînetewe</sub><br><sub>/ɡæraːwiːnætæwæ/</sub> | **نەگەڕاوینەتەوە**<br><sub>negerrawînetewe</sub><br><sub>/næɡæraːwiːnætæwæ/</sub> | **گەڕابووینەوە**<br><sub>gerrabûynewe</sub><br><sub>/ɡæraːbuːjnæwæ/</sub> | **نەگەڕابووینەوە**<br><sub>negerrabûynewe</sub><br><sub>/næɡæraːbuːjnæwæ/</sub> |
+| 2pl | ئێوە | **گەڕاونەتەوە**<br><sub>gerrawnetewe</sub><br><sub>/ɡæraːwnætæwæ/</sub> | **نەگەڕاونەتەوە**<br><sub>negerrawnetewe</sub><br><sub>/næɡæraːwnætæwæ/</sub> | **گەڕابوونەوە**<br><sub>gerrabûnewe</sub><br><sub>/ɡæraːbuːnæwæ/</sub> | **نەگەڕابوونەوە**<br><sub>negerrabûnewe</sub><br><sub>/næɡæraːbuːnæwæ/</sub> |
+| 3pl | ئەوان | **گەڕاونەتەوە**<br><sub>gerrawnetewe</sub><br><sub>/ɡæraːwnætæwæ/</sub> | **نەگەڕاونەتەوە**<br><sub>negerrawnetewe</sub><br><sub>/næɡæraːwnætæwæ/</sub> | **گەڕابوونەوە**<br><sub>gerrabûnewe</sub><br><sub>/ɡæraːbuːnæwæ/</sub> | **نەگەڕابوونەوە**<br><sub>negerrabûnewe</sub><br><sub>/næɡæraːbuːnæwæ/</sub> |
+
+## Past subjunctive
+
+*گەڕانەوە* (gerranewe) “to return” — present stem **گەڕێ**, past stem **گەڕا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **گەڕابامەوە**<br><sub>gerrabamewe</sub><br><sub>/ɡæraːbaːmæwæ/</sub> | **گەڕابێتمەوە**<br><sub>gerrabêtmewe</sub><br><sub>/ɡæraːbeːtmæwæ/</sub> | **گەڕابووبامەوە**<br><sub>gerrabûbamewe</sub><br><sub>/ɡæraːbuːbaːmæwæ/</sub> |
+| 2sg | تۆ | **گەڕابایتەوە**<br><sub>gerrabaytewe</sub><br><sub>/ɡæraːbaːjtæwæ/</sub> | **گەڕابێتیتەوە**<br><sub>gerrabêtîtewe</sub><br><sub>/ɡæraːbeːtiːtæwæ/</sub> | **گەڕابووبایتەوە**<br><sub>gerrabûbaytewe</sub><br><sub>/ɡæraːbuːbaːjtæwæ/</sub> |
+| 3sg | ئەو | **گەڕابایەوە**<br><sub>gerrabayewe</sub><br><sub>/ɡæraːbaːjæwæ/</sub> | **گەڕابێتەوە**<br><sub>gerrabêtewe</sub><br><sub>/ɡæraːbeːtæwæ/</sub> | **گەڕابووبایەوە**<br><sub>gerrabûbayewe</sub><br><sub>/ɡæraːbuːbaːjæwæ/</sub> |
+| 1pl | ئێمە | **گەڕاباینەوە**<br><sub>gerrabaynewe</sub><br><sub>/ɡæraːbaːjnæwæ/</sub> | **گەڕابێتینەوە**<br><sub>gerrabêtînewe</sub><br><sub>/ɡæraːbeːtiːnæwæ/</sub> | **گەڕابووباینەوە**<br><sub>gerrabûbaynewe</sub><br><sub>/ɡæraːbuːbaːjnæwæ/</sub> |
+| 2pl | ئێوە | **گەڕابانەوە**<br><sub>gerrabanewe</sub><br><sub>/ɡæraːbaːnæwæ/</sub> | **گەڕابێتنەوە**<br><sub>gerrabêtnewe</sub><br><sub>/ɡæraːbeːtnæwæ/</sub> | **گەڕابووبانەوە**<br><sub>gerrabûbanewe</sub><br><sub>/ɡæraːbuːbaːnæwæ/</sub> |
+| 3pl | ئەوان | **گەڕابانەوە**<br><sub>gerrabanewe</sub><br><sub>/ɡæraːbaːnæwæ/</sub> | **گەڕابێتنەوە**<br><sub>gerrabêtnewe</sub><br><sub>/ɡæraːbeːtnæwæ/</sub> | **گەڕابووبانەوە**<br><sub>gerrabûbanewe</sub><br><sub>/ɡæraːbuːbaːnæwæ/</sub> |
+
+## Past subjunctive negative
+
+*گەڕانەوە* (gerranewe) “to return” — present stem **گەڕێ**, past stem **گەڕا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەگەڕابامەوە**<br><sub>negerrabamewe</sub><br><sub>/næɡæraːbaːmæwæ/</sub> | **نەگەڕابێتمەوە**<br><sub>negerrabêtmewe</sub><br><sub>/næɡæraːbeːtmæwæ/</sub> | **نەگەڕابووبامەوە**<br><sub>negerrabûbamewe</sub><br><sub>/næɡæraːbuːbaːmæwæ/</sub> |
+| 2sg | تۆ | **نەگەڕابایتەوە**<br><sub>negerrabaytewe</sub><br><sub>/næɡæraːbaːjtæwæ/</sub> | **نەگەڕابێتیتەوە**<br><sub>negerrabêtîtewe</sub><br><sub>/næɡæraːbeːtiːtæwæ/</sub> | **نەگەڕابووبایتەوە**<br><sub>negerrabûbaytewe</sub><br><sub>/næɡæraːbuːbaːjtæwæ/</sub> |
+| 3sg | ئەو | **نەگەڕابایەوە**<br><sub>negerrabayewe</sub><br><sub>/næɡæraːbaːjæwæ/</sub> | **نەگەڕابێتەوە**<br><sub>negerrabêtewe</sub><br><sub>/næɡæraːbeːtæwæ/</sub> | **نەگەڕابووبایەوە**<br><sub>negerrabûbayewe</sub><br><sub>/næɡæraːbuːbaːjæwæ/</sub> |
+| 1pl | ئێمە | **نەگەڕاباینەوە**<br><sub>negerrabaynewe</sub><br><sub>/næɡæraːbaːjnæwæ/</sub> | **نەگەڕابێتینەوە**<br><sub>negerrabêtînewe</sub><br><sub>/næɡæraːbeːtiːnæwæ/</sub> | **نەگەڕابووباینەوە**<br><sub>negerrabûbaynewe</sub><br><sub>/næɡæraːbuːbaːjnæwæ/</sub> |
+| 2pl | ئێوە | **نەگەڕابانەوە**<br><sub>negerrabanewe</sub><br><sub>/næɡæraːbaːnæwæ/</sub> | **نەگەڕابێتنەوە**<br><sub>negerrabêtnewe</sub><br><sub>/næɡæraːbeːtnæwæ/</sub> | **نەگەڕابووبانەوە**<br><sub>negerrabûbanewe</sub><br><sub>/næɡæraːbuːbaːnæwæ/</sub> |
+| 3pl | ئەوان | **نەگەڕابانەوە**<br><sub>negerrabanewe</sub><br><sub>/næɡæraːbaːnæwæ/</sub> | **نەگەڕابێتنەوە**<br><sub>negerrabêtnewe</sub><br><sub>/næɡæraːbeːtnæwæ/</sub> | **نەگەڕابووبانەوە**<br><sub>negerrabûbanewe</sub><br><sub>/næɡæraːbuːbaːnæwæ/</sub> |
 
 ## Imperative
 
@@ -89,7 +115,7 @@
 | form | Kurdish | Latin |
 |---|---|---|
 | infinitive | **گەڕانەوە** | gerranewe |
-| past participle | **گەڕاووە** | gerrawûwe |
+| past participle | **گەڕاوەوە** | gerrawewe |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

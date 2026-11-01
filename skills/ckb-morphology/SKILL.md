@@ -1,11 +1,11 @@
 ---
 name: ckb-morphology
-description: Segment and lemmatize Central Kurdish (Sorani) words: definiteness (-ەکە, -کە, -ەکان), indefinite -ێک, plural -ان, pronominal enclitics (م ت ی مان تان یان), additive -یش, postpositions -دا/-ەوە, comparatives, derivation and attached prepositions لە/بە/بۆ. Use for stemming, lemmatization or morphological glossing of Sorani.
+description: Segment and lemmatize Central Kurdish (Sorani) words: definiteness (-ەکە, -کە, -ەکان), indefinite -ێک, plural -ان, pronominal enclitics (م ت ی مان تان یان), additive -یش, postpositions -دا/-ەوە/-ڕا/-ێ, copula -ە/-یە, comparatives, derivation and attached prepositions لە/بە/بۆ. Use for stemming, lemmatization or morphological glossing of Sorani.
 ---
 
 # ckb-morphology
 
-Segment and lemmatize Central Kurdish (Sorani) words: definiteness (-ەکە, -کە, -ەکان), indefinite -ێک, plural -ان, pronominal enclitics (م ت ی مان تان یان), additive -یش, postpositions -دا/-ەوە, comparatives, derivation and attached prepositions لە/بە/بۆ. Use for stemming, lemmatization or morphological glossing of Sorani.
+Segment and lemmatize Central Kurdish (Sorani) words: definiteness (-ەکە, -کە, -ەکان), indefinite -ێک, plural -ان, pronominal enclitics (م ت ی مان تان یان), additive -یش, postpositions -دا/-ەوە/-ڕا/-ێ, copula -ە/-یە, comparatives, derivation and attached prepositions لە/بە/بۆ. Use for stemming, lemmatization or morphological glossing of Sorani.
 
 Full explanation: [docs/09-ckb-morphology.md](../../docs/09-ckb-morphology.md)
 
@@ -24,10 +24,10 @@ from zimankit.skills_ckb.morphology import CkbAnalyzer
 
 ## Rules to apply
 
-1. Template: [PREP] STEM [DERIV] [CMP] [NUM/DEF] [ENCLITIC] [ADD] [POSTP].
+1. Template: [PREP] STEM [DERIV] [CMP] [NUM/DEF] [ENCLITIC] [ADD] [POSTP] [ە/یە].
 2. Allomorph choice depends on whether the stem ends in a vowel *sound*: پیاو ends in /w/ → پیاوەکە; دەرگا ends in a vowel → دەرگاکە.
 3. Generate all segmentations, rank by lexicon membership, corpus frequency and affix reliability; do not trust the first regex match.
-4. Final ی is ambiguous (ezafe vs 3sg enclitic) — keep both readings.
+4. Final ی is ambiguous (ezafe vs 3sg enclitic), and so is final ە/یە (copula, definite ezafe, demonstrative, vocative): keep the readings, and let the context decide.
 5. Pass a SimpleLexicon built from output/ckb/lemmas_ckb.csv for production accuracy.
 
 ## Checklist

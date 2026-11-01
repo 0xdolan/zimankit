@@ -9,6 +9,7 @@
 ```bash
 python run_pipeline.py                         # lexicon → dictionaries → corpus → build → rules → export
 python run_pipeline.py --stages build,rules    # reuse cached harvests
+python run_pipeline.py --stages bundle         # release asset, after export; never part of a plain run
 python run_pipeline.py --langs kmr --force     # recompute everything for one variety
 ```
 
@@ -22,6 +23,7 @@ python run_pipeline.py --langs kmr --force     # recompute everything for one va
 | 4 | build | all of the above + core tables | `output/<lang>/…` | ~1.5 min / variety |
 | 5 | rules | code tables | `output/<lang>/grammar_rules_<lang>.json` | seconds |
 | 6 | export | stage 4 outputs + `lexicon_wiki.jsonl` | `output/kaggle/…` | ~2.5 min |
+| 7 | bundle (only when asked for) | stage 5 and 6 outputs | `output/bundle/zimankit-lexicon-<version>.tar.zst` | ~1 min |
 
 \* 8 workers, ~1.8 GB of text.
 
@@ -90,7 +92,7 @@ malê,mal,NOUN,maːleː,"{""case"":""obl"",""gender"":""f"",""seg"":""mal+ê""}"
 bavê,bav,NOUN,baːveː,"{""ezafe"":""yes"",""gender"":""m"",""seg"":""bav+ê""}",باڤێ,8682,...
 ```
 
-Spelling variants learnt from the data: `وێستگه → وێستگە` (legacy final heh), `ڕای‌گەیاند → ڕایگەیاند` (stray ZWNJ), `بالادەستی → باڵادەستی` (ل/ڵ), `گولله → گوللە`.
+Spelling variants learnt from the data: `وێستگه → وێستگە` (legacy final heh), `ڕای‌گەیاند → ڕایگەیاند` (stray ZWNJ; the corpus prefers the solid form, and the standard prefers `ڕای گەیاند`), `بالادەستی → باڵادەستی` (ل/ڵ), `گولله → گوللە`.
 
 ## Kaggle dataset (`output/kaggle/`)
 

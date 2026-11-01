@@ -41,6 +41,8 @@ Sorani frames the noun between a **demonstrative before it** and the ending **-�
 | 4 | ئەو دەرگایە داخە. | ew dergaye daxe. | /ʔæw dæɾɡaːjæ daːxæ/ | Close that door. |
 <!-- /gen -->
 
+With time words **ئەم** joins the word: ئەمڕۆ, ئەمشەو, ئەمساڵ, ئەمجار. If an ending follows, write them apart: ئەم جارە.
+
 Used **alone** (without a noun), *this* and *that* are pronouns:
 
 | | singular | plural |

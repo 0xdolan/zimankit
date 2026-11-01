@@ -27,6 +27,17 @@ git switch develop && git merge --no-ff feature/my-change
 
 Pushing the tag starts [`.github/workflows/release.yml`](.github/workflows/release.yml). It runs the tests and builds the wheel, sdist, `.deb` and source archives. It then publishes the wheel and sdist to PyPI, and all the files on a GitHub release with the changelog section as its notes. The two publishing jobs are separate, so one can be re-run if the other fails. A version number can be uploaded to PyPI only once; a mistake needs a new version.
 
+## The lexicon bundle
+
+The full lexicon is built from private raw data, so CI cannot make it. After a release that changes the data, build it from the tagged code on a machine that has the cache and attach it by hand:
+
+```bash
+python run_pipeline.py --stages build,rules,export,bundle
+gh release upload vX.Y.Z output/bundle/zimankit-lexicon-X.Y.Z.tar.zst output/bundle/zimankit-lexicon-X.Y.Z.tar.zst.sha256
+```
+
+The stage needs `zstd` and `pyarrow` (`pip install 'zimankit[kaggle]'`).
+
 ## PyPI: Trusted Publishing
 
 zimankit publishes to [PyPI](https://pypi.org/project/zimankit/) with [Trusted Publishing](https://docs.pypi.org/trusted-publishers/): PyPI trusts this repository's release workflow through OpenID Connect, so no password or API token is stored anywhere.

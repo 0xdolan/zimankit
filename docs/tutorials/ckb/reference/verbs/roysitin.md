@@ -66,14 +66,40 @@
 
 *ڕۆیشتن* (royşitin) “to go, to walk, to leave” — present stem **ڕۆ**, past stem **ڕۆیشت**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **ڕۆیشتووم**<br><sub>royştûm</sub><br><sub>/roːjʃtuːm/</sub> | **ڕۆیشتبووم**<br><sub>royşitbûm</sub><br><sub>/roːjʃ(ɯ)tbuːm/</sub> |
-| 2sg | تۆ | **ڕۆیشتوویت**<br><sub>royştûyt</sub><br><sub>/roːjʃtuːjt/</sub> | **ڕۆیشتبوویت**<br><sub>royşitbûyt</sub><br><sub>/roːjʃ(ɯ)tbuːjt/</sub> |
-| 3sg | ئەو | **ڕۆیشتووە**<br><sub>royştûwe</sub><br><sub>/roːjʃtuːwæ/</sub> | **ڕۆیشتبوو**<br><sub>royşitbû</sub><br><sub>/roːjʃ(ɯ)tbuː/</sub> |
-| 1pl | ئێمە | **ڕۆیشتووین**<br><sub>royştûyn</sub><br><sub>/roːjʃtuːjn/</sub> | **ڕۆیشتبووین**<br><sub>royşitbûyn</sub><br><sub>/roːjʃ(ɯ)tbuːjn/</sub> |
-| 2pl | ئێوە | **ڕۆیشتوون**<br><sub>royştûn</sub><br><sub>/roːjʃtuːn/</sub> | **ڕۆیشتبوون**<br><sub>royşitbûn</sub><br><sub>/roːjʃ(ɯ)tbuːn/</sub> |
-| 3pl | ئەوان | **ڕۆیشتوون**<br><sub>royştûn</sub><br><sub>/roːjʃtuːn/</sub> | **ڕۆیشتبوون**<br><sub>royşitbûn</sub><br><sub>/roːjʃ(ɯ)tbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **ڕۆیشتوومە**<br><sub>royştûme</sub><br><sub>/roːjʃtuːmæ/</sub> | **نەڕۆیشتوومە**<br><sub>nerroyştûme</sub><br><sub>/næroːjʃtuːmæ/</sub> | **ڕۆیشتبووم**<br><sub>royşitbûm</sub><br><sub>/roːjʃ(ɯ)tbuːm/</sub> | **نەڕۆیشتبووم**<br><sub>nerroyşitbûm</sub><br><sub>/næroːjʃ(ɯ)tbuːm/</sub> |
+| 2sg | تۆ | **ڕۆیشتوویتە**<br><sub>royştûyte</sub><br><sub>/roːjʃtuːjtæ/</sub> | **نەڕۆیشتوویتە**<br><sub>nerroyştûyte</sub><br><sub>/næroːjʃtuːjtæ/</sub> | **ڕۆیشتبوویت**<br><sub>royşitbûyt</sub><br><sub>/roːjʃ(ɯ)tbuːjt/</sub> | **نەڕۆیشتبوویت**<br><sub>nerroyşitbûyt</sub><br><sub>/næroːjʃ(ɯ)tbuːjt/</sub> |
+| 3sg | ئەو | **ڕۆیشتووە**<br><sub>royştûwe</sub><br><sub>/roːjʃtuːwæ/</sub> | **نەڕۆیشتووە**<br><sub>nerroyştûwe</sub><br><sub>/næroːjʃtuːwæ/</sub> | **ڕۆیشتبوو**<br><sub>royşitbû</sub><br><sub>/roːjʃ(ɯ)tbuː/</sub> | **نەڕۆیشتبوو**<br><sub>nerroyşitbû</sub><br><sub>/næroːjʃ(ɯ)tbuː/</sub> |
+| 1pl | ئێمە | **ڕۆیشتووینە**<br><sub>royştûyne</sub><br><sub>/roːjʃtuːjnæ/</sub> | **نەڕۆیشتووینە**<br><sub>nerroyştûyne</sub><br><sub>/næroːjʃtuːjnæ/</sub> | **ڕۆیشتبووین**<br><sub>royşitbûyn</sub><br><sub>/roːjʃ(ɯ)tbuːjn/</sub> | **نەڕۆیشتبووین**<br><sub>nerroyşitbûyn</sub><br><sub>/næroːjʃ(ɯ)tbuːjn/</sub> |
+| 2pl | ئێوە | **ڕۆیشتوونە**<br><sub>royştûne</sub><br><sub>/roːjʃtuːnæ/</sub> | **نەڕۆیشتوونە**<br><sub>nerroyştûne</sub><br><sub>/næroːjʃtuːnæ/</sub> | **ڕۆیشتبوون**<br><sub>royşitbûn</sub><br><sub>/roːjʃ(ɯ)tbuːn/</sub> | **نەڕۆیشتبوون**<br><sub>nerroyşitbûn</sub><br><sub>/næroːjʃ(ɯ)tbuːn/</sub> |
+| 3pl | ئەوان | **ڕۆیشتوونە**<br><sub>royştûne</sub><br><sub>/roːjʃtuːnæ/</sub> | **نەڕۆیشتوونە**<br><sub>nerroyştûne</sub><br><sub>/næroːjʃtuːnæ/</sub> | **ڕۆیشتبوون**<br><sub>royşitbûn</sub><br><sub>/roːjʃ(ɯ)tbuːn/</sub> | **نەڕۆیشتبوون**<br><sub>nerroyşitbûn</sub><br><sub>/næroːjʃ(ɯ)tbuːn/</sub> |
+
+## Past subjunctive
+
+*ڕۆیشتن* (royşitin) “to go, to walk, to leave” — present stem **ڕۆ**, past stem **ڕۆیشت**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **ڕۆیشتبام**<br><sub>royşitbam</sub><br><sub>/roːjʃ(ɯ)tbaːm/</sub> | **ڕۆیشتبێتم**<br><sub>royşitbêtim</sub><br><sub>/roːjʃ(ɯ)tbeːt(ɯ)m/</sub> | **ڕۆیشتبووبام**<br><sub>royşitbûbam</sub><br><sub>/roːjʃ(ɯ)tbuːbaːm/</sub> |
+| 2sg | تۆ | **ڕۆیشتبایت**<br><sub>royşitbayt</sub><br><sub>/roːjʃ(ɯ)tbaːjt/</sub> | **ڕۆیشتبێتیت**<br><sub>royşitbêtît</sub><br><sub>/roːjʃ(ɯ)tbeːtiːt/</sub> | **ڕۆیشتبووبایت**<br><sub>royşitbûbayt</sub><br><sub>/roːjʃ(ɯ)tbuːbaːjt/</sub> |
+| 3sg | ئەو | **ڕۆیشتبا**<br><sub>royşitba</sub><br><sub>/roːjʃ(ɯ)tbaː/</sub> | **ڕۆیشتبێت**<br><sub>royşitbêt</sub><br><sub>/roːjʃ(ɯ)tbeːt/</sub> | **ڕۆیشتبووبا**<br><sub>royşitbûba</sub><br><sub>/roːjʃ(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **ڕۆیشتباین**<br><sub>royşitbayn</sub><br><sub>/roːjʃ(ɯ)tbaːjn/</sub> | **ڕۆیشتبێتین**<br><sub>royşitbêtîn</sub><br><sub>/roːjʃ(ɯ)tbeːtiːn/</sub> | **ڕۆیشتبووباین**<br><sub>royşitbûbayn</sub><br><sub>/roːjʃ(ɯ)tbuːbaːjn/</sub> |
+| 2pl | ئێوە | **ڕۆیشتبان**<br><sub>royşitban</sub><br><sub>/roːjʃ(ɯ)tbaːn/</sub> | **ڕۆیشتبێتن**<br><sub>royşitbêtin</sub><br><sub>/roːjʃ(ɯ)tbeːt(ɯ)n/</sub> | **ڕۆیشتبووبان**<br><sub>royşitbûban</sub><br><sub>/roːjʃ(ɯ)tbuːbaːn/</sub> |
+| 3pl | ئەوان | **ڕۆیشتبان**<br><sub>royşitban</sub><br><sub>/roːjʃ(ɯ)tbaːn/</sub> | **ڕۆیشتبێتن**<br><sub>royşitbêtin</sub><br><sub>/roːjʃ(ɯ)tbeːt(ɯ)n/</sub> | **ڕۆیشتبووبان**<br><sub>royşitbûban</sub><br><sub>/roːjʃ(ɯ)tbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*ڕۆیشتن* (royşitin) “to go, to walk, to leave” — present stem **ڕۆ**, past stem **ڕۆیشت**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەڕۆیشتبام**<br><sub>nerroyşitbam</sub><br><sub>/næroːjʃ(ɯ)tbaːm/</sub> | **نەڕۆیشتبێتم**<br><sub>nerroyşitbêtim</sub><br><sub>/næroːjʃ(ɯ)tbeːt(ɯ)m/</sub> | **نەڕۆیشتبووبام**<br><sub>nerroyşitbûbam</sub><br><sub>/næroːjʃ(ɯ)tbuːbaːm/</sub> |
+| 2sg | تۆ | **نەڕۆیشتبایت**<br><sub>nerroyşitbayt</sub><br><sub>/næroːjʃ(ɯ)tbaːjt/</sub> | **نەڕۆیشتبێتیت**<br><sub>nerroyşitbêtît</sub><br><sub>/næroːjʃ(ɯ)tbeːtiːt/</sub> | **نەڕۆیشتبووبایت**<br><sub>nerroyşitbûbayt</sub><br><sub>/næroːjʃ(ɯ)tbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەڕۆیشتبا**<br><sub>nerroyşitba</sub><br><sub>/næroːjʃ(ɯ)tbaː/</sub> | **نەڕۆیشتبێت**<br><sub>nerroyşitbêt</sub><br><sub>/næroːjʃ(ɯ)tbeːt/</sub> | **نەڕۆیشتبووبا**<br><sub>nerroyşitbûba</sub><br><sub>/næroːjʃ(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **نەڕۆیشتباین**<br><sub>nerroyşitbayn</sub><br><sub>/næroːjʃ(ɯ)tbaːjn/</sub> | **نەڕۆیشتبێتین**<br><sub>nerroyşitbêtîn</sub><br><sub>/næroːjʃ(ɯ)tbeːtiːn/</sub> | **نەڕۆیشتبووباین**<br><sub>nerroyşitbûbayn</sub><br><sub>/næroːjʃ(ɯ)tbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەڕۆیشتبان**<br><sub>nerroyşitban</sub><br><sub>/næroːjʃ(ɯ)tbaːn/</sub> | **نەڕۆیشتبێتن**<br><sub>nerroyşitbêtin</sub><br><sub>/næroːjʃ(ɯ)tbeːt(ɯ)n/</sub> | **نەڕۆیشتبووبان**<br><sub>nerroyşitbûban</sub><br><sub>/næroːjʃ(ɯ)tbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەڕۆیشتبان**<br><sub>nerroyşitban</sub><br><sub>/næroːjʃ(ɯ)tbaːn/</sub> | **نەڕۆیشتبێتن**<br><sub>nerroyşitbêtin</sub><br><sub>/næroːjʃ(ɯ)tbeːt(ɯ)n/</sub> | **نەڕۆیشتبووبان**<br><sub>nerroyşitbûban</sub><br><sub>/næroːjʃ(ɯ)tbuːbaːn/</sub> |
 
 ## Imperative
 

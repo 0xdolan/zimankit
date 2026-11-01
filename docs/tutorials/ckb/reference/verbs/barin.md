@@ -66,14 +66,40 @@
 
 *بارین* (barîn) “to rain, to fall (rain, snow)” — present stem **بار**, past stem **باری**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **باریوم**<br><sub>barîwm</sub><br><sub>/baːɾiːwm/</sub> | **باریبووم**<br><sub>barîbûm</sub><br><sub>/baːɾiːbuːm/</sub> |
-| 2sg | تۆ | **باریویت**<br><sub>barîwît</sub><br><sub>/baːɾiːwiːt/</sub> | **باریبوویت**<br><sub>barîbûyt</sub><br><sub>/baːɾiːbuːjt/</sub> |
-| 3sg | ئەو | **باریوە**<br><sub>barîwe</sub><br><sub>/baːɾiːwæ/</sub> | **باریبوو**<br><sub>barîbû</sub><br><sub>/baːɾiːbuː/</sub> |
-| 1pl | ئێمە | **باریوین**<br><sub>barîwîn</sub><br><sub>/baːɾiːwiːn/</sub> | **باریبووین**<br><sub>barîbûyn</sub><br><sub>/baːɾiːbuːjn/</sub> |
-| 2pl | ئێوە | **باریون**<br><sub>barîwn</sub><br><sub>/baːɾiːwn/</sub> | **باریبوون**<br><sub>barîbûn</sub><br><sub>/baːɾiːbuːn/</sub> |
-| 3pl | ئەوان | **باریون**<br><sub>barîwn</sub><br><sub>/baːɾiːwn/</sub> | **باریبوون**<br><sub>barîbûn</sub><br><sub>/baːɾiːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **باریومە**<br><sub>barîwme</sub><br><sub>/baːɾiːwmæ/</sub> | **نەباریومە**<br><sub>nebarîwme</sub><br><sub>/næbaːɾiːwmæ/</sub> | **باریبووم**<br><sub>barîbûm</sub><br><sub>/baːɾiːbuːm/</sub> | **نەباریبووم**<br><sub>nebarîbûm</sub><br><sub>/næbaːɾiːbuːm/</sub> |
+| 2sg | تۆ | **باریویتە**<br><sub>barîwîte</sub><br><sub>/baːɾiːwiːtæ/</sub> | **نەباریویتە**<br><sub>nebarîwîte</sub><br><sub>/næbaːɾiːwiːtæ/</sub> | **باریبوویت**<br><sub>barîbûyt</sub><br><sub>/baːɾiːbuːjt/</sub> | **نەباریبوویت**<br><sub>nebarîbûyt</sub><br><sub>/næbaːɾiːbuːjt/</sub> |
+| 3sg | ئەو | **باریوە**<br><sub>barîwe</sub><br><sub>/baːɾiːwæ/</sub> | **نەباریوە**<br><sub>nebarîwe</sub><br><sub>/næbaːɾiːwæ/</sub> | **باریبوو**<br><sub>barîbû</sub><br><sub>/baːɾiːbuː/</sub> | **نەباریبوو**<br><sub>nebarîbû</sub><br><sub>/næbaːɾiːbuː/</sub> |
+| 1pl | ئێمە | **باریوینە**<br><sub>barîwîne</sub><br><sub>/baːɾiːwiːnæ/</sub> | **نەباریوینە**<br><sub>nebarîwîne</sub><br><sub>/næbaːɾiːwiːnæ/</sub> | **باریبووین**<br><sub>barîbûyn</sub><br><sub>/baːɾiːbuːjn/</sub> | **نەباریبووین**<br><sub>nebarîbûyn</sub><br><sub>/næbaːɾiːbuːjn/</sub> |
+| 2pl | ئێوە | **باریونە**<br><sub>barîwne</sub><br><sub>/baːɾiːwnæ/</sub> | **نەباریونە**<br><sub>nebarîwne</sub><br><sub>/næbaːɾiːwnæ/</sub> | **باریبوون**<br><sub>barîbûn</sub><br><sub>/baːɾiːbuːn/</sub> | **نەباریبوون**<br><sub>nebarîbûn</sub><br><sub>/næbaːɾiːbuːn/</sub> |
+| 3pl | ئەوان | **باریونە**<br><sub>barîwne</sub><br><sub>/baːɾiːwnæ/</sub> | **نەباریونە**<br><sub>nebarîwne</sub><br><sub>/næbaːɾiːwnæ/</sub> | **باریبوون**<br><sub>barîbûn</sub><br><sub>/baːɾiːbuːn/</sub> | **نەباریبوون**<br><sub>nebarîbûn</sub><br><sub>/næbaːɾiːbuːn/</sub> |
+
+## Past subjunctive
+
+*بارین* (barîn) “to rain, to fall (rain, snow)” — present stem **بار**, past stem **باری**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **باریبام**<br><sub>barîbam</sub><br><sub>/baːɾiːbaːm/</sub> | **باریبێتم**<br><sub>barîbêtim</sub><br><sub>/baːɾiːbeːt(ɯ)m/</sub> | **باریبووبام**<br><sub>barîbûbam</sub><br><sub>/baːɾiːbuːbaːm/</sub> |
+| 2sg | تۆ | **باریبایت**<br><sub>barîbayt</sub><br><sub>/baːɾiːbaːjt/</sub> | **باریبێتیت**<br><sub>barîbêtît</sub><br><sub>/baːɾiːbeːtiːt/</sub> | **باریبووبایت**<br><sub>barîbûbayt</sub><br><sub>/baːɾiːbuːbaːjt/</sub> |
+| 3sg | ئەو | **باریبا**<br><sub>barîba</sub><br><sub>/baːɾiːbaː/</sub> | **باریبێت**<br><sub>barîbêt</sub><br><sub>/baːɾiːbeːt/</sub> | **باریبووبا**<br><sub>barîbûba</sub><br><sub>/baːɾiːbuːbaː/</sub> |
+| 1pl | ئێمە | **باریباین**<br><sub>barîbayn</sub><br><sub>/baːɾiːbaːjn/</sub> | **باریبێتین**<br><sub>barîbêtîn</sub><br><sub>/baːɾiːbeːtiːn/</sub> | **باریبووباین**<br><sub>barîbûbayn</sub><br><sub>/baːɾiːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **باریبان**<br><sub>barîban</sub><br><sub>/baːɾiːbaːn/</sub> | **باریبێتن**<br><sub>barîbêtin</sub><br><sub>/baːɾiːbeːt(ɯ)n/</sub> | **باریبووبان**<br><sub>barîbûban</sub><br><sub>/baːɾiːbuːbaːn/</sub> |
+| 3pl | ئەوان | **باریبان**<br><sub>barîban</sub><br><sub>/baːɾiːbaːn/</sub> | **باریبێتن**<br><sub>barîbêtin</sub><br><sub>/baːɾiːbeːt(ɯ)n/</sub> | **باریبووبان**<br><sub>barîbûban</sub><br><sub>/baːɾiːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*بارین* (barîn) “to rain, to fall (rain, snow)” — present stem **بار**, past stem **باری**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەباریبام**<br><sub>nebarîbam</sub><br><sub>/næbaːɾiːbaːm/</sub> | **نەباریبێتم**<br><sub>nebarîbêtim</sub><br><sub>/næbaːɾiːbeːt(ɯ)m/</sub> | **نەباریبووبام**<br><sub>nebarîbûbam</sub><br><sub>/næbaːɾiːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەباریبایت**<br><sub>nebarîbayt</sub><br><sub>/næbaːɾiːbaːjt/</sub> | **نەباریبێتیت**<br><sub>nebarîbêtît</sub><br><sub>/næbaːɾiːbeːtiːt/</sub> | **نەباریبووبایت**<br><sub>nebarîbûbayt</sub><br><sub>/næbaːɾiːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەباریبا**<br><sub>nebarîba</sub><br><sub>/næbaːɾiːbaː/</sub> | **نەباریبێت**<br><sub>nebarîbêt</sub><br><sub>/næbaːɾiːbeːt/</sub> | **نەباریبووبا**<br><sub>nebarîbûba</sub><br><sub>/næbaːɾiːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەباریباین**<br><sub>nebarîbayn</sub><br><sub>/næbaːɾiːbaːjn/</sub> | **نەباریبێتین**<br><sub>nebarîbêtîn</sub><br><sub>/næbaːɾiːbeːtiːn/</sub> | **نەباریبووباین**<br><sub>nebarîbûbayn</sub><br><sub>/næbaːɾiːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەباریبان**<br><sub>nebarîban</sub><br><sub>/næbaːɾiːbaːn/</sub> | **نەباریبێتن**<br><sub>nebarîbêtin</sub><br><sub>/næbaːɾiːbeːt(ɯ)n/</sub> | **نەباریبووبان**<br><sub>nebarîbûban</sub><br><sub>/næbaːɾiːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەباریبان**<br><sub>nebarîban</sub><br><sub>/næbaːɾiːbaːn/</sub> | **نەباریبێتن**<br><sub>nebarîbêtin</sub><br><sub>/næbaːɾiːbeːt(ɯ)n/</sub> | **نەباریبووبان**<br><sub>nebarîbûban</sub><br><sub>/næbaːɾiːbuːbaːn/</sub> |
 
 ## Imperative
 

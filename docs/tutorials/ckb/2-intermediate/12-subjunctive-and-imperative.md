@@ -6,7 +6,7 @@
 
 **Level:** 🟡 Intermediate · lesson 12 of 23
 
-**On this page:** [The subjunctive](#the-subjunctive) · [When to use it](#when-to-use-it) · [“I want”: ویستن](#i-want-ویستن) · [“I can”: توانین](#i-can-توانین) · [The imperative](#the-imperative) · [Practice](#practice) · [Summary](#summary)
+**On this page:** [The subjunctive](#the-subjunctive) · [The past subjunctive](#the-past-subjunctive) · [When to use it](#when-to-use-it) · [“I want”: ویستن](#i-want-ویستن) · [“I can”: توانین](#i-can-توانین) · [The imperative](#the-imperative) · [Practice](#practice) · [Summary](#summary)
 
 ## The subjunctive
 
@@ -39,6 +39,16 @@ The **subjunctive** is the verb form for things that are wanted, possible, uncer
 | 2pl | ئێوە | **بچن**<br><sub>biçin</sub> | **نەچن**<br><sub>neçin</sub> |
 | 3pl | ئەوان | **بچن**<br><sub>biçin</sub> | **نەچن**<br><sub>neçin</sub> |
 <!-- /gen -->
+
+## The past subjunctive
+
+The past stem takes **با** for an unreal or wished-for past, and **بێت** for a possible one. Past-perfect **بووبا** puts it further back. A transitive verb adds the agent clitic, and an intransitive verb adds the normal past endings:
+
+| | transitive | intransitive |
+|---|---|---|
+| با | خواردبام, خواردبات, خواردبای | هاتبام, هاتبایت, هاتبا |
+| بێت | خواردبێتم, خواردبێتت, خواردبێتی | هاتبێتم, هاتبێتیت, هاتبێت |
+| بووبا | خواردبووبام | هاتبووبام |
 
 ## When to use it
 
@@ -135,8 +145,8 @@ Two common verbs have irregular commands:
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **وەرە**<br><sub>were</sub> | **مەیە**<br><sub>meye</sub> |
-| 2pl | ئێوە | **وەرن**<br><sub>wern</sub> | **مەیەن**<br><sub>meyen</sub> |
+| 2sg | تۆ | **وەرە**<br><sub>were</sub> | **مەیێ**<br><sub>meyê</sub> |
+| 2pl | ئێوە | **وەرن**<br><sub>wern</sub> | **مەیێن**<br><sub>meyên</sub> |
 <!-- /gen -->
 
 <!-- gen:verb verb=چوون cells=imperative,prohibitive -->
@@ -144,11 +154,11 @@ Two common verbs have irregular commands:
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بڕۆ**<br><sub>birro</sub> | **مەچە**<br><sub>meçe</sub> |
-| 2pl | ئێوە | **بڕۆن**<br><sub>birron</sub> | **مەچن**<br><sub>meçin</sub> |
+| 2sg | تۆ | **بچۆ**<br><sub>biço</sub> | **مەچۆ**<br><sub>meço</sub> |
+| 2pl | ئێوە | **بچن**<br><sub>biçin</sub> | **مەچن**<br><sub>meçin</sub> |
 <!-- /gen -->
 
-بڕۆ *go!* is borrowed from ڕۆیشتن.
+بڕۆ *go!*, from ڕۆیشتن, is used beside بچۆ.
 
 ## Practice
 
@@ -168,7 +178,7 @@ Two common verbs have irregular commands:
 
 * Subjunctive = **ب** + present stem + ending (negative **نە**), used after *want, can, must, let's, if, in order to*.
 * ویستن: دەمەوێت، دەتەوێت، دەیەوێت…
-* Imperative **ب…ە / ب…ن**, prohibitive **مە…**; وەرە *come!*, بڕۆ *go!*
+* Imperative **ب…ە / ب…ن**, prohibitive **مە…**; وەرە *come!*, بچۆ or بڕۆ *go!*
 
 <!-- nav:bottom -->
 ---

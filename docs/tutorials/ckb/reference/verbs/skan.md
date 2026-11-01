@@ -66,14 +66,40 @@
 
 *شکان* (şkan) “to break (intr.), to be broken” — present stem **شکێ**, past stem **شکا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **شکاوم**<br><sub>şkawm</sub><br><sub>/ʃkaːwm/</sub> | **شکابووم**<br><sub>şkabûm</sub><br><sub>/ʃkaːbuːm/</sub> |
-| 2sg | تۆ | **شکاویت**<br><sub>şkawît</sub><br><sub>/ʃkaːwiːt/</sub> | **شکابوویت**<br><sub>şkabûyt</sub><br><sub>/ʃkaːbuːjt/</sub> |
-| 3sg | ئەو | **شکاوە**<br><sub>şkawe</sub><br><sub>/ʃkaːwæ/</sub> | **شکابوو**<br><sub>şkabû</sub><br><sub>/ʃkaːbuː/</sub> |
-| 1pl | ئێمە | **شکاوین**<br><sub>şkawîn</sub><br><sub>/ʃkaːwiːn/</sub> | **شکابووین**<br><sub>şkabûyn</sub><br><sub>/ʃkaːbuːjn/</sub> |
-| 2pl | ئێوە | **شکاون**<br><sub>şkawn</sub><br><sub>/ʃkaːwn/</sub> | **شکابوون**<br><sub>şkabûn</sub><br><sub>/ʃkaːbuːn/</sub> |
-| 3pl | ئەوان | **شکاون**<br><sub>şkawn</sub><br><sub>/ʃkaːwn/</sub> | **شکابوون**<br><sub>şkabûn</sub><br><sub>/ʃkaːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **شکاومە**<br><sub>şkawme</sub><br><sub>/ʃkaːwmæ/</sub> | **نەشکاومە**<br><sub>neşkawme</sub><br><sub>/næʃkaːwmæ/</sub> | **شکابووم**<br><sub>şkabûm</sub><br><sub>/ʃkaːbuːm/</sub> | **نەشکابووم**<br><sub>neşkabûm</sub><br><sub>/næʃkaːbuːm/</sub> |
+| 2sg | تۆ | **شکاویتە**<br><sub>şkawîte</sub><br><sub>/ʃkaːwiːtæ/</sub> | **نەشکاویتە**<br><sub>neşkawîte</sub><br><sub>/næʃkaːwiːtæ/</sub> | **شکابوویت**<br><sub>şkabûyt</sub><br><sub>/ʃkaːbuːjt/</sub> | **نەشکابوویت**<br><sub>neşkabûyt</sub><br><sub>/næʃkaːbuːjt/</sub> |
+| 3sg | ئەو | **شکاوە**<br><sub>şkawe</sub><br><sub>/ʃkaːwæ/</sub> | **نەشکاوە**<br><sub>neşkawe</sub><br><sub>/næʃkaːwæ/</sub> | **شکابوو**<br><sub>şkabû</sub><br><sub>/ʃkaːbuː/</sub> | **نەشکابوو**<br><sub>neşkabû</sub><br><sub>/næʃkaːbuː/</sub> |
+| 1pl | ئێمە | **شکاوینە**<br><sub>şkawîne</sub><br><sub>/ʃkaːwiːnæ/</sub> | **نەشکاوینە**<br><sub>neşkawîne</sub><br><sub>/næʃkaːwiːnæ/</sub> | **شکابووین**<br><sub>şkabûyn</sub><br><sub>/ʃkaːbuːjn/</sub> | **نەشکابووین**<br><sub>neşkabûyn</sub><br><sub>/næʃkaːbuːjn/</sub> |
+| 2pl | ئێوە | **شکاونە**<br><sub>şkawne</sub><br><sub>/ʃkaːwnæ/</sub> | **نەشکاونە**<br><sub>neşkawne</sub><br><sub>/næʃkaːwnæ/</sub> | **شکابوون**<br><sub>şkabûn</sub><br><sub>/ʃkaːbuːn/</sub> | **نەشکابوون**<br><sub>neşkabûn</sub><br><sub>/næʃkaːbuːn/</sub> |
+| 3pl | ئەوان | **شکاونە**<br><sub>şkawne</sub><br><sub>/ʃkaːwnæ/</sub> | **نەشکاونە**<br><sub>neşkawne</sub><br><sub>/næʃkaːwnæ/</sub> | **شکابوون**<br><sub>şkabûn</sub><br><sub>/ʃkaːbuːn/</sub> | **نەشکابوون**<br><sub>neşkabûn</sub><br><sub>/næʃkaːbuːn/</sub> |
+
+## Past subjunctive
+
+*شکان* (şkan) “to break (intr.), to be broken” — present stem **شکێ**, past stem **شکا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **شکابام**<br><sub>şkabam</sub><br><sub>/ʃkaːbaːm/</sub> | **شکابێتم**<br><sub>şkabêtim</sub><br><sub>/ʃkaːbeːt(ɯ)m/</sub> | **شکابووبام**<br><sub>şkabûbam</sub><br><sub>/ʃkaːbuːbaːm/</sub> |
+| 2sg | تۆ | **شکابایت**<br><sub>şkabayt</sub><br><sub>/ʃkaːbaːjt/</sub> | **شکابێتیت**<br><sub>şkabêtît</sub><br><sub>/ʃkaːbeːtiːt/</sub> | **شکابووبایت**<br><sub>şkabûbayt</sub><br><sub>/ʃkaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **شکابا**<br><sub>şkaba</sub><br><sub>/ʃkaːbaː/</sub> | **شکابێت**<br><sub>şkabêt</sub><br><sub>/ʃkaːbeːt/</sub> | **شکابووبا**<br><sub>şkabûba</sub><br><sub>/ʃkaːbuːbaː/</sub> |
+| 1pl | ئێمە | **شکاباین**<br><sub>şkabayn</sub><br><sub>/ʃkaːbaːjn/</sub> | **شکابێتین**<br><sub>şkabêtîn</sub><br><sub>/ʃkaːbeːtiːn/</sub> | **شکابووباین**<br><sub>şkabûbayn</sub><br><sub>/ʃkaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **شکابان**<br><sub>şkaban</sub><br><sub>/ʃkaːbaːn/</sub> | **شکابێتن**<br><sub>şkabêtin</sub><br><sub>/ʃkaːbeːt(ɯ)n/</sub> | **شکابووبان**<br><sub>şkabûban</sub><br><sub>/ʃkaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **شکابان**<br><sub>şkaban</sub><br><sub>/ʃkaːbaːn/</sub> | **شکابێتن**<br><sub>şkabêtin</sub><br><sub>/ʃkaːbeːt(ɯ)n/</sub> | **شکابووبان**<br><sub>şkabûban</sub><br><sub>/ʃkaːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*شکان* (şkan) “to break (intr.), to be broken” — present stem **شکێ**, past stem **شکا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەشکابام**<br><sub>neşkabam</sub><br><sub>/næʃkaːbaːm/</sub> | **نەشکابێتم**<br><sub>neşkabêtim</sub><br><sub>/næʃkaːbeːt(ɯ)m/</sub> | **نەشکابووبام**<br><sub>neşkabûbam</sub><br><sub>/næʃkaːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەشکابایت**<br><sub>neşkabayt</sub><br><sub>/næʃkaːbaːjt/</sub> | **نەشکابێتیت**<br><sub>neşkabêtît</sub><br><sub>/næʃkaːbeːtiːt/</sub> | **نەشکابووبایت**<br><sub>neşkabûbayt</sub><br><sub>/næʃkaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەشکابا**<br><sub>neşkaba</sub><br><sub>/næʃkaːbaː/</sub> | **نەشکابێت**<br><sub>neşkabêt</sub><br><sub>/næʃkaːbeːt/</sub> | **نەشکابووبا**<br><sub>neşkabûba</sub><br><sub>/næʃkaːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەشکاباین**<br><sub>neşkabayn</sub><br><sub>/næʃkaːbaːjn/</sub> | **نەشکابێتین**<br><sub>neşkabêtîn</sub><br><sub>/næʃkaːbeːtiːn/</sub> | **نەشکابووباین**<br><sub>neşkabûbayn</sub><br><sub>/næʃkaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەشکابان**<br><sub>neşkaban</sub><br><sub>/næʃkaːbaːn/</sub> | **نەشکابێتن**<br><sub>neşkabêtin</sub><br><sub>/næʃkaːbeːt(ɯ)n/</sub> | **نەشکابووبان**<br><sub>neşkabûban</sub><br><sub>/næʃkaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەشکابان**<br><sub>neşkaban</sub><br><sub>/næʃkaːbaːn/</sub> | **نەشکابێتن**<br><sub>neşkabêtin</sub><br><sub>/næʃkaːbeːt(ɯ)n/</sub> | **نەشکابووبان**<br><sub>neşkabûban</sub><br><sub>/næʃkaːbuːbaːn/</sub> |
 
 ## Imperative
 

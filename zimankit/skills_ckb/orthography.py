@@ -13,7 +13,9 @@ Order of operations (each step documented in docs/07-ckb-orthography.md):
    * word-initial ``ر`` -> ``ڕ`` (Kurdish has no word-initial tap);
    * word-initial bare vowel letter -> ``ئ`` + vowel;
    * word-initial ``أ`` / ``إ`` / ``آ`` -> ``ئە`` / ``ئی`` / ``ئا``;
-   * ``ەە`` -> ``ە``, ``ڕڕ`` -> ``ڕ``, ``ڵڵ`` -> ``ڵ``, ``ووو`` -> ``وو``.
+   * ``ەە`` -> ``ە``, ``ڕڕ`` -> ``ڕ``, ``ڵڵڵ`` -> ``ڵڵ``, ``ووو`` -> ``وو``, ``یییی`` -> ``ییی``
+     (``ڵڵ`` and ``ییی`` are valid: ئەڵڵا, سنەییی; ر+ڕ and ل+ڵ are separate letters);
+   * ZWNJ in ``ی‌یە`` is removed and a ZWNJ-attached ``و`` "and" is split off.
 5. Remove harakat and tatweel; normalise digits and punctuation.
 """
 
@@ -46,7 +48,9 @@ _INITIAL_ALEF_HAMZA = (
     (re.compile(_WORD_START + "أ"), "ئە"),
     (re.compile(_WORD_START + "إ"), "ئی"),
 )
-_SQUEEZE = ((re.compile("ە{2,}"), "ە"), (re.compile("ڕ{2,}|رڕ|ڕر"), "ڕ"), (re.compile("ڵ{2,}|لڵ|ڵل"), "ڵ"), (re.compile("و{3,}"), "وو"), (re.compile("ی{3,}"), "یی"))
+_SQUEEZE = ((re.compile("ە{2,}"), "ە"), (re.compile("ڕ{2,}"), "ڕ"), (re.compile("ڵ{3,}"), "ڵڵ"), (re.compile("و{3,}"), "وو"), (re.compile("ی{4,}"), "ییی"))
+ZWNJ_YI_RE = re.compile(f"ی{ZWNJ}ی(?=[ەا])")
+_ZWNJ_AND_RE = re.compile(rf"{ZWNJ}و(?![{_L}{ZWNJ}])")
 _LEGACY_HEH_ZWNJ_RE = re.compile(f"ه{ZWNJ}")
 _LEGACY_FINAL_HEH_RE = re.compile(rf"(?<=[{_L}])ه(?![{_L}‌])")
 _PUNCT_TABLE = str.maketrans({",": "،", ";": "؛", "?": "؟", "٪": "%"})
@@ -91,6 +95,8 @@ def normalize(text: str, options: CkbOrthographyOptions | None = None) -> str:
         text = rx.sub(rep, text)
     if opt.kurdish_punctuation:
         text = text.translate(_PUNCT_TABLE)
+    text = ZWNJ_YI_RE.sub("یی", text)  # سپی‌یە -> سپییە
+    text = _ZWNJ_AND_RE.sub(" و", text)  # من‌و تۆ -> من و تۆ
     return clean_zwnj(text)
 
 
@@ -111,10 +117,21 @@ _ILLEGAL_SEQUENCES = (
     ("ێێ", "double long e"),
     ("ۆۆ", "double long o"),
 )
+# Where frequency prefers another spelling than the written standard.  Only forms the sources name;
+# the non-standard form stays recognised, and the builder lists it as a variant of the standard one.
+STANDARD_OVERRIDES = {
+    "وەکو": "وەکوو", "تاکو": "تاکوو", "بەرامبەر": "بەرانبەر", "کەرکوک": "کەرکووک", "نیە": "نییە", "چیە": "چییە",
+    "ڕۆژئاوا": "ڕۆژاوا", "خۆرئاوا": "خۆراوا", "ماڵئاوایی": "ماڵاوایی",
+}
+_FINAL_U_OK = frozenset({"تو", "کو", "وود", "ئەبو"})  # short and foreign words with a written single و
 
 
-def validate_word(word: str) -> list[str]:
-    """Return a list of problems ('' list = orthographically valid word)."""
+def structural_problems(word: str) -> list[str]:
+    """Problems that make a word impossible; the lexicon builder rejects on these only.
+
+    Corpus evidence decides what is recognised, so a common non-standard spelling
+    (وەکو) stays in the lexicon; `validate_word` also reports it against the standard.
+    """
     problems: list[str] = []
     if not word:
         return ["empty"]
@@ -134,6 +151,26 @@ def validate_word(word: str) -> list[str]:
         problems.append("medial hamza outside a vowel hiatus")
     if len(word) > 1 and word.endswith("ه") and word[-2] in "اەێۆ" and word.count("ە") == 0:
         problems.append("possible legacy heh for ae")
+    return problems
+
+
+def validate_word(word: str) -> list[str]:
+    """Return a list of problems ('' list = orthographically valid, standard word)."""
+    problems = structural_problems(word)
+    if not word:
+        return problems
+    if word[0] == "ڵ":
+        problems.append("initial ڵ")
+    if len(word) > 2 and word.startswith("وو"):
+        problems.append("initial وو: write و, the bizroke follows (وشە, ورچ)")
+    if len(word) > 1 and word not in _FINAL_U_OK and word[-1] == "و" and word[-2] not in "اەۆێوی‌":
+        problems.append("final و after a consonant: write وو (چوو, مێژوو), or a separate و 'and'")
+    if f"ی{ZWNJ}ی" in word:
+        problems.append("ZWNJ inside یی: write it solid (سپییە, چییە)")
+    if "یییی" in word:
+        problems.append("more than three ی")
+    if word in STANDARD_OVERRIDES:
+        problems.append(f"the standard spelling is {STANDARD_OVERRIDES[word]}")
     return problems
 
 

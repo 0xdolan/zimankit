@@ -19,24 +19,26 @@ from typing import Iterator, Literal
 
 TokenKind = Literal["word", "number", "punct"]
 
-_AR = "ؠ-يٮ-ۓەۺ-ۿݐ-ݿ"
+_AR = "ؠ-ؿف-يٮ-ۓەۺ-ۿݐ-ݿ"
 _LAT = "A-Za-zÀ-ɏḀ-ỿ"
 _CYR = "Ѐ-ӿ"
 _DIG = "0-9٠-٩۰-۹"
 
 WORD_RE = re.compile(
-    rf"[{_AR}]+(?:‌[{_AR}]+)*"  # Arabic-script word, ZWNJ allowed inside
+    rf"[{_AR}]+(?:[‌ـ]+[{_AR}]+)*"  # Arabic-script word, ZWNJ and kashida allowed inside
     rf"|[{_LAT}]+(?:'[{_LAT}]+)*"  # Latin word with internal apostrophes
     rf"|[{_CYR}]+"
 )
-NUMBER_RE = re.compile(rf"[{_DIG}]+(?:[.,٫٬][{_DIG}]+)*")
+NUMBER_RE = re.compile(rf"[{_DIG}]+(?:[.,٫٬/:][{_DIG}]+)*")
 TOKEN_RE = re.compile(
     rf"(?P<word>{WORD_RE.pattern})"
     rf"|(?P<number>{NUMBER_RE.pattern})"
     r"|(?P<punct>[^\s])"
 )
 HYPHEN_WORD_RE = re.compile(rf"(?:{WORD_RE.pattern})(?:-(?:{WORD_RE.pattern}))+")
-SENTENCE_END_RE = re.compile(r"(?<=[.!?؟۔])\s+|\n+")
+SENTENCE_END_RE = re.compile(r"(?<=[.!?؟۔…])[»”\")\]]*\s+|\n+")
+_CLOSERS = "»”\")]"
+_ABBREVIATION_RE = re.compile(r"(?:^|[\s(«])[ؠ-ۿ]\.$")  # د. سۆران, ی. ن. ک.
 
 
 @dataclass(frozen=True, slots=True)
@@ -81,5 +83,15 @@ def words(text: str) -> Iterator[str]:
 
 
 def sentences(text: str) -> list[str]:
-    """Rough sentence split on terminal punctuation and newlines."""
-    return [s.strip() for s in SENTENCE_END_RE.split(text) if s and s.strip()]
+    """Rough sentence split on terminal punctuation and newlines; a one-letter abbreviation does not end one."""
+    out, start = [], 0
+    for m in SENTENCE_END_RE.finditer(text):
+        if "\n" not in m.group() and _ABBREVIATION_RE.search(text[start : m.start()]):
+            continue
+        keep = len(m.group()) - len(m.group().lstrip(_CLOSERS))
+        seg = text[start : m.start() + keep].strip()
+        if seg:
+            out.append(seg)
+        start = m.end()
+    tail = text[start:].strip()
+    return out + [tail] if tail else out

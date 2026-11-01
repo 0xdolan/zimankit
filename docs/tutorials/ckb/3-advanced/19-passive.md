@@ -26,7 +26,7 @@ Rules zimankit applies (`_passive_stem` in `skills_ckb/verbs.py`):
 1. a present stem ending in **ە / ێ / ی** drops that vowel: کە → کر;
 2. ۆ becomes **و**: خۆ → خور;
 3. a stem ending in **ر / ڕ** adds **د**: نێر → نێردر, کڕ → کڕدر;
-4. a few verbs are listed as exceptions (گوتن، وتن، گرتن، بیستن); ویستن *to want* has no passive at all.
+4. a few verbs are listed as exceptions (گوتن، وتن، گرتن، بیستن); the passive of ویستن *to want* is rare (ویسترا). You may also meet گرترا, بردرا.
 
 ## Paradigms
 
@@ -35,12 +35,12 @@ Rules zimankit applies (`_passive_stem` in `skills_ckb/verbs.py`):
 
 | person | pronoun | Passive present | Passive present negative | Passive past |
 |---|---|---|---|---|
-| 1sg | من | **دەکرێم**<br><sub>dekrêm</sub> | **ناکرێم**<br><sub>nakrêm</sub> | **کرام**<br><sub>kiram</sub> |
-| 2sg | تۆ | **دەکرێیت**<br><sub>dekrêyt</sub> | **ناکرێیت**<br><sub>nakrêyt</sub> | **کرایت**<br><sub>kirayt</sub> |
-| 3sg | ئەو | **دەکرێت**<br><sub>dekrêt</sub> | **ناکرێت**<br><sub>nakrêt</sub> | **کرا**<br><sub>kira</sub> |
-| 1pl | ئێمە | **دەکرێین**<br><sub>dekrêyn</sub> | **ناکرێین**<br><sub>nakrêyn</sub> | **کراین**<br><sub>kirayn</sub> |
-| 2pl | ئێوە | **دەکرێن**<br><sub>dekrên</sub> | **ناکرێن**<br><sub>nakrên</sub> | **کران**<br><sub>kiran</sub> |
-| 3pl | ئەوان | **دەکرێن**<br><sub>dekrên</sub> | **ناکرێن**<br><sub>nakrên</sub> | **کران**<br><sub>kiran</sub> |
+| 1sg | من | **دەکرێم**<br><sub>dekrêm</sub> | **ناکرێم**<br><sub>nakrêm</sub> | **کردرام**<br><sub>kirdiram</sub> |
+| 2sg | تۆ | **دەکرێیت**<br><sub>dekrêyt</sub> | **ناکرێیت**<br><sub>nakrêyt</sub> | **کردرایت**<br><sub>kirdirayt</sub> |
+| 3sg | ئەو | **دەکرێت**<br><sub>dekrêt</sub> | **ناکرێت**<br><sub>nakrêt</sub> | **کردرا**<br><sub>kirdira</sub> |
+| 1pl | ئێمە | **دەکرێین**<br><sub>dekrêyn</sub> | **ناکرێین**<br><sub>nakrêyn</sub> | **کردراین**<br><sub>kirdirayn</sub> |
+| 2pl | ئێوە | **دەکرێن**<br><sub>dekrên</sub> | **ناکرێن**<br><sub>nakrên</sub> | **کردران**<br><sub>kirdiran</sub> |
+| 3pl | ئەوان | **دەکرێن**<br><sub>dekrên</sub> | **ناکرێن**<br><sub>nakrên</sub> | **کردران**<br><sub>kirdiran</sub> |
 <!-- /gen -->
 
 <!-- gen:verb verb=نووسین cells=passive_present,passive_past -->
@@ -61,12 +61,12 @@ Rules zimankit applies (`_passive_stem` in `skills_ckb/verbs.py`):
 
 | person | pronoun | Passive present | Passive past |
 |---|---|---|---|
-| 1sg | من | **دەنێردرێم**<br><sub>denêrdirêm</sub> | **نێردرام**<br><sub>nêrdiram</sub> |
-| 2sg | تۆ | **دەنێردرێیت**<br><sub>denêrdirêyt</sub> | **نێردرایت**<br><sub>nêrdirayt</sub> |
-| 3sg | ئەو | **دەنێردرێت**<br><sub>denêrdirêt</sub> | **نێردرا**<br><sub>nêrdira</sub> |
-| 1pl | ئێمە | **دەنێردرێین**<br><sub>denêrdirêyn</sub> | **نێردراین**<br><sub>nêrdirayn</sub> |
-| 2pl | ئێوە | **دەنێردرێن**<br><sub>denêrdirên</sub> | **نێردران**<br><sub>nêrdiran</sub> |
-| 3pl | ئەوان | **دەنێردرێن**<br><sub>denêrdirên</sub> | **نێردران**<br><sub>nêrdiran</sub> |
+| 1sg | من | **دەنێردرێم**<br><sub>denêrdirêm</sub> | **ناردرام**<br><sub>nardiram</sub> |
+| 2sg | تۆ | **دەنێردرێیت**<br><sub>denêrdirêyt</sub> | **ناردرایت**<br><sub>nardirayt</sub> |
+| 3sg | ئەو | **دەنێردرێت**<br><sub>denêrdirêt</sub> | **ناردرا**<br><sub>nardira</sub> |
+| 1pl | ئێمە | **دەنێردرێین**<br><sub>denêrdirêyn</sub> | **ناردراین**<br><sub>nardirayn</sub> |
+| 2pl | ئێوە | **دەنێردرێن**<br><sub>denêrdirên</sub> | **ناردران**<br><sub>nardiran</sub> |
+| 3pl | ئەوان | **دەنێردرێن**<br><sub>denêrdirên</sub> | **ناردران**<br><sub>nardiran</sub> |
 <!-- /gen -->
 
 <!-- gen:verb verb=گوتن cells=passive_present,passive_past -->
@@ -107,7 +107,7 @@ Usually the passive leaves the doer unsaid. When needed: **لەلایەن … ە
 ## Summary
 
 * Passive stem = present stem + **ر** (ر/ڕ-final stems + **در**).
-* Present **دەکرێت**, past **کرا**, perfect **کراوە**, participle **کراو**.
+* Present **دەکرێت**, subjunctive **بکرێت**, past **کرا**, progressive **دەکرا**, perfect **کراوە**, past perfect **کرابوو**, past subjunctive **کرابا**, participle **کراو**. Each has a negative, such as **نەکرا**.
 * Agent: لەلایەن … ەوە.
 
 <!-- nav:bottom -->

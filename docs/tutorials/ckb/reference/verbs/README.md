@@ -39,8 +39,8 @@ Every verb below is conjugated in full on its own page: all tenses, moods, negat
 | [**کەوتن**](kewtin.md) | kewtin | to fall | intransitive | دەکەوم | کەوت |
 | [**خستن**](xistin.md) | xistin | to drop, to put, to throw | transitive | دەخەم | خستی |
 | [**ژیان**](jyan.md) | jyan | to live; life | intransitive | دەژیم | ژیا |
-| [**ترسان**](tirisan.md) | tirisan | to be afraid | intransitive | دەترسم | ترسا |
-| [**پرسین**](pirisin.md) | pirisîn | to ask | transitive | دەپرسم | پرسیی |
+| [**ترسان**](tirsan.md) | tirsan | to be afraid | intransitive | دەترسم | ترسا |
+| [**پرسین**](pirsin.md) | pirsîn | to ask | transitive | دەپرسم | پرسیی |
 | [**گەڕان**](gerran.md) | gerran | to search, to wander | intransitive | دەگەڕێم | گەڕا |
 | [**گەیشتن**](geysitin.md) | geyşitin | to arrive, to reach | intransitive | دەگەم | گەیشت |
 | [**گەیاندن**](geyandin.md) | geyandin | to deliver, to convey | transitive | دەگەیەنم | گەیاندی |
@@ -78,33 +78,56 @@ Every verb below is conjugated in full on its own page: all tenses, moods, negat
 | [**تەقاندن**](teqandin.md) | teqandin | to blow up, to fire | transitive | دەتەقێنم | تەقاندی |
 | [**مژین**](mijin.md) | mijîn | to suck | transitive | دەمژم | مژیی |
 | [**گەزین**](gezin.md) | gezîn | to bite, to sting | transitive | دەگەزم | گەزیی |
-| [**خنکان**](xinikan.md) | xinikan | to drown, to suffocate (intr.) | intransitive | دەخنکێم | خنکا |
-| [**خنکاندن**](xinikandin.md) | xinikandin | to drown, to strangle (someone) | transitive | دەخنکێنم | خنکاندی |
+| [**خنکان**](xinkan.md) | xinkan | to drown, to suffocate (intr.) | intransitive | دەخنکێم | خنکا |
+| [**خنکاندن**](xinkandin.md) | xinkandin | to drown, to strangle (someone) | transitive | دەخنکێنم | خنکاندی |
 | [**ڕوانین**](rwanin.md) | rwanîn | to look | intransitive | دەڕوانم | ڕوانی |
 | [**ئێشان**](esan.md) | êşan | to ache, to hurt | intransitive | دەئێشم | ئێشا |
 | [**کەنین**](kenin.md) | kenîn | to laugh | intransitive | دەکەنم | کەنی |
 | [**خوێندنەوە**](xwendnewe.md) | xwêndnewe | to read | transitive | دەخوێنمەوە | خوێندیەوە |
 | [**کردنەوە**](kirdinewe.md) | kirdinewe | to open | transitive | دەکەمەوە | کردیەوە |
 | [**هاتنەوە**](hatnewe.md) | hatnewe | to come back | intransitive | دێمەوە | هاتەوە |
-| [**چوونەوە**](cunewe.md) | çûnewe | to go back | intransitive | دەچمەوە | چوووە |
+| [**چوونەوە**](cunewe.md) | çûnewe | to go back | intransitive | دەچمەوە | چووەوە |
 | [**گەڕانەوە**](gerranewe.md) | gerranewe | to return | intransitive | دەگەڕێمەوە | گەڕایەوە |
 | [**دۆزینەوە**](dozinewe.md) | dozînewe | to find, to discover | transitive | دەدۆزمەوە | دۆزییەوە |
 | [**مانەوە**](manewe.md) | manewe | to stay (on) | intransitive | دەمێنمەوە | مایەوە |
-| [**هەڵگرتن**](hellgirtin.md) | hellgirtin | to pick up, to lift | transitive | هەڵدەگرم | هەڵیگرت |
-| [**هەڵبژاردن**](hellbijardin.md) | hellbijardin | to elect, to choose; election | transitive | هەڵدەبژێرم | هەڵیبژارد |
-| [**وەرگرتن**](wergirtin.md) | wergirtin | to receive | transitive | وەردەگرم | وەریگرت |
-| [**دەرکردن**](derkirdin.md) | derkirdin | to expel, to issue | transitive | دەردەکەم | دەریکرد |
-| [**تێگەیشتن**](tegeysitin.md) | têgeyşitin | to understand | intransitive | تێدەگەم | تێگەیشت |
-| [**داخستن**](daxsitin.md) | daxsitin | to close | transitive | دادەخەم | دایخست |
+| [**هەڵگرتن**](hellgirtin.md) | hellgirtin | to pick up, to lift | transitive | هەڵدەگرم | هەڵی گرت |
+| [**هەڵبژاردن**](hellbijardin.md) | hellbijardin | to elect, to choose; election | transitive | هەڵدەبژێرم | هەڵی بژارد |
+| [**وەرگرتن**](wergirtin.md) | wergirtin | to receive | transitive | وەردەگرم | وەری گرت |
+| [**دەرکردن**](derkirdin.md) | derkirdin | to expel, to issue | transitive | دەردەکەم | دەری کرد |
+| [**تێگەیشتن**](tegeysitin.md) | têgeyşitin | to understand | intransitive | تێ دەگەم | تێ گەیشت |
+| [**داخستن**](daxsitin.md) | daxsitin | to close | transitive | دادەخەم | دای خست |
 | [**دانیشتن**](danistin.md) | danîştin | to sit down | intransitive | دادەنیشم | دانیشت |
-| [**ڕاگەیاندن**](rageyandin.md) | rageyandin | to announce | transitive | ڕادەگەیەنم | ڕایگەیاند |
-| [**ڕاکردن**](rakridin.md) | rakridin | to run (away) | intransitive | ڕادەکەم | ڕاکرد |
-| [**لێدان**](ledan.md) | lêdan | to hit, to beat | transitive | لێدەدەم | لێیدا |
-| [**پێکەنین**](pekenin.md) | pêkenîn | to laugh | intransitive | پێدەکەنم | پێکەنی |
+| [**ڕاگەیاندن**](rageyandin.md) | rageyandin | to announce | transitive | ڕادەگەیەنم | ڕای گەیاند |
+| [**ڕاکردن**](rakridin.md) | rakridin | to run (away) | transitive | ڕادەکەم | ڕای کرد |
+| [**لێدان**](ledan.md) | lêdan | to hit, to beat | transitive | لێ دەدەم | لێی دا |
+| [**پێکەنین**](pekenin.md) | pêkenîn | to laugh | intransitive | پێ دەکەنم | پێ کەنی |
 | [**دەرکەوتن**](derkewtin.md) | derkewtin | to appear, to come out | intransitive | دەردەکەوم | دەرکەوت |
 | [**دەرچوون**](dercun.md) | derçûn | to go out, to graduate | intransitive | دەردەچم | دەرچوو |
 | [**هەڵسان**](hellsan.md) | hellsan | to get up, to rise | intransitive | دەهەڵسم | هەڵسا |
-| [**پێکهاتن**](pekhatin.md) | pêkhatin | to consist of, to be formed | intransitive | پێکدێم | پێکهات |
-| [**بەکارهێنان**](bekarhenan.md) | bekarhênan | to use | transitive | بەکاردەهێنم | بەکاریهێنا |
-| [**دەستپێکردن**](destpekridin.md) | destpêkridin | to begin | transitive | دەستپێدەکەم | دەستپێیکرد |
+| [**پێکهاتن**](pekhatin.md) | pêkhatin | to consist of, to be formed | intransitive | پێک دێم | پێک هات |
+| [**بەکارهێنان**](bekarhenan.md) | bekarhênan | to use | transitive | بەکار دەهێنم | بەکاری هێنا |
+| [**دەستپێکردن**](destpekridin.md) | destpêkridin | to begin | transitive | دەست پێ دەکەم | دەستی پێ کرد |
+| [**پاڵاوتن**](pallawtin.md) | pallawtin | to filter | transitive | دەپاڵێوم | پاڵاوتی |
+| [**سرەوتن**](sirewtin.md) | sirewtin | to calm down | intransitive | دەسرەوم | سرەوت |
+| [**خواستن**](xwastin.md) | xwastin | to ask for | transitive | دەخوازم | خواستی |
+| [**گواستن**](gwastin.md) | gwastin | to carry, to move | transitive | دەگوێزم | گواستی |
+| [**ڕستن**](ristin.md) | ristin | to spin | transitive | دەڕێسم | ڕستی |
+| [**ناشتن**](nastin.md) | naştin | to bury, to plant | transitive | دەنێژم | ناشتی |
+| [**هاوێشتن**](hawestin.md) | hawêştin | to throw | transitive | دەهاوێم | هاوێشتی |
+| [**ڤەشارتن**](vesartin.md) | veşartin | to hide | transitive | دەڤەشێرم | ڤەشارتی |
+| [**سەندن**](sendin.md) | sendin | to take | transitive | دەسێنم | سەندی |
+| [**گەستن**](gestin.md) | gestin | to bite | transitive | دەگەزم | گەستی |
+| [**کڕۆشتن**](kirrostin.md) | kirroştin | to gnaw | transitive | دەکڕۆژم | کڕۆشتی |
+| [**دروون**](dirun.md) | dirûn | to sew | transitive | دەدرووم | درووی |
+| [**سوون**](sun.md) | sûn | to rub | transitive | دەسووم | سووی |
+| [**جوون**](cun.md) | cûn | to chew | transitive | دەجووم | جووی |
+| [**شیان**](syan.md) | şyan | to be worthy | intransitive | دەشێم | شیا |
+| [**زان**](zan.md) | zan | to give birth | intransitive | دەزێم | زا |
+| [**برژان**](birjan.md) | birjan | to be roasted | intransitive | دەبرژێم | برژا |
+| [**فەوتان**](fewtan.md) | fewtan | to perish | intransitive | دەفەوتێم | فەوتا |
+| [**دڕان**](dirran.md) | dirran | to tear (intr.) | intransitive | دەدڕێم | دڕا |
+| [**سڕان**](sirran.md) | sirran | to go numb | intransitive | دەسڕێم | سڕا |
+| [**شنین**](sinin.md) | şinîn | to blow gently | intransitive | دەشنێم | شنی |
+| [**ڕۆشتن**](rostin.md) | roştin | to go | intransitive | دەڕۆم | ڕۆشت |
+| [**دانان**](danan.md) | danan | to put down | transitive | دادەنێم | دای نا |
 <!-- /gen -->

@@ -32,13 +32,13 @@ The present stem is **ێ**, which fuses with the prefixes: **دێم** (not \*د�
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **وەرە**<br><sub>were</sub> | **مەیە**<br><sub>meye</sub> |
-| 2pl | ئێوە | **وەرن**<br><sub>wern</sub> | **مەیەن**<br><sub>meyen</sub> |
+| 2sg | تۆ | **وەرە**<br><sub>were</sub> | **مەیێ**<br><sub>meyê</sub> |
+| 2pl | ئێوە | **وەرن**<br><sub>wern</sub> | **مەیێن**<br><sub>meyên</sub> |
 <!-- /gen -->
 
 ## چوون *to go*
 
-Regular, except that the imperative is borrowed from ڕۆیشتن: **بڕۆ / بڕۆن** *go!*
+The imperative is **بچۆ / بچن** *go!*; **بڕۆ / بڕۆن**, from ڕۆیشتن, is used as well.
 
 <!-- gen:verb verb=چوون cells=present,past,imperative -->
 *چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
@@ -46,16 +46,16 @@ Regular, except that the imperative is borrowed from ڕۆیشتن: **بڕۆ / ب
 | person | pronoun | Present | Simple past | Imperative |
 |---|---|---|---|---|
 | 1sg | من | **دەچم**<br><sub>deçim</sub> | **چووم**<br><sub>çûm</sub> | — |
-| 2sg | تۆ | **دەچیت**<br><sub>deçît</sub> | **چوویت**<br><sub>çûyt</sub> | **بڕۆ**<br><sub>birro</sub> |
+| 2sg | تۆ | **دەچیت**<br><sub>deçît</sub> | **چوویت**<br><sub>çûyt</sub> | **بچۆ**<br><sub>biço</sub> |
 | 3sg | ئەو | **دەچێت**<br><sub>deçêt</sub> | **چوو**<br><sub>çû</sub> | — |
 | 1pl | ئێمە | **دەچین**<br><sub>deçîn</sub> | **چووین**<br><sub>çûyn</sub> | — |
-| 2pl | ئێوە | **دەچن**<br><sub>deçin</sub> | **چوون**<br><sub>çûn</sub> | **بڕۆن**<br><sub>birron</sub> |
+| 2pl | ئێوە | **دەچن**<br><sub>deçin</sub> | **چوون**<br><sub>çûn</sub> | **بچن**<br><sub>biçin</sub> |
 | 3pl | ئەوان | **دەچن**<br><sub>deçin</sub> | **چوون**<br><sub>çûn</sub> | — |
 <!-- /gen -->
 
 ## ویستن *to want*
 
-The present marks the person with a **clitic**, not an ending: دە**م**ەوێت *I want*. There is no imperative and no passive.
+The present marks the person with a **clitic**, not an ending: دە**م**ەوێت *I want*. The imperative (بتەوێ) and the passive (ویسترا) are rare.
 
 <!-- gen:verb verb=ویستن cells=present,present_neg,subj -->
 *ویستن* (wîstin) “to want” — present stem **وێ**, past stem **ویست**, transitive
@@ -79,12 +79,12 @@ The present marks the person with a **clitic**, not an ending: دە**م**ەوێ�
 
 | person | pronoun | Present | Simple past | Present perfect | Subjunctive |
 |---|---|---|---|---|---|
-| 1sg | من | **دەبم**<br><sub>debim</sub> | **بووم**<br><sub>bûm</sub> | **بووم**<br><sub>bûm</sub> | **ببم**<br><sub>bibim</sub> |
-| 2sg | تۆ | **دەبیت**<br><sub>debît</sub> | **بوویت**<br><sub>bûyt</sub> | **بوویت**<br><sub>bûyt</sub> | **ببیت**<br><sub>bibît</sub> |
+| 1sg | من | **دەبم**<br><sub>debim</sub> | **بووم**<br><sub>bûm</sub> | **بوومە**<br><sub>bûme</sub> | **ببم**<br><sub>bibim</sub> |
+| 2sg | تۆ | **دەبیت**<br><sub>debît</sub> | **بوویت**<br><sub>bûyt</sub> | **بوویتە**<br><sub>bûyte</sub> | **ببیت**<br><sub>bibît</sub> |
 | 3sg | ئەو | **دەبێت**<br><sub>debêt</sub> | **بوو**<br><sub>bû</sub> | **بووە**<br><sub>bûwe</sub> | **ببێت**<br><sub>bibêt</sub> |
-| 1pl | ئێمە | **دەبین**<br><sub>debîn</sub> | **بووین**<br><sub>bûyn</sub> | **بووین**<br><sub>bûyn</sub> | **ببین**<br><sub>bibîn</sub> |
-| 2pl | ئێوە | **دەبن**<br><sub>debin</sub> | **بوون**<br><sub>bûn</sub> | **بوون**<br><sub>bûn</sub> | **ببن**<br><sub>bibin</sub> |
-| 3pl | ئەوان | **دەبن**<br><sub>debin</sub> | **بوون**<br><sub>bûn</sub> | **بوون**<br><sub>bûn</sub> | **ببن**<br><sub>bibin</sub> |
+| 1pl | ئێمە | **دەبین**<br><sub>debîn</sub> | **بووین**<br><sub>bûyn</sub> | **بووینە**<br><sub>bûyne</sub> | **ببین**<br><sub>bibîn</sub> |
+| 2pl | ئێوە | **دەبن**<br><sub>debin</sub> | **بوون**<br><sub>bûn</sub> | **بوونە**<br><sub>bûne</sub> | **ببن**<br><sub>bibin</sub> |
+| 3pl | ئەوان | **دەبن**<br><sub>debin</sub> | **بوون**<br><sub>bûn</sub> | **بوونە**<br><sub>bûne</sub> | **ببن**<br><sub>bibin</sub> |
 <!-- /gen -->
 
 * **دەبم** *I become, I will be*: مامۆستا دەبم *I will become a teacher*.
@@ -112,7 +112,7 @@ The full list is on the [verb reference page](../reference/verbs/README.md).
 ## Summary
 
 * هاتن: دێم / نایەم / وەرە / مەیە.
-* چوون: imperative بڕۆ.
+* چوون: imperative بچۆ, also بڕۆ.
 * ویستن: دەمەوێت (clitic subject).
 * بوون: *become*, and the past of *be*.
 

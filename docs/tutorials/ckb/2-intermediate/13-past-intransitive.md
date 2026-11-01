@@ -89,7 +89,7 @@ In speech the 2sg is often shortened to **-ی**: هاتی *you came*.
 |---|---|---|---|---|
 | 1 | دوێنێ هاتم. | dwênê hatim. | /dweːneː haːt(ɯ)m/ | I came yesterday. |
 | 2 | ئەوان چوون بۆ بازاڕ. | ewan çûn bo bazarr. | /ʔæwaːn tʃuːn boː baːzaːr/ | They went to the market. |
-| 3 | منداڵەکە کەوت. | minidalleke kewt. | /m(ɯ)n(ɯ)daːɫækæ kæwt/ | The child fell. |
+| 3 | منداڵەکە کەوت. | mindalleke kewt. | /m(ɯ)ndaːɫækæ kæwt/ | The child fell. |
 | 4 | بۆچی نەهاتیت؟ | boçî nehatît? | /boːtʃiː næhaːtiːt/ | Why didn't you come? |
 | 5 | ئێمە زوو نووستین. | ême zû nûstîn. | /ʔeːmæ zuː nuːstiːn/ | We slept early. |
 <!-- /gen -->

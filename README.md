@@ -91,6 +91,7 @@ Start at the **[documentation index](https://github.com/0xdolan/zimankit/blob/ma
 | Cross-cutting | [15 Transliteration](https://github.com/0xdolan/zimankit/blob/main/docs/15-transliteration.md) · [16 Wordlist pipeline](https://github.com/0xdolan/zimankit/blob/main/docs/16-lexicon-pipeline.md) · [17 Regex cookbook](https://github.com/0xdolan/zimankit/blob/main/docs/17-regex-cookbook.md) · [18 Multi-language examples](https://github.com/0xdolan/zimankit/blob/main/docs/18-multi-language-examples.md) · [19 Testing](https://github.com/0xdolan/zimankit/blob/main/docs/19-testing.md) |
 | Reference | [20 Glossary](https://github.com/0xdolan/zimankit/blob/main/docs/20-glossary.md) · [21 References](https://github.com/0xdolan/zimankit/blob/main/docs/21-references.md) |
 | Sentences | [22 Sentence structure](https://github.com/0xdolan/zimankit/blob/main/docs/22-sentence-structure.md) |
+| Written standard | [23 The Central Kurdish written standard](https://github.com/0xdolan/zimankit/blob/main/docs/23-ckb-written-standard.md) |
 
 Also: [agent skills](https://github.com/0xdolan/zimankit/blob/main/skills/README.md) · [cross-language examples](https://github.com/0xdolan/zimankit/blob/main/examples/README.md) · [engineering brief](https://github.com/0xdolan/zimankit/blob/main/PROMPT.md) · [contributing and releases](https://github.com/0xdolan/zimankit/blob/main/CONTRIBUTING.md) · [changelog](https://github.com/0xdolan/zimankit/blob/main/CHANGELOG.md) · [website source](https://github.com/0xdolan/zimankit/tree/main/site/).
 
