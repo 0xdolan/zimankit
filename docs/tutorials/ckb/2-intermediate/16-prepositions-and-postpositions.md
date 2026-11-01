@@ -19,6 +19,7 @@
 | **بێ** | without | بێ پارە *without money* |
 | **وەک** | like, as | وەک باوکی *like his father* |
 | **تا / هەتا** | until, up to | تا بەیانی *until morning* |
+| **پێ، تێ، لێ** | the forms of بە, *into* and لە before a clitic or verb | پێم وت *I told him*; لێی دا *he hit him* |
 
 ## Compound prepositions
 
@@ -26,12 +27,14 @@ Many place words are formed with **لە** + a noun + ezafe **-ی**:
 
 | form | meaning |
 |---|---|
-| **لەسەر**ی | on (top of) |
-| **لەژێر**ی | under |
-| **لەناو**ی | inside |
-| **لەبەردەم**ی | in front of |
-| **لەپشت**ی | behind |
-| **لەتەنیشت**ی | next to |
+| **لەسەر(ی)** | on (top of) |
+| **لەژێر(ی)** | under |
+| **لەناو(ی)** | inside |
+| **لەبەردەم(ی)** | in front of |
+| **لەپشت(ی)** | behind |
+| **لەتەنیشت(ی)** | next to |
+
+These are written as one word.
 
 کتێبەکە لەسەر مێزەکەیە. *The book is on the table.*
 
@@ -52,6 +55,8 @@ Sorani often frames a noun between a preposition and an ending that completes it
 
 The second half is written **attached** to the noun (after a vowel ەوە becomes وە: لە دەرگاکە**وە**), and so is a copula after it: من لە ماڵ**دام** *I am at home*, لە ماڵ**دایە** *he is at home*. The preposition stays a separate word.
 
+A frame can close around a whole phrase: **لەو شارەدا**, **بەدوای ئەو وشەیەدا**. Do not confuse -دا with **دا** *gave*, a separate word that cannot be dropped: **نامەکەم دا بە سۆران**. Some regions omit -دا: لە ماڵ سۆرانم بینی.
+
 <!-- gen:sentences ipa=1
 لە ماڵەوە کار دەکەم. | I work from home.
 لە شاردا دەژین. | We live in the city.
@@ -70,7 +75,7 @@ The second half is written **attached** to the noun (after a vowel ەوە become
 
 ## A whole phrase in one word
 
-Because endings stack, a single written word can contain a whole prepositional phrase. zimankit's analyzer takes it apart:
+Because endings stack, one written word can carry a lot. The preposition stays a separate word (لە ماڵەکانمانیشدا). Older or careless writing may attach it, and zimankit's analyzer takes that apart too:
 
 <!-- gen:analyze words=لەماڵەکانمانیشدا,ماڵەکەمانەوە,کتێبەکانیشم -->
 | word | segmentation | morpheme tags | lemma | features |
@@ -80,9 +85,9 @@ Because endings stack, a single written word can contain a whole prepositional p
 | **کتێبەکانیشم** | کتێب+ەکان+یش+م | STEM+DEF.PL+ADD+1SG | کتێب | definite=def, number=pl, additive=yes, enclitic=1sg |
 <!-- /gen -->
 
-**لەماڵەکانمانیشدا** = لە + ماڵ + ەکان + مان + یش + دا = *in our houses too*. The order of the slots is fixed:
+**لە ماڵەکانمانیشدا** = لە + ماڵ + ەکان + مان + یش + دا = *in our houses too*. The order of the slots is fixed:
 
-> [preposition] stem [derivation] [comparative] [number/definite] [clitic] [also] [postposition]
+> preposition (separate) · stem [derivation] [comparative] [number/definite] [clitic] [also] [postposition] [copula]
 
 ## Practice
 

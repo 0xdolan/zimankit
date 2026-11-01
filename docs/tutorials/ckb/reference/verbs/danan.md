@@ -43,12 +43,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **دامنا**<br><sub>damna</sub><br><sub>/daːmnaː/</sub> | **دامنەنا**<br><sub>damnena</sub><br><sub>/daːmnænaː/</sub> |
-| 2sg | تۆ | **داتنا**<br><sub>datna</sub><br><sub>/daːtnaː/</sub> | **داتنەنا**<br><sub>datnena</sub><br><sub>/daːtnænaː/</sub> |
-| 3sg | ئەو | **داینا**<br><sub>dayna</sub><br><sub>/daːjnaː/</sub> | **داینەنا**<br><sub>daynena</sub><br><sub>/daːjnænaː/</sub> |
-| 1pl | ئێمە | **داماننا**<br><sub>damanna</sub><br><sub>/daːmaːnnaː/</sub> | **داماننەنا**<br><sub>damannena</sub><br><sub>/daːmaːnnænaː/</sub> |
-| 2pl | ئێوە | **داتاننا**<br><sub>datanna</sub><br><sub>/daːtaːnnaː/</sub> | **داتاننەنا**<br><sub>datannena</sub><br><sub>/daːtaːnnænaː/</sub> |
-| 3pl | ئەوان | **دایاننا**<br><sub>dayanna</sub><br><sub>/daːjaːnnaː/</sub> | **دایاننەنا**<br><sub>dayannena</sub><br><sub>/daːjaːnnænaː/</sub> |
+| 1sg | من | **دام نا**<br><sub>also دامنا</sub><br><sub>dam na</sub><br><sub>/daːm naː/</sub> | **دام نەنا**<br><sub>also دامنەنا</sub><br><sub>dam nena</sub><br><sub>/daːm nænaː/</sub> |
+| 2sg | تۆ | **دات نا**<br><sub>also داتنا</sub><br><sub>dat na</sub><br><sub>/daːt naː/</sub> | **دات نەنا**<br><sub>also داتنەنا</sub><br><sub>dat nena</sub><br><sub>/daːt nænaː/</sub> |
+| 3sg | ئەو | **دای نا**<br><sub>also داینا</sub><br><sub>day na</sub><br><sub>/daːj naː/</sub> | **دای نەنا**<br><sub>also داینەنا</sub><br><sub>day nena</sub><br><sub>/daːj nænaː/</sub> |
+| 1pl | ئێمە | **دامان نا**<br><sub>also داماننا</sub><br><sub>daman na</sub><br><sub>/daːmaːn naː/</sub> | **دامان نەنا**<br><sub>also داماننەنا</sub><br><sub>daman nena</sub><br><sub>/daːmaːn nænaː/</sub> |
+| 2pl | ئێوە | **داتان نا**<br><sub>also داتاننا</sub><br><sub>datan na</sub><br><sub>/daːtaːn naː/</sub> | **داتان نەنا**<br><sub>also داتاننەنا</sub><br><sub>datan nena</sub><br><sub>/daːtaːn nænaː/</sub> |
+| 3pl | ئەوان | **دایان نا**<br><sub>also دایاننا</sub><br><sub>dayan na</sub><br><sub>/daːjaːn naː/</sub> | **دایان نەنا**<br><sub>also دایاننەنا</sub><br><sub>dayan nena</sub><br><sub>/daːjaːn nænaː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -58,12 +58,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **دامدەنا**<br><sub>damdena</sub><br><sub>/daːmdænaː/</sub> | **دامنەدەنا**<br><sub>damnedena</sub><br><sub>/daːmnædænaː/</sub> |
-| 2sg | تۆ | **داتدەنا**<br><sub>datdena</sub><br><sub>/daːtdænaː/</sub> | **داتنەدەنا**<br><sub>datnedena</sub><br><sub>/daːtnædænaː/</sub> |
-| 3sg | ئەو | **دایدەنا**<br><sub>daydena</sub><br><sub>/daːjdænaː/</sub> | **داینەدەنا**<br><sub>daynedena</sub><br><sub>/daːjnædænaː/</sub> |
-| 1pl | ئێمە | **داماندەنا**<br><sub>damandena</sub><br><sub>/daːmaːndænaː/</sub> | **داماننەدەنا**<br><sub>damannedena</sub><br><sub>/daːmaːnnædænaː/</sub> |
-| 2pl | ئێوە | **داتاندەنا**<br><sub>datandena</sub><br><sub>/daːtaːndænaː/</sub> | **داتاننەدەنا**<br><sub>datannedena</sub><br><sub>/daːtaːnnædænaː/</sub> |
-| 3pl | ئەوان | **دایاندەنا**<br><sub>dayandena</sub><br><sub>/daːjaːndænaː/</sub> | **دایاننەدەنا**<br><sub>dayannedena</sub><br><sub>/daːjaːnnædænaː/</sub> |
+| 1sg | من | **دام دەنا**<br><sub>also دامدەنا</sub><br><sub>dam dena</sub><br><sub>/daːm dænaː/</sub> | **دام نەدەنا**<br><sub>also دامنەدەنا</sub><br><sub>dam nedena</sub><br><sub>/daːm nædænaː/</sub> |
+| 2sg | تۆ | **دات دەنا**<br><sub>also داتدەنا</sub><br><sub>dat dena</sub><br><sub>/daːt dænaː/</sub> | **دات نەدەنا**<br><sub>also داتنەدەنا</sub><br><sub>dat nedena</sub><br><sub>/daːt nædænaː/</sub> |
+| 3sg | ئەو | **دای دەنا**<br><sub>also دایدەنا</sub><br><sub>day dena</sub><br><sub>/daːj dænaː/</sub> | **دای نەدەنا**<br><sub>also داینەدەنا</sub><br><sub>day nedena</sub><br><sub>/daːj nædænaː/</sub> |
+| 1pl | ئێمە | **دامان دەنا**<br><sub>also داماندەنا</sub><br><sub>daman dena</sub><br><sub>/daːmaːn dænaː/</sub> | **دامان نەدەنا**<br><sub>also داماننەدەنا</sub><br><sub>daman nedena</sub><br><sub>/daːmaːn nædænaː/</sub> |
+| 2pl | ئێوە | **داتان دەنا**<br><sub>also داتاندەنا</sub><br><sub>datan dena</sub><br><sub>/daːtaːn dænaː/</sub> | **داتان نەدەنا**<br><sub>also داتاننەدەنا</sub><br><sub>datan nedena</sub><br><sub>/daːtaːn nædænaː/</sub> |
+| 3pl | ئەوان | **دایان دەنا**<br><sub>also دایاندەنا</sub><br><sub>dayan dena</sub><br><sub>/daːjaːn dænaː/</sub> | **دایان نەدەنا**<br><sub>also دایاننەدەنا</sub><br><sub>dayan nedena</sub><br><sub>/daːjaːn nædænaː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -73,12 +73,12 @@
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **دامناوە**<br><sub>damnawe</sub><br><sub>/daːmnaːwæ/</sub> | **دامنەناوە**<br><sub>damnenawe</sub><br><sub>/daːmnænaːwæ/</sub> | **دامنابوو**<br><sub>damnabû</sub><br><sub>/daːmnaːbuː/</sub> | **دامنەنابوو**<br><sub>damnenabû</sub><br><sub>/daːmnænaːbuː/</sub> |
-| 2sg | تۆ | **داتناوە**<br><sub>datnawe</sub><br><sub>/daːtnaːwæ/</sub> | **داتنەناوە**<br><sub>datnenawe</sub><br><sub>/daːtnænaːwæ/</sub> | **داتنابوو**<br><sub>datnabû</sub><br><sub>/daːtnaːbuː/</sub> | **داتنەنابوو**<br><sub>datnenabû</sub><br><sub>/daːtnænaːbuː/</sub> |
-| 3sg | ئەو | **دایناوە**<br><sub>daynawe</sub><br><sub>/daːjnaːwæ/</sub> | **داینەناوە**<br><sub>daynenawe</sub><br><sub>/daːjnænaːwæ/</sub> | **داینابوو**<br><sub>daynabû</sub><br><sub>/daːjnaːbuː/</sub> | **داینەنابوو**<br><sub>daynenabû</sub><br><sub>/daːjnænaːbuː/</sub> |
-| 1pl | ئێمە | **دامانناوە**<br><sub>damannawe</sub><br><sub>/daːmaːnnaːwæ/</sub> | **داماننەناوە**<br><sub>damannenawe</sub><br><sub>/daːmaːnnænaːwæ/</sub> | **داماننابوو**<br><sub>damannabû</sub><br><sub>/daːmaːnnaːbuː/</sub> | **داماننەنابوو**<br><sub>damannenabû</sub><br><sub>/daːmaːnnænaːbuː/</sub> |
-| 2pl | ئێوە | **داتانناوە**<br><sub>datannawe</sub><br><sub>/daːtaːnnaːwæ/</sub> | **داتاننەناوە**<br><sub>datannenawe</sub><br><sub>/daːtaːnnænaːwæ/</sub> | **داتاننابوو**<br><sub>datannabû</sub><br><sub>/daːtaːnnaːbuː/</sub> | **داتاننەنابوو**<br><sub>datannenabû</sub><br><sub>/daːtaːnnænaːbuː/</sub> |
-| 3pl | ئەوان | **دایانناوە**<br><sub>dayannawe</sub><br><sub>/daːjaːnnaːwæ/</sub> | **دایاننەناوە**<br><sub>dayannenawe</sub><br><sub>/daːjaːnnænaːwæ/</sub> | **دایاننابوو**<br><sub>dayannabû</sub><br><sub>/daːjaːnnaːbuː/</sub> | **دایاننەنابوو**<br><sub>dayannenabû</sub><br><sub>/daːjaːnnænaːbuː/</sub> |
+| 1sg | من | **دام ناوە**<br><sub>also دامناوە</sub><br><sub>dam nawe</sub><br><sub>/daːm naːwæ/</sub> | **دام نەناوە**<br><sub>also دامنەناوە</sub><br><sub>dam nenawe</sub><br><sub>/daːm nænaːwæ/</sub> | **دام نابوو**<br><sub>also دامنابوو</sub><br><sub>dam nabû</sub><br><sub>/daːm naːbuː/</sub> | **دام نەنابوو**<br><sub>also دامنەنابوو</sub><br><sub>dam nenabû</sub><br><sub>/daːm nænaːbuː/</sub> |
+| 2sg | تۆ | **دات ناوە**<br><sub>also داتناوە</sub><br><sub>dat nawe</sub><br><sub>/daːt naːwæ/</sub> | **دات نەناوە**<br><sub>also داتنەناوە</sub><br><sub>dat nenawe</sub><br><sub>/daːt nænaːwæ/</sub> | **دات نابوو**<br><sub>also داتنابوو</sub><br><sub>dat nabû</sub><br><sub>/daːt naːbuː/</sub> | **دات نەنابوو**<br><sub>also داتنەنابوو</sub><br><sub>dat nenabû</sub><br><sub>/daːt nænaːbuː/</sub> |
+| 3sg | ئەو | **دای ناوە**<br><sub>also دایناوە</sub><br><sub>day nawe</sub><br><sub>/daːj naːwæ/</sub> | **دای نەناوە**<br><sub>also داینەناوە</sub><br><sub>day nenawe</sub><br><sub>/daːj nænaːwæ/</sub> | **دای نابوو**<br><sub>also داینابوو</sub><br><sub>day nabû</sub><br><sub>/daːj naːbuː/</sub> | **دای نەنابوو**<br><sub>also داینەنابوو</sub><br><sub>day nenabû</sub><br><sub>/daːj nænaːbuː/</sub> |
+| 1pl | ئێمە | **دامان ناوە**<br><sub>also دامانناوە</sub><br><sub>daman nawe</sub><br><sub>/daːmaːn naːwæ/</sub> | **دامان نەناوە**<br><sub>also داماننەناوە</sub><br><sub>daman nenawe</sub><br><sub>/daːmaːn nænaːwæ/</sub> | **دامان نابوو**<br><sub>also داماننابوو</sub><br><sub>daman nabû</sub><br><sub>/daːmaːn naːbuː/</sub> | **دامان نەنابوو**<br><sub>also داماننەنابوو</sub><br><sub>daman nenabû</sub><br><sub>/daːmaːn nænaːbuː/</sub> |
+| 2pl | ئێوە | **داتان ناوە**<br><sub>also داتانناوە</sub><br><sub>datan nawe</sub><br><sub>/daːtaːn naːwæ/</sub> | **داتان نەناوە**<br><sub>also داتاننەناوە</sub><br><sub>datan nenawe</sub><br><sub>/daːtaːn nænaːwæ/</sub> | **داتان نابوو**<br><sub>also داتاننابوو</sub><br><sub>datan nabû</sub><br><sub>/daːtaːn naːbuː/</sub> | **داتان نەنابوو**<br><sub>also داتاننەنابوو</sub><br><sub>datan nenabû</sub><br><sub>/daːtaːn nænaːbuː/</sub> |
+| 3pl | ئەوان | **دایان ناوە**<br><sub>also دایانناوە</sub><br><sub>dayan nawe</sub><br><sub>/daːjaːn naːwæ/</sub> | **دایان نەناوە**<br><sub>also دایاننەناوە</sub><br><sub>dayan nenawe</sub><br><sub>/daːjaːn nænaːwæ/</sub> | **دایان نابوو**<br><sub>also دایاننابوو</sub><br><sub>dayan nabû</sub><br><sub>/daːjaːn naːbuː/</sub> | **دایان نەنابوو**<br><sub>also دایاننەنابوو</sub><br><sub>dayan nenabû</sub><br><sub>/daːjaːn nænaːbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -88,12 +88,12 @@
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **دامنابا**<br><sub>damnaba</sub><br><sub>/daːmnaːbaː/</sub> | **دامنابێت**<br><sub>damnabêt</sub><br><sub>/daːmnaːbeːt/</sub> | **دامنابووبا**<br><sub>damnabûba</sub><br><sub>/daːmnaːbuːbaː/</sub> |
-| 2sg | تۆ | **داتنابا**<br><sub>datnaba</sub><br><sub>/daːtnaːbaː/</sub> | **داتنابێت**<br><sub>datnabêt</sub><br><sub>/daːtnaːbeːt/</sub> | **داتنابووبا**<br><sub>datnabûba</sub><br><sub>/daːtnaːbuːbaː/</sub> |
-| 3sg | ئەو | **داینابا**<br><sub>daynaba</sub><br><sub>/daːjnaːbaː/</sub> | **داینابێت**<br><sub>daynabêt</sub><br><sub>/daːjnaːbeːt/</sub> | **داینابووبا**<br><sub>daynabûba</sub><br><sub>/daːjnaːbuːbaː/</sub> |
-| 1pl | ئێمە | **داماننابا**<br><sub>damannaba</sub><br><sub>/daːmaːnnaːbaː/</sub> | **داماننابێت**<br><sub>damannabêt</sub><br><sub>/daːmaːnnaːbeːt/</sub> | **داماننابووبا**<br><sub>damannabûba</sub><br><sub>/daːmaːnnaːbuːbaː/</sub> |
-| 2pl | ئێوە | **داتاننابا**<br><sub>datannaba</sub><br><sub>/daːtaːnnaːbaː/</sub> | **داتاننابێت**<br><sub>datannabêt</sub><br><sub>/daːtaːnnaːbeːt/</sub> | **داتاننابووبا**<br><sub>datannabûba</sub><br><sub>/daːtaːnnaːbuːbaː/</sub> |
-| 3pl | ئەوان | **دایاننابا**<br><sub>dayannaba</sub><br><sub>/daːjaːnnaːbaː/</sub> | **دایاننابێت**<br><sub>dayannabêt</sub><br><sub>/daːjaːnnaːbeːt/</sub> | **دایاننابووبا**<br><sub>dayannabûba</sub><br><sub>/daːjaːnnaːbuːbaː/</sub> |
+| 1sg | من | **دام نابا**<br><sub>also دامنابا</sub><br><sub>dam naba</sub><br><sub>/daːm naːbaː/</sub> | **دام نابێت**<br><sub>also دامنابێت</sub><br><sub>dam nabêt</sub><br><sub>/daːm naːbeːt/</sub> | **دام نابووبا**<br><sub>also دامنابووبا</sub><br><sub>dam nabûba</sub><br><sub>/daːm naːbuːbaː/</sub> |
+| 2sg | تۆ | **دات نابا**<br><sub>also داتنابا</sub><br><sub>dat naba</sub><br><sub>/daːt naːbaː/</sub> | **دات نابێت**<br><sub>also داتنابێت</sub><br><sub>dat nabêt</sub><br><sub>/daːt naːbeːt/</sub> | **دات نابووبا**<br><sub>also داتنابووبا</sub><br><sub>dat nabûba</sub><br><sub>/daːt naːbuːbaː/</sub> |
+| 3sg | ئەو | **دای نابا**<br><sub>also داینابا</sub><br><sub>day naba</sub><br><sub>/daːj naːbaː/</sub> | **دای نابێت**<br><sub>also داینابێت</sub><br><sub>day nabêt</sub><br><sub>/daːj naːbeːt/</sub> | **دای نابووبا**<br><sub>also داینابووبا</sub><br><sub>day nabûba</sub><br><sub>/daːj naːbuːbaː/</sub> |
+| 1pl | ئێمە | **دامان نابا**<br><sub>also داماننابا</sub><br><sub>daman naba</sub><br><sub>/daːmaːn naːbaː/</sub> | **دامان نابێت**<br><sub>also داماننابێت</sub><br><sub>daman nabêt</sub><br><sub>/daːmaːn naːbeːt/</sub> | **دامان نابووبا**<br><sub>also داماننابووبا</sub><br><sub>daman nabûba</sub><br><sub>/daːmaːn naːbuːbaː/</sub> |
+| 2pl | ئێوە | **داتان نابا**<br><sub>also داتاننابا</sub><br><sub>datan naba</sub><br><sub>/daːtaːn naːbaː/</sub> | **داتان نابێت**<br><sub>also داتاننابێت</sub><br><sub>datan nabêt</sub><br><sub>/daːtaːn naːbeːt/</sub> | **داتان نابووبا**<br><sub>also داتاننابووبا</sub><br><sub>datan nabûba</sub><br><sub>/daːtaːn naːbuːbaː/</sub> |
+| 3pl | ئەوان | **دایان نابا**<br><sub>also دایاننابا</sub><br><sub>dayan naba</sub><br><sub>/daːjaːn naːbaː/</sub> | **دایان نابێت**<br><sub>also دایاننابێت</sub><br><sub>dayan nabêt</sub><br><sub>/daːjaːn naːbeːt/</sub> | **دایان نابووبا**<br><sub>also دایاننابووبا</sub><br><sub>dayan nabûba</sub><br><sub>/daːjaːn naːbuːbaː/</sub> |
 
 ## Past subjunctive negative
 
@@ -101,12 +101,12 @@
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **دامنەنابا**<br><sub>damnenaba</sub><br><sub>/daːmnænaːbaː/</sub> | **دامنەنابێت**<br><sub>damnenabêt</sub><br><sub>/daːmnænaːbeːt/</sub> | **دامنەنابووبا**<br><sub>damnenabûba</sub><br><sub>/daːmnænaːbuːbaː/</sub> |
-| 2sg | تۆ | **داتنەنابا**<br><sub>datnenaba</sub><br><sub>/daːtnænaːbaː/</sub> | **داتنەنابێت**<br><sub>datnenabêt</sub><br><sub>/daːtnænaːbeːt/</sub> | **داتنەنابووبا**<br><sub>datnenabûba</sub><br><sub>/daːtnænaːbuːbaː/</sub> |
-| 3sg | ئەو | **داینەنابا**<br><sub>daynenaba</sub><br><sub>/daːjnænaːbaː/</sub> | **داینەنابێت**<br><sub>daynenabêt</sub><br><sub>/daːjnænaːbeːt/</sub> | **داینەنابووبا**<br><sub>daynenabûba</sub><br><sub>/daːjnænaːbuːbaː/</sub> |
-| 1pl | ئێمە | **داماننەنابا**<br><sub>damannenaba</sub><br><sub>/daːmaːnnænaːbaː/</sub> | **داماننەنابێت**<br><sub>damannenabêt</sub><br><sub>/daːmaːnnænaːbeːt/</sub> | **داماننەنابووبا**<br><sub>damannenabûba</sub><br><sub>/daːmaːnnænaːbuːbaː/</sub> |
-| 2pl | ئێوە | **داتاننەنابا**<br><sub>datannenaba</sub><br><sub>/daːtaːnnænaːbaː/</sub> | **داتاننەنابێت**<br><sub>datannenabêt</sub><br><sub>/daːtaːnnænaːbeːt/</sub> | **داتاننەنابووبا**<br><sub>datannenabûba</sub><br><sub>/daːtaːnnænaːbuːbaː/</sub> |
-| 3pl | ئەوان | **دایاننەنابا**<br><sub>dayannenaba</sub><br><sub>/daːjaːnnænaːbaː/</sub> | **دایاننەنابێت**<br><sub>dayannenabêt</sub><br><sub>/daːjaːnnænaːbeːt/</sub> | **دایاننەنابووبا**<br><sub>dayannenabûba</sub><br><sub>/daːjaːnnænaːbuːbaː/</sub> |
+| 1sg | من | **دام نەنابا**<br><sub>also دامنەنابا</sub><br><sub>dam nenaba</sub><br><sub>/daːm nænaːbaː/</sub> | **دام نەنابێت**<br><sub>also دامنەنابێت</sub><br><sub>dam nenabêt</sub><br><sub>/daːm nænaːbeːt/</sub> | **دام نەنابووبا**<br><sub>also دامنەنابووبا</sub><br><sub>dam nenabûba</sub><br><sub>/daːm nænaːbuːbaː/</sub> |
+| 2sg | تۆ | **دات نەنابا**<br><sub>also داتنەنابا</sub><br><sub>dat nenaba</sub><br><sub>/daːt nænaːbaː/</sub> | **دات نەنابێت**<br><sub>also داتنەنابێت</sub><br><sub>dat nenabêt</sub><br><sub>/daːt nænaːbeːt/</sub> | **دات نەنابووبا**<br><sub>also داتنەنابووبا</sub><br><sub>dat nenabûba</sub><br><sub>/daːt nænaːbuːbaː/</sub> |
+| 3sg | ئەو | **دای نەنابا**<br><sub>also داینەنابا</sub><br><sub>day nenaba</sub><br><sub>/daːj nænaːbaː/</sub> | **دای نەنابێت**<br><sub>also داینەنابێت</sub><br><sub>day nenabêt</sub><br><sub>/daːj nænaːbeːt/</sub> | **دای نەنابووبا**<br><sub>also داینەنابووبا</sub><br><sub>day nenabûba</sub><br><sub>/daːj nænaːbuːbaː/</sub> |
+| 1pl | ئێمە | **دامان نەنابا**<br><sub>also داماننەنابا</sub><br><sub>daman nenaba</sub><br><sub>/daːmaːn nænaːbaː/</sub> | **دامان نەنابێت**<br><sub>also داماننەنابێت</sub><br><sub>daman nenabêt</sub><br><sub>/daːmaːn nænaːbeːt/</sub> | **دامان نەنابووبا**<br><sub>also داماننەنابووبا</sub><br><sub>daman nenabûba</sub><br><sub>/daːmaːn nænaːbuːbaː/</sub> |
+| 2pl | ئێوە | **داتان نەنابا**<br><sub>also داتاننەنابا</sub><br><sub>datan nenaba</sub><br><sub>/daːtaːn nænaːbaː/</sub> | **داتان نەنابێت**<br><sub>also داتاننەنابێت</sub><br><sub>datan nenabêt</sub><br><sub>/daːtaːn nænaːbeːt/</sub> | **داتان نەنابووبا**<br><sub>also داتاننەنابووبا</sub><br><sub>datan nenabûba</sub><br><sub>/daːtaːn nænaːbuːbaː/</sub> |
+| 3pl | ئەوان | **دایان نەنابا**<br><sub>also دایاننەنابا</sub><br><sub>dayan nenaba</sub><br><sub>/daːjaːn nænaːbaː/</sub> | **دایان نەنابێت**<br><sub>also دایاننەنابێت</sub><br><sub>dayan nenabêt</sub><br><sub>/daːjaːn nænaːbeːt/</sub> | **دایان نەنابووبا**<br><sub>also دایاننەنابووبا</sub><br><sub>dayan nenabûba</sub><br><sub>/daːjaːn nænaːbuːbaː/</sub> |
 
 ## Passive: present and subjunctive
 

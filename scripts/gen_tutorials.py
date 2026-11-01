@@ -201,6 +201,9 @@ def cells_for(lang: Lang) -> dict:
     return CKB_CELLS if lang.code == "ckb" else KMR_CELLS
 
 
+SOLID: dict[str, str] = {}  # standard spelling -> the solid form of the paradigm
+
+
 def verb_cell(lang: Lang, v, cell: str) -> dict[str, str]:
     """person -> form for one paradigm cell (kmr ``pl`` is expanded to 1pl/2pl/3pl)."""
     if cell not in cells_for(lang):
@@ -214,8 +217,10 @@ def verb_cell(lang: Lang, v, cell: str) -> dict[str, str]:
         p = ft.get("person") or ft.get("agent")
         if not p or p == "external":
             continue
+        form = lang.verbs.standard_spelling(v, f) if lang.code == "ckb" else f.form
+        SOLID[form] = f.form
         for q in (("1pl", "2pl", "3pl") if p == "pl" else p.split("|")):
-            cands.setdefault(q, []).append(f.form)
+            cands.setdefault(q, []).append(form)
     return {q: _preferred(lang, v, forms) for q, forms in cands.items()}
 
 
@@ -228,10 +233,12 @@ def _cellfmt(lang: Lang, form: str | None, show: str) -> str:
     if not form:
         return "—"
     parts = [f"**{form}**"]
+    if " " in form:  # the standard splits it, and the solid form is allowed and common
+        parts.append(f"<sub>also {SOLID[form]}</sub>")
     if "translit" in show:
-        parts.append(f"<sub>{lang.other(form)}</sub>")
+        parts.append(f"<sub>{' '.join(lang.other(x) for x in form.split())}</sub>")
     if "ipa" in show:
-        parts.append(f"<sub>/{lang.ipa(form)}/</sub>")
+        parts.append(f"<sub>/{' '.join(lang.ipa(x) for x in form.split())}/</sub>")
     return "<br>".join(parts)
 
 

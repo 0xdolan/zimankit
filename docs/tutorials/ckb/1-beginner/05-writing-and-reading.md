@@ -16,7 +16,7 @@ Two invisible characters matter in typed Sorani:
 
 | character | use | example |
 |---|---|---|
-| **ZWNJ** (zero-width non-joiner, U+200C) | keeps two parts of one word apart without a space, mostly in compounds | پێش‌نیاز *suggestion* |
+| **ZWNJ** (zero-width non-joiner, U+200C) | not part of standard spelling. You will meet it in older text, but compounds are written solid (پێشنیاز *suggestion*), and forms such as سپی‌یە or من‌و تۆ are errors | سپی‌یە → سپییە |
 | ordinary space | separates words | من دەچم |
 
 Older texts sometimes used ه + ZWNJ to imitate ە, because early keyboards had no ە key: you will see به‌ڕێوه‌به‌ر where the standard is بەڕێوەبەر. zimankit's normaliser repairs such text automatically (lesson 23).
@@ -54,6 +54,8 @@ Sorani uses the Eastern Arabic digits, written left to right inside right-to-lef
 | 2 | شەش، حەوت، هەشت، نۆ، دە | şeş, ḧewt, heşt, no, de | six, seven, eight, nine, ten |
 | 3 | ساڵی ٢٠٢٦ | sallî ٢٠٢٦ | the year 2026 |
 <!-- /gen -->
+
+Numbers 11 to 19 are one word (یازدە, نۆزدە). The others are written apart: بیست و یەک *21*, دوو سەد *200*, یەک هەزار *1000*. A number + noun that makes a new word is solid: دووشەممە *Monday*, یەکشاخ *one-horned*.
 
 ## Punctuation
 

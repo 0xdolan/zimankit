@@ -37,6 +37,8 @@ in : به‌ڕێوه‌به‌رایه‌تی ئاوی سلێمانی له‌م�
 out: بەڕێوەبەرایەتی ئاوی سلێمانی لەماوەی مانگی ئابی ٢٠١٥ دا کرد ڕۆژ
 ```
 
+The normaliser does not fix spacing, because that needs grammar. The standard here is `لە ماوەی` and `٢٠١٥دا`.
+
 ## Validation
 
 For the full written standard, what zimankit implements of it and where the authorities disagree, see [chapter 23](23-ckb-written-standard.md).

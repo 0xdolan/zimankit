@@ -90,23 +90,23 @@ Every verb below is conjugated in full on its own page: all tenses, moods, negat
 | [**گەڕانەوە**](gerranewe.md) | gerranewe | to return | intransitive | دەگەڕێمەوە | گەڕایەوە |
 | [**دۆزینەوە**](dozinewe.md) | dozînewe | to find, to discover | transitive | دەدۆزمەوە | دۆزییەوە |
 | [**مانەوە**](manewe.md) | manewe | to stay (on) | intransitive | دەمێنمەوە | مایەوە |
-| [**هەڵگرتن**](hellgirtin.md) | hellgirtin | to pick up, to lift | transitive | هەڵدەگرم | هەڵیگرت |
-| [**هەڵبژاردن**](hellbijardin.md) | hellbijardin | to elect, to choose; election | transitive | هەڵدەبژێرم | هەڵیبژارد |
-| [**وەرگرتن**](wergirtin.md) | wergirtin | to receive | transitive | وەردەگرم | وەریگرت |
-| [**دەرکردن**](derkirdin.md) | derkirdin | to expel, to issue | transitive | دەردەکەم | دەریکرد |
-| [**تێگەیشتن**](tegeysitin.md) | têgeyşitin | to understand | intransitive | تێدەگەم | تێگەیشت |
-| [**داخستن**](daxsitin.md) | daxsitin | to close | transitive | دادەخەم | دایخست |
+| [**هەڵگرتن**](hellgirtin.md) | hellgirtin | to pick up, to lift | transitive | هەڵدەگرم | هەڵی گرت |
+| [**هەڵبژاردن**](hellbijardin.md) | hellbijardin | to elect, to choose; election | transitive | هەڵدەبژێرم | هەڵی بژارد |
+| [**وەرگرتن**](wergirtin.md) | wergirtin | to receive | transitive | وەردەگرم | وەری گرت |
+| [**دەرکردن**](derkirdin.md) | derkirdin | to expel, to issue | transitive | دەردەکەم | دەری کرد |
+| [**تێگەیشتن**](tegeysitin.md) | têgeyşitin | to understand | intransitive | تێ دەگەم | تێ گەیشت |
+| [**داخستن**](daxsitin.md) | daxsitin | to close | transitive | دادەخەم | دای خست |
 | [**دانیشتن**](danistin.md) | danîştin | to sit down | intransitive | دادەنیشم | دانیشت |
-| [**ڕاگەیاندن**](rageyandin.md) | rageyandin | to announce | transitive | ڕادەگەیەنم | ڕایگەیاند |
-| [**ڕاکردن**](rakridin.md) | rakridin | to run (away) | transitive | ڕادەکەم | ڕایکرد |
-| [**لێدان**](ledan.md) | lêdan | to hit, to beat | transitive | لێدەدەم | لێیدا |
-| [**پێکەنین**](pekenin.md) | pêkenîn | to laugh | intransitive | پێدەکەنم | پێکەنی |
+| [**ڕاگەیاندن**](rageyandin.md) | rageyandin | to announce | transitive | ڕادەگەیەنم | ڕای گەیاند |
+| [**ڕاکردن**](rakridin.md) | rakridin | to run (away) | transitive | ڕادەکەم | ڕای کرد |
+| [**لێدان**](ledan.md) | lêdan | to hit, to beat | transitive | لێ دەدەم | لێی دا |
+| [**پێکەنین**](pekenin.md) | pêkenîn | to laugh | intransitive | پێ دەکەنم | پێ کەنی |
 | [**دەرکەوتن**](derkewtin.md) | derkewtin | to appear, to come out | intransitive | دەردەکەوم | دەرکەوت |
 | [**دەرچوون**](dercun.md) | derçûn | to go out, to graduate | intransitive | دەردەچم | دەرچوو |
 | [**هەڵسان**](hellsan.md) | hellsan | to get up, to rise | intransitive | دەهەڵسم | هەڵسا |
-| [**پێکهاتن**](pekhatin.md) | pêkhatin | to consist of, to be formed | intransitive | پێکدێم | پێکهات |
-| [**بەکارهێنان**](bekarhenan.md) | bekarhênan | to use | transitive | بەکاردەهێنم | بەکاریهێنا |
-| [**دەستپێکردن**](destpekridin.md) | destpêkridin | to begin | transitive | دەستپێدەکەم | دەستپێیکرد |
+| [**پێکهاتن**](pekhatin.md) | pêkhatin | to consist of, to be formed | intransitive | پێک دێم | پێک هات |
+| [**بەکارهێنان**](bekarhenan.md) | bekarhênan | to use | transitive | بەکار دەهێنم | بەکاری هێنا |
+| [**دەستپێکردن**](destpekridin.md) | destpêkridin | to begin | transitive | دەست پێ دەکەم | دەستی پێ کرد |
 | [**نان**](nan.md) | nan | bread | transitive | دەنێم | نای |
 | [**پاڵاوتن**](pallawtin.md) | pallawtin | to filter | transitive | دەپاڵێوم | پاڵاوتی |
 | [**سرەوتن**](sirewtin.md) | sirewtin | to calm down | intransitive | دەسرەوم | سرەوت |
@@ -130,5 +130,5 @@ Every verb below is conjugated in full on its own page: all tenses, moods, negat
 | [**سڕان**](sirran.md) | sirran | to go numb | intransitive | دەسڕێم | سڕا |
 | [**شنین**](sinin.md) | şinîn | to blow gently | intransitive | دەشنێم | شنی |
 | [**ڕۆشتن**](rostin.md) | roştin | to go | intransitive | دەڕۆم | ڕۆشت |
-| [**دانان**](danan.md) | danan | to put down | transitive | دادەنێم | داینا |
+| [**دانان**](danan.md) | danan | to put down | transitive | دادەنێم | دای نا |
 <!-- /gen -->

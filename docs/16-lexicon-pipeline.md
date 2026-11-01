@@ -92,7 +92,7 @@ malê,mal,NOUN,maːleː,"{""case"":""obl"",""gender"":""f"",""seg"":""mal+ê""}"
 bavê,bav,NOUN,baːveː,"{""ezafe"":""yes"",""gender"":""m"",""seg"":""bav+ê""}",باڤێ,8682,...
 ```
 
-Spelling variants learnt from the data: `وێستگه → وێستگە` (legacy final heh), `ڕای‌گەیاند → ڕایگەیاند` (stray ZWNJ), `بالادەستی → باڵادەستی` (ل/ڵ), `گولله → گوللە`.
+Spelling variants learnt from the data: `وێستگه → وێستگە` (legacy final heh), `ڕای‌گەیاند → ڕایگەیاند` (stray ZWNJ; the corpus prefers the solid form, and the standard prefers `ڕای گەیاند`), `بالادەستی → باڵادەستی` (ل/ڵ), `گولله → گوللە`.
 
 ## Kaggle dataset (`output/kaggle/`)
 

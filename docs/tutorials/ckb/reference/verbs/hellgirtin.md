@@ -43,12 +43,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **هەڵمگرت**<br><sub>hellmigirt</sub><br><sub>/hæɫm(ɯ)ɡ(ɯ)ɾt/</sub> | **هەڵمنەگرت**<br><sub>hellminegrit</sub><br><sub>/hæɫm(ɯ)næɡɾ(ɯ)t/</sub> |
-| 2sg | تۆ | **هەڵتگرت**<br><sub>helltigirt</sub><br><sub>/hæɫt(ɯ)ɡ(ɯ)ɾt/</sub> | **هەڵتنەگرت**<br><sub>helltinegrit</sub><br><sub>/hæɫt(ɯ)næɡɾ(ɯ)t/</sub> |
-| 3sg | ئەو | **هەڵیگرت**<br><sub>hellîgrit</sub><br><sub>/hæɫiːɡɾ(ɯ)t/</sub> | **هەڵینەگرت**<br><sub>hellînegrit</sub><br><sub>/hæɫiːnæɡɾ(ɯ)t/</sub> |
-| 1pl | ئێمە | **هەڵمانگرت**<br><sub>hellmangirt</sub><br><sub>/hæɫmaːnɡ(ɯ)ɾt/</sub> | **هەڵماننەگرت**<br><sub>hellmannegrit</sub><br><sub>/hæɫmaːnnæɡɾ(ɯ)t/</sub> |
-| 2pl | ئێوە | **هەڵتانگرت**<br><sub>helltangirt</sub><br><sub>/hæɫtaːnɡ(ɯ)ɾt/</sub> | **هەڵتاننەگرت**<br><sub>helltannegrit</sub><br><sub>/hæɫtaːnnæɡɾ(ɯ)t/</sub> |
-| 3pl | ئەوان | **هەڵیانگرت**<br><sub>hellyangirt</sub><br><sub>/hæɫjaːnɡ(ɯ)ɾt/</sub> | **هەڵیاننەگرت**<br><sub>hellyannegrit</sub><br><sub>/hæɫjaːnnæɡɾ(ɯ)t/</sub> |
+| 1sg | من | **هەڵم گرت**<br><sub>also هەڵمگرت</sub><br><sub>hellm girt</sub><br><sub>/hæɫm ɡ(ɯ)ɾt/</sub> | **هەڵم نەگرت**<br><sub>also هەڵمنەگرت</sub><br><sub>hellm negrit</sub><br><sub>/hæɫm næɡɾ(ɯ)t/</sub> |
+| 2sg | تۆ | **هەڵت گرت**<br><sub>also هەڵتگرت</sub><br><sub>hellt girt</sub><br><sub>/hæɫt ɡ(ɯ)ɾt/</sub> | **هەڵت نەگرت**<br><sub>also هەڵتنەگرت</sub><br><sub>hellt negrit</sub><br><sub>/hæɫt næɡɾ(ɯ)t/</sub> |
+| 3sg | ئەو | **هەڵی گرت**<br><sub>also هەڵیگرت</sub><br><sub>hellî girt</sub><br><sub>/hæɫiː ɡ(ɯ)ɾt/</sub> | **هەڵی نەگرت**<br><sub>also هەڵینەگرت</sub><br><sub>hellî negrit</sub><br><sub>/hæɫiː næɡɾ(ɯ)t/</sub> |
+| 1pl | ئێمە | **هەڵمان گرت**<br><sub>also هەڵمانگرت</sub><br><sub>hellman girt</sub><br><sub>/hæɫmaːn ɡ(ɯ)ɾt/</sub> | **هەڵمان نەگرت**<br><sub>also هەڵماننەگرت</sub><br><sub>hellman negrit</sub><br><sub>/hæɫmaːn næɡɾ(ɯ)t/</sub> |
+| 2pl | ئێوە | **هەڵتان گرت**<br><sub>also هەڵتانگرت</sub><br><sub>helltan girt</sub><br><sub>/hæɫtaːn ɡ(ɯ)ɾt/</sub> | **هەڵتان نەگرت**<br><sub>also هەڵتاننەگرت</sub><br><sub>helltan negrit</sub><br><sub>/hæɫtaːn næɡɾ(ɯ)t/</sub> |
+| 3pl | ئەوان | **هەڵیان گرت**<br><sub>also هەڵیانگرت</sub><br><sub>hellyan girt</sub><br><sub>/hæɫjaːn ɡ(ɯ)ɾt/</sub> | **هەڵیان نەگرت**<br><sub>also هەڵیاننەگرت</sub><br><sub>hellyan negrit</sub><br><sub>/hæɫjaːn næɡɾ(ɯ)t/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -58,12 +58,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **هەڵمدەگرت**<br><sub>hellmidegrit</sub><br><sub>/hæɫm(ɯ)dæɡɾ(ɯ)t/</sub> | **هەڵمنەدەگرت**<br><sub>hellminedegrit</sub><br><sub>/hæɫm(ɯ)nædæɡɾ(ɯ)t/</sub> |
-| 2sg | تۆ | **هەڵتدەگرت**<br><sub>helltidegrit</sub><br><sub>/hæɫt(ɯ)dæɡɾ(ɯ)t/</sub> | **هەڵتنەدەگرت**<br><sub>helltinedegrit</sub><br><sub>/hæɫt(ɯ)nædæɡɾ(ɯ)t/</sub> |
-| 3sg | ئەو | **هەڵیدەگرت**<br><sub>hellîdegrit</sub><br><sub>/hæɫiːdæɡɾ(ɯ)t/</sub> | **هەڵینەدەگرت**<br><sub>hellînedegrit</sub><br><sub>/hæɫiːnædæɡɾ(ɯ)t/</sub> |
-| 1pl | ئێمە | **هەڵماندەگرت**<br><sub>hellmandegrit</sub><br><sub>/hæɫmaːndæɡɾ(ɯ)t/</sub> | **هەڵماننەدەگرت**<br><sub>hellmannedegrit</sub><br><sub>/hæɫmaːnnædæɡɾ(ɯ)t/</sub> |
-| 2pl | ئێوە | **هەڵتاندەگرت**<br><sub>helltandegrit</sub><br><sub>/hæɫtaːndæɡɾ(ɯ)t/</sub> | **هەڵتاننەدەگرت**<br><sub>helltannedegrit</sub><br><sub>/hæɫtaːnnædæɡɾ(ɯ)t/</sub> |
-| 3pl | ئەوان | **هەڵیاندەگرت**<br><sub>hellyandegrit</sub><br><sub>/hæɫjaːndæɡɾ(ɯ)t/</sub> | **هەڵیاننەدەگرت**<br><sub>hellyannedegrit</sub><br><sub>/hæɫjaːnnædæɡɾ(ɯ)t/</sub> |
+| 1sg | من | **هەڵم دەگرت**<br><sub>also هەڵمدەگرت</sub><br><sub>hellm degrit</sub><br><sub>/hæɫm dæɡɾ(ɯ)t/</sub> | **هەڵم نەدەگرت**<br><sub>also هەڵمنەدەگرت</sub><br><sub>hellm nedegrit</sub><br><sub>/hæɫm nædæɡɾ(ɯ)t/</sub> |
+| 2sg | تۆ | **هەڵت دەگرت**<br><sub>also هەڵتدەگرت</sub><br><sub>hellt degrit</sub><br><sub>/hæɫt dæɡɾ(ɯ)t/</sub> | **هەڵت نەدەگرت**<br><sub>also هەڵتنەدەگرت</sub><br><sub>hellt nedegrit</sub><br><sub>/hæɫt nædæɡɾ(ɯ)t/</sub> |
+| 3sg | ئەو | **هەڵی دەگرت**<br><sub>also هەڵیدەگرت</sub><br><sub>hellî degrit</sub><br><sub>/hæɫiː dæɡɾ(ɯ)t/</sub> | **هەڵی نەدەگرت**<br><sub>also هەڵینەدەگرت</sub><br><sub>hellî nedegrit</sub><br><sub>/hæɫiː nædæɡɾ(ɯ)t/</sub> |
+| 1pl | ئێمە | **هەڵمان دەگرت**<br><sub>also هەڵماندەگرت</sub><br><sub>hellman degrit</sub><br><sub>/hæɫmaːn dæɡɾ(ɯ)t/</sub> | **هەڵمان نەدەگرت**<br><sub>also هەڵماننەدەگرت</sub><br><sub>hellman nedegrit</sub><br><sub>/hæɫmaːn nædæɡɾ(ɯ)t/</sub> |
+| 2pl | ئێوە | **هەڵتان دەگرت**<br><sub>also هەڵتاندەگرت</sub><br><sub>helltan degrit</sub><br><sub>/hæɫtaːn dæɡɾ(ɯ)t/</sub> | **هەڵتان نەدەگرت**<br><sub>also هەڵتاننەدەگرت</sub><br><sub>helltan nedegrit</sub><br><sub>/hæɫtaːn nædæɡɾ(ɯ)t/</sub> |
+| 3pl | ئەوان | **هەڵیان دەگرت**<br><sub>also هەڵیاندەگرت</sub><br><sub>hellyan degrit</sub><br><sub>/hæɫjaːn dæɡɾ(ɯ)t/</sub> | **هەڵیان نەدەگرت**<br><sub>also هەڵیاننەدەگرت</sub><br><sub>hellyan nedegrit</sub><br><sub>/hæɫjaːn nædæɡɾ(ɯ)t/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -73,12 +73,12 @@
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **هەڵمگرتووە**<br><sub>hellmigirtûwe</sub><br><sub>/hæɫm(ɯ)ɡ(ɯ)ɾtuːwæ/</sub> | **هەڵمنەگرتووە**<br><sub>hellminegritûwe</sub><br><sub>/hæɫm(ɯ)næɡɾ(ɯ)tuːwæ/</sub> | **هەڵمگرتبوو**<br><sub>hellmigritbû</sub><br><sub>/hæɫm(ɯ)ɡɾ(ɯ)tbuː/</sub> | **هەڵمنەگرتبوو**<br><sub>hellminegritbû</sub><br><sub>/hæɫm(ɯ)næɡɾ(ɯ)tbuː/</sub> |
-| 2sg | تۆ | **هەڵتگرتووە**<br><sub>helltigirtûwe</sub><br><sub>/hæɫt(ɯ)ɡ(ɯ)ɾtuːwæ/</sub> | **هەڵتنەگرتووە**<br><sub>helltinegritûwe</sub><br><sub>/hæɫt(ɯ)næɡɾ(ɯ)tuːwæ/</sub> | **هەڵتگرتبوو**<br><sub>helltigritbû</sub><br><sub>/hæɫt(ɯ)ɡɾ(ɯ)tbuː/</sub> | **هەڵتنەگرتبوو**<br><sub>helltinegritbû</sub><br><sub>/hæɫt(ɯ)næɡɾ(ɯ)tbuː/</sub> |
-| 3sg | ئەو | **هەڵیگرتووە**<br><sub>hellîgritûwe</sub><br><sub>/hæɫiːɡɾ(ɯ)tuːwæ/</sub> | **هەڵینەگرتووە**<br><sub>hellînegritûwe</sub><br><sub>/hæɫiːnæɡɾ(ɯ)tuːwæ/</sub> | **هەڵیگرتبوو**<br><sub>hellîgritbû</sub><br><sub>/hæɫiːɡɾ(ɯ)tbuː/</sub> | **هەڵینەگرتبوو**<br><sub>hellînegritbû</sub><br><sub>/hæɫiːnæɡɾ(ɯ)tbuː/</sub> |
-| 1pl | ئێمە | **هەڵمانگرتووە**<br><sub>hellmangirtûwe</sub><br><sub>/hæɫmaːnɡ(ɯ)ɾtuːwæ/</sub> | **هەڵماننەگرتووە**<br><sub>hellmannegritûwe</sub><br><sub>/hæɫmaːnnæɡɾ(ɯ)tuːwæ/</sub> | **هەڵمانگرتبوو**<br><sub>hellmangiritbû</sub><br><sub>/hæɫmaːnɡ(ɯ)ɾ(ɯ)tbuː/</sub> | **هەڵماننەگرتبوو**<br><sub>hellmannegritbû</sub><br><sub>/hæɫmaːnnæɡɾ(ɯ)tbuː/</sub> |
-| 2pl | ئێوە | **هەڵتانگرتووە**<br><sub>helltangirtûwe</sub><br><sub>/hæɫtaːnɡ(ɯ)ɾtuːwæ/</sub> | **هەڵتاننەگرتووە**<br><sub>helltannegritûwe</sub><br><sub>/hæɫtaːnnæɡɾ(ɯ)tuːwæ/</sub> | **هەڵتانگرتبوو**<br><sub>helltangiritbû</sub><br><sub>/hæɫtaːnɡ(ɯ)ɾ(ɯ)tbuː/</sub> | **هەڵتاننەگرتبوو**<br><sub>helltannegritbû</sub><br><sub>/hæɫtaːnnæɡɾ(ɯ)tbuː/</sub> |
-| 3pl | ئەوان | **هەڵیانگرتووە**<br><sub>hellyangirtûwe</sub><br><sub>/hæɫjaːnɡ(ɯ)ɾtuːwæ/</sub> | **هەڵیاننەگرتووە**<br><sub>hellyannegritûwe</sub><br><sub>/hæɫjaːnnæɡɾ(ɯ)tuːwæ/</sub> | **هەڵیانگرتبوو**<br><sub>hellyangiritbû</sub><br><sub>/hæɫjaːnɡ(ɯ)ɾ(ɯ)tbuː/</sub> | **هەڵیاننەگرتبوو**<br><sub>hellyannegritbû</sub><br><sub>/hæɫjaːnnæɡɾ(ɯ)tbuː/</sub> |
+| 1sg | من | **هەڵم گرتووە**<br><sub>also هەڵمگرتووە</sub><br><sub>hellm girtûwe</sub><br><sub>/hæɫm ɡ(ɯ)ɾtuːwæ/</sub> | **هەڵم نەگرتووە**<br><sub>also هەڵمنەگرتووە</sub><br><sub>hellm negritûwe</sub><br><sub>/hæɫm næɡɾ(ɯ)tuːwæ/</sub> | **هەڵم گرتبوو**<br><sub>also هەڵمگرتبوو</sub><br><sub>hellm girtibû</sub><br><sub>/hæɫm ɡ(ɯ)ɾt(ɯ)buː/</sub> | **هەڵم نەگرتبوو**<br><sub>also هەڵمنەگرتبوو</sub><br><sub>hellm negritbû</sub><br><sub>/hæɫm næɡɾ(ɯ)tbuː/</sub> |
+| 2sg | تۆ | **هەڵت گرتووە**<br><sub>also هەڵتگرتووە</sub><br><sub>hellt girtûwe</sub><br><sub>/hæɫt ɡ(ɯ)ɾtuːwæ/</sub> | **هەڵت نەگرتووە**<br><sub>also هەڵتنەگرتووە</sub><br><sub>hellt negritûwe</sub><br><sub>/hæɫt næɡɾ(ɯ)tuːwæ/</sub> | **هەڵت گرتبوو**<br><sub>also هەڵتگرتبوو</sub><br><sub>hellt girtibû</sub><br><sub>/hæɫt ɡ(ɯ)ɾt(ɯ)buː/</sub> | **هەڵت نەگرتبوو**<br><sub>also هەڵتنەگرتبوو</sub><br><sub>hellt negritbû</sub><br><sub>/hæɫt næɡɾ(ɯ)tbuː/</sub> |
+| 3sg | ئەو | **هەڵی گرتووە**<br><sub>also هەڵیگرتووە</sub><br><sub>hellî girtûwe</sub><br><sub>/hæɫiː ɡ(ɯ)ɾtuːwæ/</sub> | **هەڵی نەگرتووە**<br><sub>also هەڵینەگرتووە</sub><br><sub>hellî negritûwe</sub><br><sub>/hæɫiː næɡɾ(ɯ)tuːwæ/</sub> | **هەڵی گرتبوو**<br><sub>also هەڵیگرتبوو</sub><br><sub>hellî girtibû</sub><br><sub>/hæɫiː ɡ(ɯ)ɾt(ɯ)buː/</sub> | **هەڵی نەگرتبوو**<br><sub>also هەڵینەگرتبوو</sub><br><sub>hellî negritbû</sub><br><sub>/hæɫiː næɡɾ(ɯ)tbuː/</sub> |
+| 1pl | ئێمە | **هەڵمان گرتووە**<br><sub>also هەڵمانگرتووە</sub><br><sub>hellman girtûwe</sub><br><sub>/hæɫmaːn ɡ(ɯ)ɾtuːwæ/</sub> | **هەڵمان نەگرتووە**<br><sub>also هەڵماننەگرتووە</sub><br><sub>hellman negritûwe</sub><br><sub>/hæɫmaːn næɡɾ(ɯ)tuːwæ/</sub> | **هەڵمان گرتبوو**<br><sub>also هەڵمانگرتبوو</sub><br><sub>hellman girtibû</sub><br><sub>/hæɫmaːn ɡ(ɯ)ɾt(ɯ)buː/</sub> | **هەڵمان نەگرتبوو**<br><sub>also هەڵماننەگرتبوو</sub><br><sub>hellman negritbû</sub><br><sub>/hæɫmaːn næɡɾ(ɯ)tbuː/</sub> |
+| 2pl | ئێوە | **هەڵتان گرتووە**<br><sub>also هەڵتانگرتووە</sub><br><sub>helltan girtûwe</sub><br><sub>/hæɫtaːn ɡ(ɯ)ɾtuːwæ/</sub> | **هەڵتان نەگرتووە**<br><sub>also هەڵتاننەگرتووە</sub><br><sub>helltan negritûwe</sub><br><sub>/hæɫtaːn næɡɾ(ɯ)tuːwæ/</sub> | **هەڵتان گرتبوو**<br><sub>also هەڵتانگرتبوو</sub><br><sub>helltan girtibû</sub><br><sub>/hæɫtaːn ɡ(ɯ)ɾt(ɯ)buː/</sub> | **هەڵتان نەگرتبوو**<br><sub>also هەڵتاننەگرتبوو</sub><br><sub>helltan negritbû</sub><br><sub>/hæɫtaːn næɡɾ(ɯ)tbuː/</sub> |
+| 3pl | ئەوان | **هەڵیان گرتووە**<br><sub>also هەڵیانگرتووە</sub><br><sub>hellyan girtûwe</sub><br><sub>/hæɫjaːn ɡ(ɯ)ɾtuːwæ/</sub> | **هەڵیان نەگرتووە**<br><sub>also هەڵیاننەگرتووە</sub><br><sub>hellyan negritûwe</sub><br><sub>/hæɫjaːn næɡɾ(ɯ)tuːwæ/</sub> | **هەڵیان گرتبوو**<br><sub>also هەڵیانگرتبوو</sub><br><sub>hellyan girtibû</sub><br><sub>/hæɫjaːn ɡ(ɯ)ɾt(ɯ)buː/</sub> | **هەڵیان نەگرتبوو**<br><sub>also هەڵیاننەگرتبوو</sub><br><sub>hellyan negritbû</sub><br><sub>/hæɫjaːn næɡɾ(ɯ)tbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -88,12 +88,12 @@
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **هەڵمگرتبا**<br><sub>hellmigritba</sub><br><sub>/hæɫm(ɯ)ɡɾ(ɯ)tbaː/</sub> | **هەڵمگرتبێت**<br><sub>hellmigritbêt</sub><br><sub>/hæɫm(ɯ)ɡɾ(ɯ)tbeːt/</sub> | **هەڵمگرتبووبا**<br><sub>hellmigritbûba</sub><br><sub>/hæɫm(ɯ)ɡɾ(ɯ)tbuːbaː/</sub> |
-| 2sg | تۆ | **هەڵتگرتبا**<br><sub>helltigritba</sub><br><sub>/hæɫt(ɯ)ɡɾ(ɯ)tbaː/</sub> | **هەڵتگرتبێت**<br><sub>helltigritbêt</sub><br><sub>/hæɫt(ɯ)ɡɾ(ɯ)tbeːt/</sub> | **هەڵتگرتبووبا**<br><sub>helltigritbûba</sub><br><sub>/hæɫt(ɯ)ɡɾ(ɯ)tbuːbaː/</sub> |
-| 3sg | ئەو | **هەڵیگرتبا**<br><sub>hellîgritba</sub><br><sub>/hæɫiːɡɾ(ɯ)tbaː/</sub> | **هەڵیگرتبێت**<br><sub>hellîgritbêt</sub><br><sub>/hæɫiːɡɾ(ɯ)tbeːt/</sub> | **هەڵیگرتبووبا**<br><sub>hellîgritbûba</sub><br><sub>/hæɫiːɡɾ(ɯ)tbuːbaː/</sub> |
-| 1pl | ئێمە | **هەڵمانگرتبا**<br><sub>hellmangiritba</sub><br><sub>/hæɫmaːnɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **هەڵمانگرتبێت**<br><sub>hellmangiritbêt</sub><br><sub>/hæɫmaːnɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **هەڵمانگرتبووبا**<br><sub>hellmangiritbûba</sub><br><sub>/hæɫmaːnɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
-| 2pl | ئێوە | **هەڵتانگرتبا**<br><sub>helltangiritba</sub><br><sub>/hæɫtaːnɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **هەڵتانگرتبێت**<br><sub>helltangiritbêt</sub><br><sub>/hæɫtaːnɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **هەڵتانگرتبووبا**<br><sub>helltangiritbûba</sub><br><sub>/hæɫtaːnɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
-| 3pl | ئەوان | **هەڵیانگرتبا**<br><sub>hellyangiritba</sub><br><sub>/hæɫjaːnɡ(ɯ)ɾ(ɯ)tbaː/</sub> | **هەڵیانگرتبێت**<br><sub>hellyangiritbêt</sub><br><sub>/hæɫjaːnɡ(ɯ)ɾ(ɯ)tbeːt/</sub> | **هەڵیانگرتبووبا**<br><sub>hellyangiritbûba</sub><br><sub>/hæɫjaːnɡ(ɯ)ɾ(ɯ)tbuːbaː/</sub> |
+| 1sg | من | **هەڵم گرتبا**<br><sub>also هەڵمگرتبا</sub><br><sub>hellm girtiba</sub><br><sub>/hæɫm ɡ(ɯ)ɾt(ɯ)baː/</sub> | **هەڵم گرتبێت**<br><sub>also هەڵمگرتبێت</sub><br><sub>hellm girtibêt</sub><br><sub>/hæɫm ɡ(ɯ)ɾt(ɯ)beːt/</sub> | **هەڵم گرتبووبا**<br><sub>also هەڵمگرتبووبا</sub><br><sub>hellm girtibûba</sub><br><sub>/hæɫm ɡ(ɯ)ɾt(ɯ)buːbaː/</sub> |
+| 2sg | تۆ | **هەڵت گرتبا**<br><sub>also هەڵتگرتبا</sub><br><sub>hellt girtiba</sub><br><sub>/hæɫt ɡ(ɯ)ɾt(ɯ)baː/</sub> | **هەڵت گرتبێت**<br><sub>also هەڵتگرتبێت</sub><br><sub>hellt girtibêt</sub><br><sub>/hæɫt ɡ(ɯ)ɾt(ɯ)beːt/</sub> | **هەڵت گرتبووبا**<br><sub>also هەڵتگرتبووبا</sub><br><sub>hellt girtibûba</sub><br><sub>/hæɫt ɡ(ɯ)ɾt(ɯ)buːbaː/</sub> |
+| 3sg | ئەو | **هەڵی گرتبا**<br><sub>also هەڵیگرتبا</sub><br><sub>hellî girtiba</sub><br><sub>/hæɫiː ɡ(ɯ)ɾt(ɯ)baː/</sub> | **هەڵی گرتبێت**<br><sub>also هەڵیگرتبێت</sub><br><sub>hellî girtibêt</sub><br><sub>/hæɫiː ɡ(ɯ)ɾt(ɯ)beːt/</sub> | **هەڵی گرتبووبا**<br><sub>also هەڵیگرتبووبا</sub><br><sub>hellî girtibûba</sub><br><sub>/hæɫiː ɡ(ɯ)ɾt(ɯ)buːbaː/</sub> |
+| 1pl | ئێمە | **هەڵمان گرتبا**<br><sub>also هەڵمانگرتبا</sub><br><sub>hellman girtiba</sub><br><sub>/hæɫmaːn ɡ(ɯ)ɾt(ɯ)baː/</sub> | **هەڵمان گرتبێت**<br><sub>also هەڵمانگرتبێت</sub><br><sub>hellman girtibêt</sub><br><sub>/hæɫmaːn ɡ(ɯ)ɾt(ɯ)beːt/</sub> | **هەڵمان گرتبووبا**<br><sub>also هەڵمانگرتبووبا</sub><br><sub>hellman girtibûba</sub><br><sub>/hæɫmaːn ɡ(ɯ)ɾt(ɯ)buːbaː/</sub> |
+| 2pl | ئێوە | **هەڵتان گرتبا**<br><sub>also هەڵتانگرتبا</sub><br><sub>helltan girtiba</sub><br><sub>/hæɫtaːn ɡ(ɯ)ɾt(ɯ)baː/</sub> | **هەڵتان گرتبێت**<br><sub>also هەڵتانگرتبێت</sub><br><sub>helltan girtibêt</sub><br><sub>/hæɫtaːn ɡ(ɯ)ɾt(ɯ)beːt/</sub> | **هەڵتان گرتبووبا**<br><sub>also هەڵتانگرتبووبا</sub><br><sub>helltan girtibûba</sub><br><sub>/hæɫtaːn ɡ(ɯ)ɾt(ɯ)buːbaː/</sub> |
+| 3pl | ئەوان | **هەڵیان گرتبا**<br><sub>also هەڵیانگرتبا</sub><br><sub>hellyan girtiba</sub><br><sub>/hæɫjaːn ɡ(ɯ)ɾt(ɯ)baː/</sub> | **هەڵیان گرتبێت**<br><sub>also هەڵیانگرتبێت</sub><br><sub>hellyan girtibêt</sub><br><sub>/hæɫjaːn ɡ(ɯ)ɾt(ɯ)beːt/</sub> | **هەڵیان گرتبووبا**<br><sub>also هەڵیانگرتبووبا</sub><br><sub>hellyan girtibûba</sub><br><sub>/hæɫjaːn ɡ(ɯ)ɾt(ɯ)buːbaː/</sub> |
 
 ## Past subjunctive negative
 
@@ -101,12 +101,12 @@
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **هەڵمنەگرتبا**<br><sub>hellminegritba</sub><br><sub>/hæɫm(ɯ)næɡɾ(ɯ)tbaː/</sub> | **هەڵمنەگرتبێت**<br><sub>hellminegritbêt</sub><br><sub>/hæɫm(ɯ)næɡɾ(ɯ)tbeːt/</sub> | **هەڵمنەگرتبووبا**<br><sub>hellminegritbûba</sub><br><sub>/hæɫm(ɯ)næɡɾ(ɯ)tbuːbaː/</sub> |
-| 2sg | تۆ | **هەڵتنەگرتبا**<br><sub>helltinegritba</sub><br><sub>/hæɫt(ɯ)næɡɾ(ɯ)tbaː/</sub> | **هەڵتنەگرتبێت**<br><sub>helltinegritbêt</sub><br><sub>/hæɫt(ɯ)næɡɾ(ɯ)tbeːt/</sub> | **هەڵتنەگرتبووبا**<br><sub>helltinegritbûba</sub><br><sub>/hæɫt(ɯ)næɡɾ(ɯ)tbuːbaː/</sub> |
-| 3sg | ئەو | **هەڵینەگرتبا**<br><sub>hellînegritba</sub><br><sub>/hæɫiːnæɡɾ(ɯ)tbaː/</sub> | **هەڵینەگرتبێت**<br><sub>hellînegritbêt</sub><br><sub>/hæɫiːnæɡɾ(ɯ)tbeːt/</sub> | **هەڵینەگرتبووبا**<br><sub>hellînegritbûba</sub><br><sub>/hæɫiːnæɡɾ(ɯ)tbuːbaː/</sub> |
-| 1pl | ئێمە | **هەڵماننەگرتبا**<br><sub>hellmannegritba</sub><br><sub>/hæɫmaːnnæɡɾ(ɯ)tbaː/</sub> | **هەڵماننەگرتبێت**<br><sub>hellmannegritbêt</sub><br><sub>/hæɫmaːnnæɡɾ(ɯ)tbeːt/</sub> | **هەڵماننەگرتبووبا**<br><sub>hellmannegritbûba</sub><br><sub>/hæɫmaːnnæɡɾ(ɯ)tbuːbaː/</sub> |
-| 2pl | ئێوە | **هەڵتاننەگرتبا**<br><sub>helltannegritba</sub><br><sub>/hæɫtaːnnæɡɾ(ɯ)tbaː/</sub> | **هەڵتاننەگرتبێت**<br><sub>helltannegritbêt</sub><br><sub>/hæɫtaːnnæɡɾ(ɯ)tbeːt/</sub> | **هەڵتاننەگرتبووبا**<br><sub>helltannegritbûba</sub><br><sub>/hæɫtaːnnæɡɾ(ɯ)tbuːbaː/</sub> |
-| 3pl | ئەوان | **هەڵیاننەگرتبا**<br><sub>hellyannegritba</sub><br><sub>/hæɫjaːnnæɡɾ(ɯ)tbaː/</sub> | **هەڵیاننەگرتبێت**<br><sub>hellyannegritbêt</sub><br><sub>/hæɫjaːnnæɡɾ(ɯ)tbeːt/</sub> | **هەڵیاننەگرتبووبا**<br><sub>hellyannegritbûba</sub><br><sub>/hæɫjaːnnæɡɾ(ɯ)tbuːbaː/</sub> |
+| 1sg | من | **هەڵم نەگرتبا**<br><sub>also هەڵمنەگرتبا</sub><br><sub>hellm negritba</sub><br><sub>/hæɫm næɡɾ(ɯ)tbaː/</sub> | **هەڵم نەگرتبێت**<br><sub>also هەڵمنەگرتبێت</sub><br><sub>hellm negritbêt</sub><br><sub>/hæɫm næɡɾ(ɯ)tbeːt/</sub> | **هەڵم نەگرتبووبا**<br><sub>also هەڵمنەگرتبووبا</sub><br><sub>hellm negritbûba</sub><br><sub>/hæɫm næɡɾ(ɯ)tbuːbaː/</sub> |
+| 2sg | تۆ | **هەڵت نەگرتبا**<br><sub>also هەڵتنەگرتبا</sub><br><sub>hellt negritba</sub><br><sub>/hæɫt næɡɾ(ɯ)tbaː/</sub> | **هەڵت نەگرتبێت**<br><sub>also هەڵتنەگرتبێت</sub><br><sub>hellt negritbêt</sub><br><sub>/hæɫt næɡɾ(ɯ)tbeːt/</sub> | **هەڵت نەگرتبووبا**<br><sub>also هەڵتنەگرتبووبا</sub><br><sub>hellt negritbûba</sub><br><sub>/hæɫt næɡɾ(ɯ)tbuːbaː/</sub> |
+| 3sg | ئەو | **هەڵی نەگرتبا**<br><sub>also هەڵینەگرتبا</sub><br><sub>hellî negritba</sub><br><sub>/hæɫiː næɡɾ(ɯ)tbaː/</sub> | **هەڵی نەگرتبێت**<br><sub>also هەڵینەگرتبێت</sub><br><sub>hellî negritbêt</sub><br><sub>/hæɫiː næɡɾ(ɯ)tbeːt/</sub> | **هەڵی نەگرتبووبا**<br><sub>also هەڵینەگرتبووبا</sub><br><sub>hellî negritbûba</sub><br><sub>/hæɫiː næɡɾ(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **هەڵمان نەگرتبا**<br><sub>also هەڵماننەگرتبا</sub><br><sub>hellman negritba</sub><br><sub>/hæɫmaːn næɡɾ(ɯ)tbaː/</sub> | **هەڵمان نەگرتبێت**<br><sub>also هەڵماننەگرتبێت</sub><br><sub>hellman negritbêt</sub><br><sub>/hæɫmaːn næɡɾ(ɯ)tbeːt/</sub> | **هەڵمان نەگرتبووبا**<br><sub>also هەڵماننەگرتبووبا</sub><br><sub>hellman negritbûba</sub><br><sub>/hæɫmaːn næɡɾ(ɯ)tbuːbaː/</sub> |
+| 2pl | ئێوە | **هەڵتان نەگرتبا**<br><sub>also هەڵتاننەگرتبا</sub><br><sub>helltan negritba</sub><br><sub>/hæɫtaːn næɡɾ(ɯ)tbaː/</sub> | **هەڵتان نەگرتبێت**<br><sub>also هەڵتاننەگرتبێت</sub><br><sub>helltan negritbêt</sub><br><sub>/hæɫtaːn næɡɾ(ɯ)tbeːt/</sub> | **هەڵتان نەگرتبووبا**<br><sub>also هەڵتاننەگرتبووبا</sub><br><sub>helltan negritbûba</sub><br><sub>/hæɫtaːn næɡɾ(ɯ)tbuːbaː/</sub> |
+| 3pl | ئەوان | **هەڵیان نەگرتبا**<br><sub>also هەڵیاننەگرتبا</sub><br><sub>hellyan negritba</sub><br><sub>/hæɫjaːn næɡɾ(ɯ)tbaː/</sub> | **هەڵیان نەگرتبێت**<br><sub>also هەڵیاننەگرتبێت</sub><br><sub>hellyan negritbêt</sub><br><sub>/hæɫjaːn næɡɾ(ɯ)tbeːt/</sub> | **هەڵیان نەگرتبووبا**<br><sub>also هەڵیاننەگرتبووبا</sub><br><sub>hellyan negritbûba</sub><br><sub>/hæɫjaːn næɡɾ(ɯ)tbuːbaː/</sub> |
 
 ## Passive: present and subjunctive
 

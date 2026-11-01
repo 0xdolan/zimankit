@@ -377,3 +377,20 @@ def test_both_readings_of_yan_are_returned():
 def test_validator_names_the_standard_spelling(word, standard):
     assert any(standard in p for p in validate_word(word))
 
+
+@pytest.mark.parametrize("solid, lemma, written", [
+    ("هەڵمگرت", "هەڵگرتن", "هەڵم گرت"), ("هەڵمنەگرت", "هەڵگرتن", "هەڵم نەگرت"), ("هەڵیگرتووە", "هەڵگرتن", "هەڵی گرتووە"),
+    ("هەڵدەگرم", "هەڵگرتن", "هەڵدەگرم"), ("هەڵمەگرە", "هەڵگرتن", "هەڵمەگرە"), ("پێکدێم", "پێکهاتن", "پێک دێم"), ("لێمدا", "لێدان", "لێم دا"),
+    ("بەکارمهێنا", "بەکارهێنان", "بەکارم هێنا"), ("بەکاردەهێنم", "بەکارهێنان", "بەکار دەهێنم"),
+    ("دەستپێدەکەم", "دەستپێکردن", "دەست پێ دەکەم"), ("دەستپێمکرد", "دەستپێکردن", "دەستم پێ کرد"), ("دەکەم", "کردن", "دەکەم"),
+])
+def test_standard_spelling(solid, lemma, written):
+    idx = verbs.default_index()
+    forms = [f for f in idx.lookup(solid) if f.lemma == lemma and not f.features.get("variant") and f.features.get("agent") != "external"]
+    assert verbs.standard_spelling(idx.verbs[lemma], forms[0]) == written
+
+
+@pytest.mark.parametrize("written", ["هەڵم گرت", "هەڵم نەگرت", "پێک دێم", "بەکارم هێنا", "دەست پێ دەکەم", "دەستم پێ کرد", "لێم دا"])
+def test_the_spelling_we_teach_can_be_read_back(written):
+    assert verbs.default_index().lookup_split(written.split()) is not None
+

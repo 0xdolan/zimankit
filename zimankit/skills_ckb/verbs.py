@@ -15,6 +15,8 @@ suffix.  From these the generator produces every single-word form:
 Transitive verbs are *ergative* in the past: the person marker is an
 enclitic pronoun (set 2: م ت ی مان تان یان) that agrees with the agent,
 while intransitive verbs take the verbal endings (set 1: م یت - ین ن ن).
+Kurdish grammars number these the other way: their کۆمەڵەی یەکەم is set 2 here,
+and their دووەم and سێیەم are the past and present halves of set 1.
 
 ``FormIndex`` inverts the paradigms (surface form -> analyses) and is what
 ``morphology.analyze`` uses to recognise verbs.
@@ -82,7 +84,7 @@ class Verb:
     @property
     def always_split(self) -> bool:
         """Is the first part written apart even with no clitic?  Noun + light verb and some preverbs are."""
-        return bool(self.preverb) and (self.light or self.preverb in SPLIT_PREVERBS)
+        return bool(self.preverb) and (self.light or self.preverb in SPLIT_PREVERBS or self.preverb not in PREVERBS)
 
     @property
     def base_infinitive(self) -> str:
@@ -427,6 +429,28 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
     if v.transitive and not clitic_present and lemma not in NO_PASSIVE:
         ps = _passive_stem(v)
         yield from emit(ps + "او", form="passive_participle")
+
+
+def standard_spelling(v: Verb, f: VerbForm) -> str:
+    """How the written standard spaces a form: هەڵم گرت, نان دەکەم, دەستم پێ کرد.
+
+    The index keeps one solid key per form, and solid forms stay accepted input.  A clitic on the first
+    part always splits the verb; without one, only ``Verb.always_split`` verbs are written apart.
+    """
+    pre = v.preverb
+    if not pre or not f.form.startswith(pre) or f.features.get("variant"):
+        return f.form
+    rest = f.form[len(pre) :]
+    # دەستپێکردن has two first parts: دەست پێ دەکەم, and the clitic goes on the noun: دەستم پێ کرد
+    head, adposition = pre, ""
+    if pre not in PREVERBS and pre.endswith(("پێ", "تێ", "لێ")):
+        head, adposition = pre[:-2], pre[-2:]
+    clitic = SET2.get(f.features.get("agent"))
+    if clitic and rest.startswith(clitic):
+        return " ".join(x for x in (head + clitic, adposition, rest[len(clitic) :]) if x)
+    if v.always_split:
+        return " ".join(x for x in (head, adposition, rest) if x)
+    return f.form
 
 
 class FormIndex:

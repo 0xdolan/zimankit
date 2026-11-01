@@ -63,9 +63,9 @@ The passive adds `د` after a root in `ر` or `ڕ`: `دەخوێنرێت`, but `�
 | compound words are solid | `دڵپاک`, `مارماسی`, `گوڵەگەنم`, `دەموچاو`, `شارەوشار` | `دڵ پاک` | not checked |
 | adjective after ە is separate | `کچە جوانەکە`, `شەوە گەرمەکە` | `کچەجوانەکە` | not checked |
 | compound infinitives are solid | `نانکردن`, `شەڕکردن`, `پێکهێنان` | `نان کردن` | not checked |
-| conjugated compounds split | `نان دەکەم`, `نانم کرد`, `نانم کردووە` | `نانمکرد` (see below) | read when split; generated solid |
+| conjugated compounds split | `نان دەکەم`, `نانم کرد`, `نانم کردووە` | `نانمکرد` (see below) | read when split; pages show it split |
 | preverb, present is solid | `هەڵدەگرم` | `هەڵ دەگرم` | generated |
-| preverb, split around a clitic | `هەڵم گرت`, `ڕای گەیاند` | `ڕای‌گەیاند` | read when split; generated solid |
+| preverb, split around a clitic | `هەڵم گرت`, `ڕای گەیاند` | `ڕای‌گەیاند` | read when split; pages show it split |
 | four parts | `پێ لێ هەڵگرتن`, `پێی لێ هەڵگرت` | | not implemented |
 | infinitive or finite verb | `ڕێککەوتن` (noun), `ڕێک کەوتن` (verb) | | not checked |
 | conjunction `و` is separate | `من و تۆ` | `من‌و تۆ` | ZWNJ form normalised |
@@ -124,7 +124,7 @@ These are open, so zimankit should not change them silently. The interim choice 
 In the order they depend on each other:
 
 1. **Parser:** circumpositions over several words with no verb, relative clauses with no کە, compound verbs outside the core list.
-2. **Generated pages and lessons:** print split forms first and teach them. zimankit can now read that spelling, so this no longer has to wait.
+2. **Documents and lexicon:** the wordlist stores solid keys, and `standard_spelling` works on verbs from the paradigm, not on running text, so zimankit cannot yet rewrite a text into the split spelling.
 
 Some transliterations are also still doubtful and have not been checked against a source, such as `rakridin` for `ڕاکردن` and `hellîgrit` for `هەڵیگرت`.
 

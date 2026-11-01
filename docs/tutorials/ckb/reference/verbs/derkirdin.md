@@ -43,12 +43,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **دەرمکرد**<br><sub>dermikird</sub><br><sub>/dæɾm(ɯ)k(ɯ)ɾd/</sub> | **دەرمنەکرد**<br><sub>derminekrid</sub><br><sub>/dæɾm(ɯ)nækɾ(ɯ)d/</sub> |
-| 2sg | تۆ | **دەرتکرد**<br><sub>dertikird</sub><br><sub>/dæɾt(ɯ)k(ɯ)ɾd/</sub> | **دەرتنەکرد**<br><sub>dertinekrid</sub><br><sub>/dæɾt(ɯ)nækɾ(ɯ)d/</sub> |
-| 3sg | ئەو | **دەریکرد**<br><sub>derîkrid</sub><br><sub>/dæɾiːkɾ(ɯ)d/</sub> | **دەرینەکرد**<br><sub>derînekrid</sub><br><sub>/dæɾiːnækɾ(ɯ)d/</sub> |
-| 1pl | ئێمە | **دەرمانکرد**<br><sub>dermankird</sub><br><sub>/dæɾmaːnk(ɯ)ɾd/</sub> | **دەرماننەکرد**<br><sub>dermannekrid</sub><br><sub>/dæɾmaːnnækɾ(ɯ)d/</sub> |
-| 2pl | ئێوە | **دەرتانکرد**<br><sub>dertankird</sub><br><sub>/dæɾtaːnk(ɯ)ɾd/</sub> | **دەرتاننەکرد**<br><sub>dertannekrid</sub><br><sub>/dæɾtaːnnækɾ(ɯ)d/</sub> |
-| 3pl | ئەوان | **دەریانکرد**<br><sub>deryankird</sub><br><sub>/dæɾjaːnk(ɯ)ɾd/</sub> | **دەریاننەکرد**<br><sub>deryannekrid</sub><br><sub>/dæɾjaːnnækɾ(ɯ)d/</sub> |
+| 1sg | من | **دەرم کرد**<br><sub>also دەرمکرد</sub><br><sub>derm kird</sub><br><sub>/dæɾm k(ɯ)ɾd/</sub> | **دەرم نەکرد**<br><sub>also دەرمنەکرد</sub><br><sub>derm nekrid</sub><br><sub>/dæɾm nækɾ(ɯ)d/</sub> |
+| 2sg | تۆ | **دەرت کرد**<br><sub>also دەرتکرد</sub><br><sub>dert kird</sub><br><sub>/dæɾt k(ɯ)ɾd/</sub> | **دەرت نەکرد**<br><sub>also دەرتنەکرد</sub><br><sub>dert nekrid</sub><br><sub>/dæɾt nækɾ(ɯ)d/</sub> |
+| 3sg | ئەو | **دەری کرد**<br><sub>also دەریکرد</sub><br><sub>derî kird</sub><br><sub>/dæɾiː k(ɯ)ɾd/</sub> | **دەری نەکرد**<br><sub>also دەرینەکرد</sub><br><sub>derî nekrid</sub><br><sub>/dæɾiː nækɾ(ɯ)d/</sub> |
+| 1pl | ئێمە | **دەرمان کرد**<br><sub>also دەرمانکرد</sub><br><sub>derman kird</sub><br><sub>/dæɾmaːn k(ɯ)ɾd/</sub> | **دەرمان نەکرد**<br><sub>also دەرماننەکرد</sub><br><sub>derman nekrid</sub><br><sub>/dæɾmaːn nækɾ(ɯ)d/</sub> |
+| 2pl | ئێوە | **دەرتان کرد**<br><sub>also دەرتانکرد</sub><br><sub>dertan kird</sub><br><sub>/dæɾtaːn k(ɯ)ɾd/</sub> | **دەرتان نەکرد**<br><sub>also دەرتاننەکرد</sub><br><sub>dertan nekrid</sub><br><sub>/dæɾtaːn nækɾ(ɯ)d/</sub> |
+| 3pl | ئەوان | **دەریان کرد**<br><sub>also دەریانکرد</sub><br><sub>deryan kird</sub><br><sub>/dæɾjaːn k(ɯ)ɾd/</sub> | **دەریان نەکرد**<br><sub>also دەریاننەکرد</sub><br><sub>deryan nekrid</sub><br><sub>/dæɾjaːn nækɾ(ɯ)d/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -58,12 +58,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **دەرمدەکرد**<br><sub>dermidekrid</sub><br><sub>/dæɾm(ɯ)dækɾ(ɯ)d/</sub> | **دەرمنەدەکرد**<br><sub>derminedekrid</sub><br><sub>/dæɾm(ɯ)nædækɾ(ɯ)d/</sub> |
-| 2sg | تۆ | **دەرتدەکرد**<br><sub>dertidekrid</sub><br><sub>/dæɾt(ɯ)dækɾ(ɯ)d/</sub> | **دەرتنەدەکرد**<br><sub>dertinedekrid</sub><br><sub>/dæɾt(ɯ)nædækɾ(ɯ)d/</sub> |
-| 3sg | ئەو | **دەریدەکرد**<br><sub>derîdekrid</sub><br><sub>/dæɾiːdækɾ(ɯ)d/</sub> | **دەرینەدەکرد**<br><sub>derînedekrid</sub><br><sub>/dæɾiːnædækɾ(ɯ)d/</sub> |
-| 1pl | ئێمە | **دەرماندەکرد**<br><sub>dermandekrid</sub><br><sub>/dæɾmaːndækɾ(ɯ)d/</sub> | **دەرماننەدەکرد**<br><sub>dermannedekrid</sub><br><sub>/dæɾmaːnnædækɾ(ɯ)d/</sub> |
-| 2pl | ئێوە | **دەرتاندەکرد**<br><sub>dertandekrid</sub><br><sub>/dæɾtaːndækɾ(ɯ)d/</sub> | **دەرتاننەدەکرد**<br><sub>dertannedekrid</sub><br><sub>/dæɾtaːnnædækɾ(ɯ)d/</sub> |
-| 3pl | ئەوان | **دەریاندەکرد**<br><sub>deryandekrid</sub><br><sub>/dæɾjaːndækɾ(ɯ)d/</sub> | **دەریاننەدەکرد**<br><sub>deryannedekrid</sub><br><sub>/dæɾjaːnnædækɾ(ɯ)d/</sub> |
+| 1sg | من | **دەرم دەکرد**<br><sub>also دەرمدەکرد</sub><br><sub>derm dekrid</sub><br><sub>/dæɾm dækɾ(ɯ)d/</sub> | **دەرم نەدەکرد**<br><sub>also دەرمنەدەکرد</sub><br><sub>derm nedekrid</sub><br><sub>/dæɾm nædækɾ(ɯ)d/</sub> |
+| 2sg | تۆ | **دەرت دەکرد**<br><sub>also دەرتدەکرد</sub><br><sub>dert dekrid</sub><br><sub>/dæɾt dækɾ(ɯ)d/</sub> | **دەرت نەدەکرد**<br><sub>also دەرتنەدەکرد</sub><br><sub>dert nedekrid</sub><br><sub>/dæɾt nædækɾ(ɯ)d/</sub> |
+| 3sg | ئەو | **دەری دەکرد**<br><sub>also دەریدەکرد</sub><br><sub>derî dekrid</sub><br><sub>/dæɾiː dækɾ(ɯ)d/</sub> | **دەری نەدەکرد**<br><sub>also دەرینەدەکرد</sub><br><sub>derî nedekrid</sub><br><sub>/dæɾiː nædækɾ(ɯ)d/</sub> |
+| 1pl | ئێمە | **دەرمان دەکرد**<br><sub>also دەرماندەکرد</sub><br><sub>derman dekrid</sub><br><sub>/dæɾmaːn dækɾ(ɯ)d/</sub> | **دەرمان نەدەکرد**<br><sub>also دەرماننەدەکرد</sub><br><sub>derman nedekrid</sub><br><sub>/dæɾmaːn nædækɾ(ɯ)d/</sub> |
+| 2pl | ئێوە | **دەرتان دەکرد**<br><sub>also دەرتاندەکرد</sub><br><sub>dertan dekrid</sub><br><sub>/dæɾtaːn dækɾ(ɯ)d/</sub> | **دەرتان نەدەکرد**<br><sub>also دەرتاننەدەکرد</sub><br><sub>dertan nedekrid</sub><br><sub>/dæɾtaːn nædækɾ(ɯ)d/</sub> |
+| 3pl | ئەوان | **دەریان دەکرد**<br><sub>also دەریاندەکرد</sub><br><sub>deryan dekrid</sub><br><sub>/dæɾjaːn dækɾ(ɯ)d/</sub> | **دەریان نەدەکرد**<br><sub>also دەریاننەدەکرد</sub><br><sub>deryan nedekrid</sub><br><sub>/dæɾjaːn nædækɾ(ɯ)d/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -73,12 +73,12 @@
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **دەرمکردووە**<br><sub>dermikirdûwe</sub><br><sub>/dæɾm(ɯ)k(ɯ)ɾduːwæ/</sub> | **دەرمنەکردووە**<br><sub>derminekridûwe</sub><br><sub>/dæɾm(ɯ)nækɾ(ɯ)duːwæ/</sub> | **دەرمکردبوو**<br><sub>dermikridbû</sub><br><sub>/dæɾm(ɯ)kɾ(ɯ)dbuː/</sub> | **دەرمنەکردبوو**<br><sub>derminekridbû</sub><br><sub>/dæɾm(ɯ)nækɾ(ɯ)dbuː/</sub> |
-| 2sg | تۆ | **دەرتکردووە**<br><sub>dertikirdûwe</sub><br><sub>/dæɾt(ɯ)k(ɯ)ɾduːwæ/</sub> | **دەرتنەکردووە**<br><sub>dertinekridûwe</sub><br><sub>/dæɾt(ɯ)nækɾ(ɯ)duːwæ/</sub> | **دەرتکردبوو**<br><sub>dertikridbû</sub><br><sub>/dæɾt(ɯ)kɾ(ɯ)dbuː/</sub> | **دەرتنەکردبوو**<br><sub>dertinekridbû</sub><br><sub>/dæɾt(ɯ)nækɾ(ɯ)dbuː/</sub> |
-| 3sg | ئەو | **دەریکردووە**<br><sub>derîkridûwe</sub><br><sub>/dæɾiːkɾ(ɯ)duːwæ/</sub> | **دەرینەکردووە**<br><sub>derînekridûwe</sub><br><sub>/dæɾiːnækɾ(ɯ)duːwæ/</sub> | **دەریکردبوو**<br><sub>derîkridbû</sub><br><sub>/dæɾiːkɾ(ɯ)dbuː/</sub> | **دەرینەکردبوو**<br><sub>derînekridbû</sub><br><sub>/dæɾiːnækɾ(ɯ)dbuː/</sub> |
-| 1pl | ئێمە | **دەرمانکردووە**<br><sub>dermankirdûwe</sub><br><sub>/dæɾmaːnk(ɯ)ɾduːwæ/</sub> | **دەرماننەکردووە**<br><sub>dermannekridûwe</sub><br><sub>/dæɾmaːnnækɾ(ɯ)duːwæ/</sub> | **دەرمانکردبوو**<br><sub>dermankiridbû</sub><br><sub>/dæɾmaːnk(ɯ)ɾ(ɯ)dbuː/</sub> | **دەرماننەکردبوو**<br><sub>dermannekridbû</sub><br><sub>/dæɾmaːnnækɾ(ɯ)dbuː/</sub> |
-| 2pl | ئێوە | **دەرتانکردووە**<br><sub>dertankirdûwe</sub><br><sub>/dæɾtaːnk(ɯ)ɾduːwæ/</sub> | **دەرتاننەکردووە**<br><sub>dertannekridûwe</sub><br><sub>/dæɾtaːnnækɾ(ɯ)duːwæ/</sub> | **دەرتانکردبوو**<br><sub>dertankiridbû</sub><br><sub>/dæɾtaːnk(ɯ)ɾ(ɯ)dbuː/</sub> | **دەرتاننەکردبوو**<br><sub>dertannekridbû</sub><br><sub>/dæɾtaːnnækɾ(ɯ)dbuː/</sub> |
-| 3pl | ئەوان | **دەریانکردووە**<br><sub>deryankirdûwe</sub><br><sub>/dæɾjaːnk(ɯ)ɾduːwæ/</sub> | **دەریاننەکردووە**<br><sub>deryannekridûwe</sub><br><sub>/dæɾjaːnnækɾ(ɯ)duːwæ/</sub> | **دەریانکردبوو**<br><sub>deryankiridbû</sub><br><sub>/dæɾjaːnk(ɯ)ɾ(ɯ)dbuː/</sub> | **دەریاننەکردبوو**<br><sub>deryannekridbû</sub><br><sub>/dæɾjaːnnækɾ(ɯ)dbuː/</sub> |
+| 1sg | من | **دەرم کردووە**<br><sub>also دەرمکردووە</sub><br><sub>derm kirdûwe</sub><br><sub>/dæɾm k(ɯ)ɾduːwæ/</sub> | **دەرم نەکردووە**<br><sub>also دەرمنەکردووە</sub><br><sub>derm nekridûwe</sub><br><sub>/dæɾm nækɾ(ɯ)duːwæ/</sub> | **دەرم کردبوو**<br><sub>also دەرمکردبوو</sub><br><sub>derm kirdibû</sub><br><sub>/dæɾm k(ɯ)ɾd(ɯ)buː/</sub> | **دەرم نەکردبوو**<br><sub>also دەرمنەکردبوو</sub><br><sub>derm nekridbû</sub><br><sub>/dæɾm nækɾ(ɯ)dbuː/</sub> |
+| 2sg | تۆ | **دەرت کردووە**<br><sub>also دەرتکردووە</sub><br><sub>dert kirdûwe</sub><br><sub>/dæɾt k(ɯ)ɾduːwæ/</sub> | **دەرت نەکردووە**<br><sub>also دەرتنەکردووە</sub><br><sub>dert nekridûwe</sub><br><sub>/dæɾt nækɾ(ɯ)duːwæ/</sub> | **دەرت کردبوو**<br><sub>also دەرتکردبوو</sub><br><sub>dert kirdibû</sub><br><sub>/dæɾt k(ɯ)ɾd(ɯ)buː/</sub> | **دەرت نەکردبوو**<br><sub>also دەرتنەکردبوو</sub><br><sub>dert nekridbû</sub><br><sub>/dæɾt nækɾ(ɯ)dbuː/</sub> |
+| 3sg | ئەو | **دەری کردووە**<br><sub>also دەریکردووە</sub><br><sub>derî kirdûwe</sub><br><sub>/dæɾiː k(ɯ)ɾduːwæ/</sub> | **دەری نەکردووە**<br><sub>also دەرینەکردووە</sub><br><sub>derî nekridûwe</sub><br><sub>/dæɾiː nækɾ(ɯ)duːwæ/</sub> | **دەری کردبوو**<br><sub>also دەریکردبوو</sub><br><sub>derî kirdibû</sub><br><sub>/dæɾiː k(ɯ)ɾd(ɯ)buː/</sub> | **دەری نەکردبوو**<br><sub>also دەرینەکردبوو</sub><br><sub>derî nekridbû</sub><br><sub>/dæɾiː nækɾ(ɯ)dbuː/</sub> |
+| 1pl | ئێمە | **دەرمان کردووە**<br><sub>also دەرمانکردووە</sub><br><sub>derman kirdûwe</sub><br><sub>/dæɾmaːn k(ɯ)ɾduːwæ/</sub> | **دەرمان نەکردووە**<br><sub>also دەرماننەکردووە</sub><br><sub>derman nekridûwe</sub><br><sub>/dæɾmaːn nækɾ(ɯ)duːwæ/</sub> | **دەرمان کردبوو**<br><sub>also دەرمانکردبوو</sub><br><sub>derman kirdibû</sub><br><sub>/dæɾmaːn k(ɯ)ɾd(ɯ)buː/</sub> | **دەرمان نەکردبوو**<br><sub>also دەرماننەکردبوو</sub><br><sub>derman nekridbû</sub><br><sub>/dæɾmaːn nækɾ(ɯ)dbuː/</sub> |
+| 2pl | ئێوە | **دەرتان کردووە**<br><sub>also دەرتانکردووە</sub><br><sub>dertan kirdûwe</sub><br><sub>/dæɾtaːn k(ɯ)ɾduːwæ/</sub> | **دەرتان نەکردووە**<br><sub>also دەرتاننەکردووە</sub><br><sub>dertan nekridûwe</sub><br><sub>/dæɾtaːn nækɾ(ɯ)duːwæ/</sub> | **دەرتان کردبوو**<br><sub>also دەرتانکردبوو</sub><br><sub>dertan kirdibû</sub><br><sub>/dæɾtaːn k(ɯ)ɾd(ɯ)buː/</sub> | **دەرتان نەکردبوو**<br><sub>also دەرتاننەکردبوو</sub><br><sub>dertan nekridbû</sub><br><sub>/dæɾtaːn nækɾ(ɯ)dbuː/</sub> |
+| 3pl | ئەوان | **دەریان کردووە**<br><sub>also دەریانکردووە</sub><br><sub>deryan kirdûwe</sub><br><sub>/dæɾjaːn k(ɯ)ɾduːwæ/</sub> | **دەریان نەکردووە**<br><sub>also دەریاننەکردووە</sub><br><sub>deryan nekridûwe</sub><br><sub>/dæɾjaːn nækɾ(ɯ)duːwæ/</sub> | **دەریان کردبوو**<br><sub>also دەریانکردبوو</sub><br><sub>deryan kirdibû</sub><br><sub>/dæɾjaːn k(ɯ)ɾd(ɯ)buː/</sub> | **دەریان نەکردبوو**<br><sub>also دەریاننەکردبوو</sub><br><sub>deryan nekridbû</sub><br><sub>/dæɾjaːn nækɾ(ɯ)dbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -88,12 +88,12 @@
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **دەرمکردبا**<br><sub>dermikridba</sub><br><sub>/dæɾm(ɯ)kɾ(ɯ)dbaː/</sub> | **دەرمکردبێت**<br><sub>dermikridbêt</sub><br><sub>/dæɾm(ɯ)kɾ(ɯ)dbeːt/</sub> | **دەرمکردبووبا**<br><sub>dermikridbûba</sub><br><sub>/dæɾm(ɯ)kɾ(ɯ)dbuːbaː/</sub> |
-| 2sg | تۆ | **دەرتکردبا**<br><sub>dertikridba</sub><br><sub>/dæɾt(ɯ)kɾ(ɯ)dbaː/</sub> | **دەرتکردبێت**<br><sub>dertikridbêt</sub><br><sub>/dæɾt(ɯ)kɾ(ɯ)dbeːt/</sub> | **دەرتکردبووبا**<br><sub>dertikridbûba</sub><br><sub>/dæɾt(ɯ)kɾ(ɯ)dbuːbaː/</sub> |
-| 3sg | ئەو | **دەریکردبا**<br><sub>derîkridba</sub><br><sub>/dæɾiːkɾ(ɯ)dbaː/</sub> | **دەریکردبێت**<br><sub>derîkridbêt</sub><br><sub>/dæɾiːkɾ(ɯ)dbeːt/</sub> | **دەریکردبووبا**<br><sub>derîkridbûba</sub><br><sub>/dæɾiːkɾ(ɯ)dbuːbaː/</sub> |
-| 1pl | ئێمە | **دەرمانکردبا**<br><sub>dermankiridba</sub><br><sub>/dæɾmaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەرمانکردبێت**<br><sub>dermankiridbêt</sub><br><sub>/dæɾmaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەرمانکردبووبا**<br><sub>dermankiridbûba</sub><br><sub>/dæɾmaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 2pl | ئێوە | **دەرتانکردبا**<br><sub>dertankiridba</sub><br><sub>/dæɾtaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەرتانکردبێت**<br><sub>dertankiridbêt</sub><br><sub>/dæɾtaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەرتانکردبووبا**<br><sub>dertankiridbûba</sub><br><sub>/dæɾtaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
-| 3pl | ئەوان | **دەریانکردبا**<br><sub>deryankiridba</sub><br><sub>/dæɾjaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **دەریانکردبێت**<br><sub>deryankiridbêt</sub><br><sub>/dæɾjaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **دەریانکردبووبا**<br><sub>deryankiridbûba</sub><br><sub>/dæɾjaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 1sg | من | **دەرم کردبا**<br><sub>also دەرمکردبا</sub><br><sub>derm kirdiba</sub><br><sub>/dæɾm k(ɯ)ɾd(ɯ)baː/</sub> | **دەرم کردبێت**<br><sub>also دەرمکردبێت</sub><br><sub>derm kirdibêt</sub><br><sub>/dæɾm k(ɯ)ɾd(ɯ)beːt/</sub> | **دەرم کردبووبا**<br><sub>also دەرمکردبووبا</sub><br><sub>derm kirdibûba</sub><br><sub>/dæɾm k(ɯ)ɾd(ɯ)buːbaː/</sub> |
+| 2sg | تۆ | **دەرت کردبا**<br><sub>also دەرتکردبا</sub><br><sub>dert kirdiba</sub><br><sub>/dæɾt k(ɯ)ɾd(ɯ)baː/</sub> | **دەرت کردبێت**<br><sub>also دەرتکردبێت</sub><br><sub>dert kirdibêt</sub><br><sub>/dæɾt k(ɯ)ɾd(ɯ)beːt/</sub> | **دەرت کردبووبا**<br><sub>also دەرتکردبووبا</sub><br><sub>dert kirdibûba</sub><br><sub>/dæɾt k(ɯ)ɾd(ɯ)buːbaː/</sub> |
+| 3sg | ئەو | **دەری کردبا**<br><sub>also دەریکردبا</sub><br><sub>derî kirdiba</sub><br><sub>/dæɾiː k(ɯ)ɾd(ɯ)baː/</sub> | **دەری کردبێت**<br><sub>also دەریکردبێت</sub><br><sub>derî kirdibêt</sub><br><sub>/dæɾiː k(ɯ)ɾd(ɯ)beːt/</sub> | **دەری کردبووبا**<br><sub>also دەریکردبووبا</sub><br><sub>derî kirdibûba</sub><br><sub>/dæɾiː k(ɯ)ɾd(ɯ)buːbaː/</sub> |
+| 1pl | ئێمە | **دەرمان کردبا**<br><sub>also دەرمانکردبا</sub><br><sub>derman kirdiba</sub><br><sub>/dæɾmaːn k(ɯ)ɾd(ɯ)baː/</sub> | **دەرمان کردبێت**<br><sub>also دەرمانکردبێت</sub><br><sub>derman kirdibêt</sub><br><sub>/dæɾmaːn k(ɯ)ɾd(ɯ)beːt/</sub> | **دەرمان کردبووبا**<br><sub>also دەرمانکردبووبا</sub><br><sub>derman kirdibûba</sub><br><sub>/dæɾmaːn k(ɯ)ɾd(ɯ)buːbaː/</sub> |
+| 2pl | ئێوە | **دەرتان کردبا**<br><sub>also دەرتانکردبا</sub><br><sub>dertan kirdiba</sub><br><sub>/dæɾtaːn k(ɯ)ɾd(ɯ)baː/</sub> | **دەرتان کردبێت**<br><sub>also دەرتانکردبێت</sub><br><sub>dertan kirdibêt</sub><br><sub>/dæɾtaːn k(ɯ)ɾd(ɯ)beːt/</sub> | **دەرتان کردبووبا**<br><sub>also دەرتانکردبووبا</sub><br><sub>dertan kirdibûba</sub><br><sub>/dæɾtaːn k(ɯ)ɾd(ɯ)buːbaː/</sub> |
+| 3pl | ئەوان | **دەریان کردبا**<br><sub>also دەریانکردبا</sub><br><sub>deryan kirdiba</sub><br><sub>/dæɾjaːn k(ɯ)ɾd(ɯ)baː/</sub> | **دەریان کردبێت**<br><sub>also دەریانکردبێت</sub><br><sub>deryan kirdibêt</sub><br><sub>/dæɾjaːn k(ɯ)ɾd(ɯ)beːt/</sub> | **دەریان کردبووبا**<br><sub>also دەریانکردبووبا</sub><br><sub>deryan kirdibûba</sub><br><sub>/dæɾjaːn k(ɯ)ɾd(ɯ)buːbaː/</sub> |
 
 ## Past subjunctive negative
 
@@ -101,12 +101,12 @@
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **دەرمنەکردبا**<br><sub>derminekridba</sub><br><sub>/dæɾm(ɯ)nækɾ(ɯ)dbaː/</sub> | **دەرمنەکردبێت**<br><sub>derminekridbêt</sub><br><sub>/dæɾm(ɯ)nækɾ(ɯ)dbeːt/</sub> | **دەرمنەکردبووبا**<br><sub>derminekridbûba</sub><br><sub>/dæɾm(ɯ)nækɾ(ɯ)dbuːbaː/</sub> |
-| 2sg | تۆ | **دەرتنەکردبا**<br><sub>dertinekridba</sub><br><sub>/dæɾt(ɯ)nækɾ(ɯ)dbaː/</sub> | **دەرتنەکردبێت**<br><sub>dertinekridbêt</sub><br><sub>/dæɾt(ɯ)nækɾ(ɯ)dbeːt/</sub> | **دەرتنەکردبووبا**<br><sub>dertinekridbûba</sub><br><sub>/dæɾt(ɯ)nækɾ(ɯ)dbuːbaː/</sub> |
-| 3sg | ئەو | **دەرینەکردبا**<br><sub>derînekridba</sub><br><sub>/dæɾiːnækɾ(ɯ)dbaː/</sub> | **دەرینەکردبێت**<br><sub>derînekridbêt</sub><br><sub>/dæɾiːnækɾ(ɯ)dbeːt/</sub> | **دەرینەکردبووبا**<br><sub>derînekridbûba</sub><br><sub>/dæɾiːnækɾ(ɯ)dbuːbaː/</sub> |
-| 1pl | ئێمە | **دەرماننەکردبا**<br><sub>dermannekridba</sub><br><sub>/dæɾmaːnnækɾ(ɯ)dbaː/</sub> | **دەرماننەکردبێت**<br><sub>dermannekridbêt</sub><br><sub>/dæɾmaːnnækɾ(ɯ)dbeːt/</sub> | **دەرماننەکردبووبا**<br><sub>dermannekridbûba</sub><br><sub>/dæɾmaːnnækɾ(ɯ)dbuːbaː/</sub> |
-| 2pl | ئێوە | **دەرتاننەکردبا**<br><sub>dertannekridba</sub><br><sub>/dæɾtaːnnækɾ(ɯ)dbaː/</sub> | **دەرتاننەکردبێت**<br><sub>dertannekridbêt</sub><br><sub>/dæɾtaːnnækɾ(ɯ)dbeːt/</sub> | **دەرتاننەکردبووبا**<br><sub>dertannekridbûba</sub><br><sub>/dæɾtaːnnækɾ(ɯ)dbuːbaː/</sub> |
-| 3pl | ئەوان | **دەریاننەکردبا**<br><sub>deryannekridba</sub><br><sub>/dæɾjaːnnækɾ(ɯ)dbaː/</sub> | **دەریاننەکردبێت**<br><sub>deryannekridbêt</sub><br><sub>/dæɾjaːnnækɾ(ɯ)dbeːt/</sub> | **دەریاننەکردبووبا**<br><sub>deryannekridbûba</sub><br><sub>/dæɾjaːnnækɾ(ɯ)dbuːbaː/</sub> |
+| 1sg | من | **دەرم نەکردبا**<br><sub>also دەرمنەکردبا</sub><br><sub>derm nekridba</sub><br><sub>/dæɾm nækɾ(ɯ)dbaː/</sub> | **دەرم نەکردبێت**<br><sub>also دەرمنەکردبێت</sub><br><sub>derm nekridbêt</sub><br><sub>/dæɾm nækɾ(ɯ)dbeːt/</sub> | **دەرم نەکردبووبا**<br><sub>also دەرمنەکردبووبا</sub><br><sub>derm nekridbûba</sub><br><sub>/dæɾm nækɾ(ɯ)dbuːbaː/</sub> |
+| 2sg | تۆ | **دەرت نەکردبا**<br><sub>also دەرتنەکردبا</sub><br><sub>dert nekridba</sub><br><sub>/dæɾt nækɾ(ɯ)dbaː/</sub> | **دەرت نەکردبێت**<br><sub>also دەرتنەکردبێت</sub><br><sub>dert nekridbêt</sub><br><sub>/dæɾt nækɾ(ɯ)dbeːt/</sub> | **دەرت نەکردبووبا**<br><sub>also دەرتنەکردبووبا</sub><br><sub>dert nekridbûba</sub><br><sub>/dæɾt nækɾ(ɯ)dbuːbaː/</sub> |
+| 3sg | ئەو | **دەری نەکردبا**<br><sub>also دەرینەکردبا</sub><br><sub>derî nekridba</sub><br><sub>/dæɾiː nækɾ(ɯ)dbaː/</sub> | **دەری نەکردبێت**<br><sub>also دەرینەکردبێت</sub><br><sub>derî nekridbêt</sub><br><sub>/dæɾiː nækɾ(ɯ)dbeːt/</sub> | **دەری نەکردبووبا**<br><sub>also دەرینەکردبووبا</sub><br><sub>derî nekridbûba</sub><br><sub>/dæɾiː nækɾ(ɯ)dbuːbaː/</sub> |
+| 1pl | ئێمە | **دەرمان نەکردبا**<br><sub>also دەرماننەکردبا</sub><br><sub>derman nekridba</sub><br><sub>/dæɾmaːn nækɾ(ɯ)dbaː/</sub> | **دەرمان نەکردبێت**<br><sub>also دەرماننەکردبێت</sub><br><sub>derman nekridbêt</sub><br><sub>/dæɾmaːn nækɾ(ɯ)dbeːt/</sub> | **دەرمان نەکردبووبا**<br><sub>also دەرماننەکردبووبا</sub><br><sub>derman nekridbûba</sub><br><sub>/dæɾmaːn nækɾ(ɯ)dbuːbaː/</sub> |
+| 2pl | ئێوە | **دەرتان نەکردبا**<br><sub>also دەرتاننەکردبا</sub><br><sub>dertan nekridba</sub><br><sub>/dæɾtaːn nækɾ(ɯ)dbaː/</sub> | **دەرتان نەکردبێت**<br><sub>also دەرتاننەکردبێت</sub><br><sub>dertan nekridbêt</sub><br><sub>/dæɾtaːn nækɾ(ɯ)dbeːt/</sub> | **دەرتان نەکردبووبا**<br><sub>also دەرتاننەکردبووبا</sub><br><sub>dertan nekridbûba</sub><br><sub>/dæɾtaːn nækɾ(ɯ)dbuːbaː/</sub> |
+| 3pl | ئەوان | **دەریان نەکردبا**<br><sub>also دەریاننەکردبا</sub><br><sub>deryan nekridba</sub><br><sub>/dæɾjaːn nækɾ(ɯ)dbaː/</sub> | **دەریان نەکردبێت**<br><sub>also دەریاننەکردبێت</sub><br><sub>deryan nekridbêt</sub><br><sub>/dæɾjaːn nækɾ(ɯ)dbeːt/</sub> | **دەریان نەکردبووبا**<br><sub>also دەریاننەکردبووبا</sub><br><sub>deryan nekridbûba</sub><br><sub>/dæɾjaːn nækɾ(ɯ)dbuːbaː/</sub> |
 
 ## Passive: present and subjunctive
 

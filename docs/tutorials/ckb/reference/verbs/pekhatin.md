@@ -17,12 +17,12 @@
 
 | person | pronoun | Present | Present negative |
 |---|---|---|---|
-| 1sg | من | **پێکدێم**<br><sub>pêkdêm</sub><br><sub>/peːkdeːm/</sub> | **پێکنایەم**<br><sub>pêknayem</sub><br><sub>/peːknaːjæm/</sub> |
-| 2sg | تۆ | **پێکدێیت**<br><sub>pêkdêyt</sub><br><sub>/peːkdeːjt/</sub> | **پێکنایەیت**<br><sub>pêknayeyt</sub><br><sub>/peːknaːjæjt/</sub> |
-| 3sg | ئەو | **پێکدێت**<br><sub>pêkdêt</sub><br><sub>/peːkdeːt/</sub> | **پێکنایەت**<br><sub>pêknayet</sub><br><sub>/peːknaːjæt/</sub> |
-| 1pl | ئێمە | **پێکدێین**<br><sub>pêkdêyn</sub><br><sub>/peːkdeːjn/</sub> | **پێکنایەین**<br><sub>pêknayeyn</sub><br><sub>/peːknaːjæjn/</sub> |
-| 2pl | ئێوە | **پێکدێن**<br><sub>pêkdên</sub><br><sub>/peːkdeːn/</sub> | **پێکنایەن**<br><sub>pêknayen</sub><br><sub>/peːknaːjæn/</sub> |
-| 3pl | ئەوان | **پێکدێن**<br><sub>pêkdên</sub><br><sub>/peːkdeːn/</sub> | **پێکنایەن**<br><sub>pêknayen</sub><br><sub>/peːknaːjæn/</sub> |
+| 1sg | من | **پێک دێم**<br><sub>also پێکدێم</sub><br><sub>pêk dêm</sub><br><sub>/peːk deːm/</sub> | **پێک نایەم**<br><sub>also پێکنایەم</sub><br><sub>pêk nayem</sub><br><sub>/peːk naːjæm/</sub> |
+| 2sg | تۆ | **پێک دێیت**<br><sub>also پێکدێیت</sub><br><sub>pêk dêyt</sub><br><sub>/peːk deːjt/</sub> | **پێک نایەیت**<br><sub>also پێکنایەیت</sub><br><sub>pêk nayeyt</sub><br><sub>/peːk naːjæjt/</sub> |
+| 3sg | ئەو | **پێک دێت**<br><sub>also پێکدێت</sub><br><sub>pêk dêt</sub><br><sub>/peːk deːt/</sub> | **پێک نایەت**<br><sub>also پێکنایەت</sub><br><sub>pêk nayet</sub><br><sub>/peːk naːjæt/</sub> |
+| 1pl | ئێمە | **پێک دێین**<br><sub>also پێکدێین</sub><br><sub>pêk dêyn</sub><br><sub>/peːk deːjn/</sub> | **پێک نایەین**<br><sub>also پێکنایەین</sub><br><sub>pêk nayeyn</sub><br><sub>/peːk naːjæjn/</sub> |
+| 2pl | ئێوە | **پێک دێن**<br><sub>also پێکدێن</sub><br><sub>pêk dên</sub><br><sub>/peːk deːn/</sub> | **پێک نایەن**<br><sub>also پێکنایەن</sub><br><sub>pêk nayen</sub><br><sub>/peːk naːjæn/</sub> |
+| 3pl | ئەوان | **پێک دێن**<br><sub>also پێکدێن</sub><br><sub>pêk dên</sub><br><sub>/peːk deːn/</sub> | **پێک نایەن**<br><sub>also پێکنایەن</sub><br><sub>pêk nayen</sub><br><sub>/peːk naːjæn/</sub> |
 
 ## Subjunctive
 
@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **پێکبێم**<br><sub>pêkbêm</sub><br><sub>/peːkbeːm/</sub> | **پێکنەیەم**<br><sub>pêkneyem</sub><br><sub>/peːknæjæm/</sub> |
-| 2sg | تۆ | **پێکبێیت**<br><sub>pêkbêyt</sub><br><sub>/peːkbeːjt/</sub> | **پێکنەیەیت**<br><sub>pêkneyeyt</sub><br><sub>/peːknæjæjt/</sub> |
-| 3sg | ئەو | **پێکبێت**<br><sub>pêkbêt</sub><br><sub>/peːkbeːt/</sub> | **پێکنەیەت**<br><sub>pêkneyet</sub><br><sub>/peːknæjæt/</sub> |
-| 1pl | ئێمە | **پێکبێین**<br><sub>pêkbêyn</sub><br><sub>/peːkbeːjn/</sub> | **پێکنەیەین**<br><sub>pêkneyeyn</sub><br><sub>/peːknæjæjn/</sub> |
-| 2pl | ئێوە | **پێکبێن**<br><sub>pêkbên</sub><br><sub>/peːkbeːn/</sub> | **پێکنەیەن**<br><sub>pêkneyen</sub><br><sub>/peːknæjæn/</sub> |
-| 3pl | ئەوان | **پێکبێن**<br><sub>pêkbên</sub><br><sub>/peːkbeːn/</sub> | **پێکنەیەن**<br><sub>pêkneyen</sub><br><sub>/peːknæjæn/</sub> |
+| 1sg | من | **پێک بێم**<br><sub>also پێکبێم</sub><br><sub>pêk bêm</sub><br><sub>/peːk beːm/</sub> | **پێک نەیەم**<br><sub>also پێکنەیەم</sub><br><sub>pêk neyem</sub><br><sub>/peːk næjæm/</sub> |
+| 2sg | تۆ | **پێک بێیت**<br><sub>also پێکبێیت</sub><br><sub>pêk bêyt</sub><br><sub>/peːk beːjt/</sub> | **پێک نەیەیت**<br><sub>also پێکنەیەیت</sub><br><sub>pêk neyeyt</sub><br><sub>/peːk næjæjt/</sub> |
+| 3sg | ئەو | **پێک بێت**<br><sub>also پێکبێت</sub><br><sub>pêk bêt</sub><br><sub>/peːk beːt/</sub> | **پێک نەیەت**<br><sub>also پێکنەیەت</sub><br><sub>pêk neyet</sub><br><sub>/peːk næjæt/</sub> |
+| 1pl | ئێمە | **پێک بێین**<br><sub>also پێکبێین</sub><br><sub>pêk bêyn</sub><br><sub>/peːk beːjn/</sub> | **پێک نەیەین**<br><sub>also پێکنەیەین</sub><br><sub>pêk neyeyn</sub><br><sub>/peːk næjæjn/</sub> |
+| 2pl | ئێوە | **پێک بێن**<br><sub>also پێکبێن</sub><br><sub>pêk bên</sub><br><sub>/peːk beːn/</sub> | **پێک نەیەن**<br><sub>also پێکنەیەن</sub><br><sub>pêk neyen</sub><br><sub>/peːk næjæn/</sub> |
+| 3pl | ئەوان | **پێک بێن**<br><sub>also پێکبێن</sub><br><sub>pêk bên</sub><br><sub>/peːk beːn/</sub> | **پێک نەیەن**<br><sub>also پێکنەیەن</sub><br><sub>pêk neyen</sub><br><sub>/peːk næjæn/</sub> |
 
 ## Simple past
 
@@ -43,12 +43,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **پێکهاتم**<br><sub>pêkhatim</sub><br><sub>/peːkhaːt(ɯ)m/</sub> | **پێکنەهاتم**<br><sub>pêknehatim</sub><br><sub>/peːknæhaːt(ɯ)m/</sub> |
-| 2sg | تۆ | **پێکهاتیت**<br><sub>pêkhatît</sub><br><sub>/peːkhaːtiːt/</sub> | **پێکنەهاتیت**<br><sub>pêknehatît</sub><br><sub>/peːknæhaːtiːt/</sub> |
-| 3sg | ئەو | **پێکهات**<br><sub>pêkhat</sub><br><sub>/peːkhaːt/</sub> | **پێکنەهات**<br><sub>pêknehat</sub><br><sub>/peːknæhaːt/</sub> |
-| 1pl | ئێمە | **پێکهاتین**<br><sub>pêkhatîn</sub><br><sub>/peːkhaːtiːn/</sub> | **پێکنەهاتین**<br><sub>pêknehatîn</sub><br><sub>/peːknæhaːtiːn/</sub> |
-| 2pl | ئێوە | **پێکهاتن**<br><sub>pêkhatin</sub><br><sub>/peːkhaːt(ɯ)n/</sub> | **پێکنەهاتن**<br><sub>pêknehatin</sub><br><sub>/peːknæhaːt(ɯ)n/</sub> |
-| 3pl | ئەوان | **پێکهاتن**<br><sub>pêkhatin</sub><br><sub>/peːkhaːt(ɯ)n/</sub> | **پێکنەهاتن**<br><sub>pêknehatin</sub><br><sub>/peːknæhaːt(ɯ)n/</sub> |
+| 1sg | من | **پێک هاتم**<br><sub>also پێکهاتم</sub><br><sub>pêk hatim</sub><br><sub>/peːk haːt(ɯ)m/</sub> | **پێک نەهاتم**<br><sub>also پێکنەهاتم</sub><br><sub>pêk nehatim</sub><br><sub>/peːk næhaːt(ɯ)m/</sub> |
+| 2sg | تۆ | **پێک هاتیت**<br><sub>also پێکهاتیت</sub><br><sub>pêk hatît</sub><br><sub>/peːk haːtiːt/</sub> | **پێک نەهاتیت**<br><sub>also پێکنەهاتیت</sub><br><sub>pêk nehatît</sub><br><sub>/peːk næhaːtiːt/</sub> |
+| 3sg | ئەو | **پێک هات**<br><sub>also پێکهات</sub><br><sub>pêk hat</sub><br><sub>/peːk haːt/</sub> | **پێک نەهات**<br><sub>also پێکنەهات</sub><br><sub>pêk nehat</sub><br><sub>/peːk næhaːt/</sub> |
+| 1pl | ئێمە | **پێک هاتین**<br><sub>also پێکهاتین</sub><br><sub>pêk hatîn</sub><br><sub>/peːk haːtiːn/</sub> | **پێک نەهاتین**<br><sub>also پێکنەهاتین</sub><br><sub>pêk nehatîn</sub><br><sub>/peːk næhaːtiːn/</sub> |
+| 2pl | ئێوە | **پێک هاتن**<br><sub>also پێکهاتن</sub><br><sub>pêk hatin</sub><br><sub>/peːk haːt(ɯ)n/</sub> | **پێک نەهاتن**<br><sub>also پێکنەهاتن</sub><br><sub>pêk nehatin</sub><br><sub>/peːk næhaːt(ɯ)n/</sub> |
+| 3pl | ئەوان | **پێک هاتن**<br><sub>also پێکهاتن</sub><br><sub>pêk hatin</sub><br><sub>/peːk haːt(ɯ)n/</sub> | **پێک نەهاتن**<br><sub>also پێکنەهاتن</sub><br><sub>pêk nehatin</sub><br><sub>/peːk næhaːt(ɯ)n/</sub> |
 
 ## Past progressive
 
@@ -56,12 +56,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **پێکدەهاتم**<br><sub>pêkdehatim</sub><br><sub>/peːkdæhaːt(ɯ)m/</sub> | **پێکنەدەهاتم**<br><sub>pêknedehatim</sub><br><sub>/peːknædæhaːt(ɯ)m/</sub> |
-| 2sg | تۆ | **پێکدەهاتیت**<br><sub>pêkdehatît</sub><br><sub>/peːkdæhaːtiːt/</sub> | **پێکنەدەهاتیت**<br><sub>pêknedehatît</sub><br><sub>/peːknædæhaːtiːt/</sub> |
-| 3sg | ئەو | **پێکدەهات**<br><sub>pêkdehat</sub><br><sub>/peːkdæhaːt/</sub> | **پێکنەدەهات**<br><sub>pêknedehat</sub><br><sub>/peːknædæhaːt/</sub> |
-| 1pl | ئێمە | **پێکدەهاتین**<br><sub>pêkdehatîn</sub><br><sub>/peːkdæhaːtiːn/</sub> | **پێکنەدەهاتین**<br><sub>pêknedehatîn</sub><br><sub>/peːknædæhaːtiːn/</sub> |
-| 2pl | ئێوە | **پێکدەهاتن**<br><sub>pêkdehatin</sub><br><sub>/peːkdæhaːt(ɯ)n/</sub> | **پێکنەدەهاتن**<br><sub>pêknedehatin</sub><br><sub>/peːknædæhaːt(ɯ)n/</sub> |
-| 3pl | ئەوان | **پێکدەهاتن**<br><sub>pêkdehatin</sub><br><sub>/peːkdæhaːt(ɯ)n/</sub> | **پێکنەدەهاتن**<br><sub>pêknedehatin</sub><br><sub>/peːknædæhaːt(ɯ)n/</sub> |
+| 1sg | من | **پێک دەهاتم**<br><sub>also پێکدەهاتم</sub><br><sub>pêk dehatim</sub><br><sub>/peːk dæhaːt(ɯ)m/</sub> | **پێک نەدەهاتم**<br><sub>also پێکنەدەهاتم</sub><br><sub>pêk nedehatim</sub><br><sub>/peːk nædæhaːt(ɯ)m/</sub> |
+| 2sg | تۆ | **پێک دەهاتیت**<br><sub>also پێکدەهاتیت</sub><br><sub>pêk dehatît</sub><br><sub>/peːk dæhaːtiːt/</sub> | **پێک نەدەهاتیت**<br><sub>also پێکنەدەهاتیت</sub><br><sub>pêk nedehatît</sub><br><sub>/peːk nædæhaːtiːt/</sub> |
+| 3sg | ئەو | **پێک دەهات**<br><sub>also پێکدەهات</sub><br><sub>pêk dehat</sub><br><sub>/peːk dæhaːt/</sub> | **پێک نەدەهات**<br><sub>also پێکنەدەهات</sub><br><sub>pêk nedehat</sub><br><sub>/peːk nædæhaːt/</sub> |
+| 1pl | ئێمە | **پێک دەهاتین**<br><sub>also پێکدەهاتین</sub><br><sub>pêk dehatîn</sub><br><sub>/peːk dæhaːtiːn/</sub> | **پێک نەدەهاتین**<br><sub>also پێکنەدەهاتین</sub><br><sub>pêk nedehatîn</sub><br><sub>/peːk nædæhaːtiːn/</sub> |
+| 2pl | ئێوە | **پێک دەهاتن**<br><sub>also پێکدەهاتن</sub><br><sub>pêk dehatin</sub><br><sub>/peːk dæhaːt(ɯ)n/</sub> | **پێک نەدەهاتن**<br><sub>also پێکنەدەهاتن</sub><br><sub>pêk nedehatin</sub><br><sub>/peːk nædæhaːt(ɯ)n/</sub> |
+| 3pl | ئەوان | **پێک دەهاتن**<br><sub>also پێکدەهاتن</sub><br><sub>pêk dehatin</sub><br><sub>/peːk dæhaːt(ɯ)n/</sub> | **پێک نەدەهاتن**<br><sub>also پێکنەدەهاتن</sub><br><sub>pêk nedehatin</sub><br><sub>/peːk nædæhaːt(ɯ)n/</sub> |
 
 ## Perfect tenses
 
@@ -69,12 +69,12 @@
 
 | person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
 |---|---|---|---|---|---|
-| 1sg | من | **پێکهاتوومە**<br><sub>pêkhatûme</sub><br><sub>/peːkhaːtuːmæ/</sub> | **پێکنەهاتوومە**<br><sub>pêknehatûme</sub><br><sub>/peːknæhaːtuːmæ/</sub> | **پێکهاتبووم**<br><sub>pêkhatbûm</sub><br><sub>/peːkhaːtbuːm/</sub> | **پێکنەهاتبووم**<br><sub>pêknehatbûm</sub><br><sub>/peːknæhaːtbuːm/</sub> |
-| 2sg | تۆ | **پێکهاتوویتە**<br><sub>pêkhatûyte</sub><br><sub>/peːkhaːtuːjtæ/</sub> | **پێکنەهاتوویتە**<br><sub>pêknehatûyte</sub><br><sub>/peːknæhaːtuːjtæ/</sub> | **پێکهاتبوویت**<br><sub>pêkhatbûyt</sub><br><sub>/peːkhaːtbuːjt/</sub> | **پێکنەهاتبوویت**<br><sub>pêknehatbûyt</sub><br><sub>/peːknæhaːtbuːjt/</sub> |
-| 3sg | ئەو | **پێکهاتووە**<br><sub>pêkhatûwe</sub><br><sub>/peːkhaːtuːwæ/</sub> | **پێکنەهاتووە**<br><sub>pêknehatûwe</sub><br><sub>/peːknæhaːtuːwæ/</sub> | **پێکهاتبوو**<br><sub>pêkhatbû</sub><br><sub>/peːkhaːtbuː/</sub> | **پێکنەهاتبوو**<br><sub>pêknehatbû</sub><br><sub>/peːknæhaːtbuː/</sub> |
-| 1pl | ئێمە | **پێکهاتووینە**<br><sub>pêkhatûyne</sub><br><sub>/peːkhaːtuːjnæ/</sub> | **پێکنەهاتووینە**<br><sub>pêknehatûyne</sub><br><sub>/peːknæhaːtuːjnæ/</sub> | **پێکهاتبووین**<br><sub>pêkhatbûyn</sub><br><sub>/peːkhaːtbuːjn/</sub> | **پێکنەهاتبووین**<br><sub>pêknehatbûyn</sub><br><sub>/peːknæhaːtbuːjn/</sub> |
-| 2pl | ئێوە | **پێکهاتوونە**<br><sub>pêkhatûne</sub><br><sub>/peːkhaːtuːnæ/</sub> | **پێکنەهاتوونە**<br><sub>pêknehatûne</sub><br><sub>/peːknæhaːtuːnæ/</sub> | **پێکهاتبوون**<br><sub>pêkhatbûn</sub><br><sub>/peːkhaːtbuːn/</sub> | **پێکنەهاتبوون**<br><sub>pêknehatbûn</sub><br><sub>/peːknæhaːtbuːn/</sub> |
-| 3pl | ئەوان | **پێکهاتوونە**<br><sub>pêkhatûne</sub><br><sub>/peːkhaːtuːnæ/</sub> | **پێکنەهاتوونە**<br><sub>pêknehatûne</sub><br><sub>/peːknæhaːtuːnæ/</sub> | **پێکهاتبوون**<br><sub>pêkhatbûn</sub><br><sub>/peːkhaːtbuːn/</sub> | **پێکنەهاتبوون**<br><sub>pêknehatbûn</sub><br><sub>/peːknæhaːtbuːn/</sub> |
+| 1sg | من | **پێک هاتوومە**<br><sub>also پێکهاتوومە</sub><br><sub>pêk hatûme</sub><br><sub>/peːk haːtuːmæ/</sub> | **پێک نەهاتوومە**<br><sub>also پێکنەهاتوومە</sub><br><sub>pêk nehatûme</sub><br><sub>/peːk næhaːtuːmæ/</sub> | **پێک هاتبووم**<br><sub>also پێکهاتبووم</sub><br><sub>pêk hatbûm</sub><br><sub>/peːk haːtbuːm/</sub> | **پێک نەهاتبووم**<br><sub>also پێکنەهاتبووم</sub><br><sub>pêk nehatbûm</sub><br><sub>/peːk næhaːtbuːm/</sub> |
+| 2sg | تۆ | **پێک هاتوویتە**<br><sub>also پێکهاتوویتە</sub><br><sub>pêk hatûyte</sub><br><sub>/peːk haːtuːjtæ/</sub> | **پێک نەهاتوویتە**<br><sub>also پێکنەهاتوویتە</sub><br><sub>pêk nehatûyte</sub><br><sub>/peːk næhaːtuːjtæ/</sub> | **پێک هاتبوویت**<br><sub>also پێکهاتبوویت</sub><br><sub>pêk hatbûyt</sub><br><sub>/peːk haːtbuːjt/</sub> | **پێک نەهاتبوویت**<br><sub>also پێکنەهاتبوویت</sub><br><sub>pêk nehatbûyt</sub><br><sub>/peːk næhaːtbuːjt/</sub> |
+| 3sg | ئەو | **پێک هاتووە**<br><sub>also پێکهاتووە</sub><br><sub>pêk hatûwe</sub><br><sub>/peːk haːtuːwæ/</sub> | **پێک نەهاتووە**<br><sub>also پێکنەهاتووە</sub><br><sub>pêk nehatûwe</sub><br><sub>/peːk næhaːtuːwæ/</sub> | **پێک هاتبوو**<br><sub>also پێکهاتبوو</sub><br><sub>pêk hatbû</sub><br><sub>/peːk haːtbuː/</sub> | **پێک نەهاتبوو**<br><sub>also پێکنەهاتبوو</sub><br><sub>pêk nehatbû</sub><br><sub>/peːk næhaːtbuː/</sub> |
+| 1pl | ئێمە | **پێک هاتووینە**<br><sub>also پێکهاتووینە</sub><br><sub>pêk hatûyne</sub><br><sub>/peːk haːtuːjnæ/</sub> | **پێک نەهاتووینە**<br><sub>also پێکنەهاتووینە</sub><br><sub>pêk nehatûyne</sub><br><sub>/peːk næhaːtuːjnæ/</sub> | **پێک هاتبووین**<br><sub>also پێکهاتبووین</sub><br><sub>pêk hatbûyn</sub><br><sub>/peːk haːtbuːjn/</sub> | **پێک نەهاتبووین**<br><sub>also پێکنەهاتبووین</sub><br><sub>pêk nehatbûyn</sub><br><sub>/peːk næhaːtbuːjn/</sub> |
+| 2pl | ئێوە | **پێک هاتوونە**<br><sub>also پێکهاتوونە</sub><br><sub>pêk hatûne</sub><br><sub>/peːk haːtuːnæ/</sub> | **پێک نەهاتوونە**<br><sub>also پێکنەهاتوونە</sub><br><sub>pêk nehatûne</sub><br><sub>/peːk næhaːtuːnæ/</sub> | **پێک هاتبوون**<br><sub>also پێکهاتبوون</sub><br><sub>pêk hatbûn</sub><br><sub>/peːk haːtbuːn/</sub> | **پێک نەهاتبوون**<br><sub>also پێکنەهاتبوون</sub><br><sub>pêk nehatbûn</sub><br><sub>/peːk næhaːtbuːn/</sub> |
+| 3pl | ئەوان | **پێک هاتوونە**<br><sub>also پێکهاتوونە</sub><br><sub>pêk hatûne</sub><br><sub>/peːk haːtuːnæ/</sub> | **پێک نەهاتوونە**<br><sub>also پێکنەهاتوونە</sub><br><sub>pêk nehatûne</sub><br><sub>/peːk næhaːtuːnæ/</sub> | **پێک هاتبوون**<br><sub>also پێکهاتبوون</sub><br><sub>pêk hatbûn</sub><br><sub>/peːk haːtbuːn/</sub> | **پێک نەهاتبوون**<br><sub>also پێکنەهاتبوون</sub><br><sub>pêk nehatbûn</sub><br><sub>/peːk næhaːtbuːn/</sub> |
 
 ## Past subjunctive
 
@@ -82,12 +82,12 @@
 
 | person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **پێکهاتبام**<br><sub>pêkhatbam</sub><br><sub>/peːkhaːtbaːm/</sub> | **پێکهاتبێتم**<br><sub>pêkhatbêtim</sub><br><sub>/peːkhaːtbeːt(ɯ)m/</sub> | **پێکهاتبووبام**<br><sub>pêkhatbûbam</sub><br><sub>/peːkhaːtbuːbaːm/</sub> |
-| 2sg | تۆ | **پێکهاتبایت**<br><sub>pêkhatbayt</sub><br><sub>/peːkhaːtbaːjt/</sub> | **پێکهاتبێتیت**<br><sub>pêkhatbêtît</sub><br><sub>/peːkhaːtbeːtiːt/</sub> | **پێکهاتبووبایت**<br><sub>pêkhatbûbayt</sub><br><sub>/peːkhaːtbuːbaːjt/</sub> |
-| 3sg | ئەو | **پێکهاتبا**<br><sub>pêkhatba</sub><br><sub>/peːkhaːtbaː/</sub> | **پێکهاتبێت**<br><sub>pêkhatbêt</sub><br><sub>/peːkhaːtbeːt/</sub> | **پێکهاتبووبا**<br><sub>pêkhatbûba</sub><br><sub>/peːkhaːtbuːbaː/</sub> |
-| 1pl | ئێمە | **پێکهاتباین**<br><sub>pêkhatbayn</sub><br><sub>/peːkhaːtbaːjn/</sub> | **پێکهاتبێتین**<br><sub>pêkhatbêtîn</sub><br><sub>/peːkhaːtbeːtiːn/</sub> | **پێکهاتبووباین**<br><sub>pêkhatbûbayn</sub><br><sub>/peːkhaːtbuːbaːjn/</sub> |
-| 2pl | ئێوە | **پێکهاتبان**<br><sub>pêkhatban</sub><br><sub>/peːkhaːtbaːn/</sub> | **پێکهاتبێتن**<br><sub>pêkhatbêtin</sub><br><sub>/peːkhaːtbeːt(ɯ)n/</sub> | **پێکهاتبووبان**<br><sub>pêkhatbûban</sub><br><sub>/peːkhaːtbuːbaːn/</sub> |
-| 3pl | ئەوان | **پێکهاتبان**<br><sub>pêkhatban</sub><br><sub>/peːkhaːtbaːn/</sub> | **پێکهاتبێتن**<br><sub>pêkhatbêtin</sub><br><sub>/peːkhaːtbeːt(ɯ)n/</sub> | **پێکهاتبووبان**<br><sub>pêkhatbûban</sub><br><sub>/peːkhaːtbuːbaːn/</sub> |
+| 1sg | من | **پێک هاتبام**<br><sub>also پێکهاتبام</sub><br><sub>pêk hatbam</sub><br><sub>/peːk haːtbaːm/</sub> | **پێک هاتبێتم**<br><sub>also پێکهاتبێتم</sub><br><sub>pêk hatbêtim</sub><br><sub>/peːk haːtbeːt(ɯ)m/</sub> | **پێک هاتبووبام**<br><sub>also پێکهاتبووبام</sub><br><sub>pêk hatbûbam</sub><br><sub>/peːk haːtbuːbaːm/</sub> |
+| 2sg | تۆ | **پێک هاتبایت**<br><sub>also پێکهاتبایت</sub><br><sub>pêk hatbayt</sub><br><sub>/peːk haːtbaːjt/</sub> | **پێک هاتبێتیت**<br><sub>also پێکهاتبێتیت</sub><br><sub>pêk hatbêtît</sub><br><sub>/peːk haːtbeːtiːt/</sub> | **پێک هاتبووبایت**<br><sub>also پێکهاتبووبایت</sub><br><sub>pêk hatbûbayt</sub><br><sub>/peːk haːtbuːbaːjt/</sub> |
+| 3sg | ئەو | **پێک هاتبا**<br><sub>also پێکهاتبا</sub><br><sub>pêk hatba</sub><br><sub>/peːk haːtbaː/</sub> | **پێک هاتبێت**<br><sub>also پێکهاتبێت</sub><br><sub>pêk hatbêt</sub><br><sub>/peːk haːtbeːt/</sub> | **پێک هاتبووبا**<br><sub>also پێکهاتبووبا</sub><br><sub>pêk hatbûba</sub><br><sub>/peːk haːtbuːbaː/</sub> |
+| 1pl | ئێمە | **پێک هاتباین**<br><sub>also پێکهاتباین</sub><br><sub>pêk hatbayn</sub><br><sub>/peːk haːtbaːjn/</sub> | **پێک هاتبێتین**<br><sub>also پێکهاتبێتین</sub><br><sub>pêk hatbêtîn</sub><br><sub>/peːk haːtbeːtiːn/</sub> | **پێک هاتبووباین**<br><sub>also پێکهاتبووباین</sub><br><sub>pêk hatbûbayn</sub><br><sub>/peːk haːtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **پێک هاتبان**<br><sub>also پێکهاتبان</sub><br><sub>pêk hatban</sub><br><sub>/peːk haːtbaːn/</sub> | **پێک هاتبێتن**<br><sub>also پێکهاتبێتن</sub><br><sub>pêk hatbêtin</sub><br><sub>/peːk haːtbeːt(ɯ)n/</sub> | **پێک هاتبووبان**<br><sub>also پێکهاتبووبان</sub><br><sub>pêk hatbûban</sub><br><sub>/peːk haːtbuːbaːn/</sub> |
+| 3pl | ئەوان | **پێک هاتبان**<br><sub>also پێکهاتبان</sub><br><sub>pêk hatban</sub><br><sub>/peːk haːtbaːn/</sub> | **پێک هاتبێتن**<br><sub>also پێکهاتبێتن</sub><br><sub>pêk hatbêtin</sub><br><sub>/peːk haːtbeːt(ɯ)n/</sub> | **پێک هاتبووبان**<br><sub>also پێکهاتبووبان</sub><br><sub>pêk hatbûban</sub><br><sub>/peːk haːtbuːbaːn/</sub> |
 
 ## Past subjunctive negative
 
@@ -95,12 +95,12 @@
 
 | person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
 |---|---|---|---|---|
-| 1sg | من | **پێکنەهاتبام**<br><sub>pêknehatbam</sub><br><sub>/peːknæhaːtbaːm/</sub> | **پێکنەهاتبێتم**<br><sub>pêknehatbêtim</sub><br><sub>/peːknæhaːtbeːt(ɯ)m/</sub> | **پێکنەهاتبووبام**<br><sub>pêknehatbûbam</sub><br><sub>/peːknæhaːtbuːbaːm/</sub> |
-| 2sg | تۆ | **پێکنەهاتبایت**<br><sub>pêknehatbayt</sub><br><sub>/peːknæhaːtbaːjt/</sub> | **پێکنەهاتبێتیت**<br><sub>pêknehatbêtît</sub><br><sub>/peːknæhaːtbeːtiːt/</sub> | **پێکنەهاتبووبایت**<br><sub>pêknehatbûbayt</sub><br><sub>/peːknæhaːtbuːbaːjt/</sub> |
-| 3sg | ئەو | **پێکنەهاتبا**<br><sub>pêknehatba</sub><br><sub>/peːknæhaːtbaː/</sub> | **پێکنەهاتبێت**<br><sub>pêknehatbêt</sub><br><sub>/peːknæhaːtbeːt/</sub> | **پێکنەهاتبووبا**<br><sub>pêknehatbûba</sub><br><sub>/peːknæhaːtbuːbaː/</sub> |
-| 1pl | ئێمە | **پێکنەهاتباین**<br><sub>pêknehatbayn</sub><br><sub>/peːknæhaːtbaːjn/</sub> | **پێکنەهاتبێتین**<br><sub>pêknehatbêtîn</sub><br><sub>/peːknæhaːtbeːtiːn/</sub> | **پێکنەهاتبووباین**<br><sub>pêknehatbûbayn</sub><br><sub>/peːknæhaːtbuːbaːjn/</sub> |
-| 2pl | ئێوە | **پێکنەهاتبان**<br><sub>pêknehatban</sub><br><sub>/peːknæhaːtbaːn/</sub> | **پێکنەهاتبێتن**<br><sub>pêknehatbêtin</sub><br><sub>/peːknæhaːtbeːt(ɯ)n/</sub> | **پێکنەهاتبووبان**<br><sub>pêknehatbûban</sub><br><sub>/peːknæhaːtbuːbaːn/</sub> |
-| 3pl | ئەوان | **پێکنەهاتبان**<br><sub>pêknehatban</sub><br><sub>/peːknæhaːtbaːn/</sub> | **پێکنەهاتبێتن**<br><sub>pêknehatbêtin</sub><br><sub>/peːknæhaːtbeːt(ɯ)n/</sub> | **پێکنەهاتبووبان**<br><sub>pêknehatbûban</sub><br><sub>/peːknæhaːtbuːbaːn/</sub> |
+| 1sg | من | **پێک نەهاتبام**<br><sub>also پێکنەهاتبام</sub><br><sub>pêk nehatbam</sub><br><sub>/peːk næhaːtbaːm/</sub> | **پێک نەهاتبێتم**<br><sub>also پێکنەهاتبێتم</sub><br><sub>pêk nehatbêtim</sub><br><sub>/peːk næhaːtbeːt(ɯ)m/</sub> | **پێک نەهاتبووبام**<br><sub>also پێکنەهاتبووبام</sub><br><sub>pêk nehatbûbam</sub><br><sub>/peːk næhaːtbuːbaːm/</sub> |
+| 2sg | تۆ | **پێک نەهاتبایت**<br><sub>also پێکنەهاتبایت</sub><br><sub>pêk nehatbayt</sub><br><sub>/peːk næhaːtbaːjt/</sub> | **پێک نەهاتبێتیت**<br><sub>also پێکنەهاتبێتیت</sub><br><sub>pêk nehatbêtît</sub><br><sub>/peːk næhaːtbeːtiːt/</sub> | **پێک نەهاتبووبایت**<br><sub>also پێکنەهاتبووبایت</sub><br><sub>pêk nehatbûbayt</sub><br><sub>/peːk næhaːtbuːbaːjt/</sub> |
+| 3sg | ئەو | **پێک نەهاتبا**<br><sub>also پێکنەهاتبا</sub><br><sub>pêk nehatba</sub><br><sub>/peːk næhaːtbaː/</sub> | **پێک نەهاتبێت**<br><sub>also پێکنەهاتبێت</sub><br><sub>pêk nehatbêt</sub><br><sub>/peːk næhaːtbeːt/</sub> | **پێک نەهاتبووبا**<br><sub>also پێکنەهاتبووبا</sub><br><sub>pêk nehatbûba</sub><br><sub>/peːk næhaːtbuːbaː/</sub> |
+| 1pl | ئێمە | **پێک نەهاتباین**<br><sub>also پێکنەهاتباین</sub><br><sub>pêk nehatbayn</sub><br><sub>/peːk næhaːtbaːjn/</sub> | **پێک نەهاتبێتین**<br><sub>also پێکنەهاتبێتین</sub><br><sub>pêk nehatbêtîn</sub><br><sub>/peːk næhaːtbeːtiːn/</sub> | **پێک نەهاتبووباین**<br><sub>also پێکنەهاتبووباین</sub><br><sub>pêk nehatbûbayn</sub><br><sub>/peːk næhaːtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **پێک نەهاتبان**<br><sub>also پێکنەهاتبان</sub><br><sub>pêk nehatban</sub><br><sub>/peːk næhaːtbaːn/</sub> | **پێک نەهاتبێتن**<br><sub>also پێکنەهاتبێتن</sub><br><sub>pêk nehatbêtin</sub><br><sub>/peːk næhaːtbeːt(ɯ)n/</sub> | **پێک نەهاتبووبان**<br><sub>also پێکنەهاتبووبان</sub><br><sub>pêk nehatbûban</sub><br><sub>/peːk næhaːtbuːbaːn/</sub> |
+| 3pl | ئەوان | **پێک نەهاتبان**<br><sub>also پێکنەهاتبان</sub><br><sub>pêk nehatban</sub><br><sub>/peːk næhaːtbaːn/</sub> | **پێک نەهاتبێتن**<br><sub>also پێکنەهاتبێتن</sub><br><sub>pêk nehatbêtin</sub><br><sub>/peːk næhaːtbeːt(ɯ)n/</sub> | **پێک نەهاتبووبان**<br><sub>also پێکنەهاتبووبان</sub><br><sub>pêk nehatbûban</sub><br><sub>/peːk næhaːtbuːbaːn/</sub> |
 
 ## Imperative
 
@@ -108,8 +108,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **پێکوەرە**<br><sub>pêkwere</sub><br><sub>/peːkwæɾæ/</sub> | **پێکمەیێ**<br><sub>pêkmeyê</sub><br><sub>/peːkmæjeː/</sub> |
-| 2pl | ئێوە | **پێکوەرن**<br><sub>pêkwern</sub><br><sub>/peːkwæɾn/</sub> | **پێکمەیێن**<br><sub>pêkmeyên</sub><br><sub>/peːkmæjeːn/</sub> |
+| 2sg | تۆ | **پێک وەرە**<br><sub>also پێکوەرە</sub><br><sub>pêk were</sub><br><sub>/peːk wæɾæ/</sub> | **پێکمەیێ**<br><sub>pêkmeyê</sub><br><sub>/peːkmæjeː/</sub> |
+| 2pl | ئێوە | **پێک وەرن**<br><sub>also پێکوەرن</sub><br><sub>pêk wern</sub><br><sub>/peːk wæɾn/</sub> | **پێکمەیێن**<br><sub>pêkmeyên</sub><br><sub>/peːkmæjeːn/</sub> |
 
 ## Other forms
 

@@ -43,6 +43,8 @@ Also recognised:
 
 **Vowel- vs consonant-final is phonological**, not orthographic: `پیاو` ends in the consonant /w/ (→ `پیاوەکە`), `کوردی` in the vowel /iː/ (→ `کوردییەکە`). `_ends_with_vowel` treats final `و`/`ی` after a vowel letter as glides.
 
+Prepositions are written apart in the standard (`لە ماڵەکانمانیشدا`). The analyzer also accepts them attached (`لەماڵ…`), which is common on the web.
+
 ## Scoring
 
 | evidence | score |

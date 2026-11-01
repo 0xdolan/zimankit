@@ -17,6 +17,15 @@
 
 ## Agreement
 
+Kurdish grammars number the person markers differently, so readers of them should map the names:
+
+| zimankit | Kurdish grammars | forms | use |
+|---|---|---|---|
+| set 2 | کۆمەڵەی یەکەم (ک١) | `م ت ی مان تان یان` | agent of the transitive past |
+| set 1, past | کۆمەڵەی دووەم (ک٢) | `م یت – ین ن ن` | subject of the intransitive past, object of the transitive past |
+| set 1, present | کۆمەڵەی سێیەم (ک٣) | `م یت ێت/ات ین ن ن` | present |
+| imperative | کۆمەڵەی چوارەم (ک٤) | `ە/– ن` | imperative |
+
 * **Set 1** (verbal endings): `م یت ێت(ات) ین ن ن` — subject of present tenses and of intransitive past.
 * **Set 2** (enclitics): `م ت ی مان تان یان` — the **agent of transitive past tenses** (ergative alignment): `کردم` "I did", `نەمکرد` "I didn't", `دەمکرد` "I used to do".
 
@@ -77,7 +86,7 @@ The paradigm index keeps one solid key for each form, and the older shapes (`ه�
 
 `FormIndex.lookup_split(tokens)` reads a verb written over two or three tokens: `هەڵم گرت`, `ڕای گەیاند`, `پێک دێم`, `دەست پێ دەکەم`, `دەستم پێ کرد`. The tokens before the last must be exactly the verb's first part, with or without a clitic, so an ordinary pair of words does not join. The sentence parser uses it, and labels the first parts `compound:prt`.
 
-`Verb.always_split` says whether the first part is written apart even with no clitic: noun or adjective + light verb, and `پێ تێ لێ پێک تێک ڕێک`. The other preverbs split only around a clitic (`هەڵدەگرم`, but `هەڵم گرت`).
+`standard_spelling(verb, form)` gives the spacing the standard writes, and the tutorial pages show it first with the solid form in small type. `Verb.always_split` says whether the first part is written apart even with no clitic: noun or adjective + light verb, and `پێ تێ لێ پێک تێک ڕێک`. The other preverbs split only around a clitic (`هەڵدەگرم`, but `هەڵم گرت`).
 
 ## Object clitics
 
