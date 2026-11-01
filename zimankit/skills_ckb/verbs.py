@@ -172,8 +172,8 @@ def make_verb(infinitive: str, transitive: bool | None = None, present: str | No
     for k in range(2, len(core) - 2):
         rest = core[k:]
         if rest in known and not known[rest].preverb:
-            if rest in ("وتن", "گوتن") and core[:k] not in PREVERBS:
-                continue  # پاڵاوتن is not پاڵا + وتن
+            if rest in ("وتن", "گوتن", "زان") and core[:k] not in PREVERBS:
+                continue  # پاڵاوتن is not پاڵا + وتن, ترازان is not ترا + زان
             base = known[rest]
             pre = core[:k]
             return Verb(infinitive, base.past, base.present, base.transitive if transitive is None else transitive,
@@ -272,10 +272,14 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
             yield VerbForm(pre + surface + "تەوە", lemma, {"pos": "VERB", **feat})
             if surface.endswith("ووە"):  # هاتۆتەوە, recognised but not shown
                 yield VerbForm(pre + surface[:-3] + "ۆتەوە", lemma, {"pos": "VERB", **feat, "variant": "contracted"})
+            if not surface.endswith("وە"):  # گەڕاونەوە: common without the ت, recognised but not shown
+                yield VerbForm(_with_suffix(pre + surface, suf), lemma, {"pos": "VERB", **feat, "variant": "no_t"})
             return
-        if suf and past.endswith("ی") and surface.endswith(past):  # دۆزی + ی + ەوە
-            surface += "ی"
-        yield VerbForm(_with_suffix(pre + surface, suf), lemma, {"pos": "VERB", **feat})
+        if suf and past.endswith("ی") and surface.endswith(past):  # دۆزی + ی + ەوە; دۆزیەوە is common, recognised but not shown
+            yield VerbForm(_with_suffix(pre + surface + "ی", suf), lemma, {"pos": "VERB", **feat})
+            yield VerbForm(_with_suffix(pre + surface, suf), lemma, {"pos": "VERB", **feat, "variant": "one_ye"})
+        else:
+            yield VerbForm(_with_suffix(pre + surface, suf), lemma, {"pos": "VERB", **feat})
         # speech and poetry drop the ت: دەکا, دەڵێ, دەمەوێ, دەکەی
         if feat.get("tense") == "present" and "variant" not in feat and "goal" not in feat:
             person = feat.get("person")
@@ -397,7 +401,11 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
                     yield from emit(first + past + "بوو", tense="past_perfect", **agent, **polarity)
                     for mark, tense in past_subjunctives:
                         yield from emit(first + past + mark, tense=tense, mood="subjunctive", **agent, **polarity)
-    if pres.endswith("ی") and not clitic_present:  # دەژی, also دەژێت
+    if past.endswith("ی"):  # نووسیووە, بینیووە: common with two و, recognised but not shown
+        third = {"agent": "external", "alignment": "ergative"} if v.transitive else {"person": "3sg"}
+        yield from emit(past + "ووە", tense="present_perfect", variant="double_u", **third)
+        yield from emit("نە" + past + "ووە", tense="present_perfect", polarity="neg", variant="double_u", **third)
+    if pres.endswith("ی") and not clitic_present and v.source == "core":  # دەژی, also دەژێت; a guessed دزیان must not take دەدزێت from دزین
         yield from emit("دە" + pres[:-1] + "ێت", tense="present", mood="indicative", person="3sg", variant="root_i")
     if v.base_infinitive == "هاتن":  # نایەم is the common spelling; نایێم is argued for and recognised
         for p, end in zip(PERSONS, ("ێم", "ێیت", "ێت", "ێین", "ێن", "ێن")):

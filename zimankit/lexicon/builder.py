@@ -352,7 +352,12 @@ def build(cfg: Config, lang: str) -> dict:
                     return False
                 last = x.segments[-1][0] if len(x.segments) > 1 else ""
                 # a one-letter enclitic (م ت ش) is only believable on a stem at least as frequent
-                return len(last) >= 2 or last == "ی" or counts.get(x.lemma, 0) >= freq
+                # دەدزێت, دەنووسێتەوە: a finite form is a verb however rare its infinitive; ماڵی, گونجاو or بزنی may not be
+                finite = (
+                    d.lang == "ckb" and x.pos == "VERB" and "variant" not in x.features and not x.lemma.endswith("یان")
+                    and (x.features.get("tense") == "present" or x.lemma.endswith("ەوە"))
+                )
+                return finite or len(last) >= 2 or last == "ی" or counts.get(x.lemma, 0) >= freq
 
             posless_inflected = next((x for x in alist or [] if plausible(x)), None)
         if posless_inflected is not None:
