@@ -66,14 +66,40 @@
 
 *نیشتن* (nîştin) “to sit, to land” — present stem **نیش**, past stem **نیشت**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **نیشتووم**<br><sub>nîştûm</sub><br><sub>/niːʃtuːm/</sub> | **نیشتبووم**<br><sub>nîştbûm</sub><br><sub>/niːʃtbuːm/</sub> |
-| 2sg | تۆ | **نیشتوویت**<br><sub>nîştûyt</sub><br><sub>/niːʃtuːjt/</sub> | **نیشتبوویت**<br><sub>nîştbûyt</sub><br><sub>/niːʃtbuːjt/</sub> |
-| 3sg | ئەو | **نیشتووە**<br><sub>nîştûwe</sub><br><sub>/niːʃtuːwæ/</sub> | **نیشتبوو**<br><sub>nîştbû</sub><br><sub>/niːʃtbuː/</sub> |
-| 1pl | ئێمە | **نیشتووین**<br><sub>nîştûyn</sub><br><sub>/niːʃtuːjn/</sub> | **نیشتبووین**<br><sub>nîştbûyn</sub><br><sub>/niːʃtbuːjn/</sub> |
-| 2pl | ئێوە | **نیشتوون**<br><sub>nîştûn</sub><br><sub>/niːʃtuːn/</sub> | **نیشتبوون**<br><sub>nîştbûn</sub><br><sub>/niːʃtbuːn/</sub> |
-| 3pl | ئەوان | **نیشتوون**<br><sub>nîştûn</sub><br><sub>/niːʃtuːn/</sub> | **نیشتبوون**<br><sub>nîştbûn</sub><br><sub>/niːʃtbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **نیشتوومە**<br><sub>nîştûme</sub><br><sub>/niːʃtuːmæ/</sub> | **نەنیشتوومە**<br><sub>nenîştûme</sub><br><sub>/næniːʃtuːmæ/</sub> | **نیشتبووم**<br><sub>nîştbûm</sub><br><sub>/niːʃtbuːm/</sub> | **نەنیشتبووم**<br><sub>nenîştbûm</sub><br><sub>/næniːʃtbuːm/</sub> |
+| 2sg | تۆ | **نیشتوویتە**<br><sub>nîştûyte</sub><br><sub>/niːʃtuːjtæ/</sub> | **نەنیشتوویتە**<br><sub>nenîştûyte</sub><br><sub>/næniːʃtuːjtæ/</sub> | **نیشتبوویت**<br><sub>nîştbûyt</sub><br><sub>/niːʃtbuːjt/</sub> | **نەنیشتبوویت**<br><sub>nenîştbûyt</sub><br><sub>/næniːʃtbuːjt/</sub> |
+| 3sg | ئەو | **نیشتووە**<br><sub>nîştûwe</sub><br><sub>/niːʃtuːwæ/</sub> | **نەنیشتووە**<br><sub>nenîştûwe</sub><br><sub>/næniːʃtuːwæ/</sub> | **نیشتبوو**<br><sub>nîştbû</sub><br><sub>/niːʃtbuː/</sub> | **نەنیشتبوو**<br><sub>nenîştbû</sub><br><sub>/næniːʃtbuː/</sub> |
+| 1pl | ئێمە | **نیشتووینە**<br><sub>nîştûyne</sub><br><sub>/niːʃtuːjnæ/</sub> | **نەنیشتووینە**<br><sub>nenîştûyne</sub><br><sub>/næniːʃtuːjnæ/</sub> | **نیشتبووین**<br><sub>nîştbûyn</sub><br><sub>/niːʃtbuːjn/</sub> | **نەنیشتبووین**<br><sub>nenîştbûyn</sub><br><sub>/næniːʃtbuːjn/</sub> |
+| 2pl | ئێوە | **نیشتوونە**<br><sub>nîştûne</sub><br><sub>/niːʃtuːnæ/</sub> | **نەنیشتوونە**<br><sub>nenîştûne</sub><br><sub>/næniːʃtuːnæ/</sub> | **نیشتبوون**<br><sub>nîştbûn</sub><br><sub>/niːʃtbuːn/</sub> | **نەنیشتبوون**<br><sub>nenîştbûn</sub><br><sub>/næniːʃtbuːn/</sub> |
+| 3pl | ئەوان | **نیشتوونە**<br><sub>nîştûne</sub><br><sub>/niːʃtuːnæ/</sub> | **نەنیشتوونە**<br><sub>nenîştûne</sub><br><sub>/næniːʃtuːnæ/</sub> | **نیشتبوون**<br><sub>nîştbûn</sub><br><sub>/niːʃtbuːn/</sub> | **نەنیشتبوون**<br><sub>nenîştbûn</sub><br><sub>/næniːʃtbuːn/</sub> |
+
+## Past subjunctive
+
+*نیشتن* (nîştin) “to sit, to land” — present stem **نیش**, past stem **نیشت**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **نیشتبام**<br><sub>nîştbam</sub><br><sub>/niːʃtbaːm/</sub> | **نیشتبێتم**<br><sub>nîştbêtim</sub><br><sub>/niːʃtbeːt(ɯ)m/</sub> | **نیشتبووبام**<br><sub>nîştbûbam</sub><br><sub>/niːʃtbuːbaːm/</sub> |
+| 2sg | تۆ | **نیشتبایت**<br><sub>nîştbayt</sub><br><sub>/niːʃtbaːjt/</sub> | **نیشتبێتیت**<br><sub>nîştbêtît</sub><br><sub>/niːʃtbeːtiːt/</sub> | **نیشتبووبایت**<br><sub>nîştbûbayt</sub><br><sub>/niːʃtbuːbaːjt/</sub> |
+| 3sg | ئەو | **نیشتبا**<br><sub>nîştba</sub><br><sub>/niːʃtbaː/</sub> | **نیشتبێت**<br><sub>nîştbêt</sub><br><sub>/niːʃtbeːt/</sub> | **نیشتبووبا**<br><sub>nîştbûba</sub><br><sub>/niːʃtbuːbaː/</sub> |
+| 1pl | ئێمە | **نیشتباین**<br><sub>nîştbayn</sub><br><sub>/niːʃtbaːjn/</sub> | **نیشتبێتین**<br><sub>nîştbêtîn</sub><br><sub>/niːʃtbeːtiːn/</sub> | **نیشتبووباین**<br><sub>nîştbûbayn</sub><br><sub>/niːʃtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نیشتبان**<br><sub>nîştban</sub><br><sub>/niːʃtbaːn/</sub> | **نیشتبێتن**<br><sub>nîştbêtin</sub><br><sub>/niːʃtbeːt(ɯ)n/</sub> | **نیشتبووبان**<br><sub>nîştbûban</sub><br><sub>/niːʃtbuːbaːn/</sub> |
+| 3pl | ئەوان | **نیشتبان**<br><sub>nîştban</sub><br><sub>/niːʃtbaːn/</sub> | **نیشتبێتن**<br><sub>nîştbêtin</sub><br><sub>/niːʃtbeːt(ɯ)n/</sub> | **نیشتبووبان**<br><sub>nîştbûban</sub><br><sub>/niːʃtbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*نیشتن* (nîştin) “to sit, to land” — present stem **نیش**, past stem **نیشت**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەنیشتبام**<br><sub>nenîştbam</sub><br><sub>/næniːʃtbaːm/</sub> | **نەنیشتبێتم**<br><sub>nenîştbêtim</sub><br><sub>/næniːʃtbeːt(ɯ)m/</sub> | **نەنیشتبووبام**<br><sub>nenîştbûbam</sub><br><sub>/næniːʃtbuːbaːm/</sub> |
+| 2sg | تۆ | **نەنیشتبایت**<br><sub>nenîştbayt</sub><br><sub>/næniːʃtbaːjt/</sub> | **نەنیشتبێتیت**<br><sub>nenîştbêtît</sub><br><sub>/næniːʃtbeːtiːt/</sub> | **نەنیشتبووبایت**<br><sub>nenîştbûbayt</sub><br><sub>/næniːʃtbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەنیشتبا**<br><sub>nenîştba</sub><br><sub>/næniːʃtbaː/</sub> | **نەنیشتبێت**<br><sub>nenîştbêt</sub><br><sub>/næniːʃtbeːt/</sub> | **نەنیشتبووبا**<br><sub>nenîştbûba</sub><br><sub>/næniːʃtbuːbaː/</sub> |
+| 1pl | ئێمە | **نەنیشتباین**<br><sub>nenîştbayn</sub><br><sub>/næniːʃtbaːjn/</sub> | **نەنیشتبێتین**<br><sub>nenîştbêtîn</sub><br><sub>/næniːʃtbeːtiːn/</sub> | **نەنیشتبووباین**<br><sub>nenîştbûbayn</sub><br><sub>/næniːʃtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەنیشتبان**<br><sub>nenîştban</sub><br><sub>/næniːʃtbaːn/</sub> | **نەنیشتبێتن**<br><sub>nenîştbêtin</sub><br><sub>/næniːʃtbeːt(ɯ)n/</sub> | **نەنیشتبووبان**<br><sub>nenîştbûban</sub><br><sub>/næniːʃtbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەنیشتبان**<br><sub>nenîştban</sub><br><sub>/næniːʃtbaːn/</sub> | **نەنیشتبێتن**<br><sub>nenîştbêtin</sub><br><sub>/næniːʃtbeːt(ɯ)n/</sub> | **نەنیشتبووبان**<br><sub>nenîştbûban</sub><br><sub>/næniːʃtbuːbaːn/</sub> |
 
 ## Imperative
 

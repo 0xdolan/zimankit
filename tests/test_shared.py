@@ -37,3 +37,22 @@ def test_regex_cookbook():
 def test_epenthesis():
     segs = break_clusters([("m", "C"), ("n", "C")])
     assert "".join(s for s, _ in segs) == "mɯn"
+
+
+def test_sentences_keep_abbreviations_and_closing_quotes():
+    from zimankit.shared_utils.tokenizer import sentences
+
+    assert sentences("د. سۆران هات. ئەو چوو؟ من «هاتم.» تۆ چووی… باشە!") == ["د. سۆران هات.", "ئەو چوو؟", "من «هاتم.»", "تۆ چووی…", "باشە!"]
+
+
+def test_dates_and_times_are_one_token():
+    from zimankit.shared_utils.tokenizer import tokenize
+
+    assert [t.text for t in tokenize("٢٠٠٤/٣/٣ ١٣:٣٠")] == ["٢٠٠٤/٣/٣", "١٣:٣٠"]
+
+
+def test_kashida_alone_is_punctuation():
+    from zimankit.shared_utils.tokenizer import tokenize
+
+    assert [(t.text, t.kind) for t in tokenize("ئەو ـ من")][1] == ("ـ", "punct")
+    assert [t.text for t in tokenize("دەیـنووسێت")] == ["دەیـنووسێت"]

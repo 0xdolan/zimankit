@@ -66,14 +66,40 @@
 
 *تەقین* (teqîn) “to explode” — present stem **تەق**, past stem **تەقی**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **تەقیوم**<br><sub>teqîwm</sub><br><sub>/tæqiːwm/</sub> | **تەقیبووم**<br><sub>teqîbûm</sub><br><sub>/tæqiːbuːm/</sub> |
-| 2sg | تۆ | **تەقیویت**<br><sub>teqîwît</sub><br><sub>/tæqiːwiːt/</sub> | **تەقیبوویت**<br><sub>teqîbûyt</sub><br><sub>/tæqiːbuːjt/</sub> |
-| 3sg | ئەو | **تەقیوە**<br><sub>teqîwe</sub><br><sub>/tæqiːwæ/</sub> | **تەقیبوو**<br><sub>teqîbû</sub><br><sub>/tæqiːbuː/</sub> |
-| 1pl | ئێمە | **تەقیوین**<br><sub>teqîwîn</sub><br><sub>/tæqiːwiːn/</sub> | **تەقیبووین**<br><sub>teqîbûyn</sub><br><sub>/tæqiːbuːjn/</sub> |
-| 2pl | ئێوە | **تەقیون**<br><sub>teqîwn</sub><br><sub>/tæqiːwn/</sub> | **تەقیبوون**<br><sub>teqîbûn</sub><br><sub>/tæqiːbuːn/</sub> |
-| 3pl | ئەوان | **تەقیون**<br><sub>teqîwn</sub><br><sub>/tæqiːwn/</sub> | **تەقیبوون**<br><sub>teqîbûn</sub><br><sub>/tæqiːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **تەقیومە**<br><sub>teqîwme</sub><br><sub>/tæqiːwmæ/</sub> | **نەتەقیومە**<br><sub>neteqîwme</sub><br><sub>/nætæqiːwmæ/</sub> | **تەقیبووم**<br><sub>teqîbûm</sub><br><sub>/tæqiːbuːm/</sub> | **نەتەقیبووم**<br><sub>neteqîbûm</sub><br><sub>/nætæqiːbuːm/</sub> |
+| 2sg | تۆ | **تەقیویتە**<br><sub>teqîwîte</sub><br><sub>/tæqiːwiːtæ/</sub> | **نەتەقیویتە**<br><sub>neteqîwîte</sub><br><sub>/nætæqiːwiːtæ/</sub> | **تەقیبوویت**<br><sub>teqîbûyt</sub><br><sub>/tæqiːbuːjt/</sub> | **نەتەقیبوویت**<br><sub>neteqîbûyt</sub><br><sub>/nætæqiːbuːjt/</sub> |
+| 3sg | ئەو | **تەقیوە**<br><sub>teqîwe</sub><br><sub>/tæqiːwæ/</sub> | **نەتەقیوە**<br><sub>neteqîwe</sub><br><sub>/nætæqiːwæ/</sub> | **تەقیبوو**<br><sub>teqîbû</sub><br><sub>/tæqiːbuː/</sub> | **نەتەقیبوو**<br><sub>neteqîbû</sub><br><sub>/nætæqiːbuː/</sub> |
+| 1pl | ئێمە | **تەقیوینە**<br><sub>teqîwîne</sub><br><sub>/tæqiːwiːnæ/</sub> | **نەتەقیوینە**<br><sub>neteqîwîne</sub><br><sub>/nætæqiːwiːnæ/</sub> | **تەقیبووین**<br><sub>teqîbûyn</sub><br><sub>/tæqiːbuːjn/</sub> | **نەتەقیبووین**<br><sub>neteqîbûyn</sub><br><sub>/nætæqiːbuːjn/</sub> |
+| 2pl | ئێوە | **تەقیونە**<br><sub>teqîwne</sub><br><sub>/tæqiːwnæ/</sub> | **نەتەقیونە**<br><sub>neteqîwne</sub><br><sub>/nætæqiːwnæ/</sub> | **تەقیبوون**<br><sub>teqîbûn</sub><br><sub>/tæqiːbuːn/</sub> | **نەتەقیبوون**<br><sub>neteqîbûn</sub><br><sub>/nætæqiːbuːn/</sub> |
+| 3pl | ئەوان | **تەقیونە**<br><sub>teqîwne</sub><br><sub>/tæqiːwnæ/</sub> | **نەتەقیونە**<br><sub>neteqîwne</sub><br><sub>/nætæqiːwnæ/</sub> | **تەقیبوون**<br><sub>teqîbûn</sub><br><sub>/tæqiːbuːn/</sub> | **نەتەقیبوون**<br><sub>neteqîbûn</sub><br><sub>/nætæqiːbuːn/</sub> |
+
+## Past subjunctive
+
+*تەقین* (teqîn) “to explode” — present stem **تەق**, past stem **تەقی**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **تەقیبام**<br><sub>teqîbam</sub><br><sub>/tæqiːbaːm/</sub> | **تەقیبێتم**<br><sub>teqîbêtim</sub><br><sub>/tæqiːbeːt(ɯ)m/</sub> | **تەقیبووبام**<br><sub>teqîbûbam</sub><br><sub>/tæqiːbuːbaːm/</sub> |
+| 2sg | تۆ | **تەقیبایت**<br><sub>teqîbayt</sub><br><sub>/tæqiːbaːjt/</sub> | **تەقیبێتیت**<br><sub>teqîbêtît</sub><br><sub>/tæqiːbeːtiːt/</sub> | **تەقیبووبایت**<br><sub>teqîbûbayt</sub><br><sub>/tæqiːbuːbaːjt/</sub> |
+| 3sg | ئەو | **تەقیبا**<br><sub>teqîba</sub><br><sub>/tæqiːbaː/</sub> | **تەقیبێت**<br><sub>teqîbêt</sub><br><sub>/tæqiːbeːt/</sub> | **تەقیبووبا**<br><sub>teqîbûba</sub><br><sub>/tæqiːbuːbaː/</sub> |
+| 1pl | ئێمە | **تەقیباین**<br><sub>teqîbayn</sub><br><sub>/tæqiːbaːjn/</sub> | **تەقیبێتین**<br><sub>teqîbêtîn</sub><br><sub>/tæqiːbeːtiːn/</sub> | **تەقیبووباین**<br><sub>teqîbûbayn</sub><br><sub>/tæqiːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **تەقیبان**<br><sub>teqîban</sub><br><sub>/tæqiːbaːn/</sub> | **تەقیبێتن**<br><sub>teqîbêtin</sub><br><sub>/tæqiːbeːt(ɯ)n/</sub> | **تەقیبووبان**<br><sub>teqîbûban</sub><br><sub>/tæqiːbuːbaːn/</sub> |
+| 3pl | ئەوان | **تەقیبان**<br><sub>teqîban</sub><br><sub>/tæqiːbaːn/</sub> | **تەقیبێتن**<br><sub>teqîbêtin</sub><br><sub>/tæqiːbeːt(ɯ)n/</sub> | **تەقیبووبان**<br><sub>teqîbûban</sub><br><sub>/tæqiːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*تەقین* (teqîn) “to explode” — present stem **تەق**, past stem **تەقی**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەتەقیبام**<br><sub>neteqîbam</sub><br><sub>/nætæqiːbaːm/</sub> | **نەتەقیبێتم**<br><sub>neteqîbêtim</sub><br><sub>/nætæqiːbeːt(ɯ)m/</sub> | **نەتەقیبووبام**<br><sub>neteqîbûbam</sub><br><sub>/nætæqiːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەتەقیبایت**<br><sub>neteqîbayt</sub><br><sub>/nætæqiːbaːjt/</sub> | **نەتەقیبێتیت**<br><sub>neteqîbêtît</sub><br><sub>/nætæqiːbeːtiːt/</sub> | **نەتەقیبووبایت**<br><sub>neteqîbûbayt</sub><br><sub>/nætæqiːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەتەقیبا**<br><sub>neteqîba</sub><br><sub>/nætæqiːbaː/</sub> | **نەتەقیبێت**<br><sub>neteqîbêt</sub><br><sub>/nætæqiːbeːt/</sub> | **نەتەقیبووبا**<br><sub>neteqîbûba</sub><br><sub>/nætæqiːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەتەقیباین**<br><sub>neteqîbayn</sub><br><sub>/nætæqiːbaːjn/</sub> | **نەتەقیبێتین**<br><sub>neteqîbêtîn</sub><br><sub>/nætæqiːbeːtiːn/</sub> | **نەتەقیبووباین**<br><sub>neteqîbûbayn</sub><br><sub>/nætæqiːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەتەقیبان**<br><sub>neteqîban</sub><br><sub>/nætæqiːbaːn/</sub> | **نەتەقیبێتن**<br><sub>neteqîbêtin</sub><br><sub>/nætæqiːbeːt(ɯ)n/</sub> | **نەتەقیبووبان**<br><sub>neteqîbûban</sub><br><sub>/nætæqiːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەتەقیبان**<br><sub>neteqîban</sub><br><sub>/nætæqiːbaːn/</sub> | **نەتەقیبێتن**<br><sub>neteqîbêtin</sub><br><sub>/nætæqiːbeːt(ɯ)n/</sub> | **نەتەقیبووبان**<br><sub>neteqîbûban</sub><br><sub>/nætæqiːbuːbaːn/</sub> |
 
 ## Imperative
 

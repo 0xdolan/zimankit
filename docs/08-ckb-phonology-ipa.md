@@ -4,7 +4,7 @@
 
 # Central Kurdish: phonology and IPA (G2P)
 
-**On this page:** [1. Grapheme parse](#1-grapheme-parse) · [2. Semivowel resolution](#2-semivowel-resolution) · [3. Bizroke repair (epenthesis)](#3-bizroke-repair-epenthesis) · [Consonants](#consonants) · [Options](#options) · [Accuracy check](#accuracy-check)
+**On this page:** [1. Grapheme parse](#1-grapheme-parse) · [2. Semivowel resolution](#2-semivowel-resolution) · [3. Restoring the bizroke](#3-restoring-the-bizroke) · [Consonants](#consonants) · [Options](#options) · [Accuracy check](#accuracy-check)
 
 `skills_ckb/phonology_ipa.py` converts Arabic-script Sorani to broad phonemic IPA in three passes.
 
@@ -19,18 +19,19 @@ The word is split into graphemes; `وو` and `یی` stay together.
 | the word `و` ("and") | /u/ | — |
 | after a vowel letter | /w/ `ئاو` /ʔaːw/ | /j/ `چای` /tʃaːj/ |
 | before a vowel letter | /w/ `خواردن` /xwaːɾdɯn/ | /j/ `پیاو` /pjaːw/ |
-| between consonants / final | /u/ `کورد` /kuɾd/ | /iː/ `میر` /miːɾ/ |
-| doubled | `وو` /uː/ | `یی` /iː/ |
+| between consonants | /u/ `کورد` /kuɾd/ | /iː/ `میر` /miːɾ/ |
+| final after a consonant | written `وو` /uː/ `چوو` | /iː/ `ماسی` /maːsiː/ |
+| doubled | `وو` /uː/, never word-initial | `یی` only after a vowel (`کۆتایی`), before ە (`چییە`) or with ezafe (`کوردیی سنە`); plain î is one `ی` (`تیر`, not `تییر`) |
 
 Before another vowel a hiatus glide is inserted: `هاتووە` /haːtuːwæ/, `ماسییەکە` /maːsiːjækæ/.
 
-## 3. Bizroke repair (epenthesis)
+## 3. Restoring the bizroke
 
 The phonotactic skeleton (shared with Kurmanji, `shared_utils/phonology_core.py`):
 
 | position | allowed clusters |
 |---|---|
-| word-initial onset | C, C+glide (kw, xw, pj), sibilant+stop (st, ʃk) |
+| word-initial onset | C, C+glide (kw, xw, pj), sibilant+stop (st, ʃk), sibilant+stop+liquid (stɾ) |
 | medial onset | C, C+glide |
 | medial coda | fricative+stop (st), nasal+stop (nd), glide+C |
 | final coda | falling sonority (rd, nd, st, ʃk, ɾt) |
@@ -49,6 +50,10 @@ Sonority: glide 5 > liquid 4 > nasal 3 > fricative 2 > stop 1. Every consonant r
 | ئنجا | ʔ(ɯ)ndʒaː | ʔɯn.dʒaː | inca |
 
 Why right-to-left: Sorani prefers closed `CɯC` syllables built from the end of the word (`bɯɾ.dɯn`, not `bɯ.ɾɯd.n`). Why medial codas are restricted: without that rule `کوردستان` would come out as *kurd.stan* and `هەڵبژاردن` as *hełb.jar.din*.
+
+The bizroke is a real vowel with no letter, not an inserted sound, even though the algorithm finds it by repairing clusters. The sources count it as the eighth vowel, and Kurmanji writes it (*i*).
+
+Diphthongs: the sources call وێ and وی دوودەنگە, written with two letters (شوێن, کوێ, خوێ, گوێلک). zimankit treats وێ as /w/ + /eː/, which gives the same spelling and Latin. This is broad phonemic IPA of the written form, so speech assimilation, lip rounding and emphasis spreading are not modelled.
 
 ## Consonants
 

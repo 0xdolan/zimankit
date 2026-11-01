@@ -66,14 +66,40 @@
 
 *هاتن* (hatin) “to come” — present stem **ێ**, past stem **هات**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **هاتووم**<br><sub>hatûm</sub><br><sub>/haːtuːm/</sub> | **هاتبووم**<br><sub>hatbûm</sub><br><sub>/haːtbuːm/</sub> |
-| 2sg | تۆ | **هاتوویت**<br><sub>hatûyt</sub><br><sub>/haːtuːjt/</sub> | **هاتبوویت**<br><sub>hatbûyt</sub><br><sub>/haːtbuːjt/</sub> |
-| 3sg | ئەو | **هاتووە**<br><sub>hatûwe</sub><br><sub>/haːtuːwæ/</sub> | **هاتبوو**<br><sub>hatbû</sub><br><sub>/haːtbuː/</sub> |
-| 1pl | ئێمە | **هاتووین**<br><sub>hatûyn</sub><br><sub>/haːtuːjn/</sub> | **هاتبووین**<br><sub>hatbûyn</sub><br><sub>/haːtbuːjn/</sub> |
-| 2pl | ئێوە | **هاتوون**<br><sub>hatûn</sub><br><sub>/haːtuːn/</sub> | **هاتبوون**<br><sub>hatbûn</sub><br><sub>/haːtbuːn/</sub> |
-| 3pl | ئەوان | **هاتوون**<br><sub>hatûn</sub><br><sub>/haːtuːn/</sub> | **هاتبوون**<br><sub>hatbûn</sub><br><sub>/haːtbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **هاتوومە**<br><sub>hatûme</sub><br><sub>/haːtuːmæ/</sub> | **نەهاتوومە**<br><sub>nehatûme</sub><br><sub>/næhaːtuːmæ/</sub> | **هاتبووم**<br><sub>hatbûm</sub><br><sub>/haːtbuːm/</sub> | **نەهاتبووم**<br><sub>nehatbûm</sub><br><sub>/næhaːtbuːm/</sub> |
+| 2sg | تۆ | **هاتوویتە**<br><sub>hatûyte</sub><br><sub>/haːtuːjtæ/</sub> | **نەهاتوویتە**<br><sub>nehatûyte</sub><br><sub>/næhaːtuːjtæ/</sub> | **هاتبوویت**<br><sub>hatbûyt</sub><br><sub>/haːtbuːjt/</sub> | **نەهاتبوویت**<br><sub>nehatbûyt</sub><br><sub>/næhaːtbuːjt/</sub> |
+| 3sg | ئەو | **هاتووە**<br><sub>hatûwe</sub><br><sub>/haːtuːwæ/</sub> | **نەهاتووە**<br><sub>nehatûwe</sub><br><sub>/næhaːtuːwæ/</sub> | **هاتبوو**<br><sub>hatbû</sub><br><sub>/haːtbuː/</sub> | **نەهاتبوو**<br><sub>nehatbû</sub><br><sub>/næhaːtbuː/</sub> |
+| 1pl | ئێمە | **هاتووینە**<br><sub>hatûyne</sub><br><sub>/haːtuːjnæ/</sub> | **نەهاتووینە**<br><sub>nehatûyne</sub><br><sub>/næhaːtuːjnæ/</sub> | **هاتبووین**<br><sub>hatbûyn</sub><br><sub>/haːtbuːjn/</sub> | **نەهاتبووین**<br><sub>nehatbûyn</sub><br><sub>/næhaːtbuːjn/</sub> |
+| 2pl | ئێوە | **هاتوونە**<br><sub>hatûne</sub><br><sub>/haːtuːnæ/</sub> | **نەهاتوونە**<br><sub>nehatûne</sub><br><sub>/næhaːtuːnæ/</sub> | **هاتبوون**<br><sub>hatbûn</sub><br><sub>/haːtbuːn/</sub> | **نەهاتبوون**<br><sub>nehatbûn</sub><br><sub>/næhaːtbuːn/</sub> |
+| 3pl | ئەوان | **هاتوونە**<br><sub>hatûne</sub><br><sub>/haːtuːnæ/</sub> | **نەهاتوونە**<br><sub>nehatûne</sub><br><sub>/næhaːtuːnæ/</sub> | **هاتبوون**<br><sub>hatbûn</sub><br><sub>/haːtbuːn/</sub> | **نەهاتبوون**<br><sub>nehatbûn</sub><br><sub>/næhaːtbuːn/</sub> |
+
+## Past subjunctive
+
+*هاتن* (hatin) “to come” — present stem **ێ**, past stem **هات**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **هاتبام**<br><sub>hatbam</sub><br><sub>/haːtbaːm/</sub> | **هاتبێتم**<br><sub>hatbêtim</sub><br><sub>/haːtbeːt(ɯ)m/</sub> | **هاتبووبام**<br><sub>hatbûbam</sub><br><sub>/haːtbuːbaːm/</sub> |
+| 2sg | تۆ | **هاتبایت**<br><sub>hatbayt</sub><br><sub>/haːtbaːjt/</sub> | **هاتبێتیت**<br><sub>hatbêtît</sub><br><sub>/haːtbeːtiːt/</sub> | **هاتبووبایت**<br><sub>hatbûbayt</sub><br><sub>/haːtbuːbaːjt/</sub> |
+| 3sg | ئەو | **هاتبا**<br><sub>hatba</sub><br><sub>/haːtbaː/</sub> | **هاتبێت**<br><sub>hatbêt</sub><br><sub>/haːtbeːt/</sub> | **هاتبووبا**<br><sub>hatbûba</sub><br><sub>/haːtbuːbaː/</sub> |
+| 1pl | ئێمە | **هاتباین**<br><sub>hatbayn</sub><br><sub>/haːtbaːjn/</sub> | **هاتبێتین**<br><sub>hatbêtîn</sub><br><sub>/haːtbeːtiːn/</sub> | **هاتبووباین**<br><sub>hatbûbayn</sub><br><sub>/haːtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **هاتبان**<br><sub>hatban</sub><br><sub>/haːtbaːn/</sub> | **هاتبێتن**<br><sub>hatbêtin</sub><br><sub>/haːtbeːt(ɯ)n/</sub> | **هاتبووبان**<br><sub>hatbûban</sub><br><sub>/haːtbuːbaːn/</sub> |
+| 3pl | ئەوان | **هاتبان**<br><sub>hatban</sub><br><sub>/haːtbaːn/</sub> | **هاتبێتن**<br><sub>hatbêtin</sub><br><sub>/haːtbeːt(ɯ)n/</sub> | **هاتبووبان**<br><sub>hatbûban</sub><br><sub>/haːtbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*هاتن* (hatin) “to come” — present stem **ێ**, past stem **هات**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەهاتبام**<br><sub>nehatbam</sub><br><sub>/næhaːtbaːm/</sub> | **نەهاتبێتم**<br><sub>nehatbêtim</sub><br><sub>/næhaːtbeːt(ɯ)m/</sub> | **نەهاتبووبام**<br><sub>nehatbûbam</sub><br><sub>/næhaːtbuːbaːm/</sub> |
+| 2sg | تۆ | **نەهاتبایت**<br><sub>nehatbayt</sub><br><sub>/næhaːtbaːjt/</sub> | **نەهاتبێتیت**<br><sub>nehatbêtît</sub><br><sub>/næhaːtbeːtiːt/</sub> | **نەهاتبووبایت**<br><sub>nehatbûbayt</sub><br><sub>/næhaːtbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەهاتبا**<br><sub>nehatba</sub><br><sub>/næhaːtbaː/</sub> | **نەهاتبێت**<br><sub>nehatbêt</sub><br><sub>/næhaːtbeːt/</sub> | **نەهاتبووبا**<br><sub>nehatbûba</sub><br><sub>/næhaːtbuːbaː/</sub> |
+| 1pl | ئێمە | **نەهاتباین**<br><sub>nehatbayn</sub><br><sub>/næhaːtbaːjn/</sub> | **نەهاتبێتین**<br><sub>nehatbêtîn</sub><br><sub>/næhaːtbeːtiːn/</sub> | **نەهاتبووباین**<br><sub>nehatbûbayn</sub><br><sub>/næhaːtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەهاتبان**<br><sub>nehatban</sub><br><sub>/næhaːtbaːn/</sub> | **نەهاتبێتن**<br><sub>nehatbêtin</sub><br><sub>/næhaːtbeːt(ɯ)n/</sub> | **نەهاتبووبان**<br><sub>nehatbûban</sub><br><sub>/næhaːtbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەهاتبان**<br><sub>nehatban</sub><br><sub>/næhaːtbaːn/</sub> | **نەهاتبێتن**<br><sub>nehatbêtin</sub><br><sub>/næhaːtbeːt(ɯ)n/</sub> | **نەهاتبووبان**<br><sub>nehatbûban</sub><br><sub>/næhaːtbuːbaːn/</sub> |
 
 ## Imperative
 
@@ -81,8 +107,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **وەرە**<br><sub>were</sub><br><sub>/wæɾæ/</sub> | **مەیە**<br><sub>meye</sub><br><sub>/mæjæ/</sub> |
-| 2pl | ئێوە | **وەرن**<br><sub>wern</sub><br><sub>/wæɾn/</sub> | **مەیەن**<br><sub>meyen</sub><br><sub>/mæjæn/</sub> |
+| 2sg | تۆ | **وەرە**<br><sub>were</sub><br><sub>/wæɾæ/</sub> | **مەیێ**<br><sub>meyê</sub><br><sub>/mæjeː/</sub> |
+| 2pl | ئێوە | **وەرن**<br><sub>wern</sub><br><sub>/wæɾn/</sub> | **مەیێن**<br><sub>meyên</sub><br><sub>/mæjeːn/</sub> |
 
 ## Other forms
 

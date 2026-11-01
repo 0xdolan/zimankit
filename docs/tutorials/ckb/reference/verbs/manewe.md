@@ -66,14 +66,40 @@
 
 *مانەوە* (manewe) “to stay (on)” — present stem **مێن**, past stem **ما**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **ماومەوە**<br><sub>mawmewe</sub><br><sub>/maːwmæwæ/</sub> | **مابوومەوە**<br><sub>mabûmewe</sub><br><sub>/maːbuːmæwæ/</sub> |
-| 2sg | تۆ | **ماویتەوە**<br><sub>mawîtewe</sub><br><sub>/maːwiːtæwæ/</sub> | **مابوویتەوە**<br><sub>mabûytewe</sub><br><sub>/maːbuːjtæwæ/</sub> |
-| 3sg | ئەو | **ماوەوە**<br><sub>mawewe</sub><br><sub>/maːwæwæ/</sub> | **مابوووە**<br><sub>mabûwe</sub><br><sub>/maːbuːwæ/</sub> |
-| 1pl | ئێمە | **ماوینەوە**<br><sub>mawînewe</sub><br><sub>/maːwiːnæwæ/</sub> | **مابووینەوە**<br><sub>mabûynewe</sub><br><sub>/maːbuːjnæwæ/</sub> |
-| 2pl | ئێوە | **ماونەوە**<br><sub>mawnewe</sub><br><sub>/maːwnæwæ/</sub> | **مابوونەوە**<br><sub>mabûnewe</sub><br><sub>/maːbuːnæwæ/</sub> |
-| 3pl | ئەوان | **ماونەوە**<br><sub>mawnewe</sub><br><sub>/maːwnæwæ/</sub> | **مابوونەوە**<br><sub>mabûnewe</sub><br><sub>/maːbuːnæwæ/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **ماومەتەوە**<br><sub>mawmetewe</sub><br><sub>/maːwmætæwæ/</sub> | **نەماومەتەوە**<br><sub>nemawmetewe</sub><br><sub>/næmaːwmætæwæ/</sub> | **مابوومەوە**<br><sub>mabûmewe</sub><br><sub>/maːbuːmæwæ/</sub> | **نەمابوومەوە**<br><sub>nemabûmewe</sub><br><sub>/næmaːbuːmæwæ/</sub> |
+| 2sg | تۆ | **ماویتەتەوە**<br><sub>mawîtetewe</sub><br><sub>/maːwiːtætæwæ/</sub> | **نەماویتەتەوە**<br><sub>nemawîtetewe</sub><br><sub>/næmaːwiːtætæwæ/</sub> | **مابوویتەوە**<br><sub>mabûytewe</sub><br><sub>/maːbuːjtæwæ/</sub> | **نەمابوویتەوە**<br><sub>nemabûytewe</sub><br><sub>/næmaːbuːjtæwæ/</sub> |
+| 3sg | ئەو | **ماوەتەوە**<br><sub>mawetewe</sub><br><sub>/maːwætæwæ/</sub> | **نەماوەتەوە**<br><sub>nemawetewe</sub><br><sub>/næmaːwætæwæ/</sub> | **مابووەوە**<br><sub>mabûwewe</sub><br><sub>/maːbuːwæwæ/</sub> | **نەمابووەوە**<br><sub>nemabûwewe</sub><br><sub>/næmaːbuːwæwæ/</sub> |
+| 1pl | ئێمە | **ماوینەتەوە**<br><sub>mawînetewe</sub><br><sub>/maːwiːnætæwæ/</sub> | **نەماوینەتەوە**<br><sub>nemawînetewe</sub><br><sub>/næmaːwiːnætæwæ/</sub> | **مابووینەوە**<br><sub>mabûynewe</sub><br><sub>/maːbuːjnæwæ/</sub> | **نەمابووینەوە**<br><sub>nemabûynewe</sub><br><sub>/næmaːbuːjnæwæ/</sub> |
+| 2pl | ئێوە | **ماونەتەوە**<br><sub>mawnetewe</sub><br><sub>/maːwnætæwæ/</sub> | **نەماونەتەوە**<br><sub>nemawnetewe</sub><br><sub>/næmaːwnætæwæ/</sub> | **مابوونەوە**<br><sub>mabûnewe</sub><br><sub>/maːbuːnæwæ/</sub> | **نەمابوونەوە**<br><sub>nemabûnewe</sub><br><sub>/næmaːbuːnæwæ/</sub> |
+| 3pl | ئەوان | **ماونەتەوە**<br><sub>mawnetewe</sub><br><sub>/maːwnætæwæ/</sub> | **نەماونەتەوە**<br><sub>nemawnetewe</sub><br><sub>/næmaːwnætæwæ/</sub> | **مابوونەوە**<br><sub>mabûnewe</sub><br><sub>/maːbuːnæwæ/</sub> | **نەمابوونەوە**<br><sub>nemabûnewe</sub><br><sub>/næmaːbuːnæwæ/</sub> |
+
+## Past subjunctive
+
+*مانەوە* (manewe) “to stay (on)” — present stem **مێن**, past stem **ما**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **مابامەوە**<br><sub>mabamewe</sub><br><sub>/maːbaːmæwæ/</sub> | **مابێتمەوە**<br><sub>mabêtmewe</sub><br><sub>/maːbeːtmæwæ/</sub> | **مابووبامەوە**<br><sub>mabûbamewe</sub><br><sub>/maːbuːbaːmæwæ/</sub> |
+| 2sg | تۆ | **مابایتەوە**<br><sub>mabaytewe</sub><br><sub>/maːbaːjtæwæ/</sub> | **مابێتیتەوە**<br><sub>mabêtîtewe</sub><br><sub>/maːbeːtiːtæwæ/</sub> | **مابووبایتەوە**<br><sub>mabûbaytewe</sub><br><sub>/maːbuːbaːjtæwæ/</sub> |
+| 3sg | ئەو | **مابایەوە**<br><sub>mabayewe</sub><br><sub>/maːbaːjæwæ/</sub> | **مابێتەوە**<br><sub>mabêtewe</sub><br><sub>/maːbeːtæwæ/</sub> | **مابووبایەوە**<br><sub>mabûbayewe</sub><br><sub>/maːbuːbaːjæwæ/</sub> |
+| 1pl | ئێمە | **ماباینەوە**<br><sub>mabaynewe</sub><br><sub>/maːbaːjnæwæ/</sub> | **مابێتینەوە**<br><sub>mabêtînewe</sub><br><sub>/maːbeːtiːnæwæ/</sub> | **مابووباینەوە**<br><sub>mabûbaynewe</sub><br><sub>/maːbuːbaːjnæwæ/</sub> |
+| 2pl | ئێوە | **مابانەوە**<br><sub>mabanewe</sub><br><sub>/maːbaːnæwæ/</sub> | **مابێتنەوە**<br><sub>mabêtnewe</sub><br><sub>/maːbeːtnæwæ/</sub> | **مابووبانەوە**<br><sub>mabûbanewe</sub><br><sub>/maːbuːbaːnæwæ/</sub> |
+| 3pl | ئەوان | **مابانەوە**<br><sub>mabanewe</sub><br><sub>/maːbaːnæwæ/</sub> | **مابێتنەوە**<br><sub>mabêtnewe</sub><br><sub>/maːbeːtnæwæ/</sub> | **مابووبانەوە**<br><sub>mabûbanewe</sub><br><sub>/maːbuːbaːnæwæ/</sub> |
+
+## Past subjunctive negative
+
+*مانەوە* (manewe) “to stay (on)” — present stem **مێن**, past stem **ما**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەمابامەوە**<br><sub>nemabamewe</sub><br><sub>/næmaːbaːmæwæ/</sub> | **نەمابێتمەوە**<br><sub>nemabêtmewe</sub><br><sub>/næmaːbeːtmæwæ/</sub> | **نەمابووبامەوە**<br><sub>nemabûbamewe</sub><br><sub>/næmaːbuːbaːmæwæ/</sub> |
+| 2sg | تۆ | **نەمابایتەوە**<br><sub>nemabaytewe</sub><br><sub>/næmaːbaːjtæwæ/</sub> | **نەمابێتیتەوە**<br><sub>nemabêtîtewe</sub><br><sub>/næmaːbeːtiːtæwæ/</sub> | **نەمابووبایتەوە**<br><sub>nemabûbaytewe</sub><br><sub>/næmaːbuːbaːjtæwæ/</sub> |
+| 3sg | ئەو | **نەمابایەوە**<br><sub>nemabayewe</sub><br><sub>/næmaːbaːjæwæ/</sub> | **نەمابێتەوە**<br><sub>nemabêtewe</sub><br><sub>/næmaːbeːtæwæ/</sub> | **نەمابووبایەوە**<br><sub>nemabûbayewe</sub><br><sub>/næmaːbuːbaːjæwæ/</sub> |
+| 1pl | ئێمە | **نەماباینەوە**<br><sub>nemabaynewe</sub><br><sub>/næmaːbaːjnæwæ/</sub> | **نەمابێتینەوە**<br><sub>nemabêtînewe</sub><br><sub>/næmaːbeːtiːnæwæ/</sub> | **نەمابووباینەوە**<br><sub>nemabûbaynewe</sub><br><sub>/næmaːbuːbaːjnæwæ/</sub> |
+| 2pl | ئێوە | **نەمابانەوە**<br><sub>nemabanewe</sub><br><sub>/næmaːbaːnæwæ/</sub> | **نەمابێتنەوە**<br><sub>nemabêtnewe</sub><br><sub>/næmaːbeːtnæwæ/</sub> | **نەمابووبانەوە**<br><sub>nemabûbanewe</sub><br><sub>/næmaːbuːbaːnæwæ/</sub> |
+| 3pl | ئەوان | **نەمابانەوە**<br><sub>nemabanewe</sub><br><sub>/næmaːbaːnæwæ/</sub> | **نەمابێتنەوە**<br><sub>nemabêtnewe</sub><br><sub>/næmaːbeːtnæwæ/</sub> | **نەمابووبانەوە**<br><sub>nemabûbanewe</sub><br><sub>/næmaːbuːbaːnæwæ/</sub> |
 
 ## Imperative
 
@@ -89,7 +115,7 @@
 | form | Kurdish | Latin |
 |---|---|---|
 | infinitive | **مانەوە** | manewe |
-| past participle | **ماووە** | mawûwe |
+| past participle | **ماوەوە** | mawewe |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

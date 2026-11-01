@@ -66,14 +66,40 @@
 
 *گەڕان* (gerran) “to search, to wander” — present stem **گەڕێ**, past stem **گەڕا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **گەڕاوم**<br><sub>gerrawm</sub><br><sub>/ɡæraːwm/</sub> | **گەڕابووم**<br><sub>gerrabûm</sub><br><sub>/ɡæraːbuːm/</sub> |
-| 2sg | تۆ | **گەڕاویت**<br><sub>gerrawît</sub><br><sub>/ɡæraːwiːt/</sub> | **گەڕابوویت**<br><sub>gerrabûyt</sub><br><sub>/ɡæraːbuːjt/</sub> |
-| 3sg | ئەو | **گەڕاوە**<br><sub>gerrawe</sub><br><sub>/ɡæraːwæ/</sub> | **گەڕابوو**<br><sub>gerrabû</sub><br><sub>/ɡæraːbuː/</sub> |
-| 1pl | ئێمە | **گەڕاوین**<br><sub>gerrawîn</sub><br><sub>/ɡæraːwiːn/</sub> | **گەڕابووین**<br><sub>gerrabûyn</sub><br><sub>/ɡæraːbuːjn/</sub> |
-| 2pl | ئێوە | **گەڕاون**<br><sub>gerrawn</sub><br><sub>/ɡæraːwn/</sub> | **گەڕابوون**<br><sub>gerrabûn</sub><br><sub>/ɡæraːbuːn/</sub> |
-| 3pl | ئەوان | **گەڕاون**<br><sub>gerrawn</sub><br><sub>/ɡæraːwn/</sub> | **گەڕابوون**<br><sub>gerrabûn</sub><br><sub>/ɡæraːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **گەڕاومە**<br><sub>gerrawme</sub><br><sub>/ɡæraːwmæ/</sub> | **نەگەڕاومە**<br><sub>negerrawme</sub><br><sub>/næɡæraːwmæ/</sub> | **گەڕابووم**<br><sub>gerrabûm</sub><br><sub>/ɡæraːbuːm/</sub> | **نەگەڕابووم**<br><sub>negerrabûm</sub><br><sub>/næɡæraːbuːm/</sub> |
+| 2sg | تۆ | **گەڕاویتە**<br><sub>gerrawîte</sub><br><sub>/ɡæraːwiːtæ/</sub> | **نەگەڕاویتە**<br><sub>negerrawîte</sub><br><sub>/næɡæraːwiːtæ/</sub> | **گەڕابوویت**<br><sub>gerrabûyt</sub><br><sub>/ɡæraːbuːjt/</sub> | **نەگەڕابوویت**<br><sub>negerrabûyt</sub><br><sub>/næɡæraːbuːjt/</sub> |
+| 3sg | ئەو | **گەڕاوە**<br><sub>gerrawe</sub><br><sub>/ɡæraːwæ/</sub> | **نەگەڕاوە**<br><sub>negerrawe</sub><br><sub>/næɡæraːwæ/</sub> | **گەڕابوو**<br><sub>gerrabû</sub><br><sub>/ɡæraːbuː/</sub> | **نەگەڕابوو**<br><sub>negerrabû</sub><br><sub>/næɡæraːbuː/</sub> |
+| 1pl | ئێمە | **گەڕاوینە**<br><sub>gerrawîne</sub><br><sub>/ɡæraːwiːnæ/</sub> | **نەگەڕاوینە**<br><sub>negerrawîne</sub><br><sub>/næɡæraːwiːnæ/</sub> | **گەڕابووین**<br><sub>gerrabûyn</sub><br><sub>/ɡæraːbuːjn/</sub> | **نەگەڕابووین**<br><sub>negerrabûyn</sub><br><sub>/næɡæraːbuːjn/</sub> |
+| 2pl | ئێوە | **گەڕاونە**<br><sub>gerrawne</sub><br><sub>/ɡæraːwnæ/</sub> | **نەگەڕاونە**<br><sub>negerrawne</sub><br><sub>/næɡæraːwnæ/</sub> | **گەڕابوون**<br><sub>gerrabûn</sub><br><sub>/ɡæraːbuːn/</sub> | **نەگەڕابوون**<br><sub>negerrabûn</sub><br><sub>/næɡæraːbuːn/</sub> |
+| 3pl | ئەوان | **گەڕاونە**<br><sub>gerrawne</sub><br><sub>/ɡæraːwnæ/</sub> | **نەگەڕاونە**<br><sub>negerrawne</sub><br><sub>/næɡæraːwnæ/</sub> | **گەڕابوون**<br><sub>gerrabûn</sub><br><sub>/ɡæraːbuːn/</sub> | **نەگەڕابوون**<br><sub>negerrabûn</sub><br><sub>/næɡæraːbuːn/</sub> |
+
+## Past subjunctive
+
+*گەڕان* (gerran) “to search, to wander” — present stem **گەڕێ**, past stem **گەڕا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **گەڕابام**<br><sub>gerrabam</sub><br><sub>/ɡæraːbaːm/</sub> | **گەڕابێتم**<br><sub>gerrabêtim</sub><br><sub>/ɡæraːbeːt(ɯ)m/</sub> | **گەڕابووبام**<br><sub>gerrabûbam</sub><br><sub>/ɡæraːbuːbaːm/</sub> |
+| 2sg | تۆ | **گەڕابایت**<br><sub>gerrabayt</sub><br><sub>/ɡæraːbaːjt/</sub> | **گەڕابێتیت**<br><sub>gerrabêtît</sub><br><sub>/ɡæraːbeːtiːt/</sub> | **گەڕابووبایت**<br><sub>gerrabûbayt</sub><br><sub>/ɡæraːbuːbaːjt/</sub> |
+| 3sg | ئەو | **گەڕابا**<br><sub>gerraba</sub><br><sub>/ɡæraːbaː/</sub> | **گەڕابێت**<br><sub>gerrabêt</sub><br><sub>/ɡæraːbeːt/</sub> | **گەڕابووبا**<br><sub>gerrabûba</sub><br><sub>/ɡæraːbuːbaː/</sub> |
+| 1pl | ئێمە | **گەڕاباین**<br><sub>gerrabayn</sub><br><sub>/ɡæraːbaːjn/</sub> | **گەڕابێتین**<br><sub>gerrabêtîn</sub><br><sub>/ɡæraːbeːtiːn/</sub> | **گەڕابووباین**<br><sub>gerrabûbayn</sub><br><sub>/ɡæraːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **گەڕابان**<br><sub>gerraban</sub><br><sub>/ɡæraːbaːn/</sub> | **گەڕابێتن**<br><sub>gerrabêtin</sub><br><sub>/ɡæraːbeːt(ɯ)n/</sub> | **گەڕابووبان**<br><sub>gerrabûban</sub><br><sub>/ɡæraːbuːbaːn/</sub> |
+| 3pl | ئەوان | **گەڕابان**<br><sub>gerraban</sub><br><sub>/ɡæraːbaːn/</sub> | **گەڕابێتن**<br><sub>gerrabêtin</sub><br><sub>/ɡæraːbeːt(ɯ)n/</sub> | **گەڕابووبان**<br><sub>gerrabûban</sub><br><sub>/ɡæraːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*گەڕان* (gerran) “to search, to wander” — present stem **گەڕێ**, past stem **گەڕا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەگەڕابام**<br><sub>negerrabam</sub><br><sub>/næɡæraːbaːm/</sub> | **نەگەڕابێتم**<br><sub>negerrabêtim</sub><br><sub>/næɡæraːbeːt(ɯ)m/</sub> | **نەگەڕابووبام**<br><sub>negerrabûbam</sub><br><sub>/næɡæraːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەگەڕابایت**<br><sub>negerrabayt</sub><br><sub>/næɡæraːbaːjt/</sub> | **نەگەڕابێتیت**<br><sub>negerrabêtît</sub><br><sub>/næɡæraːbeːtiːt/</sub> | **نەگەڕابووبایت**<br><sub>negerrabûbayt</sub><br><sub>/næɡæraːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەگەڕابا**<br><sub>negerraba</sub><br><sub>/næɡæraːbaː/</sub> | **نەگەڕابێت**<br><sub>negerrabêt</sub><br><sub>/næɡæraːbeːt/</sub> | **نەگەڕابووبا**<br><sub>negerrabûba</sub><br><sub>/næɡæraːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەگەڕاباین**<br><sub>negerrabayn</sub><br><sub>/næɡæraːbaːjn/</sub> | **نەگەڕابێتین**<br><sub>negerrabêtîn</sub><br><sub>/næɡæraːbeːtiːn/</sub> | **نەگەڕابووباین**<br><sub>negerrabûbayn</sub><br><sub>/næɡæraːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەگەڕابان**<br><sub>negerraban</sub><br><sub>/næɡæraːbaːn/</sub> | **نەگەڕابێتن**<br><sub>negerrabêtin</sub><br><sub>/næɡæraːbeːt(ɯ)n/</sub> | **نەگەڕابووبان**<br><sub>negerrabûban</sub><br><sub>/næɡæraːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەگەڕابان**<br><sub>negerraban</sub><br><sub>/næɡæraːbaːn/</sub> | **نەگەڕابێتن**<br><sub>negerrabêtin</sub><br><sub>/næɡæraːbeːt(ɯ)n/</sub> | **نەگەڕابووبان**<br><sub>negerrabûban</sub><br><sub>/næɡæraːbuːbaːn/</sub> |
 
 ## Imperative
 

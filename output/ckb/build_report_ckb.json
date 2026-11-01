@@ -1,18 +1,18 @@
 {
   "lang": "ckb",
-  "seconds": 85.9,
-  "lexicon_lemmas": 76902,
+  "seconds": 89.4,
+  "lexicon_lemmas": 76904,
   "lexicon_forms": 2,
   "dictionary_candidates": 293307,
   "corpus_types": 2121166,
   "corpus_tokens": 98891160,
-  "candidates_analysed": 703232,
-  "accepted_forms": 329190,
-  "accepted_lemmas": 100848,
-  "rejected": 349118,
-  "spelling_variants": 24924,
+  "candidates_analysed": 703233,
+  "accepted_forms": 368675,
+  "accepted_lemmas": 96561,
+  "rejected": 312100,
+  "spelling_variants": 22467,
   "rejection_reasons": {
-    "unknown stem (not in lexicon, too rare for a new lemma)": 342271,
+    "unknown stem (not in lexicon, too rare for a new lemma)": 305253,
     "arabic-only letter": 4913,
     "non-Kurdish character(s)": 1219,
     "medial hamza outside a vowel hiatus": 378,
@@ -26,35 +26,35 @@
     "initial vowel without ئ": 1
   },
   "pos_distribution": {
-    "NOUN": 230036,
-    "ADJ": 39658,
-    "VERB": 30286,
-    "X": 19281,
-    "ADV": 9078,
-    "NUM": 210,
-    "PRON": 208,
-    "ADP": 161,
-    "PROPN": 130,
-    "DET": 59,
-    "CCONJ": 36,
-    "SCONJ": 18,
-    "INTJ": 17,
-    "PART": 9,
-    "AUX": 3
+    "NOUN": 248640,
+    "ADJ": 45589,
+    "VERB": 44103,
+    "X": 17499,
+    "ADV": 11494,
+    "PRON": 346,
+    "NUM": 303,
+    "ADP": 236,
+    "PROPN": 235,
+    "DET": 147,
+    "CCONJ": 26,
+    "SCONJ": 21,
+    "INTJ": 21,
+    "PART": 11,
+    "AUX": 4
   },
   "source_distribution": {
-    "web": 302992,
-    "news": 195520,
-    "encyclopedia": 155016,
-    "bilingual": 68405,
-    "dictionary": 40459,
-    "corpus": 31597,
-    "core": 4102,
-    "lexicon": 2354
+    "web": 340193,
+    "news": 213356,
+    "encyclopedia": 167476,
+    "bilingual": 67804,
+    "dictionary": 41222,
+    "corpus": 25132,
+    "core": 9926,
+    "lexicon": 2344
   },
   "ipa_vs_reference": {
     "n": 178,
-    "mean_similarity": 0.965
+    "mean_similarity": 0.97
   },
-  "verbs_in_index": 7041
+  "verbs_in_index": 7045
 }

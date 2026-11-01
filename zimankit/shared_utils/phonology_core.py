@@ -57,7 +57,7 @@ def legal_onset(cluster: Sequence[str], initial: bool) -> bool:
         return initial and a in SIBILANTS and b in STOPS
     if n == 3 and initial:
         a, b, c = cluster
-        return a in SIBILANTS and b in STOPS and c in GLIDES
+        return a in SIBILANTS and b in STOPS and (c in GLIDES or c in LIQUIDS)
     return False
 
 
@@ -139,12 +139,14 @@ def _repair_run(run: list[str], left_vowel: bool, right_vowel: bool, e: str) -> 
         onset, prefix = run[-onset_k:], run[:-onset_k]
         if legal_onset(prefix, True):
             head = [(c, "C") for c in prefix] + [(e, "E")]
+        elif len(prefix) % 2 == 0:  # closed syllables use the whole prefix: mɯn.daːɫ, not mɯ.nɯ.daːɫ
+            head = _closed_syllables(list(prefix), e, False)
         else:
             head = _closed_syllables(prefix[:-1], e, False) + [(prefix[-1], "C"), (e, "E")]
         return head + [(c, "C") for c in onset]
     # no vowel at all:  # C+ #
     if len(run) == 1:
-        return plain
+        return plain + [(e, "E")]  # چ çi: a word has a vowel
     return _closed_syllables(list(run), e, True)
 
 

@@ -29,12 +29,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **بکشێم**<br><sub>bikişêm</sub><br><sub>/b(ɯ)k(ɯ)ʃeːm/</sub> | **نەکشێم**<br><sub>nekşêm</sub><br><sub>/nækʃeːm/</sub> |
-| 2sg | تۆ | **بکشێیت**<br><sub>bikişêyt</sub><br><sub>/b(ɯ)k(ɯ)ʃeːjt/</sub> | **نەکشێیت**<br><sub>nekşêyt</sub><br><sub>/nækʃeːjt/</sub> |
-| 3sg | ئەو | **بکشێت**<br><sub>bikişêt</sub><br><sub>/b(ɯ)k(ɯ)ʃeːt/</sub> | **نەکشێت**<br><sub>nekşêt</sub><br><sub>/nækʃeːt/</sub> |
-| 1pl | ئێمە | **بکشێین**<br><sub>bikişêyn</sub><br><sub>/b(ɯ)k(ɯ)ʃeːjn/</sub> | **نەکشێین**<br><sub>nekşêyn</sub><br><sub>/nækʃeːjn/</sub> |
-| 2pl | ئێوە | **بکشێن**<br><sub>bikişên</sub><br><sub>/b(ɯ)k(ɯ)ʃeːn/</sub> | **نەکشێن**<br><sub>nekşên</sub><br><sub>/nækʃeːn/</sub> |
-| 3pl | ئەوان | **بکشێن**<br><sub>bikişên</sub><br><sub>/b(ɯ)k(ɯ)ʃeːn/</sub> | **نەکشێن**<br><sub>nekşên</sub><br><sub>/nækʃeːn/</sub> |
+| 1sg | من | **بکشێم**<br><sub>bikşêm</sub><br><sub>/b(ɯ)kʃeːm/</sub> | **نەکشێم**<br><sub>nekşêm</sub><br><sub>/nækʃeːm/</sub> |
+| 2sg | تۆ | **بکشێیت**<br><sub>bikşêyt</sub><br><sub>/b(ɯ)kʃeːjt/</sub> | **نەکشێیت**<br><sub>nekşêyt</sub><br><sub>/nækʃeːjt/</sub> |
+| 3sg | ئەو | **بکشێت**<br><sub>bikşêt</sub><br><sub>/b(ɯ)kʃeːt/</sub> | **نەکشێت**<br><sub>nekşêt</sub><br><sub>/nækʃeːt/</sub> |
+| 1pl | ئێمە | **بکشێین**<br><sub>bikşêyn</sub><br><sub>/b(ɯ)kʃeːjn/</sub> | **نەکشێین**<br><sub>nekşêyn</sub><br><sub>/nækʃeːjn/</sub> |
+| 2pl | ئێوە | **بکشێن**<br><sub>bikşên</sub><br><sub>/b(ɯ)kʃeːn/</sub> | **نەکشێن**<br><sub>nekşên</sub><br><sub>/nækʃeːn/</sub> |
+| 3pl | ئەوان | **بکشێن**<br><sub>bikşên</sub><br><sub>/b(ɯ)kʃeːn/</sub> | **نەکشێن**<br><sub>nekşên</sub><br><sub>/nækʃeːn/</sub> |
 
 ## Simple past
 
@@ -66,14 +66,40 @@
 
 *کشان* (kişan) “to withdraw, to slide” — present stem **کشێ**, past stem **کشا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **کشاوم**<br><sub>kişawm</sub><br><sub>/k(ɯ)ʃaːwm/</sub> | **کشابووم**<br><sub>kişabûm</sub><br><sub>/k(ɯ)ʃaːbuːm/</sub> |
-| 2sg | تۆ | **کشاویت**<br><sub>kişawît</sub><br><sub>/k(ɯ)ʃaːwiːt/</sub> | **کشابوویت**<br><sub>kişabûyt</sub><br><sub>/k(ɯ)ʃaːbuːjt/</sub> |
-| 3sg | ئەو | **کشاوە**<br><sub>kişawe</sub><br><sub>/k(ɯ)ʃaːwæ/</sub> | **کشابوو**<br><sub>kişabû</sub><br><sub>/k(ɯ)ʃaːbuː/</sub> |
-| 1pl | ئێمە | **کشاوین**<br><sub>kişawîn</sub><br><sub>/k(ɯ)ʃaːwiːn/</sub> | **کشابووین**<br><sub>kişabûyn</sub><br><sub>/k(ɯ)ʃaːbuːjn/</sub> |
-| 2pl | ئێوە | **کشاون**<br><sub>kişawn</sub><br><sub>/k(ɯ)ʃaːwn/</sub> | **کشابوون**<br><sub>kişabûn</sub><br><sub>/k(ɯ)ʃaːbuːn/</sub> |
-| 3pl | ئەوان | **کشاون**<br><sub>kişawn</sub><br><sub>/k(ɯ)ʃaːwn/</sub> | **کشابوون**<br><sub>kişabûn</sub><br><sub>/k(ɯ)ʃaːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **کشاومە**<br><sub>kişawme</sub><br><sub>/k(ɯ)ʃaːwmæ/</sub> | **نەکشاومە**<br><sub>nekşawme</sub><br><sub>/nækʃaːwmæ/</sub> | **کشابووم**<br><sub>kişabûm</sub><br><sub>/k(ɯ)ʃaːbuːm/</sub> | **نەکشابووم**<br><sub>nekşabûm</sub><br><sub>/nækʃaːbuːm/</sub> |
+| 2sg | تۆ | **کشاویتە**<br><sub>kişawîte</sub><br><sub>/k(ɯ)ʃaːwiːtæ/</sub> | **نەکشاویتە**<br><sub>nekşawîte</sub><br><sub>/nækʃaːwiːtæ/</sub> | **کشابوویت**<br><sub>kişabûyt</sub><br><sub>/k(ɯ)ʃaːbuːjt/</sub> | **نەکشابوویت**<br><sub>nekşabûyt</sub><br><sub>/nækʃaːbuːjt/</sub> |
+| 3sg | ئەو | **کشاوە**<br><sub>kişawe</sub><br><sub>/k(ɯ)ʃaːwæ/</sub> | **نەکشاوە**<br><sub>nekşawe</sub><br><sub>/nækʃaːwæ/</sub> | **کشابوو**<br><sub>kişabû</sub><br><sub>/k(ɯ)ʃaːbuː/</sub> | **نەکشابوو**<br><sub>nekşabû</sub><br><sub>/nækʃaːbuː/</sub> |
+| 1pl | ئێمە | **کشاوینە**<br><sub>kişawîne</sub><br><sub>/k(ɯ)ʃaːwiːnæ/</sub> | **نەکشاوینە**<br><sub>nekşawîne</sub><br><sub>/nækʃaːwiːnæ/</sub> | **کشابووین**<br><sub>kişabûyn</sub><br><sub>/k(ɯ)ʃaːbuːjn/</sub> | **نەکشابووین**<br><sub>nekşabûyn</sub><br><sub>/nækʃaːbuːjn/</sub> |
+| 2pl | ئێوە | **کشاونە**<br><sub>kişawne</sub><br><sub>/k(ɯ)ʃaːwnæ/</sub> | **نەکشاونە**<br><sub>nekşawne</sub><br><sub>/nækʃaːwnæ/</sub> | **کشابوون**<br><sub>kişabûn</sub><br><sub>/k(ɯ)ʃaːbuːn/</sub> | **نەکشابوون**<br><sub>nekşabûn</sub><br><sub>/nækʃaːbuːn/</sub> |
+| 3pl | ئەوان | **کشاونە**<br><sub>kişawne</sub><br><sub>/k(ɯ)ʃaːwnæ/</sub> | **نەکشاونە**<br><sub>nekşawne</sub><br><sub>/nækʃaːwnæ/</sub> | **کشابوون**<br><sub>kişabûn</sub><br><sub>/k(ɯ)ʃaːbuːn/</sub> | **نەکشابوون**<br><sub>nekşabûn</sub><br><sub>/nækʃaːbuːn/</sub> |
+
+## Past subjunctive
+
+*کشان* (kişan) “to withdraw, to slide” — present stem **کشێ**, past stem **کشا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **کشابام**<br><sub>kişabam</sub><br><sub>/k(ɯ)ʃaːbaːm/</sub> | **کشابێتم**<br><sub>kişabêtim</sub><br><sub>/k(ɯ)ʃaːbeːt(ɯ)m/</sub> | **کشابووبام**<br><sub>kişabûbam</sub><br><sub>/k(ɯ)ʃaːbuːbaːm/</sub> |
+| 2sg | تۆ | **کشابایت**<br><sub>kişabayt</sub><br><sub>/k(ɯ)ʃaːbaːjt/</sub> | **کشابێتیت**<br><sub>kişabêtît</sub><br><sub>/k(ɯ)ʃaːbeːtiːt/</sub> | **کشابووبایت**<br><sub>kişabûbayt</sub><br><sub>/k(ɯ)ʃaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **کشابا**<br><sub>kişaba</sub><br><sub>/k(ɯ)ʃaːbaː/</sub> | **کشابێت**<br><sub>kişabêt</sub><br><sub>/k(ɯ)ʃaːbeːt/</sub> | **کشابووبا**<br><sub>kişabûba</sub><br><sub>/k(ɯ)ʃaːbuːbaː/</sub> |
+| 1pl | ئێمە | **کشاباین**<br><sub>kişabayn</sub><br><sub>/k(ɯ)ʃaːbaːjn/</sub> | **کشابێتین**<br><sub>kişabêtîn</sub><br><sub>/k(ɯ)ʃaːbeːtiːn/</sub> | **کشابووباین**<br><sub>kişabûbayn</sub><br><sub>/k(ɯ)ʃaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **کشابان**<br><sub>kişaban</sub><br><sub>/k(ɯ)ʃaːbaːn/</sub> | **کشابێتن**<br><sub>kişabêtin</sub><br><sub>/k(ɯ)ʃaːbeːt(ɯ)n/</sub> | **کشابووبان**<br><sub>kişabûban</sub><br><sub>/k(ɯ)ʃaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **کشابان**<br><sub>kişaban</sub><br><sub>/k(ɯ)ʃaːbaːn/</sub> | **کشابێتن**<br><sub>kişabêtin</sub><br><sub>/k(ɯ)ʃaːbeːt(ɯ)n/</sub> | **کشابووبان**<br><sub>kişabûban</sub><br><sub>/k(ɯ)ʃaːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*کشان* (kişan) “to withdraw, to slide” — present stem **کشێ**, past stem **کشا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەکشابام**<br><sub>nekşabam</sub><br><sub>/nækʃaːbaːm/</sub> | **نەکشابێتم**<br><sub>nekşabêtim</sub><br><sub>/nækʃaːbeːt(ɯ)m/</sub> | **نەکشابووبام**<br><sub>nekşabûbam</sub><br><sub>/nækʃaːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەکشابایت**<br><sub>nekşabayt</sub><br><sub>/nækʃaːbaːjt/</sub> | **نەکشابێتیت**<br><sub>nekşabêtît</sub><br><sub>/nækʃaːbeːtiːt/</sub> | **نەکشابووبایت**<br><sub>nekşabûbayt</sub><br><sub>/nækʃaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەکشابا**<br><sub>nekşaba</sub><br><sub>/nækʃaːbaː/</sub> | **نەکشابێت**<br><sub>nekşabêt</sub><br><sub>/nækʃaːbeːt/</sub> | **نەکشابووبا**<br><sub>nekşabûba</sub><br><sub>/nækʃaːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەکشاباین**<br><sub>nekşabayn</sub><br><sub>/nækʃaːbaːjn/</sub> | **نەکشابێتین**<br><sub>nekşabêtîn</sub><br><sub>/nækʃaːbeːtiːn/</sub> | **نەکشابووباین**<br><sub>nekşabûbayn</sub><br><sub>/nækʃaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەکشابان**<br><sub>nekşaban</sub><br><sub>/nækʃaːbaːn/</sub> | **نەکشابێتن**<br><sub>nekşabêtin</sub><br><sub>/nækʃaːbeːt(ɯ)n/</sub> | **نەکشابووبان**<br><sub>nekşabûban</sub><br><sub>/nækʃaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەکشابان**<br><sub>nekşaban</sub><br><sub>/nækʃaːbaːn/</sub> | **نەکشابێتن**<br><sub>nekşabêtin</sub><br><sub>/nækʃaːbeːt(ɯ)n/</sub> | **نەکشابووبان**<br><sub>nekşabûban</sub><br><sub>/nækʃaːbuːbaːn/</sub> |
 
 ## Imperative
 
@@ -81,8 +107,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بکشێ**<br><sub>bikişê</sub><br><sub>/b(ɯ)k(ɯ)ʃeː/</sub> | **مەکشێ**<br><sub>mekşê</sub><br><sub>/mækʃeː/</sub> |
-| 2pl | ئێوە | **بکشێن**<br><sub>bikişên</sub><br><sub>/b(ɯ)k(ɯ)ʃeːn/</sub> | **مەکشێن**<br><sub>mekşên</sub><br><sub>/mækʃeːn/</sub> |
+| 2sg | تۆ | **بکشێ**<br><sub>bikşê</sub><br><sub>/b(ɯ)kʃeː/</sub> | **مەکشێ**<br><sub>mekşê</sub><br><sub>/mækʃeː/</sub> |
+| 2pl | ئێوە | **بکشێن**<br><sub>bikşên</sub><br><sub>/b(ɯ)kʃeːn/</sub> | **مەکشێن**<br><sub>mekşên</sub><br><sub>/mækʃeːn/</sub> |
 
 ## Other forms
 

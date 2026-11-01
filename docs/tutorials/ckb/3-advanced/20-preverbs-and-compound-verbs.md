@@ -25,20 +25,22 @@ A **preverb** is a short prefix that changes the meaning of the verb: هەڵ *up
 Rules:
 
 * The preverb stays **in front of** دە / نا: هەڵ**دە**گرم *I pick up*, هەڵ**نا**گرم *I don't pick up*.
-* The subjunctive and imperative **drop ب**: هەڵگرم *that I pick up*, هەڵگرە *pick up!*
-* In the past the agent clitic goes **right after the preverb**: هەڵ**م**گرت *I picked up*, ڕا**ی**گەیاند *he announced*.
+* In the subjunctive and imperative, ب **follows the preverb and may be dropped**: هەڵ**ب**گرم or هەڵگرم *that I pick up*, هەڵ**ب**گرە or هەڵگرە *pick up!*
+* In the past the agent clitic goes **right after the preverb**, in every past tense and in the negative, and the standard writes a **space** after it: هەڵ**م** گرت *I picked up*, ڕا**ی** گەیاند *he announced*, هەڵ**م** نەگرت *I didn't pick up*, هەڵ**م** گرتووە *I have picked up*.
+
+The solid spelling (هەڵمگرت, ڕایگەیاند) is allowed and much more common in news text, so read both, and write the split form. The tables below show the standard spelling first and the solid one in small type. An Academy pamphlet is reported to allow the solid form, though the spelling guides themselves print the split one.
 
 <!-- gen:verb verb=هەڵگرتن cells=present,subj,past,imperative -->
 *هەڵگرتن* (hellgirtin) “to pick up, to lift” — present stem **گر**, past stem **گرت**, transitive, preverb **هەڵ**
 
 | person | pronoun | Present | Subjunctive | Simple past | Imperative |
 |---|---|---|---|---|---|
-| 1sg | من | **هەڵدەگرم**<br><sub>helldegrim</sub> | **هەڵگرم**<br><sub>hellgirm</sub> | **هەڵمگرت**<br><sub>hellmigirt</sub> | — |
-| 2sg | تۆ | **هەڵدەگریت**<br><sub>helldegrît</sub> | **هەڵگریت**<br><sub>hellgirît</sub> | **هەڵتگرت**<br><sub>helltigirt</sub> | **هەڵگرە**<br><sub>hellgire</sub> |
-| 3sg | ئەو | **هەڵدەگرێت**<br><sub>helldegrêt</sub> | **هەڵگرێت**<br><sub>hellgirêt</sub> | **هەڵیگرت**<br><sub>hellîgrit</sub> | — |
-| 1pl | ئێمە | **هەڵدەگرین**<br><sub>helldegrîn</sub> | **هەڵگرین**<br><sub>hellgirîn</sub> | **هەڵمانگرت**<br><sub>hellmangirt</sub> | — |
-| 2pl | ئێوە | **هەڵدەگرن**<br><sub>helldegrin</sub> | **هەڵگرن**<br><sub>hellgirn</sub> | **هەڵتانگرت**<br><sub>helltangirt</sub> | **هەڵگرن**<br><sub>hellgirn</sub> |
-| 3pl | ئەوان | **هەڵدەگرن**<br><sub>helldegrin</sub> | **هەڵگرن**<br><sub>hellgirn</sub> | **هەڵیانگرت**<br><sub>hellyangirt</sub> | — |
+| 1sg | من | **هەڵدەگرم**<br><sub>helldegrim</sub> | **هەڵبگرم**<br><sub>hellbigirm</sub> | **هەڵم گرت**<br><sub>also هەڵمگرت</sub><br><sub>hellm girt</sub> | — |
+| 2sg | تۆ | **هەڵدەگریت**<br><sub>helldegrît</sub> | **هەڵبگریت**<br><sub>hellbigrît</sub> | **هەڵت گرت**<br><sub>also هەڵتگرت</sub><br><sub>hellt girt</sub> | **هەڵبگرە**<br><sub>hellbigre</sub> |
+| 3sg | ئەو | **هەڵدەگرێت**<br><sub>helldegrêt</sub> | **هەڵبگرێت**<br><sub>hellbigrêt</sub> | **هەڵی گرت**<br><sub>also هەڵیگرت</sub><br><sub>hellî girt</sub> | — |
+| 1pl | ئێمە | **هەڵدەگرین**<br><sub>helldegrîn</sub> | **هەڵبگرین**<br><sub>hellbigrîn</sub> | **هەڵمان گرت**<br><sub>also هەڵمانگرت</sub><br><sub>hellman girt</sub> | — |
+| 2pl | ئێوە | **هەڵدەگرن**<br><sub>helldegrin</sub> | **هەڵبگرن**<br><sub>hellbigirn</sub> | **هەڵتان گرت**<br><sub>also هەڵتانگرت</sub><br><sub>helltan girt</sub> | **هەڵبگرن**<br><sub>hellbigirn</sub> |
+| 3pl | ئەوان | **هەڵدەگرن**<br><sub>helldegrin</sub> | **هەڵبگرن**<br><sub>hellbigirn</sub> | **هەڵیان گرت**<br><sub>also هەڵیانگرت</sub><br><sub>hellyan girt</sub> | — |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 <!-- /gen -->
@@ -48,12 +50,12 @@ Rules:
 
 | person | pronoun | Present | Simple past |
 |---|---|---|---|
-| 1sg | من | **ڕادەگەیەنم**<br><sub>radegeyenim</sub> | **ڕامگەیاند**<br><sub>ramgeyand</sub> |
-| 2sg | تۆ | **ڕادەگەیەنیت**<br><sub>radegeyenît</sub> | **ڕاتگەیاند**<br><sub>ratgeyand</sub> |
-| 3sg | ئەو | **ڕادەگەیەنێت**<br><sub>radegeyenêt</sub> | **ڕایگەیاند**<br><sub>raygeyand</sub> |
-| 1pl | ئێمە | **ڕادەگەیەنین**<br><sub>radegeyenîn</sub> | **ڕامانگەیاند**<br><sub>ramangeyand</sub> |
-| 2pl | ئێوە | **ڕادەگەیەنن**<br><sub>radegeyenin</sub> | **ڕاتانگەیاند**<br><sub>ratangeyand</sub> |
-| 3pl | ئەوان | **ڕادەگەیەنن**<br><sub>radegeyenin</sub> | **ڕایانگەیاند**<br><sub>rayangeyand</sub> |
+| 1sg | من | **ڕادەگەیەنم**<br><sub>radegeyenim</sub> | **ڕام گەیاند**<br><sub>also ڕامگەیاند</sub><br><sub>ram geyand</sub> |
+| 2sg | تۆ | **ڕادەگەیەنیت**<br><sub>radegeyenît</sub> | **ڕات گەیاند**<br><sub>also ڕاتگەیاند</sub><br><sub>rat geyand</sub> |
+| 3sg | ئەو | **ڕادەگەیەنێت**<br><sub>radegeyenêt</sub> | **ڕای گەیاند**<br><sub>also ڕایگەیاند</sub><br><sub>ray geyand</sub> |
+| 1pl | ئێمە | **ڕادەگەیەنین**<br><sub>radegeyenîn</sub> | **ڕامان گەیاند**<br><sub>also ڕامانگەیاند</sub><br><sub>raman geyand</sub> |
+| 2pl | ئێوە | **ڕادەگەیەنن**<br><sub>radegeyenin</sub> | **ڕاتان گەیاند**<br><sub>also ڕاتانگەیاند</sub><br><sub>ratan geyand</sub> |
+| 3pl | ئەوان | **ڕادەگەیەنن**<br><sub>radegeyenin</sub> | **ڕایان گەیاند**<br><sub>also ڕایانگەیاند</sub><br><sub>rayan geyand</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 <!-- /gen -->
@@ -75,10 +77,10 @@ The suffix **-ەوە** adds *again, back* or a new meaning, and it always comes 
 |---|---|---|---|
 | 1sg | من | **دەکەمەوە**<br><sub>dekemewe</sub> | **کردمەوە**<br><sub>kirdimewe</sub> |
 | 2sg | تۆ | **دەکەیتەوە**<br><sub>dekeytewe</sub> | **کردتەوە**<br><sub>kirditewe</sub> |
-| 3sg | ئەو | **دەکاتەوە**<br><sub>dekatewe</sub> | **کردیەوە**<br><sub>kiridyewe</sub> |
+| 3sg | ئەو | **دەکاتەوە**<br><sub>dekatewe</sub> | **کردیەوە**<br><sub>kirdyewe</sub> |
 | 1pl | ئێمە | **دەکەینەوە**<br><sub>dekeynewe</sub> | **کردمانەوە**<br><sub>kirdimanewe</sub> |
 | 2pl | ئێوە | **دەکەنەوە**<br><sub>dekenewe</sub> | **کردتانەوە**<br><sub>kirditanewe</sub> |
-| 3pl | ئەوان | **دەکەنەوە**<br><sub>dekenewe</sub> | **کردیانەوە**<br><sub>kiridyanewe</sub> |
+| 3pl | ئەوان | **دەکەنەوە**<br><sub>dekenewe</sub> | **کردیانەوە**<br><sub>kirdyanewe</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 <!-- /gen -->
@@ -105,12 +107,12 @@ Very many verbs are **noun or adjective + light verb** (usually کردن *do*, �
 
 | person | pronoun | Present | Subjunctive | Simple past |
 |---|---|---|---|---|
-| 1sg | من | **دەستپێدەکەم**<br><sub>destpêdekem</sub> | **دەستپێکەم**<br><sub>destpêkem</sub> | **دەستپێمکرد**<br><sub>destpêmkird</sub> |
-| 2sg | تۆ | **دەستپێدەکەیت**<br><sub>destpêdekeyt</sub> | **دەستپێکەیت**<br><sub>destpêkeyt</sub> | **دەستپێتکرد**<br><sub>destpêtkird</sub> |
-| 3sg | ئەو | **دەستپێدەکات**<br><sub>destpêdekat</sub> | **دەستپێکات**<br><sub>destpêkat</sub> | **دەستپێیکرد**<br><sub>destpêykird</sub> |
-| 1pl | ئێمە | **دەستپێدەکەین**<br><sub>destpêdekeyn</sub> | **دەستپێکەین**<br><sub>destpêkeyn</sub> | **دەستپێمانکرد**<br><sub>destpêmankird</sub> |
-| 2pl | ئێوە | **دەستپێدەکەن**<br><sub>destpêdeken</sub> | **دەستپێکەن**<br><sub>destpêken</sub> | **دەستپێتانکرد**<br><sub>destpêtankird</sub> |
-| 3pl | ئەوان | **دەستپێدەکەن**<br><sub>destpêdeken</sub> | **دەستپێکەن**<br><sub>destpêken</sub> | **دەستپێیانکرد**<br><sub>destpêyankird</sub> |
+| 1sg | من | **دەست پێ دەکەم**<br><sub>also دەستپێدەکەم</sub><br><sub>dest pê dekem</sub> | **دەست پێ بکەم**<br><sub>also دەستپێبکەم</sub><br><sub>dest pê bikem</sub> | **دەستم پێ کرد**<br><sub>also دەستپێمکرد</sub><br><sub>destim pê kird</sub> |
+| 2sg | تۆ | **دەست پێ دەکەیت**<br><sub>also دەستپێدەکەیت</sub><br><sub>dest pê dekeyt</sub> | **دەست پێ بکەیت**<br><sub>also دەستپێبکەیت</sub><br><sub>dest pê bikeyt</sub> | **دەستت پێ کرد**<br><sub>also دەستپێتکرد</sub><br><sub>destit pê kird</sub> |
+| 3sg | ئەو | **دەست پێ دەکات**<br><sub>also دەستپێدەکات</sub><br><sub>dest pê dekat</sub> | **دەست پێ بکات**<br><sub>also دەستپێبکات</sub><br><sub>dest pê bikat</sub> | **دەستی پێ کرد**<br><sub>also دەستپێیکرد</sub><br><sub>destî pê kird</sub> |
+| 1pl | ئێمە | **دەست پێ دەکەین**<br><sub>also دەستپێدەکەین</sub><br><sub>dest pê dekeyn</sub> | **دەست پێ بکەین**<br><sub>also دەستپێبکەین</sub><br><sub>dest pê bikeyn</sub> | **دەستمان پێ کرد**<br><sub>also دەستپێمانکرد</sub><br><sub>destman pê kird</sub> |
+| 2pl | ئێوە | **دەست پێ دەکەن**<br><sub>also دەستپێدەکەن</sub><br><sub>dest pê deken</sub> | **دەست پێ بکەن**<br><sub>also دەستپێبکەن</sub><br><sub>dest pê biken</sub> | **دەستتان پێ کرد**<br><sub>also دەستپێتانکرد</sub><br><sub>desttan pê kird</sub> |
+| 3pl | ئەوان | **دەست پێ دەکەن**<br><sub>also دەستپێدەکەن</sub><br><sub>dest pê deken</sub> | **دەست پێ بکەن**<br><sub>also دەستپێبکەن</sub><br><sub>dest pê biken</sub> | **دەستیان پێ کرد**<br><sub>also دەستپێیانکرد</sub><br><sub>destyan pê kird</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 <!-- /gen -->
@@ -119,7 +121,7 @@ Very many verbs are **noun or adjective + light verb** (usually کردن *do*, �
 کتێبەکەم هەڵگرت. | I picked up the book.
 دەرگاکە دابخە! | Close the door!
 کەی دەگەڕێیتەوە؟ | When are you coming back?
-وانەکە دەستی پێکرد. | The lesson began.
+وانەکە دەستی پێ کرد. | The lesson began.
 حکومەت بڕیارەکەی ڕاگەیاند. | The government announced the decision.
 -->
 | # | Kurdish | Latin | IPA | English |
@@ -127,17 +129,17 @@ Very many verbs are **noun or adjective + light verb** (usually کردن *do*, �
 | 1 | کتێبەکەم هەڵگرت. | kitêbekem hellgirt. | /k(ɯ)teːbækæm hæɫɡ(ɯ)ɾt/ | I picked up the book. |
 | 2 | دەرگاکە دابخە! | dergake dabxe! | /dæɾɡaːkæ daːbxæ/ | Close the door! |
 | 3 | کەی دەگەڕێیتەوە؟ | key degerrêytewe? | /kæj dæɡæreːjtæwæ/ | When are you coming back? |
-| 4 | وانەکە دەستی پێکرد. | waneke destî pêkrid. | /waːnækæ dæstiː peːkɾ(ɯ)d/ | The lesson began. |
+| 4 | وانەکە دەستی پێ کرد. | waneke destî pê kird. | /waːnækæ dæstiː peː k(ɯ)ɾd/ | The lesson began. |
 | 5 | حکومەت بڕیارەکەی ڕاگەیاند. | ḧikumet birryarekey rageyand. | /ħ(ɯ)kumæt b(ɯ)rjaːɾækæj raːɡæjaːnd/ | The government announced the decision. |
 <!-- /gen -->
 
-Notice **دەستی پێکرد** in the fourth sentence. In the standard language, the agent clitic of a noun + verb compound goes on the **noun part** (دەست**ی** پێکرد *he began*, دەست**م** پێکرد *I began*). The table above shows the forms with the clitic at the end (دەستپێکردی), which are common in speech. The paradigm generator does not yet split the noun part off, so treat this column as colloquial.
+Notice **دەستی پێ کرد** in the fourth sentence. The agent clitic of a noun + verb compound goes on the **noun part** (دەست**ی** پێ کرد *he began*, دەست**م** پێ کرد *I began*). You will also see it written دەستی پێکرد or دەستپێیکرد, and hear دەستپێکردی in speech.
 
 ## Summary
 
-* Preverb verbs: preverb + دە/نا; subjunctive without ب; past clitic after the preverb.
+* Preverb verbs: preverb + دە/نا; subjunctive with ب, which may be dropped; past clitic after the preverb, then a space: هەڵم گرت.
 * -ەوە always last: دەکەمەوە.
-* Noun + light verb: the noun behaves like a preverb, but ب is kept.
+* Noun + light verb: written apart in every tense (نان دەکەم, نانم کرد); the infinitive is solid (نانکردن).
 
 <!-- nav:bottom -->
 ---

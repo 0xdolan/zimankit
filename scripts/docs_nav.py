@@ -11,6 +11,7 @@ PARTS = [
     ("Cross-cutting", ["15", "16", "17", "18", "19"]),
     ("Reference", ["20", "21"]),
     ("Sentence structure", ["22"]),
+    ("Central Kurdish written standard", ["23"]),
 ]
 TOP, BOTTOM = "<!-- nav:top -->", "<!-- nav:bottom -->"
 

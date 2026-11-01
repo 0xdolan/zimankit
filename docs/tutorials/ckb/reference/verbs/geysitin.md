@@ -66,14 +66,40 @@
 
 *گەیشتن* (geyşitin) “to arrive, to reach” — present stem **گە**, past stem **گەیشت**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **گەیشتووم**<br><sub>geyştûm</sub><br><sub>/ɡæjʃtuːm/</sub> | **گەیشتبووم**<br><sub>geyşitbûm</sub><br><sub>/ɡæjʃ(ɯ)tbuːm/</sub> |
-| 2sg | تۆ | **گەیشتوویت**<br><sub>geyştûyt</sub><br><sub>/ɡæjʃtuːjt/</sub> | **گەیشتبوویت**<br><sub>geyşitbûyt</sub><br><sub>/ɡæjʃ(ɯ)tbuːjt/</sub> |
-| 3sg | ئەو | **گەیشتووە**<br><sub>geyştûwe</sub><br><sub>/ɡæjʃtuːwæ/</sub> | **گەیشتبوو**<br><sub>geyşitbû</sub><br><sub>/ɡæjʃ(ɯ)tbuː/</sub> |
-| 1pl | ئێمە | **گەیشتووین**<br><sub>geyştûyn</sub><br><sub>/ɡæjʃtuːjn/</sub> | **گەیشتبووین**<br><sub>geyşitbûyn</sub><br><sub>/ɡæjʃ(ɯ)tbuːjn/</sub> |
-| 2pl | ئێوە | **گەیشتوون**<br><sub>geyştûn</sub><br><sub>/ɡæjʃtuːn/</sub> | **گەیشتبوون**<br><sub>geyşitbûn</sub><br><sub>/ɡæjʃ(ɯ)tbuːn/</sub> |
-| 3pl | ئەوان | **گەیشتوون**<br><sub>geyştûn</sub><br><sub>/ɡæjʃtuːn/</sub> | **گەیشتبوون**<br><sub>geyşitbûn</sub><br><sub>/ɡæjʃ(ɯ)tbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **گەیشتوومە**<br><sub>geyştûme</sub><br><sub>/ɡæjʃtuːmæ/</sub> | **نەگەیشتوومە**<br><sub>negeyştûme</sub><br><sub>/næɡæjʃtuːmæ/</sub> | **گەیشتبووم**<br><sub>geyşitbûm</sub><br><sub>/ɡæjʃ(ɯ)tbuːm/</sub> | **نەگەیشتبووم**<br><sub>negeyşitbûm</sub><br><sub>/næɡæjʃ(ɯ)tbuːm/</sub> |
+| 2sg | تۆ | **گەیشتوویتە**<br><sub>geyştûyte</sub><br><sub>/ɡæjʃtuːjtæ/</sub> | **نەگەیشتوویتە**<br><sub>negeyştûyte</sub><br><sub>/næɡæjʃtuːjtæ/</sub> | **گەیشتبوویت**<br><sub>geyşitbûyt</sub><br><sub>/ɡæjʃ(ɯ)tbuːjt/</sub> | **نەگەیشتبوویت**<br><sub>negeyşitbûyt</sub><br><sub>/næɡæjʃ(ɯ)tbuːjt/</sub> |
+| 3sg | ئەو | **گەیشتووە**<br><sub>geyştûwe</sub><br><sub>/ɡæjʃtuːwæ/</sub> | **نەگەیشتووە**<br><sub>negeyştûwe</sub><br><sub>/næɡæjʃtuːwæ/</sub> | **گەیشتبوو**<br><sub>geyşitbû</sub><br><sub>/ɡæjʃ(ɯ)tbuː/</sub> | **نەگەیشتبوو**<br><sub>negeyşitbû</sub><br><sub>/næɡæjʃ(ɯ)tbuː/</sub> |
+| 1pl | ئێمە | **گەیشتووینە**<br><sub>geyştûyne</sub><br><sub>/ɡæjʃtuːjnæ/</sub> | **نەگەیشتووینە**<br><sub>negeyştûyne</sub><br><sub>/næɡæjʃtuːjnæ/</sub> | **گەیشتبووین**<br><sub>geyşitbûyn</sub><br><sub>/ɡæjʃ(ɯ)tbuːjn/</sub> | **نەگەیشتبووین**<br><sub>negeyşitbûyn</sub><br><sub>/næɡæjʃ(ɯ)tbuːjn/</sub> |
+| 2pl | ئێوە | **گەیشتوونە**<br><sub>geyştûne</sub><br><sub>/ɡæjʃtuːnæ/</sub> | **نەگەیشتوونە**<br><sub>negeyştûne</sub><br><sub>/næɡæjʃtuːnæ/</sub> | **گەیشتبوون**<br><sub>geyşitbûn</sub><br><sub>/ɡæjʃ(ɯ)tbuːn/</sub> | **نەگەیشتبوون**<br><sub>negeyşitbûn</sub><br><sub>/næɡæjʃ(ɯ)tbuːn/</sub> |
+| 3pl | ئەوان | **گەیشتوونە**<br><sub>geyştûne</sub><br><sub>/ɡæjʃtuːnæ/</sub> | **نەگەیشتوونە**<br><sub>negeyştûne</sub><br><sub>/næɡæjʃtuːnæ/</sub> | **گەیشتبوون**<br><sub>geyşitbûn</sub><br><sub>/ɡæjʃ(ɯ)tbuːn/</sub> | **نەگەیشتبوون**<br><sub>negeyşitbûn</sub><br><sub>/næɡæjʃ(ɯ)tbuːn/</sub> |
+
+## Past subjunctive
+
+*گەیشتن* (geyşitin) “to arrive, to reach” — present stem **گە**, past stem **گەیشت**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **گەیشتبام**<br><sub>geyşitbam</sub><br><sub>/ɡæjʃ(ɯ)tbaːm/</sub> | **گەیشتبێتم**<br><sub>geyşitbêtim</sub><br><sub>/ɡæjʃ(ɯ)tbeːt(ɯ)m/</sub> | **گەیشتبووبام**<br><sub>geyşitbûbam</sub><br><sub>/ɡæjʃ(ɯ)tbuːbaːm/</sub> |
+| 2sg | تۆ | **گەیشتبایت**<br><sub>geyşitbayt</sub><br><sub>/ɡæjʃ(ɯ)tbaːjt/</sub> | **گەیشتبێتیت**<br><sub>geyşitbêtît</sub><br><sub>/ɡæjʃ(ɯ)tbeːtiːt/</sub> | **گەیشتبووبایت**<br><sub>geyşitbûbayt</sub><br><sub>/ɡæjʃ(ɯ)tbuːbaːjt/</sub> |
+| 3sg | ئەو | **گەیشتبا**<br><sub>geyşitba</sub><br><sub>/ɡæjʃ(ɯ)tbaː/</sub> | **گەیشتبێت**<br><sub>geyşitbêt</sub><br><sub>/ɡæjʃ(ɯ)tbeːt/</sub> | **گەیشتبووبا**<br><sub>geyşitbûba</sub><br><sub>/ɡæjʃ(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **گەیشتباین**<br><sub>geyşitbayn</sub><br><sub>/ɡæjʃ(ɯ)tbaːjn/</sub> | **گەیشتبێتین**<br><sub>geyşitbêtîn</sub><br><sub>/ɡæjʃ(ɯ)tbeːtiːn/</sub> | **گەیشتبووباین**<br><sub>geyşitbûbayn</sub><br><sub>/ɡæjʃ(ɯ)tbuːbaːjn/</sub> |
+| 2pl | ئێوە | **گەیشتبان**<br><sub>geyşitban</sub><br><sub>/ɡæjʃ(ɯ)tbaːn/</sub> | **گەیشتبێتن**<br><sub>geyşitbêtin</sub><br><sub>/ɡæjʃ(ɯ)tbeːt(ɯ)n/</sub> | **گەیشتبووبان**<br><sub>geyşitbûban</sub><br><sub>/ɡæjʃ(ɯ)tbuːbaːn/</sub> |
+| 3pl | ئەوان | **گەیشتبان**<br><sub>geyşitban</sub><br><sub>/ɡæjʃ(ɯ)tbaːn/</sub> | **گەیشتبێتن**<br><sub>geyşitbêtin</sub><br><sub>/ɡæjʃ(ɯ)tbeːt(ɯ)n/</sub> | **گەیشتبووبان**<br><sub>geyşitbûban</sub><br><sub>/ɡæjʃ(ɯ)tbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*گەیشتن* (geyşitin) “to arrive, to reach” — present stem **گە**, past stem **گەیشت**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەگەیشتبام**<br><sub>negeyşitbam</sub><br><sub>/næɡæjʃ(ɯ)tbaːm/</sub> | **نەگەیشتبێتم**<br><sub>negeyşitbêtim</sub><br><sub>/næɡæjʃ(ɯ)tbeːt(ɯ)m/</sub> | **نەگەیشتبووبام**<br><sub>negeyşitbûbam</sub><br><sub>/næɡæjʃ(ɯ)tbuːbaːm/</sub> |
+| 2sg | تۆ | **نەگەیشتبایت**<br><sub>negeyşitbayt</sub><br><sub>/næɡæjʃ(ɯ)tbaːjt/</sub> | **نەگەیشتبێتیت**<br><sub>negeyşitbêtît</sub><br><sub>/næɡæjʃ(ɯ)tbeːtiːt/</sub> | **نەگەیشتبووبایت**<br><sub>negeyşitbûbayt</sub><br><sub>/næɡæjʃ(ɯ)tbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەگەیشتبا**<br><sub>negeyşitba</sub><br><sub>/næɡæjʃ(ɯ)tbaː/</sub> | **نەگەیشتبێت**<br><sub>negeyşitbêt</sub><br><sub>/næɡæjʃ(ɯ)tbeːt/</sub> | **نەگەیشتبووبا**<br><sub>negeyşitbûba</sub><br><sub>/næɡæjʃ(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **نەگەیشتباین**<br><sub>negeyşitbayn</sub><br><sub>/næɡæjʃ(ɯ)tbaːjn/</sub> | **نەگەیشتبێتین**<br><sub>negeyşitbêtîn</sub><br><sub>/næɡæjʃ(ɯ)tbeːtiːn/</sub> | **نەگەیشتبووباین**<br><sub>negeyşitbûbayn</sub><br><sub>/næɡæjʃ(ɯ)tbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەگەیشتبان**<br><sub>negeyşitban</sub><br><sub>/næɡæjʃ(ɯ)tbaːn/</sub> | **نەگەیشتبێتن**<br><sub>negeyşitbêtin</sub><br><sub>/næɡæjʃ(ɯ)tbeːt(ɯ)n/</sub> | **نەگەیشتبووبان**<br><sub>negeyşitbûban</sub><br><sub>/næɡæjʃ(ɯ)tbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەگەیشتبان**<br><sub>negeyşitban</sub><br><sub>/næɡæjʃ(ɯ)tbaːn/</sub> | **نەگەیشتبێتن**<br><sub>negeyşitbêtin</sub><br><sub>/næɡæjʃ(ɯ)tbeːt(ɯ)n/</sub> | **نەگەیشتبووبان**<br><sub>negeyşitbûban</sub><br><sub>/næɡæjʃ(ɯ)tbuːbaːn/</sub> |
 
 ## Imperative
 

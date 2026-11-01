@@ -66,14 +66,40 @@
 
 *ڕوانین* (rwanîn) “to look” — present stem **ڕوان**, past stem **ڕوانی**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **ڕوانیوم**<br><sub>rwanîwm</sub><br><sub>/rwaːniːwm/</sub> | **ڕوانیبووم**<br><sub>rwanîbûm</sub><br><sub>/rwaːniːbuːm/</sub> |
-| 2sg | تۆ | **ڕوانیویت**<br><sub>rwanîwît</sub><br><sub>/rwaːniːwiːt/</sub> | **ڕوانیبوویت**<br><sub>rwanîbûyt</sub><br><sub>/rwaːniːbuːjt/</sub> |
-| 3sg | ئەو | **ڕوانیوە**<br><sub>rwanîwe</sub><br><sub>/rwaːniːwæ/</sub> | **ڕوانیبوو**<br><sub>rwanîbû</sub><br><sub>/rwaːniːbuː/</sub> |
-| 1pl | ئێمە | **ڕوانیوین**<br><sub>rwanîwîn</sub><br><sub>/rwaːniːwiːn/</sub> | **ڕوانیبووین**<br><sub>rwanîbûyn</sub><br><sub>/rwaːniːbuːjn/</sub> |
-| 2pl | ئێوە | **ڕوانیون**<br><sub>rwanîwn</sub><br><sub>/rwaːniːwn/</sub> | **ڕوانیبوون**<br><sub>rwanîbûn</sub><br><sub>/rwaːniːbuːn/</sub> |
-| 3pl | ئەوان | **ڕوانیون**<br><sub>rwanîwn</sub><br><sub>/rwaːniːwn/</sub> | **ڕوانیبوون**<br><sub>rwanîbûn</sub><br><sub>/rwaːniːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **ڕوانیومە**<br><sub>rwanîwme</sub><br><sub>/rwaːniːwmæ/</sub> | **نەڕوانیومە**<br><sub>nerrwanîwme</sub><br><sub>/nærwaːniːwmæ/</sub> | **ڕوانیبووم**<br><sub>rwanîbûm</sub><br><sub>/rwaːniːbuːm/</sub> | **نەڕوانیبووم**<br><sub>nerrwanîbûm</sub><br><sub>/nærwaːniːbuːm/</sub> |
+| 2sg | تۆ | **ڕوانیویتە**<br><sub>rwanîwîte</sub><br><sub>/rwaːniːwiːtæ/</sub> | **نەڕوانیویتە**<br><sub>nerrwanîwîte</sub><br><sub>/nærwaːniːwiːtæ/</sub> | **ڕوانیبوویت**<br><sub>rwanîbûyt</sub><br><sub>/rwaːniːbuːjt/</sub> | **نەڕوانیبوویت**<br><sub>nerrwanîbûyt</sub><br><sub>/nærwaːniːbuːjt/</sub> |
+| 3sg | ئەو | **ڕوانیوە**<br><sub>rwanîwe</sub><br><sub>/rwaːniːwæ/</sub> | **نەڕوانیوە**<br><sub>nerrwanîwe</sub><br><sub>/nærwaːniːwæ/</sub> | **ڕوانیبوو**<br><sub>rwanîbû</sub><br><sub>/rwaːniːbuː/</sub> | **نەڕوانیبوو**<br><sub>nerrwanîbû</sub><br><sub>/nærwaːniːbuː/</sub> |
+| 1pl | ئێمە | **ڕوانیوینە**<br><sub>rwanîwîne</sub><br><sub>/rwaːniːwiːnæ/</sub> | **نەڕوانیوینە**<br><sub>nerrwanîwîne</sub><br><sub>/nærwaːniːwiːnæ/</sub> | **ڕوانیبووین**<br><sub>rwanîbûyn</sub><br><sub>/rwaːniːbuːjn/</sub> | **نەڕوانیبووین**<br><sub>nerrwanîbûyn</sub><br><sub>/nærwaːniːbuːjn/</sub> |
+| 2pl | ئێوە | **ڕوانیونە**<br><sub>rwanîwne</sub><br><sub>/rwaːniːwnæ/</sub> | **نەڕوانیونە**<br><sub>nerrwanîwne</sub><br><sub>/nærwaːniːwnæ/</sub> | **ڕوانیبوون**<br><sub>rwanîbûn</sub><br><sub>/rwaːniːbuːn/</sub> | **نەڕوانیبوون**<br><sub>nerrwanîbûn</sub><br><sub>/nærwaːniːbuːn/</sub> |
+| 3pl | ئەوان | **ڕوانیونە**<br><sub>rwanîwne</sub><br><sub>/rwaːniːwnæ/</sub> | **نەڕوانیونە**<br><sub>nerrwanîwne</sub><br><sub>/nærwaːniːwnæ/</sub> | **ڕوانیبوون**<br><sub>rwanîbûn</sub><br><sub>/rwaːniːbuːn/</sub> | **نەڕوانیبوون**<br><sub>nerrwanîbûn</sub><br><sub>/nærwaːniːbuːn/</sub> |
+
+## Past subjunctive
+
+*ڕوانین* (rwanîn) “to look” — present stem **ڕوان**, past stem **ڕوانی**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **ڕوانیبام**<br><sub>rwanîbam</sub><br><sub>/rwaːniːbaːm/</sub> | **ڕوانیبێتم**<br><sub>rwanîbêtim</sub><br><sub>/rwaːniːbeːt(ɯ)m/</sub> | **ڕوانیبووبام**<br><sub>rwanîbûbam</sub><br><sub>/rwaːniːbuːbaːm/</sub> |
+| 2sg | تۆ | **ڕوانیبایت**<br><sub>rwanîbayt</sub><br><sub>/rwaːniːbaːjt/</sub> | **ڕوانیبێتیت**<br><sub>rwanîbêtît</sub><br><sub>/rwaːniːbeːtiːt/</sub> | **ڕوانیبووبایت**<br><sub>rwanîbûbayt</sub><br><sub>/rwaːniːbuːbaːjt/</sub> |
+| 3sg | ئەو | **ڕوانیبا**<br><sub>rwanîba</sub><br><sub>/rwaːniːbaː/</sub> | **ڕوانیبێت**<br><sub>rwanîbêt</sub><br><sub>/rwaːniːbeːt/</sub> | **ڕوانیبووبا**<br><sub>rwanîbûba</sub><br><sub>/rwaːniːbuːbaː/</sub> |
+| 1pl | ئێمە | **ڕوانیباین**<br><sub>rwanîbayn</sub><br><sub>/rwaːniːbaːjn/</sub> | **ڕوانیبێتین**<br><sub>rwanîbêtîn</sub><br><sub>/rwaːniːbeːtiːn/</sub> | **ڕوانیبووباین**<br><sub>rwanîbûbayn</sub><br><sub>/rwaːniːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **ڕوانیبان**<br><sub>rwanîban</sub><br><sub>/rwaːniːbaːn/</sub> | **ڕوانیبێتن**<br><sub>rwanîbêtin</sub><br><sub>/rwaːniːbeːt(ɯ)n/</sub> | **ڕوانیبووبان**<br><sub>rwanîbûban</sub><br><sub>/rwaːniːbuːbaːn/</sub> |
+| 3pl | ئەوان | **ڕوانیبان**<br><sub>rwanîban</sub><br><sub>/rwaːniːbaːn/</sub> | **ڕوانیبێتن**<br><sub>rwanîbêtin</sub><br><sub>/rwaːniːbeːt(ɯ)n/</sub> | **ڕوانیبووبان**<br><sub>rwanîbûban</sub><br><sub>/rwaːniːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*ڕوانین* (rwanîn) “to look” — present stem **ڕوان**, past stem **ڕوانی**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەڕوانیبام**<br><sub>nerrwanîbam</sub><br><sub>/nærwaːniːbaːm/</sub> | **نەڕوانیبێتم**<br><sub>nerrwanîbêtim</sub><br><sub>/nærwaːniːbeːt(ɯ)m/</sub> | **نەڕوانیبووبام**<br><sub>nerrwanîbûbam</sub><br><sub>/nærwaːniːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەڕوانیبایت**<br><sub>nerrwanîbayt</sub><br><sub>/nærwaːniːbaːjt/</sub> | **نەڕوانیبێتیت**<br><sub>nerrwanîbêtît</sub><br><sub>/nærwaːniːbeːtiːt/</sub> | **نەڕوانیبووبایت**<br><sub>nerrwanîbûbayt</sub><br><sub>/nærwaːniːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەڕوانیبا**<br><sub>nerrwanîba</sub><br><sub>/nærwaːniːbaː/</sub> | **نەڕوانیبێت**<br><sub>nerrwanîbêt</sub><br><sub>/nærwaːniːbeːt/</sub> | **نەڕوانیبووبا**<br><sub>nerrwanîbûba</sub><br><sub>/nærwaːniːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەڕوانیباین**<br><sub>nerrwanîbayn</sub><br><sub>/nærwaːniːbaːjn/</sub> | **نەڕوانیبێتین**<br><sub>nerrwanîbêtîn</sub><br><sub>/nærwaːniːbeːtiːn/</sub> | **نەڕوانیبووباین**<br><sub>nerrwanîbûbayn</sub><br><sub>/nærwaːniːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەڕوانیبان**<br><sub>nerrwanîban</sub><br><sub>/nærwaːniːbaːn/</sub> | **نەڕوانیبێتن**<br><sub>nerrwanîbêtin</sub><br><sub>/nærwaːniːbeːt(ɯ)n/</sub> | **نەڕوانیبووبان**<br><sub>nerrwanîbûban</sub><br><sub>/nærwaːniːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەڕوانیبان**<br><sub>nerrwanîban</sub><br><sub>/nærwaːniːbaːn/</sub> | **نەڕوانیبێتن**<br><sub>nerrwanîbêtin</sub><br><sub>/nærwaːniːbeːt(ɯ)n/</sub> | **نەڕوانیبووبان**<br><sub>nerrwanîbûban</sub><br><sub>/nærwaːniːbuːbaːn/</sub> |
 
 ## Imperative
 
