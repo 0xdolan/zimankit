@@ -29,12 +29,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **ببزووم**<br><sub>bibizûm</sub><br><sub>/b(ɯ)b(ɯ)zuːm/</sub> | **نەبزووم**<br><sub>nebzûm</sub><br><sub>/næbzuːm/</sub> |
-| 2sg | تۆ | **ببزوویت**<br><sub>bibizûyt</sub><br><sub>/b(ɯ)b(ɯ)zuːjt/</sub> | **نەبزوویت**<br><sub>nebzûyt</sub><br><sub>/næbzuːjt/</sub> |
-| 3sg | ئەو | **ببزووت**<br><sub>bibizût</sub><br><sub>/b(ɯ)b(ɯ)zuːt/</sub> | **نەبزووت**<br><sub>nebzût</sub><br><sub>/næbzuːt/</sub> |
-| 1pl | ئێمە | **ببزووین**<br><sub>bibizûyn</sub><br><sub>/b(ɯ)b(ɯ)zuːjn/</sub> | **نەبزووین**<br><sub>nebzûyn</sub><br><sub>/næbzuːjn/</sub> |
-| 2pl | ئێوە | **ببزوون**<br><sub>bibizûn</sub><br><sub>/b(ɯ)b(ɯ)zuːn/</sub> | **نەبزوون**<br><sub>nebzûn</sub><br><sub>/næbzuːn/</sub> |
-| 3pl | ئەوان | **ببزوون**<br><sub>bibizûn</sub><br><sub>/b(ɯ)b(ɯ)zuːn/</sub> | **نەبزوون**<br><sub>nebzûn</sub><br><sub>/næbzuːn/</sub> |
+| 1sg | من | **ببزووم**<br><sub>bibzûm</sub><br><sub>/b(ɯ)bzuːm/</sub> | **نەبزووم**<br><sub>nebzûm</sub><br><sub>/næbzuːm/</sub> |
+| 2sg | تۆ | **ببزوویت**<br><sub>bibzûyt</sub><br><sub>/b(ɯ)bzuːjt/</sub> | **نەبزوویت**<br><sub>nebzûyt</sub><br><sub>/næbzuːjt/</sub> |
+| 3sg | ئەو | **ببزووت**<br><sub>bibzût</sub><br><sub>/b(ɯ)bzuːt/</sub> | **نەبزووت**<br><sub>nebzût</sub><br><sub>/næbzuːt/</sub> |
+| 1pl | ئێمە | **ببزووین**<br><sub>bibzûyn</sub><br><sub>/b(ɯ)bzuːjn/</sub> | **نەبزووین**<br><sub>nebzûyn</sub><br><sub>/næbzuːjn/</sub> |
+| 2pl | ئێوە | **ببزوون**<br><sub>bibzûn</sub><br><sub>/b(ɯ)bzuːn/</sub> | **نەبزوون**<br><sub>nebzûn</sub><br><sub>/næbzuːn/</sub> |
+| 3pl | ئەوان | **ببزوون**<br><sub>bibzûn</sub><br><sub>/b(ɯ)bzuːn/</sub> | **نەبزوون**<br><sub>nebzûn</sub><br><sub>/næbzuːn/</sub> |
 
 ## Simple past
 
@@ -81,8 +81,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **ببزوو**<br><sub>bibizû</sub><br><sub>/b(ɯ)b(ɯ)zuː/</sub> | **مەبزوو**<br><sub>mebzû</sub><br><sub>/mæbzuː/</sub> |
-| 2pl | ئێوە | **ببزوون**<br><sub>bibizûn</sub><br><sub>/b(ɯ)b(ɯ)zuːn/</sub> | **مەبزوون**<br><sub>mebzûn</sub><br><sub>/mæbzuːn/</sub> |
+| 2sg | تۆ | **ببزوو**<br><sub>bibzû</sub><br><sub>/b(ɯ)bzuː/</sub> | **مەبزوو**<br><sub>mebzû</sub><br><sub>/mæbzuː/</sub> |
+| 2pl | ئێوە | **ببزوون**<br><sub>bibzûn</sub><br><sub>/b(ɯ)bzuːn/</sub> | **مەبزوون**<br><sub>mebzûn</sub><br><sub>/mæbzuːn/</sub> |
 
 ## Other forms
 

@@ -341,8 +341,13 @@ def _attach(p: Parse) -> None:
             subj = next((w for w in args if _case(w) == "dir"), None) or (args[0] if args else None)
             obj = next((w for w in args if w is not subj), None) if transitive else None
         else:
-            subj = args[0] if args else None
-            obj = args[1] if transitive and len(args) > 1 else None
+            host = args[-1] if args and transitive and v.features.get("agent") == "external" else None
+            if host is not None:  # past transitive: the agent clitic sits on the stated object
+                obj = host
+                subj = next((w for w in args if w is not host), None)
+            else:
+                subj = args[0] if args else None
+                obj = args[1] if transitive and len(args) > 1 else None
         for w in args:
             link(w, v, "nsubj" if w is subj else "obj" if w is obj else "obl")
     for w in ws:

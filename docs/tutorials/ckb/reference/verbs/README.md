@@ -39,8 +39,8 @@ Every verb below is conjugated in full on its own page: all tenses, moods, negat
 | [**کەوتن**](kewtin.md) | kewtin | to fall | intransitive | دەکەوم | کەوت |
 | [**خستن**](xistin.md) | xistin | to drop, to put, to throw | transitive | دەخەم | خستی |
 | [**ژیان**](jyan.md) | jyan | to live; life | intransitive | دەژیم | ژیا |
-| [**ترسان**](tirisan.md) | tirisan | to be afraid | intransitive | دەترسم | ترسا |
-| [**پرسین**](pirisin.md) | pirisîn | to ask | transitive | دەپرسم | پرسیی |
+| [**ترسان**](tirsan.md) | tirsan | to be afraid | intransitive | دەترسم | ترسا |
+| [**پرسین**](pirsin.md) | pirsîn | to ask | transitive | دەپرسم | پرسیی |
 | [**گەڕان**](gerran.md) | gerran | to search, to wander | intransitive | دەگەڕێم | گەڕا |
 | [**گەیشتن**](geysitin.md) | geyşitin | to arrive, to reach | intransitive | دەگەم | گەیشت |
 | [**گەیاندن**](geyandin.md) | geyandin | to deliver, to convey | transitive | دەگەیەنم | گەیاندی |
@@ -78,15 +78,15 @@ Every verb below is conjugated in full on its own page: all tenses, moods, negat
 | [**تەقاندن**](teqandin.md) | teqandin | to blow up, to fire | transitive | دەتەقێنم | تەقاندی |
 | [**مژین**](mijin.md) | mijîn | to suck | transitive | دەمژم | مژیی |
 | [**گەزین**](gezin.md) | gezîn | to bite, to sting | transitive | دەگەزم | گەزیی |
-| [**خنکان**](xinikan.md) | xinikan | to drown, to suffocate (intr.) | intransitive | دەخنکێم | خنکا |
-| [**خنکاندن**](xinikandin.md) | xinikandin | to drown, to strangle (someone) | transitive | دەخنکێنم | خنکاندی |
+| [**خنکان**](xinkan.md) | xinkan | to drown, to suffocate (intr.) | intransitive | دەخنکێم | خنکا |
+| [**خنکاندن**](xinkandin.md) | xinkandin | to drown, to strangle (someone) | transitive | دەخنکێنم | خنکاندی |
 | [**ڕوانین**](rwanin.md) | rwanîn | to look | intransitive | دەڕوانم | ڕوانی |
 | [**ئێشان**](esan.md) | êşan | to ache, to hurt | intransitive | دەئێشم | ئێشا |
 | [**کەنین**](kenin.md) | kenîn | to laugh | intransitive | دەکەنم | کەنی |
 | [**خوێندنەوە**](xwendnewe.md) | xwêndnewe | to read | transitive | دەخوێنمەوە | خوێندیەوە |
 | [**کردنەوە**](kirdinewe.md) | kirdinewe | to open | transitive | دەکەمەوە | کردیەوە |
 | [**هاتنەوە**](hatnewe.md) | hatnewe | to come back | intransitive | دێمەوە | هاتەوە |
-| [**چوونەوە**](cunewe.md) | çûnewe | to go back | intransitive | دەچمەوە | چوووە |
+| [**چوونەوە**](cunewe.md) | çûnewe | to go back | intransitive | دەچمەوە | چووەوە |
 | [**گەڕانەوە**](gerranewe.md) | gerranewe | to return | intransitive | دەگەڕێمەوە | گەڕایەوە |
 | [**دۆزینەوە**](dozinewe.md) | dozînewe | to find, to discover | transitive | دەدۆزمەوە | دۆزییەوە |
 | [**مانەوە**](manewe.md) | manewe | to stay (on) | intransitive | دەمێنمەوە | مایەوە |
@@ -98,7 +98,7 @@ Every verb below is conjugated in full on its own page: all tenses, moods, negat
 | [**داخستن**](daxsitin.md) | daxsitin | to close | transitive | دادەخەم | دایخست |
 | [**دانیشتن**](danistin.md) | danîştin | to sit down | intransitive | دادەنیشم | دانیشت |
 | [**ڕاگەیاندن**](rageyandin.md) | rageyandin | to announce | transitive | ڕادەگەیەنم | ڕایگەیاند |
-| [**ڕاکردن**](rakridin.md) | rakridin | to run (away) | intransitive | ڕادەکەم | ڕاکرد |
+| [**ڕاکردن**](rakridin.md) | rakridin | to run (away) | transitive | ڕادەکەم | ڕایکرد |
 | [**لێدان**](ledan.md) | lêdan | to hit, to beat | transitive | لێدەدەم | لێیدا |
 | [**پێکەنین**](pekenin.md) | pêkenîn | to laugh | intransitive | پێدەکەنم | پێکەنی |
 | [**دەرکەوتن**](derkewtin.md) | derkewtin | to appear, to come out | intransitive | دەردەکەوم | دەرکەوت |

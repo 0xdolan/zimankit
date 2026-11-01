@@ -34,7 +34,7 @@ p.tokens[0].explanation                         # the role, position and form in
 2. Adpositions (`case`) depend on the noun they mark, and that noun is `obl` of the verb.
 3. A word after an ezafe-marked noun depends on that noun: `amod` for known adjectives, `nmod:poss` for pronouns, otherwise `nmod`.
 4. Kurmanji past transitive: the oblique word is the subject (the agent), the direct word is the object, and the verb agrees with the object. Otherwise the direct word is the subject.
-5. Sorani: the first free nominal is the subject and, with a transitive verb, the second is the object.
+5. Sorani present: the first free nominal is the subject and, with a transitive verb, the second is the object. Sorani past transitive with a bare verb: the last nominal hosts the agent clitic and is the object (نانم خوارد).
 6. A nominal after the verb is `obl`, typically a goal (*Ez diçim malê*).
 
 ## Checklist
@@ -42,4 +42,5 @@ p.tokens[0].explanation                         # the role, position and form in
 - [ ] Input normalised with the dialect's orthography skill first
 - [ ] `notes` read: it says when no verb was recognised or a clause was left unclassified
 - [ ] Treated as approximate for complex sentences: the analysis is rule-based, not a trained parser
+- [ ] Not relied on for Sorani bare adpositions, split preverbs, object clitics, person copulas or definite adjective phrases, which are not analysed correctly yet
 - [ ] No source names or file paths in anything you output

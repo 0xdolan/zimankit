@@ -41,12 +41,12 @@ Everything on one page. Lesson numbers in brackets.
 
 | person | pronoun | Present | Subjunctive | Simple past | Past progressive | Present perfect | Past perfect |
 |---|---|---|---|---|---|---|---|
-| 1sg | من | **دەکەم**<br><sub>dekem</sub> | **بکەم**<br><sub>bikem</sub> | **کردم**<br><sub>kirdim</sub> | **دەمکرد**<br><sub>demkird</sub> | **کردوومە**<br><sub>kiridûme</sub> | **کردبووم**<br><sub>kirdibûm</sub> |
-| 2sg | تۆ | **دەکەیت**<br><sub>dekeyt</sub> | **بکەیت**<br><sub>bikeyt</sub> | **کردت**<br><sub>kirdit</sub> | **دەتکرد**<br><sub>detkird</sub> | **کردووتە**<br><sub>kiridûte</sub> | **کردبووت**<br><sub>kirdibût</sub> |
-| 3sg | ئەو | **دەکات**<br><sub>dekat</sub> | **بکات**<br><sub>bikat</sub> | **کردی**<br><sub>kiridî</sub> | **دەیکرد**<br><sub>deykird</sub> | **کردوویەتی**<br><sub>kiridûyetî</sub> | **کردبووی**<br><sub>kirdibûy</sub> |
-| 1pl | ئێمە | **دەکەین**<br><sub>dekeyn</sub> | **بکەین**<br><sub>bikeyn</sub> | **کردمان**<br><sub>kirdiman</sub> | **دەمانکرد**<br><sub>demankird</sub> | **کردوومانە**<br><sub>kiridûmane</sub> | **کردبوومان**<br><sub>kirdibûman</sub> |
-| 2pl | ئێوە | **دەکەن**<br><sub>deken</sub> | **بکەن**<br><sub>biken</sub> | **کردتان**<br><sub>kirditan</sub> | **دەتانکرد**<br><sub>detankird</sub> | **کردووتانە**<br><sub>kiridûtane</sub> | **کردبووتان**<br><sub>kirdibûtan</sub> |
-| 3pl | ئەوان | **دەکەن**<br><sub>deken</sub> | **بکەن**<br><sub>biken</sub> | **کردیان**<br><sub>kiridyan</sub> | **دەیانکرد**<br><sub>deyankird</sub> | **کردوویانە**<br><sub>kiridûyane</sub> | **کردبوویان**<br><sub>kirdibûyan</sub> |
+| 1sg | من | **دەکەم**<br><sub>dekem</sub> | **بکەم**<br><sub>bikem</sub> | **کردم**<br><sub>kirdim</sub> | **دەمکرد**<br><sub>demkird</sub> | **کردوومە**<br><sub>kirdûme</sub> | **کردبووم**<br><sub>kirdibûm</sub> |
+| 2sg | تۆ | **دەکەیت**<br><sub>dekeyt</sub> | **بکەیت**<br><sub>bikeyt</sub> | **کردت**<br><sub>kirdit</sub> | **دەتکرد**<br><sub>detkird</sub> | **کردووتە**<br><sub>kirdûte</sub> | **کردبووت**<br><sub>kirdibût</sub> |
+| 3sg | ئەو | **دەکات**<br><sub>dekat</sub> | **بکات**<br><sub>bikat</sub> | **کردی**<br><sub>kirdî</sub> | **دەیکرد**<br><sub>deykird</sub> | **کردوویەتی**<br><sub>kirdûyetî</sub> | **کردبووی**<br><sub>kirdibûy</sub> |
+| 1pl | ئێمە | **دەکەین**<br><sub>dekeyn</sub> | **بکەین**<br><sub>bikeyn</sub> | **کردمان**<br><sub>kirdiman</sub> | **دەمانکرد**<br><sub>demankird</sub> | **کردوومانە**<br><sub>kirdûmane</sub> | **کردبوومان**<br><sub>kirdibûman</sub> |
+| 2pl | ئێوە | **دەکەن**<br><sub>deken</sub> | **بکەن**<br><sub>biken</sub> | **کردتان**<br><sub>kirditan</sub> | **دەتانکرد**<br><sub>detankird</sub> | **کردووتانە**<br><sub>kirdûtane</sub> | **کردبووتان**<br><sub>kirdibûtan</sub> |
+| 3pl | ئەوان | **دەکەن**<br><sub>deken</sub> | **بکەن**<br><sub>biken</sub> | **کردیان**<br><sub>kirdyan</sub> | **دەیانکرد**<br><sub>deyankird</sub> | **کردوویانە**<br><sub>kirdûyane</sub> | **کردبوویان**<br><sub>kirdibûyan</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 <!-- /gen -->

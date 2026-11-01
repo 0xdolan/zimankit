@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **دانیشم**<br><sub>danîşim</sub><br><sub>/daːniːʃ(ɯ)m/</sub> | **دانەنیشم**<br><sub>danenîşim</sub><br><sub>/daːnæniːʃ(ɯ)m/</sub> |
-| 2sg | تۆ | **دانیشیت**<br><sub>danîşît</sub><br><sub>/daːniːʃiːt/</sub> | **دانەنیشیت**<br><sub>danenîşît</sub><br><sub>/daːnæniːʃiːt/</sub> |
-| 3sg | ئەو | **دانیشێت**<br><sub>danîşêt</sub><br><sub>/daːniːʃeːt/</sub> | **دانەنیشێت**<br><sub>danenîşêt</sub><br><sub>/daːnæniːʃeːt/</sub> |
-| 1pl | ئێمە | **دانیشین**<br><sub>danîşîn</sub><br><sub>/daːniːʃiːn/</sub> | **دانەنیشین**<br><sub>danenîşîn</sub><br><sub>/daːnæniːʃiːn/</sub> |
-| 2pl | ئێوە | **دانیشن**<br><sub>danîşin</sub><br><sub>/daːniːʃ(ɯ)n/</sub> | **دانەنیشن**<br><sub>danenîşin</sub><br><sub>/daːnæniːʃ(ɯ)n/</sub> |
-| 3pl | ئەوان | **دانیشن**<br><sub>danîşin</sub><br><sub>/daːniːʃ(ɯ)n/</sub> | **دانەنیشن**<br><sub>danenîşin</sub><br><sub>/daːnæniːʃ(ɯ)n/</sub> |
+| 1sg | من | **دابنیشم**<br><sub>dabnîşim</sub><br><sub>/daːbniːʃ(ɯ)m/</sub> | **دانەنیشم**<br><sub>danenîşim</sub><br><sub>/daːnæniːʃ(ɯ)m/</sub> |
+| 2sg | تۆ | **دابنیشیت**<br><sub>dabnîşît</sub><br><sub>/daːbniːʃiːt/</sub> | **دانەنیشیت**<br><sub>danenîşît</sub><br><sub>/daːnæniːʃiːt/</sub> |
+| 3sg | ئەو | **دابنیشێت**<br><sub>dabnîşêt</sub><br><sub>/daːbniːʃeːt/</sub> | **دانەنیشێت**<br><sub>danenîşêt</sub><br><sub>/daːnæniːʃeːt/</sub> |
+| 1pl | ئێمە | **دابنیشین**<br><sub>dabnîşîn</sub><br><sub>/daːbniːʃiːn/</sub> | **دانەنیشین**<br><sub>danenîşîn</sub><br><sub>/daːnæniːʃiːn/</sub> |
+| 2pl | ئێوە | **دابنیشن**<br><sub>dabnîşin</sub><br><sub>/daːbniːʃ(ɯ)n/</sub> | **دانەنیشن**<br><sub>danenîşin</sub><br><sub>/daːnæniːʃ(ɯ)n/</sub> |
+| 3pl | ئەوان | **دابنیشن**<br><sub>dabnîşin</sub><br><sub>/daːbniːʃ(ɯ)n/</sub> | **دانەنیشن**<br><sub>danenîşin</sub><br><sub>/daːnæniːʃ(ɯ)n/</sub> |
 
 ## Simple past
 
@@ -82,8 +82,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **دانیشە**<br><sub>danîşe</sub><br><sub>/daːniːʃæ/</sub> | **دامەنیشە**<br><sub>damenîşe</sub><br><sub>/daːmæniːʃæ/</sub> |
-| 2pl | ئێوە | **دانیشن**<br><sub>danîşin</sub><br><sub>/daːniːʃ(ɯ)n/</sub> | **دامەنیشن**<br><sub>damenîşin</sub><br><sub>/daːmæniːʃ(ɯ)n/</sub> |
+| 2sg | تۆ | **دابنیشە**<br><sub>dabnîşe</sub><br><sub>/daːbniːʃæ/</sub> | **دامەنیشە**<br><sub>damenîşe</sub><br><sub>/daːmæniːʃæ/</sub> |
+| 2pl | ئێوە | **دابنیشن**<br><sub>dabnîşin</sub><br><sub>/daːbniːʃ(ɯ)n/</sub> | **دامەنیشن**<br><sub>damenîşin</sub><br><sub>/daːmæniːʃ(ɯ)n/</sub> |
 
 ## Other forms
 

@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **دەستپێکەم**<br><sub>destpêkem</sub><br><sub>/dæstpeːkæm/</sub> | **دەستپێنەکەم**<br><sub>destpênekem</sub><br><sub>/dæstpeːnækæm/</sub> |
-| 2sg | تۆ | **دەستپێکەیت**<br><sub>destpêkeyt</sub><br><sub>/dæstpeːkæjt/</sub> | **دەستپێنەکەیت**<br><sub>destpênekeyt</sub><br><sub>/dæstpeːnækæjt/</sub> |
-| 3sg | ئەو | **دەستپێکات**<br><sub>destpêkat</sub><br><sub>/dæstpeːkaːt/</sub> | **دەستپێنەکات**<br><sub>destpênekat</sub><br><sub>/dæstpeːnækaːt/</sub> |
-| 1pl | ئێمە | **دەستپێکەین**<br><sub>destpêkeyn</sub><br><sub>/dæstpeːkæjn/</sub> | **دەستپێنەکەین**<br><sub>destpênekeyn</sub><br><sub>/dæstpeːnækæjn/</sub> |
-| 2pl | ئێوە | **دەستپێکەن**<br><sub>destpêken</sub><br><sub>/dæstpeːkæn/</sub> | **دەستپێنەکەن**<br><sub>destpêneken</sub><br><sub>/dæstpeːnækæn/</sub> |
-| 3pl | ئەوان | **دەستپێکەن**<br><sub>destpêken</sub><br><sub>/dæstpeːkæn/</sub> | **دەستپێنەکەن**<br><sub>destpêneken</sub><br><sub>/dæstpeːnækæn/</sub> |
+| 1sg | من | **دەستپێبکەم**<br><sub>destpêbkem</sub><br><sub>/dæstpeːbkæm/</sub> | **دەستپێنەکەم**<br><sub>destpênekem</sub><br><sub>/dæstpeːnækæm/</sub> |
+| 2sg | تۆ | **دەستپێبکەیت**<br><sub>destpêbkeyt</sub><br><sub>/dæstpeːbkæjt/</sub> | **دەستپێنەکەیت**<br><sub>destpênekeyt</sub><br><sub>/dæstpeːnækæjt/</sub> |
+| 3sg | ئەو | **دەستپێبکات**<br><sub>destpêbkat</sub><br><sub>/dæstpeːbkaːt/</sub> | **دەستپێنەکات**<br><sub>destpênekat</sub><br><sub>/dæstpeːnækaːt/</sub> |
+| 1pl | ئێمە | **دەستپێبکەین**<br><sub>destpêbkeyn</sub><br><sub>/dæstpeːbkæjn/</sub> | **دەستپێنەکەین**<br><sub>destpênekeyn</sub><br><sub>/dæstpeːnækæjn/</sub> |
+| 2pl | ئێوە | **دەستپێبکەن**<br><sub>destpêbken</sub><br><sub>/dæstpeːbkæn/</sub> | **دەستپێنەکەن**<br><sub>destpêneken</sub><br><sub>/dæstpeːnækæn/</sub> |
+| 3pl | ئەوان | **دەستپێبکەن**<br><sub>destpêbken</sub><br><sub>/dæstpeːbkæn/</sub> | **دەستپێنەکەن**<br><sub>destpêneken</sub><br><sub>/dæstpeːnækæn/</sub> |
 
 ## Simple past
 
@@ -101,8 +101,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **دەستپێکە**<br><sub>destpêke</sub><br><sub>/dæstpeːkæ/</sub> | **دەستپێمەکە**<br><sub>destpêmeke</sub><br><sub>/dæstpeːmækæ/</sub> |
-| 2pl | ئێوە | **دەستپێکەن**<br><sub>destpêken</sub><br><sub>/dæstpeːkæn/</sub> | **دەستپێمەکەن**<br><sub>destpêmeken</sub><br><sub>/dæstpeːmækæn/</sub> |
+| 2sg | تۆ | **دەستپێبکە**<br><sub>destpêbke</sub><br><sub>/dæstpeːbkæ/</sub> | **دەستپێمەکە**<br><sub>destpêmeke</sub><br><sub>/dæstpeːmækæ/</sub> |
+| 2pl | ئێوە | **دەستپێبکەن**<br><sub>destpêbken</sub><br><sub>/dæstpeːbkæn/</sub> | **دەستپێمەکەن**<br><sub>destpêmeken</sub><br><sub>/dæstpeːmækæn/</sub> |
 
 ## Other forms
 

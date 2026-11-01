@@ -1,18 +1,18 @@
 {
   "lang": "ckb",
-  "seconds": 85.9,
+  "seconds": 74.8,
   "lexicon_lemmas": 76902,
   "lexicon_forms": 2,
   "dictionary_candidates": 293307,
   "corpus_types": 2121166,
   "corpus_tokens": 98891160,
   "candidates_analysed": 703232,
-  "accepted_forms": 329190,
-  "accepted_lemmas": 100848,
-  "rejected": 349118,
-  "spelling_variants": 24924,
+  "accepted_forms": 330273,
+  "accepted_lemmas": 100560,
+  "rejected": 348016,
+  "spelling_variants": 24943,
   "rejection_reasons": {
-    "unknown stem (not in lexicon, too rare for a new lemma)": 342271,
+    "unknown stem (not in lexicon, too rare for a new lemma)": 341169,
     "arabic-only letter": 4913,
     "non-Kurdish character(s)": 1219,
     "medial hamza outside a vowel hiatus": 378,
@@ -26,16 +26,16 @@
     "initial vowel without ئ": 1
   },
   "pos_distribution": {
-    "NOUN": 230036,
-    "ADJ": 39658,
-    "VERB": 30286,
-    "X": 19281,
-    "ADV": 9078,
+    "NOUN": 230206,
+    "ADJ": 39787,
+    "VERB": 31096,
+    "X": 19259,
+    "ADV": 9073,
     "NUM": 210,
     "PRON": 208,
     "ADP": 161,
     "PROPN": 130,
-    "DET": 59,
+    "DET": 60,
     "CCONJ": 36,
     "SCONJ": 18,
     "INTJ": 17,
@@ -43,18 +43,18 @@
     "AUX": 3
   },
   "source_distribution": {
-    "web": 302992,
-    "news": 195520,
-    "encyclopedia": 155016,
-    "bilingual": 68405,
-    "dictionary": 40459,
-    "corpus": 31597,
-    "core": 4102,
+    "web": 303993,
+    "news": 196145,
+    "encyclopedia": 155469,
+    "bilingual": 68404,
+    "dictionary": 40468,
+    "corpus": 31262,
+    "core": 4218,
     "lexicon": 2354
   },
   "ipa_vs_reference": {
     "n": 178,
-    "mean_similarity": 0.965
+    "mean_similarity": 0.97
   },
   "verbs_in_index": 7041
 }

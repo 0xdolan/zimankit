@@ -44,10 +44,10 @@
 |---|---|---|---|
 | 1sg | من | **کردم**<br><sub>kirdim</sub><br><sub>/k(ɯ)ɾd(ɯ)m/</sub> | **نەمکرد**<br><sub>nemkird</sub><br><sub>/næmk(ɯ)ɾd/</sub> |
 | 2sg | تۆ | **کردت**<br><sub>kirdit</sub><br><sub>/k(ɯ)ɾd(ɯ)t/</sub> | **نەتکرد**<br><sub>netkird</sub><br><sub>/nætk(ɯ)ɾd/</sub> |
-| 3sg | ئەو | **کردی**<br><sub>kiridî</sub><br><sub>/k(ɯ)ɾ(ɯ)diː/</sub> | **نەیکرد**<br><sub>neykird</sub><br><sub>/næjk(ɯ)ɾd/</sub> |
+| 3sg | ئەو | **کردی**<br><sub>kirdî</sub><br><sub>/k(ɯ)ɾdiː/</sub> | **نەیکرد**<br><sub>neykird</sub><br><sub>/næjk(ɯ)ɾd/</sub> |
 | 1pl | ئێمە | **کردمان**<br><sub>kirdiman</sub><br><sub>/k(ɯ)ɾd(ɯ)maːn/</sub> | **نەمانکرد**<br><sub>nemankird</sub><br><sub>/næmaːnk(ɯ)ɾd/</sub> |
 | 2pl | ئێوە | **کردتان**<br><sub>kirditan</sub><br><sub>/k(ɯ)ɾd(ɯ)taːn/</sub> | **نەتانکرد**<br><sub>netankird</sub><br><sub>/nætaːnk(ɯ)ɾd/</sub> |
-| 3pl | ئەوان | **کردیان**<br><sub>kiridyan</sub><br><sub>/k(ɯ)ɾ(ɯ)djaːn/</sub> | **نەیانکرد**<br><sub>neyankird</sub><br><sub>/næjaːnk(ɯ)ɾd/</sub> |
+| 3pl | ئەوان | **کردیان**<br><sub>kirdyan</sub><br><sub>/k(ɯ)ɾdjaːn/</sub> | **نەیانکرد**<br><sub>neyankird</sub><br><sub>/næjaːnk(ɯ)ɾd/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -72,12 +72,12 @@
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **کردوومە**<br><sub>kiridûme</sub><br><sub>/k(ɯ)ɾ(ɯ)duːmæ/</sub> | **کردبووم**<br><sub>kirdibûm</sub><br><sub>/k(ɯ)ɾd(ɯ)buːm/</sub> |
-| 2sg | تۆ | **کردووتە**<br><sub>kiridûte</sub><br><sub>/k(ɯ)ɾ(ɯ)duːtæ/</sub> | **کردبووت**<br><sub>kirdibût</sub><br><sub>/k(ɯ)ɾd(ɯ)buːt/</sub> |
-| 3sg | ئەو | **کردوویەتی**<br><sub>kiridûyetî</sub><br><sub>/k(ɯ)ɾ(ɯ)duːjætiː/</sub> | **کردبووی**<br><sub>kirdibûy</sub><br><sub>/k(ɯ)ɾd(ɯ)buːj/</sub> |
-| 1pl | ئێمە | **کردوومانە**<br><sub>kiridûmane</sub><br><sub>/k(ɯ)ɾ(ɯ)duːmaːnæ/</sub> | **کردبوومان**<br><sub>kirdibûman</sub><br><sub>/k(ɯ)ɾd(ɯ)buːmaːn/</sub> |
-| 2pl | ئێوە | **کردووتانە**<br><sub>kiridûtane</sub><br><sub>/k(ɯ)ɾ(ɯ)duːtaːnæ/</sub> | **کردبووتان**<br><sub>kirdibûtan</sub><br><sub>/k(ɯ)ɾd(ɯ)buːtaːn/</sub> |
-| 3pl | ئەوان | **کردوویانە**<br><sub>kiridûyane</sub><br><sub>/k(ɯ)ɾ(ɯ)duːjaːnæ/</sub> | **کردبوویان**<br><sub>kirdibûyan</sub><br><sub>/k(ɯ)ɾd(ɯ)buːjaːn/</sub> |
+| 1sg | من | **کردوومە**<br><sub>kirdûme</sub><br><sub>/k(ɯ)ɾduːmæ/</sub> | **کردبووم**<br><sub>kirdibûm</sub><br><sub>/k(ɯ)ɾd(ɯ)buːm/</sub> |
+| 2sg | تۆ | **کردووتە**<br><sub>kirdûte</sub><br><sub>/k(ɯ)ɾduːtæ/</sub> | **کردبووت**<br><sub>kirdibût</sub><br><sub>/k(ɯ)ɾd(ɯ)buːt/</sub> |
+| 3sg | ئەو | **کردوویەتی**<br><sub>kirdûyetî</sub><br><sub>/k(ɯ)ɾduːjætiː/</sub> | **کردبووی**<br><sub>kirdibûy</sub><br><sub>/k(ɯ)ɾd(ɯ)buːj/</sub> |
+| 1pl | ئێمە | **کردوومانە**<br><sub>kirdûmane</sub><br><sub>/k(ɯ)ɾduːmaːnæ/</sub> | **کردبوومان**<br><sub>kirdibûman</sub><br><sub>/k(ɯ)ɾd(ɯ)buːmaːn/</sub> |
+| 2pl | ئێوە | **کردووتانە**<br><sub>kirdûtane</sub><br><sub>/k(ɯ)ɾduːtaːnæ/</sub> | **کردبووتان**<br><sub>kirdibûtan</sub><br><sub>/k(ɯ)ɾd(ɯ)buːtaːn/</sub> |
+| 3pl | ئەوان | **کردوویانە**<br><sub>kirdûyane</sub><br><sub>/k(ɯ)ɾduːjaːnæ/</sub> | **کردبوویان**<br><sub>kirdibûyan</sub><br><sub>/k(ɯ)ɾd(ɯ)buːjaːn/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -109,10 +109,10 @@
 |---|---|---|
 | past perfective, agent clitic elsewhere | **کرد** | kird |
 | past progressive, agent clitic elsewhere | **دەکرد** | dekrid |
-| present perfect, agent clitic elsewhere | **کردووە** | kiridûwe |
+| present perfect, agent clitic elsewhere | **کردووە** | kirdûwe |
 | past perfect, agent clitic elsewhere | **کردبوو** | kirdibû |
 | infinitive | **کردن** | kirdin |
-| past participle | **کردوو** | kiridû |
+| past participle | **کردوو** | kirdû |
 | passive participle | **کراو** | kiraw |
 
 ---

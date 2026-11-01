@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **بەکارهێنم**<br><sub>bekarhênim</sub><br><sub>/bækaːɾheːn(ɯ)m/</sub> | **بەکارنەهێنم**<br><sub>bekarnehênim</sub><br><sub>/bækaːɾnæheːn(ɯ)m/</sub> |
-| 2sg | تۆ | **بەکارهێنیت**<br><sub>bekarhênît</sub><br><sub>/bækaːɾheːniːt/</sub> | **بەکارنەهێنیت**<br><sub>bekarnehênît</sub><br><sub>/bækaːɾnæheːniːt/</sub> |
-| 3sg | ئەو | **بەکارهێنێت**<br><sub>bekarhênêt</sub><br><sub>/bækaːɾheːneːt/</sub> | **بەکارنەهێنێت**<br><sub>bekarnehênêt</sub><br><sub>/bækaːɾnæheːneːt/</sub> |
-| 1pl | ئێمە | **بەکارهێنین**<br><sub>bekarhênîn</sub><br><sub>/bækaːɾheːniːn/</sub> | **بەکارنەهێنین**<br><sub>bekarnehênîn</sub><br><sub>/bækaːɾnæheːniːn/</sub> |
-| 2pl | ئێوە | **بەکارهێنن**<br><sub>bekarhênin</sub><br><sub>/bækaːɾheːn(ɯ)n/</sub> | **بەکارنەهێنن**<br><sub>bekarnehênin</sub><br><sub>/bækaːɾnæheːn(ɯ)n/</sub> |
-| 3pl | ئەوان | **بەکارهێنن**<br><sub>bekarhênin</sub><br><sub>/bækaːɾheːn(ɯ)n/</sub> | **بەکارنەهێنن**<br><sub>bekarnehênin</sub><br><sub>/bækaːɾnæheːn(ɯ)n/</sub> |
+| 1sg | من | **بەکاربهێنم**<br><sub>bekarbihênim</sub><br><sub>/bækaːɾb(ɯ)heːn(ɯ)m/</sub> | **بەکارنەهێنم**<br><sub>bekarnehênim</sub><br><sub>/bækaːɾnæheːn(ɯ)m/</sub> |
+| 2sg | تۆ | **بەکاربهێنیت**<br><sub>bekarbihênît</sub><br><sub>/bækaːɾb(ɯ)heːniːt/</sub> | **بەکارنەهێنیت**<br><sub>bekarnehênît</sub><br><sub>/bækaːɾnæheːniːt/</sub> |
+| 3sg | ئەو | **بەکاربهێنێت**<br><sub>bekarbihênêt</sub><br><sub>/bækaːɾb(ɯ)heːneːt/</sub> | **بەکارنەهێنێت**<br><sub>bekarnehênêt</sub><br><sub>/bækaːɾnæheːneːt/</sub> |
+| 1pl | ئێمە | **بەکاربهێنین**<br><sub>bekarbihênîn</sub><br><sub>/bækaːɾb(ɯ)heːniːn/</sub> | **بەکارنەهێنین**<br><sub>bekarnehênîn</sub><br><sub>/bækaːɾnæheːniːn/</sub> |
+| 2pl | ئێوە | **بەکاربهێنن**<br><sub>bekarbihênin</sub><br><sub>/bækaːɾb(ɯ)heːn(ɯ)n/</sub> | **بەکارنەهێنن**<br><sub>bekarnehênin</sub><br><sub>/bækaːɾnæheːn(ɯ)n/</sub> |
+| 3pl | ئەوان | **بەکاربهێنن**<br><sub>bekarbihênin</sub><br><sub>/bækaːɾb(ɯ)heːn(ɯ)n/</sub> | **بەکارنەهێنن**<br><sub>bekarnehênin</sub><br><sub>/bækaːɾnæheːn(ɯ)n/</sub> |
 
 ## Simple past
 
@@ -101,8 +101,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بەکارهێنە**<br><sub>bekarhêne</sub><br><sub>/bækaːɾheːnæ/</sub> | **بەکارمەهێنە**<br><sub>bekarmehêne</sub><br><sub>/bækaːɾmæheːnæ/</sub> |
-| 2pl | ئێوە | **بەکارهێنن**<br><sub>bekarhênin</sub><br><sub>/bækaːɾheːn(ɯ)n/</sub> | **بەکارمەهێنن**<br><sub>bekarmehênin</sub><br><sub>/bækaːɾmæheːn(ɯ)n/</sub> |
+| 2sg | تۆ | **بەکاربهێنە**<br><sub>bekarbihêne</sub><br><sub>/bækaːɾb(ɯ)heːnæ/</sub> | **بەکارمەهێنە**<br><sub>bekarmehêne</sub><br><sub>/bækaːɾmæheːnæ/</sub> |
+| 2pl | ئێوە | **بەکاربهێنن**<br><sub>bekarbihênin</sub><br><sub>/bækaːɾb(ɯ)heːn(ɯ)n/</sub> | **بەکارمەهێنن**<br><sub>bekarmehênin</sub><br><sub>/bækaːɾmæheːn(ɯ)n/</sub> |
 
 ## Other forms
 

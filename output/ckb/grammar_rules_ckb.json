@@ -244,7 +244,7 @@
       },
       {
         "id": "squeeze",
-        "rule": "ەە -> ە, ڕڕ -> ڕ, ڵڵ -> ڵ, ووو -> وو"
+        "rule": "ەە -> ە, ڕڕ -> ڕ, ڵڵڵ -> ڵڵ, ووو -> وو, یییی -> ییی; ڵڵ (ئەڵڵا), ییی (سنەییی) and ر+ڕ, ل+ڵ stay"
       }
     ]
   },
@@ -440,6 +440,41 @@
       {
         "slot": "NUMDEF",
         "affixes": [
+          {
+            "form": "ەکان",
+            "tag": "DEF.PL",
+            "after": "UU",
+            "features": {
+              "definite": "def",
+              "number": "pl"
+            }
+          },
+          {
+            "form": "ەکە",
+            "tag": "DEF.SG",
+            "after": "UU",
+            "features": {
+              "definite": "def",
+              "number": "sg"
+            }
+          },
+          {
+            "form": "ێک",
+            "tag": "INDEF",
+            "after": "UU",
+            "features": {
+              "definite": "ind",
+              "number": "sg"
+            }
+          },
+          {
+            "form": "ان",
+            "tag": "PL",
+            "after": "UU",
+            "features": {
+              "number": "pl"
+            }
+          },
           {
             "form": "ەکان",
             "tag": "DEF.PL",

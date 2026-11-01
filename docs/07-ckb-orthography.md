@@ -15,6 +15,7 @@
 * **ئ** is a seat for the glottal onset of every vowel-initial word (`ئاو`, `ئێمە`); word-initially before a consonant it spells the bizroke itself (`ئنجا` inca).
 * **ڕ vs ر**: trill vs tap. Word-initially only the trill exists, so standard spelling writes `ڕ` there.
 * **ڵ vs ل**: velarised vs clear l; `ڵ` never starts a word.
+* **Sounds and letters:** 37 sounds, 34 letters. Five sounds (w, u, y, î, i) share `و`, `ی` and the unwritten bizroke, so 8 vowels have 7 written forms.
 * **ه vs ە**: consonant /h/ vs vowel /æ/; never interchangeable.
 
 ## Normalisation (`skills_ckb/orthography.py`)
@@ -25,8 +26,9 @@
 4. Character map: `ك → ک`, `ي ى → ی`, `ھ ہ → ه`, `ة → ە`, `ۀ → ەی`, `ې → ێ` …
 5. **Legacy encoding**: `ه + ZWNJ → ە` always; when a chunk has no `ە` at all but many word-final `ه`, those become `ە` as well (`is_legacy_encoded`).
 6. Harakat and tatweel removed.
-7. Contextual: initial `ر → ڕ`, initial bare vowel → `ئ` + vowel, `ەە → ە`, `ڕڕ → ڕ`, `ڵڵ → ڵ`, `ووو → وو`.
+7. Contextual: initial `ر → ڕ`, initial bare vowel → `ئ` + vowel, `ەە → ە`, `ڕڕ → ڕ`, `ڵڵڵ → ڵڵ`, `ووو → وو`, `یییی → ییی`. These stay as written: `ڵڵ` (`ئەڵڵا`), `ییی` (`سنەییی دڵسۆز`), and `ر` next to `ڕ` or `ل` next to `ڵ`, because they are different letters.
 8. Punctuation `, ; ? → ، ؛ ؟`, digits → Arabic-Indic (configurable).
+9. `ی + ZWNJ + یە → ییە` (`سپی‌یە → سپییە`), and a ZWNJ-attached `و` "and" becomes a separate word (`من‌و تۆ → من و تۆ`).
 
 Real input from the news corpus and its normalised form:
 
@@ -36,6 +38,10 @@ out: بەڕێوەبەرایەتی ئاوی سلێمانی لەماوەی مان�
 ```
 
 ## Validation
+
+For the full written standard, what zimankit implements of it and where the authorities disagree, see [chapter 23](23-ckb-written-standard.md).
+
+`structural_problems(w)` reports impossible words, and the wordlist builder rejects on these only. `validate_word(w)` adds the spelling standard: initial `وو` (`ووشە`), final `و` after a consonant (`چو`), initial `ڵ`, ZWNJ inside `یی`, and more than three `ی`. A common non-standard form such as `وەکو` is therefore recognised in the lexicon and still flagged by the validator.
 
 `validate_word(w)` returns a list of problems: Arabic-only letters (`ث ذ ص ض ط ظ ة ء أ إ ؤ`), non-Kurdish characters (reported by code point), doubled vowels, initial vowel without `ئ`, initial `ر`, medial hamza outside a hiatus, legacy final heh.
 

@@ -29,12 +29,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **بگریم**<br><sub>bigirîm</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾiːm/</sub> | **نەگریم**<br><sub>negrîm</sub><br><sub>/næɡɾiːm/</sub> |
-| 2sg | تۆ | **بگرییت**<br><sub>bigirît</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾiːt/</sub> | **نەگرییت**<br><sub>negrît</sub><br><sub>/næɡɾiːt/</sub> |
-| 3sg | ئەو | **بگری**<br><sub>bigirî</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾiː/</sub> | **نەگری**<br><sub>negrî</sub><br><sub>/næɡɾiː/</sub> |
-| 1pl | ئێمە | **بگریین**<br><sub>bigirîn</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾiːn/</sub> | **نەگریین**<br><sub>negrîn</sub><br><sub>/næɡɾiːn/</sub> |
-| 2pl | ئێوە | **بگرین**<br><sub>bigirîn</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾiːn/</sub> | **نەگرین**<br><sub>negrîn</sub><br><sub>/næɡɾiːn/</sub> |
-| 3pl | ئەوان | **بگرین**<br><sub>bigirîn</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾiːn/</sub> | **نەگرین**<br><sub>negrîn</sub><br><sub>/næɡɾiːn/</sub> |
+| 1sg | من | **بگریم**<br><sub>bigrîm</sub><br><sub>/b(ɯ)ɡɾiːm/</sub> | **نەگریم**<br><sub>negrîm</sub><br><sub>/næɡɾiːm/</sub> |
+| 2sg | تۆ | **بگرییت**<br><sub>bigrît</sub><br><sub>/b(ɯ)ɡɾiːt/</sub> | **نەگرییت**<br><sub>negrît</sub><br><sub>/næɡɾiːt/</sub> |
+| 3sg | ئەو | **بگری**<br><sub>bigrî</sub><br><sub>/b(ɯ)ɡɾiː/</sub> | **نەگری**<br><sub>negrî</sub><br><sub>/næɡɾiː/</sub> |
+| 1pl | ئێمە | **بگریین**<br><sub>bigrîn</sub><br><sub>/b(ɯ)ɡɾiːn/</sub> | **نەگریین**<br><sub>negrîn</sub><br><sub>/næɡɾiːn/</sub> |
+| 2pl | ئێوە | **بگرین**<br><sub>bigrîn</sub><br><sub>/b(ɯ)ɡɾiːn/</sub> | **نەگرین**<br><sub>negrîn</sub><br><sub>/næɡɾiːn/</sub> |
+| 3pl | ئەوان | **بگرین**<br><sub>bigrîn</sub><br><sub>/b(ɯ)ɡɾiːn/</sub> | **نەگرین**<br><sub>negrîn</sub><br><sub>/næɡɾiːn/</sub> |
 
 ## Simple past
 
@@ -81,8 +81,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بگری**<br><sub>bigirî</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾiː/</sub> | **مەگری**<br><sub>megrî</sub><br><sub>/mæɡɾiː/</sub> |
-| 2pl | ئێوە | **بگرین**<br><sub>bigirîn</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾiːn/</sub> | **مەگرین**<br><sub>megrîn</sub><br><sub>/mæɡɾiːn/</sub> |
+| 2sg | تۆ | **بگری**<br><sub>bigrî</sub><br><sub>/b(ɯ)ɡɾiː/</sub> | **مەگری**<br><sub>megrî</sub><br><sub>/mæɡɾiː/</sub> |
+| 2pl | ئێوە | **بگرین**<br><sub>bigrîn</sub><br><sub>/b(ɯ)ɡɾiːn/</sub> | **مەگرین**<br><sub>megrîn</sub><br><sub>/mæɡɾiːn/</sub> |
 
 ## Other forms
 

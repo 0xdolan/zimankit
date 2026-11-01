@@ -26,7 +26,7 @@ Every word used in the Central Kurdish (Sorani) lessons (153 entries). IPA and L
 | **بەرد** | berd | /bæɾd/ | stone |
 | **بەستن** | bestin | /bæst(ɯ)n/ | to tie, to fasten |
 | **بەکارهێنان** | bekarhênan | /bækaːɾheːnaːn/ | to use |
-| **ترسان** | tirisan | /t(ɯ)ɾ(ɯ)saːn/ | to be afraid |
+| **ترسان** | tirsan | /t(ɯ)ɾsaːn/ | to be afraid |
 | **توانین** | twanîn | /twaːniːn/ | to be able, can |
 | **تۆ** | to | /toː/ | you (singular) |
 | **تێگەیشتن** | têgeyşitin | /teːɡæjʃ(ɯ)t(ɯ)n/ | to understand |
@@ -36,8 +36,8 @@ Every word used in the Central Kurdish (Sorani) lessons (153 entries). IPA and L
 | **حەوت** | ḧewt | /ħæwt/ | seven |
 | **خانە** | xane | /xaːnæ/ | house, room |
 | **خستن** | xistin | /x(ɯ)st(ɯ)n/ | to drop, to put, to throw |
-| **خنکان** | xinikan | /x(ɯ)n(ɯ)kaːn/ | to drown, to suffocate (intr.) |
-| **خنکاندن** | xinikandin | /x(ɯ)n(ɯ)kaːnd(ɯ)n/ | to drown, to strangle (someone) |
+| **خنکان** | xinkan | /x(ɯ)nkaːn/ | to drown, to suffocate (intr.) |
+| **خنکاندن** | xinkandin | /x(ɯ)nkaːnd(ɯ)n/ | to drown, to strangle (someone) |
 | **خواردن** | xwardin | /xwaːɾd(ɯ)n/ | to eat |
 | **خوێندن** | xwêndin | /xweːnd(ɯ)n/ | to read, to study |
 | **خوێندنەوە** | xwêndnewe | /xweːndnæwæ/ | to read |
@@ -108,7 +108,7 @@ Every word used in the Central Kurdish (Sorani) lessons (153 entries). IPA and L
 | **وەرگرتن** | wergirtin | /wæɾɡ(ɯ)ɾt(ɯ)n/ | to receive |
 | **پاراستن** | parastin | /paːɾaːst(ɯ)n/ | to protect |
 | **پارە** | pare | /paːɾæ/ | money |
-| **پرسین** | pirisîn | /p(ɯ)ɾ(ɯ)siːn/ | to ask |
+| **پرسین** | pirsîn | /p(ɯ)ɾsiːn/ | to ask |
 | **پیاو** | pyaw | /pjaːw/ | man |
 | **پێچان** | pêçan | /peːtʃaːn/ | to wrap, to turn |
 | **پێکهاتن** | pêkhatin | /peːkhaːt(ɯ)n/ | to consist of, to be formed |

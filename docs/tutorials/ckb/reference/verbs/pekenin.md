@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **پێکەنم**<br><sub>pêkenim</sub><br><sub>/peːkæn(ɯ)m/</sub> | **پێنەکەنم**<br><sub>pênekenim</sub><br><sub>/peːnækæn(ɯ)m/</sub> |
-| 2sg | تۆ | **پێکەنیت**<br><sub>pêkenît</sub><br><sub>/peːkæniːt/</sub> | **پێنەکەنیت**<br><sub>pênekenît</sub><br><sub>/peːnækæniːt/</sub> |
-| 3sg | ئەو | **پێکەنێت**<br><sub>pêkenêt</sub><br><sub>/peːkæneːt/</sub> | **پێنەکەنێت**<br><sub>pênekenêt</sub><br><sub>/peːnækæneːt/</sub> |
-| 1pl | ئێمە | **پێکەنین**<br><sub>pêkenîn</sub><br><sub>/peːkæniːn/</sub> | **پێنەکەنین**<br><sub>pênekenîn</sub><br><sub>/peːnækæniːn/</sub> |
-| 2pl | ئێوە | **پێکەنن**<br><sub>pêkenin</sub><br><sub>/peːkæn(ɯ)n/</sub> | **پێنەکەنن**<br><sub>pênekenin</sub><br><sub>/peːnækæn(ɯ)n/</sub> |
-| 3pl | ئەوان | **پێکەنن**<br><sub>pêkenin</sub><br><sub>/peːkæn(ɯ)n/</sub> | **پێنەکەنن**<br><sub>pênekenin</sub><br><sub>/peːnækæn(ɯ)n/</sub> |
+| 1sg | من | **پێبکەنم**<br><sub>pêbkenim</sub><br><sub>/peːbkæn(ɯ)m/</sub> | **پێنەکەنم**<br><sub>pênekenim</sub><br><sub>/peːnækæn(ɯ)m/</sub> |
+| 2sg | تۆ | **پێبکەنیت**<br><sub>pêbkenît</sub><br><sub>/peːbkæniːt/</sub> | **پێنەکەنیت**<br><sub>pênekenît</sub><br><sub>/peːnækæniːt/</sub> |
+| 3sg | ئەو | **پێبکەنێت**<br><sub>pêbkenêt</sub><br><sub>/peːbkæneːt/</sub> | **پێنەکەنێت**<br><sub>pênekenêt</sub><br><sub>/peːnækæneːt/</sub> |
+| 1pl | ئێمە | **پێبکەنین**<br><sub>pêbkenîn</sub><br><sub>/peːbkæniːn/</sub> | **پێنەکەنین**<br><sub>pênekenîn</sub><br><sub>/peːnækæniːn/</sub> |
+| 2pl | ئێوە | **پێبکەنن**<br><sub>pêbkenin</sub><br><sub>/peːbkæn(ɯ)n/</sub> | **پێنەکەنن**<br><sub>pênekenin</sub><br><sub>/peːnækæn(ɯ)n/</sub> |
+| 3pl | ئەوان | **پێبکەنن**<br><sub>pêbkenin</sub><br><sub>/peːbkæn(ɯ)n/</sub> | **پێنەکەنن**<br><sub>pênekenin</sub><br><sub>/peːnækæn(ɯ)n/</sub> |
 
 ## Simple past
 
@@ -82,8 +82,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **پێکەنە**<br><sub>pêkene</sub><br><sub>/peːkænæ/</sub> | **پێمەکەنە**<br><sub>pêmekene</sub><br><sub>/peːmækænæ/</sub> |
-| 2pl | ئێوە | **پێکەنن**<br><sub>pêkenin</sub><br><sub>/peːkæn(ɯ)n/</sub> | **پێمەکەنن**<br><sub>pêmekenin</sub><br><sub>/peːmækæn(ɯ)n/</sub> |
+| 2sg | تۆ | **پێبکەنە**<br><sub>pêbkene</sub><br><sub>/peːbkænæ/</sub> | **پێمەکەنە**<br><sub>pêmekene</sub><br><sub>/peːmækænæ/</sub> |
+| 2pl | ئێوە | **پێبکەنن**<br><sub>pêbkenin</sub><br><sub>/peːbkæn(ɯ)n/</sub> | **پێمەکەنن**<br><sub>pêmekenin</sub><br><sub>/peːmækæn(ɯ)n/</sub> |
 
 ## Other forms
 

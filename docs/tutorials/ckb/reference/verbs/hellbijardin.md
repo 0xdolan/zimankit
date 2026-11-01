@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **هەڵبژێرم**<br><sub>hellbijêrm</sub><br><sub>/hæɫb(ɯ)ʒeːɾm/</sub> | **هەڵنەبژێرم**<br><sub>hellnebjêrm</sub><br><sub>/hæɫnæbʒeːɾm/</sub> |
-| 2sg | تۆ | **هەڵبژێریت**<br><sub>hellbijêrît</sub><br><sub>/hæɫb(ɯ)ʒeːɾiːt/</sub> | **هەڵنەبژێریت**<br><sub>hellnebjêrît</sub><br><sub>/hæɫnæbʒeːɾiːt/</sub> |
-| 3sg | ئەو | **هەڵبژێرێت**<br><sub>hellbijêrêt</sub><br><sub>/hæɫb(ɯ)ʒeːɾeːt/</sub> | **هەڵنەبژێرێت**<br><sub>hellnebjêrêt</sub><br><sub>/hæɫnæbʒeːɾeːt/</sub> |
-| 1pl | ئێمە | **هەڵبژێرین**<br><sub>hellbijêrîn</sub><br><sub>/hæɫb(ɯ)ʒeːɾiːn/</sub> | **هەڵنەبژێرین**<br><sub>hellnebjêrîn</sub><br><sub>/hæɫnæbʒeːɾiːn/</sub> |
-| 2pl | ئێوە | **هەڵبژێرن**<br><sub>hellbijêrn</sub><br><sub>/hæɫb(ɯ)ʒeːɾn/</sub> | **هەڵنەبژێرن**<br><sub>hellnebjêrn</sub><br><sub>/hæɫnæbʒeːɾn/</sub> |
-| 3pl | ئەوان | **هەڵبژێرن**<br><sub>hellbijêrn</sub><br><sub>/hæɫb(ɯ)ʒeːɾn/</sub> | **هەڵنەبژێرن**<br><sub>hellnebjêrn</sub><br><sub>/hæɫnæbʒeːɾn/</sub> |
+| 1sg | من | **هەڵببژێرم**<br><sub>hellbibjêrm</sub><br><sub>/hæɫb(ɯ)bʒeːɾm/</sub> | **هەڵنەبژێرم**<br><sub>hellnebjêrm</sub><br><sub>/hæɫnæbʒeːɾm/</sub> |
+| 2sg | تۆ | **هەڵببژێریت**<br><sub>hellbibjêrît</sub><br><sub>/hæɫb(ɯ)bʒeːɾiːt/</sub> | **هەڵنەبژێریت**<br><sub>hellnebjêrît</sub><br><sub>/hæɫnæbʒeːɾiːt/</sub> |
+| 3sg | ئەو | **هەڵببژێرێت**<br><sub>hellbibjêrêt</sub><br><sub>/hæɫb(ɯ)bʒeːɾeːt/</sub> | **هەڵنەبژێرێت**<br><sub>hellnebjêrêt</sub><br><sub>/hæɫnæbʒeːɾeːt/</sub> |
+| 1pl | ئێمە | **هەڵببژێرین**<br><sub>hellbibjêrîn</sub><br><sub>/hæɫb(ɯ)bʒeːɾiːn/</sub> | **هەڵنەبژێرین**<br><sub>hellnebjêrîn</sub><br><sub>/hæɫnæbʒeːɾiːn/</sub> |
+| 2pl | ئێوە | **هەڵببژێرن**<br><sub>hellbibjêrn</sub><br><sub>/hæɫb(ɯ)bʒeːɾn/</sub> | **هەڵنەبژێرن**<br><sub>hellnebjêrn</sub><br><sub>/hæɫnæbʒeːɾn/</sub> |
+| 3pl | ئەوان | **هەڵببژێرن**<br><sub>hellbibjêrn</sub><br><sub>/hæɫb(ɯ)bʒeːɾn/</sub> | **هەڵنەبژێرن**<br><sub>hellnebjêrn</sub><br><sub>/hæɫnæbʒeːɾn/</sub> |
 
 ## Simple past
 
@@ -101,8 +101,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **هەڵبژێرە**<br><sub>hellbijêre</sub><br><sub>/hæɫb(ɯ)ʒeːɾæ/</sub> | **هەڵمەبژێرە**<br><sub>hellmebjêre</sub><br><sub>/hæɫmæbʒeːɾæ/</sub> |
-| 2pl | ئێوە | **هەڵبژێرن**<br><sub>hellbijêrn</sub><br><sub>/hæɫb(ɯ)ʒeːɾn/</sub> | **هەڵمەبژێرن**<br><sub>hellmebjêrn</sub><br><sub>/hæɫmæbʒeːɾn/</sub> |
+| 2sg | تۆ | **هەڵببژێرە**<br><sub>hellbibjêre</sub><br><sub>/hæɫb(ɯ)bʒeːɾæ/</sub> | **هەڵمەبژێرە**<br><sub>hellmebjêre</sub><br><sub>/hæɫmæbʒeːɾæ/</sub> |
+| 2pl | ئێوە | **هەڵببژێرن**<br><sub>hellbibjêrn</sub><br><sub>/hæɫb(ɯ)bʒeːɾn/</sub> | **هەڵمەبژێرن**<br><sub>hellmebjêrn</sub><br><sub>/hæɫmæbʒeːɾn/</sub> |
 
 ## Other forms
 

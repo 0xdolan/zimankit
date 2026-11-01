@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **هەڵگرم**<br><sub>hellgirm</sub><br><sub>/hæɫɡ(ɯ)ɾm/</sub> | **هەڵنەگرم**<br><sub>hellnegrim</sub><br><sub>/hæɫnæɡɾ(ɯ)m/</sub> |
-| 2sg | تۆ | **هەڵگریت**<br><sub>hellgirît</sub><br><sub>/hæɫɡ(ɯ)ɾiːt/</sub> | **هەڵنەگریت**<br><sub>hellnegrît</sub><br><sub>/hæɫnæɡɾiːt/</sub> |
-| 3sg | ئەو | **هەڵگرێت**<br><sub>hellgirêt</sub><br><sub>/hæɫɡ(ɯ)ɾeːt/</sub> | **هەڵنەگرێت**<br><sub>hellnegrêt</sub><br><sub>/hæɫnæɡɾeːt/</sub> |
-| 1pl | ئێمە | **هەڵگرین**<br><sub>hellgirîn</sub><br><sub>/hæɫɡ(ɯ)ɾiːn/</sub> | **هەڵنەگرین**<br><sub>hellnegrîn</sub><br><sub>/hæɫnæɡɾiːn/</sub> |
-| 2pl | ئێوە | **هەڵگرن**<br><sub>hellgirn</sub><br><sub>/hæɫɡ(ɯ)ɾn/</sub> | **هەڵنەگرن**<br><sub>hellnegrin</sub><br><sub>/hæɫnæɡɾ(ɯ)n/</sub> |
-| 3pl | ئەوان | **هەڵگرن**<br><sub>hellgirn</sub><br><sub>/hæɫɡ(ɯ)ɾn/</sub> | **هەڵنەگرن**<br><sub>hellnegrin</sub><br><sub>/hæɫnæɡɾ(ɯ)n/</sub> |
+| 1sg | من | **هەڵبگرم**<br><sub>hellbigirm</sub><br><sub>/hæɫb(ɯ)ɡ(ɯ)ɾm/</sub> | **هەڵنەگرم**<br><sub>hellnegrim</sub><br><sub>/hæɫnæɡɾ(ɯ)m/</sub> |
+| 2sg | تۆ | **هەڵبگریت**<br><sub>hellbigrît</sub><br><sub>/hæɫb(ɯ)ɡɾiːt/</sub> | **هەڵنەگریت**<br><sub>hellnegrît</sub><br><sub>/hæɫnæɡɾiːt/</sub> |
+| 3sg | ئەو | **هەڵبگرێت**<br><sub>hellbigrêt</sub><br><sub>/hæɫb(ɯ)ɡɾeːt/</sub> | **هەڵنەگرێت**<br><sub>hellnegrêt</sub><br><sub>/hæɫnæɡɾeːt/</sub> |
+| 1pl | ئێمە | **هەڵبگرین**<br><sub>hellbigrîn</sub><br><sub>/hæɫb(ɯ)ɡɾiːn/</sub> | **هەڵنەگرین**<br><sub>hellnegrîn</sub><br><sub>/hæɫnæɡɾiːn/</sub> |
+| 2pl | ئێوە | **هەڵبگرن**<br><sub>hellbigirn</sub><br><sub>/hæɫb(ɯ)ɡ(ɯ)ɾn/</sub> | **هەڵنەگرن**<br><sub>hellnegrin</sub><br><sub>/hæɫnæɡɾ(ɯ)n/</sub> |
+| 3pl | ئەوان | **هەڵبگرن**<br><sub>hellbigirn</sub><br><sub>/hæɫb(ɯ)ɡ(ɯ)ɾn/</sub> | **هەڵنەگرن**<br><sub>hellnegrin</sub><br><sub>/hæɫnæɡɾ(ɯ)n/</sub> |
 
 ## Simple past
 
@@ -101,8 +101,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **هەڵگرە**<br><sub>hellgire</sub><br><sub>/hæɫɡ(ɯ)ɾæ/</sub> | **هەڵمەگرە**<br><sub>hellmegre</sub><br><sub>/hæɫmæɡɾæ/</sub> |
-| 2pl | ئێوە | **هەڵگرن**<br><sub>hellgirn</sub><br><sub>/hæɫɡ(ɯ)ɾn/</sub> | **هەڵمەگرن**<br><sub>hellmegrin</sub><br><sub>/hæɫmæɡɾ(ɯ)n/</sub> |
+| 2sg | تۆ | **هەڵبگرە**<br><sub>hellbigre</sub><br><sub>/hæɫb(ɯ)ɡɾæ/</sub> | **هەڵمەگرە**<br><sub>hellmegre</sub><br><sub>/hæɫmæɡɾæ/</sub> |
+| 2pl | ئێوە | **هەڵبگرن**<br><sub>hellbigirn</sub><br><sub>/hæɫb(ɯ)ɡ(ɯ)ɾn/</sub> | **هەڵمەگرن**<br><sub>hellmegrin</sub><br><sub>/hæɫmæɡɾ(ɯ)n/</sub> |
 
 ## Other forms
 

@@ -29,12 +29,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **بکشێم**<br><sub>bikişêm</sub><br><sub>/b(ɯ)k(ɯ)ʃeːm/</sub> | **نەکشێم**<br><sub>nekşêm</sub><br><sub>/nækʃeːm/</sub> |
-| 2sg | تۆ | **بکشێیت**<br><sub>bikişêyt</sub><br><sub>/b(ɯ)k(ɯ)ʃeːjt/</sub> | **نەکشێیت**<br><sub>nekşêyt</sub><br><sub>/nækʃeːjt/</sub> |
-| 3sg | ئەو | **بکشێت**<br><sub>bikişêt</sub><br><sub>/b(ɯ)k(ɯ)ʃeːt/</sub> | **نەکشێت**<br><sub>nekşêt</sub><br><sub>/nækʃeːt/</sub> |
-| 1pl | ئێمە | **بکشێین**<br><sub>bikişêyn</sub><br><sub>/b(ɯ)k(ɯ)ʃeːjn/</sub> | **نەکشێین**<br><sub>nekşêyn</sub><br><sub>/nækʃeːjn/</sub> |
-| 2pl | ئێوە | **بکشێن**<br><sub>bikişên</sub><br><sub>/b(ɯ)k(ɯ)ʃeːn/</sub> | **نەکشێن**<br><sub>nekşên</sub><br><sub>/nækʃeːn/</sub> |
-| 3pl | ئەوان | **بکشێن**<br><sub>bikişên</sub><br><sub>/b(ɯ)k(ɯ)ʃeːn/</sub> | **نەکشێن**<br><sub>nekşên</sub><br><sub>/nækʃeːn/</sub> |
+| 1sg | من | **بکشێم**<br><sub>bikşêm</sub><br><sub>/b(ɯ)kʃeːm/</sub> | **نەکشێم**<br><sub>nekşêm</sub><br><sub>/nækʃeːm/</sub> |
+| 2sg | تۆ | **بکشێیت**<br><sub>bikşêyt</sub><br><sub>/b(ɯ)kʃeːjt/</sub> | **نەکشێیت**<br><sub>nekşêyt</sub><br><sub>/nækʃeːjt/</sub> |
+| 3sg | ئەو | **بکشێت**<br><sub>bikşêt</sub><br><sub>/b(ɯ)kʃeːt/</sub> | **نەکشێت**<br><sub>nekşêt</sub><br><sub>/nækʃeːt/</sub> |
+| 1pl | ئێمە | **بکشێین**<br><sub>bikşêyn</sub><br><sub>/b(ɯ)kʃeːjn/</sub> | **نەکشێین**<br><sub>nekşêyn</sub><br><sub>/nækʃeːjn/</sub> |
+| 2pl | ئێوە | **بکشێن**<br><sub>bikşên</sub><br><sub>/b(ɯ)kʃeːn/</sub> | **نەکشێن**<br><sub>nekşên</sub><br><sub>/nækʃeːn/</sub> |
+| 3pl | ئەوان | **بکشێن**<br><sub>bikşên</sub><br><sub>/b(ɯ)kʃeːn/</sub> | **نەکشێن**<br><sub>nekşên</sub><br><sub>/nækʃeːn/</sub> |
 
 ## Simple past
 
@@ -81,8 +81,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بکشێ**<br><sub>bikişê</sub><br><sub>/b(ɯ)k(ɯ)ʃeː/</sub> | **مەکشێ**<br><sub>mekşê</sub><br><sub>/mækʃeː/</sub> |
-| 2pl | ئێوە | **بکشێن**<br><sub>bikişên</sub><br><sub>/b(ɯ)k(ɯ)ʃeːn/</sub> | **مەکشێن**<br><sub>mekşên</sub><br><sub>/mækʃeːn/</sub> |
+| 2sg | تۆ | **بکشێ**<br><sub>bikşê</sub><br><sub>/b(ɯ)kʃeː/</sub> | **مەکشێ**<br><sub>mekşê</sub><br><sub>/mækʃeː/</sub> |
+| 2pl | ئێوە | **بکشێن**<br><sub>bikşên</sub><br><sub>/b(ɯ)kʃeːn/</sub> | **مەکشێن**<br><sub>mekşên</sub><br><sub>/mækʃeːn/</sub> |
 
 ## Other forms
 

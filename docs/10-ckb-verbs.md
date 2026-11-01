@@ -12,7 +12,8 @@
 
 * past stem = infinitive − `ن`: `کردن → کرد`, `چوون → چوو`, `نووسین → نووسی`, `هێنان → هێنا`.
 * present stem is lexical: `کردن → کە`, `بردن → بە`, `گوتن → ڵێ`, `خواردن → خۆ`, `هاتن → ێ`. Reference list: `zimankit/data/ckb_verbs_core.tsv`; verbs from the lexicon use its stem, otherwise `guess_present_stem` applies the regular patterns (`-اند → -ێن`, `-ارد → -ێر`, `-ا/-ی → ∅`).
-* preverbs `هەڵ وەر دەر دا ڕا تێ پێ لێ` precede the aspect marker: `هەڵدەگرم`; subjunctive drops `ب`: `هەڵبگرم → هەڵگرم`.
+* preverbs `هەڵ وەر دەر دا ڕا تێ پێ لێ` precede the aspect marker: `هەڵدەگرم`. `ب` follows the preverb and may be dropped: `هەڵبگرم` or `هەڵگرم`, `دابنیشە` or `دانیشە`. Both forms are generated, the bare one with `variant=no_b`.
+* `ڕاکردن` means "run" but takes the agent clitics (`ڕام کرد`), so it is listed as transitive and has no passive.
 
 ## Agreement
 
@@ -36,7 +37,7 @@
 
 Intransitive `هاتن`: `هاتم هاتیت هات هاتین هاتن`, perfect `هاتووم … هاتووە`, irregular present `دێم دێیت دێت`, negative `نایەم`, imperative `وەرە`.
 
-`-ەوە` verbs attach the suffix after the person ending: `دەکەمەوە`, `دەکاتەوە`, `کردیەوە`.
+`-ەوە` verbs attach the suffix after the person ending: `دەکەمەوە`, `دەکاتەوە`, `کردیەوە`. Three `و` never occur: `چوو + ەوە = چووەوە`, `کردبوو + ەوە = کردبووەوە`. A stem in `ی` keeps its 3sg ending: `دۆزی + ی + ەوە = دۆزییەوە`. The perfect adds `ت` before `ەوە` and uses the long endings: `خوێندووەتەوە`, `خوێندوومانەتەوە`, `چووینەتەوە`. The 1sg and 2sg perfects (`کردوومەتەوە`, `هاتوویتەتەوە`) follow the pattern but are not printed in the sources checked.
 
 <!-- nav:bottom -->
 ---

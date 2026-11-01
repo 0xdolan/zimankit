@@ -104,7 +104,7 @@ def test_plural_person_syncretism():
     assert {f.features.get("person") for f in idx.lookup("دەکەین")} == {"1pl"}
 
 
-@pytest.mark.parametrize("stem", ["پیاو", "کتێب", "دەرگا", "ماسی", "خانە", "مامۆستا"])
+@pytest.mark.parametrize("stem", ["پیاو", "کتێب", "دەرگا", "ماسی", "خانە", "مامۆستا", "خانوو"])
 def test_decline_round_trip(stem):
     """Every generated nominal form is analysed back to its stem."""
     from zimankit.skills_ckb.morphology import decline
@@ -135,3 +135,70 @@ def test_normalize_word_start_after_foreign_letter():
     assert normalize("ثەورە") == "ثەورە"
     assert normalize("اسپ") == "ئاسپ"
     assert normalize("ئەو رۆژە") == "ئەو ڕۆژە"
+
+
+@pytest.mark.parametrize("word", ["سنەییی", "ڕەشایییەکە", "ئەڵڵا"])
+def test_normalize_keeps_valid_doubles(word):
+    assert normalize_word(word) == word
+
+
+def test_normalize_zwnj_and_conjunction():
+    assert normalize_word("سپی‌یە") == "سپییە"
+    assert normalize("من‌و تۆ") == "من و تۆ"
+
+
+@pytest.mark.parametrize("word", ["ووشە", "چو", "وەکو", "ڵات", "سپی‌یە"])
+def test_validate_reports_the_standard_but_builder_check_does_not(word):
+    from zimankit.skills_ckb.orthography import structural_problems
+
+    assert validate_word(word)
+    assert not structural_problems(word)
+
+
+@pytest.mark.parametrize("word", ["چوو", "ئاو", "لێو", "شیو", "تۆو", "نییە", "کۆتایی", "تو"])
+def test_validate_accepts_standard_spellings(word):
+    assert validate_word(word) == []
+
+
+@pytest.mark.parametrize("word, latin", [
+    ("منداڵ", "mindall"), ("کردووە", "kirdûwe"), ("ورمێیی", "wirmêyî"), ("ستران", "stran"), ("چ", "çi"),
+    ("بردن", "birdin"), ("کردنەوە", "kirdinewe"),
+])
+def test_one_unwritten_vowel_per_cluster(word, latin):
+    assert to_latin(word) == latin
+
+
+@pytest.mark.parametrize("form, lemma", [
+    ("چووەوە", "چوونەوە"), ("کردبووەوە", "کردنەوە"), ("کردووەتەوە", "کردنەوە"), ("خوێندووەتەوە", "خوێندنەوە"),
+    ("چووینەتەوە", "چوونەوە"), ("دۆزییەوە", "دۆزینەوە"), ("هەڵبگرم", "هەڵگرتن"), ("هەڵگرم", "هەڵگرتن"),
+    ("دابنیشە", "دانیشتن"), ("ڕامکرد", "ڕاکردن"), ("نووسیی", "نووسین"), ("پرسییان", "پرسین"), ("فڕییت", "فڕین"),
+    ("دەخوێنرێت", "خوێندن"), ("دەکڕدرێت", "کڕین"), ("دەنێردرێت", "ناردن"),
+])
+def test_forms_printed_in_the_grammars(form, lemma):
+    assert lemma in {f.lemma for f in verbs.default_index().lookup(form)}
+
+
+@pytest.mark.parametrize("form", ["چوووە", "کردبوووە", "کردوووە"])
+def test_three_waw_forms_are_gone(form):
+    assert not verbs.default_index().lookup(form)
+
+
+def test_ewe_perfect_needs_te():
+    assert not [f for f in verbs.default_index().lookup("خوێندووەوە") if f.features.get("tense") == "present_perfect"]
+
+
+def test_no_passive_for_rakirdin():
+    assert not [f for f in verbs.default_index().lookup("ڕاکرا") if f.lemma == "ڕاکردن"]
+
+
+def test_nouns_in_uu_take_consonant_endings():
+    from zimankit.skills_ckb.morphology import decline
+
+    cells = dict(decline("خانوو"))
+    assert (cells["def.sg"], cells["def.pl"], cells["ind.sg"], cells["pl"], cells["ezafe"]) == ("خانووەکە", "خانووەکان", "خانووێک", "خانووان", "خانووی")
+
+
+@pytest.mark.xfail(reason="not implemented yet: docs/23-ckb-written-standard.md#not-implemented-yet")
+@pytest.mark.parametrize("form", ["نەهاتووە", "هاتوومە", "خواردبا", "دەکرا", "بکرێت", "کرابوو"])
+def test_forms_still_missing(form):
+    assert verbs.default_index().lookup(form)

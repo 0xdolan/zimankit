@@ -44,10 +44,10 @@
 |---|---|---|---|
 | 1sg | من | **بردم**<br><sub>birdim</sub><br><sub>/b(ɯ)ɾd(ɯ)m/</sub> | **نەمبرد**<br><sub>nembird</sub><br><sub>/næmb(ɯ)ɾd/</sub> |
 | 2sg | تۆ | **بردت**<br><sub>birdit</sub><br><sub>/b(ɯ)ɾd(ɯ)t/</sub> | **نەتبرد**<br><sub>netbird</sub><br><sub>/nætb(ɯ)ɾd/</sub> |
-| 3sg | ئەو | **بردی**<br><sub>biridî</sub><br><sub>/b(ɯ)ɾ(ɯ)diː/</sub> | **نەیبرد**<br><sub>neybird</sub><br><sub>/næjb(ɯ)ɾd/</sub> |
+| 3sg | ئەو | **بردی**<br><sub>birdî</sub><br><sub>/b(ɯ)ɾdiː/</sub> | **نەیبرد**<br><sub>neybird</sub><br><sub>/næjb(ɯ)ɾd/</sub> |
 | 1pl | ئێمە | **بردمان**<br><sub>birdiman</sub><br><sub>/b(ɯ)ɾd(ɯ)maːn/</sub> | **نەمانبرد**<br><sub>nemanbird</sub><br><sub>/næmaːnb(ɯ)ɾd/</sub> |
 | 2pl | ئێوە | **بردتان**<br><sub>birditan</sub><br><sub>/b(ɯ)ɾd(ɯ)taːn/</sub> | **نەتانبرد**<br><sub>netanbird</sub><br><sub>/nætaːnb(ɯ)ɾd/</sub> |
-| 3pl | ئەوان | **بردیان**<br><sub>biridyan</sub><br><sub>/b(ɯ)ɾ(ɯ)djaːn/</sub> | **نەیانبرد**<br><sub>neyanbird</sub><br><sub>/næjaːnb(ɯ)ɾd/</sub> |
+| 3pl | ئەوان | **بردیان**<br><sub>birdyan</sub><br><sub>/b(ɯ)ɾdjaːn/</sub> | **نەیانبرد**<br><sub>neyanbird</sub><br><sub>/næjaːnb(ɯ)ɾd/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -72,12 +72,12 @@
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **بردوومە**<br><sub>biridûme</sub><br><sub>/b(ɯ)ɾ(ɯ)duːmæ/</sub> | **بردبووم**<br><sub>birdibûm</sub><br><sub>/b(ɯ)ɾd(ɯ)buːm/</sub> |
-| 2sg | تۆ | **بردووتە**<br><sub>biridûte</sub><br><sub>/b(ɯ)ɾ(ɯ)duːtæ/</sub> | **بردبووت**<br><sub>birdibût</sub><br><sub>/b(ɯ)ɾd(ɯ)buːt/</sub> |
-| 3sg | ئەو | **بردوویەتی**<br><sub>biridûyetî</sub><br><sub>/b(ɯ)ɾ(ɯ)duːjætiː/</sub> | **بردبووی**<br><sub>birdibûy</sub><br><sub>/b(ɯ)ɾd(ɯ)buːj/</sub> |
-| 1pl | ئێمە | **بردوومانە**<br><sub>biridûmane</sub><br><sub>/b(ɯ)ɾ(ɯ)duːmaːnæ/</sub> | **بردبوومان**<br><sub>birdibûman</sub><br><sub>/b(ɯ)ɾd(ɯ)buːmaːn/</sub> |
-| 2pl | ئێوە | **بردووتانە**<br><sub>biridûtane</sub><br><sub>/b(ɯ)ɾ(ɯ)duːtaːnæ/</sub> | **بردبووتان**<br><sub>birdibûtan</sub><br><sub>/b(ɯ)ɾd(ɯ)buːtaːn/</sub> |
-| 3pl | ئەوان | **بردوویانە**<br><sub>biridûyane</sub><br><sub>/b(ɯ)ɾ(ɯ)duːjaːnæ/</sub> | **بردبوویان**<br><sub>birdibûyan</sub><br><sub>/b(ɯ)ɾd(ɯ)buːjaːn/</sub> |
+| 1sg | من | **بردوومە**<br><sub>birdûme</sub><br><sub>/b(ɯ)ɾduːmæ/</sub> | **بردبووم**<br><sub>birdibûm</sub><br><sub>/b(ɯ)ɾd(ɯ)buːm/</sub> |
+| 2sg | تۆ | **بردووتە**<br><sub>birdûte</sub><br><sub>/b(ɯ)ɾduːtæ/</sub> | **بردبووت**<br><sub>birdibût</sub><br><sub>/b(ɯ)ɾd(ɯ)buːt/</sub> |
+| 3sg | ئەو | **بردوویەتی**<br><sub>birdûyetî</sub><br><sub>/b(ɯ)ɾduːjætiː/</sub> | **بردبووی**<br><sub>birdibûy</sub><br><sub>/b(ɯ)ɾd(ɯ)buːj/</sub> |
+| 1pl | ئێمە | **بردوومانە**<br><sub>birdûmane</sub><br><sub>/b(ɯ)ɾduːmaːnæ/</sub> | **بردبوومان**<br><sub>birdibûman</sub><br><sub>/b(ɯ)ɾd(ɯ)buːmaːn/</sub> |
+| 2pl | ئێوە | **بردووتانە**<br><sub>birdûtane</sub><br><sub>/b(ɯ)ɾduːtaːnæ/</sub> | **بردبووتان**<br><sub>birdibûtan</sub><br><sub>/b(ɯ)ɾd(ɯ)buːtaːn/</sub> |
+| 3pl | ئەوان | **بردوویانە**<br><sub>birdûyane</sub><br><sub>/b(ɯ)ɾduːjaːnæ/</sub> | **بردبوویان**<br><sub>birdibûyan</sub><br><sub>/b(ɯ)ɾd(ɯ)buːjaːn/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -109,10 +109,10 @@
 |---|---|---|
 | past perfective, agent clitic elsewhere | **برد** | bird |
 | past progressive, agent clitic elsewhere | **دەبرد** | debrid |
-| present perfect, agent clitic elsewhere | **بردووە** | biridûwe |
+| present perfect, agent clitic elsewhere | **بردووە** | birdûwe |
 | past perfect, agent clitic elsewhere | **بردبوو** | birdibû |
 | infinitive | **بردن** | birdin |
-| past participle | **بردوو** | biridû |
+| past participle | **بردوو** | birdû |
 | passive participle | **براو** | biraw |
 
 ---

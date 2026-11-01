@@ -72,12 +72,12 @@
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **خوێندوومەوە**<br><sub>xwêndûmewe</sub><br><sub>/xweːnduːmæwæ/</sub> | **خوێندبوومەوە**<br><sub>xwêndbûmewe</sub><br><sub>/xweːndbuːmæwæ/</sub> |
-| 2sg | تۆ | **خوێندووتەوە**<br><sub>xwêndûtewe</sub><br><sub>/xweːnduːtæwæ/</sub> | **خوێندبووتەوە**<br><sub>xwêndbûtewe</sub><br><sub>/xweːndbuːtæwæ/</sub> |
-| 3sg | ئەو | **خوێندوویەتیەوە**<br><sub>xwêndûyetyewe</sub><br><sub>/xweːnduːjætjæwæ/</sub> | **خوێندبوویەوە**<br><sub>xwêndbûyewe</sub><br><sub>/xweːndbuːjæwæ/</sub> |
-| 1pl | ئێمە | **خوێندوومانەوە**<br><sub>xwêndûmanewe</sub><br><sub>/xweːnduːmaːnæwæ/</sub> | **خوێندبوومانەوە**<br><sub>xwêndbûmanewe</sub><br><sub>/xweːndbuːmaːnæwæ/</sub> |
-| 2pl | ئێوە | **خوێندووتانەوە**<br><sub>xwêndûtanewe</sub><br><sub>/xweːnduːtaːnæwæ/</sub> | **خوێندبووتانەوە**<br><sub>xwêndbûtanewe</sub><br><sub>/xweːndbuːtaːnæwæ/</sub> |
-| 3pl | ئەوان | **خوێندوویانەوە**<br><sub>xwêndûyanewe</sub><br><sub>/xweːnduːjaːnæwæ/</sub> | **خوێندبوویانەوە**<br><sub>xwêndbûyanewe</sub><br><sub>/xweːndbuːjaːnæwæ/</sub> |
+| 1sg | من | **خوێندوومەتەوە**<br><sub>xwêndûmetewe</sub><br><sub>/xweːnduːmætæwæ/</sub> | **خوێندبوومەوە**<br><sub>xwêndbûmewe</sub><br><sub>/xweːndbuːmæwæ/</sub> |
+| 2sg | تۆ | **خوێندووتەتەوە**<br><sub>xwêndûtetewe</sub><br><sub>/xweːnduːtætæwæ/</sub> | **خوێندبووتەوە**<br><sub>xwêndbûtewe</sub><br><sub>/xweːndbuːtæwæ/</sub> |
+| 3sg | ئەو | **خوێندوویەتەوە**<br><sub>xwêndûyetewe</sub><br><sub>/xweːnduːjætæwæ/</sub> | **خوێندبوویەوە**<br><sub>xwêndbûyewe</sub><br><sub>/xweːndbuːjæwæ/</sub> |
+| 1pl | ئێمە | **خوێندوومانەتەوە**<br><sub>xwêndûmanetewe</sub><br><sub>/xweːnduːmaːnætæwæ/</sub> | **خوێندبوومانەوە**<br><sub>xwêndbûmanewe</sub><br><sub>/xweːndbuːmaːnæwæ/</sub> |
+| 2pl | ئێوە | **خوێندووتانەتەوە**<br><sub>xwêndûtanetewe</sub><br><sub>/xweːnduːtaːnætæwæ/</sub> | **خوێندبووتانەوە**<br><sub>xwêndbûtanewe</sub><br><sub>/xweːndbuːtaːnæwæ/</sub> |
+| 3pl | ئەوان | **خوێندوویانەتەوە**<br><sub>xwêndûyanetewe</sub><br><sub>/xweːnduːjaːnætæwæ/</sub> | **خوێندبوویانەوە**<br><sub>xwêndbûyanewe</sub><br><sub>/xweːndbuːjaːnæwæ/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -109,11 +109,11 @@
 |---|---|---|
 | past perfective, agent clitic elsewhere | **خوێندەوە** | xwêndewe |
 | past progressive, agent clitic elsewhere | **دەخوێندەوە** | dexwêndewe |
-| present perfect, agent clitic elsewhere | **خوێندووەوە** | xwêndûwewe |
-| past perfect, agent clitic elsewhere | **خوێندبوووە** | xwêndbûwe |
+| present perfect, agent clitic elsewhere | **خوێندووەتەوە** | xwêndûwetewe |
+| past perfect, agent clitic elsewhere | **خوێندبووەوە** | xwêndbûwewe |
 | infinitive | **خوێندنەوە** | xwêndnewe |
-| past participle | **خوێندوووە** | xwêndûwe |
-| passive participle | **خوێنراووە** | xwênrawûwe |
+| past participle | **خوێندووەوە** | xwêndûwewe |
+| passive participle | **خوێنراوەوە** | xwênrawewe |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

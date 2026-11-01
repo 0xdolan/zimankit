@@ -44,10 +44,10 @@
 |---|---|---|---|
 | 1sg | من | **کردمەوە**<br><sub>kirdimewe</sub><br><sub>/k(ɯ)ɾd(ɯ)mæwæ/</sub> | **نەمکردەوە**<br><sub>nemkirdewe</sub><br><sub>/næmk(ɯ)ɾdæwæ/</sub> |
 | 2sg | تۆ | **کردتەوە**<br><sub>kirditewe</sub><br><sub>/k(ɯ)ɾd(ɯ)tæwæ/</sub> | **نەتکردەوە**<br><sub>netkirdewe</sub><br><sub>/nætk(ɯ)ɾdæwæ/</sub> |
-| 3sg | ئەو | **کردیەوە**<br><sub>kiridyewe</sub><br><sub>/k(ɯ)ɾ(ɯ)djæwæ/</sub> | **نەیکردەوە**<br><sub>neykirdewe</sub><br><sub>/næjk(ɯ)ɾdæwæ/</sub> |
+| 3sg | ئەو | **کردیەوە**<br><sub>kirdyewe</sub><br><sub>/k(ɯ)ɾdjæwæ/</sub> | **نەیکردەوە**<br><sub>neykirdewe</sub><br><sub>/næjk(ɯ)ɾdæwæ/</sub> |
 | 1pl | ئێمە | **کردمانەوە**<br><sub>kirdimanewe</sub><br><sub>/k(ɯ)ɾd(ɯ)maːnæwæ/</sub> | **نەمانکردەوە**<br><sub>nemankirdewe</sub><br><sub>/næmaːnk(ɯ)ɾdæwæ/</sub> |
 | 2pl | ئێوە | **کردتانەوە**<br><sub>kirditanewe</sub><br><sub>/k(ɯ)ɾd(ɯ)taːnæwæ/</sub> | **نەتانکردەوە**<br><sub>netankirdewe</sub><br><sub>/nætaːnk(ɯ)ɾdæwæ/</sub> |
-| 3pl | ئەوان | **کردیانەوە**<br><sub>kiridyanewe</sub><br><sub>/k(ɯ)ɾ(ɯ)djaːnæwæ/</sub> | **نەیانکردەوە**<br><sub>neyankirdewe</sub><br><sub>/næjaːnk(ɯ)ɾdæwæ/</sub> |
+| 3pl | ئەوان | **کردیانەوە**<br><sub>kirdyanewe</sub><br><sub>/k(ɯ)ɾdjaːnæwæ/</sub> | **نەیانکردەوە**<br><sub>neyankirdewe</sub><br><sub>/næjaːnk(ɯ)ɾdæwæ/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -72,12 +72,12 @@
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **کردوومەوە**<br><sub>kiridûmewe</sub><br><sub>/k(ɯ)ɾ(ɯ)duːmæwæ/</sub> | **کردبوومەوە**<br><sub>kirdibûmewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːmæwæ/</sub> |
-| 2sg | تۆ | **کردووتەوە**<br><sub>kiridûtewe</sub><br><sub>/k(ɯ)ɾ(ɯ)duːtæwæ/</sub> | **کردبووتەوە**<br><sub>kirdibûtewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːtæwæ/</sub> |
-| 3sg | ئەو | **کردوویەتیەوە**<br><sub>kiridûyetyewe</sub><br><sub>/k(ɯ)ɾ(ɯ)duːjætjæwæ/</sub> | **کردبوویەوە**<br><sub>kirdibûyewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːjæwæ/</sub> |
-| 1pl | ئێمە | **کردوومانەوە**<br><sub>kiridûmanewe</sub><br><sub>/k(ɯ)ɾ(ɯ)duːmaːnæwæ/</sub> | **کردبوومانەوە**<br><sub>kirdibûmanewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːmaːnæwæ/</sub> |
-| 2pl | ئێوە | **کردووتانەوە**<br><sub>kiridûtanewe</sub><br><sub>/k(ɯ)ɾ(ɯ)duːtaːnæwæ/</sub> | **کردبووتانەوە**<br><sub>kirdibûtanewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːtaːnæwæ/</sub> |
-| 3pl | ئەوان | **کردوویانەوە**<br><sub>kiridûyanewe</sub><br><sub>/k(ɯ)ɾ(ɯ)duːjaːnæwæ/</sub> | **کردبوویانەوە**<br><sub>kirdibûyanewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːjaːnæwæ/</sub> |
+| 1sg | من | **کردوومەتەوە**<br><sub>kirdûmetewe</sub><br><sub>/k(ɯ)ɾduːmætæwæ/</sub> | **کردبوومەوە**<br><sub>kirdibûmewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːmæwæ/</sub> |
+| 2sg | تۆ | **کردووتەتەوە**<br><sub>kirdûtetewe</sub><br><sub>/k(ɯ)ɾduːtætæwæ/</sub> | **کردبووتەوە**<br><sub>kirdibûtewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːtæwæ/</sub> |
+| 3sg | ئەو | **کردوویەتەوە**<br><sub>kirdûyetewe</sub><br><sub>/k(ɯ)ɾduːjætæwæ/</sub> | **کردبوویەوە**<br><sub>kirdibûyewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːjæwæ/</sub> |
+| 1pl | ئێمە | **کردوومانەتەوە**<br><sub>kirdûmanetewe</sub><br><sub>/k(ɯ)ɾduːmaːnætæwæ/</sub> | **کردبوومانەوە**<br><sub>kirdibûmanewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːmaːnæwæ/</sub> |
+| 2pl | ئێوە | **کردووتانەتەوە**<br><sub>kirdûtanetewe</sub><br><sub>/k(ɯ)ɾduːtaːnætæwæ/</sub> | **کردبووتانەوە**<br><sub>kirdibûtanewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːtaːnæwæ/</sub> |
+| 3pl | ئەوان | **کردوویانەتەوە**<br><sub>kirdûyanetewe</sub><br><sub>/k(ɯ)ɾduːjaːnætæwæ/</sub> | **کردبوویانەوە**<br><sub>kirdibûyanewe</sub><br><sub>/k(ɯ)ɾd(ɯ)buːjaːnæwæ/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -107,13 +107,13 @@
 
 | form | Kurdish | Latin |
 |---|---|---|
-| past perfective, agent clitic elsewhere | **کردەوە** | kiridewe |
+| past perfective, agent clitic elsewhere | **کردەوە** | kirdewe |
 | past progressive, agent clitic elsewhere | **دەکردەوە** | dekridewe |
-| present perfect, agent clitic elsewhere | **کردووەوە** | kiridûwewe |
-| past perfect, agent clitic elsewhere | **کردبوووە** | kirdibûwe |
+| present perfect, agent clitic elsewhere | **کردووەتەوە** | kirdûwetewe |
+| past perfect, agent clitic elsewhere | **کردبووەوە** | kirdibûwewe |
 | infinitive | **کردنەوە** | kirdinewe |
-| past participle | **کردوووە** | kiridûwe |
-| passive participle | **کراووە** | kirawûwe |
+| past participle | **کردووەوە** | kirdûwewe |
+| passive participle | **کراوەوە** | kirawewe |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

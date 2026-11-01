@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **داخەم**<br><sub>daxem</sub><br><sub>/daːxæm/</sub> | **دانەخەم**<br><sub>danexem</sub><br><sub>/daːnæxæm/</sub> |
-| 2sg | تۆ | **داخەیت**<br><sub>daxeyt</sub><br><sub>/daːxæjt/</sub> | **دانەخەیت**<br><sub>danexeyt</sub><br><sub>/daːnæxæjt/</sub> |
-| 3sg | ئەو | **داخات**<br><sub>daxat</sub><br><sub>/daːxaːt/</sub> | **دانەخات**<br><sub>danexat</sub><br><sub>/daːnæxaːt/</sub> |
-| 1pl | ئێمە | **داخەین**<br><sub>daxeyn</sub><br><sub>/daːxæjn/</sub> | **دانەخەین**<br><sub>danexeyn</sub><br><sub>/daːnæxæjn/</sub> |
-| 2pl | ئێوە | **داخەن**<br><sub>daxen</sub><br><sub>/daːxæn/</sub> | **دانەخەن**<br><sub>danexen</sub><br><sub>/daːnæxæn/</sub> |
-| 3pl | ئەوان | **داخەن**<br><sub>daxen</sub><br><sub>/daːxæn/</sub> | **دانەخەن**<br><sub>danexen</sub><br><sub>/daːnæxæn/</sub> |
+| 1sg | من | **دابخەم**<br><sub>dabxem</sub><br><sub>/daːbxæm/</sub> | **دانەخەم**<br><sub>danexem</sub><br><sub>/daːnæxæm/</sub> |
+| 2sg | تۆ | **دابخەیت**<br><sub>dabxeyt</sub><br><sub>/daːbxæjt/</sub> | **دانەخەیت**<br><sub>danexeyt</sub><br><sub>/daːnæxæjt/</sub> |
+| 3sg | ئەو | **دابخات**<br><sub>dabxat</sub><br><sub>/daːbxaːt/</sub> | **دانەخات**<br><sub>danexat</sub><br><sub>/daːnæxaːt/</sub> |
+| 1pl | ئێمە | **دابخەین**<br><sub>dabxeyn</sub><br><sub>/daːbxæjn/</sub> | **دانەخەین**<br><sub>danexeyn</sub><br><sub>/daːnæxæjn/</sub> |
+| 2pl | ئێوە | **دابخەن**<br><sub>dabxen</sub><br><sub>/daːbxæn/</sub> | **دانەخەن**<br><sub>danexen</sub><br><sub>/daːnæxæn/</sub> |
+| 3pl | ئەوان | **دابخەن**<br><sub>dabxen</sub><br><sub>/daːbxæn/</sub> | **دانەخەن**<br><sub>danexen</sub><br><sub>/daːnæxæn/</sub> |
 
 ## Simple past
 
@@ -101,8 +101,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **داخە**<br><sub>daxe</sub><br><sub>/daːxæ/</sub> | **دامەخە**<br><sub>damexe</sub><br><sub>/daːmæxæ/</sub> |
-| 2pl | ئێوە | **داخەن**<br><sub>daxen</sub><br><sub>/daːxæn/</sub> | **دامەخەن**<br><sub>damexen</sub><br><sub>/daːmæxæn/</sub> |
+| 2sg | تۆ | **دابخە**<br><sub>dabxe</sub><br><sub>/daːbxæ/</sub> | **دامەخە**<br><sub>damexe</sub><br><sub>/daːmæxæ/</sub> |
+| 2pl | ئێوە | **دابخەن**<br><sub>dabxen</sub><br><sub>/daːbxæn/</sub> | **دامەخەن**<br><sub>damexen</sub><br><sub>/daːmæxæn/</sub> |
 
 ## Other forms
 

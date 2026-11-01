@@ -10,6 +10,8 @@ def rels(sentence: str) -> list[tuple[str, str, int]]:
 
 
 @pytest.mark.parametrize("sentence, expected", [
+    # Sorani past transitive: the agent clitic sits on the object
+    ("نانم خوارد.", [("نانم", "obj", 2), ("خوارد", "root", 0), (".", "punct", 2)]),
     # ergative: oblique agent, direct object
     ("Min pirtûk xwend.", [("Min", "nsubj", 3), ("pirtûk", "obj", 3), ("xwend", "root", 0), (".", "punct", 3)]),
     # ezafe, preposition

@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **تێگەم**<br><sub>têgem</sub><br><sub>/teːɡæm/</sub> | **تێنەگەم**<br><sub>tênegem</sub><br><sub>/teːnæɡæm/</sub> |
-| 2sg | تۆ | **تێگەیت**<br><sub>têgeyt</sub><br><sub>/teːɡæjt/</sub> | **تێنەگەیت**<br><sub>tênegeyt</sub><br><sub>/teːnæɡæjt/</sub> |
-| 3sg | ئەو | **تێگات**<br><sub>têgat</sub><br><sub>/teːɡaːt/</sub> | **تێنەگات**<br><sub>tênegat</sub><br><sub>/teːnæɡaːt/</sub> |
-| 1pl | ئێمە | **تێگەین**<br><sub>têgeyn</sub><br><sub>/teːɡæjn/</sub> | **تێنەگەین**<br><sub>tênegeyn</sub><br><sub>/teːnæɡæjn/</sub> |
-| 2pl | ئێوە | **تێگەن**<br><sub>têgen</sub><br><sub>/teːɡæn/</sub> | **تێنەگەن**<br><sub>tênegen</sub><br><sub>/teːnæɡæn/</sub> |
-| 3pl | ئەوان | **تێگەن**<br><sub>têgen</sub><br><sub>/teːɡæn/</sub> | **تێنەگەن**<br><sub>tênegen</sub><br><sub>/teːnæɡæn/</sub> |
+| 1sg | من | **تێبگەم**<br><sub>têbgem</sub><br><sub>/teːbɡæm/</sub> | **تێنەگەم**<br><sub>tênegem</sub><br><sub>/teːnæɡæm/</sub> |
+| 2sg | تۆ | **تێبگەیت**<br><sub>têbgeyt</sub><br><sub>/teːbɡæjt/</sub> | **تێنەگەیت**<br><sub>tênegeyt</sub><br><sub>/teːnæɡæjt/</sub> |
+| 3sg | ئەو | **تێبگات**<br><sub>têbgat</sub><br><sub>/teːbɡaːt/</sub> | **تێنەگات**<br><sub>tênegat</sub><br><sub>/teːnæɡaːt/</sub> |
+| 1pl | ئێمە | **تێبگەین**<br><sub>têbgeyn</sub><br><sub>/teːbɡæjn/</sub> | **تێنەگەین**<br><sub>tênegeyn</sub><br><sub>/teːnæɡæjn/</sub> |
+| 2pl | ئێوە | **تێبگەن**<br><sub>têbgen</sub><br><sub>/teːbɡæn/</sub> | **تێنەگەن**<br><sub>tênegen</sub><br><sub>/teːnæɡæn/</sub> |
+| 3pl | ئەوان | **تێبگەن**<br><sub>têbgen</sub><br><sub>/teːbɡæn/</sub> | **تێنەگەن**<br><sub>tênegen</sub><br><sub>/teːnæɡæn/</sub> |
 
 ## Simple past
 
@@ -82,8 +82,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **تێگە**<br><sub>têge</sub><br><sub>/teːɡæ/</sub> | **تێمەگە**<br><sub>têmege</sub><br><sub>/teːmæɡæ/</sub> |
-| 2pl | ئێوە | **تێگەن**<br><sub>têgen</sub><br><sub>/teːɡæn/</sub> | **تێمەگەن**<br><sub>têmegen</sub><br><sub>/teːmæɡæn/</sub> |
+| 2sg | تۆ | **تێبگە**<br><sub>têbge</sub><br><sub>/teːbɡæ/</sub> | **تێمەگە**<br><sub>têmege</sub><br><sub>/teːmæɡæ/</sub> |
+| 2pl | ئێوە | **تێبگەن**<br><sub>têbgen</sub><br><sub>/teːbɡæn/</sub> | **تێمەگەن**<br><sub>têmegen</sub><br><sub>/teːmæɡæn/</sub> |
 
 ## Other forms
 

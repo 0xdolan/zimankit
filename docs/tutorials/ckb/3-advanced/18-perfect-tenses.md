@@ -40,12 +40,12 @@ The present perfect is built on the **past participle**: the past stem + **وو*
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **کردوومە**<br><sub>kiridûme</sub><br><sub>/k(ɯ)ɾ(ɯ)duːmæ/</sub> | **کردبووم**<br><sub>kirdibûm</sub><br><sub>/k(ɯ)ɾd(ɯ)buːm/</sub> |
-| 2sg | تۆ | **کردووتە**<br><sub>kiridûte</sub><br><sub>/k(ɯ)ɾ(ɯ)duːtæ/</sub> | **کردبووت**<br><sub>kirdibût</sub><br><sub>/k(ɯ)ɾd(ɯ)buːt/</sub> |
-| 3sg | ئەو | **کردوویەتی**<br><sub>kiridûyetî</sub><br><sub>/k(ɯ)ɾ(ɯ)duːjætiː/</sub> | **کردبووی**<br><sub>kirdibûy</sub><br><sub>/k(ɯ)ɾd(ɯ)buːj/</sub> |
-| 1pl | ئێمە | **کردوومانە**<br><sub>kiridûmane</sub><br><sub>/k(ɯ)ɾ(ɯ)duːmaːnæ/</sub> | **کردبوومان**<br><sub>kirdibûman</sub><br><sub>/k(ɯ)ɾd(ɯ)buːmaːn/</sub> |
-| 2pl | ئێوە | **کردووتانە**<br><sub>kiridûtane</sub><br><sub>/k(ɯ)ɾ(ɯ)duːtaːnæ/</sub> | **کردبووتان**<br><sub>kirdibûtan</sub><br><sub>/k(ɯ)ɾd(ɯ)buːtaːn/</sub> |
-| 3pl | ئەوان | **کردوویانە**<br><sub>kiridûyane</sub><br><sub>/k(ɯ)ɾ(ɯ)duːjaːnæ/</sub> | **کردبوویان**<br><sub>kirdibûyan</sub><br><sub>/k(ɯ)ɾd(ɯ)buːjaːn/</sub> |
+| 1sg | من | **کردوومە**<br><sub>kirdûme</sub><br><sub>/k(ɯ)ɾduːmæ/</sub> | **کردبووم**<br><sub>kirdibûm</sub><br><sub>/k(ɯ)ɾd(ɯ)buːm/</sub> |
+| 2sg | تۆ | **کردووتە**<br><sub>kirdûte</sub><br><sub>/k(ɯ)ɾduːtæ/</sub> | **کردبووت**<br><sub>kirdibût</sub><br><sub>/k(ɯ)ɾd(ɯ)buːt/</sub> |
+| 3sg | ئەو | **کردوویەتی**<br><sub>kirdûyetî</sub><br><sub>/k(ɯ)ɾduːjætiː/</sub> | **کردبووی**<br><sub>kirdibûy</sub><br><sub>/k(ɯ)ɾd(ɯ)buːj/</sub> |
+| 1pl | ئێمە | **کردوومانە**<br><sub>kirdûmane</sub><br><sub>/k(ɯ)ɾduːmaːnæ/</sub> | **کردبوومان**<br><sub>kirdibûman</sub><br><sub>/k(ɯ)ɾd(ɯ)buːmaːn/</sub> |
+| 2pl | ئێوە | **کردووتانە**<br><sub>kirdûtane</sub><br><sub>/k(ɯ)ɾduːtaːnæ/</sub> | **کردبووتان**<br><sub>kirdibûtan</sub><br><sub>/k(ɯ)ɾd(ɯ)buːtaːn/</sub> |
+| 3pl | ئەوان | **کردوویانە**<br><sub>kirdûyane</sub><br><sub>/k(ɯ)ɾduːjaːnæ/</sub> | **کردبوویان**<br><sub>kirdibûyan</sub><br><sub>/k(ɯ)ɾd(ɯ)buːjaːn/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 <!-- /gen -->

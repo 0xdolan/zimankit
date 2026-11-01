@@ -42,12 +42,12 @@
 
 | person | pronoun | Simple past | Past negative |
 |---|---|---|---|
-| 1sg | من | **دۆزیمەوە**<br><sub>dozîmewe</sub><br><sub>/doːziːmæwæ/</sub> | **نەمدۆزیەوە**<br><sub>nemdozyewe</sub><br><sub>/næmdoːzjæwæ/</sub> |
-| 2sg | تۆ | **دۆزیتەوە**<br><sub>dozîtewe</sub><br><sub>/doːziːtæwæ/</sub> | **نەتدۆزیەوە**<br><sub>netdozyewe</sub><br><sub>/nætdoːzjæwæ/</sub> |
-| 3sg | ئەو | **دۆزییەوە**<br><sub>dozîyewe</sub><br><sub>/doːziːjæwæ/</sub> | **نەیدۆزیەوە**<br><sub>neydozyewe</sub><br><sub>/næjdoːzjæwæ/</sub> |
-| 1pl | ئێمە | **دۆزیمانەوە**<br><sub>dozîmanewe</sub><br><sub>/doːziːmaːnæwæ/</sub> | **نەماندۆزیەوە**<br><sub>nemandozyewe</sub><br><sub>/næmaːndoːzjæwæ/</sub> |
-| 2pl | ئێوە | **دۆزیتانەوە**<br><sub>dozîtanewe</sub><br><sub>/doːziːtaːnæwæ/</sub> | **نەتاندۆزیەوە**<br><sub>netandozyewe</sub><br><sub>/nætaːndoːzjæwæ/</sub> |
-| 3pl | ئەوان | **دۆزییانەوە**<br><sub>dozîyanewe</sub><br><sub>/doːziːjaːnæwæ/</sub> | **نەیاندۆزیەوە**<br><sub>neyandozyewe</sub><br><sub>/næjaːndoːzjæwæ/</sub> |
+| 1sg | من | **دۆزیمەوە**<br><sub>dozîmewe</sub><br><sub>/doːziːmæwæ/</sub> | **نەمدۆزییەوە**<br><sub>nemdozîyewe</sub><br><sub>/næmdoːziːjæwæ/</sub> |
+| 2sg | تۆ | **دۆزیتەوە**<br><sub>dozîtewe</sub><br><sub>/doːziːtæwæ/</sub> | **نەتدۆزییەوە**<br><sub>netdozîyewe</sub><br><sub>/nætdoːziːjæwæ/</sub> |
+| 3sg | ئەو | **دۆزییەوە**<br><sub>dozîyewe</sub><br><sub>/doːziːjæwæ/</sub> | **نەیدۆزییەوە**<br><sub>neydozîyewe</sub><br><sub>/næjdoːziːjæwæ/</sub> |
+| 1pl | ئێمە | **دۆزیمانەوە**<br><sub>dozîmanewe</sub><br><sub>/doːziːmaːnæwæ/</sub> | **نەماندۆزییەوە**<br><sub>nemandozîyewe</sub><br><sub>/næmaːndoːziːjæwæ/</sub> |
+| 2pl | ئێوە | **دۆزیتانەوە**<br><sub>dozîtanewe</sub><br><sub>/doːziːtaːnæwæ/</sub> | **نەتاندۆزییەوە**<br><sub>netandozîyewe</sub><br><sub>/nætaːndoːziːjæwæ/</sub> |
+| 3pl | ئەوان | **دۆزییانەوە**<br><sub>dozîyanewe</sub><br><sub>/doːziːjaːnæwæ/</sub> | **نەیاندۆزییەوە**<br><sub>neyandozîyewe</sub><br><sub>/næjaːndoːziːjæwæ/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -57,12 +57,12 @@
 
 | person | pronoun | Past progressive | Past progressive negative |
 |---|---|---|---|
-| 1sg | من | **دەمدۆزیەوە**<br><sub>demdozyewe</sub><br><sub>/dæmdoːzjæwæ/</sub> | **نەمدەدۆزیەوە**<br><sub>nemdedozyewe</sub><br><sub>/næmdædoːzjæwæ/</sub> |
-| 2sg | تۆ | **دەتدۆزیەوە**<br><sub>detdozyewe</sub><br><sub>/dætdoːzjæwæ/</sub> | **نەتدەدۆزیەوە**<br><sub>netdedozyewe</sub><br><sub>/nætdædoːzjæwæ/</sub> |
-| 3sg | ئەو | **دەیدۆزیەوە**<br><sub>deydozyewe</sub><br><sub>/dæjdoːzjæwæ/</sub> | **نەیدەدۆزیەوە**<br><sub>neydedozyewe</sub><br><sub>/næjdædoːzjæwæ/</sub> |
-| 1pl | ئێمە | **دەماندۆزیەوە**<br><sub>demandozyewe</sub><br><sub>/dæmaːndoːzjæwæ/</sub> | **نەماندەدۆزیەوە**<br><sub>nemandedozyewe</sub><br><sub>/næmaːndædoːzjæwæ/</sub> |
-| 2pl | ئێوە | **دەتاندۆزیەوە**<br><sub>detandozyewe</sub><br><sub>/dætaːndoːzjæwæ/</sub> | **نەتاندەدۆزیەوە**<br><sub>netandedozyewe</sub><br><sub>/nætaːndædoːzjæwæ/</sub> |
-| 3pl | ئەوان | **دەیاندۆزیەوە**<br><sub>deyandozyewe</sub><br><sub>/dæjaːndoːzjæwæ/</sub> | **نەیاندەدۆزیەوە**<br><sub>neyandedozyewe</sub><br><sub>/næjaːndædoːzjæwæ/</sub> |
+| 1sg | من | **دەمدۆزییەوە**<br><sub>demdozîyewe</sub><br><sub>/dæmdoːziːjæwæ/</sub> | **نەمدەدۆزییەوە**<br><sub>nemdedozîyewe</sub><br><sub>/næmdædoːziːjæwæ/</sub> |
+| 2sg | تۆ | **دەتدۆزییەوە**<br><sub>detdozîyewe</sub><br><sub>/dætdoːziːjæwæ/</sub> | **نەتدەدۆزییەوە**<br><sub>netdedozîyewe</sub><br><sub>/nætdædoːziːjæwæ/</sub> |
+| 3sg | ئەو | **دەیدۆزییەوە**<br><sub>deydozîyewe</sub><br><sub>/dæjdoːziːjæwæ/</sub> | **نەیدەدۆزییەوە**<br><sub>neydedozîyewe</sub><br><sub>/næjdædoːziːjæwæ/</sub> |
+| 1pl | ئێمە | **دەماندۆزییەوە**<br><sub>demandozîyewe</sub><br><sub>/dæmaːndoːziːjæwæ/</sub> | **نەماندەدۆزییەوە**<br><sub>nemandedozîyewe</sub><br><sub>/næmaːndædoːziːjæwæ/</sub> |
+| 2pl | ئێوە | **دەتاندۆزییەوە**<br><sub>detandozîyewe</sub><br><sub>/dætaːndoːziːjæwæ/</sub> | **نەتاندەدۆزییەوە**<br><sub>netandedozîyewe</sub><br><sub>/nætaːndædoːziːjæwæ/</sub> |
+| 3pl | ئەوان | **دەیاندۆزییەوە**<br><sub>deyandozîyewe</sub><br><sub>/dæjaːndoːziːjæwæ/</sub> | **نەیاندەدۆزییەوە**<br><sub>neyandedozîyewe</sub><br><sub>/næjaːndædoːziːjæwæ/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -72,12 +72,12 @@
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **دۆزیومەوە**<br><sub>dozîwmewe</sub><br><sub>/doːziːwmæwæ/</sub> | **دۆزیبوومەوە**<br><sub>dozîbûmewe</sub><br><sub>/doːziːbuːmæwæ/</sub> |
-| 2sg | تۆ | **دۆزیوتەوە**<br><sub>dozîwtewe</sub><br><sub>/doːziːwtæwæ/</sub> | **دۆزیبووتەوە**<br><sub>dozîbûtewe</sub><br><sub>/doːziːbuːtæwæ/</sub> |
-| 3sg | ئەو | **دۆزیویەتیەوە**<br><sub>dozîwyetyewe</sub><br><sub>/doːziːwjætjæwæ/</sub> | **دۆزیبوویەوە**<br><sub>dozîbûyewe</sub><br><sub>/doːziːbuːjæwæ/</sub> |
-| 1pl | ئێمە | **دۆزیومانەوە**<br><sub>dozîwmanewe</sub><br><sub>/doːziːwmaːnæwæ/</sub> | **دۆزیبوومانەوە**<br><sub>dozîbûmanewe</sub><br><sub>/doːziːbuːmaːnæwæ/</sub> |
-| 2pl | ئێوە | **دۆزیوتانەوە**<br><sub>dozîwtanewe</sub><br><sub>/doːziːwtaːnæwæ/</sub> | **دۆزیبووتانەوە**<br><sub>dozîbûtanewe</sub><br><sub>/doːziːbuːtaːnæwæ/</sub> |
-| 3pl | ئەوان | **دۆزیویانەوە**<br><sub>dozîwyanewe</sub><br><sub>/doːziːwjaːnæwæ/</sub> | **دۆزیبوویانەوە**<br><sub>dozîbûyanewe</sub><br><sub>/doːziːbuːjaːnæwæ/</sub> |
+| 1sg | من | **دۆزیومەتەوە**<br><sub>dozîwmetewe</sub><br><sub>/doːziːwmætæwæ/</sub> | **دۆزیبوومەوە**<br><sub>dozîbûmewe</sub><br><sub>/doːziːbuːmæwæ/</sub> |
+| 2sg | تۆ | **دۆزیوتەتەوە**<br><sub>dozîwtetewe</sub><br><sub>/doːziːwtætæwæ/</sub> | **دۆزیبووتەوە**<br><sub>dozîbûtewe</sub><br><sub>/doːziːbuːtæwæ/</sub> |
+| 3sg | ئەو | **دۆزیویەتەوە**<br><sub>dozîwyetewe</sub><br><sub>/doːziːwjætæwæ/</sub> | **دۆزیبوویەوە**<br><sub>dozîbûyewe</sub><br><sub>/doːziːbuːjæwæ/</sub> |
+| 1pl | ئێمە | **دۆزیومانەتەوە**<br><sub>dozîwmanetewe</sub><br><sub>/doːziːwmaːnætæwæ/</sub> | **دۆزیبوومانەوە**<br><sub>dozîbûmanewe</sub><br><sub>/doːziːbuːmaːnæwæ/</sub> |
+| 2pl | ئێوە | **دۆزیوتانەتەوە**<br><sub>dozîwtanetewe</sub><br><sub>/doːziːwtaːnætæwæ/</sub> | **دۆزیبووتانەوە**<br><sub>dozîbûtanewe</sub><br><sub>/doːziːbuːtaːnæwæ/</sub> |
+| 3pl | ئەوان | **دۆزیویانەتەوە**<br><sub>dozîwyanetewe</sub><br><sub>/doːziːwjaːnætæwæ/</sub> | **دۆزیبوویانەوە**<br><sub>dozîbûyanewe</sub><br><sub>/doːziːbuːjaːnæwæ/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -107,13 +107,13 @@
 
 | form | Kurdish | Latin |
 |---|---|---|
-| past perfective, agent clitic elsewhere | **دۆزیەوە** | dozyewe |
-| past progressive, agent clitic elsewhere | **دەدۆزیەوە** | dedozyewe |
-| present perfect, agent clitic elsewhere | **دۆزیوەوە** | dozîwewe |
-| past perfect, agent clitic elsewhere | **دۆزیبوووە** | dozîbûwe |
+| past perfective, agent clitic elsewhere | **دۆزییەوە** | dozîyewe |
+| past progressive, agent clitic elsewhere | **دەدۆزییەوە** | dedozîyewe |
+| present perfect, agent clitic elsewhere | **دۆزیوەتەوە** | dozîwetewe |
+| past perfect, agent clitic elsewhere | **دۆزیبووەوە** | dozîbûwewe |
 | infinitive | **دۆزینەوە** | dozînewe |
-| past participle | **دۆزیووە** | dozîwûwe |
-| passive participle | **دۆزراووە** | dozrawûwe |
+| past participle | **دۆزیوەوە** | dozîwewe |
+| passive participle | **دۆزراوەوە** | dozrawewe |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

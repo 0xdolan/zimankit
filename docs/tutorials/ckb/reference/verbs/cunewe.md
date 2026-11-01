@@ -29,12 +29,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **بچمەوە**<br><sub>biçimewe</sub><br><sub>/b(ɯ)tʃ(ɯ)mæwæ/</sub> | **نەچمەوە**<br><sub>neçmewe</sub><br><sub>/nætʃmæwæ/</sub> |
+| 1sg | من | **بچمەوە**<br><sub>biçmewe</sub><br><sub>/b(ɯ)tʃmæwæ/</sub> | **نەچمەوە**<br><sub>neçmewe</sub><br><sub>/nætʃmæwæ/</sub> |
 | 2sg | تۆ | **بچیتەوە**<br><sub>biçîtewe</sub><br><sub>/b(ɯ)tʃiːtæwæ/</sub> | **نەچیتەوە**<br><sub>neçîtewe</sub><br><sub>/nætʃiːtæwæ/</sub> |
 | 3sg | ئەو | **بچێتەوە**<br><sub>biçêtewe</sub><br><sub>/b(ɯ)tʃeːtæwæ/</sub> | **نەچێتەوە**<br><sub>neçêtewe</sub><br><sub>/nætʃeːtæwæ/</sub> |
 | 1pl | ئێمە | **بچینەوە**<br><sub>biçînewe</sub><br><sub>/b(ɯ)tʃiːnæwæ/</sub> | **نەچینەوە**<br><sub>neçînewe</sub><br><sub>/nætʃiːnæwæ/</sub> |
-| 2pl | ئێوە | **بچنەوە**<br><sub>biçinewe</sub><br><sub>/b(ɯ)tʃ(ɯ)næwæ/</sub> | **نەچنەوە**<br><sub>neçnewe</sub><br><sub>/nætʃnæwæ/</sub> |
-| 3pl | ئەوان | **بچنەوە**<br><sub>biçinewe</sub><br><sub>/b(ɯ)tʃ(ɯ)næwæ/</sub> | **نەچنەوە**<br><sub>neçnewe</sub><br><sub>/nætʃnæwæ/</sub> |
+| 2pl | ئێوە | **بچنەوە**<br><sub>biçnewe</sub><br><sub>/b(ɯ)tʃnæwæ/</sub> | **نەچنەوە**<br><sub>neçnewe</sub><br><sub>/nætʃnæwæ/</sub> |
+| 3pl | ئەوان | **بچنەوە**<br><sub>biçnewe</sub><br><sub>/b(ɯ)tʃnæwæ/</sub> | **نەچنەوە**<br><sub>neçnewe</sub><br><sub>/nætʃnæwæ/</sub> |
 
 ## Simple past
 
@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **چوومەوە**<br><sub>çûmewe</sub><br><sub>/tʃuːmæwæ/</sub> | **نەچوومەوە**<br><sub>neçûmewe</sub><br><sub>/nætʃuːmæwæ/</sub> |
 | 2sg | تۆ | **چوویتەوە**<br><sub>çûytewe</sub><br><sub>/tʃuːjtæwæ/</sub> | **نەچوویتەوە**<br><sub>neçûytewe</sub><br><sub>/nætʃuːjtæwæ/</sub> |
-| 3sg | ئەو | **چوووە**<br><sub>çûwe</sub><br><sub>/tʃuːwæ/</sub> | **نەچوووە**<br><sub>neçûwe</sub><br><sub>/nætʃuːwæ/</sub> |
+| 3sg | ئەو | **چووەوە**<br><sub>çûwewe</sub><br><sub>/tʃuːwæwæ/</sub> | **نەچووەوە**<br><sub>neçûwewe</sub><br><sub>/nætʃuːwæwæ/</sub> |
 | 1pl | ئێمە | **چووینەوە**<br><sub>çûynewe</sub><br><sub>/tʃuːjnæwæ/</sub> | **نەچووینەوە**<br><sub>neçûynewe</sub><br><sub>/nætʃuːjnæwæ/</sub> |
 | 2pl | ئێوە | **چوونەوە**<br><sub>çûnewe</sub><br><sub>/tʃuːnæwæ/</sub> | **نەچوونەوە**<br><sub>neçûnewe</sub><br><sub>/nætʃuːnæwæ/</sub> |
 | 3pl | ئەوان | **چوونەوە**<br><sub>çûnewe</sub><br><sub>/tʃuːnæwæ/</sub> | **نەچوونەوە**<br><sub>neçûnewe</sub><br><sub>/nætʃuːnæwæ/</sub> |
@@ -57,7 +57,7 @@
 |---|---|---|---|
 | 1sg | من | **دەچوومەوە**<br><sub>deçûmewe</sub><br><sub>/dætʃuːmæwæ/</sub> | **نەدەچوومەوە**<br><sub>nedeçûmewe</sub><br><sub>/nædætʃuːmæwæ/</sub> |
 | 2sg | تۆ | **دەچوویتەوە**<br><sub>deçûytewe</sub><br><sub>/dætʃuːjtæwæ/</sub> | **نەدەچوویتەوە**<br><sub>nedeçûytewe</sub><br><sub>/nædætʃuːjtæwæ/</sub> |
-| 3sg | ئەو | **دەچوووە**<br><sub>deçûwe</sub><br><sub>/dætʃuːwæ/</sub> | **نەدەچوووە**<br><sub>nedeçûwe</sub><br><sub>/nædætʃuːwæ/</sub> |
+| 3sg | ئەو | **دەچووەوە**<br><sub>deçûwewe</sub><br><sub>/dætʃuːwæwæ/</sub> | **نەدەچووەوە**<br><sub>nedeçûwewe</sub><br><sub>/nædætʃuːwæwæ/</sub> |
 | 1pl | ئێمە | **دەچووینەوە**<br><sub>deçûynewe</sub><br><sub>/dætʃuːjnæwæ/</sub> | **نەدەچووینەوە**<br><sub>nedeçûynewe</sub><br><sub>/nædætʃuːjnæwæ/</sub> |
 | 2pl | ئێوە | **دەچوونەوە**<br><sub>deçûnewe</sub><br><sub>/dætʃuːnæwæ/</sub> | **نەدەچوونەوە**<br><sub>nedeçûnewe</sub><br><sub>/nædætʃuːnæwæ/</sub> |
 | 3pl | ئەوان | **دەچوونەوە**<br><sub>deçûnewe</sub><br><sub>/dætʃuːnæwæ/</sub> | **نەدەچوونەوە**<br><sub>nedeçûnewe</sub><br><sub>/nædætʃuːnæwæ/</sub> |
@@ -68,12 +68,12 @@
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **چوومەوە**<br><sub>çûmewe</sub><br><sub>/tʃuːmæwæ/</sub> | **چووبوومەوە**<br><sub>çûbûmewe</sub><br><sub>/tʃuːbuːmæwæ/</sub> |
-| 2sg | تۆ | **چوویتەوە**<br><sub>çûytewe</sub><br><sub>/tʃuːjtæwæ/</sub> | **چووبوویتەوە**<br><sub>çûbûytewe</sub><br><sub>/tʃuːbuːjtæwæ/</sub> |
-| 3sg | ئەو | **چووەوە**<br><sub>çûwewe</sub><br><sub>/tʃuːwæwæ/</sub> | **چووبوووە**<br><sub>çûbûwe</sub><br><sub>/tʃuːbuːwæ/</sub> |
-| 1pl | ئێمە | **چووینەوە**<br><sub>çûynewe</sub><br><sub>/tʃuːjnæwæ/</sub> | **چووبووینەوە**<br><sub>çûbûynewe</sub><br><sub>/tʃuːbuːjnæwæ/</sub> |
-| 2pl | ئێوە | **چوونەوە**<br><sub>çûnewe</sub><br><sub>/tʃuːnæwæ/</sub> | **چووبوونەوە**<br><sub>çûbûnewe</sub><br><sub>/tʃuːbuːnæwæ/</sub> |
-| 3pl | ئەوان | **چوونەوە**<br><sub>çûnewe</sub><br><sub>/tʃuːnæwæ/</sub> | **چووبوونەوە**<br><sub>çûbûnewe</sub><br><sub>/tʃuːbuːnæwæ/</sub> |
+| 1sg | من | **چوومەتەوە**<br><sub>çûmetewe</sub><br><sub>/tʃuːmætæwæ/</sub> | **چووبوومەوە**<br><sub>çûbûmewe</sub><br><sub>/tʃuːbuːmæwæ/</sub> |
+| 2sg | تۆ | **چوویتەتەوە**<br><sub>çûytetewe</sub><br><sub>/tʃuːjtætæwæ/</sub> | **چووبوویتەوە**<br><sub>çûbûytewe</sub><br><sub>/tʃuːbuːjtæwæ/</sub> |
+| 3sg | ئەو | **چووەتەوە**<br><sub>çûwetewe</sub><br><sub>/tʃuːwætæwæ/</sub> | **چووبووەوە**<br><sub>çûbûwewe</sub><br><sub>/tʃuːbuːwæwæ/</sub> |
+| 1pl | ئێمە | **چووینەتەوە**<br><sub>çûynetewe</sub><br><sub>/tʃuːjnætæwæ/</sub> | **چووبووینەوە**<br><sub>çûbûynewe</sub><br><sub>/tʃuːbuːjnæwæ/</sub> |
+| 2pl | ئێوە | **چوونەتەوە**<br><sub>çûnetewe</sub><br><sub>/tʃuːnætæwæ/</sub> | **چووبوونەوە**<br><sub>çûbûnewe</sub><br><sub>/tʃuːbuːnæwæ/</sub> |
+| 3pl | ئەوان | **چوونەتەوە**<br><sub>çûnetewe</sub><br><sub>/tʃuːnætæwæ/</sub> | **چووبوونەوە**<br><sub>çûbûnewe</sub><br><sub>/tʃuːbuːnæwæ/</sub> |
 
 ## Imperative
 
@@ -89,7 +89,7 @@
 | form | Kurdish | Latin |
 |---|---|---|
 | infinitive | **چوونەوە** | çûnewe |
-| past participle | **چوووە** | çûwe |
+| past participle | **چووەوە** | çûwewe |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

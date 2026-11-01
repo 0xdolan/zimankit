@@ -29,12 +29,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **ببژێرم**<br><sub>bibijêrm</sub><br><sub>/b(ɯ)b(ɯ)ʒeːɾm/</sub> | **نەبژێرم**<br><sub>nebjêrm</sub><br><sub>/næbʒeːɾm/</sub> |
-| 2sg | تۆ | **ببژێریت**<br><sub>bibijêrît</sub><br><sub>/b(ɯ)b(ɯ)ʒeːɾiːt/</sub> | **نەبژێریت**<br><sub>nebjêrît</sub><br><sub>/næbʒeːɾiːt/</sub> |
-| 3sg | ئەو | **ببژێرێت**<br><sub>bibijêrêt</sub><br><sub>/b(ɯ)b(ɯ)ʒeːɾeːt/</sub> | **نەبژێرێت**<br><sub>nebjêrêt</sub><br><sub>/næbʒeːɾeːt/</sub> |
-| 1pl | ئێمە | **ببژێرین**<br><sub>bibijêrîn</sub><br><sub>/b(ɯ)b(ɯ)ʒeːɾiːn/</sub> | **نەبژێرین**<br><sub>nebjêrîn</sub><br><sub>/næbʒeːɾiːn/</sub> |
-| 2pl | ئێوە | **ببژێرن**<br><sub>bibijêrn</sub><br><sub>/b(ɯ)b(ɯ)ʒeːɾn/</sub> | **نەبژێرن**<br><sub>nebjêrn</sub><br><sub>/næbʒeːɾn/</sub> |
-| 3pl | ئەوان | **ببژێرن**<br><sub>bibijêrn</sub><br><sub>/b(ɯ)b(ɯ)ʒeːɾn/</sub> | **نەبژێرن**<br><sub>nebjêrn</sub><br><sub>/næbʒeːɾn/</sub> |
+| 1sg | من | **ببژێرم**<br><sub>bibjêrm</sub><br><sub>/b(ɯ)bʒeːɾm/</sub> | **نەبژێرم**<br><sub>nebjêrm</sub><br><sub>/næbʒeːɾm/</sub> |
+| 2sg | تۆ | **ببژێریت**<br><sub>bibjêrît</sub><br><sub>/b(ɯ)bʒeːɾiːt/</sub> | **نەبژێریت**<br><sub>nebjêrît</sub><br><sub>/næbʒeːɾiːt/</sub> |
+| 3sg | ئەو | **ببژێرێت**<br><sub>bibjêrêt</sub><br><sub>/b(ɯ)bʒeːɾeːt/</sub> | **نەبژێرێت**<br><sub>nebjêrêt</sub><br><sub>/næbʒeːɾeːt/</sub> |
+| 1pl | ئێمە | **ببژێرین**<br><sub>bibjêrîn</sub><br><sub>/b(ɯ)bʒeːɾiːn/</sub> | **نەبژێرین**<br><sub>nebjêrîn</sub><br><sub>/næbʒeːɾiːn/</sub> |
+| 2pl | ئێوە | **ببژێرن**<br><sub>bibjêrn</sub><br><sub>/b(ɯ)bʒeːɾn/</sub> | **نەبژێرن**<br><sub>nebjêrn</sub><br><sub>/næbʒeːɾn/</sub> |
+| 3pl | ئەوان | **ببژێرن**<br><sub>bibjêrn</sub><br><sub>/b(ɯ)bʒeːɾn/</sub> | **نەبژێرن**<br><sub>nebjêrn</sub><br><sub>/næbʒeːɾn/</sub> |
 
 ## Simple past
 
@@ -100,8 +100,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **ببژێرە**<br><sub>bibijêre</sub><br><sub>/b(ɯ)b(ɯ)ʒeːɾæ/</sub> | **مەبژێرە**<br><sub>mebjêre</sub><br><sub>/mæbʒeːɾæ/</sub> |
-| 2pl | ئێوە | **ببژێرن**<br><sub>bibijêrn</sub><br><sub>/b(ɯ)b(ɯ)ʒeːɾn/</sub> | **مەبژێرن**<br><sub>mebjêrn</sub><br><sub>/mæbʒeːɾn/</sub> |
+| 2sg | تۆ | **ببژێرە**<br><sub>bibjêre</sub><br><sub>/b(ɯ)bʒeːɾæ/</sub> | **مەبژێرە**<br><sub>mebjêre</sub><br><sub>/mæbʒeːɾæ/</sub> |
+| 2pl | ئێوە | **ببژێرن**<br><sub>bibjêrn</sub><br><sub>/b(ɯ)bʒeːɾn/</sub> | **مەبژێرن**<br><sub>mebjêrn</sub><br><sub>/mæbʒeːɾn/</sub> |
 
 ## Other forms
 

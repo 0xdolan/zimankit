@@ -30,9 +30,9 @@
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
 | 1sg | من | **ببڕم**<br><sub>bibirrm</sub><br><sub>/b(ɯ)b(ɯ)rm/</sub> | **نەبڕم**<br><sub>nebrrim</sub><br><sub>/næbr(ɯ)m/</sub> |
-| 2sg | تۆ | **ببڕیت**<br><sub>bibirrît</sub><br><sub>/b(ɯ)b(ɯ)riːt/</sub> | **نەبڕیت**<br><sub>nebrrît</sub><br><sub>/næbriːt/</sub> |
-| 3sg | ئەو | **ببڕێت**<br><sub>bibirrêt</sub><br><sub>/b(ɯ)b(ɯ)reːt/</sub> | **نەبڕێت**<br><sub>nebrrêt</sub><br><sub>/næbreːt/</sub> |
-| 1pl | ئێمە | **ببڕین**<br><sub>bibirrîn</sub><br><sub>/b(ɯ)b(ɯ)riːn/</sub> | **نەبڕین**<br><sub>nebrrîn</sub><br><sub>/næbriːn/</sub> |
+| 2sg | تۆ | **ببڕیت**<br><sub>bibrrît</sub><br><sub>/b(ɯ)briːt/</sub> | **نەبڕیت**<br><sub>nebrrît</sub><br><sub>/næbriːt/</sub> |
+| 3sg | ئەو | **ببڕێت**<br><sub>bibrrêt</sub><br><sub>/b(ɯ)breːt/</sub> | **نەبڕێت**<br><sub>nebrrêt</sub><br><sub>/næbreːt/</sub> |
+| 1pl | ئێمە | **ببڕین**<br><sub>bibrrîn</sub><br><sub>/b(ɯ)briːn/</sub> | **نەبڕین**<br><sub>nebrrîn</sub><br><sub>/næbriːn/</sub> |
 | 2pl | ئێوە | **ببڕن**<br><sub>bibirrn</sub><br><sub>/b(ɯ)b(ɯ)rn/</sub> | **نەبڕن**<br><sub>nebrrin</sub><br><sub>/næbr(ɯ)n/</sub> |
 | 3pl | ئەوان | **ببڕن**<br><sub>bibirrn</sub><br><sub>/b(ɯ)b(ɯ)rn/</sub> | **نەبڕن**<br><sub>nebrrin</sub><br><sub>/næbr(ɯ)n/</sub> |
 
@@ -100,7 +100,7 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **ببڕە**<br><sub>bibirre</sub><br><sub>/b(ɯ)b(ɯ)ræ/</sub> | **مەبڕە**<br><sub>mebrre</sub><br><sub>/mæbræ/</sub> |
+| 2sg | تۆ | **ببڕە**<br><sub>bibrre</sub><br><sub>/b(ɯ)bræ/</sub> | **مەبڕە**<br><sub>mebrre</sub><br><sub>/mæbræ/</sub> |
 | 2pl | ئێوە | **ببڕن**<br><sub>bibirrn</sub><br><sub>/b(ɯ)b(ɯ)rn/</sub> | **مەبڕن**<br><sub>mebrrin</sub><br><sub>/mæbr(ɯ)n/</sub> |
 
 ## Other forms

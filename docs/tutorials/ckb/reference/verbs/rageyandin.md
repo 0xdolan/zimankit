@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **ڕاگەیەنم**<br><sub>rageyenim</sub><br><sub>/raːɡæjæn(ɯ)m/</sub> | **ڕانەگەیەنم**<br><sub>ranegeyenim</sub><br><sub>/raːnæɡæjæn(ɯ)m/</sub> |
-| 2sg | تۆ | **ڕاگەیەنیت**<br><sub>rageyenît</sub><br><sub>/raːɡæjæniːt/</sub> | **ڕانەگەیەنیت**<br><sub>ranegeyenît</sub><br><sub>/raːnæɡæjæniːt/</sub> |
-| 3sg | ئەو | **ڕاگەیەنێت**<br><sub>rageyenêt</sub><br><sub>/raːɡæjæneːt/</sub> | **ڕانەگەیەنێت**<br><sub>ranegeyenêt</sub><br><sub>/raːnæɡæjæneːt/</sub> |
-| 1pl | ئێمە | **ڕاگەیەنین**<br><sub>rageyenîn</sub><br><sub>/raːɡæjæniːn/</sub> | **ڕانەگەیەنین**<br><sub>ranegeyenîn</sub><br><sub>/raːnæɡæjæniːn/</sub> |
-| 2pl | ئێوە | **ڕاگەیەنن**<br><sub>rageyenin</sub><br><sub>/raːɡæjæn(ɯ)n/</sub> | **ڕانەگەیەنن**<br><sub>ranegeyenin</sub><br><sub>/raːnæɡæjæn(ɯ)n/</sub> |
-| 3pl | ئەوان | **ڕاگەیەنن**<br><sub>rageyenin</sub><br><sub>/raːɡæjæn(ɯ)n/</sub> | **ڕانەگەیەنن**<br><sub>ranegeyenin</sub><br><sub>/raːnæɡæjæn(ɯ)n/</sub> |
+| 1sg | من | **ڕابگەیەنم**<br><sub>rabgeyenim</sub><br><sub>/raːbɡæjæn(ɯ)m/</sub> | **ڕانەگەیەنم**<br><sub>ranegeyenim</sub><br><sub>/raːnæɡæjæn(ɯ)m/</sub> |
+| 2sg | تۆ | **ڕابگەیەنیت**<br><sub>rabgeyenît</sub><br><sub>/raːbɡæjæniːt/</sub> | **ڕانەگەیەنیت**<br><sub>ranegeyenît</sub><br><sub>/raːnæɡæjæniːt/</sub> |
+| 3sg | ئەو | **ڕابگەیەنێت**<br><sub>rabgeyenêt</sub><br><sub>/raːbɡæjæneːt/</sub> | **ڕانەگەیەنێت**<br><sub>ranegeyenêt</sub><br><sub>/raːnæɡæjæneːt/</sub> |
+| 1pl | ئێمە | **ڕابگەیەنین**<br><sub>rabgeyenîn</sub><br><sub>/raːbɡæjæniːn/</sub> | **ڕانەگەیەنین**<br><sub>ranegeyenîn</sub><br><sub>/raːnæɡæjæniːn/</sub> |
+| 2pl | ئێوە | **ڕابگەیەنن**<br><sub>rabgeyenin</sub><br><sub>/raːbɡæjæn(ɯ)n/</sub> | **ڕانەگەیەنن**<br><sub>ranegeyenin</sub><br><sub>/raːnæɡæjæn(ɯ)n/</sub> |
+| 3pl | ئەوان | **ڕابگەیەنن**<br><sub>rabgeyenin</sub><br><sub>/raːbɡæjæn(ɯ)n/</sub> | **ڕانەگەیەنن**<br><sub>ranegeyenin</sub><br><sub>/raːnæɡæjæn(ɯ)n/</sub> |
 
 ## Simple past
 
@@ -101,8 +101,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **ڕاگەیەنە**<br><sub>rageyene</sub><br><sub>/raːɡæjænæ/</sub> | **ڕامەگەیەنە**<br><sub>ramegeyene</sub><br><sub>/raːmæɡæjænæ/</sub> |
-| 2pl | ئێوە | **ڕاگەیەنن**<br><sub>rageyenin</sub><br><sub>/raːɡæjæn(ɯ)n/</sub> | **ڕامەگەیەنن**<br><sub>ramegeyenin</sub><br><sub>/raːmæɡæjæn(ɯ)n/</sub> |
+| 2sg | تۆ | **ڕابگەیەنە**<br><sub>rabgeyene</sub><br><sub>/raːbɡæjænæ/</sub> | **ڕامەگەیەنە**<br><sub>ramegeyene</sub><br><sub>/raːmæɡæjænæ/</sub> |
+| 2pl | ئێوە | **ڕابگەیەنن**<br><sub>rabgeyenin</sub><br><sub>/raːbɡæjæn(ɯ)n/</sub> | **ڕامەگەیەنن**<br><sub>ramegeyenin</sub><br><sub>/raːmæɡæjæn(ɯ)n/</sub> |
 
 ## Other forms
 

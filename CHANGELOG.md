@@ -4,8 +4,25 @@ All notable changes to zimankit are recorded here. The format follows [Keep a Ch
 
 ## [Unreleased]
 
+### Fixed
+
+Central Kurdish, checked against the written-standard and grammar sources in [chapter 23](docs/23-ckb-written-standard.md):
+
+- **Normaliser**: keeps `ییی` (`سنەییی`) and `ڵڵ` (`ئەڵڵا`), and no longer merges `ر` with `ڕ` or `ل` with `ڵ`. It removes the ZWNJ in `سپی‌یە` and splits a ZWNJ-attached `و`.
+- **Transliteration and IPA**: no second unwritten vowel in words like `منداڵ` (`mindall`, was `minidall`) and `کردووە` (`kirdûwe`); `ستران` is `stran`; a lone `چ` is `çi`. This also changes the `ipa` and `translit` columns of the lexicon when it is rebuilt.
+- **`-ەوە` verbs**: no three-`و` forms (`چووەوە`, was `چوووە`); the perfect has `ت` (`خوێندووەتەوە`); `دۆزییەوە`.
+- **Preverb verbs**: `ب` is generated after the preverb (`هەڵبگرم`, `دابنیشە`), with the bare form as a variant. `ڕاکردن` takes the agent clitics.
+- **Nouns in `وو`**: `خانووەکە`, `خانووێک`, `خانووان`.
+- **Sentence structure**: in `نانم خوارد` the clitic host is the object, not the subject.
+- **Sentences and tokens**: one-letter abbreviations do not end a sentence, closing quotes stay with their sentence, and a lone `ـ` is punctuation.
+
+### Changed
+
+- **`validate_word`** also reports the spelling standard (`ووشە`, `چو`, `ڵات`). The new `structural_problems` is what the wordlist builder rejects on, so common non-standard forms stay recognised.
+
 ### Added
 
+- **Documentation**: [chapter 23, the Central Kurdish written standard](docs/23-ckb-written-standard.md): the rules, what zimankit implements of them, where the authorities disagree and what is still open.
 - **Lexicon bundle**: `run_pipeline.py --stages bundle` packs the published lexicon into one reproducible file, `zimankit-lexicon-<version>.tar.zst`, for tools that build on it. It holds the words and lemmas as Parquet, the spelling variants, the grammar rules, the data card and the licence notice, and is attached to the GitHub release.
 
 ## [0.2.0] - 2026-10-31

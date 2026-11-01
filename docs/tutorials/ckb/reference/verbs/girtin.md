@@ -30,9 +30,9 @@
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
 | 1sg | من | **بگرم**<br><sub>bigirm</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾm/</sub> | **نەگرم**<br><sub>negrim</sub><br><sub>/næɡɾ(ɯ)m/</sub> |
-| 2sg | تۆ | **بگریت**<br><sub>bigirît</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾiːt/</sub> | **نەگریت**<br><sub>negrît</sub><br><sub>/næɡɾiːt/</sub> |
-| 3sg | ئەو | **بگرێت**<br><sub>bigirêt</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾeːt/</sub> | **نەگرێت**<br><sub>negrêt</sub><br><sub>/næɡɾeːt/</sub> |
-| 1pl | ئێمە | **بگرین**<br><sub>bigirîn</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾiːn/</sub> | **نەگرین**<br><sub>negrîn</sub><br><sub>/næɡɾiːn/</sub> |
+| 2sg | تۆ | **بگریت**<br><sub>bigrît</sub><br><sub>/b(ɯ)ɡɾiːt/</sub> | **نەگریت**<br><sub>negrît</sub><br><sub>/næɡɾiːt/</sub> |
+| 3sg | ئەو | **بگرێت**<br><sub>bigrêt</sub><br><sub>/b(ɯ)ɡɾeːt/</sub> | **نەگرێت**<br><sub>negrêt</sub><br><sub>/næɡɾeːt/</sub> |
+| 1pl | ئێمە | **بگرین**<br><sub>bigrîn</sub><br><sub>/b(ɯ)ɡɾiːn/</sub> | **نەگرین**<br><sub>negrîn</sub><br><sub>/næɡɾiːn/</sub> |
 | 2pl | ئێوە | **بگرن**<br><sub>bigirn</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾn/</sub> | **نەگرن**<br><sub>negrin</sub><br><sub>/næɡɾ(ɯ)n/</sub> |
 | 3pl | ئەوان | **بگرن**<br><sub>bigirn</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾn/</sub> | **نەگرن**<br><sub>negrin</sub><br><sub>/næɡɾ(ɯ)n/</sub> |
 
@@ -44,10 +44,10 @@
 |---|---|---|---|
 | 1sg | من | **گرتم**<br><sub>girtim</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)m/</sub> | **نەمگرت**<br><sub>nemgirt</sub><br><sub>/næmɡ(ɯ)ɾt/</sub> |
 | 2sg | تۆ | **گرتت**<br><sub>girtit</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)t/</sub> | **نەتگرت**<br><sub>netgirt</sub><br><sub>/nætɡ(ɯ)ɾt/</sub> |
-| 3sg | ئەو | **گرتی**<br><sub>giritî</sub><br><sub>/ɡ(ɯ)ɾ(ɯ)tiː/</sub> | **نەیگرت**<br><sub>neygirt</sub><br><sub>/næjɡ(ɯ)ɾt/</sub> |
+| 3sg | ئەو | **گرتی**<br><sub>girtî</sub><br><sub>/ɡ(ɯ)ɾtiː/</sub> | **نەیگرت**<br><sub>neygirt</sub><br><sub>/næjɡ(ɯ)ɾt/</sub> |
 | 1pl | ئێمە | **گرتمان**<br><sub>girtiman</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)maːn/</sub> | **نەمانگرت**<br><sub>nemangirt</sub><br><sub>/næmaːnɡ(ɯ)ɾt/</sub> |
 | 2pl | ئێوە | **گرتتان**<br><sub>girtitan</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)taːn/</sub> | **نەتانگرت**<br><sub>netangirt</sub><br><sub>/nætaːnɡ(ɯ)ɾt/</sub> |
-| 3pl | ئەوان | **گرتیان**<br><sub>girityan</sub><br><sub>/ɡ(ɯ)ɾ(ɯ)tjaːn/</sub> | **نەیانگرت**<br><sub>neyangirt</sub><br><sub>/næjaːnɡ(ɯ)ɾt/</sub> |
+| 3pl | ئەوان | **گرتیان**<br><sub>girtyan</sub><br><sub>/ɡ(ɯ)ɾtjaːn/</sub> | **نەیانگرت**<br><sub>neyangirt</sub><br><sub>/næjaːnɡ(ɯ)ɾt/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -72,12 +72,12 @@
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **گرتوومە**<br><sub>giritûme</sub><br><sub>/ɡ(ɯ)ɾ(ɯ)tuːmæ/</sub> | **گرتبووم**<br><sub>girtibûm</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːm/</sub> |
-| 2sg | تۆ | **گرتووتە**<br><sub>giritûte</sub><br><sub>/ɡ(ɯ)ɾ(ɯ)tuːtæ/</sub> | **گرتبووت**<br><sub>girtibût</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːt/</sub> |
-| 3sg | ئەو | **گرتوویەتی**<br><sub>giritûyetî</sub><br><sub>/ɡ(ɯ)ɾ(ɯ)tuːjætiː/</sub> | **گرتبووی**<br><sub>girtibûy</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːj/</sub> |
-| 1pl | ئێمە | **گرتوومانە**<br><sub>giritûmane</sub><br><sub>/ɡ(ɯ)ɾ(ɯ)tuːmaːnæ/</sub> | **گرتبوومان**<br><sub>girtibûman</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːmaːn/</sub> |
-| 2pl | ئێوە | **گرتووتانە**<br><sub>giritûtane</sub><br><sub>/ɡ(ɯ)ɾ(ɯ)tuːtaːnæ/</sub> | **گرتبووتان**<br><sub>girtibûtan</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːtaːn/</sub> |
-| 3pl | ئەوان | **گرتوویانە**<br><sub>giritûyane</sub><br><sub>/ɡ(ɯ)ɾ(ɯ)tuːjaːnæ/</sub> | **گرتبوویان**<br><sub>girtibûyan</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːjaːn/</sub> |
+| 1sg | من | **گرتوومە**<br><sub>girtûme</sub><br><sub>/ɡ(ɯ)ɾtuːmæ/</sub> | **گرتبووم**<br><sub>girtibûm</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːm/</sub> |
+| 2sg | تۆ | **گرتووتە**<br><sub>girtûte</sub><br><sub>/ɡ(ɯ)ɾtuːtæ/</sub> | **گرتبووت**<br><sub>girtibût</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːt/</sub> |
+| 3sg | ئەو | **گرتوویەتی**<br><sub>girtûyetî</sub><br><sub>/ɡ(ɯ)ɾtuːjætiː/</sub> | **گرتبووی**<br><sub>girtibûy</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːj/</sub> |
+| 1pl | ئێمە | **گرتوومانە**<br><sub>girtûmane</sub><br><sub>/ɡ(ɯ)ɾtuːmaːnæ/</sub> | **گرتبوومان**<br><sub>girtibûman</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːmaːn/</sub> |
+| 2pl | ئێوە | **گرتووتانە**<br><sub>girtûtane</sub><br><sub>/ɡ(ɯ)ɾtuːtaːnæ/</sub> | **گرتبووتان**<br><sub>girtibûtan</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːtaːn/</sub> |
+| 3pl | ئەوان | **گرتوویانە**<br><sub>girtûyane</sub><br><sub>/ɡ(ɯ)ɾtuːjaːnæ/</sub> | **گرتبوویان**<br><sub>girtibûyan</sub><br><sub>/ɡ(ɯ)ɾt(ɯ)buːjaːn/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -100,7 +100,7 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بگرە**<br><sub>bigire</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾæ/</sub> | **مەگرە**<br><sub>megre</sub><br><sub>/mæɡɾæ/</sub> |
+| 2sg | تۆ | **بگرە**<br><sub>bigre</sub><br><sub>/b(ɯ)ɡɾæ/</sub> | **مەگرە**<br><sub>megre</sub><br><sub>/mæɡɾæ/</sub> |
 | 2pl | ئێوە | **بگرن**<br><sub>bigirn</sub><br><sub>/b(ɯ)ɡ(ɯ)ɾn/</sub> | **مەگرن**<br><sub>megrin</sub><br><sub>/mæɡɾ(ɯ)n/</sub> |
 
 ## Other forms
@@ -109,10 +109,10 @@
 |---|---|---|
 | past perfective, agent clitic elsewhere | **گرت** | girt |
 | past progressive, agent clitic elsewhere | **دەگرت** | degrit |
-| present perfect, agent clitic elsewhere | **گرتووە** | giritûwe |
+| present perfect, agent clitic elsewhere | **گرتووە** | girtûwe |
 | past perfect, agent clitic elsewhere | **گرتبوو** | girtibû |
 | infinitive | **گرتن** | girtin |
-| past participle | **گرتوو** | giritû |
+| past participle | **گرتوو** | girtû |
 | passive participle | **گیراو** | gîraw |
 
 ---

@@ -8,7 +8,7 @@
 
 **On this page:** [1. Use Kurdish letters, not Arabic or Persian ones](#1-use-kurdish-letters-not-arabic-or-persian-ones) · [2. Don't drop the marks](#2-dont-drop-the-marks) · [3. Initial vowels need ئ](#3-initial-vowels-need-ئ) · [4. Old encodings](#4-old-encodings) · [5. Words the validator rejects](#5-words-the-validator-rejects) · [6. Real words in the wrong spelling](#6-real-words-in-the-wrong-spelling) · [7. Grammar errors to watch](#7-grammar-errors-to-watch) · [Summary](#summary)
 
-You can now read and write Sorani grammatically. This lesson covers what separates a correct text from a merely understandable one: the spelling standard, and the mistakes that native writers and machines make most. Every rule here is implemented in zimankit (`skills_ckb/orthography.py`), so this lesson is also the specification of a future grammar checker.
+You can now read and write Sorani grammatically. This lesson covers what separates a correct text from a merely understandable one: the spelling standard, and the mistakes that native writers and machines make most. Sections 1 to 6 are implemented in zimankit (`skills_ckb/orthography.py`); section 7 and the fuller [written standard](../../../23-ckb-written-standard.md) are only partly implemented, so this lesson is also the specification of a future grammar checker.
 
 ## 1. Use Kurdish letters, not Arabic or Persian ones
 
@@ -74,11 +74,11 @@ Some errors produce a string that *could* be a word. گول is a possible letter
 |---|---|---|---|
 | وێستگه | وێستگە *station* | 6 748 | 55 860 |
 | سێشەممه | سێشەممە *Tuesday* | 1 409 | 7 681 |
-| ڕای‌گەیاند | ڕایگەیاند *he announced* | 295 | 79 327 |
+| ڕای‌گەیاند | ڕای گەیاند or ڕایگەیاند *he announced* | 295 | 79 327 (solid) |
 | دیناره | دینارە *it is a dinar* | 234 | 13 721 |
 | نێردراوه | نێردراوە *has been sent* | 209 | 3 322 |
 
-Most are the legacy ه-for-ە problem of section 4 on words the normaliser could not safely fix on its own. ڕای‌گەیاند shows a ZWNJ inserted after the preverb clitic (lesson 20).
+Most are the legacy ه-for-ە problem of section 4 on words the normaliser could not safely fix on its own. ڕای‌گەیاند shows a ZWNJ inserted after the preverb clitic (lesson 20). No authority uses that ZWNJ. The spelling standard prefers a space (ڕای گەیاند) and allows the solid form, which is far more common in the corpus. zimankit's lexicon stores the solid form, and its analyzer does not read the split one correctly yet.
 
 ## 7. Grammar errors to watch
 
@@ -89,7 +89,7 @@ These need context, not just spelling. They are the targets of the planned gramm
 | agent clitic missing in the past | \* من نان خوارد | من نانم خوارد | 14 |
 | agent clitic on an intransitive verb | \* هاتمان | هاتین | 13 |
 | wrong allomorph after a vowel | \* دەرگاەکە | دەرگاکە | 7 |
-| plural noun after a number | \* سێ پیاوان | سێ پیاو | 7 |
+| plural noun after a number (common usage; no explicit rule in the grammars checked) | \* سێ پیاوان | سێ پیاو | 7 |
 | ezafe missing between noun and adjective | \* پیاو باش | پیاوی باش | 9 |
 | definite + adjective order | \* پیاوەکە باش (as a phrase) | پیاوە باشەکە | 9 |
 

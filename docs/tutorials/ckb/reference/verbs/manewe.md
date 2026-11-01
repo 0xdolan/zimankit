@@ -68,12 +68,12 @@
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **ماومەوە**<br><sub>mawmewe</sub><br><sub>/maːwmæwæ/</sub> | **مابوومەوە**<br><sub>mabûmewe</sub><br><sub>/maːbuːmæwæ/</sub> |
-| 2sg | تۆ | **ماویتەوە**<br><sub>mawîtewe</sub><br><sub>/maːwiːtæwæ/</sub> | **مابوویتەوە**<br><sub>mabûytewe</sub><br><sub>/maːbuːjtæwæ/</sub> |
-| 3sg | ئەو | **ماوەوە**<br><sub>mawewe</sub><br><sub>/maːwæwæ/</sub> | **مابوووە**<br><sub>mabûwe</sub><br><sub>/maːbuːwæ/</sub> |
-| 1pl | ئێمە | **ماوینەوە**<br><sub>mawînewe</sub><br><sub>/maːwiːnæwæ/</sub> | **مابووینەوە**<br><sub>mabûynewe</sub><br><sub>/maːbuːjnæwæ/</sub> |
-| 2pl | ئێوە | **ماونەوە**<br><sub>mawnewe</sub><br><sub>/maːwnæwæ/</sub> | **مابوونەوە**<br><sub>mabûnewe</sub><br><sub>/maːbuːnæwæ/</sub> |
-| 3pl | ئەوان | **ماونەوە**<br><sub>mawnewe</sub><br><sub>/maːwnæwæ/</sub> | **مابوونەوە**<br><sub>mabûnewe</sub><br><sub>/maːbuːnæwæ/</sub> |
+| 1sg | من | **ماومەتەوە**<br><sub>mawmetewe</sub><br><sub>/maːwmætæwæ/</sub> | **مابوومەوە**<br><sub>mabûmewe</sub><br><sub>/maːbuːmæwæ/</sub> |
+| 2sg | تۆ | **ماویتەتەوە**<br><sub>mawîtetewe</sub><br><sub>/maːwiːtætæwæ/</sub> | **مابوویتەوە**<br><sub>mabûytewe</sub><br><sub>/maːbuːjtæwæ/</sub> |
+| 3sg | ئەو | **ماوەتەوە**<br><sub>mawetewe</sub><br><sub>/maːwætæwæ/</sub> | **مابووەوە**<br><sub>mabûwewe</sub><br><sub>/maːbuːwæwæ/</sub> |
+| 1pl | ئێمە | **ماوینەتەوە**<br><sub>mawînetewe</sub><br><sub>/maːwiːnætæwæ/</sub> | **مابووینەوە**<br><sub>mabûynewe</sub><br><sub>/maːbuːjnæwæ/</sub> |
+| 2pl | ئێوە | **ماونەتەوە**<br><sub>mawnetewe</sub><br><sub>/maːwnætæwæ/</sub> | **مابوونەوە**<br><sub>mabûnewe</sub><br><sub>/maːbuːnæwæ/</sub> |
+| 3pl | ئەوان | **ماونەتەوە**<br><sub>mawnetewe</sub><br><sub>/maːwnætæwæ/</sub> | **مابوونەوە**<br><sub>mabûnewe</sub><br><sub>/maːbuːnæwæ/</sub> |
 
 ## Imperative
 
@@ -89,7 +89,7 @@
 | form | Kurdish | Latin |
 |---|---|---|
 | infinitive | **مانەوە** | manewe |
-| past participle | **ماووە** | mawûwe |
+| past participle | **ماوەوە** | mawewe |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

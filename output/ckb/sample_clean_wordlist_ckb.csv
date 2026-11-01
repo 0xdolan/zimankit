@@ -44,7 +44,7 @@ grapheme,lemma,pos,ipa,morph_meta,translit,frequency,sources,confidence
 بێ,بێ,ADP,beː,"{""adptype"":""prep"",""seg"":""بێ""}",bê,149912,"bilingual,core,dictionary,encyclopedia,news,web",1.0
 بکات,کردن,VERB,b(ɯ)kaːt,"{""mood"":""subjunctive"",""person"":""3sg"",""seg"":""بکات"",""tense"":""present"",""transitivity"":""transitive""}",bikat,149449,"core,dictionary,encyclopedia,news,web",1.0
 من,من,PRON,m(ɯ)n,"{""case"":""dir"",""person"":""1sg"",""seg"":""من""}",min,147324,"bilingual,core,dictionary,encyclopedia,lexicon,news,web",1.0
-کردووە,کردو,NOUN,k(ɯ)ɾ(ɯ)duːwæ,"{""postposition"":""ewe"",""seg"":""کردو+وە""}",kiridûwe,146039,"bilingual,dictionary,encyclopedia,news,web",0.6
+کردووە,کردو,NOUN,k(ɯ)ɾduːwæ,"{""postposition"":""ewe"",""seg"":""کردو+وە""}",kirdûwe,146039,"bilingual,dictionary,encyclopedia,news,web",0.6
 ئێمە,ئێمە,PRON,ʔeːmæ,"{""person"":""1pl"",""seg"":""ئێمە""}",ême,145400,"bilingual,core,dictionary,encyclopedia,lexicon,news,web",1.0
 سەرۆکی,سەرۆکی,NOUN,sæɾoːkiː,"{""seg"":""سەرۆکی""}",serokî,142208,"bilingual,dictionary,encyclopedia,news,web",0.55
 لەلایەن,لەلایەن,ADP,lælaːjæn,"{""adptype"":""prep"",""seg"":""لەلایەن""}",lelayen,138680,"bilingual,core,dictionary,encyclopedia,news,web",1.0
@@ -109,7 +109,7 @@ grapheme,lemma,pos,ipa,morph_meta,translit,frequency,sources,confidence
 تایبەت,تایبەت,NOUN,taːjbæt,"{""seg"":""تایبەت""}",taybet,65698,"bilingual,encyclopedia,news,web",0.55
 وەزارەتی,وەزارەت,NOUN,wæzaːɾætiː,"{""enclitic"":""3sg|ezafe"",""seg"":""وەزارەت+ی""}",wezaretî,65113,"bilingual,encyclopedia,news,web",0.6
 وەکو,وەکو,NOUN,wæku,"{""seg"":""وەکو""}",weku,64819,"bilingual,dictionary,encyclopedia,news,web",0.55
-بکرێت,کران,VERB,b(ɯ)k(ɯ)ɾeːt,"{""mood"":""subjunctive"",""person"":""3sg"",""seg"":""بکرێت"",""tense"":""present"",""transitivity"":""transitive""}",bikirêt,64514,"dictionary,encyclopedia,news,web",0.45
+بکرێت,کران,VERB,b(ɯ)kɾeːt,"{""mood"":""subjunctive"",""person"":""3sg"",""seg"":""بکرێت"",""tense"":""present"",""transitivity"":""transitive""}",bikrêt,64514,"dictionary,encyclopedia,news,web",0.45
 ئەمەش,ئەمەش,ADV,ʔæmæʃ,"{""seg"":""ئەمەش""}",emeş,64380,"bilingual,dictionary,encyclopedia,news,web",0.55
 یەکێک,یەکێک,NOUN,jækeːk,"{""seg"":""یەکێک""}",yekêk,64269,"bilingual,dictionary,encyclopedia,news,web",0.55
 پەرلەمانی,پەرلەمانی,ADJ,pæɾlæmaːniː,"{""seg"":""پەرلەمانی""}",perlemanî,63296,"bilingual,encyclopedia,news,web",0.55
@@ -241,7 +241,7 @@ grapheme,lemma,pos,ipa,morph_meta,translit,frequency,sources,confidence
 دەردەکەوێت,دەرکەوتن,VERB,dæɾdækæweːt,"{""mood"":""indicative"",""person"":""3sg"",""seg"":""دەردەکەوێت"",""tense"":""present"",""transitivity"":""intransitive""}",derdekewêt,38014,"core,encyclopedia,news,web",1.0
 لەنێوان,لەنێوان,ADV,læneːwaːn,"{""seg"":""لەنێوان""}",lenêwan,37961,"bilingual,encyclopedia,news,web",0.55
 جەلال,جەلال,NOUN,dʒælaːl,"{""seg"":""جەلال""}",celal,37934,"bilingual,encyclopedia,news,web",0.55
-کردەوە,کردنەوە,VERB,k(ɯ)ɾ(ɯ)dæwæ,"{""agent"":""external"",""alignment"":""ergative"",""aspect"":""perfective"",""seg"":""کردەوە"",""tense"":""past"",""transitivity"":""transitive""}",kiridewe,37922,"core,dictionary,encyclopedia,news,web",1.0
+کردەوە,کردنەوە,VERB,k(ɯ)ɾdæwæ,"{""agent"":""external"",""alignment"":""ergative"",""aspect"":""perfective"",""seg"":""کردەوە"",""tense"":""past"",""transitivity"":""transitive""}",kirdewe,37922,"core,dictionary,encyclopedia,news,web",1.0
 تەنانەت,تەنانەت,ADV,tænaːnæt,"{""seg"":""تەنانەت""}",tenanet,37805,"bilingual,dictionary,encyclopedia,lexicon,news,web",1.0
 ئەویش,ئەویش,ADV,ʔæwiːʃ,"{""seg"":""ئەویش""}",ewîş,37565,"bilingual,dictionary,encyclopedia,news,web",0.55
 دەنگی,دەنگی,NOUN,dænɡiː,"{""seg"":""دەنگی""}",dengî,37470,"bilingual,dictionary,encyclopedia,news,web",0.55

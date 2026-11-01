@@ -63,10 +63,10 @@ The pronoun subject (من، تۆ…) can be added for emphasis, but it is not wh
 |---|---|---|---|
 | 1sg | من | **کردم**<br><sub>kirdim</sub> | **نەمکرد**<br><sub>nemkird</sub> |
 | 2sg | تۆ | **کردت**<br><sub>kirdit</sub> | **نەتکرد**<br><sub>netkird</sub> |
-| 3sg | ئەو | **کردی**<br><sub>kiridî</sub> | **نەیکرد**<br><sub>neykird</sub> |
+| 3sg | ئەو | **کردی**<br><sub>kirdî</sub> | **نەیکرد**<br><sub>neykird</sub> |
 | 1pl | ئێمە | **کردمان**<br><sub>kirdiman</sub> | **نەمانکرد**<br><sub>nemankird</sub> |
 | 2pl | ئێوە | **کردتان**<br><sub>kirditan</sub> | **نەتانکرد**<br><sub>netankird</sub> |
-| 3pl | ئەوان | **کردیان**<br><sub>kiridyan</sub> | **نەیانکرد**<br><sub>neyankird</sub> |
+| 3pl | ئەوان | **کردیان**<br><sub>kirdyan</sub> | **نەیانکرد**<br><sub>neyankird</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 <!-- /gen -->

@@ -14,7 +14,8 @@ The converter works in three passes:
    word = "و"         /u/ (conjunction "and")        -
    after a vowel      /w/  ئاو  /ʔaːw/               /j/  چای /tʃaːj/
    before a vowel     /w/  خواردن /xwaːrdɯn/          /j/  پیاو /pjaːw/
-   C _ C or C _ #     /u/  کورد /kurd/               /iː/ میر /miːr/
+   C _ C              /u/  کورد /kurd/               /iː/ میر /miːr/
+   C _ #              (standard writes وو)           /iː/ ماسی /maːsiː/
    doubled وو / یی    /uː/ (+ glide before a vowel)  /iː/ (+ /j/ before vowel)
    =================  =============================  =========================
 

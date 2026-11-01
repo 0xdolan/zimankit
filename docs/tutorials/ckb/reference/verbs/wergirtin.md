@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **وەرگرم**<br><sub>wergirm</sub><br><sub>/wæɾɡ(ɯ)ɾm/</sub> | **وەرنەگرم**<br><sub>wernegrim</sub><br><sub>/wæɾnæɡɾ(ɯ)m/</sub> |
-| 2sg | تۆ | **وەرگریت**<br><sub>wergirît</sub><br><sub>/wæɾɡ(ɯ)ɾiːt/</sub> | **وەرنەگریت**<br><sub>wernegrît</sub><br><sub>/wæɾnæɡɾiːt/</sub> |
-| 3sg | ئەو | **وەرگرێت**<br><sub>wergirêt</sub><br><sub>/wæɾɡ(ɯ)ɾeːt/</sub> | **وەرنەگرێت**<br><sub>wernegrêt</sub><br><sub>/wæɾnæɡɾeːt/</sub> |
-| 1pl | ئێمە | **وەرگرین**<br><sub>wergirîn</sub><br><sub>/wæɾɡ(ɯ)ɾiːn/</sub> | **وەرنەگرین**<br><sub>wernegrîn</sub><br><sub>/wæɾnæɡɾiːn/</sub> |
-| 2pl | ئێوە | **وەرگرن**<br><sub>wergirn</sub><br><sub>/wæɾɡ(ɯ)ɾn/</sub> | **وەرنەگرن**<br><sub>wernegrin</sub><br><sub>/wæɾnæɡɾ(ɯ)n/</sub> |
-| 3pl | ئەوان | **وەرگرن**<br><sub>wergirn</sub><br><sub>/wæɾɡ(ɯ)ɾn/</sub> | **وەرنەگرن**<br><sub>wernegrin</sub><br><sub>/wæɾnæɡɾ(ɯ)n/</sub> |
+| 1sg | من | **وەربگرم**<br><sub>werbigirm</sub><br><sub>/wæɾb(ɯ)ɡ(ɯ)ɾm/</sub> | **وەرنەگرم**<br><sub>wernegrim</sub><br><sub>/wæɾnæɡɾ(ɯ)m/</sub> |
+| 2sg | تۆ | **وەربگریت**<br><sub>werbigrît</sub><br><sub>/wæɾb(ɯ)ɡɾiːt/</sub> | **وەرنەگریت**<br><sub>wernegrît</sub><br><sub>/wæɾnæɡɾiːt/</sub> |
+| 3sg | ئەو | **وەربگرێت**<br><sub>werbigrêt</sub><br><sub>/wæɾb(ɯ)ɡɾeːt/</sub> | **وەرنەگرێت**<br><sub>wernegrêt</sub><br><sub>/wæɾnæɡɾeːt/</sub> |
+| 1pl | ئێمە | **وەربگرین**<br><sub>werbigrîn</sub><br><sub>/wæɾb(ɯ)ɡɾiːn/</sub> | **وەرنەگرین**<br><sub>wernegrîn</sub><br><sub>/wæɾnæɡɾiːn/</sub> |
+| 2pl | ئێوە | **وەربگرن**<br><sub>werbigirn</sub><br><sub>/wæɾb(ɯ)ɡ(ɯ)ɾn/</sub> | **وەرنەگرن**<br><sub>wernegrin</sub><br><sub>/wæɾnæɡɾ(ɯ)n/</sub> |
+| 3pl | ئەوان | **وەربگرن**<br><sub>werbigirn</sub><br><sub>/wæɾb(ɯ)ɡ(ɯ)ɾn/</sub> | **وەرنەگرن**<br><sub>wernegrin</sub><br><sub>/wæɾnæɡɾ(ɯ)n/</sub> |
 
 ## Simple past
 
@@ -101,8 +101,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **وەرگرە**<br><sub>wergire</sub><br><sub>/wæɾɡ(ɯ)ɾæ/</sub> | **وەرمەگرە**<br><sub>wermegre</sub><br><sub>/wæɾmæɡɾæ/</sub> |
-| 2pl | ئێوە | **وەرگرن**<br><sub>wergirn</sub><br><sub>/wæɾɡ(ɯ)ɾn/</sub> | **وەرمەگرن**<br><sub>wermegrin</sub><br><sub>/wæɾmæɡɾ(ɯ)n/</sub> |
+| 2sg | تۆ | **وەربگرە**<br><sub>werbigre</sub><br><sub>/wæɾb(ɯ)ɡɾæ/</sub> | **وەرمەگرە**<br><sub>wermegre</sub><br><sub>/wæɾmæɡɾæ/</sub> |
+| 2pl | ئێوە | **وەربگرن**<br><sub>werbigirn</sub><br><sub>/wæɾb(ɯ)ɡ(ɯ)ɾn/</sub> | **وەرمەگرن**<br><sub>wermegrin</sub><br><sub>/wæɾmæɡɾ(ɯ)n/</sub> |
 
 ## Other forms
 

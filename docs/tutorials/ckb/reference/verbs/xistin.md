@@ -47,7 +47,7 @@
 | 3sg | ئەو | **خستی**<br><sub>xistî</sub><br><sub>/x(ɯ)stiː/</sub> | **نەیخست**<br><sub>neyxist</sub><br><sub>/næjx(ɯ)st/</sub> |
 | 1pl | ئێمە | **خستمان**<br><sub>xistiman</sub><br><sub>/x(ɯ)st(ɯ)maːn/</sub> | **نەمانخست**<br><sub>nemanxist</sub><br><sub>/næmaːnx(ɯ)st/</sub> |
 | 2pl | ئێوە | **خستتان**<br><sub>xistitan</sub><br><sub>/x(ɯ)st(ɯ)taːn/</sub> | **نەتانخست**<br><sub>netanxist</sub><br><sub>/nætaːnx(ɯ)st/</sub> |
-| 3pl | ئەوان | **خستیان**<br><sub>xisityan</sub><br><sub>/x(ɯ)s(ɯ)tjaːn/</sub> | **نەیانخست**<br><sub>neyanxist</sub><br><sub>/næjaːnx(ɯ)st/</sub> |
+| 3pl | ئەوان | **خستیان**<br><sub>xistyan</sub><br><sub>/x(ɯ)stjaːn/</sub> | **نەیانخست**<br><sub>neyanxist</sub><br><sub>/næjaːnx(ɯ)st/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 

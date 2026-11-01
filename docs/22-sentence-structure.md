@@ -1,5 +1,5 @@
 <!-- nav:top -->
-[← References and further reading](21-references.md) · [⌂ Contents](00-index.md)
+[← References and further reading](21-references.md) · [⌂ Contents](00-index.md) · [The Central Kurdish written standard →](23-ckb-written-standard.md)
 <!-- nav:top -->
 
 # Sentence structure
@@ -86,7 +86,8 @@ w.explanation               # all of it as one text
 6. **Find the core arguments**, clause by clause, among the nominals still free before the verb:
    - **Kurmanji, past transitive (ergative):** the oblique word is the subject and the direct word is the object. See [chapter 14](14-kmr-verbs-ergativity.md).
    - **Kurmanji, otherwise:** the direct word is the subject, and with a transitive verb the next word is the object.
-   - **Sorani:** the first word is the subject, and with a transitive verb the second is the object.
+   - **Sorani, present:** the first word is the subject, and with a transitive verb the second is the object.
+   - **Sorani, past transitive with a bare verb:** the last nominal carries the agent clitic and is the object (*نانم خوارد*). On a compound verb that word is really the verb's first part (*چارەسەرم کرد*); this is still labelled `obj` for now.
 7. **Attach the rest.** Other nominals become `obl`, including those after the verb (*Ez diçim malê*). Adverbs, conjunctions and subordinators attach to their clause's verb.
 
 For Kurmanji, the agreement check is the same as `zimankit ergativity`. A plural verb with coordinated arguments (*Ez û tu diçin*) is not reported as an error.
@@ -98,9 +99,11 @@ For Kurmanji, the agreement check is the same as `zimankit ergativity`. A plural
 - **Free word order.** The Sorani rule relies on order, so an object placed before the subject is read wrongly unless other marks decide it.
 - **Dropped subjects.** Kurdish often leaves out the subject. The verb ending and the Sorani person clitics show it, but no word is added to the structure.
 
+- **Sorani gaps.** Bare adpositions (پێی وت, دەستم لێ دا), split preverbs (ڕای گەیاند), object clitics on the verb (دەیبینم), person copulas (تۆ زیرەکیت, من لە ماڵدام) and definite adjective phrases (پیاوە باشەکە) are not analysed correctly yet. There is no Sorani agreement check. See [chapter 23](23-ckb-written-standard.md#not-implemented-yet).
+
 If a simple sentence gets a wrong structure, please [open an issue](https://github.com/0xdolan/zimankit/issues) with the sentence.
 
 <!-- nav:bottom -->
 ---
-[← References and further reading](21-references.md) · [⌂ Contents](00-index.md)
+[← References and further reading](21-references.md) · [⌂ Contents](00-index.md) · [The Central Kurdish written standard →](23-ckb-written-standard.md)
 <!-- nav:bottom -->

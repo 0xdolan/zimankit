@@ -30,9 +30,9 @@
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
 | 1sg | من | **بکڕم**<br><sub>bikirrm</sub><br><sub>/b(ɯ)k(ɯ)rm/</sub> | **نەکڕم**<br><sub>nekrrim</sub><br><sub>/nækr(ɯ)m/</sub> |
-| 2sg | تۆ | **بکڕیت**<br><sub>bikirrît</sub><br><sub>/b(ɯ)k(ɯ)riːt/</sub> | **نەکڕیت**<br><sub>nekrrît</sub><br><sub>/nækriːt/</sub> |
-| 3sg | ئەو | **بکڕێت**<br><sub>bikirrêt</sub><br><sub>/b(ɯ)k(ɯ)reːt/</sub> | **نەکڕێت**<br><sub>nekrrêt</sub><br><sub>/nækreːt/</sub> |
-| 1pl | ئێمە | **بکڕین**<br><sub>bikirrîn</sub><br><sub>/b(ɯ)k(ɯ)riːn/</sub> | **نەکڕین**<br><sub>nekrrîn</sub><br><sub>/nækriːn/</sub> |
+| 2sg | تۆ | **بکڕیت**<br><sub>bikrrît</sub><br><sub>/b(ɯ)kriːt/</sub> | **نەکڕیت**<br><sub>nekrrît</sub><br><sub>/nækriːt/</sub> |
+| 3sg | ئەو | **بکڕێت**<br><sub>bikrrêt</sub><br><sub>/b(ɯ)kreːt/</sub> | **نەکڕێت**<br><sub>nekrrêt</sub><br><sub>/nækreːt/</sub> |
+| 1pl | ئێمە | **بکڕین**<br><sub>bikrrîn</sub><br><sub>/b(ɯ)kriːn/</sub> | **نەکڕین**<br><sub>nekrrîn</sub><br><sub>/nækriːn/</sub> |
 | 2pl | ئێوە | **بکڕن**<br><sub>bikirrn</sub><br><sub>/b(ɯ)k(ɯ)rn/</sub> | **نەکڕن**<br><sub>nekrrin</sub><br><sub>/nækr(ɯ)n/</sub> |
 | 3pl | ئەوان | **بکڕن**<br><sub>bikirrn</sub><br><sub>/b(ɯ)k(ɯ)rn/</sub> | **نەکڕن**<br><sub>nekrrin</sub><br><sub>/nækr(ɯ)n/</sub> |
 
@@ -100,7 +100,7 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بکڕە**<br><sub>bikirre</sub><br><sub>/b(ɯ)k(ɯ)ræ/</sub> | **مەکڕە**<br><sub>mekrre</sub><br><sub>/mækræ/</sub> |
+| 2sg | تۆ | **بکڕە**<br><sub>bikrre</sub><br><sub>/b(ɯ)kræ/</sub> | **مەکڕە**<br><sub>mekrre</sub><br><sub>/mækræ/</sub> |
 | 2pl | ئێوە | **بکڕن**<br><sub>bikirrn</sub><br><sub>/b(ɯ)k(ɯ)rn/</sub> | **مەکڕن**<br><sub>mekrrin</sub><br><sub>/mækr(ɯ)n/</sub> |
 
 ## Other forms

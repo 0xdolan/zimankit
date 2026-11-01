@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **لێدەم**<br><sub>lêdem</sub><br><sub>/leːdæm/</sub> | **لێنەدەم**<br><sub>lênedem</sub><br><sub>/leːnædæm/</sub> |
-| 2sg | تۆ | **لێدەیت**<br><sub>lêdeyt</sub><br><sub>/leːdæjt/</sub> | **لێنەدەیت**<br><sub>lênedeyt</sub><br><sub>/leːnædæjt/</sub> |
-| 3sg | ئەو | **لێدات**<br><sub>lêdat</sub><br><sub>/leːdaːt/</sub> | **لێنەدات**<br><sub>lênedat</sub><br><sub>/leːnædaːt/</sub> |
-| 1pl | ئێمە | **لێدەین**<br><sub>lêdeyn</sub><br><sub>/leːdæjn/</sub> | **لێنەدەین**<br><sub>lênedeyn</sub><br><sub>/leːnædæjn/</sub> |
-| 2pl | ئێوە | **لێدەن**<br><sub>lêden</sub><br><sub>/leːdæn/</sub> | **لێنەدەن**<br><sub>lêneden</sub><br><sub>/leːnædæn/</sub> |
-| 3pl | ئەوان | **لێدەن**<br><sub>lêden</sub><br><sub>/leːdæn/</sub> | **لێنەدەن**<br><sub>lêneden</sub><br><sub>/leːnædæn/</sub> |
+| 1sg | من | **لێبدەم**<br><sub>lêbdem</sub><br><sub>/leːbdæm/</sub> | **لێنەدەم**<br><sub>lênedem</sub><br><sub>/leːnædæm/</sub> |
+| 2sg | تۆ | **لێبدەیت**<br><sub>lêbdeyt</sub><br><sub>/leːbdæjt/</sub> | **لێنەدەیت**<br><sub>lênedeyt</sub><br><sub>/leːnædæjt/</sub> |
+| 3sg | ئەو | **لێبدات**<br><sub>lêbdat</sub><br><sub>/leːbdaːt/</sub> | **لێنەدات**<br><sub>lênedat</sub><br><sub>/leːnædaːt/</sub> |
+| 1pl | ئێمە | **لێبدەین**<br><sub>lêbdeyn</sub><br><sub>/leːbdæjn/</sub> | **لێنەدەین**<br><sub>lênedeyn</sub><br><sub>/leːnædæjn/</sub> |
+| 2pl | ئێوە | **لێبدەن**<br><sub>lêbden</sub><br><sub>/leːbdæn/</sub> | **لێنەدەن**<br><sub>lêneden</sub><br><sub>/leːnædæn/</sub> |
+| 3pl | ئەوان | **لێبدەن**<br><sub>lêbden</sub><br><sub>/leːbdæn/</sub> | **لێنەدەن**<br><sub>lêneden</sub><br><sub>/leːnædæn/</sub> |
 
 ## Simple past
 
@@ -101,8 +101,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **لێدە**<br><sub>lêde</sub><br><sub>/leːdæ/</sub> | **لێمەدە**<br><sub>lêmede</sub><br><sub>/leːmædæ/</sub> |
-| 2pl | ئێوە | **لێدەن**<br><sub>lêden</sub><br><sub>/leːdæn/</sub> | **لێمەدەن**<br><sub>lêmeden</sub><br><sub>/leːmædæn/</sub> |
+| 2sg | تۆ | **لێبدە**<br><sub>lêbde</sub><br><sub>/leːbdæ/</sub> | **لێمەدە**<br><sub>lêmede</sub><br><sub>/leːmædæ/</sub> |
+| 2pl | ئێوە | **لێبدەن**<br><sub>lêbden</sub><br><sub>/leːbdæn/</sub> | **لێمەدەن**<br><sub>lêmeden</sub><br><sub>/leːmædæn/</sub> |
 
 ## Other forms
 

@@ -84,7 +84,7 @@ class Dialect:
             from ..skills_ckb import morphology, orthography, phonology_ipa, verbs
 
             self.norm = orthography.normalize_word
-            self.validate = orthography.validate_word
+            self.validate = orthography.structural_problems
             self.ipa = phonology_ipa.to_ipa
             self.translit = phonology_ipa.to_latin
             self.verbs = verbs

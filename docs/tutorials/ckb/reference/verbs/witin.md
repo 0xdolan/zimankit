@@ -45,8 +45,8 @@
 | 1sg | من | **وتم**<br><sub>witim</sub><br><sub>/w(ɯ)t(ɯ)m/</sub> | **نەموت**<br><sub>nemut</sub><br><sub>/næmut/</sub> |
 | 2sg | تۆ | **وتت**<br><sub>witit</sub><br><sub>/w(ɯ)t(ɯ)t/</sub> | **نەتوت**<br><sub>netut</sub><br><sub>/nætut/</sub> |
 | 3sg | ئەو | **وتی**<br><sub>witî</sub><br><sub>/w(ɯ)tiː/</sub> | **نەیوت**<br><sub>neyut</sub><br><sub>/næjut/</sub> |
-| 1pl | ئێمە | **وتمان**<br><sub>witiman</sub><br><sub>/w(ɯ)t(ɯ)maːn/</sub> | **نەمانوت**<br><sub>nemanut</sub><br><sub>/næmaːnut/</sub> |
-| 2pl | ئێوە | **وتتان**<br><sub>wititan</sub><br><sub>/w(ɯ)t(ɯ)taːn/</sub> | **نەتانوت**<br><sub>netanut</sub><br><sub>/nætaːnut/</sub> |
+| 1pl | ئێمە | **وتمان**<br><sub>witman</sub><br><sub>/w(ɯ)tmaːn/</sub> | **نەمانوت**<br><sub>nemanut</sub><br><sub>/næmaːnut/</sub> |
+| 2pl | ئێوە | **وتتان**<br><sub>wittan</sub><br><sub>/w(ɯ)ttaːn/</sub> | **نەتانوت**<br><sub>netanut</sub><br><sub>/nætaːnut/</sub> |
 | 3pl | ئەوان | **وتیان**<br><sub>wityan</sub><br><sub>/w(ɯ)tjaːn/</sub> | **نەیانوت**<br><sub>neyanut</sub><br><sub>/næjaːnut/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
@@ -72,12 +72,12 @@
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **وتوومە**<br><sub>witûme</sub><br><sub>/w(ɯ)tuːmæ/</sub> | **وتبووم**<br><sub>witibûm</sub><br><sub>/w(ɯ)t(ɯ)buːm/</sub> |
-| 2sg | تۆ | **وتووتە**<br><sub>witûte</sub><br><sub>/w(ɯ)tuːtæ/</sub> | **وتبووت**<br><sub>witibût</sub><br><sub>/w(ɯ)t(ɯ)buːt/</sub> |
-| 3sg | ئەو | **وتوویەتی**<br><sub>witûyetî</sub><br><sub>/w(ɯ)tuːjætiː/</sub> | **وتبووی**<br><sub>witibûy</sub><br><sub>/w(ɯ)t(ɯ)buːj/</sub> |
-| 1pl | ئێمە | **وتوومانە**<br><sub>witûmane</sub><br><sub>/w(ɯ)tuːmaːnæ/</sub> | **وتبوومان**<br><sub>witibûman</sub><br><sub>/w(ɯ)t(ɯ)buːmaːn/</sub> |
-| 2pl | ئێوە | **وتووتانە**<br><sub>witûtane</sub><br><sub>/w(ɯ)tuːtaːnæ/</sub> | **وتبووتان**<br><sub>witibûtan</sub><br><sub>/w(ɯ)t(ɯ)buːtaːn/</sub> |
-| 3pl | ئەوان | **وتوویانە**<br><sub>witûyane</sub><br><sub>/w(ɯ)tuːjaːnæ/</sub> | **وتبوویان**<br><sub>witibûyan</sub><br><sub>/w(ɯ)t(ɯ)buːjaːn/</sub> |
+| 1sg | من | **وتوومە**<br><sub>witûme</sub><br><sub>/w(ɯ)tuːmæ/</sub> | **وتبووم**<br><sub>witbûm</sub><br><sub>/w(ɯ)tbuːm/</sub> |
+| 2sg | تۆ | **وتووتە**<br><sub>witûte</sub><br><sub>/w(ɯ)tuːtæ/</sub> | **وتبووت**<br><sub>witbût</sub><br><sub>/w(ɯ)tbuːt/</sub> |
+| 3sg | ئەو | **وتوویەتی**<br><sub>witûyetî</sub><br><sub>/w(ɯ)tuːjætiː/</sub> | **وتبووی**<br><sub>witbûy</sub><br><sub>/w(ɯ)tbuːj/</sub> |
+| 1pl | ئێمە | **وتوومانە**<br><sub>witûmane</sub><br><sub>/w(ɯ)tuːmaːnæ/</sub> | **وتبوومان**<br><sub>witbûman</sub><br><sub>/w(ɯ)tbuːmaːn/</sub> |
+| 2pl | ئێوە | **وتووتانە**<br><sub>witûtane</sub><br><sub>/w(ɯ)tuːtaːnæ/</sub> | **وتبووتان**<br><sub>witbûtan</sub><br><sub>/w(ɯ)tbuːtaːn/</sub> |
+| 3pl | ئەوان | **وتوویانە**<br><sub>witûyane</sub><br><sub>/w(ɯ)tuːjaːnæ/</sub> | **وتبوویان**<br><sub>witbûyan</sub><br><sub>/w(ɯ)tbuːjaːn/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
@@ -87,12 +87,12 @@
 
 | person | pronoun | Passive present | Passive present negative | Passive past |
 |---|---|---|---|---|
-| 1sg | من | **دەوترێم**<br><sub>dewtrêm</sub><br><sub>/dæwtɾeːm/</sub> | **ناوترێم**<br><sub>nawtrêm</sub><br><sub>/naːwtɾeːm/</sub> | **وترام**<br><sub>witiram</sub><br><sub>/w(ɯ)t(ɯ)ɾaːm/</sub> |
-| 2sg | تۆ | **دەوترێیت**<br><sub>dewtrêyt</sub><br><sub>/dæwtɾeːjt/</sub> | **ناوترێیت**<br><sub>nawtrêyt</sub><br><sub>/naːwtɾeːjt/</sub> | **وترایت**<br><sub>witirayt</sub><br><sub>/w(ɯ)t(ɯ)ɾaːjt/</sub> |
-| 3sg | ئەو | **دەوترێت**<br><sub>dewtrêt</sub><br><sub>/dæwtɾeːt/</sub> | **ناوترێت**<br><sub>nawtrêt</sub><br><sub>/naːwtɾeːt/</sub> | **وترا**<br><sub>witira</sub><br><sub>/w(ɯ)t(ɯ)ɾaː/</sub> |
-| 1pl | ئێمە | **دەوترێین**<br><sub>dewtrêyn</sub><br><sub>/dæwtɾeːjn/</sub> | **ناوترێین**<br><sub>nawtrêyn</sub><br><sub>/naːwtɾeːjn/</sub> | **وتراین**<br><sub>witirayn</sub><br><sub>/w(ɯ)t(ɯ)ɾaːjn/</sub> |
-| 2pl | ئێوە | **دەوترێن**<br><sub>dewtrên</sub><br><sub>/dæwtɾeːn/</sub> | **ناوترێن**<br><sub>nawtrên</sub><br><sub>/naːwtɾeːn/</sub> | **وتران**<br><sub>witiran</sub><br><sub>/w(ɯ)t(ɯ)ɾaːn/</sub> |
-| 3pl | ئەوان | **دەوترێن**<br><sub>dewtrên</sub><br><sub>/dæwtɾeːn/</sub> | **ناوترێن**<br><sub>nawtrên</sub><br><sub>/naːwtɾeːn/</sub> | **وتران**<br><sub>witiran</sub><br><sub>/w(ɯ)t(ɯ)ɾaːn/</sub> |
+| 1sg | من | **دەوترێم**<br><sub>dewtrêm</sub><br><sub>/dæwtɾeːm/</sub> | **ناوترێم**<br><sub>nawtrêm</sub><br><sub>/naːwtɾeːm/</sub> | **وترام**<br><sub>witram</sub><br><sub>/w(ɯ)tɾaːm/</sub> |
+| 2sg | تۆ | **دەوترێیت**<br><sub>dewtrêyt</sub><br><sub>/dæwtɾeːjt/</sub> | **ناوترێیت**<br><sub>nawtrêyt</sub><br><sub>/naːwtɾeːjt/</sub> | **وترایت**<br><sub>witrayt</sub><br><sub>/w(ɯ)tɾaːjt/</sub> |
+| 3sg | ئەو | **دەوترێت**<br><sub>dewtrêt</sub><br><sub>/dæwtɾeːt/</sub> | **ناوترێت**<br><sub>nawtrêt</sub><br><sub>/naːwtɾeːt/</sub> | **وترا**<br><sub>witra</sub><br><sub>/w(ɯ)tɾaː/</sub> |
+| 1pl | ئێمە | **دەوترێین**<br><sub>dewtrêyn</sub><br><sub>/dæwtɾeːjn/</sub> | **ناوترێین**<br><sub>nawtrêyn</sub><br><sub>/naːwtɾeːjn/</sub> | **وتراین**<br><sub>witrayn</sub><br><sub>/w(ɯ)tɾaːjn/</sub> |
+| 2pl | ئێوە | **دەوترێن**<br><sub>dewtrên</sub><br><sub>/dæwtɾeːn/</sub> | **ناوترێن**<br><sub>nawtrên</sub><br><sub>/naːwtɾeːn/</sub> | **وتران**<br><sub>witran</sub><br><sub>/w(ɯ)tɾaːn/</sub> |
+| 3pl | ئەوان | **دەوترێن**<br><sub>dewtrên</sub><br><sub>/dæwtɾeːn/</sub> | **ناوترێن**<br><sub>nawtrên</sub><br><sub>/naːwtɾeːn/</sub> | **وتران**<br><sub>witran</sub><br><sub>/w(ɯ)tɾaːn/</sub> |
 
 ## Imperative
 
@@ -110,10 +110,10 @@
 | past perfective, agent clitic elsewhere | **وت** | wit |
 | past progressive, agent clitic elsewhere | **دەوت** | dewt |
 | present perfect, agent clitic elsewhere | **وتووە** | witûwe |
-| past perfect, agent clitic elsewhere | **وتبوو** | witibû |
+| past perfect, agent clitic elsewhere | **وتبوو** | witbû |
 | infinitive | **وتن** | witin |
 | past participle | **وتوو** | witû |
-| passive participle | **وتراو** | witiraw |
+| passive participle | **وتراو** | witraw |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

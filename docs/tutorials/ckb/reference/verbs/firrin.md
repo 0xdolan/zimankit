@@ -30,9 +30,9 @@
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
 | 1sg | من | **بفڕم**<br><sub>bifirrm</sub><br><sub>/b(ɯ)f(ɯ)rm/</sub> | **نەفڕم**<br><sub>nefrrim</sub><br><sub>/næfr(ɯ)m/</sub> |
-| 2sg | تۆ | **بفڕیت**<br><sub>bifirrît</sub><br><sub>/b(ɯ)f(ɯ)riːt/</sub> | **نەفڕیت**<br><sub>nefrrît</sub><br><sub>/næfriːt/</sub> |
-| 3sg | ئەو | **بفڕێت**<br><sub>bifirrêt</sub><br><sub>/b(ɯ)f(ɯ)reːt/</sub> | **نەفڕێت**<br><sub>nefrrêt</sub><br><sub>/næfreːt/</sub> |
-| 1pl | ئێمە | **بفڕین**<br><sub>bifirrîn</sub><br><sub>/b(ɯ)f(ɯ)riːn/</sub> | **نەفڕین**<br><sub>nefrrîn</sub><br><sub>/næfriːn/</sub> |
+| 2sg | تۆ | **بفڕیت**<br><sub>bifrrît</sub><br><sub>/b(ɯ)friːt/</sub> | **نەفڕیت**<br><sub>nefrrît</sub><br><sub>/næfriːt/</sub> |
+| 3sg | ئەو | **بفڕێت**<br><sub>bifrrêt</sub><br><sub>/b(ɯ)freːt/</sub> | **نەفڕێت**<br><sub>nefrrêt</sub><br><sub>/næfreːt/</sub> |
+| 1pl | ئێمە | **بفڕین**<br><sub>bifrrîn</sub><br><sub>/b(ɯ)friːn/</sub> | **نەفڕین**<br><sub>nefrrîn</sub><br><sub>/næfriːn/</sub> |
 | 2pl | ئێوە | **بفڕن**<br><sub>bifirrn</sub><br><sub>/b(ɯ)f(ɯ)rn/</sub> | **نەفڕن**<br><sub>nefrrin</sub><br><sub>/næfr(ɯ)n/</sub> |
 | 3pl | ئەوان | **بفڕن**<br><sub>bifirrn</sub><br><sub>/b(ɯ)f(ɯ)rn/</sub> | **نەفڕن**<br><sub>nefrrin</sub><br><sub>/næfr(ɯ)n/</sub> |
 
@@ -81,7 +81,7 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بفڕە**<br><sub>bifirre</sub><br><sub>/b(ɯ)f(ɯ)ræ/</sub> | **مەفڕە**<br><sub>mefrre</sub><br><sub>/mæfræ/</sub> |
+| 2sg | تۆ | **بفڕە**<br><sub>bifrre</sub><br><sub>/b(ɯ)fræ/</sub> | **مەفڕە**<br><sub>mefrre</sub><br><sub>/mæfræ/</sub> |
 | 2pl | ئێوە | **بفڕن**<br><sub>bifirrn</sub><br><sub>/b(ɯ)f(ɯ)rn/</sub> | **مەفڕن**<br><sub>mefrrin</sub><br><sub>/mæfr(ɯ)n/</sub> |
 
 ## Other forms

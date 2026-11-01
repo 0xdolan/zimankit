@@ -35,7 +35,7 @@ def _ckb() -> dict:
                 {"id": "initial_hamza", "rule": "word-initial vowel letter gets ئ", "example": ["ەمە", "ئەمە"]},
                 {"id": "legacy_ae", "rule": "ه + ZWNJ -> ە; in legacy-encoded text word-final ه -> ە", "example": ["به‌ڕێوه‌به‌ر", "بەڕێوەبەر"]},
                 {"id": "zwnj", "rule": "micro-spaces -> ZWNJ; ZWNJ kept only between two joining letters"},
-                {"id": "squeeze", "rule": "ەە -> ە, ڕڕ -> ڕ, ڵڵ -> ڵ, ووو -> وو"},
+                {"id": "squeeze", "rule": "ەە -> ە, ڕڕ -> ڕ, ڵڵڵ -> ڵڵ, ووو -> وو, یییی -> ییی; ڵڵ (ئەڵڵا), ییی (سنەییی) and ر+ڕ, ل+ڵ stay"},
             ],
         },
         "phonology": {

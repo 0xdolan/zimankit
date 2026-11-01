@@ -76,6 +76,10 @@ SLOTS: tuple[tuple[str, tuple[Affix, ...]], ...] = (
     )),
     ("ADD2", (_a("ش", "ADD", "V", additive="yes"),)),
     ("NUMDEF", (
+        _a("ەکان", "DEF.PL", "UU", "NOUN", definite="def", number="pl"),
+        _a("ەکە", "DEF.SG", "UU", "NOUN", definite="def", number="sg"),
+        _a("ێک", "INDEF", "UU", "NOUN", definite="ind", number="sg"),
+        _a("ان", "PL", "UU", "NOUN", number="pl"),
         _a("ەکان", "DEF.PL", "C", "NOUN", definite="def", number="pl"),
         _a("یەکان", "DEF.PL", "V", "NOUN", definite="def", number="pl"),
         _a("کان", "DEF.PL", "V", "NOUN", definite="def", number="pl"),
@@ -151,19 +155,21 @@ def decline(stem: str) -> list[tuple[str, str | None]]:
     The allomorphs are the ones the analyzer peels (SLOTS); after a vowel the
     definite suffix is کە, except after ی / ێ where a glide is written (ماسییەکە).
     """
-    v = _ends_with_vowel(stem)
+    uu = stem.endswith("وو")  # وو takes the consonant endings: خانووەکە, خانووێک, خانووان
+    v = _ends_with_vowel(stem) and not uu
     glide = v and stem[-1] in "یێ"
     defsg = stem + ("یەکە" if glide else "کە" if v else "ەکە")
     defpl = stem + ("یەکان" if glide else "کان" if v else "ەکان")
+    after = (lambda c, _: stem + c) if uu else (lambda c, vv: _after(stem, c, vv))
     return [
         ("bare", stem),
         ("def.sg", defsg),
         ("def.pl", defpl),
-        ("ind.sg", _after(stem, "ێک", "یەک")),
-        ("pl", None if stem.endswith("ە") else _after(stem, "ان", "یان")),
+        ("ind.sg", after("ێک", "یەک")),
+        ("pl", None if stem.endswith("ە") else after("ان", "یان")),
         ("ezafe", stem + "ی"),
-        ("dem", _after(stem, "ە", "یە")),  # ئەم / ئەو … ە
-        ("ind.ezafe", _after(stem, "ێکی", "یەکی")),
+        ("dem", after("ە", "یە")),  # ئەم / ئەو … ە
+        ("ind.ezafe", after("ێکی", "یەکی")),
         ("def.sg.add", defsg + "ش"),
         *((f"def.sg+{p}", defsg + c) for p, c in zip(PERSONS, CLITICS)),
         *((f"bare+{p}", stem + c) for p, c in zip(PERSONS, CLITICS)),
@@ -183,6 +189,8 @@ def _peel(word: str, slot: int, segs: list[tuple[str, str, Affix]], out: list) -
                 continue
             stem = word[: -len(af.form)]
             if len(stem.replace("‌", "")) < 2:
+                continue
+            if af.after == "UU" and not stem.endswith("وو"):
                 continue
             if af.after == "C" and _ends_with_vowel(stem):
                 continue

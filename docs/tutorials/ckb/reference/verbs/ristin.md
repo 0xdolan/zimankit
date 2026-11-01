@@ -47,7 +47,7 @@
 | 3sg | ئەو | **ڕشتی**<br><sub>riştî</sub><br><sub>/r(ɯ)ʃtiː/</sub> | **نەیڕشت**<br><sub>neyrrişt</sub><br><sub>/næjr(ɯ)ʃt/</sub> |
 | 1pl | ئێمە | **ڕشتمان**<br><sub>riştiman</sub><br><sub>/r(ɯ)ʃt(ɯ)maːn/</sub> | **نەمانڕشت**<br><sub>nemanrrişt</sub><br><sub>/næmaːnr(ɯ)ʃt/</sub> |
 | 2pl | ئێوە | **ڕشتتان**<br><sub>riştitan</sub><br><sub>/r(ɯ)ʃt(ɯ)taːn/</sub> | **نەتانڕشت**<br><sub>netanrrişt</sub><br><sub>/nætaːnr(ɯ)ʃt/</sub> |
-| 3pl | ئەوان | **ڕشتیان**<br><sub>rişityan</sub><br><sub>/r(ɯ)ʃ(ɯ)tjaːn/</sub> | **نەیانڕشت**<br><sub>neyanrrişt</sub><br><sub>/næjaːnr(ɯ)ʃt/</sub> |
+| 3pl | ئەوان | **ڕشتیان**<br><sub>riştyan</sub><br><sub>/r(ɯ)ʃtjaːn/</sub> | **نەیانڕشت**<br><sub>neyanrrişt</sub><br><sub>/næjaːnr(ɯ)ʃt/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 

@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **دەرچم**<br><sub>derçim</sub><br><sub>/dæɾtʃ(ɯ)m/</sub> | **دەرنەچم**<br><sub>derneçim</sub><br><sub>/dæɾnætʃ(ɯ)m/</sub> |
-| 2sg | تۆ | **دەرچیت**<br><sub>derçît</sub><br><sub>/dæɾtʃiːt/</sub> | **دەرنەچیت**<br><sub>derneçît</sub><br><sub>/dæɾnætʃiːt/</sub> |
-| 3sg | ئەو | **دەرچێت**<br><sub>derçêt</sub><br><sub>/dæɾtʃeːt/</sub> | **دەرنەچێت**<br><sub>derneçêt</sub><br><sub>/dæɾnætʃeːt/</sub> |
-| 1pl | ئێمە | **دەرچین**<br><sub>derçîn</sub><br><sub>/dæɾtʃiːn/</sub> | **دەرنەچین**<br><sub>derneçîn</sub><br><sub>/dæɾnætʃiːn/</sub> |
-| 2pl | ئێوە | **دەرچن**<br><sub>derçin</sub><br><sub>/dæɾtʃ(ɯ)n/</sub> | **دەرنەچن**<br><sub>derneçin</sub><br><sub>/dæɾnætʃ(ɯ)n/</sub> |
-| 3pl | ئەوان | **دەرچن**<br><sub>derçin</sub><br><sub>/dæɾtʃ(ɯ)n/</sub> | **دەرنەچن**<br><sub>derneçin</sub><br><sub>/dæɾnætʃ(ɯ)n/</sub> |
+| 1sg | من | **دەربچم**<br><sub>derbiçim</sub><br><sub>/dæɾb(ɯ)tʃ(ɯ)m/</sub> | **دەرنەچم**<br><sub>derneçim</sub><br><sub>/dæɾnætʃ(ɯ)m/</sub> |
+| 2sg | تۆ | **دەربچیت**<br><sub>derbiçît</sub><br><sub>/dæɾb(ɯ)tʃiːt/</sub> | **دەرنەچیت**<br><sub>derneçît</sub><br><sub>/dæɾnætʃiːt/</sub> |
+| 3sg | ئەو | **دەربچێت**<br><sub>derbiçêt</sub><br><sub>/dæɾb(ɯ)tʃeːt/</sub> | **دەرنەچێت**<br><sub>derneçêt</sub><br><sub>/dæɾnætʃeːt/</sub> |
+| 1pl | ئێمە | **دەربچین**<br><sub>derbiçîn</sub><br><sub>/dæɾb(ɯ)tʃiːn/</sub> | **دەرنەچین**<br><sub>derneçîn</sub><br><sub>/dæɾnætʃiːn/</sub> |
+| 2pl | ئێوە | **دەربچن**<br><sub>derbiçin</sub><br><sub>/dæɾb(ɯ)tʃ(ɯ)n/</sub> | **دەرنەچن**<br><sub>derneçin</sub><br><sub>/dæɾnætʃ(ɯ)n/</sub> |
+| 3pl | ئەوان | **دەربچن**<br><sub>derbiçin</sub><br><sub>/dæɾb(ɯ)tʃ(ɯ)n/</sub> | **دەرنەچن**<br><sub>derneçin</sub><br><sub>/dæɾnætʃ(ɯ)n/</sub> |
 
 ## Simple past
 

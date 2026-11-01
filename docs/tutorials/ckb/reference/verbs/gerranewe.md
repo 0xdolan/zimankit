@@ -68,12 +68,12 @@
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **گەڕاومەوە**<br><sub>gerrawmewe</sub><br><sub>/ɡæraːwmæwæ/</sub> | **گەڕابوومەوە**<br><sub>gerrabûmewe</sub><br><sub>/ɡæraːbuːmæwæ/</sub> |
-| 2sg | تۆ | **گەڕاویتەوە**<br><sub>gerrawîtewe</sub><br><sub>/ɡæraːwiːtæwæ/</sub> | **گەڕابوویتەوە**<br><sub>gerrabûytewe</sub><br><sub>/ɡæraːbuːjtæwæ/</sub> |
-| 3sg | ئەو | **گەڕاوەوە**<br><sub>gerrawewe</sub><br><sub>/ɡæraːwæwæ/</sub> | **گەڕابوووە**<br><sub>gerrabûwe</sub><br><sub>/ɡæraːbuːwæ/</sub> |
-| 1pl | ئێمە | **گەڕاوینەوە**<br><sub>gerrawînewe</sub><br><sub>/ɡæraːwiːnæwæ/</sub> | **گەڕابووینەوە**<br><sub>gerrabûynewe</sub><br><sub>/ɡæraːbuːjnæwæ/</sub> |
-| 2pl | ئێوە | **گەڕاونەوە**<br><sub>gerrawnewe</sub><br><sub>/ɡæraːwnæwæ/</sub> | **گەڕابوونەوە**<br><sub>gerrabûnewe</sub><br><sub>/ɡæraːbuːnæwæ/</sub> |
-| 3pl | ئەوان | **گەڕاونەوە**<br><sub>gerrawnewe</sub><br><sub>/ɡæraːwnæwæ/</sub> | **گەڕابوونەوە**<br><sub>gerrabûnewe</sub><br><sub>/ɡæraːbuːnæwæ/</sub> |
+| 1sg | من | **گەڕاومەتەوە**<br><sub>gerrawmetewe</sub><br><sub>/ɡæraːwmætæwæ/</sub> | **گەڕابوومەوە**<br><sub>gerrabûmewe</sub><br><sub>/ɡæraːbuːmæwæ/</sub> |
+| 2sg | تۆ | **گەڕاویتەتەوە**<br><sub>gerrawîtetewe</sub><br><sub>/ɡæraːwiːtætæwæ/</sub> | **گەڕابوویتەوە**<br><sub>gerrabûytewe</sub><br><sub>/ɡæraːbuːjtæwæ/</sub> |
+| 3sg | ئەو | **گەڕاوەتەوە**<br><sub>gerrawetewe</sub><br><sub>/ɡæraːwætæwæ/</sub> | **گەڕابووەوە**<br><sub>gerrabûwewe</sub><br><sub>/ɡæraːbuːwæwæ/</sub> |
+| 1pl | ئێمە | **گەڕاوینەتەوە**<br><sub>gerrawînetewe</sub><br><sub>/ɡæraːwiːnætæwæ/</sub> | **گەڕابووینەوە**<br><sub>gerrabûynewe</sub><br><sub>/ɡæraːbuːjnæwæ/</sub> |
+| 2pl | ئێوە | **گەڕاونەتەوە**<br><sub>gerrawnetewe</sub><br><sub>/ɡæraːwnætæwæ/</sub> | **گەڕابوونەوە**<br><sub>gerrabûnewe</sub><br><sub>/ɡæraːbuːnæwæ/</sub> |
+| 3pl | ئەوان | **گەڕاونەتەوە**<br><sub>gerrawnetewe</sub><br><sub>/ɡæraːwnætæwæ/</sub> | **گەڕابوونەوە**<br><sub>gerrabûnewe</sub><br><sub>/ɡæraːbuːnæwæ/</sub> |
 
 ## Imperative
 
@@ -89,7 +89,7 @@
 | form | Kurdish | Latin |
 |---|---|---|
 | infinitive | **گەڕانەوە** | gerranewe |
-| past participle | **گەڕاووە** | gerrawûwe |
+| past participle | **گەڕاوەوە** | gerrawewe |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

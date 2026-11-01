@@ -42,7 +42,8 @@ Sorani has eight vowels. Six are written with their own letters, one is written 
 | position | و | ی |
 |---|---|---|
 | next to a vowel letter | consonant **w** — ئاو *aw* “water” | consonant **y** — پیاو *pyaw* “man” |
-| between consonants or at the end after a consonant | vowel **u** — کورد *kurd* | vowel **î** — شیر *şîr* |
+| between consonants | vowel **u** — کورد *kurd* | vowel **î** — شیر *şîr* |
+| at the end, after a consonant | written **وو**, long **û** — چوو *çû*, مێژوو *mêjû* | vowel **î** — ماسی *masî* |
 | doubled | long **û** — وو in بوون *bûn* | **î + y** where a vowel meets a glide — ماسییەکە *masîyeke* “the fish” |
 
 zimankit's pronunciation engine applies exactly these rules (`skills_ckb/phonology_ipa.py`), so you can check any word:

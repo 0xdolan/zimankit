@@ -28,7 +28,7 @@ from zimankit.skills_ckb.verbs import conjugate, default_index, make_verb
 1. Past stem = infinitive − ن; present stem is lexical (کردن→کە, بردن→بە, گوتن→ڵێ, هاتن→ێ).
 2. Set-1 endings (م یت ێت ین ن) mark the subject of present tenses and intransitive pasts.
 3. Set-2 enclitics (م ت ی مان تان یان) mark the agent of transitive pasts: کردم, نەمکرد, دەمکرد — ergative alignment.
-4. Preverbs precede دە/نا and suppress subjunctive ب: هەڵدەگرم, هەڵگرم.
+4. Preverbs precede دە/نا; ب follows the preverb and may be dropped: هەڵدەگرم, هەڵبگرم or هەڵگرم.
 5. Irregulars: هاتن (دێم, نایەم, وەرە), چوون (imperative بڕۆ).
 
 ## Checklist

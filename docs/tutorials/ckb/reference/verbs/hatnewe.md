@@ -68,12 +68,12 @@
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **هاتوومەوە**<br><sub>hatûmewe</sub><br><sub>/haːtuːmæwæ/</sub> | **هاتبوومەوە**<br><sub>hatbûmewe</sub><br><sub>/haːtbuːmæwæ/</sub> |
-| 2sg | تۆ | **هاتوویتەوە**<br><sub>hatûytewe</sub><br><sub>/haːtuːjtæwæ/</sub> | **هاتبوویتەوە**<br><sub>hatbûytewe</sub><br><sub>/haːtbuːjtæwæ/</sub> |
-| 3sg | ئەو | **هاتووەوە**<br><sub>hatûwewe</sub><br><sub>/haːtuːwæwæ/</sub> | **هاتبوووە**<br><sub>hatbûwe</sub><br><sub>/haːtbuːwæ/</sub> |
-| 1pl | ئێمە | **هاتووینەوە**<br><sub>hatûynewe</sub><br><sub>/haːtuːjnæwæ/</sub> | **هاتبووینەوە**<br><sub>hatbûynewe</sub><br><sub>/haːtbuːjnæwæ/</sub> |
-| 2pl | ئێوە | **هاتوونەوە**<br><sub>hatûnewe</sub><br><sub>/haːtuːnæwæ/</sub> | **هاتبوونەوە**<br><sub>hatbûnewe</sub><br><sub>/haːtbuːnæwæ/</sub> |
-| 3pl | ئەوان | **هاتوونەوە**<br><sub>hatûnewe</sub><br><sub>/haːtuːnæwæ/</sub> | **هاتبوونەوە**<br><sub>hatbûnewe</sub><br><sub>/haːtbuːnæwæ/</sub> |
+| 1sg | من | **هاتوومەتەوە**<br><sub>hatûmetewe</sub><br><sub>/haːtuːmætæwæ/</sub> | **هاتبوومەوە**<br><sub>hatbûmewe</sub><br><sub>/haːtbuːmæwæ/</sub> |
+| 2sg | تۆ | **هاتوویتەتەوە**<br><sub>hatûytetewe</sub><br><sub>/haːtuːjtætæwæ/</sub> | **هاتبوویتەوە**<br><sub>hatbûytewe</sub><br><sub>/haːtbuːjtæwæ/</sub> |
+| 3sg | ئەو | **هاتووەتەوە**<br><sub>hatûwetewe</sub><br><sub>/haːtuːwætæwæ/</sub> | **هاتبووەوە**<br><sub>hatbûwewe</sub><br><sub>/haːtbuːwæwæ/</sub> |
+| 1pl | ئێمە | **هاتووینەتەوە**<br><sub>hatûynetewe</sub><br><sub>/haːtuːjnætæwæ/</sub> | **هاتبووینەوە**<br><sub>hatbûynewe</sub><br><sub>/haːtbuːjnæwæ/</sub> |
+| 2pl | ئێوە | **هاتوونەتەوە**<br><sub>hatûnetewe</sub><br><sub>/haːtuːnætæwæ/</sub> | **هاتبوونەوە**<br><sub>hatbûnewe</sub><br><sub>/haːtbuːnæwæ/</sub> |
+| 3pl | ئەوان | **هاتوونەتەوە**<br><sub>hatûnetewe</sub><br><sub>/haːtuːnætæwæ/</sub> | **هاتبوونەوە**<br><sub>hatbûnewe</sub><br><sub>/haːtbuːnæwæ/</sub> |
 
 ## Imperative
 
@@ -89,7 +89,7 @@
 | form | Kurdish | Latin |
 |---|---|---|
 | infinitive | **هاتنەوە** | hatnewe |
-| past participle | **هاتوووە** | hatûwe |
+| past participle | **هاتووەوە** | hatûwewe |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

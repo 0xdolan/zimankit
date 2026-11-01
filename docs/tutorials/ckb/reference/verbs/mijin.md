@@ -30,9 +30,9 @@
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
 | 1sg | من | **بمژم**<br><sub>bimjim</sub><br><sub>/b(ɯ)mʒ(ɯ)m/</sub> | **نەمژم**<br><sub>nemjim</sub><br><sub>/næmʒ(ɯ)m/</sub> |
-| 2sg | تۆ | **بمژیت**<br><sub>bimijît</sub><br><sub>/b(ɯ)m(ɯ)ʒiːt/</sub> | **نەمژیت**<br><sub>nemjît</sub><br><sub>/næmʒiːt/</sub> |
-| 3sg | ئەو | **بمژێت**<br><sub>bimijêt</sub><br><sub>/b(ɯ)m(ɯ)ʒeːt/</sub> | **نەمژێت**<br><sub>nemjêt</sub><br><sub>/næmʒeːt/</sub> |
-| 1pl | ئێمە | **بمژین**<br><sub>bimijîn</sub><br><sub>/b(ɯ)m(ɯ)ʒiːn/</sub> | **نەمژین**<br><sub>nemjîn</sub><br><sub>/næmʒiːn/</sub> |
+| 2sg | تۆ | **بمژیت**<br><sub>bimjît</sub><br><sub>/b(ɯ)mʒiːt/</sub> | **نەمژیت**<br><sub>nemjît</sub><br><sub>/næmʒiːt/</sub> |
+| 3sg | ئەو | **بمژێت**<br><sub>bimjêt</sub><br><sub>/b(ɯ)mʒeːt/</sub> | **نەمژێت**<br><sub>nemjêt</sub><br><sub>/næmʒeːt/</sub> |
+| 1pl | ئێمە | **بمژین**<br><sub>bimjîn</sub><br><sub>/b(ɯ)mʒiːn/</sub> | **نەمژین**<br><sub>nemjîn</sub><br><sub>/næmʒiːn/</sub> |
 | 2pl | ئێوە | **بمژن**<br><sub>bimjin</sub><br><sub>/b(ɯ)mʒ(ɯ)n/</sub> | **نەمژن**<br><sub>nemjin</sub><br><sub>/næmʒ(ɯ)n/</sub> |
 | 3pl | ئەوان | **بمژن**<br><sub>bimjin</sub><br><sub>/b(ɯ)mʒ(ɯ)n/</sub> | **نەمژن**<br><sub>nemjin</sub><br><sub>/næmʒ(ɯ)n/</sub> |
 
@@ -87,12 +87,12 @@
 
 | person | pronoun | Passive present | Passive present negative | Passive past |
 |---|---|---|---|---|
-| 1sg | من | **دەمژرێم**<br><sub>demjirêm</sub><br><sub>/dæmʒ(ɯ)ɾeːm/</sub> | **نامژرێم**<br><sub>namjirêm</sub><br><sub>/naːmʒ(ɯ)ɾeːm/</sub> | **مژرام**<br><sub>mijiram</sub><br><sub>/m(ɯ)ʒ(ɯ)ɾaːm/</sub> |
-| 2sg | تۆ | **دەمژرێیت**<br><sub>demjirêyt</sub><br><sub>/dæmʒ(ɯ)ɾeːjt/</sub> | **نامژرێیت**<br><sub>namjirêyt</sub><br><sub>/naːmʒ(ɯ)ɾeːjt/</sub> | **مژرایت**<br><sub>mijirayt</sub><br><sub>/m(ɯ)ʒ(ɯ)ɾaːjt/</sub> |
-| 3sg | ئەو | **دەمژرێت**<br><sub>demjirêt</sub><br><sub>/dæmʒ(ɯ)ɾeːt/</sub> | **نامژرێت**<br><sub>namjirêt</sub><br><sub>/naːmʒ(ɯ)ɾeːt/</sub> | **مژرا**<br><sub>mijira</sub><br><sub>/m(ɯ)ʒ(ɯ)ɾaː/</sub> |
-| 1pl | ئێمە | **دەمژرێین**<br><sub>demjirêyn</sub><br><sub>/dæmʒ(ɯ)ɾeːjn/</sub> | **نامژرێین**<br><sub>namjirêyn</sub><br><sub>/naːmʒ(ɯ)ɾeːjn/</sub> | **مژراین**<br><sub>mijirayn</sub><br><sub>/m(ɯ)ʒ(ɯ)ɾaːjn/</sub> |
-| 2pl | ئێوە | **دەمژرێن**<br><sub>demjirên</sub><br><sub>/dæmʒ(ɯ)ɾeːn/</sub> | **نامژرێن**<br><sub>namjirên</sub><br><sub>/naːmʒ(ɯ)ɾeːn/</sub> | **مژران**<br><sub>mijiran</sub><br><sub>/m(ɯ)ʒ(ɯ)ɾaːn/</sub> |
-| 3pl | ئەوان | **دەمژرێن**<br><sub>demjirên</sub><br><sub>/dæmʒ(ɯ)ɾeːn/</sub> | **نامژرێن**<br><sub>namjirên</sub><br><sub>/naːmʒ(ɯ)ɾeːn/</sub> | **مژران**<br><sub>mijiran</sub><br><sub>/m(ɯ)ʒ(ɯ)ɾaːn/</sub> |
+| 1sg | من | **دەمژرێم**<br><sub>demjirêm</sub><br><sub>/dæmʒ(ɯ)ɾeːm/</sub> | **نامژرێم**<br><sub>namjirêm</sub><br><sub>/naːmʒ(ɯ)ɾeːm/</sub> | **مژرام**<br><sub>mijram</sub><br><sub>/m(ɯ)ʒɾaːm/</sub> |
+| 2sg | تۆ | **دەمژرێیت**<br><sub>demjirêyt</sub><br><sub>/dæmʒ(ɯ)ɾeːjt/</sub> | **نامژرێیت**<br><sub>namjirêyt</sub><br><sub>/naːmʒ(ɯ)ɾeːjt/</sub> | **مژرایت**<br><sub>mijrayt</sub><br><sub>/m(ɯ)ʒɾaːjt/</sub> |
+| 3sg | ئەو | **دەمژرێت**<br><sub>demjirêt</sub><br><sub>/dæmʒ(ɯ)ɾeːt/</sub> | **نامژرێت**<br><sub>namjirêt</sub><br><sub>/naːmʒ(ɯ)ɾeːt/</sub> | **مژرا**<br><sub>mijra</sub><br><sub>/m(ɯ)ʒɾaː/</sub> |
+| 1pl | ئێمە | **دەمژرێین**<br><sub>demjirêyn</sub><br><sub>/dæmʒ(ɯ)ɾeːjn/</sub> | **نامژرێین**<br><sub>namjirêyn</sub><br><sub>/naːmʒ(ɯ)ɾeːjn/</sub> | **مژراین**<br><sub>mijrayn</sub><br><sub>/m(ɯ)ʒɾaːjn/</sub> |
+| 2pl | ئێوە | **دەمژرێن**<br><sub>demjirên</sub><br><sub>/dæmʒ(ɯ)ɾeːn/</sub> | **نامژرێن**<br><sub>namjirên</sub><br><sub>/naːmʒ(ɯ)ɾeːn/</sub> | **مژران**<br><sub>mijran</sub><br><sub>/m(ɯ)ʒɾaːn/</sub> |
+| 3pl | ئەوان | **دەمژرێن**<br><sub>demjirên</sub><br><sub>/dæmʒ(ɯ)ɾeːn/</sub> | **نامژرێن**<br><sub>namjirên</sub><br><sub>/naːmʒ(ɯ)ɾeːn/</sub> | **مژران**<br><sub>mijran</sub><br><sub>/m(ɯ)ʒɾaːn/</sub> |
 
 ## Imperative
 
@@ -100,7 +100,7 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بمژە**<br><sub>bimije</sub><br><sub>/b(ɯ)m(ɯ)ʒæ/</sub> | **مەمژە**<br><sub>memje</sub><br><sub>/mæmʒæ/</sub> |
+| 2sg | تۆ | **بمژە**<br><sub>bimje</sub><br><sub>/b(ɯ)mʒæ/</sub> | **مەمژە**<br><sub>memje</sub><br><sub>/mæmʒæ/</sub> |
 | 2pl | ئێوە | **بمژن**<br><sub>bimjin</sub><br><sub>/b(ɯ)mʒ(ɯ)n/</sub> | **مەمژن**<br><sub>memjin</sub><br><sub>/mæmʒ(ɯ)n/</sub> |
 
 ## Other forms
@@ -113,7 +113,7 @@
 | past perfect, agent clitic elsewhere | **مژیبوو** | mijîbû |
 | infinitive | **مژین** | mijîn |
 | past participle | **مژیو** | mijîw |
-| passive participle | **مژراو** | mijiraw |
+| passive participle | **مژراو** | mijraw |
 
 ---
 [⌂ Central Kurdish (Sorani) course](../../README.md) · [all verbs](README.md)

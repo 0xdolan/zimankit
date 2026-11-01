@@ -29,12 +29,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **بفرۆشم**<br><sub>bifiroşim</sub><br><sub>/b(ɯ)f(ɯ)ɾoːʃ(ɯ)m/</sub> | **نەفرۆشم**<br><sub>nefroşim</sub><br><sub>/næfɾoːʃ(ɯ)m/</sub> |
-| 2sg | تۆ | **بفرۆشیت**<br><sub>bifiroşît</sub><br><sub>/b(ɯ)f(ɯ)ɾoːʃiːt/</sub> | **نەفرۆشیت**<br><sub>nefroşît</sub><br><sub>/næfɾoːʃiːt/</sub> |
-| 3sg | ئەو | **بفرۆشێت**<br><sub>bifiroşêt</sub><br><sub>/b(ɯ)f(ɯ)ɾoːʃeːt/</sub> | **نەفرۆشێت**<br><sub>nefroşêt</sub><br><sub>/næfɾoːʃeːt/</sub> |
-| 1pl | ئێمە | **بفرۆشین**<br><sub>bifiroşîn</sub><br><sub>/b(ɯ)f(ɯ)ɾoːʃiːn/</sub> | **نەفرۆشین**<br><sub>nefroşîn</sub><br><sub>/næfɾoːʃiːn/</sub> |
-| 2pl | ئێوە | **بفرۆشن**<br><sub>bifiroşin</sub><br><sub>/b(ɯ)f(ɯ)ɾoːʃ(ɯ)n/</sub> | **نەفرۆشن**<br><sub>nefroşin</sub><br><sub>/næfɾoːʃ(ɯ)n/</sub> |
-| 3pl | ئەوان | **بفرۆشن**<br><sub>bifiroşin</sub><br><sub>/b(ɯ)f(ɯ)ɾoːʃ(ɯ)n/</sub> | **نەفرۆشن**<br><sub>nefroşin</sub><br><sub>/næfɾoːʃ(ɯ)n/</sub> |
+| 1sg | من | **بفرۆشم**<br><sub>bifroşim</sub><br><sub>/b(ɯ)fɾoːʃ(ɯ)m/</sub> | **نەفرۆشم**<br><sub>nefroşim</sub><br><sub>/næfɾoːʃ(ɯ)m/</sub> |
+| 2sg | تۆ | **بفرۆشیت**<br><sub>bifroşît</sub><br><sub>/b(ɯ)fɾoːʃiːt/</sub> | **نەفرۆشیت**<br><sub>nefroşît</sub><br><sub>/næfɾoːʃiːt/</sub> |
+| 3sg | ئەو | **بفرۆشێت**<br><sub>bifroşêt</sub><br><sub>/b(ɯ)fɾoːʃeːt/</sub> | **نەفرۆشێت**<br><sub>nefroşêt</sub><br><sub>/næfɾoːʃeːt/</sub> |
+| 1pl | ئێمە | **بفرۆشین**<br><sub>bifroşîn</sub><br><sub>/b(ɯ)fɾoːʃiːn/</sub> | **نەفرۆشین**<br><sub>nefroşîn</sub><br><sub>/næfɾoːʃiːn/</sub> |
+| 2pl | ئێوە | **بفرۆشن**<br><sub>bifroşin</sub><br><sub>/b(ɯ)fɾoːʃ(ɯ)n/</sub> | **نەفرۆشن**<br><sub>nefroşin</sub><br><sub>/næfɾoːʃ(ɯ)n/</sub> |
+| 3pl | ئەوان | **بفرۆشن**<br><sub>bifroşin</sub><br><sub>/b(ɯ)fɾoːʃ(ɯ)n/</sub> | **نەفرۆشن**<br><sub>nefroşin</sub><br><sub>/næfɾoːʃ(ɯ)n/</sub> |
 
 ## Simple past
 
@@ -100,8 +100,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **بفرۆشە**<br><sub>bifiroşe</sub><br><sub>/b(ɯ)f(ɯ)ɾoːʃæ/</sub> | **مەفرۆشە**<br><sub>mefroşe</sub><br><sub>/mæfɾoːʃæ/</sub> |
-| 2pl | ئێوە | **بفرۆشن**<br><sub>bifiroşin</sub><br><sub>/b(ɯ)f(ɯ)ɾoːʃ(ɯ)n/</sub> | **مەفرۆشن**<br><sub>mefroşin</sub><br><sub>/mæfɾoːʃ(ɯ)n/</sub> |
+| 2sg | تۆ | **بفرۆشە**<br><sub>bifroşe</sub><br><sub>/b(ɯ)fɾoːʃæ/</sub> | **مەفرۆشە**<br><sub>mefroşe</sub><br><sub>/mæfɾoːʃæ/</sub> |
+| 2pl | ئێوە | **بفرۆشن**<br><sub>bifroşin</sub><br><sub>/b(ɯ)fɾoːʃ(ɯ)n/</sub> | **مەفرۆشن**<br><sub>mefroşin</sub><br><sub>/mæfɾoːʃ(ɯ)n/</sub> |
 
 ## Other forms
 

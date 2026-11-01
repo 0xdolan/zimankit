@@ -30,12 +30,12 @@
 
 | person | pronoun | Subjunctive | Subjunctive negative |
 |---|---|---|---|
-| 1sg | من | **دەرکەم**<br><sub>derkem</sub><br><sub>/dæɾkæm/</sub> | **دەرنەکەم**<br><sub>dernekem</sub><br><sub>/dæɾnækæm/</sub> |
-| 2sg | تۆ | **دەرکەیت**<br><sub>derkeyt</sub><br><sub>/dæɾkæjt/</sub> | **دەرنەکەیت**<br><sub>dernekeyt</sub><br><sub>/dæɾnækæjt/</sub> |
-| 3sg | ئەو | **دەرکات**<br><sub>derkat</sub><br><sub>/dæɾkaːt/</sub> | **دەرنەکات**<br><sub>dernekat</sub><br><sub>/dæɾnækaːt/</sub> |
-| 1pl | ئێمە | **دەرکەین**<br><sub>derkeyn</sub><br><sub>/dæɾkæjn/</sub> | **دەرنەکەین**<br><sub>dernekeyn</sub><br><sub>/dæɾnækæjn/</sub> |
-| 2pl | ئێوە | **دەرکەن**<br><sub>derken</sub><br><sub>/dæɾkæn/</sub> | **دەرنەکەن**<br><sub>derneken</sub><br><sub>/dæɾnækæn/</sub> |
-| 3pl | ئەوان | **دەرکەن**<br><sub>derken</sub><br><sub>/dæɾkæn/</sub> | **دەرنەکەن**<br><sub>derneken</sub><br><sub>/dæɾnækæn/</sub> |
+| 1sg | من | **دەربکەم**<br><sub>derbikem</sub><br><sub>/dæɾb(ɯ)kæm/</sub> | **دەرنەکەم**<br><sub>dernekem</sub><br><sub>/dæɾnækæm/</sub> |
+| 2sg | تۆ | **دەربکەیت**<br><sub>derbikeyt</sub><br><sub>/dæɾb(ɯ)kæjt/</sub> | **دەرنەکەیت**<br><sub>dernekeyt</sub><br><sub>/dæɾnækæjt/</sub> |
+| 3sg | ئەو | **دەربکات**<br><sub>derbikat</sub><br><sub>/dæɾb(ɯ)kaːt/</sub> | **دەرنەکات**<br><sub>dernekat</sub><br><sub>/dæɾnækaːt/</sub> |
+| 1pl | ئێمە | **دەربکەین**<br><sub>derbikeyn</sub><br><sub>/dæɾb(ɯ)kæjn/</sub> | **دەرنەکەین**<br><sub>dernekeyn</sub><br><sub>/dæɾnækæjn/</sub> |
+| 2pl | ئێوە | **دەربکەن**<br><sub>derbiken</sub><br><sub>/dæɾb(ɯ)kæn/</sub> | **دەرنەکەن**<br><sub>derneken</sub><br><sub>/dæɾnækæn/</sub> |
+| 3pl | ئەوان | **دەربکەن**<br><sub>derbiken</sub><br><sub>/dæɾb(ɯ)kæn/</sub> | **دەرنەکەن**<br><sub>derneken</sub><br><sub>/dæɾnækæn/</sub> |
 
 ## Simple past
 
@@ -101,8 +101,8 @@
 
 | person | pronoun | Imperative | Prohibitive |
 |---|---|---|---|
-| 2sg | تۆ | **دەرکە**<br><sub>derke</sub><br><sub>/dæɾkæ/</sub> | **دەرمەکە**<br><sub>dermeke</sub><br><sub>/dæɾmækæ/</sub> |
-| 2pl | ئێوە | **دەرکەن**<br><sub>derken</sub><br><sub>/dæɾkæn/</sub> | **دەرمەکەن**<br><sub>dermeken</sub><br><sub>/dæɾmækæn/</sub> |
+| 2sg | تۆ | **دەربکە**<br><sub>derbike</sub><br><sub>/dæɾb(ɯ)kæ/</sub> | **دەرمەکە**<br><sub>dermeke</sub><br><sub>/dæɾmækæ/</sub> |
+| 2pl | ئێوە | **دەربکەن**<br><sub>derbiken</sub><br><sub>/dæɾb(ɯ)kæn/</sub> | **دەرمەکەن**<br><sub>dermeken</sub><br><sub>/dæɾmækæn/</sub> |
 
 ## Other forms
 

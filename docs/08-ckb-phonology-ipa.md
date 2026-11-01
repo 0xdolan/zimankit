@@ -19,8 +19,9 @@ The word is split into graphemes; `وو` and `یی` stay together.
 | the word `و` ("and") | /u/ | — |
 | after a vowel letter | /w/ `ئاو` /ʔaːw/ | /j/ `چای` /tʃaːj/ |
 | before a vowel letter | /w/ `خواردن` /xwaːɾdɯn/ | /j/ `پیاو` /pjaːw/ |
-| between consonants / final | /u/ `کورد` /kuɾd/ | /iː/ `میر` /miːɾ/ |
-| doubled | `وو` /uː/ | `یی` /iː/ |
+| between consonants | /u/ `کورد` /kuɾd/ | /iː/ `میر` /miːɾ/ |
+| final after a consonant | written `وو` /uː/ `چوو` | /iː/ `ماسی` /maːsiː/ |
+| doubled | `وو` /uː/, never word-initial | `یی` only after a vowel (`کۆتایی`), before ە (`چییە`) or with ezafe (`کوردیی سنە`); plain î is one `ی` (`تیر`, not `تییر`) |
 
 Before another vowel a hiatus glide is inserted: `هاتووە` /haːtuːwæ/, `ماسییەکە` /maːsiːjækæ/.
 

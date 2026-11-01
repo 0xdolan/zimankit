@@ -24,6 +24,8 @@
 | ENCLITIC | م ت ی مان تان یان | same | my, your … / agent of past transitive |
 | ADD | یش | ش | too, also |
 | POSTP | ەوە، دا، ڕا | وە، دا | circumposition halves (لە … دا "in") |
+
+Nouns in وو take the after-consonant endings: خانووەکە, خانووێک, خانووان.
 | CMP | تر، ترین | | comparative, superlative |
 | DERIV | ایەتی، ێتی، ی، انە، ستان، کار، دار | | abstract, nisba, adverbial, place, agent, possessor |
 
