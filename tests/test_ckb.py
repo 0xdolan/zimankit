@@ -337,6 +337,7 @@ def test_listed_verb_beats_a_clitic_on_a_noun_part():
     ("دەکا", "کردن"), ("دەڵێ", "گوتن"), ("دەخوا", "خواردن"), ("دەمەوێ", "ویستن"), ("دەکەی", "کردن"), ("دەبینرێ", "بینین"), ("دەژێت", "ژیان"),
     ("بچۆ", "چوون"), ("بڕۆ", "چوون"), ("مەچۆ", "چوون"), ("نایێم", "هاتن"), ("ویسترا", "ویستن"), ("گرترا", "گرتن"), ("بردرا", "بردن"),
     ("بکەرەوە", "کردنەوە"), ("هاتۆتەوە", "هاتنەوە"), ("ئەچم", "چوون"), ("ئەخوارد", "خواردن"), ("دادەنێم", "دانان"), ("دەخوازم", "خواستن"),
+    ("نووسیووە", "نووسین"), ("بینیووە", "بینین"), ("نەبینیووە", "بینین"), ("گەڕاونەوە", "گەڕانەوە"), ("ماونەوە", "مانەوە"), ("کردووتەوە", "کردنەوە"),
 ])
 def test_variants_and_regional_forms(form, lemma):
     assert CkbAnalyzer().best(form).lemma == lemma
@@ -352,6 +353,21 @@ def test_guessing_present_stems():
     assert verbs.guess_present_stem("دڕا", False) == "دڕێ" and verbs.guess_present_stem("شکا", True) == "شک"
     assert verbs.guess_present_stem("دروو") == "دروو"
     assert verbs.make_verb("پاڵاوتن", None, None, "guess", known).preverb == ""
+    for word in ("ترازان", "لەرزان"):
+        assert verbs.make_verb(word, None, None, "guess", known).preverb == ""
+
+
+def test_guessed_verb_in_yan_does_not_take_forms_of_the_real_verb():
+    known = {v.infinitive: v for v in verbs.load_core_verbs() if not v.preverb and not v.suffix}
+    index = verbs.FormIndex([verbs.make_verb(w, None, None, "lexicon", known) for w in ("دزیان", "دزین")])
+    assert [f.lemma for f in index.lookup("دەدزێت")] == ["دزین"]
+
+
+def test_one_ye_before_ewe_is_a_variant():
+    known = {v.infinitive: v for v in verbs.load_core_verbs() if not v.preverb and not v.suffix}
+    index = verbs.FormIndex([verbs.make_verb("دۆزینەوە", True, "دۆز", "guess", known)])
+    assert all("variant" not in f.features for f in index.lookup("دۆزییەوە"))
+    assert all(f.features.get("variant") == "one_ye" for f in index.lookup("دۆزیەوە"))
 
 
 @pytest.mark.parametrize("word, lemma, segmentation", [

@@ -20,7 +20,7 @@ Central Kurdish, checked against the written-standard and grammar sources in [ch
 - **Sorani agreement warnings** in the parser's `notes`: `من نان خوارد`, `هاتمان`, `من دەچیت`, and a usage note for `پیاوەکە دەچن`.
 - **Verb list and guesser**: more core verbs (`خواستن`, `گواستن`, `سەندن`, `دڕان`, `دانان` and others), no false `وتن` splits (`پاڵاوتن`), and intransitive `ا` → `ێ` (`دەدڕێت`).
 - **Imperatives**: `بچۆ` with `بڕۆ` also accepted, `بێ`, `نایێم`, and `ویستن` has a rare imperative and passive.
-- **Recognised, never shown first**: `دەکا`, `دەڵێ`, `دەمەوێ`, `دەژێت`, `هاتۆتەوە`, `بکەرەوە`, `گرترا`, `ئەچم`.
+- **Recognised, never shown first**: `دەکا`, `دەڵێ`, `دەمەوێ`, `دەژێت`, `هاتۆتەوە`, `بکەرەوە`, `گرترا`, `ئەچم`, `بینیووە`, `گەڕاونەوە`, `دۆزیەوە`.
 - **Nouns**: `ماسێکە`, `پەنجەران`, adverbs of manner (`بەخێرایی`), more suffixes (`-گەر`, `-زانی`), and `برا` reads as "brother". `مامۆستایان` returns both its readings.
 - **Spelling variants**: `STANDARD_OVERRIDES` for spellings where frequency prefers the non-standard form (`وەکو`, `بەرامبەر`, `نیە`).
 - **Agent clitic position**: on a preverb or compound verb it sits on the first part in every tense (`هەڵمنەگرت`, `هەڵمدەگرت`, `هەڵمگرتووە`). The older shapes stay recognised as a variant.
