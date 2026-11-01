@@ -16,7 +16,7 @@ A noun without endings is **generic**: پیاو means *man* in general, or *a ma
 |---|---|---|---|
 | **the** (singular) | **-ەکە** -eke | **-کە** -ke (**-یەکە** after ی / ێ) | پیاوەکە *the man* |
 | **the** (plural) | **-ەکان** -ekan | **-کان** -kan (**-یەکان** after ی / ێ) | پیاوەکان *the men* |
-| **a / one** | **-ێک** -êk | **-یەک** -yek | پیاوێک *a man* |
+| **a / one** | **-ێک** -êk (also **-ێ**, **-ەک**) | **-یەک** -yek (also **-یێک**) | پیاوێک *a man* |
 | plural (generic) | **-ان** -an | **-یان** -yan | پیاوان *men* |
 
 ## Consonant-final and vowel-final
@@ -44,6 +44,7 @@ Things to notice:
 * ماسی ends in the vowel *î*, so a **glide** ی is written before the ending: ماسییەکە *masîyeke*, ماسییەک.
 * خانە ends in ە: the definite is خانەکە, and the generic plural *-an* is not used with it (say خانەکان or چەند خانەیەک *several houses*). That cell is empty in the table.
 * Generic plurals with **-ان** are common in writing (پیاوان *men*); speech prefers the definite plural (پیاوەکان).
+* Less common plurals exist: **-گەل** (کوڕگەل), and in fixed words -ات, -هات, -جات, -ها (دێهات, میوەجات, ساڵەها).
 
 ## The noun in sentences
 
@@ -80,7 +81,7 @@ The analyzer splits a word into stem and endings. This is the same logic as abov
 | **ژنەکان** | ژن+ەکان | STEM+DEF.PL | ژن | definite=def, number=pl |
 | **کتێبێک** | کتێب+ێک | STEM+INDEF | کتێب | definite=ind, number=sg |
 | **دەرگاکە** | دەرگا+کە | STEM+DEF.SG | دەرگا | definite=def, number=sg |
-| **ماسییەکە** | ماسی+یەکە | STEM+DEF.SG | ماسی | definite=def, number=sg |
+| **ماسییەکە** | ماسی+یەک+ە | STEM+INDEF+E | ماسی | definite=ind, number=sg, copula=3sg|ezafe.def|dem|voc|def.short |
 | **مامۆستایان** | مامۆستا+یان | STEM+3PL | مامۆستا | enclitic=3pl |
 <!-- /gen -->
 

@@ -12,6 +12,9 @@ Central Kurdish, checked against the written-standard and grammar sources in [ch
 - **Transliteration and IPA**: no second unwritten vowel in words like `منداڵ` (`mindall`, was `minidall`) and `کردووە` (`kirdûwe`); `ستران` is `stran`; a lone `چ` is `çi`. This also changes the `ipa` and `translit` columns of the lexicon when it is rebuilt.
 - **`-ەوە` verbs**: no three-`و` forms (`چووەوە`, was `چوووە`); the perfect has `ت` (`خوێندووەتەوە`); `دۆزییەوە`.
 - **Missing tenses**: negative perfects (`نەکردووە`, `نەهاتبوو`), the written long perfect (`هاتوومە`, with `هاتووم` as a variant), the past subjunctive (`خواردبا`, `خواردبێت`, `خواردبووبا`) and the full passive (`بکرێت`, `نەکرا`, `دەکرا`, `کرابوو`, `کرابا`). Reference pages show them, and the lexicon now reads very common forms such as `بکرێت` and `نەبووە` as verbs.
+- **Nouns and function words**: final ە/یە (`مامۆستایە`, `ماڵدایە`), `ماڵدام`, indefinite `چرایێک`, `کەسانێک`, `کوڕێ`, plural `-گەل`, `سنەیی`, `ڕەشایی`, prefixes `بێ` `نا` `هاو`, compounds (`گوڵ+ە+گەنم`), and `پێ` `لێ` `تێ` as adpositions rather than nouns.
+- **Lexicon builder**: a core verb reading now beats a dictionary entry with no word class, so `کردووە`, `هاتووە` and `داوە` are verbs rather than nouns with broken lemmas. A word with a known remainder after `بێ`, `نا` or `هاو` is accepted.
+- **Sentence structure**: bare adpositions (`پێی وت`), `من لە ماڵدام`, `تۆ زیرەکیت`, and definite adjective phrases (`پیاوە باشەکە هات`).
 - **Preverb verbs**: `ب` is generated after the preverb (`هەڵبگرم`, `دابنیشە`), with the bare form as a variant. `ڕاکردن` takes the agent clitics.
 - **Nouns in `وو`**: `خانووەکە`, `خانووێک`, `خانووان`.
 - **Sentence structure**: in `نانم خوارد` the clitic host is the object, not the subject.

@@ -232,3 +232,40 @@ def test_guessed_vowel_stems_get_no_past_subjunctive():
 def test_tenses_printed_in_the_grammars(form, lemma, features):
     readings = [f.features for f in verbs.default_index().lookup(form) if f.lemma == lemma]
     assert any(features.items() <= r.items() for r in readings), readings
+
+
+@pytest.mark.parametrize("word, segmentation", [
+    ("کوردە", "کورد+ە"), ("مامۆستایە", "مامۆستا+یە"), ("سپییە", "سپی+یە"), ("ماڵدایە", "ماڵ+دا+یە"), ("ماڵدام", "ماڵ+دا+م"),
+    ("چاکترە", "چاک+تر+ە"), ("سنەیی", "سنە+یی"), ("ڕەشایی", "ڕەش+ایی"), ("بێکار", "بێ+کار"), ("هاوکار", "هاو+کار"),
+    ("گوڵەگەنم", "گوڵ+ە+گەنم"), ("دەموچاو", "دەم+و+چاو"), ("شارەوشار", "شار+ەو+شار"), ("کوڕێ", "کوڕ+ێ"), ("کوڕەک", "کوڕ+ەک"),
+    ("چرایێک", "چرا+یێک"), ("کەسانێک", "کەس+ان+ێک"), ("کوڕگەل", "کوڕ+گەل"), ("تارانێ", "تاران+ێ"),
+    ("کتێبەکانیشم", "کتێب+ەکان+یش+م"), ("ماڵەکە", "ماڵ+ەکە"),
+])
+def test_nominal_segmentation(word, segmentation):
+    lex = SimpleLexicon()
+    for w in "کورد مامۆستا سپی ماڵ چاک سنە کار گوڵ گەنم دەم چاو شار کوڕ چرا کەس تاران کتێب".split():
+        lex.add(w, "NOUN")
+    lex.add("ڕەش", "ADJ")
+    assert CkbAnalyzer(lex).best(word).segmentation == segmentation
+
+
+@pytest.mark.parametrize("word, not_segmentation", [
+    ("بووە", "بوو+ە"), ("کۆتایی", "کۆت+ایی"), ("سەرەکی", "سەر+ەک+ی"), ("سەدام", "سە+دا+م"),
+])
+def test_short_affixes_do_not_overmatch(word, not_segmentation):
+    lex = SimpleLexicon()
+    for w in "بوو کۆت سەر سەرەک سە دا".split():
+        lex.add(w, "NOUN")
+    assert CkbAnalyzer(lex).best(word).segmentation != not_segmentation
+
+
+def test_listed_word_keeps_its_final_e():
+    lex = SimpleLexicon()
+    lex.add("خان", "NOUN")
+    lex.add("خانە", "NOUN")
+    assert CkbAnalyzer(lex).best("خانە").segmentation == "خانە"
+
+
+@pytest.mark.parametrize("word", ["پێ", "لێ", "تێ", "پێم", "لێی", "تێیان", "بۆمان"])
+def test_bound_adpositions(word):
+    assert CkbAnalyzer().best(word).pos == "ADP"

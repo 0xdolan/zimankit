@@ -77,6 +77,9 @@ class Row:
 # ---------------------------------------------------------------------------
 
 
+KNOWN_REMAINDER = ("priv", "neg", "co")  # بێ+کار: the analyser saw that the remainder is a known word
+
+
 class Dialect:
     def __init__(self, lang: str):
         self.lang = lang
@@ -343,7 +346,7 @@ def build(cfg: Config, lang: str) -> dict:
         )
         # a POS-less dictionary word that analyses into a known lemma is an inflected form
         posless_inflected = None
-        if w in lemmas and not lemmas[w].pos and w not in d.fw:
+        if w in lemmas and not lemmas[w].pos and w not in d.fw and not core_verb_reading:
             def plausible(x: Analysis) -> bool:
                 if x.lemma == w or x.lemma not in lemma_set or not lemmas[x.lemma].pos or x.score <= 0:
                     return False
@@ -382,7 +385,7 @@ def build(cfg: Config, lang: str) -> dict:
             srcs.add("lexicon-form")
             if a is not None and a.lemma == lemma:
                 seg = a.segmentation
-        elif a is not None and (a.lemma in lemma_set or a.pos == "VERB") and a.score > 0:
+        elif a is not None and (a.lemma in lemma_set or a.pos == "VERB" or a.features.get("derivation") in KNOWN_REMAINDER) and a.score > 0:
             lemma, pos, feats, seg = a.lemma, a.pos, dict(a.features), a.segmentation
             analysed = True
         else:

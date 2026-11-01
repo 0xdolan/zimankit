@@ -17,6 +17,7 @@
 
 * *than* is **لە**: ئەو **لە** من گەورەترە. *He is bigger / older than me.*
 * The superlative stands **before** the noun, without ezafe: گەورەترین شار *the biggest city*.
+* The separate word **تر** means *other*: کابرایەکی تر *another man*. Do not confuse it with -تر *-er*, which is joined.
 
 <!-- gen:sentences ipa=1
 هەولێر لە سلێمانی گەورەترە. | Erbil is bigger than Sulaymaniyah.
@@ -52,7 +53,7 @@ The analyzer recognises these suffixes and also tells you when it is unsure:
 |---|---|---|---|---|
 | **گەورەتر** | گەورە+تر | STEM+CMPR | گەورە | degree=cmp |
 | **گەورەترین** | گەورە+ترین | STEM+SUPL | گەورە | degree=sup |
-| **کوردستان** | کورد+ستان | STEM+PLACE | کورد | derivation=place |
+| **کوردستان** | کوردستان | STEM | کوردستان | — |
 | **ڕۆژانە** | ڕۆژ+انە | STEM+ADVZ | ڕۆژ | derivation=adverbial |
 | **پارەدار** | پارە+دار | STEM+POSSR | پارە | derivation=possessor |
 | **کرێکار** | کرێ+کار | STEM+AGENT | کرێ | derivation=agent |

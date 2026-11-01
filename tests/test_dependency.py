@@ -10,6 +10,16 @@ def rels(sentence: str) -> list[tuple[str, str, int]]:
 
 
 @pytest.mark.parametrize("sentence, expected", [
+    # Sorani: adpositions without a noun, copula after -دا and with a person ending, definite ezafe
+    ("پێی وت.", [("پێی", "obl", 2), ("وت", "root", 0), (".", "punct", 2)]),
+    ("دەستم لێ دا.", [("دەستم", "obj", 3), ("لێ", "obl", 3), ("دا", "root", 0), (".", "punct", 3)]),
+    ("پێی لێ هەڵگرت.", [("پێی", "obj", 3), ("لێ", "obl", 3), ("هەڵگرت", "root", 0), (".", "punct", 3)]),
+    ("من لە ماڵدام.", [("من", "nsubj", 3), ("لە", "case", 3), ("ماڵدام", "root", 0), (".", "punct", 3)]),
+    ("تۆ زیرەکیت.", [("تۆ", "nsubj", 2), ("زیرەکیت", "root", 0), (".", "punct", 2)]),
+    ("پیاوە باشەکە هات.", [("پیاوە", "nsubj", 3), ("باشەکە", "amod", 1), ("هات", "root", 0), (".", "punct", 3)]),
+    ("دەرگا گەورەکە داخرا.", [("دەرگا", "nsubj", 3), ("گەورەکە", "amod", 1), ("داخرا", "root", 0), (".", "punct", 3)]),
+    # … but not a subject before a definite object
+    ("مامۆستا کتێبەکە دەخوێنێت.", [("مامۆستا", "nsubj", 3), ("کتێبەکە", "obj", 3), ("دەخوێنێت", "root", 0), (".", "punct", 3)]),
     # Sorani past transitive: the agent clitic sits on the object
     ("نانم خوارد.", [("نانم", "obj", 2), ("خوارد", "root", 0), (".", "punct", 2)]),
     # ergative: oblique agent, direct object

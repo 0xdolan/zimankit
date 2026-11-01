@@ -70,12 +70,12 @@ The passive adds `د` after a root in `ر` or `ڕ`: `دەخوێنرێت`, but `�
 | infinitive or finite verb | `ڕێککەوتن` (noun), `ڕێک کەوتن` (verb) | | not checked |
 | conjunction `و` is separate | `من و تۆ` | `من‌و تۆ` | ZWNJ form normalised |
 | prepositions are separate, postpositions attach | `لە ماڵدا`, `لە کرماشانەوە`, `بە ئاسمانەوە` | `لەماڵدا`, `لە ماڵ دا` | not checked |
-| `دا` as a postposition attaches, even before a copula | `من لە ماڵدام`, `لە ماڵدایە` | `لە ماڵ دایە` | not analysed |
+| `دا` as a postposition attaches, even before a copula | `من لە ماڵدام`, `لە ماڵدایە` | `لە ماڵ دایە` | analysed |
 | `دا` as the verb "gave" is separate | `نامەکەم دا بە سۆران` | | handled |
 | `لە` joins in fixed forms | `لەگەڵ`, `لەسەر`, `لەژێر`, `لێرە`, `لەوێ` | `لە گەڵ` | not checked |
-| `بێ` attached means "-less", separate means "without" | `بێکار` "unemployed", `بێ کار ژیان` | | not analysed |
+| `بێ` attached means "-less", separate means "without" | `بێکار` "unemployed", `بێ کار ژیان` | | analysed |
 | comparative attaches, the word "another" is separate | `جوانتر`, `جوانترین`; `شەوێکی تر` | | analysed |
-| `پێ تێ لێ` are separate, and attach to a clitic | `پارەم پێ نەما`, `دەستم لێ دا`; `پێم وت`, `لێم سەند` | `پارەم پێنەما` | not analysed |
+| `پێ تێ لێ` are separate, and attach to a clitic | `پارەم پێ نەما`, `دەستم لێ دا`; `پێم وت`, `لێم سەند` | `پارەم پێنەما` | analysed |
 | manner `بە` attaches, preposition `بە` is separate | `بەخێرایی`, `بەهێواشی`; `بە ئۆتۆمبیل` | `بە خێرایی` | not analysed |
 | compound numbers are separate | `بیست و یەک`, `دوو سەد`, `سێ میلیۆن` | `بیستویەک` | not checked |
 | number + noun as a new word is solid | `دووشەممە`, `یەکشاخ`, `چوارپێ` | | lexicon |
@@ -123,11 +123,10 @@ These are open, so zimankit should not change them silently. The interim choice 
 
 In the order they depend on each other:
 
-1. **Morphemes:** the copula `ە`/`یە` and person copulas (`کوردە`, `مامۆستایە`, `ماڵدام`); indefinite `ێ` and `ەک`; stems such as `سنەیی` and `ڕەشایی`; prefixes `بێ`, `نا`, `هاو`; compound analysis (`گوڵ+ە+گەنم`); `پێ`, `لێ`, `تێ` as adpositions rather than nouns; definite noun + adjective (`پیاوە باشەکە`).
-2. **Split forms:** correct clitic position in every tense, spacing classes for preverbs, then reading `هەڵم گرت`, `ڕای گەیاند` and `دەست پێ دەکەم` as one verb, then object clitics (`دەتبینم`, `بینیمیت`).
-3. **Parser:** circumpositions over several words, subordinate clauses, Kurdish labels (`نیهاد`, `جێگری بکەر`), and a Sorani agreement check.
-4. **Lexicon overrides:** a curated table so that the standard form is chosen when frequency prefers another (`وەکوو`, `بەرانبەر`, `کەرکووک`).
-5. **Generated pages and lessons:** print split forms first and teach them. This comes last on purpose: until step 2 is done, zimankit could not read the spelling its own course would teach.
+1. **Split forms:** correct clitic position in every tense, spacing classes for preverbs, then reading `هەڵم گرت`, `ڕای گەیاند` and `دەست پێ دەکەم` as one verb, then object clitics (`دەتبینم`, `بینیمیت`).
+2. **Parser:** circumpositions over several words, subordinate clauses, Kurdish labels (`نیهاد`, `جێگری بکەر`), and a Sorani agreement check.
+3. **Lexicon overrides:** a curated table so that the standard form is chosen when frequency prefers another (`وەکوو`, `بەرانبەر`, `کەرکووک`).
+4. **Generated pages and lessons:** print split forms first and teach them. This comes last on purpose: until step 1 is done, zimankit could not read the spelling its own course would teach.
 
 Some transliterations are also still doubtful and have not been checked against a source, such as `rakridin` for `ڕاکردن` and `hellîgrit` for `هەڵیگرت`.
 

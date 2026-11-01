@@ -24,10 +24,10 @@ from zimankit.skills_ckb.morphology import CkbAnalyzer
 
 ## Rules to apply
 
-1. Template: [PREP] STEM [DERIV] [CMP] [NUM/DEF] [ENCLITIC] [ADD] [POSTP].
+1. Template: [PREP] STEM [DERIV] [CMP] [NUM/DEF] [ENCLITIC] [ADD] [POSTP] [ە/یە].
 2. Allomorph choice depends on whether the stem ends in a vowel *sound*: پیاو ends in /w/ → پیاوەکە; دەرگا ends in a vowel → دەرگاکە.
 3. Generate all segmentations, rank by lexicon membership, corpus frequency and affix reliability; do not trust the first regex match.
-4. Final ی is ambiguous (ezafe vs 3sg enclitic) — keep both readings.
+4. Final ی is ambiguous (ezafe vs 3sg enclitic), and so is final ە/یە (copula, definite ezafe, demonstrative, vocative): keep the readings, and let the context decide.
 5. Pass a SimpleLexicon built from output/ckb/lemmas_ckb.csv for production accuracy.
 
 ## Checklist

@@ -314,6 +314,67 @@
   "morphology": {
     "nominal_slots": [
       {
+        "slot": "COP",
+        "affixes": [
+          {
+            "form": "ە",
+            "tag": "E",
+            "after": "C",
+            "features": {
+              "copula": "3sg|ezafe.def|dem|voc|def.short"
+            }
+          },
+          {
+            "form": "ە",
+            "tag": "E",
+            "after": "UU",
+            "features": {
+              "copula": "3sg|ezafe.def|dem|voc|def.short"
+            }
+          },
+          {
+            "form": "یە",
+            "tag": "E",
+            "after": "V",
+            "features": {
+              "copula": "3sg|dem"
+            }
+          },
+          {
+            "form": "م",
+            "tag": "COP.1SG",
+            "after": "DA",
+            "features": {
+              "copula": "1sg"
+            }
+          },
+          {
+            "form": "یت",
+            "tag": "COP.2SG",
+            "after": "DA",
+            "features": {
+              "copula": "2sg"
+            }
+          },
+          {
+            "form": "ین",
+            "tag": "COP.1PL",
+            "after": "DA",
+            "features": {
+              "copula": "1pl"
+            }
+          },
+          {
+            "form": "ن",
+            "tag": "COP.PL",
+            "after": "DA",
+            "features": {
+              "copula": "2pl|3pl"
+            }
+          }
+        ]
+      },
+      {
         "slot": "POSTP",
         "affixes": [
           {
@@ -338,6 +399,14 @@
             "after": null,
             "features": {
               "postposition": "da"
+            }
+          },
+          {
+            "form": "ێ",
+            "tag": "POSTP.E",
+            "after": "C",
+            "features": {
+              "postposition": "e|indef"
             }
           },
           {
@@ -431,6 +500,14 @@
             "form": "ش",
             "tag": "ADD",
             "after": "V",
+            "features": {
+              "additive": "yes"
+            }
+          },
+          {
+            "form": "یش",
+            "tag": "ADD",
+            "after": "C",
             "features": {
               "additive": "yes"
             }
@@ -548,6 +625,24 @@
             }
           },
           {
+            "form": "یێک",
+            "tag": "INDEF",
+            "after": "V",
+            "features": {
+              "definite": "ind",
+              "number": "sg"
+            }
+          },
+          {
+            "form": "ەک",
+            "tag": "INDEF",
+            "after": "C",
+            "features": {
+              "definite": "ind",
+              "number": "sg"
+            }
+          },
+          {
             "form": "ان",
             "tag": "PL",
             "after": "C",
@@ -559,6 +654,27 @@
             "form": "یان",
             "tag": "PL",
             "after": "V",
+            "features": {
+              "number": "pl"
+            }
+          },
+          {
+            "form": "گەل",
+            "tag": "PL.GEL",
+            "after": null,
+            "features": {
+              "number": "pl"
+            }
+          }
+        ]
+      },
+      {
+        "slot": "PL0",
+        "affixes": [
+          {
+            "form": "ان",
+            "tag": "PL",
+            "after": "C",
             "features": {
               "number": "pl"
             }
@@ -651,6 +767,22 @@
             "after": "C",
             "features": {
               "derivation": "nisba|abstract"
+            }
+          },
+          {
+            "form": "یی",
+            "tag": "NISBA",
+            "after": "V",
+            "features": {
+              "derivation": "nisba"
+            }
+          },
+          {
+            "form": "ایی",
+            "tag": "ABST",
+            "after": null,
+            "features": {
+              "derivation": "abstract"
             }
           }
         ]

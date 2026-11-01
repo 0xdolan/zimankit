@@ -41,7 +41,7 @@ With *a*, the indefinite ending comes first and the ezafe follows it: **پیاو
 With *the*, two things change:
 
 1. the definite ending **moves to the end of the whole phrase**;
-2. the ezafe after the noun becomes **-ە** (after a vowel **-یە**).
+2. the ezafe after the noun becomes **-ە**. A noun of two or more syllables ending in ا ۆ ێ ە takes nothing: دەرگا گەورەکە.
 
 | | indefinite | definite |
 |---|---|---|

@@ -2,7 +2,7 @@
 
 Nominal template (left to right)::
 
-    [PREP] STEM [DERIV] [CMP] [NUM/DEF] [ENCLITIC] [ADD] [POSTP]
+    [PREP] STEM [DERIV] [CMP] [NUM/DEF] [ENCLITIC] [ADD] [POSTP] [ە/یە]
             کتێب          ەکە        م
        لە   ماڵ           ەکان       مان       یش     دا   ->  لەماڵەکانمانیشدا
 
@@ -59,10 +59,22 @@ def _a(form: str, tag: str, after: str | None = None, pos: str | None = None, **
 
 # Slots ordered from the OUTERMOST (rightmost) to the innermost.
 SLOTS: tuple[tuple[str, tuple[Affix, ...]], ...] = (
+    ("COP", (
+        # one word cannot decide among these functions; the next word and any ئەم/ئەو do
+        _a("ە", "E", "C", copula="3sg|ezafe.def|dem|voc|def.short"),
+        _a("ە", "E", "UU", copula="3sg|ezafe.def|dem|voc|def.short"),
+        _a("یە", "E", "V", copula="3sg|dem"),
+        # person endings only after -دا (من لە ماڵدام): elsewhere they are the enclitics
+        _a("م", "COP.1SG", "DA", copula="1sg"),
+        _a("یت", "COP.2SG", "DA", copula="2sg"),
+        _a("ین", "COP.1PL", "DA", copula="1pl"),
+        _a("ن", "COP.PL", "DA", copula="2pl|3pl"),
+    )),
     ("POSTP", (
         _a("ەوە", "POSTP.EWE", "C", postposition="ewe"),
         _a("وە", "POSTP.EWE", "V", postposition="ewe"),
         _a("دا", "POSTP.DA", None, postposition="da"),
+        _a("ێ", "POSTP.E", "C", postposition="e|indef"),  # لە تارانێ; also indefinite کوڕێ
         _a("ڕا", "POSTP.RA", None, postposition="ra"),
     )),
     ("ADD", (_a("یش", "ADD", "C", additive="yes"), _a("ش", "ADD", "V", additive="yes"))),
@@ -74,7 +86,7 @@ SLOTS: tuple[tuple[str, tuple[Affix, ...]], ...] = (
         _a("ت", "2SG", None, enclitic="2sg"),
         _a("ی", "3SG/EZ", None, enclitic="3sg|ezafe"),
     )),
-    ("ADD2", (_a("ش", "ADD", "V", additive="yes"),)),
+    ("ADD2", (_a("ش", "ADD", "V", additive="yes"), _a("یش", "ADD", "C", additive="yes"))),
     ("NUMDEF", (
         _a("ەکان", "DEF.PL", "UU", "NOUN", definite="def", number="pl"),
         _a("ەکە", "DEF.SG", "UU", "NOUN", definite="def", number="sg"),
@@ -88,9 +100,13 @@ SLOTS: tuple[tuple[str, tuple[Affix, ...]], ...] = (
         _a("کە", "DEF.SG", "V", "NOUN", definite="def", number="sg"),
         _a("ێک", "INDEF", "C", "NOUN", definite="ind", number="sg"),
         _a("یەک", "INDEF", "V", "NOUN", definite="ind", number="sg"),
+        _a("یێک", "INDEF", "V", "NOUN", definite="ind", number="sg"),
+        _a("ەک", "INDEF", "C", "NOUN", definite="ind", number="sg"),
         _a("ان", "PL", "C", "NOUN", number="pl"),
         _a("یان", "PL", "V", "NOUN", number="pl"),
+        _a("گەل", "PL.GEL", None, "NOUN", number="pl"),
     )),
+    ("PL0", (_a("ان", "PL", "C", "NOUN", number="pl"),)),  # کەس+ان+ێک
     ("CMP", (
         _a("ترین", "SUPL", None, "ADJ", degree="sup"),
         _a("تر", "CMPR", None, "ADJ", degree="cmp"),
@@ -104,9 +120,16 @@ SLOTS: tuple[tuple[str, tuple[Affix, ...]], ...] = (
         _a("کار", "AGENT", None, "NOUN", derivation="agent"),
         _a("دار", "POSSR", None, "ADJ", derivation="possessor"),
         _a("ی", "NISBA", "C", "ADJ", derivation="nisba|abstract"),
+        _a("یی", "NISBA", "V", "ADJ", derivation="nisba"),  # سنە+یی
+        _a("ایی", "ABST", None, "NOUN", derivation="abstract"),  # ڕەش+ایی
     )),
 )
 PROCLITICS = (("لە", "PREP.LE"), ("بە", "PREP.BE"), ("بۆ", "PREP.BO"))
+DERIV_PREFIXES = (("بێ", "PRIV"), ("نا", "NEG"), ("هاو", "CO"))  # بێکار, نادیار, هاوکار
+INTERFIXES = ("ەو", "او", "بە", "ە", "و", "")  # compound linkers: گوڵ+ە+گەنم, دەم+و+چاو
+FULL_SCORE_WORDS = frozenset({"تر", "دیکە"})  # adjectives that inflect like any other: تریش, دیکەوە
+CLITIC_ADPOSITIONS = frozenset({"پێ", "لێ", "تێ", "بۆ"})  # پێم, لێی, بۆمان
+ENCLITIC_TAGS = frozenset({"1SG", "2SG", "3SG/EZ", "1PL", "2PL", "3PL"})
 POS_PRIORITY = ("VERB", "NOUN", "PROPN", "ADJ", "ADV", "PRON", "NUM", "ADP", "CCONJ", "SCONJ", "DET", "PART", "INTJ")
 
 
@@ -192,6 +215,8 @@ def _peel(word: str, slot: int, segs: list[tuple[str, str, Affix]], out: list) -
                 continue
             if af.after == "UU" and not stem.endswith("وو"):
                 continue
+            if af.after == "DA" and (not stem.endswith("دا") or len(stem) < 5):
+                continue  # ماڵ+دا+م, not سە+دا+م
             if af.after == "C" and _ends_with_vowel(stem):
                 continue
             if af.after == "V" and not _ends_with_vowel(stem):
@@ -210,10 +235,12 @@ class CkbAnalyzer:
 
     # -- scoring ----------------------------------------------------------
     def _stem_score(self, stem: str) -> float:
-        if stem in self.fw:
+        if stem in self.fw and stem not in FULL_SCORE_WORDS:
             return 4.0
         if stem in self.lexicon:
             return 5.0 + math.log1p(self.lexicon.freq(stem)) / 4
+        if stem in self.fw:
+            return 4.0
         f = self.lexicon.freq(stem)
         return -3.0 + (math.log1p(f) / 3 if f else 0.0)
 
@@ -235,18 +262,68 @@ class CkbAnalyzer:
                 prev_slot = next(n for n, afs in SLOTS if af in afs)
                 if af.tag in ("NISBA", "ABST", "ADVZ") and stem not in self.lexicon:
                     score -= 1.5
+                if af.tag in ("NISBA", "ABST", "ADVZ", "PLACE", "AGENT", "POSSR") and stem in self.fw:
+                    score -= 6.0  # بێ+کار is the prefix, not a preposition with an agent suffix
+                inner = stem + "".join(s[0] for s in segs[: segs.index((form, tag, af)) + 1])
+                if prev_slot in ("DERIV", "PL0") and inner in self.lexicon:
+                    score -= 3.0  # a listed word stays whole: کوردستان+ە, not کورد+ستان+ە
+                if inner in self.fw and stem not in self.fw:
+                    score -= 3.0  # هەندێک+یش, not هەند+ێک+یش
+                if af.form in ("ێ", "ەک"):
+                    score -= 1.5 if stem in self.lexicon else 3.5  # short and easily accidental: لە+سێ, not لەس+ێ
+                if af.form == "ەک" and af is not segs[-1][2]:
+                    score -= 6.0  # final only: سەرەک+ی, not سەر+ەک+ی
+                if af.form == "یی" and stem.endswith("ا"):
+                    score -= 12.0  # after ا it is ایی or a listed word: کۆتایی; یی follows ە ۆ ێ: سنەیی, شنۆیی
+                if af.form == "ایی" and "ADJ" not in self.lexicon.pos_of(stem):
+                    score -= 12.0  # ڕەش+ایی, not کۆت+ایی
+                if af.tag == "PL.GEL" and stem in self.fw:
+                    score -= 6.0  # a typo for لەگەڵ, not لە+گەل
+                if af.tag == "E" and (word in self.lexicon or word in self.fw):
+                    score -= 3.0  # a listed word stays whole
+                if (af.tag == "E" or af.tag.startswith("COP")) and (self.verbs.lookup(word) or self.verbs.lookup(word[: -len(form)])):
+                    score -= 12.0  # a verb is a verb: بووە, کردە, نیشاندام
                 feats.update(dict(af.features))
                 pos_hint = pos_hint or af.pos_hint
             pos = self._choose_pos(stem, pos_hint, inflected=bool(segs))
             if stem in self.fw and not segs:
                 pos, extra = self.fw[stem]
                 feats.update(extra)
+            elif stem in CLITIC_ADPOSITIONS and all(t in ENCLITIC_TAGS for _, t, _ in segs):
+                pos = "ADP"
+                feats["adptype"] = "bare"
+                score += 5.0
             seg_list = prefix + [(stem, "STEM")] + [(f, t) for f, t, _ in segs]
             surface = "".join(p for p, _ in prefix) + word
             results.append(Analysis(surface, stem, pos, feats, seg_list, round(score - 0.3 * len(prefix), 3)))
         return results
 
+    def _prefixed(self, word: str) -> list[Analysis]:
+        """بێ+کار, ها+و: only when the remainder is a known word."""
+        out = []
+        for pre, tag in DERIV_PREFIXES:
+            rest = word[len(pre) :]
+            if word.startswith(pre) and len(rest) >= 2 and rest in self.lexicon:
+                out.append(Analysis(word, word, "ADJ", {"derivation": tag.lower()}, [(pre, tag), (rest, "STEM")], self._stem_score(rest) - 0.3))
+        return out
+
+    def _compound(self, word: str) -> list[Analysis]:
+        """Two known content words, with or without a linker.  Scored below any known or function stem."""
+        out = []
+        for i in range(2, len(word) - 1):
+            left = word[:i]
+            if left not in self.lexicon or left in self.fw:
+                continue
+            for link in INTERFIXES:
+                right = word[i + len(link) :]
+                if word.startswith(link, i) and len(right) >= 2 and right in self.lexicon and right not in self.fw:
+                    segs = [(left, "STEM")] + ([(link, "LINK")] if link else []) + [(right, "STEM")]
+                    out.append(Analysis(word, word, "NOUN", {"compound": link or "zero"}, segs, 3.0))
+        return out
+
     def _choose_pos(self, stem: str, hint: str | None, inflected: bool = False) -> str:
+        if stem in self.fw and self.fw[stem][0] in ("PRON", "DET", "NUM"):
+            return self.fw[stem][0]  # ئەوانە+ی stays a pronoun
         known = self.lexicon.pos_of(stem)
         if inflected:
             known = known - {"VERB"}  # an infinitive with nominal suffixes is a verbal noun
@@ -282,6 +359,8 @@ class CkbAnalyzer:
             rest = word[len(pre) :].lstrip("‌")
             if word.startswith(pre) and len(rest) >= 2 and word not in self.lexicon and word not in self.fw:
                 results += [a for a in self._nominal(rest, [(pre, tag)]) if a.lemma in self.lexicon]
+        if word not in self.lexicon and word not in self.fw and not self.verbs.lookup(word):
+            results += self._prefixed(word) + self._compound(word)
         best: dict[tuple[str, str], Analysis] = {}
         for a in results:
             key = (a.segmentation, a.pos)

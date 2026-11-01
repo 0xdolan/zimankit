@@ -17,6 +17,7 @@ approximate structure, and ``notes`` says where the rules were unsure.
 
 from __future__ import annotations
 
+import re
 from dataclasses import asdict, dataclass, field
 
 from .shared_utils.schema import Analysis
@@ -133,9 +134,36 @@ def _choose(cands: list[Analysis], nxt: list[Analysis] | None, after_prep: bool,
     return found or best
 
 
+_SUBJECT_ENDINGS = {"من": "م", "تۆ": "یت", "ئێمە": "ین", "ئێوە": "ن", "ئەوان": "ن"}
+_PERSON = {"م": "1sg", "یت": "2sg", "ین": "1pl", "ن": "2pl|3pl"}
+_DEFINITE_ENDINGS = re.compile("(ەکە|ەکان|ێک)(م|ت|ی|مان|تان|یان)?$")
+
+
+def _vowel_letters(word: str) -> int:
+    return sum(c in "اەۆێوی" for c in word)
+
+
+def _definite_ezafe(words: list[Word], i: int) -> bool:
+    """پیاوە باشەکە: ە links noun and adjective, and the definite ending goes on the adjective.
+
+    A long noun in a vowel drops the ە (دەرگا گەورەکە).  Either shape could also be a subject before a
+    definite object (مامۆستا کتێبەکە دەخوێنێت, قوتابخانە کتێبەکەی نارد), so a transitive verb rules it out.
+    """
+    w, nxt = words[i], words[i + 1]
+    if w.upos not in ("NOUN", "ADJ") or nxt.upos not in ("NOUN", "ADJ") or not _DEFINITE_ENDINGS.search(nxt.text):
+        return False
+    if _DEFINITE_ENDINGS.search(w.text) or w.text.endswith("کە"):
+        return False  # کوڕەکە کتێبێکی …: already definite
+    linked = (w.text.endswith("ە") and len(w.text) > 2) or (w.text[-1] in "اۆێ" and _vowel_letters(w.text) >= 2)
+    verb = next((x for x in words[i + 2 :] if x.upos == "VERB"), None)
+    return linked and (verb is None or verb.features.get("transitivity") != "transitive" or verb.features.get("voice") == "passive")
+
+
 def _sorani_clitics(words: list[Word], an) -> None:
     """Sorani endings the word analyser leaves whole: the goal -ە on verbs, ئەم/ئەو … -ە, the copula -ە."""
     for i, w in enumerate(words):
+        if w.text.startswith("پێ") and w.features.get("adptype") == "bare" and i + 1 < len(words) and words[i + 1].text in ("لێ", "تێ"):
+            w.upos, w.features = "NOUN", {}  # پێی لێ هەڵگرت: پێ is the noun "foot"
         if w.upos not in ("VERB", "PUNCT") and w.text.endswith("ە") and len(w.text) > 3:
             stem = an.analyze(w.text[:-1])
             if stem and stem[0].pos == "VERB" and "person" in stem[0].features:
@@ -147,6 +175,10 @@ def _sorani_clitics(words: list[Word], an) -> None:
             w.upos = "DET"
             nxt.lemma, nxt.segmentation, nxt.gloss = nxt.text[:-1], f"{nxt.text[:-1]}+ە", "STEM+DEM"
             nxt.features = {**nxt.features, "demonstrative": "yes"}
+    for i in range(len(words) - 1):
+        if _definite_ezafe(words, i):
+            words[i].features = {**words[i].features, "ezafe": "e"}
+            words[i + 1].upos = "ADJ"
     if any(w.upos == "VERB" for w in words):
         return
     last = next((w for w in reversed(words) if w.upos != "PUNCT"), None)
@@ -157,6 +189,13 @@ def _sorani_clitics(words: list[Word], an) -> None:
                 last.lemma, last.segmentation, last.gloss = stem, f"{stem}+{end}", "STEM+COP.3SG"
                 last.features = {"copula": "3sg"}
                 break
+        else:
+            first = next((w for w in words if w is not last and w.upos == "PRON"), None)
+            end = _SUBJECT_ENDINGS.get(first.text) if first else None
+            if end and last.text.endswith(end) and len(last.text) > len(end) + 1:  # تۆ زیرەکیت
+                stem = last.text[: -len(end)]
+                last.lemma, last.segmentation, last.gloss = stem, f"{stem}+{end}", f"STEM+COP.{_PERSON[end].upper()}"
+                last.features = {"copula": _PERSON[end]}
 
 
 def _explain_position(w: Word, words: list[Word], lang: str) -> str:
@@ -300,10 +339,14 @@ def _attach(p: Parse) -> None:
             link(w, root, "punct")
         elif w.upos == "ADP" and w.features.get("adptype") == "prep":
             noun = next_nominal(i + 1)
-            if noun is not None and noun is not root:
+            if noun is not None:  # also the predicate: من لە ماڵدام
                 link(w, noun, "case")
                 if noun.id not in attached:
                     link(noun, clause_head(noun), "obl")
+            else:  # stranded, its object is a clitic elsewhere: نامەکەی بۆ هێنام
+                link(w, clause_head(w), "obl")
+        elif w.upos == "ADP" and w.features.get("adptype") == "bare":  # پێی وت, دەستم لێ دا
+            link(w, clause_head(w), "obl")
         elif w.upos == "ADP":  # postposition: closes the preceding noun phrase
             prev = next((x for x in reversed(ws[:i]) if x.upos in NOMINAL), None)
             if prev is not None:

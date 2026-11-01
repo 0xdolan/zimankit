@@ -37,7 +37,7 @@ Many place words are formed with **لە** + a noun + ezafe **-ی**:
 
 ## Circumpositions: the second half after the noun
 
-Sorani often frames a noun between a preposition and an ending that completes its meaning:
+Sorani often frames a noun between a preposition and an ending that completes its meaning. These are called پێشبەند (before), پاشبەند (after) and دەوربەند or لابەند (around):
 
 | frame | meaning | example |
 |---|---|---|
@@ -45,8 +45,10 @@ Sorani often frames a noun between a preposition and an ending that completes it
 | **لە … ەوە** | from (source) | لە هەولێر**ەوە** *from Erbil* |
 | **بە … دا** | along, through | بە شەقام**دا** *along the street* |
 | **بە … ەوە** | with, attached to | بە دیوار**ەوە** *on the wall* |
+| **لە … ێ** | in, at (colloquial) | لە تاران**ێ** *in Tehran* |
+| **لە … ڕا** | from | لە کوێ**ڕا** *from where* |
 
-The second half is written **attached** to the noun (after a vowel ەوە becomes وە: لە دەرگاکە**وە**).
+The second half is written **attached** to the noun (after a vowel ەوە becomes وە: لە دەرگاکە**وە**), and so is a copula after it: من لە ماڵ**دام** *I am at home*, لە ماڵ**دایە** *he is at home*. The preposition stays a separate word.
 
 <!-- gen:sentences ipa=1
 لە ماڵەوە کار دەکەم. | I work from home.
@@ -73,7 +75,7 @@ Because endings stack, a single written word can contain a whole prepositional p
 |---|---|---|---|---|
 | **لەماڵەکانمانیشدا** | لە+ماڵ+ەکان+مان+یش+دا | PREP.LE+STEM+DEF.PL+1PL+ADD+POSTP.DA | ماڵ | definite=def, number=pl, enclitic=1pl, additive=yes, postposition=da |
 | **ماڵەکەمانەوە** | ماڵ+ەکە+مان+ەوە | STEM+DEF.SG+1PL+POSTP.EWE | ماڵ | definite=def, number=sg, enclitic=1pl, postposition=ewe |
-| **کتێبەکانیشم** | کتێبەکانیشم | STEM | کتێبەکانیشم | — |
+| **کتێبەکانیشم** | کتێب+ەکان+یش+م | STEM+DEF.PL+ADD+1SG | کتێب | definite=def, number=pl, additive=yes, enclitic=1sg |
 <!-- /gen -->
 
 **لەماڵەکانمانیشدا** = لە + ماڵ + ەکان + مان + یش + دا = *in our houses too*. The order of the slots is fixed:
