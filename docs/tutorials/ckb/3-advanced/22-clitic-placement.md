@@ -82,7 +82,7 @@ The ergative pattern is where most writing mistakes happen, so it is the first t
 | \* ئەوان هاتیان. | ✘ | هاتن is intransitive: هاتن *they came* |
 | \* من دەمخوارد نان. | ✘ | the object must precede the verb |
 
-zimankit's paradigm index knows the transitivity of every verb, which is the information needed to catch the second and third errors automatically.
+zimankit's sentence parser warns about the first two kinds of mistake in its `notes`: a past transitive verb with no agent, and a clitic on an intransitive verb.
 
 ## Summary
 

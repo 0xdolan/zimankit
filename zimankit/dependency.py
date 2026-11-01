@@ -46,11 +46,16 @@ RELATIONS = {
     "mark": ("subordinator", "a word that introduces a subordinate clause"),
     "cop": ("copula", "the verb “to be” linking the subject to the predicate"),
     "punct": ("punctuation", "punctuation, attached to the root"),
+    "nsubj:pass": ("passive subject", "what the passive verb is about: it takes the place of the doer"),
+    "advcl": ("adverbial clause", "a clause of time, reason or condition"),
+    "ccomp": ("object clause", "a clause that says what was said, known or decided"),
+    "acl:relcl": ("relative clause", "a clause that describes the noun before it"),
     "compound:prt": ("verb part", "the first part of a verb written as separate words, such as a preverb"),
     "dep": ("other", "a word whose relation the rules could not classify; attached to the verb"),
 }
 KURDISH_TERMS = {  # standard grammar terms: (Kurmanji, Sorani)
-    "nsubj": ("kirde", "بکەر"), "obj": ("bireser", "بەرکار"), "case": ("daçek", ""),
+    "nsubj": ("kirde", "بکەر"), "obj": ("bireser", "بەرکار"), "case": ("daçek", "ئامرازی پەیوەندی"),
+    "nsubj:pass": ("", "جێگری بکەر"),
     "NOUN": ("navdêr", "ناو"), "PROPN": ("navdêr", "ناو"), "ADJ": ("rengdêr", "ئاوەڵناو"), "PRON": ("cînav", "جێناو"),
     "ADV": ("hoker", "ئاوەڵکار"), "VERB": ("lêker", "کردار"), "NUM": ("hejmar", "ژمارە"),
 }
@@ -130,8 +135,11 @@ def _choose(cands: list[Analysis], nxt: list[Analysis] | None, after_prep: bool,
             found = simplest(lambda a: a.features.get("case") == "obl")
         if not found and nxt_pos & NOMINAL:
             found = simplest(lambda a: a.features.get("ezafe"))
-    elif nxt_pos & NOMINAL:
-        found = simplest(lambda a: "ezafe" in a.features.get("enclitic", ""))
+    else:
+        if after_prep:  # بە شەقامدا: the frame's second half
+            found = simplest(lambda a: a.features.get("postposition"))
+        if not found and nxt_pos & NOMINAL:
+            found = simplest(lambda a: "ezafe" in a.features.get("enclitic", ""))
     return found or best
 
 
@@ -195,10 +203,17 @@ def _sorani_clitics(words: list[Word], an) -> None:
                 w.lemma, w.upos, w.features = a.lemma, "VERB", {**a.features, "goal": "yes"}
                 w.segmentation, w.gloss = f"{w.text[:-1]}+ە", f"{a.gloss}+GOAL"
         nxt = words[i + 1] if i + 1 < len(words) else None
-        if w.text in ("ئەم", "ئەو") and nxt and nxt.upos == "NOUN" and nxt.text.endswith("ە") and len(nxt.text) > 2:
+        if w.text in ("لەو", "لەم", "بەو", "بەم"):  # لە + ئەو: لەو شارەدا
+            w.upos, w.features = "ADP", {"adptype": "prep", "demonstrative": "yes"}
+        if w.text in ("ئەم", "ئەو") and nxt and nxt.upos == "NOUN" and nxt.text.endswith(("ە", "ەی")) and len(nxt.text) > 2:
             w.upos = "DET"
-            nxt.lemma, nxt.segmentation, nxt.gloss = nxt.text[:-1], f"{nxt.text[:-1]}+ە", "STEM+DEM"
-            nxt.features = {**nxt.features, "demonstrative": "yes"}
+            base = nxt.text.removesuffix("ی").removesuffix("ە")
+            if base.endswith("ی") and base[:-1].endswith(("ا", "ۆ", "ێ", "ە", "ی", "و")):
+                base = base[:-1]  # دەرگایە -> دەرگا
+            plural = base.endswith("ان") and len(base) > 4
+            base = base.removesuffix("ان") if plural else base
+            nxt.lemma, nxt.segmentation, nxt.gloss = base, f"{nxt.text[: len(base)]}+{nxt.text[len(base) :]}", "STEM+DEM"
+            nxt.features = {**nxt.features, "demonstrative": "yes", "number": "pl" if plural else "sg"}
     for i in range(len(words) - 1):
         if _definite_ezafe(words, i):
             words[i].features = {**words[i].features, "ezafe": "e"}
@@ -256,12 +271,20 @@ def parse(sentence: str, lang: str | None = None) -> Parse:
     if not words:
         return p
     _attach(p)
+    if lang == "ckb":
+        from .skills_ckb.syntax import agreement_warnings
+
+        p.notes += agreement_warnings(words, an.verbs)
     for w in words:
         w.relation, w.meaning = RELATIONS[w.deprel]
         if w.deprel == "root" and w.upos != "VERB":
             w.relation, w.meaning = "predicate", "the main statement of the sentence: the other words depend on it"
         terms = KURDISH_TERMS.get(w.deprel) or (KURDISH_TERMS.get(w.upos) if w.deprel in ("root", "dep") else None)
         w.kurdish = terms[0 if lang == "kmr" else 1] if terms else ""
+        if lang == "ckb" and w.deprel == "nsubj" and words[w.head - 1].upos != "VERB":
+            w.kurdish = "نیهاد"  # the subject of a predicate
+        if lang == "ckb" and w.deprel == "root" and w.upos != "VERB":
+            w.kurdish = "تەواوکەری کاری ناتەواو"
         w.pos_name = POS_NAMES.get(w.upos, w.upos.lower())
         w.position = _explain_position(w, words, lang)
         w.detail = _detail(w, p)
@@ -319,10 +342,20 @@ def _attach(p: Parse) -> None:
     # "V1 û V2": coordinated verbs; the first is the root and the later ones are its conjuncts
     coordinated = len(finite) > 1 and any(
         w.upos == "CCONJ" and finite[0].id < w.id < finite[-1].id for w in ws)
+    # کە بەهار هات، دەچم: a verb after a subordinator is not the main verb
+    opened = {}
+    if lang == "ckb":
+        for v in finite:
+            mark = next((w for w in reversed(ws[: v.id - 1]) if w.upos in ("SCONJ", "VERB")), None)
+            if mark is not None and mark.upos == "SCONJ":
+                opened[v.id] = mark
+        if len(opened) == len(finite):
+            opened = {}  # nothing left for a main verb: ئەگەر هات؟
+    main = [v for v in finite if v.id not in opened]
     if pred is not None:
         root = pred
-    elif finite:
-        root = finite[0] if coordinated else finite[-1]
+    elif main:
+        root = main[0] if coordinated else main[-1]
     else:
         root = ([w for w in ws if w.upos != "PUNCT"] or ws)[-1]
     root.head, root.deprel = 0, "root"
@@ -337,7 +370,7 @@ def _attach(p: Parse) -> None:
     elif root.upos != "VERB" and not root.features.get("copula"):
         p.notes.append("No verb was recognised; the last word is taken as the predicate (often a noun or adjective"
                        " with a copula such as -e / -ە).")
-    for v in finite:
+    for v in main:
         if v is root:
             continue
         cc = next((w for w in reversed(ws[: v.id - 1]) if w.upos == "CCONJ" and w.id > root.id), None)
@@ -354,8 +387,22 @@ def _attach(p: Parse) -> None:
         return None
 
     def clause_head(w: Word) -> Word:
-        """The verb of the clause a word belongs to: the nearest verb after it, else the root."""
-        return next((v for v in finite if v.id > w.id and v.deprel in ("root", "conj")), root)
+        """The verb of the clause a word belongs to: the nearest verb after it, else the root.
+
+        پیاوەکەی کە نانی خوارد: a word before the subordinator is outside that clause.
+        """
+        return next((v for v in finite if v.id > w.id and (v.deprel in ("root", "conj") or v.id in opened and opened[v.id].id <= w.id)), root)
+
+    for v in finite:
+        if v.id in opened:
+            mark = opened[v.id]
+            before = ws[mark.id - 2] if mark.id > 1 else None
+            if mark.text == "کە" and before is not None and before.upos in NOMINAL and before.text.endswith("ی"):
+                link(v, before, "acl:relcl")
+            elif mark.text == "کە" and root.lemma in ("گوتن", "وتن", "زانین", "بڕیاردان"):
+                link(v, root, "ccomp")
+            else:
+                link(v, root, "advcl")
 
     for i, w in enumerate(ws):
         if w.id in attached:
@@ -397,7 +444,8 @@ def _attach(p: Parse) -> None:
         from .skills_kmr.syntax import detect_alignment
 
         p.alignment = detect_alignment(p.sentence).to_dict()
-    for v in ([x for x in finite if x.deprel in ("root", "conj")] if root.upos == "VERB" else [root]):
+    clause_verbs = [x for x in finite if x.deprel in ("root", "conj") or x.id in opened]
+    for v in (clause_verbs if root.upos == "VERB" else [root]):
         args = [w for w in ws if w.id not in attached and w.upos in NOMINAL and w.id < v.id and clause_head(w) is v]
         transitive = v.features.get("transitivity") == "transitive"
         ergative = lang == "kmr" and transitive and v.features.get("alignment") == "ergative"
@@ -416,10 +464,15 @@ def _attach(p: Parse) -> None:
                 obj = host
                 subj = next((w for w in args if w is not host), None)
             else:
-                subj = args[0] if args else None
-                obj = args[1] if transitive and len(args) > 1 else None
+                # free order: a pronoun whose person matches the verb is the subject (نان من دەخۆم, نان دەخۆم من)
+                person = v.features.get("person", "")
+                late = [w for w in ws if w.id > v.id and w.id not in attached and w.upos == "PRON" and person and w.features.get("person", "-") in person]
+                args = args + late[:1]
+                subj = next((w for w in args if w.upos == "PRON" and person and w.features.get("person", "-") in person), args[0] if args else None)
+                obj = next((w for w in args if w is not subj and w.id < v.id), None) if transitive else None
+        passive = lang == "ckb" and v.features.get("voice") == "passive"
         for w in args:
-            link(w, v, "nsubj" if w is subj else "obj" if w is obj else "obl")
+            link(w, v, ("nsubj:pass" if passive else "nsubj") if w is subj else "obj" if w is obj else "obl")
     for w in ws:
         if w.id in attached:
             continue

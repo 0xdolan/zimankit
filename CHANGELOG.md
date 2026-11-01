@@ -13,6 +13,8 @@ Central Kurdish, checked against the written-standard and grammar sources in [ch
 - **`-ەوە` verbs**: no three-`و` forms (`چووەوە`, was `چوووە`); the perfect has `ت` (`خوێندووەتەوە`); `دۆزییەوە`.
 - **Missing tenses**: negative perfects (`نەکردووە`, `نەهاتبوو`), the written long perfect (`هاتوومە`, with `هاتووم` as a variant), the past subjunctive (`خواردبا`, `خواردبێت`, `خواردبووبا`) and the full passive (`بکرێت`, `نەکرا`, `دەکرا`, `کرابوو`, `کرابا`). Reference pages show them, and the lexicon now reads very common forms such as `بکرێت` and `نەبووە` as verbs.
 - **Nouns and function words**: final ە/یە (`مامۆستایە`, `ماڵدایە`), `ماڵدام`, indefinite `چرایێک`, `کەسانێک`, `کوڕێ`, plural `-گەل`, `سنەیی`, `ڕەشایی`, prefixes `بێ` `نا` `هاو`, compounds (`گوڵ+ە+گەنم`), and `پێ` `لێ` `تێ` as adpositions rather than nouns.
+- **Sorani clauses**: a verb after a subordinator is no longer the main verb, with the new relations `advcl`, `ccomp` and `acl:relcl`. Also `nsubj:pass`, a subject pronoun found by its person (`نان من دەخۆم`), `ئەو دەرگایە` with lemma `دەرگا`, and the terms `نیهاد` and `جێگری بکەر`.
+- **Sorani agreement warnings** in the parser's `notes`: `من نان خوارد`, `هاتمان`, `من دەچیت`, and a usage note for `پیاوەکە دەچن`.
 - **Verb list and guesser**: more core verbs (`خواستن`, `گواستن`, `سەندن`, `دڕان`, `دانان` and others), no false `وتن` splits (`پاڵاوتن`), and intransitive `ا` → `ێ` (`دەدڕێت`).
 - **Imperatives**: `بچۆ` with `بڕۆ` also accepted, `بێ`, `نایێم`, and `ویستن` has a rare imperative and passive.
 - **Recognised, never shown first**: `دەکا`, `دەڵێ`, `دەمەوێ`, `دەژێت`, `هاتۆتەوە`, `بکەرەوە`, `گرترا`, `ئەچم`.

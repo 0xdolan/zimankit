@@ -59,6 +59,7 @@ w.explanation               # all of it as one text
 |---|---|---|---|
 | `root` | main verb, or predicate | the head of the sentence | **xwend** |
 | `nsubj` | subject | who or what does the action, or is described | **Min** pirtûk xwend |
+| `nsubj:pass` | passive subject (جێگری بکەر) | what a Sorani passive verb is about | **نامەکە** نێردرا |
 | `obj` | object | what the action is done to | Min **pirtûk** xwend |
 | `obl` | oblique | a place, time, goal or other circumstance | li **dibistanê** |
 | `case` | adposition | a preposition or postposition that marks its noun | **li** dibistanê |
@@ -74,6 +75,10 @@ w.explanation               # all of it as one text
 | `conj` | conjunct | a word linked to an earlier word of the same kind | Ez û **tu** |
 | `mark` | subordinator | a word that introduces a subordinate clause | |
 | `punct` | punctuation | punctuation, attached to the root | |
+| `advcl` | adverbial clause | a Sorani clause of time, reason or condition | کە بەهار **هات**، دەچم |
+| `ccomp` | object clause | a Sorani clause after a verb of saying, knowing or deciding | زانیم کە **هات** |
+| `acl:relcl` | relative clause | a Sorani clause that describes the noun before it | پیاوەکەی کە نانی **خوارد** |
+| `compound:prt` | verb part | the first part of a Sorani verb written apart | **هەڵم** گرت |
 | `dep` | other | a word the rules could not classify | |
 
 ## How the rules work
@@ -95,11 +100,11 @@ For Kurmanji, the agreement check is the same as `zimankit ergativity`. A plural
 ## Limits
 
 - **Unknown words.** The morphology does not know every word, so an unknown verb can be read as a noun, and adjectives often have the word class `NOUN`. That is why a modifier like *nû* is labelled `nmod` and not `amod`.
-- **Several clauses.** Coordinated verbs are handled. Subordinate clauses (*ku*, کە) are attached to a verb without being classified, and `notes` says so.
-- **Free word order.** The Sorani rule relies on order, so an object placed before the subject is read wrongly unless other marks decide it.
+- **Several clauses.** Coordinated verbs are handled. Sorani clauses opened by a subordinator are classified, but a relative clause with no کە (پیاوەکەی دوێنێ دیتت) is not recognised. Kurmanji subordinate clauses (*ku*) are attached without being classified, and `notes` says so.
+- **Free word order.** A Sorani subject pronoun is found by its person, wherever it stands (نان من دەخۆم). With nouns only, the rule relies on order, so an object placed before the subject is read wrongly unless other marks decide it.
 - **Dropped subjects.** Kurdish often leaves out the subject. The verb ending and the Sorani person clitics show it, but no word is added to the structure.
 
-- **Sorani gaps.** The parser knows the core verbs only, so a compound verb outside that list (تێک دەچم) is read word by word, and the noun of `دەستم لێ دا` is labelled `obj`. A definite adjective phrase is recognised only without a transitive verb (پیاوە باشەکە هات), because before one it could be a subject and an object (قوتابخانە کتێبەکەی نارد). There is no Sorani agreement check. See [chapter 23](23-ckb-written-standard.md#not-implemented-yet).
+- **Sorani gaps.** The parser knows the core verbs only, so a compound verb outside that list (تێک دەچم) is read word by word, and the noun of `دەستم لێ دا` is labelled `obj`. A definite adjective phrase is recognised only without a transitive verb (پیاوە باشەکە هات), because before one it could be a subject and an object (قوتابخانە کتێبەکەی نارد). `notes` gives Sorani agreement warnings: no agent in a past transitive (من نان خوارد), a clitic on an intransitive (هاتمان), a pronoun that disagrees with the verb (من دەچیت), and a plural verb after a singular definite subject (پیاوەکە دەچن), which is worded as usage because no grammar checked states a rule. See [chapter 23](23-ckb-written-standard.md#not-implemented-yet).
 
 If a simple sentence gets a wrong structure, please [open an issue](https://github.com/0xdolan/zimankit/issues) with the sentence.
 

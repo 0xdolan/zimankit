@@ -115,7 +115,7 @@ These are open, so zimankit should not change them silently. The interim choice 
 | passive after ر | `د` inserted, or `سپێررا`, `برا` regionally | keep `د` |
 | `ماسییەکە` or `ماسێکە` | | generate the first, accept both |
 | vocative | `ە` masculine, `ێ` feminine, `ینە` plural, or `ە` for both | not implemented |
-| number + plural noun, `پیاوەکە هاتن` | common usage; no explicit rule found | warn only |
+| number + plural noun, `پیاوەکە هاتن` | common usage; no explicit rule found | `پیاوەکە هاتن` is a usage note, not an error |
 | terminology | `هاوەڵناو`/`ئاوەڵناو`, `جێناو`/`ڕاناو`, `کار`/`کردار` | list both |
 | ی after `دوا`, `برا` as `bra`, `مشک` as `mişk` or `mişik` | one example each, or regional | not changed |
 
@@ -123,7 +123,7 @@ These are open, so zimankit should not change them silently. The interim choice 
 
 In the order they depend on each other:
 
-1. **Parser:** circumpositions over several words, subordinate clauses, Kurdish labels (`نیهاد`, `جێگری بکەر`), and a Sorani agreement check.
+1. **Parser:** circumpositions over several words with no verb, relative clauses with no کە, compound verbs outside the core list.
 2. **Generated pages and lessons:** print split forms first and teach them. zimankit can now read that spelling, so this no longer has to wait.
 
 Some transliterations are also still doubtful and have not been checked against a source, such as `rakridin` for `ڕاکردن` and `hellîgrit` for `هەڵیگرت`.

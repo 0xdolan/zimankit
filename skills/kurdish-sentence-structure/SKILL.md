@@ -40,7 +40,7 @@ p.tokens[0].explanation                         # the role, position and form in
 ## Checklist
 
 - [ ] Input normalised with the dialect's orthography skill first
-- [ ] `notes` read: it says when no verb was recognised or a clause was left unclassified
+- [ ] `notes` read: it says when no verb was recognised or a clause was left unclassified, and gives Sorani agreement warnings
 - [ ] Treated as approximate for complex sentences: the analysis is rule-based, not a trained parser
 - [ ] Not relied on for Sorani compound verbs outside the core list, which are read word by word
 - [ ] No source names or file paths in anything you output
