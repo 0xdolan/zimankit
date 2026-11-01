@@ -557,7 +557,8 @@ def verb_slug(lang: Lang, inf: str) -> str:
 
 
 def reference_verbs(lang: Lang) -> list[str]:
-    core = [v.infinitive for v in lang.verbs.load_core_verbs()]
+    # a verb that is only the base of others (نان, of دانان) has no page: its gloss belongs to the noun
+    core = [v.infinitive for v in lang.verbs.load_core_verbs() if v.infinitive not in getattr(lang.verbs, "HIDDEN_FORMS", {})]
     extra = {"ckb": ["هەڵگرتن", "ڕاگەیاندن", "دەستپێکردن", "کردنەوە", "گەڕانەوە"],
              "kmr": ["rabûn", "hilgirtin", "vekirin", "derketin", "rûniştin"]}[lang.code]
     return list(dict.fromkeys(core + extra))

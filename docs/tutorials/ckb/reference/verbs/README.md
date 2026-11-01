@@ -107,7 +107,6 @@ Every verb below is conjugated in full on its own page: all tenses, moods, negat
 | [**پێکهاتن**](pekhatin.md) | pêkhatin | to consist of, to be formed | intransitive | پێک دێم | پێک هات |
 | [**بەکارهێنان**](bekarhenan.md) | bekarhênan | to use | transitive | بەکار دەهێنم | بەکاری هێنا |
 | [**دەستپێکردن**](destpekridin.md) | destpêkridin | to begin | transitive | دەست پێ دەکەم | دەستی پێ کرد |
-| [**نان**](nan.md) | nan | bread | transitive | دەنێم | نای |
 | [**پاڵاوتن**](pallawtin.md) | pallawtin | to filter | transitive | دەپاڵێوم | پاڵاوتی |
 | [**سرەوتن**](sirewtin.md) | sirewtin | to calm down | intransitive | دەسرەوم | سرەوت |
 | [**خواستن**](xwastin.md) | xwastin | to ask for | transitive | دەخوازم | خواستی |
