@@ -67,14 +67,40 @@
 
 *دانیشتن* (danîştin) “to sit down” — present stem **نیش**, past stem **نیشت**, intransitive, preverb **دا**
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **دانیشتووم**<br><sub>danîştûm</sub><br><sub>/daːniːʃtuːm/</sub> | **دانیشتبووم**<br><sub>danîştbûm</sub><br><sub>/daːniːʃtbuːm/</sub> |
-| 2sg | تۆ | **دانیشتوویت**<br><sub>danîştûyt</sub><br><sub>/daːniːʃtuːjt/</sub> | **دانیشتبوویت**<br><sub>danîştbûyt</sub><br><sub>/daːniːʃtbuːjt/</sub> |
-| 3sg | ئەو | **دانیشتووە**<br><sub>danîştûwe</sub><br><sub>/daːniːʃtuːwæ/</sub> | **دانیشتبوو**<br><sub>danîştbû</sub><br><sub>/daːniːʃtbuː/</sub> |
-| 1pl | ئێمە | **دانیشتووین**<br><sub>danîştûyn</sub><br><sub>/daːniːʃtuːjn/</sub> | **دانیشتبووین**<br><sub>danîştbûyn</sub><br><sub>/daːniːʃtbuːjn/</sub> |
-| 2pl | ئێوە | **دانیشتوون**<br><sub>danîştûn</sub><br><sub>/daːniːʃtuːn/</sub> | **دانیشتبوون**<br><sub>danîştbûn</sub><br><sub>/daːniːʃtbuːn/</sub> |
-| 3pl | ئەوان | **دانیشتوون**<br><sub>danîştûn</sub><br><sub>/daːniːʃtuːn/</sub> | **دانیشتبوون**<br><sub>danîştbûn</sub><br><sub>/daːniːʃtbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **دانیشتوومە**<br><sub>danîştûme</sub><br><sub>/daːniːʃtuːmæ/</sub> | **دانەنیشتوومە**<br><sub>danenîştûme</sub><br><sub>/daːnæniːʃtuːmæ/</sub> | **دانیشتبووم**<br><sub>danîştbûm</sub><br><sub>/daːniːʃtbuːm/</sub> | **دانەنیشتبووم**<br><sub>danenîştbûm</sub><br><sub>/daːnæniːʃtbuːm/</sub> |
+| 2sg | تۆ | **دانیشتوویتە**<br><sub>danîştûyte</sub><br><sub>/daːniːʃtuːjtæ/</sub> | **دانەنیشتوویتە**<br><sub>danenîştûyte</sub><br><sub>/daːnæniːʃtuːjtæ/</sub> | **دانیشتبوویت**<br><sub>danîştbûyt</sub><br><sub>/daːniːʃtbuːjt/</sub> | **دانەنیشتبوویت**<br><sub>danenîştbûyt</sub><br><sub>/daːnæniːʃtbuːjt/</sub> |
+| 3sg | ئەو | **دانیشتووە**<br><sub>danîştûwe</sub><br><sub>/daːniːʃtuːwæ/</sub> | **دانەنیشتووە**<br><sub>danenîştûwe</sub><br><sub>/daːnæniːʃtuːwæ/</sub> | **دانیشتبوو**<br><sub>danîştbû</sub><br><sub>/daːniːʃtbuː/</sub> | **دانەنیشتبوو**<br><sub>danenîştbû</sub><br><sub>/daːnæniːʃtbuː/</sub> |
+| 1pl | ئێمە | **دانیشتووینە**<br><sub>danîştûyne</sub><br><sub>/daːniːʃtuːjnæ/</sub> | **دانەنیشتووینە**<br><sub>danenîştûyne</sub><br><sub>/daːnæniːʃtuːjnæ/</sub> | **دانیشتبووین**<br><sub>danîştbûyn</sub><br><sub>/daːniːʃtbuːjn/</sub> | **دانەنیشتبووین**<br><sub>danenîştbûyn</sub><br><sub>/daːnæniːʃtbuːjn/</sub> |
+| 2pl | ئێوە | **دانیشتوونە**<br><sub>danîştûne</sub><br><sub>/daːniːʃtuːnæ/</sub> | **دانەنیشتوونە**<br><sub>danenîştûne</sub><br><sub>/daːnæniːʃtuːnæ/</sub> | **دانیشتبوون**<br><sub>danîştbûn</sub><br><sub>/daːniːʃtbuːn/</sub> | **دانەنیشتبوون**<br><sub>danenîştbûn</sub><br><sub>/daːnæniːʃtbuːn/</sub> |
+| 3pl | ئەوان | **دانیشتوونە**<br><sub>danîştûne</sub><br><sub>/daːniːʃtuːnæ/</sub> | **دانەنیشتوونە**<br><sub>danenîştûne</sub><br><sub>/daːnæniːʃtuːnæ/</sub> | **دانیشتبوون**<br><sub>danîştbûn</sub><br><sub>/daːniːʃtbuːn/</sub> | **دانەنیشتبوون**<br><sub>danenîştbûn</sub><br><sub>/daːnæniːʃtbuːn/</sub> |
+
+## Past subjunctive
+
+*دانیشتن* (danîştin) “to sit down” — present stem **نیش**, past stem **نیشت**, intransitive, preverb **دا**
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **دانیشتبام**<br><sub>danîştbam</sub><br><sub>/daːniːʃtbaːm/</sub> | **دانیشتبێتم**<br><sub>danîştbêtim</sub><br><sub>/daːniːʃtbeːt(ɯ)m/</sub> | **دانیشتبووبام**<br><sub>danîştbûbam</sub><br><sub>/daːniːʃtbuːbaːm/</sub> |
+| 2sg | تۆ | **دانیشتبایت**<br><sub>danîştbayt</sub><br><sub>/daːniːʃtbaːjt/</sub> | **دانیشتبێتیت**<br><sub>danîştbêtît</sub><br><sub>/daːniːʃtbeːtiːt/</sub> | **دانیشتبووبایت**<br><sub>danîştbûbayt</sub><br><sub>/daːniːʃtbuːbaːjt/</sub> |
+| 3sg | ئەو | **دانیشتبا**<br><sub>danîştba</sub><br><sub>/daːniːʃtbaː/</sub> | **دانیشتبێت**<br><sub>danîştbêt</sub><br><sub>/daːniːʃtbeːt/</sub> | **دانیشتبووبا**<br><sub>danîştbûba</sub><br><sub>/daːniːʃtbuːbaː/</sub> |
+| 1pl | ئێمە | **دانیشتباین**<br><sub>danîştbayn</sub><br><sub>/daːniːʃtbaːjn/</sub> | **دانیشتبێتین**<br><sub>danîştbêtîn</sub><br><sub>/daːniːʃtbeːtiːn/</sub> | **دانیشتبووباین**<br><sub>danîştbûbayn</sub><br><sub>/daːniːʃtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **دانیشتبان**<br><sub>danîştban</sub><br><sub>/daːniːʃtbaːn/</sub> | **دانیشتبێتن**<br><sub>danîştbêtin</sub><br><sub>/daːniːʃtbeːt(ɯ)n/</sub> | **دانیشتبووبان**<br><sub>danîştbûban</sub><br><sub>/daːniːʃtbuːbaːn/</sub> |
+| 3pl | ئەوان | **دانیشتبان**<br><sub>danîştban</sub><br><sub>/daːniːʃtbaːn/</sub> | **دانیشتبێتن**<br><sub>danîştbêtin</sub><br><sub>/daːniːʃtbeːt(ɯ)n/</sub> | **دانیشتبووبان**<br><sub>danîştbûban</sub><br><sub>/daːniːʃtbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*دانیشتن* (danîştin) “to sit down” — present stem **نیش**, past stem **نیشت**, intransitive, preverb **دا**
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **دانەنیشتبام**<br><sub>danenîştbam</sub><br><sub>/daːnæniːʃtbaːm/</sub> | **دانەنیشتبێتم**<br><sub>danenîştbêtim</sub><br><sub>/daːnæniːʃtbeːt(ɯ)m/</sub> | **دانەنیشتبووبام**<br><sub>danenîştbûbam</sub><br><sub>/daːnæniːʃtbuːbaːm/</sub> |
+| 2sg | تۆ | **دانەنیشتبایت**<br><sub>danenîştbayt</sub><br><sub>/daːnæniːʃtbaːjt/</sub> | **دانەنیشتبێتیت**<br><sub>danenîştbêtît</sub><br><sub>/daːnæniːʃtbeːtiːt/</sub> | **دانەنیشتبووبایت**<br><sub>danenîştbûbayt</sub><br><sub>/daːnæniːʃtbuːbaːjt/</sub> |
+| 3sg | ئەو | **دانەنیشتبا**<br><sub>danenîştba</sub><br><sub>/daːnæniːʃtbaː/</sub> | **دانەنیشتبێت**<br><sub>danenîştbêt</sub><br><sub>/daːnæniːʃtbeːt/</sub> | **دانەنیشتبووبا**<br><sub>danenîştbûba</sub><br><sub>/daːnæniːʃtbuːbaː/</sub> |
+| 1pl | ئێمە | **دانەنیشتباین**<br><sub>danenîştbayn</sub><br><sub>/daːnæniːʃtbaːjn/</sub> | **دانەنیشتبێتین**<br><sub>danenîştbêtîn</sub><br><sub>/daːnæniːʃtbeːtiːn/</sub> | **دانەنیشتبووباین**<br><sub>danenîştbûbayn</sub><br><sub>/daːnæniːʃtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **دانەنیشتبان**<br><sub>danenîştban</sub><br><sub>/daːnæniːʃtbaːn/</sub> | **دانەنیشتبێتن**<br><sub>danenîştbêtin</sub><br><sub>/daːnæniːʃtbeːt(ɯ)n/</sub> | **دانەنیشتبووبان**<br><sub>danenîştbûban</sub><br><sub>/daːnæniːʃtbuːbaːn/</sub> |
+| 3pl | ئەوان | **دانەنیشتبان**<br><sub>danenîştban</sub><br><sub>/daːnæniːʃtbaːn/</sub> | **دانەنیشتبێتن**<br><sub>danenîştbêtin</sub><br><sub>/daːnæniːʃtbeːt(ɯ)n/</sub> | **دانەنیشتبووبان**<br><sub>danenîştbûban</sub><br><sub>/daːnæniːʃtbuːbaːn/</sub> |
 
 ## Imperative
 

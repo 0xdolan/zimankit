@@ -56,12 +56,12 @@ Everything on one page. Lesson numbers in brackets.
 
 | person | pronoun | Present | Subjunctive | Simple past | Past progressive | Present perfect | Past perfect |
 |---|---|---|---|---|---|---|---|
-| 1sg | من | **دێم**<br><sub>dêm</sub> | **بێم**<br><sub>bêm</sub> | **هاتم**<br><sub>hatim</sub> | **دەهاتم**<br><sub>dehatim</sub> | **هاتووم**<br><sub>hatûm</sub> | **هاتبووم**<br><sub>hatbûm</sub> |
-| 2sg | تۆ | **دێیت**<br><sub>dêyt</sub> | **بێیت**<br><sub>bêyt</sub> | **هاتیت**<br><sub>hatît</sub> | **دەهاتیت**<br><sub>dehatît</sub> | **هاتوویت**<br><sub>hatûyt</sub> | **هاتبوویت**<br><sub>hatbûyt</sub> |
+| 1sg | من | **دێم**<br><sub>dêm</sub> | **بێم**<br><sub>bêm</sub> | **هاتم**<br><sub>hatim</sub> | **دەهاتم**<br><sub>dehatim</sub> | **هاتوومە**<br><sub>hatûme</sub> | **هاتبووم**<br><sub>hatbûm</sub> |
+| 2sg | تۆ | **دێیت**<br><sub>dêyt</sub> | **بێیت**<br><sub>bêyt</sub> | **هاتیت**<br><sub>hatît</sub> | **دەهاتیت**<br><sub>dehatît</sub> | **هاتوویتە**<br><sub>hatûyte</sub> | **هاتبوویت**<br><sub>hatbûyt</sub> |
 | 3sg | ئەو | **دێت**<br><sub>dêt</sub> | **بێت**<br><sub>bêt</sub> | **هات**<br><sub>hat</sub> | **دەهات**<br><sub>dehat</sub> | **هاتووە**<br><sub>hatûwe</sub> | **هاتبوو**<br><sub>hatbû</sub> |
-| 1pl | ئێمە | **دێین**<br><sub>dêyn</sub> | **بێین**<br><sub>bêyn</sub> | **هاتین**<br><sub>hatîn</sub> | **دەهاتین**<br><sub>dehatîn</sub> | **هاتووین**<br><sub>hatûyn</sub> | **هاتبووین**<br><sub>hatbûyn</sub> |
-| 2pl | ئێوە | **دێن**<br><sub>dên</sub> | **بێن**<br><sub>bên</sub> | **هاتن**<br><sub>hatin</sub> | **دەهاتن**<br><sub>dehatin</sub> | **هاتوون**<br><sub>hatûn</sub> | **هاتبوون**<br><sub>hatbûn</sub> |
-| 3pl | ئەوان | **دێن**<br><sub>dên</sub> | **بێن**<br><sub>bên</sub> | **هاتن**<br><sub>hatin</sub> | **دەهاتن**<br><sub>dehatin</sub> | **هاتوون**<br><sub>hatûn</sub> | **هاتبوون**<br><sub>hatbûn</sub> |
+| 1pl | ئێمە | **دێین**<br><sub>dêyn</sub> | **بێین**<br><sub>bêyn</sub> | **هاتین**<br><sub>hatîn</sub> | **دەهاتین**<br><sub>dehatîn</sub> | **هاتووینە**<br><sub>hatûyne</sub> | **هاتبووین**<br><sub>hatbûyn</sub> |
+| 2pl | ئێوە | **دێن**<br><sub>dên</sub> | **بێن**<br><sub>bên</sub> | **هاتن**<br><sub>hatin</sub> | **دەهاتن**<br><sub>dehatin</sub> | **هاتوونە**<br><sub>hatûne</sub> | **هاتبوون**<br><sub>hatbûn</sub> |
+| 3pl | ئەوان | **دێن**<br><sub>dên</sub> | **بێن**<br><sub>bên</sub> | **هاتن**<br><sub>hatin</sub> | **دەهاتن**<br><sub>dehatin</sub> | **هاتوونە**<br><sub>hatûne</sub> | **هاتبوون**<br><sub>hatbûn</sub> |
 <!-- /gen -->
 
 | form | recipe | کردن | هاتن |
@@ -74,7 +74,7 @@ Everything on one page. Lesson numbers in brackets.
 | simple past | past stem + set 1 / set 2 | کردم | هاتم |
 | past negative | نە + … | نەمکرد | نەهاتم |
 | past progressive | دە + past stem | دەمکرد | دەهاتم |
-| present perfect | participle + set 1 / set 2 + ە | کردوومە | هاتووم |
+| present perfect | participle + set 1 / set 2 + ە | کردوومە | هاتوومە |
 | past perfect | past stem + بوو + … | کردبووم | هاتبووم |
 | passive present | pres. stem + ر + ێ | دەکرێت | — |
 | passive past | pres. stem + را | کرا | — |

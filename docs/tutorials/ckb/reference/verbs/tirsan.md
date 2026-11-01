@@ -66,14 +66,40 @@
 
 *ترسان* (tirsan) “to be afraid” — present stem **ترس**, past stem **ترسا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **ترساوم**<br><sub>tirsawm</sub><br><sub>/t(ɯ)ɾsaːwm/</sub> | **ترسابووم**<br><sub>tirsabûm</sub><br><sub>/t(ɯ)ɾsaːbuːm/</sub> |
-| 2sg | تۆ | **ترساویت**<br><sub>tirsawît</sub><br><sub>/t(ɯ)ɾsaːwiːt/</sub> | **ترسابوویت**<br><sub>tirsabûyt</sub><br><sub>/t(ɯ)ɾsaːbuːjt/</sub> |
-| 3sg | ئەو | **ترساوە**<br><sub>tirsawe</sub><br><sub>/t(ɯ)ɾsaːwæ/</sub> | **ترسابوو**<br><sub>tirsabû</sub><br><sub>/t(ɯ)ɾsaːbuː/</sub> |
-| 1pl | ئێمە | **ترساوین**<br><sub>tirsawîn</sub><br><sub>/t(ɯ)ɾsaːwiːn/</sub> | **ترسابووین**<br><sub>tirsabûyn</sub><br><sub>/t(ɯ)ɾsaːbuːjn/</sub> |
-| 2pl | ئێوە | **ترساون**<br><sub>tirsawn</sub><br><sub>/t(ɯ)ɾsaːwn/</sub> | **ترسابوون**<br><sub>tirsabûn</sub><br><sub>/t(ɯ)ɾsaːbuːn/</sub> |
-| 3pl | ئەوان | **ترساون**<br><sub>tirsawn</sub><br><sub>/t(ɯ)ɾsaːwn/</sub> | **ترسابوون**<br><sub>tirsabûn</sub><br><sub>/t(ɯ)ɾsaːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **ترساومە**<br><sub>tirsawme</sub><br><sub>/t(ɯ)ɾsaːwmæ/</sub> | **نەترساومە**<br><sub>netrisawme</sub><br><sub>/nætɾ(ɯ)saːwmæ/</sub> | **ترسابووم**<br><sub>tirsabûm</sub><br><sub>/t(ɯ)ɾsaːbuːm/</sub> | **نەترسابووم**<br><sub>netrisabûm</sub><br><sub>/nætɾ(ɯ)saːbuːm/</sub> |
+| 2sg | تۆ | **ترساویتە**<br><sub>tirsawîte</sub><br><sub>/t(ɯ)ɾsaːwiːtæ/</sub> | **نەترساویتە**<br><sub>netrisawîte</sub><br><sub>/nætɾ(ɯ)saːwiːtæ/</sub> | **ترسابوویت**<br><sub>tirsabûyt</sub><br><sub>/t(ɯ)ɾsaːbuːjt/</sub> | **نەترسابوویت**<br><sub>netrisabûyt</sub><br><sub>/nætɾ(ɯ)saːbuːjt/</sub> |
+| 3sg | ئەو | **ترساوە**<br><sub>tirsawe</sub><br><sub>/t(ɯ)ɾsaːwæ/</sub> | **نەترساوە**<br><sub>netrisawe</sub><br><sub>/nætɾ(ɯ)saːwæ/</sub> | **ترسابوو**<br><sub>tirsabû</sub><br><sub>/t(ɯ)ɾsaːbuː/</sub> | **نەترسابوو**<br><sub>netrisabû</sub><br><sub>/nætɾ(ɯ)saːbuː/</sub> |
+| 1pl | ئێمە | **ترساوینە**<br><sub>tirsawîne</sub><br><sub>/t(ɯ)ɾsaːwiːnæ/</sub> | **نەترساوینە**<br><sub>netrisawîne</sub><br><sub>/nætɾ(ɯ)saːwiːnæ/</sub> | **ترسابووین**<br><sub>tirsabûyn</sub><br><sub>/t(ɯ)ɾsaːbuːjn/</sub> | **نەترسابووین**<br><sub>netrisabûyn</sub><br><sub>/nætɾ(ɯ)saːbuːjn/</sub> |
+| 2pl | ئێوە | **ترساونە**<br><sub>tirsawne</sub><br><sub>/t(ɯ)ɾsaːwnæ/</sub> | **نەترساونە**<br><sub>netrisawne</sub><br><sub>/nætɾ(ɯ)saːwnæ/</sub> | **ترسابوون**<br><sub>tirsabûn</sub><br><sub>/t(ɯ)ɾsaːbuːn/</sub> | **نەترسابوون**<br><sub>netrisabûn</sub><br><sub>/nætɾ(ɯ)saːbuːn/</sub> |
+| 3pl | ئەوان | **ترساونە**<br><sub>tirsawne</sub><br><sub>/t(ɯ)ɾsaːwnæ/</sub> | **نەترساونە**<br><sub>netrisawne</sub><br><sub>/nætɾ(ɯ)saːwnæ/</sub> | **ترسابوون**<br><sub>tirsabûn</sub><br><sub>/t(ɯ)ɾsaːbuːn/</sub> | **نەترسابوون**<br><sub>netrisabûn</sub><br><sub>/nætɾ(ɯ)saːbuːn/</sub> |
+
+## Past subjunctive
+
+*ترسان* (tirsan) “to be afraid” — present stem **ترس**, past stem **ترسا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **ترسابام**<br><sub>tirsabam</sub><br><sub>/t(ɯ)ɾsaːbaːm/</sub> | **ترسابێتم**<br><sub>tirsabêtim</sub><br><sub>/t(ɯ)ɾsaːbeːt(ɯ)m/</sub> | **ترسابووبام**<br><sub>tirsabûbam</sub><br><sub>/t(ɯ)ɾsaːbuːbaːm/</sub> |
+| 2sg | تۆ | **ترسابایت**<br><sub>tirsabayt</sub><br><sub>/t(ɯ)ɾsaːbaːjt/</sub> | **ترسابێتیت**<br><sub>tirsabêtît</sub><br><sub>/t(ɯ)ɾsaːbeːtiːt/</sub> | **ترسابووبایت**<br><sub>tirsabûbayt</sub><br><sub>/t(ɯ)ɾsaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **ترسابا**<br><sub>tirsaba</sub><br><sub>/t(ɯ)ɾsaːbaː/</sub> | **ترسابێت**<br><sub>tirsabêt</sub><br><sub>/t(ɯ)ɾsaːbeːt/</sub> | **ترسابووبا**<br><sub>tirsabûba</sub><br><sub>/t(ɯ)ɾsaːbuːbaː/</sub> |
+| 1pl | ئێمە | **ترساباین**<br><sub>tirsabayn</sub><br><sub>/t(ɯ)ɾsaːbaːjn/</sub> | **ترسابێتین**<br><sub>tirsabêtîn</sub><br><sub>/t(ɯ)ɾsaːbeːtiːn/</sub> | **ترسابووباین**<br><sub>tirsabûbayn</sub><br><sub>/t(ɯ)ɾsaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **ترسابان**<br><sub>tirsaban</sub><br><sub>/t(ɯ)ɾsaːbaːn/</sub> | **ترسابێتن**<br><sub>tirsabêtin</sub><br><sub>/t(ɯ)ɾsaːbeːt(ɯ)n/</sub> | **ترسابووبان**<br><sub>tirsabûban</sub><br><sub>/t(ɯ)ɾsaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **ترسابان**<br><sub>tirsaban</sub><br><sub>/t(ɯ)ɾsaːbaːn/</sub> | **ترسابێتن**<br><sub>tirsabêtin</sub><br><sub>/t(ɯ)ɾsaːbeːt(ɯ)n/</sub> | **ترسابووبان**<br><sub>tirsabûban</sub><br><sub>/t(ɯ)ɾsaːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*ترسان* (tirsan) “to be afraid” — present stem **ترس**, past stem **ترسا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەترسابام**<br><sub>netrisabam</sub><br><sub>/nætɾ(ɯ)saːbaːm/</sub> | **نەترسابێتم**<br><sub>netrisabêtim</sub><br><sub>/nætɾ(ɯ)saːbeːt(ɯ)m/</sub> | **نەترسابووبام**<br><sub>netrisabûbam</sub><br><sub>/nætɾ(ɯ)saːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەترسابایت**<br><sub>netrisabayt</sub><br><sub>/nætɾ(ɯ)saːbaːjt/</sub> | **نەترسابێتیت**<br><sub>netrisabêtît</sub><br><sub>/nætɾ(ɯ)saːbeːtiːt/</sub> | **نەترسابووبایت**<br><sub>netrisabûbayt</sub><br><sub>/nætɾ(ɯ)saːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەترسابا**<br><sub>netrisaba</sub><br><sub>/nætɾ(ɯ)saːbaː/</sub> | **نەترسابێت**<br><sub>netrisabêt</sub><br><sub>/nætɾ(ɯ)saːbeːt/</sub> | **نەترسابووبا**<br><sub>netrisabûba</sub><br><sub>/nætɾ(ɯ)saːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەترساباین**<br><sub>netrisabayn</sub><br><sub>/nætɾ(ɯ)saːbaːjn/</sub> | **نەترسابێتین**<br><sub>netrisabêtîn</sub><br><sub>/nætɾ(ɯ)saːbeːtiːn/</sub> | **نەترسابووباین**<br><sub>netrisabûbayn</sub><br><sub>/nætɾ(ɯ)saːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەترسابان**<br><sub>netrisaban</sub><br><sub>/nætɾ(ɯ)saːbaːn/</sub> | **نەترسابێتن**<br><sub>netrisabêtin</sub><br><sub>/nætɾ(ɯ)saːbeːt(ɯ)n/</sub> | **نەترسابووبان**<br><sub>netrisabûban</sub><br><sub>/nætɾ(ɯ)saːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەترسابان**<br><sub>netrisaban</sub><br><sub>/nætɾ(ɯ)saːbaːn/</sub> | **نەترسابێتن**<br><sub>netrisabêtin</sub><br><sub>/nætɾ(ɯ)saːbeːt(ɯ)n/</sub> | **نەترسابووبان**<br><sub>netrisabûban</sub><br><sub>/nætɾ(ɯ)saːbuːbaːn/</sub> |
 
 ## Imperative
 

@@ -66,14 +66,40 @@
 
 *کەنین* (kenîn) “to laugh” — present stem **کەن**, past stem **کەنی**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **کەنیوم**<br><sub>kenîwm</sub><br><sub>/kæniːwm/</sub> | **کەنیبووم**<br><sub>kenîbûm</sub><br><sub>/kæniːbuːm/</sub> |
-| 2sg | تۆ | **کەنیویت**<br><sub>kenîwît</sub><br><sub>/kæniːwiːt/</sub> | **کەنیبوویت**<br><sub>kenîbûyt</sub><br><sub>/kæniːbuːjt/</sub> |
-| 3sg | ئەو | **کەنیوە**<br><sub>kenîwe</sub><br><sub>/kæniːwæ/</sub> | **کەنیبوو**<br><sub>kenîbû</sub><br><sub>/kæniːbuː/</sub> |
-| 1pl | ئێمە | **کەنیوین**<br><sub>kenîwîn</sub><br><sub>/kæniːwiːn/</sub> | **کەنیبووین**<br><sub>kenîbûyn</sub><br><sub>/kæniːbuːjn/</sub> |
-| 2pl | ئێوە | **کەنیون**<br><sub>kenîwn</sub><br><sub>/kæniːwn/</sub> | **کەنیبوون**<br><sub>kenîbûn</sub><br><sub>/kæniːbuːn/</sub> |
-| 3pl | ئەوان | **کەنیون**<br><sub>kenîwn</sub><br><sub>/kæniːwn/</sub> | **کەنیبوون**<br><sub>kenîbûn</sub><br><sub>/kæniːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **کەنیومە**<br><sub>kenîwme</sub><br><sub>/kæniːwmæ/</sub> | **نەکەنیومە**<br><sub>nekenîwme</sub><br><sub>/nækæniːwmæ/</sub> | **کەنیبووم**<br><sub>kenîbûm</sub><br><sub>/kæniːbuːm/</sub> | **نەکەنیبووم**<br><sub>nekenîbûm</sub><br><sub>/nækæniːbuːm/</sub> |
+| 2sg | تۆ | **کەنیویتە**<br><sub>kenîwîte</sub><br><sub>/kæniːwiːtæ/</sub> | **نەکەنیویتە**<br><sub>nekenîwîte</sub><br><sub>/nækæniːwiːtæ/</sub> | **کەنیبوویت**<br><sub>kenîbûyt</sub><br><sub>/kæniːbuːjt/</sub> | **نەکەنیبوویت**<br><sub>nekenîbûyt</sub><br><sub>/nækæniːbuːjt/</sub> |
+| 3sg | ئەو | **کەنیوە**<br><sub>kenîwe</sub><br><sub>/kæniːwæ/</sub> | **نەکەنیوە**<br><sub>nekenîwe</sub><br><sub>/nækæniːwæ/</sub> | **کەنیبوو**<br><sub>kenîbû</sub><br><sub>/kæniːbuː/</sub> | **نەکەنیبوو**<br><sub>nekenîbû</sub><br><sub>/nækæniːbuː/</sub> |
+| 1pl | ئێمە | **کەنیوینە**<br><sub>kenîwîne</sub><br><sub>/kæniːwiːnæ/</sub> | **نەکەنیوینە**<br><sub>nekenîwîne</sub><br><sub>/nækæniːwiːnæ/</sub> | **کەنیبووین**<br><sub>kenîbûyn</sub><br><sub>/kæniːbuːjn/</sub> | **نەکەنیبووین**<br><sub>nekenîbûyn</sub><br><sub>/nækæniːbuːjn/</sub> |
+| 2pl | ئێوە | **کەنیونە**<br><sub>kenîwne</sub><br><sub>/kæniːwnæ/</sub> | **نەکەنیونە**<br><sub>nekenîwne</sub><br><sub>/nækæniːwnæ/</sub> | **کەنیبوون**<br><sub>kenîbûn</sub><br><sub>/kæniːbuːn/</sub> | **نەکەنیبوون**<br><sub>nekenîbûn</sub><br><sub>/nækæniːbuːn/</sub> |
+| 3pl | ئەوان | **کەنیونە**<br><sub>kenîwne</sub><br><sub>/kæniːwnæ/</sub> | **نەکەنیونە**<br><sub>nekenîwne</sub><br><sub>/nækæniːwnæ/</sub> | **کەنیبوون**<br><sub>kenîbûn</sub><br><sub>/kæniːbuːn/</sub> | **نەکەنیبوون**<br><sub>nekenîbûn</sub><br><sub>/nækæniːbuːn/</sub> |
+
+## Past subjunctive
+
+*کەنین* (kenîn) “to laugh” — present stem **کەن**, past stem **کەنی**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **کەنیبام**<br><sub>kenîbam</sub><br><sub>/kæniːbaːm/</sub> | **کەنیبێتم**<br><sub>kenîbêtim</sub><br><sub>/kæniːbeːt(ɯ)m/</sub> | **کەنیبووبام**<br><sub>kenîbûbam</sub><br><sub>/kæniːbuːbaːm/</sub> |
+| 2sg | تۆ | **کەنیبایت**<br><sub>kenîbayt</sub><br><sub>/kæniːbaːjt/</sub> | **کەنیبێتیت**<br><sub>kenîbêtît</sub><br><sub>/kæniːbeːtiːt/</sub> | **کەنیبووبایت**<br><sub>kenîbûbayt</sub><br><sub>/kæniːbuːbaːjt/</sub> |
+| 3sg | ئەو | **کەنیبا**<br><sub>kenîba</sub><br><sub>/kæniːbaː/</sub> | **کەنیبێت**<br><sub>kenîbêt</sub><br><sub>/kæniːbeːt/</sub> | **کەنیبووبا**<br><sub>kenîbûba</sub><br><sub>/kæniːbuːbaː/</sub> |
+| 1pl | ئێمە | **کەنیباین**<br><sub>kenîbayn</sub><br><sub>/kæniːbaːjn/</sub> | **کەنیبێتین**<br><sub>kenîbêtîn</sub><br><sub>/kæniːbeːtiːn/</sub> | **کەنیبووباین**<br><sub>kenîbûbayn</sub><br><sub>/kæniːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **کەنیبان**<br><sub>kenîban</sub><br><sub>/kæniːbaːn/</sub> | **کەنیبێتن**<br><sub>kenîbêtin</sub><br><sub>/kæniːbeːt(ɯ)n/</sub> | **کەنیبووبان**<br><sub>kenîbûban</sub><br><sub>/kæniːbuːbaːn/</sub> |
+| 3pl | ئەوان | **کەنیبان**<br><sub>kenîban</sub><br><sub>/kæniːbaːn/</sub> | **کەنیبێتن**<br><sub>kenîbêtin</sub><br><sub>/kæniːbeːt(ɯ)n/</sub> | **کەنیبووبان**<br><sub>kenîbûban</sub><br><sub>/kæniːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*کەنین* (kenîn) “to laugh” — present stem **کەن**, past stem **کەنی**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەکەنیبام**<br><sub>nekenîbam</sub><br><sub>/nækæniːbaːm/</sub> | **نەکەنیبێتم**<br><sub>nekenîbêtim</sub><br><sub>/nækæniːbeːt(ɯ)m/</sub> | **نەکەنیبووبام**<br><sub>nekenîbûbam</sub><br><sub>/nækæniːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەکەنیبایت**<br><sub>nekenîbayt</sub><br><sub>/nækæniːbaːjt/</sub> | **نەکەنیبێتیت**<br><sub>nekenîbêtît</sub><br><sub>/nækæniːbeːtiːt/</sub> | **نەکەنیبووبایت**<br><sub>nekenîbûbayt</sub><br><sub>/nækæniːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەکەنیبا**<br><sub>nekenîba</sub><br><sub>/nækæniːbaː/</sub> | **نەکەنیبێت**<br><sub>nekenîbêt</sub><br><sub>/nækæniːbeːt/</sub> | **نەکەنیبووبا**<br><sub>nekenîbûba</sub><br><sub>/nækæniːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەکەنیباین**<br><sub>nekenîbayn</sub><br><sub>/nækæniːbaːjn/</sub> | **نەکەنیبێتین**<br><sub>nekenîbêtîn</sub><br><sub>/nækæniːbeːtiːn/</sub> | **نەکەنیبووباین**<br><sub>nekenîbûbayn</sub><br><sub>/nækæniːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەکەنیبان**<br><sub>nekenîban</sub><br><sub>/nækæniːbaːn/</sub> | **نەکەنیبێتن**<br><sub>nekenîbêtin</sub><br><sub>/nækæniːbeːt(ɯ)n/</sub> | **نەکەنیبووبان**<br><sub>nekenîbûban</sub><br><sub>/nækæniːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەکەنیبان**<br><sub>nekenîban</sub><br><sub>/nækæniːbaːn/</sub> | **نەکەنیبێتن**<br><sub>nekenîbêtin</sub><br><sub>/nækæniːbeːt(ɯ)n/</sub> | **نەکەنیبووبان**<br><sub>nekenîbûban</sub><br><sub>/nækæniːbuːbaːn/</sub> |
 
 ## Imperative
 

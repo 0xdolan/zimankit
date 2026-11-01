@@ -66,14 +66,40 @@
 
 *هەستان* (hestan) “to get up” — present stem **هەست**, past stem **هەستا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **هەستاوم**<br><sub>hestawm</sub><br><sub>/hæstaːwm/</sub> | **هەستابووم**<br><sub>hestabûm</sub><br><sub>/hæstaːbuːm/</sub> |
-| 2sg | تۆ | **هەستاویت**<br><sub>hestawît</sub><br><sub>/hæstaːwiːt/</sub> | **هەستابوویت**<br><sub>hestabûyt</sub><br><sub>/hæstaːbuːjt/</sub> |
-| 3sg | ئەو | **هەستاوە**<br><sub>hestawe</sub><br><sub>/hæstaːwæ/</sub> | **هەستابوو**<br><sub>hestabû</sub><br><sub>/hæstaːbuː/</sub> |
-| 1pl | ئێمە | **هەستاوین**<br><sub>hestawîn</sub><br><sub>/hæstaːwiːn/</sub> | **هەستابووین**<br><sub>hestabûyn</sub><br><sub>/hæstaːbuːjn/</sub> |
-| 2pl | ئێوە | **هەستاون**<br><sub>hestawn</sub><br><sub>/hæstaːwn/</sub> | **هەستابوون**<br><sub>hestabûn</sub><br><sub>/hæstaːbuːn/</sub> |
-| 3pl | ئەوان | **هەستاون**<br><sub>hestawn</sub><br><sub>/hæstaːwn/</sub> | **هەستابوون**<br><sub>hestabûn</sub><br><sub>/hæstaːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **هەستاومە**<br><sub>hestawme</sub><br><sub>/hæstaːwmæ/</sub> | **نەهەستاومە**<br><sub>nehestawme</sub><br><sub>/næhæstaːwmæ/</sub> | **هەستابووم**<br><sub>hestabûm</sub><br><sub>/hæstaːbuːm/</sub> | **نەهەستابووم**<br><sub>nehestabûm</sub><br><sub>/næhæstaːbuːm/</sub> |
+| 2sg | تۆ | **هەستاویتە**<br><sub>hestawîte</sub><br><sub>/hæstaːwiːtæ/</sub> | **نەهەستاویتە**<br><sub>nehestawîte</sub><br><sub>/næhæstaːwiːtæ/</sub> | **هەستابوویت**<br><sub>hestabûyt</sub><br><sub>/hæstaːbuːjt/</sub> | **نەهەستابوویت**<br><sub>nehestabûyt</sub><br><sub>/næhæstaːbuːjt/</sub> |
+| 3sg | ئەو | **هەستاوە**<br><sub>hestawe</sub><br><sub>/hæstaːwæ/</sub> | **نەهەستاوە**<br><sub>nehestawe</sub><br><sub>/næhæstaːwæ/</sub> | **هەستابوو**<br><sub>hestabû</sub><br><sub>/hæstaːbuː/</sub> | **نەهەستابوو**<br><sub>nehestabû</sub><br><sub>/næhæstaːbuː/</sub> |
+| 1pl | ئێمە | **هەستاوینە**<br><sub>hestawîne</sub><br><sub>/hæstaːwiːnæ/</sub> | **نەهەستاوینە**<br><sub>nehestawîne</sub><br><sub>/næhæstaːwiːnæ/</sub> | **هەستابووین**<br><sub>hestabûyn</sub><br><sub>/hæstaːbuːjn/</sub> | **نەهەستابووین**<br><sub>nehestabûyn</sub><br><sub>/næhæstaːbuːjn/</sub> |
+| 2pl | ئێوە | **هەستاونە**<br><sub>hestawne</sub><br><sub>/hæstaːwnæ/</sub> | **نەهەستاونە**<br><sub>nehestawne</sub><br><sub>/næhæstaːwnæ/</sub> | **هەستابوون**<br><sub>hestabûn</sub><br><sub>/hæstaːbuːn/</sub> | **نەهەستابوون**<br><sub>nehestabûn</sub><br><sub>/næhæstaːbuːn/</sub> |
+| 3pl | ئەوان | **هەستاونە**<br><sub>hestawne</sub><br><sub>/hæstaːwnæ/</sub> | **نەهەستاونە**<br><sub>nehestawne</sub><br><sub>/næhæstaːwnæ/</sub> | **هەستابوون**<br><sub>hestabûn</sub><br><sub>/hæstaːbuːn/</sub> | **نەهەستابوون**<br><sub>nehestabûn</sub><br><sub>/næhæstaːbuːn/</sub> |
+
+## Past subjunctive
+
+*هەستان* (hestan) “to get up” — present stem **هەست**, past stem **هەستا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **هەستابام**<br><sub>hestabam</sub><br><sub>/hæstaːbaːm/</sub> | **هەستابێتم**<br><sub>hestabêtim</sub><br><sub>/hæstaːbeːt(ɯ)m/</sub> | **هەستابووبام**<br><sub>hestabûbam</sub><br><sub>/hæstaːbuːbaːm/</sub> |
+| 2sg | تۆ | **هەستابایت**<br><sub>hestabayt</sub><br><sub>/hæstaːbaːjt/</sub> | **هەستابێتیت**<br><sub>hestabêtît</sub><br><sub>/hæstaːbeːtiːt/</sub> | **هەستابووبایت**<br><sub>hestabûbayt</sub><br><sub>/hæstaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **هەستابا**<br><sub>hestaba</sub><br><sub>/hæstaːbaː/</sub> | **هەستابێت**<br><sub>hestabêt</sub><br><sub>/hæstaːbeːt/</sub> | **هەستابووبا**<br><sub>hestabûba</sub><br><sub>/hæstaːbuːbaː/</sub> |
+| 1pl | ئێمە | **هەستاباین**<br><sub>hestabayn</sub><br><sub>/hæstaːbaːjn/</sub> | **هەستابێتین**<br><sub>hestabêtîn</sub><br><sub>/hæstaːbeːtiːn/</sub> | **هەستابووباین**<br><sub>hestabûbayn</sub><br><sub>/hæstaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **هەستابان**<br><sub>hestaban</sub><br><sub>/hæstaːbaːn/</sub> | **هەستابێتن**<br><sub>hestabêtin</sub><br><sub>/hæstaːbeːt(ɯ)n/</sub> | **هەستابووبان**<br><sub>hestabûban</sub><br><sub>/hæstaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **هەستابان**<br><sub>hestaban</sub><br><sub>/hæstaːbaːn/</sub> | **هەستابێتن**<br><sub>hestabêtin</sub><br><sub>/hæstaːbeːt(ɯ)n/</sub> | **هەستابووبان**<br><sub>hestabûban</sub><br><sub>/hæstaːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*هەستان* (hestan) “to get up” — present stem **هەست**, past stem **هەستا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەهەستابام**<br><sub>nehestabam</sub><br><sub>/næhæstaːbaːm/</sub> | **نەهەستابێتم**<br><sub>nehestabêtim</sub><br><sub>/næhæstaːbeːt(ɯ)m/</sub> | **نەهەستابووبام**<br><sub>nehestabûbam</sub><br><sub>/næhæstaːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەهەستابایت**<br><sub>nehestabayt</sub><br><sub>/næhæstaːbaːjt/</sub> | **نەهەستابێتیت**<br><sub>nehestabêtît</sub><br><sub>/næhæstaːbeːtiːt/</sub> | **نەهەستابووبایت**<br><sub>nehestabûbayt</sub><br><sub>/næhæstaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەهەستابا**<br><sub>nehestaba</sub><br><sub>/næhæstaːbaː/</sub> | **نەهەستابێت**<br><sub>nehestabêt</sub><br><sub>/næhæstaːbeːt/</sub> | **نەهەستابووبا**<br><sub>nehestabûba</sub><br><sub>/næhæstaːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەهەستاباین**<br><sub>nehestabayn</sub><br><sub>/næhæstaːbaːjn/</sub> | **نەهەستابێتین**<br><sub>nehestabêtîn</sub><br><sub>/næhæstaːbeːtiːn/</sub> | **نەهەستابووباین**<br><sub>nehestabûbayn</sub><br><sub>/næhæstaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەهەستابان**<br><sub>nehestaban</sub><br><sub>/næhæstaːbaːn/</sub> | **نەهەستابێتن**<br><sub>nehestabêtin</sub><br><sub>/næhæstaːbeːt(ɯ)n/</sub> | **نەهەستابووبان**<br><sub>nehestabûban</sub><br><sub>/næhæstaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەهەستابان**<br><sub>nehestaban</sub><br><sub>/næhæstaːbaːn/</sub> | **نەهەستابێتن**<br><sub>nehestabêtin</sub><br><sub>/næhæstaːbeːt(ɯ)n/</sub> | **نەهەستابووبان**<br><sub>nehestabûban</sub><br><sub>/næhæstaːbuːbaːn/</sub> |
 
 ## Imperative
 

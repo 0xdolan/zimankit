@@ -109,7 +109,7 @@ grapheme,lemma,pos,ipa,morph_meta,translit,frequency,sources,confidence
 تایبەت,تایبەت,NOUN,taːjbæt,"{""seg"":""تایبەت""}",taybet,65698,"bilingual,encyclopedia,news,web",0.55
 وەزارەتی,وەزارەت,NOUN,wæzaːɾætiː,"{""enclitic"":""3sg|ezafe"",""seg"":""وەزارەت+ی""}",wezaretî,65113,"bilingual,encyclopedia,news,web",0.6
 وەکو,وەکو,NOUN,wæku,"{""seg"":""وەکو""}",weku,64819,"bilingual,dictionary,encyclopedia,news,web",0.55
-بکرێت,کران,VERB,b(ɯ)kɾeːt,"{""mood"":""subjunctive"",""person"":""3sg"",""seg"":""بکرێت"",""tense"":""present"",""transitivity"":""transitive""}",bikrêt,64514,"dictionary,encyclopedia,news,web",0.45
+بکرێت,کردن,VERB,b(ɯ)kɾeːt,"{""mood"":""subjunctive"",""person"":""3sg"",""seg"":""بکرێت"",""tense"":""present"",""transitivity"":""transitive"",""voice"":""passive""}",bikrêt,64514,"core,dictionary,encyclopedia,news,web",0.9
 ئەمەش,ئەمەش,ADV,ʔæmæʃ,"{""seg"":""ئەمەش""}",emeş,64380,"bilingual,dictionary,encyclopedia,news,web",0.55
 یەکێک,یەکێک,NOUN,jækeːk,"{""seg"":""یەکێک""}",yekêk,64269,"bilingual,dictionary,encyclopedia,news,web",0.55
 پەرلەمانی,پەرلەمانی,ADJ,pæɾlæmaːniː,"{""seg"":""پەرلەمانی""}",perlemanî,63296,"bilingual,encyclopedia,news,web",0.55

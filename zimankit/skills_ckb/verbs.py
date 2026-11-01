@@ -31,6 +31,9 @@ PERSONS = ("1sg", "2sg", "3sg", "1pl", "2pl", "3pl")
 SET2 = {"1sg": "م", "2sg": "ت", "3sg": "ی", "1pl": "مان", "2pl": "تان", "3pl": "یان"}
 PREVERBS = ("هەڵ", "وەر", "دەر", "دا", "ڕا", "تێ", "پێ", "لێ")
 VOWEL_END = "اەۆێیو"
+PERFECT_LONG = {"1sg": "مە", "2sg": "یتە", "3sg": "ە", "1pl": "ینە", "2pl": "نە", "3pl": "نە"}
+PERFECT_SHORT = {"1sg": "م", "2sg": "یت", "3sg": "ە", "1pl": "ین", "2pl": "ن", "3pl": "ن"}
+PAST_SUBJUNCTIVES = (("با", "past_subj"), ("بێت", "perfect_subj"), ("بووبا", "pluperfect_subj"))  # خواردبا, خواردبێت, خواردبووبا
 NO_PASSIVE = frozenset({"ڕاکردن"})  # takes the agent clitics (ڕام کرد) but means "run"
 
 # Irregular cells that no rule produces.
@@ -236,6 +239,8 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
     pre, suf, lemma = v.preverb, v.suffix, v.infinitive
     irregular = IRREGULAR.get(v.base_infinitive, {})
     pres, past = v.present, v.past
+    # on a guessed verb a vowel-final stem + با/بێت is more often another word: کوبا, ڕازی بێت
+    past_subjunctives = PAST_SUBJUNCTIVES if v.source == "core" or past[-1:] not in VOWEL_END else ()
 
     def emit(surface: str, **feat):
         if suf and feat.get("tense") == "present_perfect":  # خوێندووەتەوە, چووینەتەوە
@@ -277,12 +282,37 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
             if suf and p == "3sg":
                 perf_cl = "یە"  # کردوویەتەوە
             yield from emit(perf_base + perf_cl, tense="present_perfect", agent=p, alignment="ergative")
+            if p == "3sg" and not suf:
+                yield from emit(perf_base + "یە", tense="present_perfect", agent=p, alignment="ergative", variant="short")  # هێناویە
+            yield from emit("نە" + cl + perf_base + "ە", tense="present_perfect", agent=p, polarity="neg", alignment="ergative")
             yield from emit(past + "بوو" + cl, tense="past_perfect", agent=p, alignment="ergative")
-            if not clitic_present and lemma not in NO_PASSIVE:
-                ps = _passive_stem(v)
+            yield from emit("نە" + cl + past + "بوو", tense="past_perfect", agent=p, polarity="neg", alignment="ergative")
+            for mark, tense in past_subjunctives:
+                subj = {"tense": tense, "mood": "subjunctive", "agent": p, "alignment": "ergative"}
+                yield from emit(past + mark + cl, **subj)
+                yield from emit("نە" + cl + past + mark, polarity="neg", **subj)
+                yield from emit("نە" + past + mark + cl, polarity="neg", variant="clitic_end", **subj)
+            ps = _passive_stem(v)
+            if not clitic_present and lemma not in NO_PASSIVE and len(ps) >= 2:  # a lone ر is a guessed stem
                 yield from emit("دە" + ps + _set1_present("ێ", p), tense="present", voice="passive", person=p)
                 yield from emit("نا" + ps + _set1_present("ێ", p), tense="present", voice="passive", person=p, polarity="neg")
-                yield from emit(_set1_past(ps + "ا", p), tense="past", voice="passive", person=p)
+                yield from emit("ب" + ps + _set1_present("ێ", p), tense="present", mood="subjunctive", voice="passive", person=p)
+                yield from emit("نە" + ps + _set1_present("ێ", p), tense="present", mood="subjunctive", voice="passive", person=p, polarity="neg")
+                pa = ps + "ا"
+                passive = {"voice": "passive", "person": p}
+                yield from emit(_set1_past(pa, p), tense="past", **passive)
+                yield from emit("نە" + _set1_past(pa, p), tense="past", polarity="neg", **passive)
+                yield from emit("دە" + _set1_past(pa, p), tense="past", aspect="progressive", **passive)
+                yield from emit("نەدە" + _set1_past(pa, p), tense="past", aspect="progressive", polarity="neg", **passive)
+                # the sources print the short perfect here (بینراوم); -ەوە needs the long one (نوێکراونەتەوە)
+                pf = (PERFECT_LONG if suf else PERFECT_SHORT)[p]
+                yield from emit(pa + "و" + pf, tense="present_perfect", **passive)
+                yield from emit("نە" + pa + "و" + pf, tense="present_perfect", polarity="neg", **passive)
+                yield from emit(_set1_past(pa + "بوو", p), tense="past_perfect", **passive)
+                yield from emit("نە" + _set1_past(pa + "بوو", p), tense="past_perfect", polarity="neg", **passive)
+                for mark, tense in PAST_SUBJUNCTIVES:
+                    yield from emit(_set1_past(pa + mark, p), tense=tense, mood="subjunctive", **passive)
+                    yield from emit("نە" + _set1_past(pa + mark, p), tense=tense, mood="subjunctive", polarity="neg", **passive)
         else:
             yield from emit(_set1_past(past, p), tense="past", aspect="perfective", person=p, alignment="accusative")
             if p == "2sg":
@@ -291,11 +321,17 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
             yield from emit("دە" + _set1_past(past, p), tense="past", aspect="progressive", person=p)
             yield from emit("نەدە" + _set1_past(past, p), tense="past", aspect="progressive", person=p, polarity="neg")
             perf = _perfect_base(past)
-            perf_end = {"1sg": "م", "2sg": "یت", "3sg": "ە", "1pl": "ین", "2pl": "ن", "3pl": "ن"}[p]
-            if suf:  # the long endings carry -ەوە: چووینەتەوە
-                perf_end = {"1sg": "مە", "2sg": "یتە", "3sg": "ە", "1pl": "ینە", "2pl": "نە", "3pl": "نە"}[p]
-            yield from emit(perf + perf_end, tense="present_perfect", person=p)
+            # the long ending is the written form and carries -ەوە (هاتوومە, چووینەتەوە); هاتووم is spoken
+            yield from emit(perf + PERFECT_LONG[p], tense="present_perfect", person=p)
+            yield from emit("نە" + perf + PERFECT_LONG[p], tense="present_perfect", person=p, polarity="neg")
+            if not suf and PERFECT_SHORT[p] != PERFECT_LONG[p]:
+                yield from emit(perf + PERFECT_SHORT[p], tense="present_perfect", person=p, variant="short")
+                yield from emit("نە" + perf + PERFECT_SHORT[p], tense="present_perfect", person=p, polarity="neg", variant="short")
             yield from emit(_set1_past(past + "بوو", p), tense="past_perfect", person=p)
+            yield from emit("نە" + _set1_past(past + "بوو", p), tense="past_perfect", person=p, polarity="neg")
+            for mark, tense in past_subjunctives:
+                yield from emit(_set1_past(past + mark, p), tense=tense, mood="subjunctive", person=p)
+                yield from emit("نە" + _set1_past(past + mark, p), tense=tense, mood="subjunctive", person=p, polarity="neg")
     goal = {"goal": "yes"}
     yield from emit(irregular.get(("present", "3sg"), "دە" + _set1_present(pres, "3sg")) + "ە", tense="present", person="3sg", **goal)
     if not v.transitive and not past.endswith(("ا", "وو", "ی")):
@@ -307,7 +343,12 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
         yield from emit("نە" + past, tense="past", aspect="perfective", polarity="neg", **ext)
         yield from emit("دە" + past, tense="past", aspect="progressive", **ext)
         yield from emit(_perfect_base(past) + "ە", tense="present_perfect", **ext)
+        yield from emit("نە" + _perfect_base(past) + "ە", tense="present_perfect", polarity="neg", **ext)
         yield from emit(past + "بوو", tense="past_perfect", **ext)
+        yield from emit("نە" + past + "بوو", tense="past_perfect", polarity="neg", **ext)
+        for mark, tense in past_subjunctives:
+            yield from emit(past + mark, tense=tense, mood="subjunctive", **ext)
+            yield from emit("نە" + past + mark, tense=tense, mood="subjunctive", polarity="neg", **ext)
         if pre:
             # with a preverb the clitic sits right after it: ڕا+ی+گەیاند, هەڵ+م+گرت
             for p in PERSONS:
@@ -330,7 +371,6 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
     if v.transitive and not clitic_present and lemma not in NO_PASSIVE:
         ps = _passive_stem(v)
         yield from emit(ps + "او", form="passive_participle")
-        yield from emit(ps + "اوە", tense="present_perfect", voice="passive", person="3sg")
 
 
 class FormIndex:

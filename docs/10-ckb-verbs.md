@@ -4,7 +4,7 @@
 
 # Central Kurdish: verbs
 
-**On this page:** [Stems](#stems) · [Agreement](#agreement) · [Paradigm of کردن (excerpt, from `python -m zimankit conjugate کردن`)](#paradigm-of-کردن-excerpt-from-python--m-zimankit-conjugate-کردن)
+**On this page:** [Stems](#stems) · [Agreement](#agreement) · [Paradigm of کردن (excerpt, from `python -m zimankit conjugate کردن`)](#paradigm-of-کردن-excerpt-from-python--m-zimankit-conjugate-کردن) · [Tenses and negatives](#tenses-and-negatives)
 
 `skills_ckb/verbs.py` describes a verb with **infinitive, past stem, present stem, transitivity, preverb, -ەوە suffix** and generates every single-word form. The analyzer recognises verbs by looking the token up in the inverted paradigm (`FormIndex`).
 
@@ -35,9 +35,27 @@
 | passive past | کرام | کرا | کران |
 | imperative | بکە (2sg) · بکەن (2pl) · مەکە (prohibitive) | | |
 
-Intransitive `هاتن`: `هاتم هاتیت هات هاتین هاتن`, perfect `هاتووم … هاتووە`, irregular present `دێم دێیت دێت`, negative `نایەم`, imperative `وەرە`.
+Intransitive `هاتن`: `هاتم هاتیت هات هاتین هاتن`, perfect `هاتوومە هاتوویتە هاتووە هاتووینە هاتوونە` (the written form; `هاتووم هاتوویت هاتوون` are spoken and generated with `variant=short`), irregular present `دێم دێیت دێت`, negative `نایەم`, imperative `وەرە`.
 
 `-ەوە` verbs attach the suffix after the person ending: `دەکەمەوە`, `دەکاتەوە`, `کردیەوە`. Three `و` never occur: `چوو + ەوە = چووەوە`, `کردبوو + ەوە = کردبووەوە`. A stem in `ی` keeps its 3sg ending: `دۆزی + ی + ەوە = دۆزییەوە`. The perfect adds `ت` before `ەوە` and uses the long endings: `خوێندووەتەوە`, `خوێندوومانەتەوە`, `چووینەتەوە`. The 1sg and 2sg perfects (`کردوومەتەوە`, `هاتوویتەتەوە`) follow the pattern but are not printed in the sources checked.
+
+## Tenses and negatives
+
+Every verb also generates these:
+
+| tense | transitive | intransitive | passive |
+|---|---|---|---|
+| perfect, negative | `نەمکردووە` | `نەهاتوومە` | `نەکراوە` |
+| past perfect, negative | `نەمکردبوو` | `نەهاتبووم` | `نەکرابوو` |
+| past subjunctive | `خواردبام` | `هاتبام` | `کرابام` |
+| perfect subjunctive | `خواردبێتم` | `هاتبێتم` | `کرابێتم` |
+| past perfect subjunctive | `خواردبووبام` | `هاتبووبام` | `کرابووبام` |
+
+The passive also has a subjunctive (`بکرێت`, `نەکرێت`), a negative past (`نەکرا`) and a progressive (`دەکرا`, `نەدەکرا`). Its perfect uses the short endings the sources print: `بینراوم`, `بینراوە`.
+
+A negative past subjunctive with an agent clitic follows the general rule that the clitic comes after `نە` (`نەمخواردبا`). `نەخواردبام` is also accepted, with `variant=clitic_end`. Neither negative is printed in the sources checked, so treat them as unconfirmed.
+
+A verb guessed from the lexicon gets the past subjunctive only if its past stem ends in a consonant. On a vowel-final stem the ending usually belongs to another word (`کوبا` "Cuba", `ڕازی بێت`), so a real form such as `دامەزرابێت` is not read as a verb yet.
 
 <!-- nav:bottom -->
 ---

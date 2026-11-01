@@ -66,14 +66,40 @@
 
 *مان* (man) “to stay, to remain” — present stem **مێن**, past stem **ما**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **ماوم**<br><sub>mawm</sub><br><sub>/maːwm/</sub> | **مابووم**<br><sub>mabûm</sub><br><sub>/maːbuːm/</sub> |
-| 2sg | تۆ | **ماویت**<br><sub>mawît</sub><br><sub>/maːwiːt/</sub> | **مابوویت**<br><sub>mabûyt</sub><br><sub>/maːbuːjt/</sub> |
-| 3sg | ئەو | **ماوە**<br><sub>mawe</sub><br><sub>/maːwæ/</sub> | **مابوو**<br><sub>mabû</sub><br><sub>/maːbuː/</sub> |
-| 1pl | ئێمە | **ماوین**<br><sub>mawîn</sub><br><sub>/maːwiːn/</sub> | **مابووین**<br><sub>mabûyn</sub><br><sub>/maːbuːjn/</sub> |
-| 2pl | ئێوە | **ماون**<br><sub>mawn</sub><br><sub>/maːwn/</sub> | **مابوون**<br><sub>mabûn</sub><br><sub>/maːbuːn/</sub> |
-| 3pl | ئەوان | **ماون**<br><sub>mawn</sub><br><sub>/maːwn/</sub> | **مابوون**<br><sub>mabûn</sub><br><sub>/maːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **ماومە**<br><sub>mawme</sub><br><sub>/maːwmæ/</sub> | **نەماومە**<br><sub>nemawme</sub><br><sub>/næmaːwmæ/</sub> | **مابووم**<br><sub>mabûm</sub><br><sub>/maːbuːm/</sub> | **نەمابووم**<br><sub>nemabûm</sub><br><sub>/næmaːbuːm/</sub> |
+| 2sg | تۆ | **ماویتە**<br><sub>mawîte</sub><br><sub>/maːwiːtæ/</sub> | **نەماویتە**<br><sub>nemawîte</sub><br><sub>/næmaːwiːtæ/</sub> | **مابوویت**<br><sub>mabûyt</sub><br><sub>/maːbuːjt/</sub> | **نەمابوویت**<br><sub>nemabûyt</sub><br><sub>/næmaːbuːjt/</sub> |
+| 3sg | ئەو | **ماوە**<br><sub>mawe</sub><br><sub>/maːwæ/</sub> | **نەماوە**<br><sub>nemawe</sub><br><sub>/næmaːwæ/</sub> | **مابوو**<br><sub>mabû</sub><br><sub>/maːbuː/</sub> | **نەمابوو**<br><sub>nemabû</sub><br><sub>/næmaːbuː/</sub> |
+| 1pl | ئێمە | **ماوینە**<br><sub>mawîne</sub><br><sub>/maːwiːnæ/</sub> | **نەماوینە**<br><sub>nemawîne</sub><br><sub>/næmaːwiːnæ/</sub> | **مابووین**<br><sub>mabûyn</sub><br><sub>/maːbuːjn/</sub> | **نەمابووین**<br><sub>nemabûyn</sub><br><sub>/næmaːbuːjn/</sub> |
+| 2pl | ئێوە | **ماونە**<br><sub>mawne</sub><br><sub>/maːwnæ/</sub> | **نەماونە**<br><sub>nemawne</sub><br><sub>/næmaːwnæ/</sub> | **مابوون**<br><sub>mabûn</sub><br><sub>/maːbuːn/</sub> | **نەمابوون**<br><sub>nemabûn</sub><br><sub>/næmaːbuːn/</sub> |
+| 3pl | ئەوان | **ماونە**<br><sub>mawne</sub><br><sub>/maːwnæ/</sub> | **نەماونە**<br><sub>nemawne</sub><br><sub>/næmaːwnæ/</sub> | **مابوون**<br><sub>mabûn</sub><br><sub>/maːbuːn/</sub> | **نەمابوون**<br><sub>nemabûn</sub><br><sub>/næmaːbuːn/</sub> |
+
+## Past subjunctive
+
+*مان* (man) “to stay, to remain” — present stem **مێن**, past stem **ما**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **مابام**<br><sub>mabam</sub><br><sub>/maːbaːm/</sub> | **مابێتم**<br><sub>mabêtim</sub><br><sub>/maːbeːt(ɯ)m/</sub> | **مابووبام**<br><sub>mabûbam</sub><br><sub>/maːbuːbaːm/</sub> |
+| 2sg | تۆ | **مابایت**<br><sub>mabayt</sub><br><sub>/maːbaːjt/</sub> | **مابێتیت**<br><sub>mabêtît</sub><br><sub>/maːbeːtiːt/</sub> | **مابووبایت**<br><sub>mabûbayt</sub><br><sub>/maːbuːbaːjt/</sub> |
+| 3sg | ئەو | **مابا**<br><sub>maba</sub><br><sub>/maːbaː/</sub> | **مابێت**<br><sub>mabêt</sub><br><sub>/maːbeːt/</sub> | **مابووبا**<br><sub>mabûba</sub><br><sub>/maːbuːbaː/</sub> |
+| 1pl | ئێمە | **ماباین**<br><sub>mabayn</sub><br><sub>/maːbaːjn/</sub> | **مابێتین**<br><sub>mabêtîn</sub><br><sub>/maːbeːtiːn/</sub> | **مابووباین**<br><sub>mabûbayn</sub><br><sub>/maːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **مابان**<br><sub>maban</sub><br><sub>/maːbaːn/</sub> | **مابێتن**<br><sub>mabêtin</sub><br><sub>/maːbeːt(ɯ)n/</sub> | **مابووبان**<br><sub>mabûban</sub><br><sub>/maːbuːbaːn/</sub> |
+| 3pl | ئەوان | **مابان**<br><sub>maban</sub><br><sub>/maːbaːn/</sub> | **مابێتن**<br><sub>mabêtin</sub><br><sub>/maːbeːt(ɯ)n/</sub> | **مابووبان**<br><sub>mabûban</sub><br><sub>/maːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*مان* (man) “to stay, to remain” — present stem **مێن**, past stem **ما**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەمابام**<br><sub>nemabam</sub><br><sub>/næmaːbaːm/</sub> | **نەمابێتم**<br><sub>nemabêtim</sub><br><sub>/næmaːbeːt(ɯ)m/</sub> | **نەمابووبام**<br><sub>nemabûbam</sub><br><sub>/næmaːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەمابایت**<br><sub>nemabayt</sub><br><sub>/næmaːbaːjt/</sub> | **نەمابێتیت**<br><sub>nemabêtît</sub><br><sub>/næmaːbeːtiːt/</sub> | **نەمابووبایت**<br><sub>nemabûbayt</sub><br><sub>/næmaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەمابا**<br><sub>nemaba</sub><br><sub>/næmaːbaː/</sub> | **نەمابێت**<br><sub>nemabêt</sub><br><sub>/næmaːbeːt/</sub> | **نەمابووبا**<br><sub>nemabûba</sub><br><sub>/næmaːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەماباین**<br><sub>nemabayn</sub><br><sub>/næmaːbaːjn/</sub> | **نەمابێتین**<br><sub>nemabêtîn</sub><br><sub>/næmaːbeːtiːn/</sub> | **نەمابووباین**<br><sub>nemabûbayn</sub><br><sub>/næmaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەمابان**<br><sub>nemaban</sub><br><sub>/næmaːbaːn/</sub> | **نەمابێتن**<br><sub>nemabêtin</sub><br><sub>/næmaːbeːt(ɯ)n/</sub> | **نەمابووبان**<br><sub>nemabûban</sub><br><sub>/næmaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەمابان**<br><sub>nemaban</sub><br><sub>/næmaːbaːn/</sub> | **نەمابێتن**<br><sub>nemabêtin</sub><br><sub>/næmaːbeːt(ɯ)n/</sub> | **نەمابووبان**<br><sub>nemabûban</sub><br><sub>/næmaːbuːbaːn/</sub> |
 
 ## Imperative
 

@@ -66,14 +66,40 @@
 
 *ئێشان* (êşan) “to ache, to hurt” — present stem **ئێش**, past stem **ئێشا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **ئێشاوم**<br><sub>êşawm</sub><br><sub>/ʔeːʃaːwm/</sub> | **ئێشابووم**<br><sub>êşabûm</sub><br><sub>/ʔeːʃaːbuːm/</sub> |
-| 2sg | تۆ | **ئێشاویت**<br><sub>êşawît</sub><br><sub>/ʔeːʃaːwiːt/</sub> | **ئێشابوویت**<br><sub>êşabûyt</sub><br><sub>/ʔeːʃaːbuːjt/</sub> |
-| 3sg | ئەو | **ئێشاوە**<br><sub>êşawe</sub><br><sub>/ʔeːʃaːwæ/</sub> | **ئێشابوو**<br><sub>êşabû</sub><br><sub>/ʔeːʃaːbuː/</sub> |
-| 1pl | ئێمە | **ئێشاوین**<br><sub>êşawîn</sub><br><sub>/ʔeːʃaːwiːn/</sub> | **ئێشابووین**<br><sub>êşabûyn</sub><br><sub>/ʔeːʃaːbuːjn/</sub> |
-| 2pl | ئێوە | **ئێشاون**<br><sub>êşawn</sub><br><sub>/ʔeːʃaːwn/</sub> | **ئێشابوون**<br><sub>êşabûn</sub><br><sub>/ʔeːʃaːbuːn/</sub> |
-| 3pl | ئەوان | **ئێشاون**<br><sub>êşawn</sub><br><sub>/ʔeːʃaːwn/</sub> | **ئێشابوون**<br><sub>êşabûn</sub><br><sub>/ʔeːʃaːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **ئێشاومە**<br><sub>êşawme</sub><br><sub>/ʔeːʃaːwmæ/</sub> | **نەئێشاومە**<br><sub>ne'êşawme</sub><br><sub>/næʔeːʃaːwmæ/</sub> | **ئێشابووم**<br><sub>êşabûm</sub><br><sub>/ʔeːʃaːbuːm/</sub> | **نەئێشابووم**<br><sub>ne'êşabûm</sub><br><sub>/næʔeːʃaːbuːm/</sub> |
+| 2sg | تۆ | **ئێشاویتە**<br><sub>êşawîte</sub><br><sub>/ʔeːʃaːwiːtæ/</sub> | **نەئێشاویتە**<br><sub>ne'êşawîte</sub><br><sub>/næʔeːʃaːwiːtæ/</sub> | **ئێشابوویت**<br><sub>êşabûyt</sub><br><sub>/ʔeːʃaːbuːjt/</sub> | **نەئێشابوویت**<br><sub>ne'êşabûyt</sub><br><sub>/næʔeːʃaːbuːjt/</sub> |
+| 3sg | ئەو | **ئێشاوە**<br><sub>êşawe</sub><br><sub>/ʔeːʃaːwæ/</sub> | **نەئێشاوە**<br><sub>ne'êşawe</sub><br><sub>/næʔeːʃaːwæ/</sub> | **ئێشابوو**<br><sub>êşabû</sub><br><sub>/ʔeːʃaːbuː/</sub> | **نەئێشابوو**<br><sub>ne'êşabû</sub><br><sub>/næʔeːʃaːbuː/</sub> |
+| 1pl | ئێمە | **ئێشاوینە**<br><sub>êşawîne</sub><br><sub>/ʔeːʃaːwiːnæ/</sub> | **نەئێشاوینە**<br><sub>ne'êşawîne</sub><br><sub>/næʔeːʃaːwiːnæ/</sub> | **ئێشابووین**<br><sub>êşabûyn</sub><br><sub>/ʔeːʃaːbuːjn/</sub> | **نەئێشابووین**<br><sub>ne'êşabûyn</sub><br><sub>/næʔeːʃaːbuːjn/</sub> |
+| 2pl | ئێوە | **ئێشاونە**<br><sub>êşawne</sub><br><sub>/ʔeːʃaːwnæ/</sub> | **نەئێشاونە**<br><sub>ne'êşawne</sub><br><sub>/næʔeːʃaːwnæ/</sub> | **ئێشابوون**<br><sub>êşabûn</sub><br><sub>/ʔeːʃaːbuːn/</sub> | **نەئێشابوون**<br><sub>ne'êşabûn</sub><br><sub>/næʔeːʃaːbuːn/</sub> |
+| 3pl | ئەوان | **ئێشاونە**<br><sub>êşawne</sub><br><sub>/ʔeːʃaːwnæ/</sub> | **نەئێشاونە**<br><sub>ne'êşawne</sub><br><sub>/næʔeːʃaːwnæ/</sub> | **ئێشابوون**<br><sub>êşabûn</sub><br><sub>/ʔeːʃaːbuːn/</sub> | **نەئێشابوون**<br><sub>ne'êşabûn</sub><br><sub>/næʔeːʃaːbuːn/</sub> |
+
+## Past subjunctive
+
+*ئێشان* (êşan) “to ache, to hurt” — present stem **ئێش**, past stem **ئێشا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **ئێشابام**<br><sub>êşabam</sub><br><sub>/ʔeːʃaːbaːm/</sub> | **ئێشابێتم**<br><sub>êşabêtim</sub><br><sub>/ʔeːʃaːbeːt(ɯ)m/</sub> | **ئێشابووبام**<br><sub>êşabûbam</sub><br><sub>/ʔeːʃaːbuːbaːm/</sub> |
+| 2sg | تۆ | **ئێشابایت**<br><sub>êşabayt</sub><br><sub>/ʔeːʃaːbaːjt/</sub> | **ئێشابێتیت**<br><sub>êşabêtît</sub><br><sub>/ʔeːʃaːbeːtiːt/</sub> | **ئێشابووبایت**<br><sub>êşabûbayt</sub><br><sub>/ʔeːʃaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **ئێشابا**<br><sub>êşaba</sub><br><sub>/ʔeːʃaːbaː/</sub> | **ئێشابێت**<br><sub>êşabêt</sub><br><sub>/ʔeːʃaːbeːt/</sub> | **ئێشابووبا**<br><sub>êşabûba</sub><br><sub>/ʔeːʃaːbuːbaː/</sub> |
+| 1pl | ئێمە | **ئێشاباین**<br><sub>êşabayn</sub><br><sub>/ʔeːʃaːbaːjn/</sub> | **ئێشابێتین**<br><sub>êşabêtîn</sub><br><sub>/ʔeːʃaːbeːtiːn/</sub> | **ئێشابووباین**<br><sub>êşabûbayn</sub><br><sub>/ʔeːʃaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **ئێشابان**<br><sub>êşaban</sub><br><sub>/ʔeːʃaːbaːn/</sub> | **ئێشابێتن**<br><sub>êşabêtin</sub><br><sub>/ʔeːʃaːbeːt(ɯ)n/</sub> | **ئێشابووبان**<br><sub>êşabûban</sub><br><sub>/ʔeːʃaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **ئێشابان**<br><sub>êşaban</sub><br><sub>/ʔeːʃaːbaːn/</sub> | **ئێشابێتن**<br><sub>êşabêtin</sub><br><sub>/ʔeːʃaːbeːt(ɯ)n/</sub> | **ئێشابووبان**<br><sub>êşabûban</sub><br><sub>/ʔeːʃaːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*ئێشان* (êşan) “to ache, to hurt” — present stem **ئێش**, past stem **ئێشا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەئێشابام**<br><sub>ne'êşabam</sub><br><sub>/næʔeːʃaːbaːm/</sub> | **نەئێشابێتم**<br><sub>ne'êşabêtim</sub><br><sub>/næʔeːʃaːbeːt(ɯ)m/</sub> | **نەئێشابووبام**<br><sub>ne'êşabûbam</sub><br><sub>/næʔeːʃaːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەئێشابایت**<br><sub>ne'êşabayt</sub><br><sub>/næʔeːʃaːbaːjt/</sub> | **نەئێشابێتیت**<br><sub>ne'êşabêtît</sub><br><sub>/næʔeːʃaːbeːtiːt/</sub> | **نەئێشابووبایت**<br><sub>ne'êşabûbayt</sub><br><sub>/næʔeːʃaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەئێشابا**<br><sub>ne'êşaba</sub><br><sub>/næʔeːʃaːbaː/</sub> | **نەئێشابێت**<br><sub>ne'êşabêt</sub><br><sub>/næʔeːʃaːbeːt/</sub> | **نەئێشابووبا**<br><sub>ne'êşabûba</sub><br><sub>/næʔeːʃaːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەئێشاباین**<br><sub>ne'êşabayn</sub><br><sub>/næʔeːʃaːbaːjn/</sub> | **نەئێشابێتین**<br><sub>ne'êşabêtîn</sub><br><sub>/næʔeːʃaːbeːtiːn/</sub> | **نەئێشابووباین**<br><sub>ne'êşabûbayn</sub><br><sub>/næʔeːʃaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەئێشابان**<br><sub>ne'êşaban</sub><br><sub>/næʔeːʃaːbaːn/</sub> | **نەئێشابێتن**<br><sub>ne'êşabêtin</sub><br><sub>/næʔeːʃaːbeːt(ɯ)n/</sub> | **نەئێشابووبان**<br><sub>ne'êşabûban</sub><br><sub>/næʔeːʃaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەئێشابان**<br><sub>ne'êşaban</sub><br><sub>/næʔeːʃaːbaːn/</sub> | **نەئێشابێتن**<br><sub>ne'êşabêtin</sub><br><sub>/næʔeːʃaːbeːt(ɯ)n/</sub> | **نەئێشابووبان**<br><sub>ne'êşabûban</sub><br><sub>/næʔeːʃaːbuːbaːn/</sub> |
 
 ## Imperative
 

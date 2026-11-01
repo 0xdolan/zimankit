@@ -70,29 +70,94 @@
 
 *گوتن* (gutin) “to say” — present stem **ڵێ**, past stem **گوت**, transitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **گوتوومە**<br><sub>gutûme</sub><br><sub>/ɡutuːmæ/</sub> | **گوتبووم**<br><sub>gutbûm</sub><br><sub>/ɡutbuːm/</sub> |
-| 2sg | تۆ | **گوتووتە**<br><sub>gutûte</sub><br><sub>/ɡutuːtæ/</sub> | **گوتبووت**<br><sub>gutbût</sub><br><sub>/ɡutbuːt/</sub> |
-| 3sg | ئەو | **گوتوویەتی**<br><sub>gutûyetî</sub><br><sub>/ɡutuːjætiː/</sub> | **گوتبووی**<br><sub>gutbûy</sub><br><sub>/ɡutbuːj/</sub> |
-| 1pl | ئێمە | **گوتوومانە**<br><sub>gutûmane</sub><br><sub>/ɡutuːmaːnæ/</sub> | **گوتبوومان**<br><sub>gutbûman</sub><br><sub>/ɡutbuːmaːn/</sub> |
-| 2pl | ئێوە | **گوتووتانە**<br><sub>gutûtane</sub><br><sub>/ɡutuːtaːnæ/</sub> | **گوتبووتان**<br><sub>gutbûtan</sub><br><sub>/ɡutbuːtaːn/</sub> |
-| 3pl | ئەوان | **گوتوویانە**<br><sub>gutûyane</sub><br><sub>/ɡutuːjaːnæ/</sub> | **گوتبوویان**<br><sub>gutbûyan</sub><br><sub>/ɡutbuːjaːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **گوتوومە**<br><sub>gutûme</sub><br><sub>/ɡutuːmæ/</sub> | **نەمگوتووە**<br><sub>nemgutûwe</sub><br><sub>/næmɡutuːwæ/</sub> | **گوتبووم**<br><sub>gutbûm</sub><br><sub>/ɡutbuːm/</sub> | **نەمگوتبوو**<br><sub>nemgutbû</sub><br><sub>/næmɡutbuː/</sub> |
+| 2sg | تۆ | **گوتووتە**<br><sub>gutûte</sub><br><sub>/ɡutuːtæ/</sub> | **نەتگوتووە**<br><sub>netgutûwe</sub><br><sub>/nætɡutuːwæ/</sub> | **گوتبووت**<br><sub>gutbût</sub><br><sub>/ɡutbuːt/</sub> | **نەتگوتبوو**<br><sub>netgutbû</sub><br><sub>/nætɡutbuː/</sub> |
+| 3sg | ئەو | **گوتوویەتی**<br><sub>gutûyetî</sub><br><sub>/ɡutuːjætiː/</sub> | **نەیگوتووە**<br><sub>neygutûwe</sub><br><sub>/næjɡutuːwæ/</sub> | **گوتبووی**<br><sub>gutbûy</sub><br><sub>/ɡutbuːj/</sub> | **نەیگوتبوو**<br><sub>neygutbû</sub><br><sub>/næjɡutbuː/</sub> |
+| 1pl | ئێمە | **گوتوومانە**<br><sub>gutûmane</sub><br><sub>/ɡutuːmaːnæ/</sub> | **نەمانگوتووە**<br><sub>nemangutûwe</sub><br><sub>/næmaːnɡutuːwæ/</sub> | **گوتبوومان**<br><sub>gutbûman</sub><br><sub>/ɡutbuːmaːn/</sub> | **نەمانگوتبوو**<br><sub>nemangutbû</sub><br><sub>/næmaːnɡutbuː/</sub> |
+| 2pl | ئێوە | **گوتووتانە**<br><sub>gutûtane</sub><br><sub>/ɡutuːtaːnæ/</sub> | **نەتانگوتووە**<br><sub>netangutûwe</sub><br><sub>/nætaːnɡutuːwæ/</sub> | **گوتبووتان**<br><sub>gutbûtan</sub><br><sub>/ɡutbuːtaːn/</sub> | **نەتانگوتبوو**<br><sub>netangutbû</sub><br><sub>/nætaːnɡutbuː/</sub> |
+| 3pl | ئەوان | **گوتوویانە**<br><sub>gutûyane</sub><br><sub>/ɡutuːjaːnæ/</sub> | **نەیانگوتووە**<br><sub>neyangutûwe</sub><br><sub>/næjaːnɡutuːwæ/</sub> | **گوتبوویان**<br><sub>gutbûyan</sub><br><sub>/ɡutbuːjaːn/</sub> | **نەیانگوتبوو**<br><sub>neyangutbû</sub><br><sub>/næjaːnɡutbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
 
-## Passive
+## Past subjunctive
 
 *گوتن* (gutin) “to say” — present stem **ڵێ**, past stem **گوت**, transitive
 
-| person | pronoun | Passive present | Passive present negative | Passive past |
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
 |---|---|---|---|---|
-| 1sg | من | **دەگوترێم**<br><sub>degutrêm</sub><br><sub>/dæɡutɾeːm/</sub> | **ناگوترێم**<br><sub>nagutrêm</sub><br><sub>/naːɡutɾeːm/</sub> | **گوترام**<br><sub>gutram</sub><br><sub>/ɡutɾaːm/</sub> |
-| 2sg | تۆ | **دەگوترێیت**<br><sub>degutrêyt</sub><br><sub>/dæɡutɾeːjt/</sub> | **ناگوترێیت**<br><sub>nagutrêyt</sub><br><sub>/naːɡutɾeːjt/</sub> | **گوترایت**<br><sub>gutrayt</sub><br><sub>/ɡutɾaːjt/</sub> |
-| 3sg | ئەو | **دەگوترێت**<br><sub>degutrêt</sub><br><sub>/dæɡutɾeːt/</sub> | **ناگوترێت**<br><sub>nagutrêt</sub><br><sub>/naːɡutɾeːt/</sub> | **گوترا**<br><sub>gutra</sub><br><sub>/ɡutɾaː/</sub> |
-| 1pl | ئێمە | **دەگوترێین**<br><sub>degutrêyn</sub><br><sub>/dæɡutɾeːjn/</sub> | **ناگوترێین**<br><sub>nagutrêyn</sub><br><sub>/naːɡutɾeːjn/</sub> | **گوتراین**<br><sub>gutrayn</sub><br><sub>/ɡutɾaːjn/</sub> |
-| 2pl | ئێوە | **دەگوترێن**<br><sub>degutrên</sub><br><sub>/dæɡutɾeːn/</sub> | **ناگوترێن**<br><sub>nagutrên</sub><br><sub>/naːɡutɾeːn/</sub> | **گوتران**<br><sub>gutran</sub><br><sub>/ɡutɾaːn/</sub> |
-| 3pl | ئەوان | **دەگوترێن**<br><sub>degutrên</sub><br><sub>/dæɡutɾeːn/</sub> | **ناگوترێن**<br><sub>nagutrên</sub><br><sub>/naːɡutɾeːn/</sub> | **گوتران**<br><sub>gutran</sub><br><sub>/ɡutɾaːn/</sub> |
+| 1sg | من | **گوتبام**<br><sub>gutbam</sub><br><sub>/ɡutbaːm/</sub> | **گوتبێتم**<br><sub>gutbêtim</sub><br><sub>/ɡutbeːt(ɯ)m/</sub> | **گوتبووبام**<br><sub>gutbûbam</sub><br><sub>/ɡutbuːbaːm/</sub> |
+| 2sg | تۆ | **گوتبات**<br><sub>gutbat</sub><br><sub>/ɡutbaːt/</sub> | **گوتبێتت**<br><sub>gutbêtit</sub><br><sub>/ɡutbeːt(ɯ)t/</sub> | **گوتبووبات**<br><sub>gutbûbat</sub><br><sub>/ɡutbuːbaːt/</sub> |
+| 3sg | ئەو | **گوتبای**<br><sub>gutbay</sub><br><sub>/ɡutbaːj/</sub> | **گوتبێتی**<br><sub>gutbêtî</sub><br><sub>/ɡutbeːtiː/</sub> | **گوتبووبای**<br><sub>gutbûbay</sub><br><sub>/ɡutbuːbaːj/</sub> |
+| 1pl | ئێمە | **گوتبامان**<br><sub>gutbaman</sub><br><sub>/ɡutbaːmaːn/</sub> | **گوتبێتمان**<br><sub>gutbêtman</sub><br><sub>/ɡutbeːtmaːn/</sub> | **گوتبووبامان**<br><sub>gutbûbaman</sub><br><sub>/ɡutbuːbaːmaːn/</sub> |
+| 2pl | ئێوە | **گوتباتان**<br><sub>gutbatan</sub><br><sub>/ɡutbaːtaːn/</sub> | **گوتبێتتان**<br><sub>gutbêttan</sub><br><sub>/ɡutbeːttaːn/</sub> | **گوتبووباتان**<br><sub>gutbûbatan</sub><br><sub>/ɡutbuːbaːtaːn/</sub> |
+| 3pl | ئەوان | **گوتبایان**<br><sub>gutbayan</sub><br><sub>/ɡutbaːjaːn/</sub> | **گوتبێتیان**<br><sub>gutbêtyan</sub><br><sub>/ɡutbeːtjaːn/</sub> | **گوتبووبایان**<br><sub>gutbûbayan</sub><br><sub>/ɡutbuːbaːjaːn/</sub> |
+
+## Past subjunctive negative
+
+*گوتن* (gutin) “to say” — present stem **ڵێ**, past stem **گوت**, transitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەمگوتبا**<br><sub>nemgutba</sub><br><sub>/næmɡutbaː/</sub> | **نەمگوتبێت**<br><sub>nemgutbêt</sub><br><sub>/næmɡutbeːt/</sub> | **نەمگوتبووبا**<br><sub>nemgutbûba</sub><br><sub>/næmɡutbuːbaː/</sub> |
+| 2sg | تۆ | **نەتگوتبا**<br><sub>netgutba</sub><br><sub>/nætɡutbaː/</sub> | **نەتگوتبێت**<br><sub>netgutbêt</sub><br><sub>/nætɡutbeːt/</sub> | **نەتگوتبووبا**<br><sub>netgutbûba</sub><br><sub>/nætɡutbuːbaː/</sub> |
+| 3sg | ئەو | **نەیگوتبا**<br><sub>neygutba</sub><br><sub>/næjɡutbaː/</sub> | **نەیگوتبێت**<br><sub>neygutbêt</sub><br><sub>/næjɡutbeːt/</sub> | **نەیگوتبووبا**<br><sub>neygutbûba</sub><br><sub>/næjɡutbuːbaː/</sub> |
+| 1pl | ئێمە | **نەمانگوتبا**<br><sub>nemangutba</sub><br><sub>/næmaːnɡutbaː/</sub> | **نەمانگوتبێت**<br><sub>nemangutbêt</sub><br><sub>/næmaːnɡutbeːt/</sub> | **نەمانگوتبووبا**<br><sub>nemangutbûba</sub><br><sub>/næmaːnɡutbuːbaː/</sub> |
+| 2pl | ئێوە | **نەتانگوتبا**<br><sub>netangutba</sub><br><sub>/nætaːnɡutbaː/</sub> | **نەتانگوتبێت**<br><sub>netangutbêt</sub><br><sub>/nætaːnɡutbeːt/</sub> | **نەتانگوتبووبا**<br><sub>netangutbûba</sub><br><sub>/nætaːnɡutbuːbaː/</sub> |
+| 3pl | ئەوان | **نەیانگوتبا**<br><sub>neyangutba</sub><br><sub>/næjaːnɡutbaː/</sub> | **نەیانگوتبێت**<br><sub>neyangutbêt</sub><br><sub>/næjaːnɡutbeːt/</sub> | **نەیانگوتبووبا**<br><sub>neyangutbûba</sub><br><sub>/næjaːnɡutbuːbaː/</sub> |
+
+## Passive: present and subjunctive
+
+*گوتن* (gutin) “to say” — present stem **ڵێ**, past stem **گوت**, transitive
+
+| person | pronoun | Passive present | Passive present negative | Passive subjunctive | Passive subjunctive negative |
+|---|---|---|---|---|---|
+| 1sg | من | **دەگوترێم**<br><sub>degutrêm</sub><br><sub>/dæɡutɾeːm/</sub> | **ناگوترێم**<br><sub>nagutrêm</sub><br><sub>/naːɡutɾeːm/</sub> | **بگوترێم**<br><sub>bigutrêm</sub><br><sub>/b(ɯ)ɡutɾeːm/</sub> | **نەگوترێم**<br><sub>negutrêm</sub><br><sub>/næɡutɾeːm/</sub> |
+| 2sg | تۆ | **دەگوترێیت**<br><sub>degutrêyt</sub><br><sub>/dæɡutɾeːjt/</sub> | **ناگوترێیت**<br><sub>nagutrêyt</sub><br><sub>/naːɡutɾeːjt/</sub> | **بگوترێیت**<br><sub>bigutrêyt</sub><br><sub>/b(ɯ)ɡutɾeːjt/</sub> | **نەگوترێیت**<br><sub>negutrêyt</sub><br><sub>/næɡutɾeːjt/</sub> |
+| 3sg | ئەو | **دەگوترێت**<br><sub>degutrêt</sub><br><sub>/dæɡutɾeːt/</sub> | **ناگوترێت**<br><sub>nagutrêt</sub><br><sub>/naːɡutɾeːt/</sub> | **بگوترێت**<br><sub>bigutrêt</sub><br><sub>/b(ɯ)ɡutɾeːt/</sub> | **نەگوترێت**<br><sub>negutrêt</sub><br><sub>/næɡutɾeːt/</sub> |
+| 1pl | ئێمە | **دەگوترێین**<br><sub>degutrêyn</sub><br><sub>/dæɡutɾeːjn/</sub> | **ناگوترێین**<br><sub>nagutrêyn</sub><br><sub>/naːɡutɾeːjn/</sub> | **بگوترێین**<br><sub>bigutrêyn</sub><br><sub>/b(ɯ)ɡutɾeːjn/</sub> | **نەگوترێین**<br><sub>negutrêyn</sub><br><sub>/næɡutɾeːjn/</sub> |
+| 2pl | ئێوە | **دەگوترێن**<br><sub>degutrên</sub><br><sub>/dæɡutɾeːn/</sub> | **ناگوترێن**<br><sub>nagutrên</sub><br><sub>/naːɡutɾeːn/</sub> | **بگوترێن**<br><sub>bigutrên</sub><br><sub>/b(ɯ)ɡutɾeːn/</sub> | **نەگوترێن**<br><sub>negutrên</sub><br><sub>/næɡutɾeːn/</sub> |
+| 3pl | ئەوان | **دەگوترێن**<br><sub>degutrên</sub><br><sub>/dæɡutɾeːn/</sub> | **ناگوترێن**<br><sub>nagutrên</sub><br><sub>/naːɡutɾeːn/</sub> | **بگوترێن**<br><sub>bigutrên</sub><br><sub>/b(ɯ)ɡutɾeːn/</sub> | **نەگوترێن**<br><sub>negutrên</sub><br><sub>/næɡutɾeːn/</sub> |
+
+## Passive: past
+
+*گوتن* (gutin) “to say” — present stem **ڵێ**, past stem **گوت**, transitive
+
+| person | pronoun | Passive past | Passive past negative | Passive past progressive | Passive past progressive negative |
+|---|---|---|---|---|---|
+| 1sg | من | **گوترام**<br><sub>gutram</sub><br><sub>/ɡutɾaːm/</sub> | **نەگوترام**<br><sub>negutram</sub><br><sub>/næɡutɾaːm/</sub> | **دەگوترام**<br><sub>degutram</sub><br><sub>/dæɡutɾaːm/</sub> | **نەدەگوترام**<br><sub>nedegutram</sub><br><sub>/nædæɡutɾaːm/</sub> |
+| 2sg | تۆ | **گوترایت**<br><sub>gutrayt</sub><br><sub>/ɡutɾaːjt/</sub> | **نەگوترایت**<br><sub>negutrayt</sub><br><sub>/næɡutɾaːjt/</sub> | **دەگوترایت**<br><sub>degutrayt</sub><br><sub>/dæɡutɾaːjt/</sub> | **نەدەگوترایت**<br><sub>nedegutrayt</sub><br><sub>/nædæɡutɾaːjt/</sub> |
+| 3sg | ئەو | **گوترا**<br><sub>gutra</sub><br><sub>/ɡutɾaː/</sub> | **نەگوترا**<br><sub>negutra</sub><br><sub>/næɡutɾaː/</sub> | **دەگوترا**<br><sub>degutra</sub><br><sub>/dæɡutɾaː/</sub> | **نەدەگوترا**<br><sub>nedegutra</sub><br><sub>/nædæɡutɾaː/</sub> |
+| 1pl | ئێمە | **گوتراین**<br><sub>gutrayn</sub><br><sub>/ɡutɾaːjn/</sub> | **نەگوتراین**<br><sub>negutrayn</sub><br><sub>/næɡutɾaːjn/</sub> | **دەگوتراین**<br><sub>degutrayn</sub><br><sub>/dæɡutɾaːjn/</sub> | **نەدەگوتراین**<br><sub>nedegutrayn</sub><br><sub>/nædæɡutɾaːjn/</sub> |
+| 2pl | ئێوە | **گوتران**<br><sub>gutran</sub><br><sub>/ɡutɾaːn/</sub> | **نەگوتران**<br><sub>negutran</sub><br><sub>/næɡutɾaːn/</sub> | **دەگوتران**<br><sub>degutran</sub><br><sub>/dæɡutɾaːn/</sub> | **نەدەگوتران**<br><sub>nedegutran</sub><br><sub>/nædæɡutɾaːn/</sub> |
+| 3pl | ئەوان | **گوتران**<br><sub>gutran</sub><br><sub>/ɡutɾaːn/</sub> | **نەگوتران**<br><sub>negutran</sub><br><sub>/næɡutɾaːn/</sub> | **دەگوتران**<br><sub>degutran</sub><br><sub>/dæɡutɾaːn/</sub> | **نەدەگوتران**<br><sub>nedegutran</sub><br><sub>/nædæɡutɾaːn/</sub> |
+
+## Passive: perfect tenses
+
+*گوتن* (gutin) “to say” — present stem **ڵێ**, past stem **گوت**, transitive
+
+| person | pronoun | Passive perfect | Passive perfect negative | Passive past perfect | Passive past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **گوتراوم**<br><sub>gutrawm</sub><br><sub>/ɡutɾaːwm/</sub> | **نەگوتراوم**<br><sub>negutrawm</sub><br><sub>/næɡutɾaːwm/</sub> | **گوترابووم**<br><sub>gutrabûm</sub><br><sub>/ɡutɾaːbuːm/</sub> | **نەگوترابووم**<br><sub>negutrabûm</sub><br><sub>/næɡutɾaːbuːm/</sub> |
+| 2sg | تۆ | **گوتراویت**<br><sub>gutrawît</sub><br><sub>/ɡutɾaːwiːt/</sub> | **نەگوتراویت**<br><sub>negutrawît</sub><br><sub>/næɡutɾaːwiːt/</sub> | **گوترابوویت**<br><sub>gutrabûyt</sub><br><sub>/ɡutɾaːbuːjt/</sub> | **نەگوترابوویت**<br><sub>negutrabûyt</sub><br><sub>/næɡutɾaːbuːjt/</sub> |
+| 3sg | ئەو | **گوتراوە**<br><sub>gutrawe</sub><br><sub>/ɡutɾaːwæ/</sub> | **نەگوتراوە**<br><sub>negutrawe</sub><br><sub>/næɡutɾaːwæ/</sub> | **گوترابوو**<br><sub>gutrabû</sub><br><sub>/ɡutɾaːbuː/</sub> | **نەگوترابوو**<br><sub>negutrabû</sub><br><sub>/næɡutɾaːbuː/</sub> |
+| 1pl | ئێمە | **گوتراوین**<br><sub>gutrawîn</sub><br><sub>/ɡutɾaːwiːn/</sub> | **نەگوتراوین**<br><sub>negutrawîn</sub><br><sub>/næɡutɾaːwiːn/</sub> | **گوترابووین**<br><sub>gutrabûyn</sub><br><sub>/ɡutɾaːbuːjn/</sub> | **نەگوترابووین**<br><sub>negutrabûyn</sub><br><sub>/næɡutɾaːbuːjn/</sub> |
+| 2pl | ئێوە | **گوتراون**<br><sub>gutrawn</sub><br><sub>/ɡutɾaːwn/</sub> | **نەگوتراون**<br><sub>negutrawn</sub><br><sub>/næɡutɾaːwn/</sub> | **گوترابوون**<br><sub>gutrabûn</sub><br><sub>/ɡutɾaːbuːn/</sub> | **نەگوترابوون**<br><sub>negutrabûn</sub><br><sub>/næɡutɾaːbuːn/</sub> |
+| 3pl | ئەوان | **گوتراون**<br><sub>gutrawn</sub><br><sub>/ɡutɾaːwn/</sub> | **نەگوتراون**<br><sub>negutrawn</sub><br><sub>/næɡutɾaːwn/</sub> | **گوترابوون**<br><sub>gutrabûn</sub><br><sub>/ɡutɾaːbuːn/</sub> | **نەگوترابوون**<br><sub>negutrabûn</sub><br><sub>/næɡutɾaːbuːn/</sub> |
+
+## Passive: past subjunctive
+
+*گوتن* (gutin) “to say” — present stem **ڵێ**, past stem **گوت**, transitive
+
+| person | pronoun | Passive past subjunctive | Passive perfect subjunctive | Passive past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **گوترابام**<br><sub>gutrabam</sub><br><sub>/ɡutɾaːbaːm/</sub> | **گوترابێتم**<br><sub>gutrabêtim</sub><br><sub>/ɡutɾaːbeːt(ɯ)m/</sub> | **گوترابووبام**<br><sub>gutrabûbam</sub><br><sub>/ɡutɾaːbuːbaːm/</sub> |
+| 2sg | تۆ | **گوترابایت**<br><sub>gutrabayt</sub><br><sub>/ɡutɾaːbaːjt/</sub> | **گوترابێتیت**<br><sub>gutrabêtît</sub><br><sub>/ɡutɾaːbeːtiːt/</sub> | **گوترابووبایت**<br><sub>gutrabûbayt</sub><br><sub>/ɡutɾaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **گوترابا**<br><sub>gutraba</sub><br><sub>/ɡutɾaːbaː/</sub> | **گوترابێت**<br><sub>gutrabêt</sub><br><sub>/ɡutɾaːbeːt/</sub> | **گوترابووبا**<br><sub>gutrabûba</sub><br><sub>/ɡutɾaːbuːbaː/</sub> |
+| 1pl | ئێمە | **گوتراباین**<br><sub>gutrabayn</sub><br><sub>/ɡutɾaːbaːjn/</sub> | **گوترابێتین**<br><sub>gutrabêtîn</sub><br><sub>/ɡutɾaːbeːtiːn/</sub> | **گوترابووباین**<br><sub>gutrabûbayn</sub><br><sub>/ɡutɾaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **گوترابان**<br><sub>gutraban</sub><br><sub>/ɡutɾaːbaːn/</sub> | **گوترابێتن**<br><sub>gutrabêtin</sub><br><sub>/ɡutɾaːbeːt(ɯ)n/</sub> | **گوترابووبان**<br><sub>gutrabûban</sub><br><sub>/ɡutɾaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **گوترابان**<br><sub>gutraban</sub><br><sub>/ɡutɾaːbaːn/</sub> | **گوترابێتن**<br><sub>gutrabêtin</sub><br><sub>/ɡutɾaːbeːt(ɯ)n/</sub> | **گوترابووبان**<br><sub>gutrabûban</sub><br><sub>/ɡutɾaːbuːbaːn/</sub> |
 
 ## Imperative
 
@@ -111,6 +176,9 @@
 | past progressive, agent clitic elsewhere | **دەگوت** | degut |
 | present perfect, agent clitic elsewhere | **گوتووە** | gutûwe |
 | past perfect, agent clitic elsewhere | **گوتبوو** | gutbû |
+| past subj, agent clitic elsewhere | **گوتبا** | gutba |
+| perfect subj, agent clitic elsewhere | **گوتبێت** | gutbêt |
+| pluperfect subj, agent clitic elsewhere | **گوتبووبا** | gutbûba |
 | infinitive | **گوتن** | gutin |
 | past participle | **گوتوو** | gutû |
 | passive participle | **گوتراو** | gutraw |

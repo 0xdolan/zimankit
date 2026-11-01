@@ -107,6 +107,7 @@ These are open, so zimankit should not change them silently. The interim choice 
 | clitic after `نە`/`دە` on a simple verb | spaced `نەم هێنا`, `دەمان سڕی` in school material; also solid `دەمانخوێند` | keep solid |
 | plural of ە-final nouns | `قوتابخانان`, `پەنجەران`, `دەرگەیان` | not generated |
 | definite after a vowel | by syllable count, both `چراکە` and `چرایەکە`, or by final letter | by final letter |
+| negative past subjunctive with a clitic | not printed in the sources checked; `نەمخواردبا` follows the clitic rule, `نەخواردبام` is the alternative | generate the first, accept both |
 | 3sg pluperfect + ەوە | `دۆزیبووەوە` or `هێنابوویەوە` | the first |
 | imperative + ەوە | `بکەرەوە` or `بکەوە` | not changed |
 | `هاتن` negative | `نایەم`, `مەیە` or `نایێم`, `مەیێ` | the common forms |
@@ -122,12 +123,11 @@ These are open, so zimankit should not change them silently. The interim choice 
 
 In the order they depend on each other:
 
-1. **Paradigms:** negative perfects (`نەهاتووە`), the long written perfect (`هاتوومە`), past subjunctive (`خواردبا`, `خواردبێت`), and most passive tenses (`دەکرا`, `بکرێت`, `کرابوو`).
-2. **Morphemes:** the copula `ە`/`یە` and person copulas (`کوردە`, `مامۆستایە`, `ماڵدام`); indefinite `ێ` and `ەک`; stems such as `سنەیی` and `ڕەشایی`; prefixes `بێ`, `نا`, `هاو`; compound analysis (`گوڵ+ە+گەنم`); `پێ`, `لێ`, `تێ` as adpositions rather than nouns; definite noun + adjective (`پیاوە باشەکە`).
-3. **Split forms:** correct clitic position in every tense, spacing classes for preverbs, then reading `هەڵم گرت`, `ڕای گەیاند` and `دەست پێ دەکەم` as one verb, then object clitics (`دەتبینم`, `بینیمیت`).
-4. **Parser:** circumpositions over several words, subordinate clauses, Kurdish labels (`نیهاد`, `جێگری بکەر`), and a Sorani agreement check.
-5. **Lexicon overrides:** a curated table so that the standard form is chosen when frequency prefers another (`وەکوو`, `بەرانبەر`, `کەرکووک`).
-6. **Generated pages and lessons:** print split forms first and teach them. This comes last on purpose: until step 3 is done, zimankit could not read the spelling its own course would teach.
+1. **Morphemes:** the copula `ە`/`یە` and person copulas (`کوردە`, `مامۆستایە`, `ماڵدام`); indefinite `ێ` and `ەک`; stems such as `سنەیی` and `ڕەشایی`; prefixes `بێ`, `نا`, `هاو`; compound analysis (`گوڵ+ە+گەنم`); `پێ`, `لێ`, `تێ` as adpositions rather than nouns; definite noun + adjective (`پیاوە باشەکە`).
+2. **Split forms:** correct clitic position in every tense, spacing classes for preverbs, then reading `هەڵم گرت`, `ڕای گەیاند` and `دەست پێ دەکەم` as one verb, then object clitics (`دەتبینم`, `بینیمیت`).
+3. **Parser:** circumpositions over several words, subordinate clauses, Kurdish labels (`نیهاد`, `جێگری بکەر`), and a Sorani agreement check.
+4. **Lexicon overrides:** a curated table so that the standard form is chosen when frequency prefers another (`وەکوو`, `بەرانبەر`, `کەرکووک`).
+5. **Generated pages and lessons:** print split forms first and teach them. This comes last on purpose: until step 2 is done, zimankit could not read the spelling its own course would teach.
 
 Some transliterations are also still doubtful and have not been checked against a source, such as `rakridin` for `ڕاکردن` and `hellîgrit` for `هەڵیگرت`.
 

@@ -66,14 +66,40 @@
 
 *هاتنەوە* (hatnewe) “to come back” — present stem **ێ**, past stem **هات**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **هاتوومەتەوە**<br><sub>hatûmetewe</sub><br><sub>/haːtuːmætæwæ/</sub> | **هاتبوومەوە**<br><sub>hatbûmewe</sub><br><sub>/haːtbuːmæwæ/</sub> |
-| 2sg | تۆ | **هاتوویتەتەوە**<br><sub>hatûytetewe</sub><br><sub>/haːtuːjtætæwæ/</sub> | **هاتبوویتەوە**<br><sub>hatbûytewe</sub><br><sub>/haːtbuːjtæwæ/</sub> |
-| 3sg | ئەو | **هاتووەتەوە**<br><sub>hatûwetewe</sub><br><sub>/haːtuːwætæwæ/</sub> | **هاتبووەوە**<br><sub>hatbûwewe</sub><br><sub>/haːtbuːwæwæ/</sub> |
-| 1pl | ئێمە | **هاتووینەتەوە**<br><sub>hatûynetewe</sub><br><sub>/haːtuːjnætæwæ/</sub> | **هاتبووینەوە**<br><sub>hatbûynewe</sub><br><sub>/haːtbuːjnæwæ/</sub> |
-| 2pl | ئێوە | **هاتوونەتەوە**<br><sub>hatûnetewe</sub><br><sub>/haːtuːnætæwæ/</sub> | **هاتبوونەوە**<br><sub>hatbûnewe</sub><br><sub>/haːtbuːnæwæ/</sub> |
-| 3pl | ئەوان | **هاتوونەتەوە**<br><sub>hatûnetewe</sub><br><sub>/haːtuːnætæwæ/</sub> | **هاتبوونەوە**<br><sub>hatbûnewe</sub><br><sub>/haːtbuːnæwæ/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **هاتوومەتەوە**<br><sub>hatûmetewe</sub><br><sub>/haːtuːmætæwæ/</sub> | **نەهاتوومەتەوە**<br><sub>nehatûmetewe</sub><br><sub>/næhaːtuːmætæwæ/</sub> | **هاتبوومەوە**<br><sub>hatbûmewe</sub><br><sub>/haːtbuːmæwæ/</sub> | **نەهاتبوومەوە**<br><sub>nehatbûmewe</sub><br><sub>/næhaːtbuːmæwæ/</sub> |
+| 2sg | تۆ | **هاتوویتەتەوە**<br><sub>hatûytetewe</sub><br><sub>/haːtuːjtætæwæ/</sub> | **نەهاتوویتەتەوە**<br><sub>nehatûytetewe</sub><br><sub>/næhaːtuːjtætæwæ/</sub> | **هاتبوویتەوە**<br><sub>hatbûytewe</sub><br><sub>/haːtbuːjtæwæ/</sub> | **نەهاتبوویتەوە**<br><sub>nehatbûytewe</sub><br><sub>/næhaːtbuːjtæwæ/</sub> |
+| 3sg | ئەو | **هاتووەتەوە**<br><sub>hatûwetewe</sub><br><sub>/haːtuːwætæwæ/</sub> | **نەهاتووەتەوە**<br><sub>nehatûwetewe</sub><br><sub>/næhaːtuːwætæwæ/</sub> | **هاتبووەوە**<br><sub>hatbûwewe</sub><br><sub>/haːtbuːwæwæ/</sub> | **نەهاتبووەوە**<br><sub>nehatbûwewe</sub><br><sub>/næhaːtbuːwæwæ/</sub> |
+| 1pl | ئێمە | **هاتووینەتەوە**<br><sub>hatûynetewe</sub><br><sub>/haːtuːjnætæwæ/</sub> | **نەهاتووینەتەوە**<br><sub>nehatûynetewe</sub><br><sub>/næhaːtuːjnætæwæ/</sub> | **هاتبووینەوە**<br><sub>hatbûynewe</sub><br><sub>/haːtbuːjnæwæ/</sub> | **نەهاتبووینەوە**<br><sub>nehatbûynewe</sub><br><sub>/næhaːtbuːjnæwæ/</sub> |
+| 2pl | ئێوە | **هاتوونەتەوە**<br><sub>hatûnetewe</sub><br><sub>/haːtuːnætæwæ/</sub> | **نەهاتوونەتەوە**<br><sub>nehatûnetewe</sub><br><sub>/næhaːtuːnætæwæ/</sub> | **هاتبوونەوە**<br><sub>hatbûnewe</sub><br><sub>/haːtbuːnæwæ/</sub> | **نەهاتبوونەوە**<br><sub>nehatbûnewe</sub><br><sub>/næhaːtbuːnæwæ/</sub> |
+| 3pl | ئەوان | **هاتوونەتەوە**<br><sub>hatûnetewe</sub><br><sub>/haːtuːnætæwæ/</sub> | **نەهاتوونەتەوە**<br><sub>nehatûnetewe</sub><br><sub>/næhaːtuːnætæwæ/</sub> | **هاتبوونەوە**<br><sub>hatbûnewe</sub><br><sub>/haːtbuːnæwæ/</sub> | **نەهاتبوونەوە**<br><sub>nehatbûnewe</sub><br><sub>/næhaːtbuːnæwæ/</sub> |
+
+## Past subjunctive
+
+*هاتنەوە* (hatnewe) “to come back” — present stem **ێ**, past stem **هات**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **هاتبامەوە**<br><sub>hatbamewe</sub><br><sub>/haːtbaːmæwæ/</sub> | **هاتبێتمەوە**<br><sub>hatbêtmewe</sub><br><sub>/haːtbeːtmæwæ/</sub> | **هاتبووبامەوە**<br><sub>hatbûbamewe</sub><br><sub>/haːtbuːbaːmæwæ/</sub> |
+| 2sg | تۆ | **هاتبایتەوە**<br><sub>hatbaytewe</sub><br><sub>/haːtbaːjtæwæ/</sub> | **هاتبێتیتەوە**<br><sub>hatbêtîtewe</sub><br><sub>/haːtbeːtiːtæwæ/</sub> | **هاتبووبایتەوە**<br><sub>hatbûbaytewe</sub><br><sub>/haːtbuːbaːjtæwæ/</sub> |
+| 3sg | ئەو | **هاتبایەوە**<br><sub>hatbayewe</sub><br><sub>/haːtbaːjæwæ/</sub> | **هاتبێتەوە**<br><sub>hatbêtewe</sub><br><sub>/haːtbeːtæwæ/</sub> | **هاتبووبایەوە**<br><sub>hatbûbayewe</sub><br><sub>/haːtbuːbaːjæwæ/</sub> |
+| 1pl | ئێمە | **هاتباینەوە**<br><sub>hatbaynewe</sub><br><sub>/haːtbaːjnæwæ/</sub> | **هاتبێتینەوە**<br><sub>hatbêtînewe</sub><br><sub>/haːtbeːtiːnæwæ/</sub> | **هاتبووباینەوە**<br><sub>hatbûbaynewe</sub><br><sub>/haːtbuːbaːjnæwæ/</sub> |
+| 2pl | ئێوە | **هاتبانەوە**<br><sub>hatbanewe</sub><br><sub>/haːtbaːnæwæ/</sub> | **هاتبێتنەوە**<br><sub>hatbêtnewe</sub><br><sub>/haːtbeːtnæwæ/</sub> | **هاتبووبانەوە**<br><sub>hatbûbanewe</sub><br><sub>/haːtbuːbaːnæwæ/</sub> |
+| 3pl | ئەوان | **هاتبانەوە**<br><sub>hatbanewe</sub><br><sub>/haːtbaːnæwæ/</sub> | **هاتبێتنەوە**<br><sub>hatbêtnewe</sub><br><sub>/haːtbeːtnæwæ/</sub> | **هاتبووبانەوە**<br><sub>hatbûbanewe</sub><br><sub>/haːtbuːbaːnæwæ/</sub> |
+
+## Past subjunctive negative
+
+*هاتنەوە* (hatnewe) “to come back” — present stem **ێ**, past stem **هات**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەهاتبامەوە**<br><sub>nehatbamewe</sub><br><sub>/næhaːtbaːmæwæ/</sub> | **نەهاتبێتمەوە**<br><sub>nehatbêtmewe</sub><br><sub>/næhaːtbeːtmæwæ/</sub> | **نەهاتبووبامەوە**<br><sub>nehatbûbamewe</sub><br><sub>/næhaːtbuːbaːmæwæ/</sub> |
+| 2sg | تۆ | **نەهاتبایتەوە**<br><sub>nehatbaytewe</sub><br><sub>/næhaːtbaːjtæwæ/</sub> | **نەهاتبێتیتەوە**<br><sub>nehatbêtîtewe</sub><br><sub>/næhaːtbeːtiːtæwæ/</sub> | **نەهاتبووبایتەوە**<br><sub>nehatbûbaytewe</sub><br><sub>/næhaːtbuːbaːjtæwæ/</sub> |
+| 3sg | ئەو | **نەهاتبایەوە**<br><sub>nehatbayewe</sub><br><sub>/næhaːtbaːjæwæ/</sub> | **نەهاتبێتەوە**<br><sub>nehatbêtewe</sub><br><sub>/næhaːtbeːtæwæ/</sub> | **نەهاتبووبایەوە**<br><sub>nehatbûbayewe</sub><br><sub>/næhaːtbuːbaːjæwæ/</sub> |
+| 1pl | ئێمە | **نەهاتباینەوە**<br><sub>nehatbaynewe</sub><br><sub>/næhaːtbaːjnæwæ/</sub> | **نەهاتبێتینەوە**<br><sub>nehatbêtînewe</sub><br><sub>/næhaːtbeːtiːnæwæ/</sub> | **نەهاتبووباینەوە**<br><sub>nehatbûbaynewe</sub><br><sub>/næhaːtbuːbaːjnæwæ/</sub> |
+| 2pl | ئێوە | **نەهاتبانەوە**<br><sub>nehatbanewe</sub><br><sub>/næhaːtbaːnæwæ/</sub> | **نەهاتبێتنەوە**<br><sub>nehatbêtnewe</sub><br><sub>/næhaːtbeːtnæwæ/</sub> | **نەهاتبووبانەوە**<br><sub>nehatbûbanewe</sub><br><sub>/næhaːtbuːbaːnæwæ/</sub> |
+| 3pl | ئەوان | **نەهاتبانەوە**<br><sub>nehatbanewe</sub><br><sub>/næhaːtbaːnæwæ/</sub> | **نەهاتبێتنەوە**<br><sub>nehatbêtnewe</sub><br><sub>/næhaːtbeːtnæwæ/</sub> | **نەهاتبووبانەوە**<br><sub>nehatbûbanewe</sub><br><sub>/næhaːtbuːbaːnæwæ/</sub> |
 
 ## Imperative
 

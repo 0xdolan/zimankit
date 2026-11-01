@@ -67,14 +67,40 @@
 
 *پێکەنین* (pêkenîn) “to laugh” — present stem **کەن**, past stem **کەنی**, intransitive, preverb **پێ**
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **پێکەنیوم**<br><sub>pêkenîwm</sub><br><sub>/peːkæniːwm/</sub> | **پێکەنیبووم**<br><sub>pêkenîbûm</sub><br><sub>/peːkæniːbuːm/</sub> |
-| 2sg | تۆ | **پێکەنیویت**<br><sub>pêkenîwît</sub><br><sub>/peːkæniːwiːt/</sub> | **پێکەنیبوویت**<br><sub>pêkenîbûyt</sub><br><sub>/peːkæniːbuːjt/</sub> |
-| 3sg | ئەو | **پێکەنیوە**<br><sub>pêkenîwe</sub><br><sub>/peːkæniːwæ/</sub> | **پێکەنیبوو**<br><sub>pêkenîbû</sub><br><sub>/peːkæniːbuː/</sub> |
-| 1pl | ئێمە | **پێکەنیوین**<br><sub>pêkenîwîn</sub><br><sub>/peːkæniːwiːn/</sub> | **پێکەنیبووین**<br><sub>pêkenîbûyn</sub><br><sub>/peːkæniːbuːjn/</sub> |
-| 2pl | ئێوە | **پێکەنیون**<br><sub>pêkenîwn</sub><br><sub>/peːkæniːwn/</sub> | **پێکەنیبوون**<br><sub>pêkenîbûn</sub><br><sub>/peːkæniːbuːn/</sub> |
-| 3pl | ئەوان | **پێکەنیون**<br><sub>pêkenîwn</sub><br><sub>/peːkæniːwn/</sub> | **پێکەنیبوون**<br><sub>pêkenîbûn</sub><br><sub>/peːkæniːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **پێکەنیومە**<br><sub>pêkenîwme</sub><br><sub>/peːkæniːwmæ/</sub> | **پێنەکەنیومە**<br><sub>pênekenîwme</sub><br><sub>/peːnækæniːwmæ/</sub> | **پێکەنیبووم**<br><sub>pêkenîbûm</sub><br><sub>/peːkæniːbuːm/</sub> | **پێنەکەنیبووم**<br><sub>pênekenîbûm</sub><br><sub>/peːnækæniːbuːm/</sub> |
+| 2sg | تۆ | **پێکەنیویتە**<br><sub>pêkenîwîte</sub><br><sub>/peːkæniːwiːtæ/</sub> | **پێنەکەنیویتە**<br><sub>pênekenîwîte</sub><br><sub>/peːnækæniːwiːtæ/</sub> | **پێکەنیبوویت**<br><sub>pêkenîbûyt</sub><br><sub>/peːkæniːbuːjt/</sub> | **پێنەکەنیبوویت**<br><sub>pênekenîbûyt</sub><br><sub>/peːnækæniːbuːjt/</sub> |
+| 3sg | ئەو | **پێکەنیوە**<br><sub>pêkenîwe</sub><br><sub>/peːkæniːwæ/</sub> | **پێنەکەنیوە**<br><sub>pênekenîwe</sub><br><sub>/peːnækæniːwæ/</sub> | **پێکەنیبوو**<br><sub>pêkenîbû</sub><br><sub>/peːkæniːbuː/</sub> | **پێنەکەنیبوو**<br><sub>pênekenîbû</sub><br><sub>/peːnækæniːbuː/</sub> |
+| 1pl | ئێمە | **پێکەنیوینە**<br><sub>pêkenîwîne</sub><br><sub>/peːkæniːwiːnæ/</sub> | **پێنەکەنیوینە**<br><sub>pênekenîwîne</sub><br><sub>/peːnækæniːwiːnæ/</sub> | **پێکەنیبووین**<br><sub>pêkenîbûyn</sub><br><sub>/peːkæniːbuːjn/</sub> | **پێنەکەنیبووین**<br><sub>pênekenîbûyn</sub><br><sub>/peːnækæniːbuːjn/</sub> |
+| 2pl | ئێوە | **پێکەنیونە**<br><sub>pêkenîwne</sub><br><sub>/peːkæniːwnæ/</sub> | **پێنەکەنیونە**<br><sub>pênekenîwne</sub><br><sub>/peːnækæniːwnæ/</sub> | **پێکەنیبوون**<br><sub>pêkenîbûn</sub><br><sub>/peːkæniːbuːn/</sub> | **پێنەکەنیبوون**<br><sub>pênekenîbûn</sub><br><sub>/peːnækæniːbuːn/</sub> |
+| 3pl | ئەوان | **پێکەنیونە**<br><sub>pêkenîwne</sub><br><sub>/peːkæniːwnæ/</sub> | **پێنەکەنیونە**<br><sub>pênekenîwne</sub><br><sub>/peːnækæniːwnæ/</sub> | **پێکەنیبوون**<br><sub>pêkenîbûn</sub><br><sub>/peːkæniːbuːn/</sub> | **پێنەکەنیبوون**<br><sub>pênekenîbûn</sub><br><sub>/peːnækæniːbuːn/</sub> |
+
+## Past subjunctive
+
+*پێکەنین* (pêkenîn) “to laugh” — present stem **کەن**, past stem **کەنی**, intransitive, preverb **پێ**
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **پێکەنیبام**<br><sub>pêkenîbam</sub><br><sub>/peːkæniːbaːm/</sub> | **پێکەنیبێتم**<br><sub>pêkenîbêtim</sub><br><sub>/peːkæniːbeːt(ɯ)m/</sub> | **پێکەنیبووبام**<br><sub>pêkenîbûbam</sub><br><sub>/peːkæniːbuːbaːm/</sub> |
+| 2sg | تۆ | **پێکەنیبایت**<br><sub>pêkenîbayt</sub><br><sub>/peːkæniːbaːjt/</sub> | **پێکەنیبێتیت**<br><sub>pêkenîbêtît</sub><br><sub>/peːkæniːbeːtiːt/</sub> | **پێکەنیبووبایت**<br><sub>pêkenîbûbayt</sub><br><sub>/peːkæniːbuːbaːjt/</sub> |
+| 3sg | ئەو | **پێکەنیبا**<br><sub>pêkenîba</sub><br><sub>/peːkæniːbaː/</sub> | **پێکەنیبێت**<br><sub>pêkenîbêt</sub><br><sub>/peːkæniːbeːt/</sub> | **پێکەنیبووبا**<br><sub>pêkenîbûba</sub><br><sub>/peːkæniːbuːbaː/</sub> |
+| 1pl | ئێمە | **پێکەنیباین**<br><sub>pêkenîbayn</sub><br><sub>/peːkæniːbaːjn/</sub> | **پێکەنیبێتین**<br><sub>pêkenîbêtîn</sub><br><sub>/peːkæniːbeːtiːn/</sub> | **پێکەنیبووباین**<br><sub>pêkenîbûbayn</sub><br><sub>/peːkæniːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **پێکەنیبان**<br><sub>pêkenîban</sub><br><sub>/peːkæniːbaːn/</sub> | **پێکەنیبێتن**<br><sub>pêkenîbêtin</sub><br><sub>/peːkæniːbeːt(ɯ)n/</sub> | **پێکەنیبووبان**<br><sub>pêkenîbûban</sub><br><sub>/peːkæniːbuːbaːn/</sub> |
+| 3pl | ئەوان | **پێکەنیبان**<br><sub>pêkenîban</sub><br><sub>/peːkæniːbaːn/</sub> | **پێکەنیبێتن**<br><sub>pêkenîbêtin</sub><br><sub>/peːkæniːbeːt(ɯ)n/</sub> | **پێکەنیبووبان**<br><sub>pêkenîbûban</sub><br><sub>/peːkæniːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*پێکەنین* (pêkenîn) “to laugh” — present stem **کەن**, past stem **کەنی**, intransitive, preverb **پێ**
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **پێنەکەنیبام**<br><sub>pênekenîbam</sub><br><sub>/peːnækæniːbaːm/</sub> | **پێنەکەنیبێتم**<br><sub>pênekenîbêtim</sub><br><sub>/peːnækæniːbeːt(ɯ)m/</sub> | **پێنەکەنیبووبام**<br><sub>pênekenîbûbam</sub><br><sub>/peːnækæniːbuːbaːm/</sub> |
+| 2sg | تۆ | **پێنەکەنیبایت**<br><sub>pênekenîbayt</sub><br><sub>/peːnækæniːbaːjt/</sub> | **پێنەکەنیبێتیت**<br><sub>pênekenîbêtît</sub><br><sub>/peːnækæniːbeːtiːt/</sub> | **پێنەکەنیبووبایت**<br><sub>pênekenîbûbayt</sub><br><sub>/peːnækæniːbuːbaːjt/</sub> |
+| 3sg | ئەو | **پێنەکەنیبا**<br><sub>pênekenîba</sub><br><sub>/peːnækæniːbaː/</sub> | **پێنەکەنیبێت**<br><sub>pênekenîbêt</sub><br><sub>/peːnækæniːbeːt/</sub> | **پێنەکەنیبووبا**<br><sub>pênekenîbûba</sub><br><sub>/peːnækæniːbuːbaː/</sub> |
+| 1pl | ئێمە | **پێنەکەنیباین**<br><sub>pênekenîbayn</sub><br><sub>/peːnækæniːbaːjn/</sub> | **پێنەکەنیبێتین**<br><sub>pênekenîbêtîn</sub><br><sub>/peːnækæniːbeːtiːn/</sub> | **پێنەکەنیبووباین**<br><sub>pênekenîbûbayn</sub><br><sub>/peːnækæniːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **پێنەکەنیبان**<br><sub>pênekenîban</sub><br><sub>/peːnækæniːbaːn/</sub> | **پێنەکەنیبێتن**<br><sub>pênekenîbêtin</sub><br><sub>/peːnækæniːbeːt(ɯ)n/</sub> | **پێنەکەنیبووبان**<br><sub>pênekenîbûban</sub><br><sub>/peːnækæniːbuːbaːn/</sub> |
+| 3pl | ئەوان | **پێنەکەنیبان**<br><sub>pênekenîban</sub><br><sub>/peːnækæniːbaːn/</sub> | **پێنەکەنیبێتن**<br><sub>pênekenîbêtin</sub><br><sub>/peːnækæniːbeːt(ɯ)n/</sub> | **پێنەکەنیبووبان**<br><sub>pênekenîbûban</sub><br><sub>/peːnækæniːbuːbaːn/</sub> |
 
 ## Imperative
 

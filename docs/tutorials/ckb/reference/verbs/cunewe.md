@@ -66,14 +66,40 @@
 
 *چوونەوە* (çûnewe) “to go back” — present stem **چ**, past stem **چوو**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **چوومەتەوە**<br><sub>çûmetewe</sub><br><sub>/tʃuːmætæwæ/</sub> | **چووبوومەوە**<br><sub>çûbûmewe</sub><br><sub>/tʃuːbuːmæwæ/</sub> |
-| 2sg | تۆ | **چوویتەتەوە**<br><sub>çûytetewe</sub><br><sub>/tʃuːjtætæwæ/</sub> | **چووبوویتەوە**<br><sub>çûbûytewe</sub><br><sub>/tʃuːbuːjtæwæ/</sub> |
-| 3sg | ئەو | **چووەتەوە**<br><sub>çûwetewe</sub><br><sub>/tʃuːwætæwæ/</sub> | **چووبووەوە**<br><sub>çûbûwewe</sub><br><sub>/tʃuːbuːwæwæ/</sub> |
-| 1pl | ئێمە | **چووینەتەوە**<br><sub>çûynetewe</sub><br><sub>/tʃuːjnætæwæ/</sub> | **چووبووینەوە**<br><sub>çûbûynewe</sub><br><sub>/tʃuːbuːjnæwæ/</sub> |
-| 2pl | ئێوە | **چوونەتەوە**<br><sub>çûnetewe</sub><br><sub>/tʃuːnætæwæ/</sub> | **چووبوونەوە**<br><sub>çûbûnewe</sub><br><sub>/tʃuːbuːnæwæ/</sub> |
-| 3pl | ئەوان | **چوونەتەوە**<br><sub>çûnetewe</sub><br><sub>/tʃuːnætæwæ/</sub> | **چووبوونەوە**<br><sub>çûbûnewe</sub><br><sub>/tʃuːbuːnæwæ/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **چوومەتەوە**<br><sub>çûmetewe</sub><br><sub>/tʃuːmætæwæ/</sub> | **نەچوومەتەوە**<br><sub>neçûmetewe</sub><br><sub>/nætʃuːmætæwæ/</sub> | **چووبوومەوە**<br><sub>çûbûmewe</sub><br><sub>/tʃuːbuːmæwæ/</sub> | **نەچووبوومەوە**<br><sub>neçûbûmewe</sub><br><sub>/nætʃuːbuːmæwæ/</sub> |
+| 2sg | تۆ | **چوویتەتەوە**<br><sub>çûytetewe</sub><br><sub>/tʃuːjtætæwæ/</sub> | **نەچوویتەتەوە**<br><sub>neçûytetewe</sub><br><sub>/nætʃuːjtætæwæ/</sub> | **چووبوویتەوە**<br><sub>çûbûytewe</sub><br><sub>/tʃuːbuːjtæwæ/</sub> | **نەچووبوویتەوە**<br><sub>neçûbûytewe</sub><br><sub>/nætʃuːbuːjtæwæ/</sub> |
+| 3sg | ئەو | **چووەتەوە**<br><sub>çûwetewe</sub><br><sub>/tʃuːwætæwæ/</sub> | **نەچووەتەوە**<br><sub>neçûwetewe</sub><br><sub>/nætʃuːwætæwæ/</sub> | **چووبووەوە**<br><sub>çûbûwewe</sub><br><sub>/tʃuːbuːwæwæ/</sub> | **نەچووبووەوە**<br><sub>neçûbûwewe</sub><br><sub>/nætʃuːbuːwæwæ/</sub> |
+| 1pl | ئێمە | **چووینەتەوە**<br><sub>çûynetewe</sub><br><sub>/tʃuːjnætæwæ/</sub> | **نەچووینەتەوە**<br><sub>neçûynetewe</sub><br><sub>/nætʃuːjnætæwæ/</sub> | **چووبووینەوە**<br><sub>çûbûynewe</sub><br><sub>/tʃuːbuːjnæwæ/</sub> | **نەچووبووینەوە**<br><sub>neçûbûynewe</sub><br><sub>/nætʃuːbuːjnæwæ/</sub> |
+| 2pl | ئێوە | **چوونەتەوە**<br><sub>çûnetewe</sub><br><sub>/tʃuːnætæwæ/</sub> | **نەچوونەتەوە**<br><sub>neçûnetewe</sub><br><sub>/nætʃuːnætæwæ/</sub> | **چووبوونەوە**<br><sub>çûbûnewe</sub><br><sub>/tʃuːbuːnæwæ/</sub> | **نەچووبوونەوە**<br><sub>neçûbûnewe</sub><br><sub>/nætʃuːbuːnæwæ/</sub> |
+| 3pl | ئەوان | **چوونەتەوە**<br><sub>çûnetewe</sub><br><sub>/tʃuːnætæwæ/</sub> | **نەچوونەتەوە**<br><sub>neçûnetewe</sub><br><sub>/nætʃuːnætæwæ/</sub> | **چووبوونەوە**<br><sub>çûbûnewe</sub><br><sub>/tʃuːbuːnæwæ/</sub> | **نەچووبوونەوە**<br><sub>neçûbûnewe</sub><br><sub>/nætʃuːbuːnæwæ/</sub> |
+
+## Past subjunctive
+
+*چوونەوە* (çûnewe) “to go back” — present stem **چ**, past stem **چوو**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **چووبامەوە**<br><sub>çûbamewe</sub><br><sub>/tʃuːbaːmæwæ/</sub> | **چووبێتمەوە**<br><sub>çûbêtmewe</sub><br><sub>/tʃuːbeːtmæwæ/</sub> | **چووبووبامەوە**<br><sub>çûbûbamewe</sub><br><sub>/tʃuːbuːbaːmæwæ/</sub> |
+| 2sg | تۆ | **چووبایتەوە**<br><sub>çûbaytewe</sub><br><sub>/tʃuːbaːjtæwæ/</sub> | **چووبێتیتەوە**<br><sub>çûbêtîtewe</sub><br><sub>/tʃuːbeːtiːtæwæ/</sub> | **چووبووبایتەوە**<br><sub>çûbûbaytewe</sub><br><sub>/tʃuːbuːbaːjtæwæ/</sub> |
+| 3sg | ئەو | **چووبایەوە**<br><sub>çûbayewe</sub><br><sub>/tʃuːbaːjæwæ/</sub> | **چووبێتەوە**<br><sub>çûbêtewe</sub><br><sub>/tʃuːbeːtæwæ/</sub> | **چووبووبایەوە**<br><sub>çûbûbayewe</sub><br><sub>/tʃuːbuːbaːjæwæ/</sub> |
+| 1pl | ئێمە | **چووباینەوە**<br><sub>çûbaynewe</sub><br><sub>/tʃuːbaːjnæwæ/</sub> | **چووبێتینەوە**<br><sub>çûbêtînewe</sub><br><sub>/tʃuːbeːtiːnæwæ/</sub> | **چووبووباینەوە**<br><sub>çûbûbaynewe</sub><br><sub>/tʃuːbuːbaːjnæwæ/</sub> |
+| 2pl | ئێوە | **چووبانەوە**<br><sub>çûbanewe</sub><br><sub>/tʃuːbaːnæwæ/</sub> | **چووبێتنەوە**<br><sub>çûbêtnewe</sub><br><sub>/tʃuːbeːtnæwæ/</sub> | **چووبووبانەوە**<br><sub>çûbûbanewe</sub><br><sub>/tʃuːbuːbaːnæwæ/</sub> |
+| 3pl | ئەوان | **چووبانەوە**<br><sub>çûbanewe</sub><br><sub>/tʃuːbaːnæwæ/</sub> | **چووبێتنەوە**<br><sub>çûbêtnewe</sub><br><sub>/tʃuːbeːtnæwæ/</sub> | **چووبووبانەوە**<br><sub>çûbûbanewe</sub><br><sub>/tʃuːbuːbaːnæwæ/</sub> |
+
+## Past subjunctive negative
+
+*چوونەوە* (çûnewe) “to go back” — present stem **چ**, past stem **چوو**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەچووبامەوە**<br><sub>neçûbamewe</sub><br><sub>/nætʃuːbaːmæwæ/</sub> | **نەچووبێتمەوە**<br><sub>neçûbêtmewe</sub><br><sub>/nætʃuːbeːtmæwæ/</sub> | **نەچووبووبامەوە**<br><sub>neçûbûbamewe</sub><br><sub>/nætʃuːbuːbaːmæwæ/</sub> |
+| 2sg | تۆ | **نەچووبایتەوە**<br><sub>neçûbaytewe</sub><br><sub>/nætʃuːbaːjtæwæ/</sub> | **نەچووبێتیتەوە**<br><sub>neçûbêtîtewe</sub><br><sub>/nætʃuːbeːtiːtæwæ/</sub> | **نەچووبووبایتەوە**<br><sub>neçûbûbaytewe</sub><br><sub>/nætʃuːbuːbaːjtæwæ/</sub> |
+| 3sg | ئەو | **نەچووبایەوە**<br><sub>neçûbayewe</sub><br><sub>/nætʃuːbaːjæwæ/</sub> | **نەچووبێتەوە**<br><sub>neçûbêtewe</sub><br><sub>/nætʃuːbeːtæwæ/</sub> | **نەچووبووبایەوە**<br><sub>neçûbûbayewe</sub><br><sub>/nætʃuːbuːbaːjæwæ/</sub> |
+| 1pl | ئێمە | **نەچووباینەوە**<br><sub>neçûbaynewe</sub><br><sub>/nætʃuːbaːjnæwæ/</sub> | **نەچووبێتینەوە**<br><sub>neçûbêtînewe</sub><br><sub>/nætʃuːbeːtiːnæwæ/</sub> | **نەچووبووباینەوە**<br><sub>neçûbûbaynewe</sub><br><sub>/nætʃuːbuːbaːjnæwæ/</sub> |
+| 2pl | ئێوە | **نەچووبانەوە**<br><sub>neçûbanewe</sub><br><sub>/nætʃuːbaːnæwæ/</sub> | **نەچووبێتنەوە**<br><sub>neçûbêtnewe</sub><br><sub>/nætʃuːbeːtnæwæ/</sub> | **نەچووبووبانەوە**<br><sub>neçûbûbanewe</sub><br><sub>/nætʃuːbuːbaːnæwæ/</sub> |
+| 3pl | ئەوان | **نەچووبانەوە**<br><sub>neçûbanewe</sub><br><sub>/nætʃuːbaːnæwæ/</sub> | **نەچووبێتنەوە**<br><sub>neçûbêtnewe</sub><br><sub>/nætʃuːbeːtnæwæ/</sub> | **نەچووبووبانەوە**<br><sub>neçûbûbanewe</sub><br><sub>/nætʃuːbuːbaːnæwæ/</sub> |
 
 ## Imperative
 

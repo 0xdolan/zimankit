@@ -19,7 +19,8 @@ The present perfect is built on the **past participle**: the past stem + **وو*
 | نووسین | نووسی | نووسیو |
 | دان | دا | داو |
 
-* **Intransitive**: participle + present copula endings: هاتوو**م** *I have come*, هاتوو**ە** *he has come*.
+* **Intransitive**: participle + the copula endings: هاتوو**مە** *I have come*, هاتوو**ە** *he has come*. This long form is the written one. The short هاتووم, هاتوویت, هاتوون is how it is said, especially around Sulaimani.
+* **Negative**: نە goes in front: نەهاتووە, and on a transitive verb the clitic follows it: نەمکردووە.
 * **Transitive**: participle + the **agent clitic** + **-ە** (the copula *is*): کردوو**مە** *I have done* (lit. done-by-me-is), کردوو**یەتی** *he has done*.
 
 <!-- gen:verb verb=هاتن cells=perfect,pluperfect show=translit,ipa -->
@@ -27,12 +28,12 @@ The present perfect is built on the **past participle**: the past stem + **وو*
 
 | person | pronoun | Present perfect | Past perfect |
 |---|---|---|---|
-| 1sg | من | **هاتووم**<br><sub>hatûm</sub><br><sub>/haːtuːm/</sub> | **هاتبووم**<br><sub>hatbûm</sub><br><sub>/haːtbuːm/</sub> |
-| 2sg | تۆ | **هاتوویت**<br><sub>hatûyt</sub><br><sub>/haːtuːjt/</sub> | **هاتبوویت**<br><sub>hatbûyt</sub><br><sub>/haːtbuːjt/</sub> |
+| 1sg | من | **هاتوومە**<br><sub>hatûme</sub><br><sub>/haːtuːmæ/</sub> | **هاتبووم**<br><sub>hatbûm</sub><br><sub>/haːtbuːm/</sub> |
+| 2sg | تۆ | **هاتوویتە**<br><sub>hatûyte</sub><br><sub>/haːtuːjtæ/</sub> | **هاتبوویت**<br><sub>hatbûyt</sub><br><sub>/haːtbuːjt/</sub> |
 | 3sg | ئەو | **هاتووە**<br><sub>hatûwe</sub><br><sub>/haːtuːwæ/</sub> | **هاتبوو**<br><sub>hatbû</sub><br><sub>/haːtbuː/</sub> |
-| 1pl | ئێمە | **هاتووین**<br><sub>hatûyn</sub><br><sub>/haːtuːjn/</sub> | **هاتبووین**<br><sub>hatbûyn</sub><br><sub>/haːtbuːjn/</sub> |
-| 2pl | ئێوە | **هاتوون**<br><sub>hatûn</sub><br><sub>/haːtuːn/</sub> | **هاتبوون**<br><sub>hatbûn</sub><br><sub>/haːtbuːn/</sub> |
-| 3pl | ئەوان | **هاتوون**<br><sub>hatûn</sub><br><sub>/haːtuːn/</sub> | **هاتبوون**<br><sub>hatbûn</sub><br><sub>/haːtbuːn/</sub> |
+| 1pl | ئێمە | **هاتووینە**<br><sub>hatûyne</sub><br><sub>/haːtuːjnæ/</sub> | **هاتبووین**<br><sub>hatbûyn</sub><br><sub>/haːtbuːjn/</sub> |
+| 2pl | ئێوە | **هاتوونە**<br><sub>hatûne</sub><br><sub>/haːtuːnæ/</sub> | **هاتبوون**<br><sub>hatbûn</sub><br><sub>/haːtbuːn/</sub> |
+| 3pl | ئەوان | **هاتوونە**<br><sub>hatûne</sub><br><sub>/haːtuːnæ/</sub> | **هاتبوون**<br><sub>hatbûn</sub><br><sub>/haːtbuːn/</sub> |
 <!-- /gen -->
 
 <!-- gen:verb verb=کردن cells=perfect,pluperfect show=translit,ipa -->
@@ -95,7 +96,7 @@ The present perfect is used much as in English, for past actions with present re
 
 ## Summary
 
-* Present perfect: intransitive **هاتووم**, transitive **کردوومە** (clitic + ە).
+* Present perfect: intransitive **هاتوومە** (spoken هاتووم), transitive **کردوومە** (clitic + ە).
 * Past perfect: **هاتبووم**, **کردبووم**.
 * The agent clitic still jumps to the object: کتێبەکەم خوێندووە.
 

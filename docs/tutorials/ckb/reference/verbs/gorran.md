@@ -66,14 +66,40 @@
 
 *گۆڕان* (gorran) “to change (intr.)” — present stem **گۆڕێ**, past stem **گۆڕا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **گۆڕاوم**<br><sub>gorrawm</sub><br><sub>/ɡoːraːwm/</sub> | **گۆڕابووم**<br><sub>gorrabûm</sub><br><sub>/ɡoːraːbuːm/</sub> |
-| 2sg | تۆ | **گۆڕاویت**<br><sub>gorrawît</sub><br><sub>/ɡoːraːwiːt/</sub> | **گۆڕابوویت**<br><sub>gorrabûyt</sub><br><sub>/ɡoːraːbuːjt/</sub> |
-| 3sg | ئەو | **گۆڕاوە**<br><sub>gorrawe</sub><br><sub>/ɡoːraːwæ/</sub> | **گۆڕابوو**<br><sub>gorrabû</sub><br><sub>/ɡoːraːbuː/</sub> |
-| 1pl | ئێمە | **گۆڕاوین**<br><sub>gorrawîn</sub><br><sub>/ɡoːraːwiːn/</sub> | **گۆڕابووین**<br><sub>gorrabûyn</sub><br><sub>/ɡoːraːbuːjn/</sub> |
-| 2pl | ئێوە | **گۆڕاون**<br><sub>gorrawn</sub><br><sub>/ɡoːraːwn/</sub> | **گۆڕابوون**<br><sub>gorrabûn</sub><br><sub>/ɡoːraːbuːn/</sub> |
-| 3pl | ئەوان | **گۆڕاون**<br><sub>gorrawn</sub><br><sub>/ɡoːraːwn/</sub> | **گۆڕابوون**<br><sub>gorrabûn</sub><br><sub>/ɡoːraːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **گۆڕاومە**<br><sub>gorrawme</sub><br><sub>/ɡoːraːwmæ/</sub> | **نەگۆڕاومە**<br><sub>negorrawme</sub><br><sub>/næɡoːraːwmæ/</sub> | **گۆڕابووم**<br><sub>gorrabûm</sub><br><sub>/ɡoːraːbuːm/</sub> | **نەگۆڕابووم**<br><sub>negorrabûm</sub><br><sub>/næɡoːraːbuːm/</sub> |
+| 2sg | تۆ | **گۆڕاویتە**<br><sub>gorrawîte</sub><br><sub>/ɡoːraːwiːtæ/</sub> | **نەگۆڕاویتە**<br><sub>negorrawîte</sub><br><sub>/næɡoːraːwiːtæ/</sub> | **گۆڕابوویت**<br><sub>gorrabûyt</sub><br><sub>/ɡoːraːbuːjt/</sub> | **نەگۆڕابوویت**<br><sub>negorrabûyt</sub><br><sub>/næɡoːraːbuːjt/</sub> |
+| 3sg | ئەو | **گۆڕاوە**<br><sub>gorrawe</sub><br><sub>/ɡoːraːwæ/</sub> | **نەگۆڕاوە**<br><sub>negorrawe</sub><br><sub>/næɡoːraːwæ/</sub> | **گۆڕابوو**<br><sub>gorrabû</sub><br><sub>/ɡoːraːbuː/</sub> | **نەگۆڕابوو**<br><sub>negorrabû</sub><br><sub>/næɡoːraːbuː/</sub> |
+| 1pl | ئێمە | **گۆڕاوینە**<br><sub>gorrawîne</sub><br><sub>/ɡoːraːwiːnæ/</sub> | **نەگۆڕاوینە**<br><sub>negorrawîne</sub><br><sub>/næɡoːraːwiːnæ/</sub> | **گۆڕابووین**<br><sub>gorrabûyn</sub><br><sub>/ɡoːraːbuːjn/</sub> | **نەگۆڕابووین**<br><sub>negorrabûyn</sub><br><sub>/næɡoːraːbuːjn/</sub> |
+| 2pl | ئێوە | **گۆڕاونە**<br><sub>gorrawne</sub><br><sub>/ɡoːraːwnæ/</sub> | **نەگۆڕاونە**<br><sub>negorrawne</sub><br><sub>/næɡoːraːwnæ/</sub> | **گۆڕابوون**<br><sub>gorrabûn</sub><br><sub>/ɡoːraːbuːn/</sub> | **نەگۆڕابوون**<br><sub>negorrabûn</sub><br><sub>/næɡoːraːbuːn/</sub> |
+| 3pl | ئەوان | **گۆڕاونە**<br><sub>gorrawne</sub><br><sub>/ɡoːraːwnæ/</sub> | **نەگۆڕاونە**<br><sub>negorrawne</sub><br><sub>/næɡoːraːwnæ/</sub> | **گۆڕابوون**<br><sub>gorrabûn</sub><br><sub>/ɡoːraːbuːn/</sub> | **نەگۆڕابوون**<br><sub>negorrabûn</sub><br><sub>/næɡoːraːbuːn/</sub> |
+
+## Past subjunctive
+
+*گۆڕان* (gorran) “to change (intr.)” — present stem **گۆڕێ**, past stem **گۆڕا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **گۆڕابام**<br><sub>gorrabam</sub><br><sub>/ɡoːraːbaːm/</sub> | **گۆڕابێتم**<br><sub>gorrabêtim</sub><br><sub>/ɡoːraːbeːt(ɯ)m/</sub> | **گۆڕابووبام**<br><sub>gorrabûbam</sub><br><sub>/ɡoːraːbuːbaːm/</sub> |
+| 2sg | تۆ | **گۆڕابایت**<br><sub>gorrabayt</sub><br><sub>/ɡoːraːbaːjt/</sub> | **گۆڕابێتیت**<br><sub>gorrabêtît</sub><br><sub>/ɡoːraːbeːtiːt/</sub> | **گۆڕابووبایت**<br><sub>gorrabûbayt</sub><br><sub>/ɡoːraːbuːbaːjt/</sub> |
+| 3sg | ئەو | **گۆڕابا**<br><sub>gorraba</sub><br><sub>/ɡoːraːbaː/</sub> | **گۆڕابێت**<br><sub>gorrabêt</sub><br><sub>/ɡoːraːbeːt/</sub> | **گۆڕابووبا**<br><sub>gorrabûba</sub><br><sub>/ɡoːraːbuːbaː/</sub> |
+| 1pl | ئێمە | **گۆڕاباین**<br><sub>gorrabayn</sub><br><sub>/ɡoːraːbaːjn/</sub> | **گۆڕابێتین**<br><sub>gorrabêtîn</sub><br><sub>/ɡoːraːbeːtiːn/</sub> | **گۆڕابووباین**<br><sub>gorrabûbayn</sub><br><sub>/ɡoːraːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **گۆڕابان**<br><sub>gorraban</sub><br><sub>/ɡoːraːbaːn/</sub> | **گۆڕابێتن**<br><sub>gorrabêtin</sub><br><sub>/ɡoːraːbeːt(ɯ)n/</sub> | **گۆڕابووبان**<br><sub>gorrabûban</sub><br><sub>/ɡoːraːbuːbaːn/</sub> |
+| 3pl | ئەوان | **گۆڕابان**<br><sub>gorraban</sub><br><sub>/ɡoːraːbaːn/</sub> | **گۆڕابێتن**<br><sub>gorrabêtin</sub><br><sub>/ɡoːraːbeːt(ɯ)n/</sub> | **گۆڕابووبان**<br><sub>gorrabûban</sub><br><sub>/ɡoːraːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*گۆڕان* (gorran) “to change (intr.)” — present stem **گۆڕێ**, past stem **گۆڕا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەگۆڕابام**<br><sub>negorrabam</sub><br><sub>/næɡoːraːbaːm/</sub> | **نەگۆڕابێتم**<br><sub>negorrabêtim</sub><br><sub>/næɡoːraːbeːt(ɯ)m/</sub> | **نەگۆڕابووبام**<br><sub>negorrabûbam</sub><br><sub>/næɡoːraːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەگۆڕابایت**<br><sub>negorrabayt</sub><br><sub>/næɡoːraːbaːjt/</sub> | **نەگۆڕابێتیت**<br><sub>negorrabêtît</sub><br><sub>/næɡoːraːbeːtiːt/</sub> | **نەگۆڕابووبایت**<br><sub>negorrabûbayt</sub><br><sub>/næɡoːraːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەگۆڕابا**<br><sub>negorraba</sub><br><sub>/næɡoːraːbaː/</sub> | **نەگۆڕابێت**<br><sub>negorrabêt</sub><br><sub>/næɡoːraːbeːt/</sub> | **نەگۆڕابووبا**<br><sub>negorrabûba</sub><br><sub>/næɡoːraːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەگۆڕاباین**<br><sub>negorrabayn</sub><br><sub>/næɡoːraːbaːjn/</sub> | **نەگۆڕابێتین**<br><sub>negorrabêtîn</sub><br><sub>/næɡoːraːbeːtiːn/</sub> | **نەگۆڕابووباین**<br><sub>negorrabûbayn</sub><br><sub>/næɡoːraːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەگۆڕابان**<br><sub>negorraban</sub><br><sub>/næɡoːraːbaːn/</sub> | **نەگۆڕابێتن**<br><sub>negorrabêtin</sub><br><sub>/næɡoːraːbeːt(ɯ)n/</sub> | **نەگۆڕابووبان**<br><sub>negorrabûban</sub><br><sub>/næɡoːraːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەگۆڕابان**<br><sub>negorraban</sub><br><sub>/næɡoːraːbaːn/</sub> | **نەگۆڕابێتن**<br><sub>negorrabêtin</sub><br><sub>/næɡoːraːbeːt(ɯ)n/</sub> | **نەگۆڕابووبان**<br><sub>negorrabûban</sub><br><sub>/næɡoːraːbuːbaːn/</sub> |
 
 ## Imperative
 

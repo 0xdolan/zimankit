@@ -71,16 +71,42 @@
 
 *ڕاکردن* (rakridin) “to run (away)” — present stem **کە**, past stem **کرد**, transitive, preverb **ڕا**
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **ڕاکردوومە**<br><sub>rakridûme</sub><br><sub>/raːkɾ(ɯ)duːmæ/</sub> | **ڕاکردبووم**<br><sub>rakridbûm</sub><br><sub>/raːkɾ(ɯ)dbuːm/</sub> |
-| 2sg | تۆ | **ڕاکردووتە**<br><sub>rakridûte</sub><br><sub>/raːkɾ(ɯ)duːtæ/</sub> | **ڕاکردبووت**<br><sub>rakridbût</sub><br><sub>/raːkɾ(ɯ)dbuːt/</sub> |
-| 3sg | ئەو | **ڕاکردوویەتی**<br><sub>rakridûyetî</sub><br><sub>/raːkɾ(ɯ)duːjætiː/</sub> | **ڕاکردبووی**<br><sub>rakridbûy</sub><br><sub>/raːkɾ(ɯ)dbuːj/</sub> |
-| 1pl | ئێمە | **ڕاکردوومانە**<br><sub>rakridûmane</sub><br><sub>/raːkɾ(ɯ)duːmaːnæ/</sub> | **ڕاکردبوومان**<br><sub>rakridbûman</sub><br><sub>/raːkɾ(ɯ)dbuːmaːn/</sub> |
-| 2pl | ئێوە | **ڕاکردووتانە**<br><sub>rakridûtane</sub><br><sub>/raːkɾ(ɯ)duːtaːnæ/</sub> | **ڕاکردبووتان**<br><sub>rakridbûtan</sub><br><sub>/raːkɾ(ɯ)dbuːtaːn/</sub> |
-| 3pl | ئەوان | **ڕاکردوویانە**<br><sub>rakridûyane</sub><br><sub>/raːkɾ(ɯ)duːjaːnæ/</sub> | **ڕاکردبوویان**<br><sub>rakridbûyan</sub><br><sub>/raːkɾ(ɯ)dbuːjaːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **ڕاکردوومە**<br><sub>rakridûme</sub><br><sub>/raːkɾ(ɯ)duːmæ/</sub> | **ڕانەمکردووە**<br><sub>ranemkirdûwe</sub><br><sub>/raːnæmk(ɯ)ɾduːwæ/</sub> | **ڕاکردبووم**<br><sub>rakridbûm</sub><br><sub>/raːkɾ(ɯ)dbuːm/</sub> | **ڕانەمکردبوو**<br><sub>ranemkiridbû</sub><br><sub>/raːnæmk(ɯ)ɾ(ɯ)dbuː/</sub> |
+| 2sg | تۆ | **ڕاکردووتە**<br><sub>rakridûte</sub><br><sub>/raːkɾ(ɯ)duːtæ/</sub> | **ڕانەتکردووە**<br><sub>ranetkirdûwe</sub><br><sub>/raːnætk(ɯ)ɾduːwæ/</sub> | **ڕاکردبووت**<br><sub>rakridbût</sub><br><sub>/raːkɾ(ɯ)dbuːt/</sub> | **ڕانەتکردبوو**<br><sub>ranetkiridbû</sub><br><sub>/raːnætk(ɯ)ɾ(ɯ)dbuː/</sub> |
+| 3sg | ئەو | **ڕاکردوویەتی**<br><sub>rakridûyetî</sub><br><sub>/raːkɾ(ɯ)duːjætiː/</sub> | **ڕانەیکردووە**<br><sub>raneykirdûwe</sub><br><sub>/raːnæjk(ɯ)ɾduːwæ/</sub> | **ڕاکردبووی**<br><sub>rakridbûy</sub><br><sub>/raːkɾ(ɯ)dbuːj/</sub> | **ڕانەیکردبوو**<br><sub>raneykiridbû</sub><br><sub>/raːnæjk(ɯ)ɾ(ɯ)dbuː/</sub> |
+| 1pl | ئێمە | **ڕاکردوومانە**<br><sub>rakridûmane</sub><br><sub>/raːkɾ(ɯ)duːmaːnæ/</sub> | **ڕانەمانکردووە**<br><sub>ranemankirdûwe</sub><br><sub>/raːnæmaːnk(ɯ)ɾduːwæ/</sub> | **ڕاکردبوومان**<br><sub>rakridbûman</sub><br><sub>/raːkɾ(ɯ)dbuːmaːn/</sub> | **ڕانەمانکردبوو**<br><sub>ranemankiridbû</sub><br><sub>/raːnæmaːnk(ɯ)ɾ(ɯ)dbuː/</sub> |
+| 2pl | ئێوە | **ڕاکردووتانە**<br><sub>rakridûtane</sub><br><sub>/raːkɾ(ɯ)duːtaːnæ/</sub> | **ڕانەتانکردووە**<br><sub>ranetankirdûwe</sub><br><sub>/raːnætaːnk(ɯ)ɾduːwæ/</sub> | **ڕاکردبووتان**<br><sub>rakridbûtan</sub><br><sub>/raːkɾ(ɯ)dbuːtaːn/</sub> | **ڕانەتانکردبوو**<br><sub>ranetankiridbû</sub><br><sub>/raːnætaːnk(ɯ)ɾ(ɯ)dbuː/</sub> |
+| 3pl | ئەوان | **ڕاکردوویانە**<br><sub>rakridûyane</sub><br><sub>/raːkɾ(ɯ)duːjaːnæ/</sub> | **ڕانەیانکردووە**<br><sub>raneyankirdûwe</sub><br><sub>/raːnæjaːnk(ɯ)ɾduːwæ/</sub> | **ڕاکردبوویان**<br><sub>rakridbûyan</sub><br><sub>/raːkɾ(ɯ)dbuːjaːn/</sub> | **ڕانەیانکردبوو**<br><sub>raneyankiridbû</sub><br><sub>/raːnæjaːnk(ɯ)ɾ(ɯ)dbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
+
+## Past subjunctive
+
+*ڕاکردن* (rakridin) “to run (away)” — present stem **کە**, past stem **کرد**, transitive, preverb **ڕا**
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **ڕاکردبام**<br><sub>rakridbam</sub><br><sub>/raːkɾ(ɯ)dbaːm/</sub> | **ڕاکردبێتم**<br><sub>rakridbêtim</sub><br><sub>/raːkɾ(ɯ)dbeːt(ɯ)m/</sub> | **ڕاکردبووبام**<br><sub>rakridbûbam</sub><br><sub>/raːkɾ(ɯ)dbuːbaːm/</sub> |
+| 2sg | تۆ | **ڕاکردبات**<br><sub>rakridbat</sub><br><sub>/raːkɾ(ɯ)dbaːt/</sub> | **ڕاکردبێتت**<br><sub>rakridbêtit</sub><br><sub>/raːkɾ(ɯ)dbeːt(ɯ)t/</sub> | **ڕاکردبووبات**<br><sub>rakridbûbat</sub><br><sub>/raːkɾ(ɯ)dbuːbaːt/</sub> |
+| 3sg | ئەو | **ڕاکردبای**<br><sub>rakridbay</sub><br><sub>/raːkɾ(ɯ)dbaːj/</sub> | **ڕاکردبێتی**<br><sub>rakridbêtî</sub><br><sub>/raːkɾ(ɯ)dbeːtiː/</sub> | **ڕاکردبووبای**<br><sub>rakridbûbay</sub><br><sub>/raːkɾ(ɯ)dbuːbaːj/</sub> |
+| 1pl | ئێمە | **ڕاکردبامان**<br><sub>rakridbaman</sub><br><sub>/raːkɾ(ɯ)dbaːmaːn/</sub> | **ڕاکردبێتمان**<br><sub>rakridbêtman</sub><br><sub>/raːkɾ(ɯ)dbeːtmaːn/</sub> | **ڕاکردبووبامان**<br><sub>rakridbûbaman</sub><br><sub>/raːkɾ(ɯ)dbuːbaːmaːn/</sub> |
+| 2pl | ئێوە | **ڕاکردباتان**<br><sub>rakridbatan</sub><br><sub>/raːkɾ(ɯ)dbaːtaːn/</sub> | **ڕاکردبێتتان**<br><sub>rakridbêttan</sub><br><sub>/raːkɾ(ɯ)dbeːttaːn/</sub> | **ڕاکردبووباتان**<br><sub>rakridbûbatan</sub><br><sub>/raːkɾ(ɯ)dbuːbaːtaːn/</sub> |
+| 3pl | ئەوان | **ڕاکردبایان**<br><sub>rakridbayan</sub><br><sub>/raːkɾ(ɯ)dbaːjaːn/</sub> | **ڕاکردبێتیان**<br><sub>rakridbêtyan</sub><br><sub>/raːkɾ(ɯ)dbeːtjaːn/</sub> | **ڕاکردبووبایان**<br><sub>rakridbûbayan</sub><br><sub>/raːkɾ(ɯ)dbuːbaːjaːn/</sub> |
+
+## Past subjunctive negative
+
+*ڕاکردن* (rakridin) “to run (away)” — present stem **کە**, past stem **کرد**, transitive, preverb **ڕا**
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **ڕانەمکردبا**<br><sub>ranemkiridba</sub><br><sub>/raːnæmk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەمکردبێت**<br><sub>ranemkiridbêt</sub><br><sub>/raːnæmk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەمکردبووبا**<br><sub>ranemkiridbûba</sub><br><sub>/raːnæmk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 2sg | تۆ | **ڕانەتکردبا**<br><sub>ranetkiridba</sub><br><sub>/raːnætk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەتکردبێت**<br><sub>ranetkiridbêt</sub><br><sub>/raːnætk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەتکردبووبا**<br><sub>ranetkiridbûba</sub><br><sub>/raːnætk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 3sg | ئەو | **ڕانەیکردبا**<br><sub>raneykiridba</sub><br><sub>/raːnæjk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەیکردبێت**<br><sub>raneykiridbêt</sub><br><sub>/raːnæjk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەیکردبووبا**<br><sub>raneykiridbûba</sub><br><sub>/raːnæjk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 1pl | ئێمە | **ڕانەمانکردبا**<br><sub>ranemankiridba</sub><br><sub>/raːnæmaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەمانکردبێت**<br><sub>ranemankiridbêt</sub><br><sub>/raːnæmaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەمانکردبووبا**<br><sub>ranemankiridbûba</sub><br><sub>/raːnæmaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 2pl | ئێوە | **ڕانەتانکردبا**<br><sub>ranetankiridba</sub><br><sub>/raːnætaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەتانکردبێت**<br><sub>ranetankiridbêt</sub><br><sub>/raːnætaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەتانکردبووبا**<br><sub>ranetankiridbûba</sub><br><sub>/raːnætaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
+| 3pl | ئەوان | **ڕانەیانکردبا**<br><sub>raneyankiridba</sub><br><sub>/raːnæjaːnk(ɯ)ɾ(ɯ)dbaː/</sub> | **ڕانەیانکردبێت**<br><sub>raneyankiridbêt</sub><br><sub>/raːnæjaːnk(ɯ)ɾ(ɯ)dbeːt/</sub> | **ڕانەیانکردبووبا**<br><sub>raneyankiridbûba</sub><br><sub>/raːnæjaːnk(ɯ)ɾ(ɯ)dbuːbaː/</sub> |
 
 ## Imperative
 
@@ -99,6 +125,9 @@
 | past progressive, agent clitic elsewhere | **ڕادەکرد** | radekrid |
 | present perfect, agent clitic elsewhere | **ڕاکردووە** | rakridûwe |
 | past perfect, agent clitic elsewhere | **ڕاکردبوو** | rakridbû |
+| past subj, agent clitic elsewhere | **ڕاکردبا** | rakridba |
+| perfect subj, agent clitic elsewhere | **ڕاکردبێت** | rakridbêt |
+| pluperfect subj, agent clitic elsewhere | **ڕاکردبووبا** | rakridbûba |
 | infinitive | **ڕاکردن** | rakridin |
 | past participle | **ڕاکردوو** | rakridû |
 

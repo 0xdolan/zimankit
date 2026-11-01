@@ -146,18 +146,38 @@ def load_langs() -> dict[str, Lang]:
 CKB_CELLS = {
     "present": ("Present", dict(tense="present", mood="indicative", polarity=None, voice=None, goal=None)),
     "present_neg": ("Present negative", dict(tense="present", mood="indicative", polarity="neg", voice=None)),
-    "subj": ("Subjunctive", dict(mood="subjunctive", polarity=None)),
-    "subj_neg": ("Subjunctive negative", dict(mood="subjunctive", polarity="neg")),
+    "subj": ("Subjunctive", dict(tense="present", mood="subjunctive", polarity=None, voice=None, variant=None)),
+    "subj_neg": ("Subjunctive negative", dict(tense="present", mood="subjunctive", polarity="neg", voice=None)),
     "past": ("Simple past", dict(tense="past", aspect="perfective", polarity=None, voice=None, variant=None)),
-    "past_neg": ("Past negative", dict(tense="past", aspect="perfective", polarity="neg")),
-    "past_prog": ("Past progressive", dict(tense="past", aspect="progressive", polarity=None)),
-    "past_prog_neg": ("Past progressive negative", dict(tense="past", aspect="progressive", polarity="neg")),
-    "perfect": ("Present perfect", dict(tense="present_perfect", voice=None)),
-    "pluperfect": ("Past perfect", dict(tense="past_perfect")),
-    "passive_present": ("Passive present", dict(tense="present", voice="passive", polarity=None)),
-    "passive_present_neg": ("Passive present negative", dict(tense="present", voice="passive", polarity="neg")),
-    "passive_past": ("Passive past", dict(tense="past", voice="passive")),
-    "imperative": ("Imperative", dict(mood="imperative", polarity=None)),
+    "past_neg": ("Past negative", dict(tense="past", aspect="perfective", polarity="neg", voice=None)),
+    "past_prog": ("Past progressive", dict(tense="past", aspect="progressive", polarity=None, voice=None)),
+    "past_prog_neg": ("Past progressive negative", dict(tense="past", aspect="progressive", polarity="neg", voice=None)),
+    "perfect": ("Present perfect", dict(tense="present_perfect", voice=None, polarity=None, variant=None)),
+    "perfect_neg": ("Perfect negative", dict(tense="present_perfect", voice=None, polarity="neg", variant=None)),
+    "pluperfect": ("Past perfect", dict(tense="past_perfect", voice=None, polarity=None)),
+    "pluperfect_neg": ("Past perfect negative", dict(tense="past_perfect", voice=None, polarity="neg")),
+    "past_subj": ("Past subjunctive", dict(tense="past_subj", voice=None, polarity=None)),
+    "past_subj_neg": ("Past subjunctive negative", dict(tense="past_subj", voice=None, polarity="neg", variant=None)),
+    "perfect_subj": ("Perfect subjunctive", dict(tense="perfect_subj", voice=None, polarity=None)),
+    "perfect_subj_neg": ("Perfect subjunctive negative", dict(tense="perfect_subj", voice=None, polarity="neg", variant=None)),
+    "pluperfect_subj": ("Past perfect subjunctive", dict(tense="pluperfect_subj", voice=None, polarity=None)),
+    "pluperfect_subj_neg": ("Past perfect subjunctive negative", dict(tense="pluperfect_subj", voice=None, polarity="neg", variant=None)),
+    "passive_present": ("Passive present", dict(tense="present", mood=None, voice="passive", polarity=None)),
+    "passive_present_neg": ("Passive present negative", dict(tense="present", mood=None, voice="passive", polarity="neg")),
+    "passive_subj": ("Passive subjunctive", dict(tense="present", mood="subjunctive", voice="passive", polarity=None)),
+    "passive_subj_neg": ("Passive subjunctive negative", dict(tense="present", mood="subjunctive", voice="passive", polarity="neg")),
+    "passive_past": ("Passive past", dict(tense="past", aspect=None, voice="passive", polarity=None)),
+    "passive_past_neg": ("Passive past negative", dict(tense="past", aspect=None, voice="passive", polarity="neg")),
+    "passive_past_prog": ("Passive past progressive", dict(tense="past", aspect="progressive", voice="passive", polarity=None)),
+    "passive_past_prog_neg": ("Passive past progressive negative", dict(tense="past", aspect="progressive", voice="passive", polarity="neg")),
+    "passive_perfect": ("Passive perfect", dict(tense="present_perfect", voice="passive", polarity=None)),
+    "passive_perfect_neg": ("Passive perfect negative", dict(tense="present_perfect", voice="passive", polarity="neg")),
+    "passive_pluperfect": ("Passive past perfect", dict(tense="past_perfect", voice="passive", polarity=None)),
+    "passive_pluperfect_neg": ("Passive past perfect negative", dict(tense="past_perfect", voice="passive", polarity="neg")),
+    "passive_past_subj": ("Passive past subjunctive", dict(tense="past_subj", voice="passive", polarity=None)),
+    "passive_perfect_subj": ("Passive perfect subjunctive", dict(tense="perfect_subj", voice="passive", polarity=None)),
+    "passive_pluperfect_subj": ("Passive past perfect subjunctive", dict(tense="pluperfect_subj", voice="passive", polarity=None)),
+    "imperative": ("Imperative", dict(mood="imperative", polarity=None, variant=None)),
     "prohibitive": ("Prohibitive", dict(mood="imperative", polarity="neg")),
 }
 KMR_CELLS = {
@@ -277,13 +297,20 @@ def render_verb_full(lang: Lang, inf: str) -> str:
     groups = [
         ("Present-stem forms", ["present", "present_neg"]), ("Subjunctive", ["subj", "subj_neg"]),
         ("Simple past", ["past", "past_neg"]), ("Past progressive", ["past_prog", "past_prog_neg"]),
-        ("Perfect tenses", ["perfect", "pluperfect"]),
+        ("Perfect tenses", ["perfect", "perfect_neg", "pluperfect", "pluperfect_neg"]),
+        ("Past subjunctive", ["past_subj", "perfect_subj", "pluperfect_subj"]),
+        ("Past subjunctive negative", ["past_subj_neg", "perfect_subj_neg", "pluperfect_subj_neg"]),
     ]
     if lang.code == "ckb" and v.transitive:
-        groups.append(("Passive", ["passive_present", "passive_present_neg", "passive_past"]))
+        groups += [
+            ("Passive: present and subjunctive", ["passive_present", "passive_present_neg", "passive_subj", "passive_subj_neg"]),
+            ("Passive: past", ["passive_past", "passive_past_neg", "passive_past_prog", "passive_past_prog_neg"]),
+            ("Passive: perfect tenses", ["passive_perfect", "passive_perfect_neg", "passive_pluperfect", "passive_pluperfect_neg"]),
+            ("Passive: past subjunctive", ["passive_past_subj", "passive_perfect_subj", "passive_pluperfect_subj"]),
+        ]
     groups.append(("Imperative", ["imperative", "prohibitive"]))
     for title, cells in groups:
-        cells = [c for c in cells if verb_cell(lang, v, c)]
+        cells = [c for c in cells if c in cells_for(lang) and verb_cell(lang, v, c)]
         if not cells:
             continue
         parts += [f"## {title}", "", render_verb(lang, {"verb": inf, "cells": ",".join(cells), "show": "translit,ipa"}, ""), ""]

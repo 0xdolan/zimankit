@@ -66,14 +66,40 @@
 
 *کەوتن* (kewtin) “to fall” — present stem **کەو**, past stem **کەوت**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **کەوتووم**<br><sub>kewtûm</sub><br><sub>/kæwtuːm/</sub> | **کەوتبووم**<br><sub>kewtbûm</sub><br><sub>/kæwtbuːm/</sub> |
-| 2sg | تۆ | **کەوتوویت**<br><sub>kewtûyt</sub><br><sub>/kæwtuːjt/</sub> | **کەوتبوویت**<br><sub>kewtbûyt</sub><br><sub>/kæwtbuːjt/</sub> |
-| 3sg | ئەو | **کەوتووە**<br><sub>kewtûwe</sub><br><sub>/kæwtuːwæ/</sub> | **کەوتبوو**<br><sub>kewtbû</sub><br><sub>/kæwtbuː/</sub> |
-| 1pl | ئێمە | **کەوتووین**<br><sub>kewtûyn</sub><br><sub>/kæwtuːjn/</sub> | **کەوتبووین**<br><sub>kewtbûyn</sub><br><sub>/kæwtbuːjn/</sub> |
-| 2pl | ئێوە | **کەوتوون**<br><sub>kewtûn</sub><br><sub>/kæwtuːn/</sub> | **کەوتبوون**<br><sub>kewtbûn</sub><br><sub>/kæwtbuːn/</sub> |
-| 3pl | ئەوان | **کەوتوون**<br><sub>kewtûn</sub><br><sub>/kæwtuːn/</sub> | **کەوتبوون**<br><sub>kewtbûn</sub><br><sub>/kæwtbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **کەوتوومە**<br><sub>kewtûme</sub><br><sub>/kæwtuːmæ/</sub> | **نەکەوتوومە**<br><sub>nekewtûme</sub><br><sub>/nækæwtuːmæ/</sub> | **کەوتبووم**<br><sub>kewtbûm</sub><br><sub>/kæwtbuːm/</sub> | **نەکەوتبووم**<br><sub>nekewtbûm</sub><br><sub>/nækæwtbuːm/</sub> |
+| 2sg | تۆ | **کەوتوویتە**<br><sub>kewtûyte</sub><br><sub>/kæwtuːjtæ/</sub> | **نەکەوتوویتە**<br><sub>nekewtûyte</sub><br><sub>/nækæwtuːjtæ/</sub> | **کەوتبوویت**<br><sub>kewtbûyt</sub><br><sub>/kæwtbuːjt/</sub> | **نەکەوتبوویت**<br><sub>nekewtbûyt</sub><br><sub>/nækæwtbuːjt/</sub> |
+| 3sg | ئەو | **کەوتووە**<br><sub>kewtûwe</sub><br><sub>/kæwtuːwæ/</sub> | **نەکەوتووە**<br><sub>nekewtûwe</sub><br><sub>/nækæwtuːwæ/</sub> | **کەوتبوو**<br><sub>kewtbû</sub><br><sub>/kæwtbuː/</sub> | **نەکەوتبوو**<br><sub>nekewtbû</sub><br><sub>/nækæwtbuː/</sub> |
+| 1pl | ئێمە | **کەوتووینە**<br><sub>kewtûyne</sub><br><sub>/kæwtuːjnæ/</sub> | **نەکەوتووینە**<br><sub>nekewtûyne</sub><br><sub>/nækæwtuːjnæ/</sub> | **کەوتبووین**<br><sub>kewtbûyn</sub><br><sub>/kæwtbuːjn/</sub> | **نەکەوتبووین**<br><sub>nekewtbûyn</sub><br><sub>/nækæwtbuːjn/</sub> |
+| 2pl | ئێوە | **کەوتوونە**<br><sub>kewtûne</sub><br><sub>/kæwtuːnæ/</sub> | **نەکەوتوونە**<br><sub>nekewtûne</sub><br><sub>/nækæwtuːnæ/</sub> | **کەوتبوون**<br><sub>kewtbûn</sub><br><sub>/kæwtbuːn/</sub> | **نەکەوتبوون**<br><sub>nekewtbûn</sub><br><sub>/nækæwtbuːn/</sub> |
+| 3pl | ئەوان | **کەوتوونە**<br><sub>kewtûne</sub><br><sub>/kæwtuːnæ/</sub> | **نەکەوتوونە**<br><sub>nekewtûne</sub><br><sub>/nækæwtuːnæ/</sub> | **کەوتبوون**<br><sub>kewtbûn</sub><br><sub>/kæwtbuːn/</sub> | **نەکەوتبوون**<br><sub>nekewtbûn</sub><br><sub>/nækæwtbuːn/</sub> |
+
+## Past subjunctive
+
+*کەوتن* (kewtin) “to fall” — present stem **کەو**, past stem **کەوت**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **کەوتبام**<br><sub>kewtbam</sub><br><sub>/kæwtbaːm/</sub> | **کەوتبێتم**<br><sub>kewtbêtim</sub><br><sub>/kæwtbeːt(ɯ)m/</sub> | **کەوتبووبام**<br><sub>kewtbûbam</sub><br><sub>/kæwtbuːbaːm/</sub> |
+| 2sg | تۆ | **کەوتبایت**<br><sub>kewtbayt</sub><br><sub>/kæwtbaːjt/</sub> | **کەوتبێتیت**<br><sub>kewtbêtît</sub><br><sub>/kæwtbeːtiːt/</sub> | **کەوتبووبایت**<br><sub>kewtbûbayt</sub><br><sub>/kæwtbuːbaːjt/</sub> |
+| 3sg | ئەو | **کەوتبا**<br><sub>kewtba</sub><br><sub>/kæwtbaː/</sub> | **کەوتبێت**<br><sub>kewtbêt</sub><br><sub>/kæwtbeːt/</sub> | **کەوتبووبا**<br><sub>kewtbûba</sub><br><sub>/kæwtbuːbaː/</sub> |
+| 1pl | ئێمە | **کەوتباین**<br><sub>kewtbayn</sub><br><sub>/kæwtbaːjn/</sub> | **کەوتبێتین**<br><sub>kewtbêtîn</sub><br><sub>/kæwtbeːtiːn/</sub> | **کەوتبووباین**<br><sub>kewtbûbayn</sub><br><sub>/kæwtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **کەوتبان**<br><sub>kewtban</sub><br><sub>/kæwtbaːn/</sub> | **کەوتبێتن**<br><sub>kewtbêtin</sub><br><sub>/kæwtbeːt(ɯ)n/</sub> | **کەوتبووبان**<br><sub>kewtbûban</sub><br><sub>/kæwtbuːbaːn/</sub> |
+| 3pl | ئەوان | **کەوتبان**<br><sub>kewtban</sub><br><sub>/kæwtbaːn/</sub> | **کەوتبێتن**<br><sub>kewtbêtin</sub><br><sub>/kæwtbeːt(ɯ)n/</sub> | **کەوتبووبان**<br><sub>kewtbûban</sub><br><sub>/kæwtbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*کەوتن* (kewtin) “to fall” — present stem **کەو**, past stem **کەوت**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەکەوتبام**<br><sub>nekewtbam</sub><br><sub>/nækæwtbaːm/</sub> | **نەکەوتبێتم**<br><sub>nekewtbêtim</sub><br><sub>/nækæwtbeːt(ɯ)m/</sub> | **نەکەوتبووبام**<br><sub>nekewtbûbam</sub><br><sub>/nækæwtbuːbaːm/</sub> |
+| 2sg | تۆ | **نەکەوتبایت**<br><sub>nekewtbayt</sub><br><sub>/nækæwtbaːjt/</sub> | **نەکەوتبێتیت**<br><sub>nekewtbêtît</sub><br><sub>/nækæwtbeːtiːt/</sub> | **نەکەوتبووبایت**<br><sub>nekewtbûbayt</sub><br><sub>/nækæwtbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەکەوتبا**<br><sub>nekewtba</sub><br><sub>/nækæwtbaː/</sub> | **نەکەوتبێت**<br><sub>nekewtbêt</sub><br><sub>/nækæwtbeːt/</sub> | **نەکەوتبووبا**<br><sub>nekewtbûba</sub><br><sub>/nækæwtbuːbaː/</sub> |
+| 1pl | ئێمە | **نەکەوتباین**<br><sub>nekewtbayn</sub><br><sub>/nækæwtbaːjn/</sub> | **نەکەوتبێتین**<br><sub>nekewtbêtîn</sub><br><sub>/nækæwtbeːtiːn/</sub> | **نەکەوتبووباین**<br><sub>nekewtbûbayn</sub><br><sub>/nækæwtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەکەوتبان**<br><sub>nekewtban</sub><br><sub>/nækæwtbaːn/</sub> | **نەکەوتبێتن**<br><sub>nekewtbêtin</sub><br><sub>/nækæwtbeːt(ɯ)n/</sub> | **نەکەوتبووبان**<br><sub>nekewtbûban</sub><br><sub>/nækæwtbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەکەوتبان**<br><sub>nekewtban</sub><br><sub>/nækæwtbaːn/</sub> | **نەکەوتبێتن**<br><sub>nekewtbêtin</sub><br><sub>/nækæwtbeːt(ɯ)n/</sub> | **نەکەوتبووبان**<br><sub>nekewtbûban</sub><br><sub>/nækæwtbuːbaːn/</sub> |
 
 ## Imperative
 

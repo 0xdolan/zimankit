@@ -198,7 +198,37 @@ def test_nouns_in_uu_take_consonant_endings():
     assert (cells["def.sg"], cells["def.pl"], cells["ind.sg"], cells["pl"], cells["ezafe"]) == ("خانووەکە", "خانووەکان", "خانووێک", "خانووان", "خانووی")
 
 
-@pytest.mark.xfail(reason="not implemented yet: docs/23-ckb-written-standard.md#not-implemented-yet")
-@pytest.mark.parametrize("form", ["نەهاتووە", "هاتوومە", "خواردبا", "دەکرا", "بکرێت", "کرابوو"])
-def test_forms_still_missing(form):
-    assert verbs.default_index().lookup(form)
+def test_guessed_vowel_stems_get_no_past_subjunctive():
+    guessed = verbs.Verb("کون", "کو", "کە", False, "", "", "guess")
+    assert "کوبا" not in {f.form for f in verbs.conjugate(guessed)}
+    assert not [f for f in verbs.conjugate(verbs.Verb("یان", "یا", "", True, "", "", "guess")) if f.features.get("voice") == "passive"]
+
+
+@pytest.mark.parametrize("form, lemma, features", [
+    ("نەهاتووە", "هاتن", {"tense": "present_perfect", "polarity": "neg"}),
+    ("نەهاتبوو", "هاتن", {"tense": "past_perfect", "polarity": "neg"}),
+    ("نەکردووە", "کردن", {"tense": "present_perfect", "polarity": "neg"}),
+    ("نەکردبوو", "کردن", {"tense": "past_perfect", "polarity": "neg"}),
+    ("نەمکردبوو", "کردن", {"tense": "past_perfect", "polarity": "neg", "agent": "1sg"}),
+    ("هاتوومە", "هاتن", {"tense": "present_perfect", "person": "1sg"}),
+    ("هاتووم", "هاتن", {"tense": "present_perfect", "variant": "short"}),
+    ("هێناویە", "هێنان", {"tense": "present_perfect", "variant": "short"}),
+    ("خواردبا", "خواردن", {"tense": "past_subj", "agent": "external"}),
+    ("خواردبام", "خواردن", {"tense": "past_subj", "agent": "1sg"}),
+    ("خواردبێتم", "خواردن", {"tense": "perfect_subj", "agent": "1sg"}),
+    ("خواردبووبا", "خواردن", {"tense": "pluperfect_subj"}),
+    ("هاتبایت", "هاتن", {"tense": "past_subj", "person": "2sg"}),
+    ("هاتبێتیت", "هاتن", {"tense": "perfect_subj", "person": "2sg"}),
+    ("دەکرا", "کردن", {"voice": "passive", "aspect": "progressive"}),
+    ("نەدەکرا", "کردن", {"voice": "passive", "aspect": "progressive", "polarity": "neg"}),
+    ("نەکرا", "کردن", {"voice": "passive", "polarity": "neg"}),
+    ("نەکراوە", "کردن", {"voice": "passive", "tense": "present_perfect", "polarity": "neg"}),
+    ("کرابوو", "کردن", {"voice": "passive", "tense": "past_perfect"}),
+    ("کراوم", "کردن", {"voice": "passive", "tense": "present_perfect", "person": "1sg"}),
+    ("بکرێت", "کردن", {"voice": "passive", "mood": "subjunctive"}),
+    ("نەکرێت", "کردن", {"voice": "passive", "mood": "subjunctive", "polarity": "neg"}),
+    ("کرابا", "کردن", {"voice": "passive", "tense": "past_subj"}),
+])
+def test_tenses_printed_in_the_grammars(form, lemma, features):
+    readings = [f.features for f in verbs.default_index().lookup(form) if f.lemma == lemma]
+    assert any(features.items() <= r.items() for r in readings), readings

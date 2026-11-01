@@ -107,7 +107,7 @@ Usually the passive leaves the doer unsaid. When needed: **لەلایەن … ە
 ## Summary
 
 * Passive stem = present stem + **ر** (ر/ڕ-final stems + **در**).
-* Present **دەکرێت**, past **کرا**, perfect **کراوە**, participle **کراو**.
+* Present **دەکرێت**, subjunctive **بکرێت**, past **کرا**, progressive **دەکرا**, perfect **کراوە**, past perfect **کرابوو**, past subjunctive **کرابا**, participle **کراو**. Each has a negative, such as **نەکرا**.
 * Agent: لەلایەن … ەوە.
 
 <!-- nav:bottom -->

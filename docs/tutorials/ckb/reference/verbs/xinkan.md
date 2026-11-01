@@ -66,14 +66,40 @@
 
 *خنکان* (xinkan) “to drown, to suffocate (intr.)” — present stem **خنکێ**, past stem **خنکا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **خنکاوم**<br><sub>xinkawm</sub><br><sub>/x(ɯ)nkaːwm/</sub> | **خنکابووم**<br><sub>xinkabûm</sub><br><sub>/x(ɯ)nkaːbuːm/</sub> |
-| 2sg | تۆ | **خنکاویت**<br><sub>xinkawît</sub><br><sub>/x(ɯ)nkaːwiːt/</sub> | **خنکابوویت**<br><sub>xinkabûyt</sub><br><sub>/x(ɯ)nkaːbuːjt/</sub> |
-| 3sg | ئەو | **خنکاوە**<br><sub>xinkawe</sub><br><sub>/x(ɯ)nkaːwæ/</sub> | **خنکابوو**<br><sub>xinkabû</sub><br><sub>/x(ɯ)nkaːbuː/</sub> |
-| 1pl | ئێمە | **خنکاوین**<br><sub>xinkawîn</sub><br><sub>/x(ɯ)nkaːwiːn/</sub> | **خنکابووین**<br><sub>xinkabûyn</sub><br><sub>/x(ɯ)nkaːbuːjn/</sub> |
-| 2pl | ئێوە | **خنکاون**<br><sub>xinkawn</sub><br><sub>/x(ɯ)nkaːwn/</sub> | **خنکابوون**<br><sub>xinkabûn</sub><br><sub>/x(ɯ)nkaːbuːn/</sub> |
-| 3pl | ئەوان | **خنکاون**<br><sub>xinkawn</sub><br><sub>/x(ɯ)nkaːwn/</sub> | **خنکابوون**<br><sub>xinkabûn</sub><br><sub>/x(ɯ)nkaːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **خنکاومە**<br><sub>xinkawme</sub><br><sub>/x(ɯ)nkaːwmæ/</sub> | **نەخنکاومە**<br><sub>nexnikawme</sub><br><sub>/næxn(ɯ)kaːwmæ/</sub> | **خنکابووم**<br><sub>xinkabûm</sub><br><sub>/x(ɯ)nkaːbuːm/</sub> | **نەخنکابووم**<br><sub>nexnikabûm</sub><br><sub>/næxn(ɯ)kaːbuːm/</sub> |
+| 2sg | تۆ | **خنکاویتە**<br><sub>xinkawîte</sub><br><sub>/x(ɯ)nkaːwiːtæ/</sub> | **نەخنکاویتە**<br><sub>nexnikawîte</sub><br><sub>/næxn(ɯ)kaːwiːtæ/</sub> | **خنکابوویت**<br><sub>xinkabûyt</sub><br><sub>/x(ɯ)nkaːbuːjt/</sub> | **نەخنکابوویت**<br><sub>nexnikabûyt</sub><br><sub>/næxn(ɯ)kaːbuːjt/</sub> |
+| 3sg | ئەو | **خنکاوە**<br><sub>xinkawe</sub><br><sub>/x(ɯ)nkaːwæ/</sub> | **نەخنکاوە**<br><sub>nexnikawe</sub><br><sub>/næxn(ɯ)kaːwæ/</sub> | **خنکابوو**<br><sub>xinkabû</sub><br><sub>/x(ɯ)nkaːbuː/</sub> | **نەخنکابوو**<br><sub>nexnikabû</sub><br><sub>/næxn(ɯ)kaːbuː/</sub> |
+| 1pl | ئێمە | **خنکاوینە**<br><sub>xinkawîne</sub><br><sub>/x(ɯ)nkaːwiːnæ/</sub> | **نەخنکاوینە**<br><sub>nexnikawîne</sub><br><sub>/næxn(ɯ)kaːwiːnæ/</sub> | **خنکابووین**<br><sub>xinkabûyn</sub><br><sub>/x(ɯ)nkaːbuːjn/</sub> | **نەخنکابووین**<br><sub>nexnikabûyn</sub><br><sub>/næxn(ɯ)kaːbuːjn/</sub> |
+| 2pl | ئێوە | **خنکاونە**<br><sub>xinkawne</sub><br><sub>/x(ɯ)nkaːwnæ/</sub> | **نەخنکاونە**<br><sub>nexnikawne</sub><br><sub>/næxn(ɯ)kaːwnæ/</sub> | **خنکابوون**<br><sub>xinkabûn</sub><br><sub>/x(ɯ)nkaːbuːn/</sub> | **نەخنکابوون**<br><sub>nexnikabûn</sub><br><sub>/næxn(ɯ)kaːbuːn/</sub> |
+| 3pl | ئەوان | **خنکاونە**<br><sub>xinkawne</sub><br><sub>/x(ɯ)nkaːwnæ/</sub> | **نەخنکاونە**<br><sub>nexnikawne</sub><br><sub>/næxn(ɯ)kaːwnæ/</sub> | **خنکابوون**<br><sub>xinkabûn</sub><br><sub>/x(ɯ)nkaːbuːn/</sub> | **نەخنکابوون**<br><sub>nexnikabûn</sub><br><sub>/næxn(ɯ)kaːbuːn/</sub> |
+
+## Past subjunctive
+
+*خنکان* (xinkan) “to drown, to suffocate (intr.)” — present stem **خنکێ**, past stem **خنکا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **خنکابام**<br><sub>xinkabam</sub><br><sub>/x(ɯ)nkaːbaːm/</sub> | **خنکابێتم**<br><sub>xinkabêtim</sub><br><sub>/x(ɯ)nkaːbeːt(ɯ)m/</sub> | **خنکابووبام**<br><sub>xinkabûbam</sub><br><sub>/x(ɯ)nkaːbuːbaːm/</sub> |
+| 2sg | تۆ | **خنکابایت**<br><sub>xinkabayt</sub><br><sub>/x(ɯ)nkaːbaːjt/</sub> | **خنکابێتیت**<br><sub>xinkabêtît</sub><br><sub>/x(ɯ)nkaːbeːtiːt/</sub> | **خنکابووبایت**<br><sub>xinkabûbayt</sub><br><sub>/x(ɯ)nkaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **خنکابا**<br><sub>xinkaba</sub><br><sub>/x(ɯ)nkaːbaː/</sub> | **خنکابێت**<br><sub>xinkabêt</sub><br><sub>/x(ɯ)nkaːbeːt/</sub> | **خنکابووبا**<br><sub>xinkabûba</sub><br><sub>/x(ɯ)nkaːbuːbaː/</sub> |
+| 1pl | ئێمە | **خنکاباین**<br><sub>xinkabayn</sub><br><sub>/x(ɯ)nkaːbaːjn/</sub> | **خنکابێتین**<br><sub>xinkabêtîn</sub><br><sub>/x(ɯ)nkaːbeːtiːn/</sub> | **خنکابووباین**<br><sub>xinkabûbayn</sub><br><sub>/x(ɯ)nkaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **خنکابان**<br><sub>xinkaban</sub><br><sub>/x(ɯ)nkaːbaːn/</sub> | **خنکابێتن**<br><sub>xinkabêtin</sub><br><sub>/x(ɯ)nkaːbeːt(ɯ)n/</sub> | **خنکابووبان**<br><sub>xinkabûban</sub><br><sub>/x(ɯ)nkaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **خنکابان**<br><sub>xinkaban</sub><br><sub>/x(ɯ)nkaːbaːn/</sub> | **خنکابێتن**<br><sub>xinkabêtin</sub><br><sub>/x(ɯ)nkaːbeːt(ɯ)n/</sub> | **خنکابووبان**<br><sub>xinkabûban</sub><br><sub>/x(ɯ)nkaːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*خنکان* (xinkan) “to drown, to suffocate (intr.)” — present stem **خنکێ**, past stem **خنکا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەخنکابام**<br><sub>nexnikabam</sub><br><sub>/næxn(ɯ)kaːbaːm/</sub> | **نەخنکابێتم**<br><sub>nexnikabêtim</sub><br><sub>/næxn(ɯ)kaːbeːt(ɯ)m/</sub> | **نەخنکابووبام**<br><sub>nexnikabûbam</sub><br><sub>/næxn(ɯ)kaːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەخنکابایت**<br><sub>nexnikabayt</sub><br><sub>/næxn(ɯ)kaːbaːjt/</sub> | **نەخنکابێتیت**<br><sub>nexnikabêtît</sub><br><sub>/næxn(ɯ)kaːbeːtiːt/</sub> | **نەخنکابووبایت**<br><sub>nexnikabûbayt</sub><br><sub>/næxn(ɯ)kaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەخنکابا**<br><sub>nexnikaba</sub><br><sub>/næxn(ɯ)kaːbaː/</sub> | **نەخنکابێت**<br><sub>nexnikabêt</sub><br><sub>/næxn(ɯ)kaːbeːt/</sub> | **نەخنکابووبا**<br><sub>nexnikabûba</sub><br><sub>/næxn(ɯ)kaːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەخنکاباین**<br><sub>nexnikabayn</sub><br><sub>/næxn(ɯ)kaːbaːjn/</sub> | **نەخنکابێتین**<br><sub>nexnikabêtîn</sub><br><sub>/næxn(ɯ)kaːbeːtiːn/</sub> | **نەخنکابووباین**<br><sub>nexnikabûbayn</sub><br><sub>/næxn(ɯ)kaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەخنکابان**<br><sub>nexnikaban</sub><br><sub>/næxn(ɯ)kaːbaːn/</sub> | **نەخنکابێتن**<br><sub>nexnikabêtin</sub><br><sub>/næxn(ɯ)kaːbeːt(ɯ)n/</sub> | **نەخنکابووبان**<br><sub>nexnikabûban</sub><br><sub>/næxn(ɯ)kaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەخنکابان**<br><sub>nexnikaban</sub><br><sub>/næxn(ɯ)kaːbaːn/</sub> | **نەخنکابێتن**<br><sub>nexnikabêtin</sub><br><sub>/næxn(ɯ)kaːbeːt(ɯ)n/</sub> | **نەخنکابووبان**<br><sub>nexnikabûban</sub><br><sub>/næxn(ɯ)kaːbuːbaːn/</sub> |
 
 ## Imperative
 

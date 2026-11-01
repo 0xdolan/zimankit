@@ -66,14 +66,40 @@
 
 *گریان* (giryan) “to cry” — present stem **گری**, past stem **گریا**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **گریاوم**<br><sub>giryawm</sub><br><sub>/ɡ(ɯ)ɾjaːwm/</sub> | **گریابووم**<br><sub>giryabûm</sub><br><sub>/ɡ(ɯ)ɾjaːbuːm/</sub> |
-| 2sg | تۆ | **گریاویت**<br><sub>giryawît</sub><br><sub>/ɡ(ɯ)ɾjaːwiːt/</sub> | **گریابوویت**<br><sub>giryabûyt</sub><br><sub>/ɡ(ɯ)ɾjaːbuːjt/</sub> |
-| 3sg | ئەو | **گریاوە**<br><sub>giryawe</sub><br><sub>/ɡ(ɯ)ɾjaːwæ/</sub> | **گریابوو**<br><sub>giryabû</sub><br><sub>/ɡ(ɯ)ɾjaːbuː/</sub> |
-| 1pl | ئێمە | **گریاوین**<br><sub>giryawîn</sub><br><sub>/ɡ(ɯ)ɾjaːwiːn/</sub> | **گریابووین**<br><sub>giryabûyn</sub><br><sub>/ɡ(ɯ)ɾjaːbuːjn/</sub> |
-| 2pl | ئێوە | **گریاون**<br><sub>giryawn</sub><br><sub>/ɡ(ɯ)ɾjaːwn/</sub> | **گریابوون**<br><sub>giryabûn</sub><br><sub>/ɡ(ɯ)ɾjaːbuːn/</sub> |
-| 3pl | ئەوان | **گریاون**<br><sub>giryawn</sub><br><sub>/ɡ(ɯ)ɾjaːwn/</sub> | **گریابوون**<br><sub>giryabûn</sub><br><sub>/ɡ(ɯ)ɾjaːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **گریاومە**<br><sub>giryawme</sub><br><sub>/ɡ(ɯ)ɾjaːwmæ/</sub> | **نەگریاومە**<br><sub>negryawme</sub><br><sub>/næɡɾjaːwmæ/</sub> | **گریابووم**<br><sub>giryabûm</sub><br><sub>/ɡ(ɯ)ɾjaːbuːm/</sub> | **نەگریابووم**<br><sub>negryabûm</sub><br><sub>/næɡɾjaːbuːm/</sub> |
+| 2sg | تۆ | **گریاویتە**<br><sub>giryawîte</sub><br><sub>/ɡ(ɯ)ɾjaːwiːtæ/</sub> | **نەگریاویتە**<br><sub>negryawîte</sub><br><sub>/næɡɾjaːwiːtæ/</sub> | **گریابوویت**<br><sub>giryabûyt</sub><br><sub>/ɡ(ɯ)ɾjaːbuːjt/</sub> | **نەگریابوویت**<br><sub>negryabûyt</sub><br><sub>/næɡɾjaːbuːjt/</sub> |
+| 3sg | ئەو | **گریاوە**<br><sub>giryawe</sub><br><sub>/ɡ(ɯ)ɾjaːwæ/</sub> | **نەگریاوە**<br><sub>negryawe</sub><br><sub>/næɡɾjaːwæ/</sub> | **گریابوو**<br><sub>giryabû</sub><br><sub>/ɡ(ɯ)ɾjaːbuː/</sub> | **نەگریابوو**<br><sub>negryabû</sub><br><sub>/næɡɾjaːbuː/</sub> |
+| 1pl | ئێمە | **گریاوینە**<br><sub>giryawîne</sub><br><sub>/ɡ(ɯ)ɾjaːwiːnæ/</sub> | **نەگریاوینە**<br><sub>negryawîne</sub><br><sub>/næɡɾjaːwiːnæ/</sub> | **گریابووین**<br><sub>giryabûyn</sub><br><sub>/ɡ(ɯ)ɾjaːbuːjn/</sub> | **نەگریابووین**<br><sub>negryabûyn</sub><br><sub>/næɡɾjaːbuːjn/</sub> |
+| 2pl | ئێوە | **گریاونە**<br><sub>giryawne</sub><br><sub>/ɡ(ɯ)ɾjaːwnæ/</sub> | **نەگریاونە**<br><sub>negryawne</sub><br><sub>/næɡɾjaːwnæ/</sub> | **گریابوون**<br><sub>giryabûn</sub><br><sub>/ɡ(ɯ)ɾjaːbuːn/</sub> | **نەگریابوون**<br><sub>negryabûn</sub><br><sub>/næɡɾjaːbuːn/</sub> |
+| 3pl | ئەوان | **گریاونە**<br><sub>giryawne</sub><br><sub>/ɡ(ɯ)ɾjaːwnæ/</sub> | **نەگریاونە**<br><sub>negryawne</sub><br><sub>/næɡɾjaːwnæ/</sub> | **گریابوون**<br><sub>giryabûn</sub><br><sub>/ɡ(ɯ)ɾjaːbuːn/</sub> | **نەگریابوون**<br><sub>negryabûn</sub><br><sub>/næɡɾjaːbuːn/</sub> |
+
+## Past subjunctive
+
+*گریان* (giryan) “to cry” — present stem **گری**, past stem **گریا**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **گریابام**<br><sub>giryabam</sub><br><sub>/ɡ(ɯ)ɾjaːbaːm/</sub> | **گریابێتم**<br><sub>giryabêtim</sub><br><sub>/ɡ(ɯ)ɾjaːbeːt(ɯ)m/</sub> | **گریابووبام**<br><sub>giryabûbam</sub><br><sub>/ɡ(ɯ)ɾjaːbuːbaːm/</sub> |
+| 2sg | تۆ | **گریابایت**<br><sub>giryabayt</sub><br><sub>/ɡ(ɯ)ɾjaːbaːjt/</sub> | **گریابێتیت**<br><sub>giryabêtît</sub><br><sub>/ɡ(ɯ)ɾjaːbeːtiːt/</sub> | **گریابووبایت**<br><sub>giryabûbayt</sub><br><sub>/ɡ(ɯ)ɾjaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **گریابا**<br><sub>giryaba</sub><br><sub>/ɡ(ɯ)ɾjaːbaː/</sub> | **گریابێت**<br><sub>giryabêt</sub><br><sub>/ɡ(ɯ)ɾjaːbeːt/</sub> | **گریابووبا**<br><sub>giryabûba</sub><br><sub>/ɡ(ɯ)ɾjaːbuːbaː/</sub> |
+| 1pl | ئێمە | **گریاباین**<br><sub>giryabayn</sub><br><sub>/ɡ(ɯ)ɾjaːbaːjn/</sub> | **گریابێتین**<br><sub>giryabêtîn</sub><br><sub>/ɡ(ɯ)ɾjaːbeːtiːn/</sub> | **گریابووباین**<br><sub>giryabûbayn</sub><br><sub>/ɡ(ɯ)ɾjaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **گریابان**<br><sub>giryaban</sub><br><sub>/ɡ(ɯ)ɾjaːbaːn/</sub> | **گریابێتن**<br><sub>giryabêtin</sub><br><sub>/ɡ(ɯ)ɾjaːbeːt(ɯ)n/</sub> | **گریابووبان**<br><sub>giryabûban</sub><br><sub>/ɡ(ɯ)ɾjaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **گریابان**<br><sub>giryaban</sub><br><sub>/ɡ(ɯ)ɾjaːbaːn/</sub> | **گریابێتن**<br><sub>giryabêtin</sub><br><sub>/ɡ(ɯ)ɾjaːbeːt(ɯ)n/</sub> | **گریابووبان**<br><sub>giryabûban</sub><br><sub>/ɡ(ɯ)ɾjaːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*گریان* (giryan) “to cry” — present stem **گری**, past stem **گریا**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەگریابام**<br><sub>negryabam</sub><br><sub>/næɡɾjaːbaːm/</sub> | **نەگریابێتم**<br><sub>negryabêtim</sub><br><sub>/næɡɾjaːbeːt(ɯ)m/</sub> | **نەگریابووبام**<br><sub>negryabûbam</sub><br><sub>/næɡɾjaːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەگریابایت**<br><sub>negryabayt</sub><br><sub>/næɡɾjaːbaːjt/</sub> | **نەگریابێتیت**<br><sub>negryabêtît</sub><br><sub>/næɡɾjaːbeːtiːt/</sub> | **نەگریابووبایت**<br><sub>negryabûbayt</sub><br><sub>/næɡɾjaːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەگریابا**<br><sub>negryaba</sub><br><sub>/næɡɾjaːbaː/</sub> | **نەگریابێت**<br><sub>negryabêt</sub><br><sub>/næɡɾjaːbeːt/</sub> | **نەگریابووبا**<br><sub>negryabûba</sub><br><sub>/næɡɾjaːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەگریاباین**<br><sub>negryabayn</sub><br><sub>/næɡɾjaːbaːjn/</sub> | **نەگریابێتین**<br><sub>negryabêtîn</sub><br><sub>/næɡɾjaːbeːtiːn/</sub> | **نەگریابووباین**<br><sub>negryabûbayn</sub><br><sub>/næɡɾjaːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەگریابان**<br><sub>negryaban</sub><br><sub>/næɡɾjaːbaːn/</sub> | **نەگریابێتن**<br><sub>negryabêtin</sub><br><sub>/næɡɾjaːbeːt(ɯ)n/</sub> | **نەگریابووبان**<br><sub>negryabûban</sub><br><sub>/næɡɾjaːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەگریابان**<br><sub>negryaban</sub><br><sub>/næɡɾjaːbaːn/</sub> | **نەگریابێتن**<br><sub>negryabêtin</sub><br><sub>/næɡɾjaːbeːt(ɯ)n/</sub> | **نەگریابووبان**<br><sub>negryabûban</sub><br><sub>/næɡɾjaːbuːbaːn/</sub> |
 
 ## Imperative
 

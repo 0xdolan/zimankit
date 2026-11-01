@@ -66,14 +66,40 @@
 
 *چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **چووم**<br><sub>çûm</sub><br><sub>/tʃuːm/</sub> | **چووبووم**<br><sub>çûbûm</sub><br><sub>/tʃuːbuːm/</sub> |
-| 2sg | تۆ | **چوویت**<br><sub>çûyt</sub><br><sub>/tʃuːjt/</sub> | **چووبوویت**<br><sub>çûbûyt</sub><br><sub>/tʃuːbuːjt/</sub> |
-| 3sg | ئەو | **چووە**<br><sub>çûwe</sub><br><sub>/tʃuːwæ/</sub> | **چووبوو**<br><sub>çûbû</sub><br><sub>/tʃuːbuː/</sub> |
-| 1pl | ئێمە | **چووین**<br><sub>çûyn</sub><br><sub>/tʃuːjn/</sub> | **چووبووین**<br><sub>çûbûyn</sub><br><sub>/tʃuːbuːjn/</sub> |
-| 2pl | ئێوە | **چوون**<br><sub>çûn</sub><br><sub>/tʃuːn/</sub> | **چووبوون**<br><sub>çûbûn</sub><br><sub>/tʃuːbuːn/</sub> |
-| 3pl | ئەوان | **چوون**<br><sub>çûn</sub><br><sub>/tʃuːn/</sub> | **چووبوون**<br><sub>çûbûn</sub><br><sub>/tʃuːbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **چوومە**<br><sub>çûme</sub><br><sub>/tʃuːmæ/</sub> | **نەچوومە**<br><sub>neçûme</sub><br><sub>/nætʃuːmæ/</sub> | **چووبووم**<br><sub>çûbûm</sub><br><sub>/tʃuːbuːm/</sub> | **نەچووبووم**<br><sub>neçûbûm</sub><br><sub>/nætʃuːbuːm/</sub> |
+| 2sg | تۆ | **چوویتە**<br><sub>çûyte</sub><br><sub>/tʃuːjtæ/</sub> | **نەچوویتە**<br><sub>neçûyte</sub><br><sub>/nætʃuːjtæ/</sub> | **چووبوویت**<br><sub>çûbûyt</sub><br><sub>/tʃuːbuːjt/</sub> | **نەچووبوویت**<br><sub>neçûbûyt</sub><br><sub>/nætʃuːbuːjt/</sub> |
+| 3sg | ئەو | **چووە**<br><sub>çûwe</sub><br><sub>/tʃuːwæ/</sub> | **نەچووە**<br><sub>neçûwe</sub><br><sub>/nætʃuːwæ/</sub> | **چووبوو**<br><sub>çûbû</sub><br><sub>/tʃuːbuː/</sub> | **نەچووبوو**<br><sub>neçûbû</sub><br><sub>/nætʃuːbuː/</sub> |
+| 1pl | ئێمە | **چووینە**<br><sub>çûyne</sub><br><sub>/tʃuːjnæ/</sub> | **نەچووینە**<br><sub>neçûyne</sub><br><sub>/nætʃuːjnæ/</sub> | **چووبووین**<br><sub>çûbûyn</sub><br><sub>/tʃuːbuːjn/</sub> | **نەچووبووین**<br><sub>neçûbûyn</sub><br><sub>/nætʃuːbuːjn/</sub> |
+| 2pl | ئێوە | **چوونە**<br><sub>çûne</sub><br><sub>/tʃuːnæ/</sub> | **نەچوونە**<br><sub>neçûne</sub><br><sub>/nætʃuːnæ/</sub> | **چووبوون**<br><sub>çûbûn</sub><br><sub>/tʃuːbuːn/</sub> | **نەچووبوون**<br><sub>neçûbûn</sub><br><sub>/nætʃuːbuːn/</sub> |
+| 3pl | ئەوان | **چوونە**<br><sub>çûne</sub><br><sub>/tʃuːnæ/</sub> | **نەچوونە**<br><sub>neçûne</sub><br><sub>/nætʃuːnæ/</sub> | **چووبوون**<br><sub>çûbûn</sub><br><sub>/tʃuːbuːn/</sub> | **نەچووبوون**<br><sub>neçûbûn</sub><br><sub>/nætʃuːbuːn/</sub> |
+
+## Past subjunctive
+
+*چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **چووبام**<br><sub>çûbam</sub><br><sub>/tʃuːbaːm/</sub> | **چووبێتم**<br><sub>çûbêtim</sub><br><sub>/tʃuːbeːt(ɯ)m/</sub> | **چووبووبام**<br><sub>çûbûbam</sub><br><sub>/tʃuːbuːbaːm/</sub> |
+| 2sg | تۆ | **چووبایت**<br><sub>çûbayt</sub><br><sub>/tʃuːbaːjt/</sub> | **چووبێتیت**<br><sub>çûbêtît</sub><br><sub>/tʃuːbeːtiːt/</sub> | **چووبووبایت**<br><sub>çûbûbayt</sub><br><sub>/tʃuːbuːbaːjt/</sub> |
+| 3sg | ئەو | **چووبا**<br><sub>çûba</sub><br><sub>/tʃuːbaː/</sub> | **چووبێت**<br><sub>çûbêt</sub><br><sub>/tʃuːbeːt/</sub> | **چووبووبا**<br><sub>çûbûba</sub><br><sub>/tʃuːbuːbaː/</sub> |
+| 1pl | ئێمە | **چووباین**<br><sub>çûbayn</sub><br><sub>/tʃuːbaːjn/</sub> | **چووبێتین**<br><sub>çûbêtîn</sub><br><sub>/tʃuːbeːtiːn/</sub> | **چووبووباین**<br><sub>çûbûbayn</sub><br><sub>/tʃuːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **چووبان**<br><sub>çûban</sub><br><sub>/tʃuːbaːn/</sub> | **چووبێتن**<br><sub>çûbêtin</sub><br><sub>/tʃuːbeːt(ɯ)n/</sub> | **چووبووبان**<br><sub>çûbûban</sub><br><sub>/tʃuːbuːbaːn/</sub> |
+| 3pl | ئەوان | **چووبان**<br><sub>çûban</sub><br><sub>/tʃuːbaːn/</sub> | **چووبێتن**<br><sub>çûbêtin</sub><br><sub>/tʃuːbeːt(ɯ)n/</sub> | **چووبووبان**<br><sub>çûbûban</sub><br><sub>/tʃuːbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*چوون* (çûn) “to go” — present stem **چ**, past stem **چوو**, intransitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەچووبام**<br><sub>neçûbam</sub><br><sub>/nætʃuːbaːm/</sub> | **نەچووبێتم**<br><sub>neçûbêtim</sub><br><sub>/nætʃuːbeːt(ɯ)m/</sub> | **نەچووبووبام**<br><sub>neçûbûbam</sub><br><sub>/nætʃuːbuːbaːm/</sub> |
+| 2sg | تۆ | **نەچووبایت**<br><sub>neçûbayt</sub><br><sub>/nætʃuːbaːjt/</sub> | **نەچووبێتیت**<br><sub>neçûbêtît</sub><br><sub>/nætʃuːbeːtiːt/</sub> | **نەچووبووبایت**<br><sub>neçûbûbayt</sub><br><sub>/nætʃuːbuːbaːjt/</sub> |
+| 3sg | ئەو | **نەچووبا**<br><sub>neçûba</sub><br><sub>/nætʃuːbaː/</sub> | **نەچووبێت**<br><sub>neçûbêt</sub><br><sub>/nætʃuːbeːt/</sub> | **نەچووبووبا**<br><sub>neçûbûba</sub><br><sub>/nætʃuːbuːbaː/</sub> |
+| 1pl | ئێمە | **نەچووباین**<br><sub>neçûbayn</sub><br><sub>/nætʃuːbaːjn/</sub> | **نەچووبێتین**<br><sub>neçûbêtîn</sub><br><sub>/nætʃuːbeːtiːn/</sub> | **نەچووبووباین**<br><sub>neçûbûbayn</sub><br><sub>/nætʃuːbuːbaːjn/</sub> |
+| 2pl | ئێوە | **نەچووبان**<br><sub>neçûban</sub><br><sub>/nætʃuːbaːn/</sub> | **نەچووبێتن**<br><sub>neçûbêtin</sub><br><sub>/nætʃuːbeːt(ɯ)n/</sub> | **نەچووبووبان**<br><sub>neçûbûban</sub><br><sub>/nætʃuːbuːbaːn/</sub> |
+| 3pl | ئەوان | **نەچووبان**<br><sub>neçûban</sub><br><sub>/nætʃuːbaːn/</sub> | **نەچووبێتن**<br><sub>neçûbêtin</sub><br><sub>/nætʃuːbeːt(ɯ)n/</sub> | **نەچووبووبان**<br><sub>neçûbûban</sub><br><sub>/nætʃuːbuːbaːn/</sub> |
 
 ## Imperative
 

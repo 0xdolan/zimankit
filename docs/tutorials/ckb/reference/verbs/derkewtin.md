@@ -67,14 +67,40 @@
 
 *دەرکەوتن* (derkewtin) “to appear, to come out” — present stem **کەو**, past stem **کەوت**, intransitive, preverb **دەر**
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **دەرکەوتووم**<br><sub>derkewtûm</sub><br><sub>/dæɾkæwtuːm/</sub> | **دەرکەوتبووم**<br><sub>derkewtbûm</sub><br><sub>/dæɾkæwtbuːm/</sub> |
-| 2sg | تۆ | **دەرکەوتوویت**<br><sub>derkewtûyt</sub><br><sub>/dæɾkæwtuːjt/</sub> | **دەرکەوتبوویت**<br><sub>derkewtbûyt</sub><br><sub>/dæɾkæwtbuːjt/</sub> |
-| 3sg | ئەو | **دەرکەوتووە**<br><sub>derkewtûwe</sub><br><sub>/dæɾkæwtuːwæ/</sub> | **دەرکەوتبوو**<br><sub>derkewtbû</sub><br><sub>/dæɾkæwtbuː/</sub> |
-| 1pl | ئێمە | **دەرکەوتووین**<br><sub>derkewtûyn</sub><br><sub>/dæɾkæwtuːjn/</sub> | **دەرکەوتبووین**<br><sub>derkewtbûyn</sub><br><sub>/dæɾkæwtbuːjn/</sub> |
-| 2pl | ئێوە | **دەرکەوتوون**<br><sub>derkewtûn</sub><br><sub>/dæɾkæwtuːn/</sub> | **دەرکەوتبوون**<br><sub>derkewtbûn</sub><br><sub>/dæɾkæwtbuːn/</sub> |
-| 3pl | ئەوان | **دەرکەوتوون**<br><sub>derkewtûn</sub><br><sub>/dæɾkæwtuːn/</sub> | **دەرکەوتبوون**<br><sub>derkewtbûn</sub><br><sub>/dæɾkæwtbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **دەرکەوتوومە**<br><sub>derkewtûme</sub><br><sub>/dæɾkæwtuːmæ/</sub> | **دەرنەکەوتوومە**<br><sub>dernekewtûme</sub><br><sub>/dæɾnækæwtuːmæ/</sub> | **دەرکەوتبووم**<br><sub>derkewtbûm</sub><br><sub>/dæɾkæwtbuːm/</sub> | **دەرنەکەوتبووم**<br><sub>dernekewtbûm</sub><br><sub>/dæɾnækæwtbuːm/</sub> |
+| 2sg | تۆ | **دەرکەوتوویتە**<br><sub>derkewtûyte</sub><br><sub>/dæɾkæwtuːjtæ/</sub> | **دەرنەکەوتوویتە**<br><sub>dernekewtûyte</sub><br><sub>/dæɾnækæwtuːjtæ/</sub> | **دەرکەوتبوویت**<br><sub>derkewtbûyt</sub><br><sub>/dæɾkæwtbuːjt/</sub> | **دەرنەکەوتبوویت**<br><sub>dernekewtbûyt</sub><br><sub>/dæɾnækæwtbuːjt/</sub> |
+| 3sg | ئەو | **دەرکەوتووە**<br><sub>derkewtûwe</sub><br><sub>/dæɾkæwtuːwæ/</sub> | **دەرنەکەوتووە**<br><sub>dernekewtûwe</sub><br><sub>/dæɾnækæwtuːwæ/</sub> | **دەرکەوتبوو**<br><sub>derkewtbû</sub><br><sub>/dæɾkæwtbuː/</sub> | **دەرنەکەوتبوو**<br><sub>dernekewtbû</sub><br><sub>/dæɾnækæwtbuː/</sub> |
+| 1pl | ئێمە | **دەرکەوتووینە**<br><sub>derkewtûyne</sub><br><sub>/dæɾkæwtuːjnæ/</sub> | **دەرنەکەوتووینە**<br><sub>dernekewtûyne</sub><br><sub>/dæɾnækæwtuːjnæ/</sub> | **دەرکەوتبووین**<br><sub>derkewtbûyn</sub><br><sub>/dæɾkæwtbuːjn/</sub> | **دەرنەکەوتبووین**<br><sub>dernekewtbûyn</sub><br><sub>/dæɾnækæwtbuːjn/</sub> |
+| 2pl | ئێوە | **دەرکەوتوونە**<br><sub>derkewtûne</sub><br><sub>/dæɾkæwtuːnæ/</sub> | **دەرنەکەوتوونە**<br><sub>dernekewtûne</sub><br><sub>/dæɾnækæwtuːnæ/</sub> | **دەرکەوتبوون**<br><sub>derkewtbûn</sub><br><sub>/dæɾkæwtbuːn/</sub> | **دەرنەکەوتبوون**<br><sub>dernekewtbûn</sub><br><sub>/dæɾnækæwtbuːn/</sub> |
+| 3pl | ئەوان | **دەرکەوتوونە**<br><sub>derkewtûne</sub><br><sub>/dæɾkæwtuːnæ/</sub> | **دەرنەکەوتوونە**<br><sub>dernekewtûne</sub><br><sub>/dæɾnækæwtuːnæ/</sub> | **دەرکەوتبوون**<br><sub>derkewtbûn</sub><br><sub>/dæɾkæwtbuːn/</sub> | **دەرنەکەوتبوون**<br><sub>dernekewtbûn</sub><br><sub>/dæɾnækæwtbuːn/</sub> |
+
+## Past subjunctive
+
+*دەرکەوتن* (derkewtin) “to appear, to come out” — present stem **کەو**, past stem **کەوت**, intransitive, preverb **دەر**
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **دەرکەوتبام**<br><sub>derkewtbam</sub><br><sub>/dæɾkæwtbaːm/</sub> | **دەرکەوتبێتم**<br><sub>derkewtbêtim</sub><br><sub>/dæɾkæwtbeːt(ɯ)m/</sub> | **دەرکەوتبووبام**<br><sub>derkewtbûbam</sub><br><sub>/dæɾkæwtbuːbaːm/</sub> |
+| 2sg | تۆ | **دەرکەوتبایت**<br><sub>derkewtbayt</sub><br><sub>/dæɾkæwtbaːjt/</sub> | **دەرکەوتبێتیت**<br><sub>derkewtbêtît</sub><br><sub>/dæɾkæwtbeːtiːt/</sub> | **دەرکەوتبووبایت**<br><sub>derkewtbûbayt</sub><br><sub>/dæɾkæwtbuːbaːjt/</sub> |
+| 3sg | ئەو | **دەرکەوتبا**<br><sub>derkewtba</sub><br><sub>/dæɾkæwtbaː/</sub> | **دەرکەوتبێت**<br><sub>derkewtbêt</sub><br><sub>/dæɾkæwtbeːt/</sub> | **دەرکەوتبووبا**<br><sub>derkewtbûba</sub><br><sub>/dæɾkæwtbuːbaː/</sub> |
+| 1pl | ئێمە | **دەرکەوتباین**<br><sub>derkewtbayn</sub><br><sub>/dæɾkæwtbaːjn/</sub> | **دەرکەوتبێتین**<br><sub>derkewtbêtîn</sub><br><sub>/dæɾkæwtbeːtiːn/</sub> | **دەرکەوتبووباین**<br><sub>derkewtbûbayn</sub><br><sub>/dæɾkæwtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **دەرکەوتبان**<br><sub>derkewtban</sub><br><sub>/dæɾkæwtbaːn/</sub> | **دەرکەوتبێتن**<br><sub>derkewtbêtin</sub><br><sub>/dæɾkæwtbeːt(ɯ)n/</sub> | **دەرکەوتبووبان**<br><sub>derkewtbûban</sub><br><sub>/dæɾkæwtbuːbaːn/</sub> |
+| 3pl | ئەوان | **دەرکەوتبان**<br><sub>derkewtban</sub><br><sub>/dæɾkæwtbaːn/</sub> | **دەرکەوتبێتن**<br><sub>derkewtbêtin</sub><br><sub>/dæɾkæwtbeːt(ɯ)n/</sub> | **دەرکەوتبووبان**<br><sub>derkewtbûban</sub><br><sub>/dæɾkæwtbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*دەرکەوتن* (derkewtin) “to appear, to come out” — present stem **کەو**, past stem **کەوت**, intransitive, preverb **دەر**
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **دەرنەکەوتبام**<br><sub>dernekewtbam</sub><br><sub>/dæɾnækæwtbaːm/</sub> | **دەرنەکەوتبێتم**<br><sub>dernekewtbêtim</sub><br><sub>/dæɾnækæwtbeːt(ɯ)m/</sub> | **دەرنەکەوتبووبام**<br><sub>dernekewtbûbam</sub><br><sub>/dæɾnækæwtbuːbaːm/</sub> |
+| 2sg | تۆ | **دەرنەکەوتبایت**<br><sub>dernekewtbayt</sub><br><sub>/dæɾnækæwtbaːjt/</sub> | **دەرنەکەوتبێتیت**<br><sub>dernekewtbêtît</sub><br><sub>/dæɾnækæwtbeːtiːt/</sub> | **دەرنەکەوتبووبایت**<br><sub>dernekewtbûbayt</sub><br><sub>/dæɾnækæwtbuːbaːjt/</sub> |
+| 3sg | ئەو | **دەرنەکەوتبا**<br><sub>dernekewtba</sub><br><sub>/dæɾnækæwtbaː/</sub> | **دەرنەکەوتبێت**<br><sub>dernekewtbêt</sub><br><sub>/dæɾnækæwtbeːt/</sub> | **دەرنەکەوتبووبا**<br><sub>dernekewtbûba</sub><br><sub>/dæɾnækæwtbuːbaː/</sub> |
+| 1pl | ئێمە | **دەرنەکەوتباین**<br><sub>dernekewtbayn</sub><br><sub>/dæɾnækæwtbaːjn/</sub> | **دەرنەکەوتبێتین**<br><sub>dernekewtbêtîn</sub><br><sub>/dæɾnækæwtbeːtiːn/</sub> | **دەرنەکەوتبووباین**<br><sub>dernekewtbûbayn</sub><br><sub>/dæɾnækæwtbuːbaːjn/</sub> |
+| 2pl | ئێوە | **دەرنەکەوتبان**<br><sub>dernekewtban</sub><br><sub>/dæɾnækæwtbaːn/</sub> | **دەرنەکەوتبێتن**<br><sub>dernekewtbêtin</sub><br><sub>/dæɾnækæwtbeːt(ɯ)n/</sub> | **دەرنەکەوتبووبان**<br><sub>dernekewtbûban</sub><br><sub>/dæɾnækæwtbuːbaːn/</sub> |
+| 3pl | ئەوان | **دەرنەکەوتبان**<br><sub>dernekewtban</sub><br><sub>/dæɾnækæwtbaːn/</sub> | **دەرنەکەوتبێتن**<br><sub>dernekewtbêtin</sub><br><sub>/dæɾnækæwtbeːt(ɯ)n/</sub> | **دەرنەکەوتبووبان**<br><sub>dernekewtbûban</sub><br><sub>/dæɾnækæwtbuːbaːn/</sub> |
 
 ## Imperative
 

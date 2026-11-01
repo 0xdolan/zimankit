@@ -79,12 +79,12 @@ The present marks the person with a **clitic**, not an ending: دە**م**ەوێ�
 
 | person | pronoun | Present | Simple past | Present perfect | Subjunctive |
 |---|---|---|---|---|---|
-| 1sg | من | **دەبم**<br><sub>debim</sub> | **بووم**<br><sub>bûm</sub> | **بووم**<br><sub>bûm</sub> | **ببم**<br><sub>bibim</sub> |
-| 2sg | تۆ | **دەبیت**<br><sub>debît</sub> | **بوویت**<br><sub>bûyt</sub> | **بوویت**<br><sub>bûyt</sub> | **ببیت**<br><sub>bibît</sub> |
+| 1sg | من | **دەبم**<br><sub>debim</sub> | **بووم**<br><sub>bûm</sub> | **بوومە**<br><sub>bûme</sub> | **ببم**<br><sub>bibim</sub> |
+| 2sg | تۆ | **دەبیت**<br><sub>debît</sub> | **بوویت**<br><sub>bûyt</sub> | **بوویتە**<br><sub>bûyte</sub> | **ببیت**<br><sub>bibît</sub> |
 | 3sg | ئەو | **دەبێت**<br><sub>debêt</sub> | **بوو**<br><sub>bû</sub> | **بووە**<br><sub>bûwe</sub> | **ببێت**<br><sub>bibêt</sub> |
-| 1pl | ئێمە | **دەبین**<br><sub>debîn</sub> | **بووین**<br><sub>bûyn</sub> | **بووین**<br><sub>bûyn</sub> | **ببین**<br><sub>bibîn</sub> |
-| 2pl | ئێوە | **دەبن**<br><sub>debin</sub> | **بوون**<br><sub>bûn</sub> | **بوون**<br><sub>bûn</sub> | **ببن**<br><sub>bibin</sub> |
-| 3pl | ئەوان | **دەبن**<br><sub>debin</sub> | **بوون**<br><sub>bûn</sub> | **بوون**<br><sub>bûn</sub> | **ببن**<br><sub>bibin</sub> |
+| 1pl | ئێمە | **دەبین**<br><sub>debîn</sub> | **بووین**<br><sub>bûyn</sub> | **بووینە**<br><sub>bûyne</sub> | **ببین**<br><sub>bibîn</sub> |
+| 2pl | ئێوە | **دەبن**<br><sub>debin</sub> | **بوون**<br><sub>bûn</sub> | **بوونە**<br><sub>bûne</sub> | **ببن**<br><sub>bibin</sub> |
+| 3pl | ئەوان | **دەبن**<br><sub>debin</sub> | **بوون**<br><sub>bûn</sub> | **بوونە**<br><sub>bûne</sub> | **ببن**<br><sub>bibin</sub> |
 <!-- /gen -->
 
 * **دەبم** *I become, I will be*: مامۆستا دەبم *I will become a teacher*.

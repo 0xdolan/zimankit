@@ -67,14 +67,40 @@
 
 *تێگەیشتن* (têgeyşitin) “to understand” — present stem **گە**, past stem **گەیشت**, intransitive, preverb **تێ**
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **تێگەیشتووم**<br><sub>têgeyştûm</sub><br><sub>/teːɡæjʃtuːm/</sub> | **تێگەیشتبووم**<br><sub>têgeyşitbûm</sub><br><sub>/teːɡæjʃ(ɯ)tbuːm/</sub> |
-| 2sg | تۆ | **تێگەیشتوویت**<br><sub>têgeyştûyt</sub><br><sub>/teːɡæjʃtuːjt/</sub> | **تێگەیشتبوویت**<br><sub>têgeyşitbûyt</sub><br><sub>/teːɡæjʃ(ɯ)tbuːjt/</sub> |
-| 3sg | ئەو | **تێگەیشتووە**<br><sub>têgeyştûwe</sub><br><sub>/teːɡæjʃtuːwæ/</sub> | **تێگەیشتبوو**<br><sub>têgeyşitbû</sub><br><sub>/teːɡæjʃ(ɯ)tbuː/</sub> |
-| 1pl | ئێمە | **تێگەیشتووین**<br><sub>têgeyştûyn</sub><br><sub>/teːɡæjʃtuːjn/</sub> | **تێگەیشتبووین**<br><sub>têgeyşitbûyn</sub><br><sub>/teːɡæjʃ(ɯ)tbuːjn/</sub> |
-| 2pl | ئێوە | **تێگەیشتوون**<br><sub>têgeyştûn</sub><br><sub>/teːɡæjʃtuːn/</sub> | **تێگەیشتبوون**<br><sub>têgeyşitbûn</sub><br><sub>/teːɡæjʃ(ɯ)tbuːn/</sub> |
-| 3pl | ئەوان | **تێگەیشتوون**<br><sub>têgeyştûn</sub><br><sub>/teːɡæjʃtuːn/</sub> | **تێگەیشتبوون**<br><sub>têgeyşitbûn</sub><br><sub>/teːɡæjʃ(ɯ)tbuːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **تێگەیشتوومە**<br><sub>têgeyştûme</sub><br><sub>/teːɡæjʃtuːmæ/</sub> | **تێنەگەیشتوومە**<br><sub>tênegeyştûme</sub><br><sub>/teːnæɡæjʃtuːmæ/</sub> | **تێگەیشتبووم**<br><sub>têgeyşitbûm</sub><br><sub>/teːɡæjʃ(ɯ)tbuːm/</sub> | **تێنەگەیشتبووم**<br><sub>tênegeyşitbûm</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuːm/</sub> |
+| 2sg | تۆ | **تێگەیشتوویتە**<br><sub>têgeyştûyte</sub><br><sub>/teːɡæjʃtuːjtæ/</sub> | **تێنەگەیشتوویتە**<br><sub>tênegeyştûyte</sub><br><sub>/teːnæɡæjʃtuːjtæ/</sub> | **تێگەیشتبوویت**<br><sub>têgeyşitbûyt</sub><br><sub>/teːɡæjʃ(ɯ)tbuːjt/</sub> | **تێنەگەیشتبوویت**<br><sub>tênegeyşitbûyt</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuːjt/</sub> |
+| 3sg | ئەو | **تێگەیشتووە**<br><sub>têgeyştûwe</sub><br><sub>/teːɡæjʃtuːwæ/</sub> | **تێنەگەیشتووە**<br><sub>tênegeyştûwe</sub><br><sub>/teːnæɡæjʃtuːwæ/</sub> | **تێگەیشتبوو**<br><sub>têgeyşitbû</sub><br><sub>/teːɡæjʃ(ɯ)tbuː/</sub> | **تێنەگەیشتبوو**<br><sub>tênegeyşitbû</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuː/</sub> |
+| 1pl | ئێمە | **تێگەیشتووینە**<br><sub>têgeyştûyne</sub><br><sub>/teːɡæjʃtuːjnæ/</sub> | **تێنەگەیشتووینە**<br><sub>tênegeyştûyne</sub><br><sub>/teːnæɡæjʃtuːjnæ/</sub> | **تێگەیشتبووین**<br><sub>têgeyşitbûyn</sub><br><sub>/teːɡæjʃ(ɯ)tbuːjn/</sub> | **تێنەگەیشتبووین**<br><sub>tênegeyşitbûyn</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuːjn/</sub> |
+| 2pl | ئێوە | **تێگەیشتوونە**<br><sub>têgeyştûne</sub><br><sub>/teːɡæjʃtuːnæ/</sub> | **تێنەگەیشتوونە**<br><sub>tênegeyştûne</sub><br><sub>/teːnæɡæjʃtuːnæ/</sub> | **تێگەیشتبوون**<br><sub>têgeyşitbûn</sub><br><sub>/teːɡæjʃ(ɯ)tbuːn/</sub> | **تێنەگەیشتبوون**<br><sub>tênegeyşitbûn</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuːn/</sub> |
+| 3pl | ئەوان | **تێگەیشتوونە**<br><sub>têgeyştûne</sub><br><sub>/teːɡæjʃtuːnæ/</sub> | **تێنەگەیشتوونە**<br><sub>tênegeyştûne</sub><br><sub>/teːnæɡæjʃtuːnæ/</sub> | **تێگەیشتبوون**<br><sub>têgeyşitbûn</sub><br><sub>/teːɡæjʃ(ɯ)tbuːn/</sub> | **تێنەگەیشتبوون**<br><sub>tênegeyşitbûn</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuːn/</sub> |
+
+## Past subjunctive
+
+*تێگەیشتن* (têgeyşitin) “to understand” — present stem **گە**, past stem **گەیشت**, intransitive, preverb **تێ**
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **تێگەیشتبام**<br><sub>têgeyşitbam</sub><br><sub>/teːɡæjʃ(ɯ)tbaːm/</sub> | **تێگەیشتبێتم**<br><sub>têgeyşitbêtim</sub><br><sub>/teːɡæjʃ(ɯ)tbeːt(ɯ)m/</sub> | **تێگەیشتبووبام**<br><sub>têgeyşitbûbam</sub><br><sub>/teːɡæjʃ(ɯ)tbuːbaːm/</sub> |
+| 2sg | تۆ | **تێگەیشتبایت**<br><sub>têgeyşitbayt</sub><br><sub>/teːɡæjʃ(ɯ)tbaːjt/</sub> | **تێگەیشتبێتیت**<br><sub>têgeyşitbêtît</sub><br><sub>/teːɡæjʃ(ɯ)tbeːtiːt/</sub> | **تێگەیشتبووبایت**<br><sub>têgeyşitbûbayt</sub><br><sub>/teːɡæjʃ(ɯ)tbuːbaːjt/</sub> |
+| 3sg | ئەو | **تێگەیشتبا**<br><sub>têgeyşitba</sub><br><sub>/teːɡæjʃ(ɯ)tbaː/</sub> | **تێگەیشتبێت**<br><sub>têgeyşitbêt</sub><br><sub>/teːɡæjʃ(ɯ)tbeːt/</sub> | **تێگەیشتبووبا**<br><sub>têgeyşitbûba</sub><br><sub>/teːɡæjʃ(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **تێگەیشتباین**<br><sub>têgeyşitbayn</sub><br><sub>/teːɡæjʃ(ɯ)tbaːjn/</sub> | **تێگەیشتبێتین**<br><sub>têgeyşitbêtîn</sub><br><sub>/teːɡæjʃ(ɯ)tbeːtiːn/</sub> | **تێگەیشتبووباین**<br><sub>têgeyşitbûbayn</sub><br><sub>/teːɡæjʃ(ɯ)tbuːbaːjn/</sub> |
+| 2pl | ئێوە | **تێگەیشتبان**<br><sub>têgeyşitban</sub><br><sub>/teːɡæjʃ(ɯ)tbaːn/</sub> | **تێگەیشتبێتن**<br><sub>têgeyşitbêtin</sub><br><sub>/teːɡæjʃ(ɯ)tbeːt(ɯ)n/</sub> | **تێگەیشتبووبان**<br><sub>têgeyşitbûban</sub><br><sub>/teːɡæjʃ(ɯ)tbuːbaːn/</sub> |
+| 3pl | ئەوان | **تێگەیشتبان**<br><sub>têgeyşitban</sub><br><sub>/teːɡæjʃ(ɯ)tbaːn/</sub> | **تێگەیشتبێتن**<br><sub>têgeyşitbêtin</sub><br><sub>/teːɡæjʃ(ɯ)tbeːt(ɯ)n/</sub> | **تێگەیشتبووبان**<br><sub>têgeyşitbûban</sub><br><sub>/teːɡæjʃ(ɯ)tbuːbaːn/</sub> |
+
+## Past subjunctive negative
+
+*تێگەیشتن* (têgeyşitin) “to understand” — present stem **گە**, past stem **گەیشت**, intransitive, preverb **تێ**
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **تێنەگەیشتبام**<br><sub>tênegeyşitbam</sub><br><sub>/teːnæɡæjʃ(ɯ)tbaːm/</sub> | **تێنەگەیشتبێتم**<br><sub>tênegeyşitbêtim</sub><br><sub>/teːnæɡæjʃ(ɯ)tbeːt(ɯ)m/</sub> | **تێنەگەیشتبووبام**<br><sub>tênegeyşitbûbam</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuːbaːm/</sub> |
+| 2sg | تۆ | **تێنەگەیشتبایت**<br><sub>tênegeyşitbayt</sub><br><sub>/teːnæɡæjʃ(ɯ)tbaːjt/</sub> | **تێنەگەیشتبێتیت**<br><sub>tênegeyşitbêtît</sub><br><sub>/teːnæɡæjʃ(ɯ)tbeːtiːt/</sub> | **تێنەگەیشتبووبایت**<br><sub>tênegeyşitbûbayt</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuːbaːjt/</sub> |
+| 3sg | ئەو | **تێنەگەیشتبا**<br><sub>tênegeyşitba</sub><br><sub>/teːnæɡæjʃ(ɯ)tbaː/</sub> | **تێنەگەیشتبێت**<br><sub>tênegeyşitbêt</sub><br><sub>/teːnæɡæjʃ(ɯ)tbeːt/</sub> | **تێنەگەیشتبووبا**<br><sub>tênegeyşitbûba</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **تێنەگەیشتباین**<br><sub>tênegeyşitbayn</sub><br><sub>/teːnæɡæjʃ(ɯ)tbaːjn/</sub> | **تێنەگەیشتبێتین**<br><sub>tênegeyşitbêtîn</sub><br><sub>/teːnæɡæjʃ(ɯ)tbeːtiːn/</sub> | **تێنەگەیشتبووباین**<br><sub>tênegeyşitbûbayn</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuːbaːjn/</sub> |
+| 2pl | ئێوە | **تێنەگەیشتبان**<br><sub>tênegeyşitban</sub><br><sub>/teːnæɡæjʃ(ɯ)tbaːn/</sub> | **تێنەگەیشتبێتن**<br><sub>tênegeyşitbêtin</sub><br><sub>/teːnæɡæjʃ(ɯ)tbeːt(ɯ)n/</sub> | **تێنەگەیشتبووبان**<br><sub>tênegeyşitbûban</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuːbaːn/</sub> |
+| 3pl | ئەوان | **تێنەگەیشتبان**<br><sub>tênegeyşitban</sub><br><sub>/teːnæɡæjʃ(ɯ)tbaːn/</sub> | **تێنەگەیشتبێتن**<br><sub>tênegeyşitbêtin</sub><br><sub>/teːnæɡæjʃ(ɯ)tbeːt(ɯ)n/</sub> | **تێنەگەیشتبووبان**<br><sub>tênegeyşitbûban</sub><br><sub>/teːnæɡæjʃ(ɯ)tbuːbaːn/</sub> |
 
 ## Imperative
 

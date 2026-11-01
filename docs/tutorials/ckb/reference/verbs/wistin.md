@@ -70,16 +70,42 @@
 
 *ویستن* (wîstin) “to want” — present stem **وێ**, past stem **ویست**, transitive
 
-| person | pronoun | Present perfect | Past perfect |
-|---|---|---|---|
-| 1sg | من | **ویستوومە**<br><sub>wîstûme</sub><br><sub>/wiːstuːmæ/</sub> | **ویستبووم**<br><sub>wîstbûm</sub><br><sub>/wiːstbuːm/</sub> |
-| 2sg | تۆ | **ویستووتە**<br><sub>wîstûte</sub><br><sub>/wiːstuːtæ/</sub> | **ویستبووت**<br><sub>wîstbût</sub><br><sub>/wiːstbuːt/</sub> |
-| 3sg | ئەو | **ویستوویەتی**<br><sub>wîstûyetî</sub><br><sub>/wiːstuːjætiː/</sub> | **ویستبووی**<br><sub>wîstbûy</sub><br><sub>/wiːstbuːj/</sub> |
-| 1pl | ئێمە | **ویستوومانە**<br><sub>wîstûmane</sub><br><sub>/wiːstuːmaːnæ/</sub> | **ویستبوومان**<br><sub>wîstbûman</sub><br><sub>/wiːstbuːmaːn/</sub> |
-| 2pl | ئێوە | **ویستووتانە**<br><sub>wîstûtane</sub><br><sub>/wiːstuːtaːnæ/</sub> | **ویستبووتان**<br><sub>wîstbûtan</sub><br><sub>/wiːstbuːtaːn/</sub> |
-| 3pl | ئەوان | **ویستوویانە**<br><sub>wîstûyane</sub><br><sub>/wiːstuːjaːnæ/</sub> | **ویستبوویان**<br><sub>wîstbûyan</sub><br><sub>/wiːstbuːjaːn/</sub> |
+| person | pronoun | Present perfect | Perfect negative | Past perfect | Past perfect negative |
+|---|---|---|---|---|---|
+| 1sg | من | **ویستوومە**<br><sub>wîstûme</sub><br><sub>/wiːstuːmæ/</sub> | **نەمویستووە**<br><sub>nemuystûwe</sub><br><sub>/næmujstuːwæ/</sub> | **ویستبووم**<br><sub>wîstbûm</sub><br><sub>/wiːstbuːm/</sub> | **نەمویستبوو**<br><sub>nemuysitbû</sub><br><sub>/næmujs(ɯ)tbuː/</sub> |
+| 2sg | تۆ | **ویستووتە**<br><sub>wîstûte</sub><br><sub>/wiːstuːtæ/</sub> | **نەتویستووە**<br><sub>netuystûwe</sub><br><sub>/nætujstuːwæ/</sub> | **ویستبووت**<br><sub>wîstbût</sub><br><sub>/wiːstbuːt/</sub> | **نەتویستبوو**<br><sub>netuysitbû</sub><br><sub>/nætujs(ɯ)tbuː/</sub> |
+| 3sg | ئەو | **ویستوویەتی**<br><sub>wîstûyetî</sub><br><sub>/wiːstuːjætiː/</sub> | **نەیویستووە**<br><sub>neyuystûwe</sub><br><sub>/næjujstuːwæ/</sub> | **ویستبووی**<br><sub>wîstbûy</sub><br><sub>/wiːstbuːj/</sub> | **نەیویستبوو**<br><sub>neyuysitbû</sub><br><sub>/næjujs(ɯ)tbuː/</sub> |
+| 1pl | ئێمە | **ویستوومانە**<br><sub>wîstûmane</sub><br><sub>/wiːstuːmaːnæ/</sub> | **نەمانویستووە**<br><sub>nemanuystûwe</sub><br><sub>/næmaːnujstuːwæ/</sub> | **ویستبوومان**<br><sub>wîstbûman</sub><br><sub>/wiːstbuːmaːn/</sub> | **نەمانویستبوو**<br><sub>nemanuysitbû</sub><br><sub>/næmaːnujs(ɯ)tbuː/</sub> |
+| 2pl | ئێوە | **ویستووتانە**<br><sub>wîstûtane</sub><br><sub>/wiːstuːtaːnæ/</sub> | **نەتانویستووە**<br><sub>netanuystûwe</sub><br><sub>/nætaːnujstuːwæ/</sub> | **ویستبووتان**<br><sub>wîstbûtan</sub><br><sub>/wiːstbuːtaːn/</sub> | **نەتانویستبوو**<br><sub>netanuysitbû</sub><br><sub>/nætaːnujs(ɯ)tbuː/</sub> |
+| 3pl | ئەوان | **ویستوویانە**<br><sub>wîstûyane</sub><br><sub>/wiːstuːjaːnæ/</sub> | **نەیانویستووە**<br><sub>neyanuystûwe</sub><br><sub>/næjaːnujstuːwæ/</sub> | **ویستبوویان**<br><sub>wîstbûyan</sub><br><sub>/wiːstbuːjaːn/</sub> | **نەیانویستبوو**<br><sub>neyanuysitbû</sub><br><sub>/næjaːnujs(ɯ)tbuː/</sub> |
 
 > Past tenses of a transitive verb are **ergative**: the person marker is the set-2 clitic (م ت ی مان تان یان) of the **agent**, not a verb ending.
+
+## Past subjunctive
+
+*ویستن* (wîstin) “to want” — present stem **وێ**, past stem **ویست**, transitive
+
+| person | pronoun | Past subjunctive | Perfect subjunctive | Past perfect subjunctive |
+|---|---|---|---|---|
+| 1sg | من | **ویستبام**<br><sub>wîstbam</sub><br><sub>/wiːstbaːm/</sub> | **ویستبێتم**<br><sub>wîstbêtim</sub><br><sub>/wiːstbeːt(ɯ)m/</sub> | **ویستبووبام**<br><sub>wîstbûbam</sub><br><sub>/wiːstbuːbaːm/</sub> |
+| 2sg | تۆ | **ویستبات**<br><sub>wîstbat</sub><br><sub>/wiːstbaːt/</sub> | **ویستبێتت**<br><sub>wîstbêtit</sub><br><sub>/wiːstbeːt(ɯ)t/</sub> | **ویستبووبات**<br><sub>wîstbûbat</sub><br><sub>/wiːstbuːbaːt/</sub> |
+| 3sg | ئەو | **ویستبای**<br><sub>wîstbay</sub><br><sub>/wiːstbaːj/</sub> | **ویستبێتی**<br><sub>wîstbêtî</sub><br><sub>/wiːstbeːtiː/</sub> | **ویستبووبای**<br><sub>wîstbûbay</sub><br><sub>/wiːstbuːbaːj/</sub> |
+| 1pl | ئێمە | **ویستبامان**<br><sub>wîstbaman</sub><br><sub>/wiːstbaːmaːn/</sub> | **ویستبێتمان**<br><sub>wîstbêtman</sub><br><sub>/wiːstbeːtmaːn/</sub> | **ویستبووبامان**<br><sub>wîstbûbaman</sub><br><sub>/wiːstbuːbaːmaːn/</sub> |
+| 2pl | ئێوە | **ویستباتان**<br><sub>wîstbatan</sub><br><sub>/wiːstbaːtaːn/</sub> | **ویستبێتتان**<br><sub>wîstbêttan</sub><br><sub>/wiːstbeːttaːn/</sub> | **ویستبووباتان**<br><sub>wîstbûbatan</sub><br><sub>/wiːstbuːbaːtaːn/</sub> |
+| 3pl | ئەوان | **ویستبایان**<br><sub>wîstbayan</sub><br><sub>/wiːstbaːjaːn/</sub> | **ویستبێتیان**<br><sub>wîstbêtyan</sub><br><sub>/wiːstbeːtjaːn/</sub> | **ویستبووبایان**<br><sub>wîstbûbayan</sub><br><sub>/wiːstbuːbaːjaːn/</sub> |
+
+## Past subjunctive negative
+
+*ویستن* (wîstin) “to want” — present stem **وێ**, past stem **ویست**, transitive
+
+| person | pronoun | Past subjunctive negative | Perfect subjunctive negative | Past perfect subjunctive negative |
+|---|---|---|---|---|
+| 1sg | من | **نەمویستبا**<br><sub>nemuysitba</sub><br><sub>/næmujs(ɯ)tbaː/</sub> | **نەمویستبێت**<br><sub>nemuysitbêt</sub><br><sub>/næmujs(ɯ)tbeːt/</sub> | **نەمویستبووبا**<br><sub>nemuysitbûba</sub><br><sub>/næmujs(ɯ)tbuːbaː/</sub> |
+| 2sg | تۆ | **نەتویستبا**<br><sub>netuysitba</sub><br><sub>/nætujs(ɯ)tbaː/</sub> | **نەتویستبێت**<br><sub>netuysitbêt</sub><br><sub>/nætujs(ɯ)tbeːt/</sub> | **نەتویستبووبا**<br><sub>netuysitbûba</sub><br><sub>/nætujs(ɯ)tbuːbaː/</sub> |
+| 3sg | ئەو | **نەیویستبا**<br><sub>neyuysitba</sub><br><sub>/næjujs(ɯ)tbaː/</sub> | **نەیویستبێت**<br><sub>neyuysitbêt</sub><br><sub>/næjujs(ɯ)tbeːt/</sub> | **نەیویستبووبا**<br><sub>neyuysitbûba</sub><br><sub>/næjujs(ɯ)tbuːbaː/</sub> |
+| 1pl | ئێمە | **نەمانویستبا**<br><sub>nemanuysitba</sub><br><sub>/næmaːnujs(ɯ)tbaː/</sub> | **نەمانویستبێت**<br><sub>nemanuysitbêt</sub><br><sub>/næmaːnujs(ɯ)tbeːt/</sub> | **نەمانویستبووبا**<br><sub>nemanuysitbûba</sub><br><sub>/næmaːnujs(ɯ)tbuːbaː/</sub> |
+| 2pl | ئێوە | **نەتانویستبا**<br><sub>netanuysitba</sub><br><sub>/nætaːnujs(ɯ)tbaː/</sub> | **نەتانویستبێت**<br><sub>netanuysitbêt</sub><br><sub>/nætaːnujs(ɯ)tbeːt/</sub> | **نەتانویستبووبا**<br><sub>netanuysitbûba</sub><br><sub>/nætaːnujs(ɯ)tbuːbaː/</sub> |
+| 3pl | ئەوان | **نەیانویستبا**<br><sub>neyanuysitba</sub><br><sub>/næjaːnujs(ɯ)tbaː/</sub> | **نەیانویستبێت**<br><sub>neyanuysitbêt</sub><br><sub>/næjaːnujs(ɯ)tbeːt/</sub> | **نەیانویستبووبا**<br><sub>neyanuysitbûba</sub><br><sub>/næjaːnujs(ɯ)tbuːbaː/</sub> |
 
 ## Other forms
 
@@ -89,6 +115,9 @@
 | past progressive, agent clitic elsewhere | **دەویست** | dewîst |
 | present perfect, agent clitic elsewhere | **ویستووە** | wîstûwe |
 | past perfect, agent clitic elsewhere | **ویستبوو** | wîstbû |
+| past subj, agent clitic elsewhere | **ویستبا** | wîstba |
+| perfect subj, agent clitic elsewhere | **ویستبێت** | wîstbêt |
+| pluperfect subj, agent clitic elsewhere | **ویستبووبا** | wîstbûba |
 | infinitive | **ویستن** | wîstin |
 | past participle | **ویستوو** | wîstû |
 
