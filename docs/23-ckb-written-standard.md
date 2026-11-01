@@ -31,7 +31,7 @@ Two ideas run through it:
 | the `ت` stays | `دەستەسڕ`, `ماستاوچی` | `دەسەسڕ` | not flagged |
 | Latin values | `wişe`, `mirdin`, `stran`, `mindall` | | `to_latin` |
 
-There are 37 sounds and 34 letters. The bizroke `i` is a real short vowel that the Arabic-based alphabet does not write.
+There are 37 sounds and 34 letters. The bizroke `i` is a real short vowel that the Arabic-based alphabet does not write. `برا` is `bira`, in Kurmanji too, even though one syllable table prints it as `bra`.
 
 ## Ezafe and the three ی
 
@@ -118,7 +118,7 @@ These are open, so zimankit should not change them silently. The interim choice 
 | number + plural noun, `پیاوەکە هاتن` | common usage; no explicit rule found | `پیاوەکە هاتن` is a usage note, not an error |
 | `هەبوون` | only `هەم`, `هەیە`, `هەبوو`, `دەبێت`, `دەبوو`, `دەبووایە` are in the pages read; the rest of the paradigm has no source | not added as a core verb |
 | terminology | `هاوەڵناو`/`ئاوەڵناو`, `جێناو`/`ڕاناو`, `کار`/`کردار` | list both |
-| ی after `دوا`, `برا` as `bra`, `مشک` as `mişk` or `mişik` | one example each, or regional | not changed |
+| ی after `دوا`, `مشک` as `mişk` or `mişik` | one example each, or regional | not changed |
 
 ## Not implemented yet
 
