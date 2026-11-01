@@ -1,6 +1,6 @@
 {
   "lang": "kmr",
-  "seconds": 56.4,
+  "seconds": 57.1,
   "lexicon_lemmas": 122729,
   "lexicon_forms": 387582,
   "dictionary_candidates": 4188,
@@ -27,10 +27,10 @@
   "pos_distribution": {
     "NOUN": 438246,
     "ADJ": 27326,
-    "VERB": 24308,
+    "VERB": 24307,
     "PROPN": 13199,
     "ADV": 1757,
-    "X": 746,
+    "X": 747,
     "PRON": 315,
     "NUM": 206,
     "ADP": 158,

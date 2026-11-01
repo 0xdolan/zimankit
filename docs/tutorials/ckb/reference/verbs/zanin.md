@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **زانیم**<br><sub>zanîm</sub><br><sub>/zaːniːm/</sub> | **نەمزانی**<br><sub>nemzanî</sub><br><sub>/næmzaːniː/</sub> |
 | 2sg | تۆ | **زانیت**<br><sub>zanît</sub><br><sub>/zaːniːt/</sub> | **نەتزانی**<br><sub>netzanî</sub><br><sub>/nætzaːniː/</sub> |
-| 3sg | ئەو | **زانیی**<br><sub>zanî</sub><br><sub>/zaːniː/</sub> | **نەیزانی**<br><sub>neyzanî</sub><br><sub>/næjzaːniː/</sub> |
+| 3sg | ئەو | **زانیی**<br><sub>zanîy</sub><br><sub>/zaːniː/</sub> | **نەیزانی**<br><sub>neyzanî</sub><br><sub>/næjzaːniː/</sub> |
 | 1pl | ئێمە | **زانیمان**<br><sub>zanîman</sub><br><sub>/zaːniːmaːn/</sub> | **نەمانزانی**<br><sub>nemanzanî</sub><br><sub>/næmaːnzaːniː/</sub> |
 | 2pl | ئێوە | **زانیتان**<br><sub>zanîtan</sub><br><sub>/zaːniːtaːn/</sub> | **نەتانزانی**<br><sub>netanzanî</sub><br><sub>/nætaːnzaːniː/</sub> |
 | 3pl | ئەوان | **زانییان**<br><sub>zanîyan</sub><br><sub>/zaːniːjaːn/</sub> | **نەیانزانی**<br><sub>neyanzanî</sub><br><sub>/næjaːnzaːniː/</sub> |

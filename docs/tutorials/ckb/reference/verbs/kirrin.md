@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **کڕیم**<br><sub>kirrîm</sub><br><sub>/k(ɯ)riːm/</sub> | **نەمکڕی**<br><sub>nemkrrî</sub><br><sub>/næmkriː/</sub> |
 | 2sg | تۆ | **کڕیت**<br><sub>kirrît</sub><br><sub>/k(ɯ)riːt/</sub> | **نەتکڕی**<br><sub>netkirrî</sub><br><sub>/nætk(ɯ)riː/</sub> |
-| 3sg | ئەو | **کڕیی**<br><sub>kirrî</sub><br><sub>/k(ɯ)riː/</sub> | **نەیکڕی**<br><sub>neykrrî</sub><br><sub>/næjkriː/</sub> |
+| 3sg | ئەو | **کڕیی**<br><sub>kirrîy</sub><br><sub>/k(ɯ)riː/</sub> | **نەیکڕی**<br><sub>neykrrî</sub><br><sub>/næjkriː/</sub> |
 | 1pl | ئێمە | **کڕیمان**<br><sub>kirrîman</sub><br><sub>/k(ɯ)riːmaːn/</sub> | **نەمانکڕی**<br><sub>nemankrrî</sub><br><sub>/næmaːnkriː/</sub> |
 | 2pl | ئێوە | **کڕیتان**<br><sub>kirrîtan</sub><br><sub>/k(ɯ)riːtaːn/</sub> | **نەتانکڕی**<br><sub>netankrrî</sub><br><sub>/nætaːnkriː/</sub> |
 | 3pl | ئەوان | **کڕییان**<br><sub>kirrîyan</sub><br><sub>/k(ɯ)riːjaːn/</sub> | **نەیانکڕی**<br><sub>neyankrrî</sub><br><sub>/næjaːnkriː/</sub> |

@@ -45,7 +45,7 @@ def _ckb() -> dict:
                 "و / ی after a vowel letter -> /w/ /j/",
                 "و / ی before a vowel letter -> /w/ /j/ (onset cluster Cw / Cj)",
                 "و between consonants or word-finally -> /u/; ی -> /iː/",
-                "وو -> /uː/, یی -> /iː/; a glide is inserted before a following vowel",
+                "وو -> /uː/; after a vowel یی -> /jiː/, after a consonant a surface /iː/ (an ezafe or clitic ی is not a separate vowel); a glide is inserted before a following vowel",
             ],
             "phonotactics": {
                 "initial_onsets": "C, C+glide, sibilant+stop",

@@ -17,13 +17,13 @@
 
 | slot | after consonant | after vowel | meaning |
 |---|---|---|---|
-| DEF.SG | ەکە پیاوەکە | کە / یەکە دەرگاکە، ماسییەکە | the |
+| DEF.SG | ەکە پیاوەکە | کە / یەکە دەرگاکە، ماسییەکە | the (نیشانەی ناسراوی) |
 | DEF.PL | ەکان | کان / یەکان | the (pl) |
-| INDEF | ێک پیاوێک | یەک دەرگایەک | a |
-| PL | ان پیاوان | یان | plural |
-| ENCLITIC | م ت ی مان تان یان | same | my, your … / agent of past transitive |
+| INDEF | ێک پیاوێک | یەک دەرگایەک | a (نیشانەی نەناسراوی) |
+| PL | ان پیاوان | یان | plural (نیشانەی کۆ) |
+| ENCLITIC | م ت ی مان تان یان | same | my, your … / agent of past transitive (جێناوی لکاو) |
 | ADD | یش | ش | too, also |
-| POSTP | ەوە، دا، ڕا | وە، دا | circumposition halves (لە … دا "in") |
+| POSTP | ەوە، دا، ڕا | وە، دا | circumposition halves (لە … دا "in"; پاشبەند) |
 
 Nouns in وو take the after-consonant endings: خانووەکە, خانووێک, خانووان.
 
@@ -38,7 +38,7 @@ Also recognised:
 * **Derivation**: `سنە+یی`, `ڕەش+ایی`, and with a known remainder the prefixes `بێ+کار`, `نا+دیار`, `هاو+کار`.
 * **Compounds** of two known words, with the linkers ەو او بە ە و or none: `گوڵ+ە+گەنم`, `دەم+و+چاو`, `شار+ەو+شار`. They score below any known stem, and inflected compounds (`گوڵەگەنمەکە`) are not split.
 * **پێ, لێ, تێ, بۆ + clitic** are adpositions: `پێ+م`, `لێ+ی`, `بۆ+مان`.
-| CMP | تر، ترین | | comparative, superlative |
+| CMP | تر، ترین | | comparative, superlative (پلەی بەراورد، پلەی باڵا) |
 | DERIV | ایەتی، ێتی، ی، یی، ایی، انە، ستان، کار، دار، گەر، چی، وان، ساز، مەند، ناک، خانە، زانی، ناسی، ۆکە، ۆڵە، یلە | | abstract, nisba, adverbial, place, agent, possessor |
 
 **Vowel- vs consonant-final is phonological**, not orthographic: `پیاو` ends in the consonant /w/ (→ `پیاوەکە`), `کوردی` in the vowel /iː/ (→ `کوردییەکە`). `_ends_with_vowel` treats final `و`/`ی` after a vowel letter as glides.

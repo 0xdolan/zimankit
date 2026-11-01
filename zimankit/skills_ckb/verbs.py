@@ -426,6 +426,7 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
     # non-finite
     yield VerbForm(lemma, lemma, {"pos": "VERB", "form": "infinitive"})
     yield from emit(_perfect_base(past), form="past_participle")
+    yield from emit("نە" + _perfect_base(past), form="past_participle", polarity="neg")
     if v.transitive and not clitic_present and lemma not in NO_PASSIVE:
         ps = _passive_stem(v)
         yield from emit(ps + "او", form="passive_participle")

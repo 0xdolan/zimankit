@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **ناسیم**<br><sub>nasîm</sub><br><sub>/naːsiːm/</sub> | **نەمناسی**<br><sub>nemnasî</sub><br><sub>/næmnaːsiː/</sub> |
 | 2sg | تۆ | **ناسیت**<br><sub>nasît</sub><br><sub>/naːsiːt/</sub> | **نەتناسی**<br><sub>netnasî</sub><br><sub>/nætnaːsiː/</sub> |
-| 3sg | ئەو | **ناسیی**<br><sub>nasî</sub><br><sub>/naːsiː/</sub> | **نەیناسی**<br><sub>neynasî</sub><br><sub>/næjnaːsiː/</sub> |
+| 3sg | ئەو | **ناسیی**<br><sub>nasîy</sub><br><sub>/naːsiː/</sub> | **نەیناسی**<br><sub>neynasî</sub><br><sub>/næjnaːsiː/</sub> |
 | 1pl | ئێمە | **ناسیمان**<br><sub>nasîman</sub><br><sub>/naːsiːmaːn/</sub> | **نەمانناسی**<br><sub>nemannasî</sub><br><sub>/næmaːnnaːsiː/</sub> |
 | 2pl | ئێوە | **ناسیتان**<br><sub>nasîtan</sub><br><sub>/naːsiːtaːn/</sub> | **نەتانناسی**<br><sub>netannasî</sub><br><sub>/nætaːnnaːsiː/</sub> |
 | 3pl | ئەوان | **ناسییان**<br><sub>nasîyan</sub><br><sub>/naːsiːjaːn/</sub> | **نەیانناسی**<br><sub>neyannasî</sub><br><sub>/næjaːnnaːsiː/</sub> |

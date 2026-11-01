@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **بڕیم**<br><sub>birrîm</sub><br><sub>/b(ɯ)riːm/</sub> | **نەمبڕی**<br><sub>nembrrî</sub><br><sub>/næmbriː/</sub> |
 | 2sg | تۆ | **بڕیت**<br><sub>birrît</sub><br><sub>/b(ɯ)riːt/</sub> | **نەتبڕی**<br><sub>netbirrî</sub><br><sub>/nætb(ɯ)riː/</sub> |
-| 3sg | ئەو | **بڕیی**<br><sub>birrî</sub><br><sub>/b(ɯ)riː/</sub> | **نەیبڕی**<br><sub>neybrrî</sub><br><sub>/næjbriː/</sub> |
+| 3sg | ئەو | **بڕیی**<br><sub>birrîy</sub><br><sub>/b(ɯ)riː/</sub> | **نەیبڕی**<br><sub>neybrrî</sub><br><sub>/næjbriː/</sub> |
 | 1pl | ئێمە | **بڕیمان**<br><sub>birrîman</sub><br><sub>/b(ɯ)riːmaːn/</sub> | **نەمانبڕی**<br><sub>nemanbrrî</sub><br><sub>/næmaːnbriː/</sub> |
 | 2pl | ئێوە | **بڕیتان**<br><sub>birrîtan</sub><br><sub>/b(ɯ)riːtaːn/</sub> | **نەتانبڕی**<br><sub>netanbrrî</sub><br><sub>/nætaːnbriː/</sub> |
 | 3pl | ئەوان | **بڕییان**<br><sub>birrîyan</sub><br><sub>/b(ɯ)riːjaːn/</sub> | **نەیانبڕی**<br><sub>neyanbrrî</sub><br><sub>/næjaːnbriː/</sub> |

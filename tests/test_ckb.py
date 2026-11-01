@@ -394,3 +394,12 @@ def test_standard_spelling(solid, lemma, written):
 def test_the_spelling_we_teach_can_be_read_back(written):
     assert verbs.default_index().lookup_split(written.split()) is not None
 
+
+@pytest.mark.parametrize("word, latin", [("ماسیی", "masîy"), ("کوردیی", "kurdîy"), ("ماسی", "masî"), ("کۆتایی", "kotayî"), ("سنەیی", "sineyî")])
+def test_ezafe_after_a_final_i_is_written_in_latin(word, latin):
+    assert to_latin(word) == latin
+
+
+def test_negative_participle():
+    assert any(f.features.get("form") == "past_participle" for f in verbs.default_index().lookup("نەهاتوو"))
+

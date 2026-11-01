@@ -6,7 +6,7 @@
 
 **Level:** 🟢 Beginner · lesson 7 of 23
 
-**On this page:** [The bare noun](#the-bare-noun) · [Consonant-final and vowel-final](#consonant-final-and-vowel-final) · [The noun in sentences](#the-noun-in-sentences) · [Counting](#counting) · [How zimankit reads these forms](#how-zimankit-reads-these-forms) · [Practice](#practice) · [Summary](#summary)
+**On this page:** [The bare noun](#the-bare-noun) · [Consonant-final and vowel-final](#consonant-final-and-vowel-final) · [The noun in sentences](#the-noun-in-sentences) · [Counting](#counting) · [Collective nouns](#collective-nouns) · [How zimankit reads these forms](#how-zimankit-reads-these-forms) · [Calling someone](#calling-someone) · [Practice](#practice) · [Summary](#summary)
 
 ## The bare noun
 
@@ -70,6 +70,10 @@ Things to notice:
 
 After a number the noun stays **singular and bare**: سێ پیاو *three men*, دوو کتێب *two books*. To say *the three men*: سێ پیاوەکە.
 
+## Collective nouns
+
+گەل, سوپا and لەشکر look singular but name a group (ناوی کۆمەڵ). The verb is usually singular: سوپا شکستی هێنا.
+
 ## How zimankit reads these forms
 
 The analyzer splits a word into stem and endings. This is the same logic as above, run backwards:
@@ -86,6 +90,10 @@ The analyzer splits a word into stem and endings. This is the same logic as abov
 <!-- /gen -->
 
 Look at the last row. **مامۆستایان** can mean *teachers* (plural -یان after a vowel) or *their teacher* (the 3pl personal ending -یان, lesson 11). Out of context the analyzer prefers the second reading. Only the sentence can decide, which is why a grammar checker must look at context, not single words.
+
+## Calling someone
+
+Add **-ە** to address a man (کوڕە، وەرە), **-ێ** to address a woman (کچێ، دانیشە), and **-ینە** to address several people (کوڕینە، کچینە). Nouns ending in a vowel take nothing (ئەی مەلا). In some areas -ە is used for both men and women.
 
 ## Practice
 

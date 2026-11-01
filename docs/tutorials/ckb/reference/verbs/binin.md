@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **بینیم**<br><sub>bînîm</sub><br><sub>/biːniːm/</sub> | **نەمبینی**<br><sub>nembînî</sub><br><sub>/næmbiːniː/</sub> |
 | 2sg | تۆ | **بینیت**<br><sub>bînît</sub><br><sub>/biːniːt/</sub> | **نەتبینی**<br><sub>netbînî</sub><br><sub>/nætbiːniː/</sub> |
-| 3sg | ئەو | **بینیی**<br><sub>bînî</sub><br><sub>/biːniː/</sub> | **نەیبینی**<br><sub>neybînî</sub><br><sub>/næjbiːniː/</sub> |
+| 3sg | ئەو | **بینیی**<br><sub>bînîy</sub><br><sub>/biːniː/</sub> | **نەیبینی**<br><sub>neybînî</sub><br><sub>/næjbiːniː/</sub> |
 | 1pl | ئێمە | **بینیمان**<br><sub>bînîman</sub><br><sub>/biːniːmaːn/</sub> | **نەمانبینی**<br><sub>nemanbînî</sub><br><sub>/næmaːnbiːniː/</sub> |
 | 2pl | ئێوە | **بینیتان**<br><sub>bînîtan</sub><br><sub>/biːniːtaːn/</sub> | **نەتانبینی**<br><sub>netanbînî</sub><br><sub>/nætaːnbiːniː/</sub> |
 | 3pl | ئەوان | **بینییان**<br><sub>bînîyan</sub><br><sub>/biːniːjaːn/</sub> | **نەیانبینی**<br><sub>neyanbînî</sub><br><sub>/næjaːnbiːniː/</sub> |

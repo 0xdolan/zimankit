@@ -43,7 +43,7 @@ CONSONANTS: Final[dict[str, str]] = {
 }
 VOWELS: Final[dict[str, str]] = {"ا": "aː", "ە": "æ", "ێ": "eː", "ۆ": "oː"}
 
-# IPA -> Kurdish Latin (Hawar-compatible) for transliteration
+# IPA -> Kurdish Latin (Hawar letters, extended with ḧ ẍ ' rr ll for Sorani)
 IPA_TO_LATIN: Final[dict[str, str]] = {
     "ʔ": "", "b": "b", "p": "p", "t": "t", "dʒ": "c", "tʃ": "ç", "ħ": "ḧ", "x": "x",
     "d": "d", "ɾ": "r", "r": "rr", "z": "z", "ʒ": "j", "s": "s", "ʃ": "ş", "ʕ": "'",
@@ -196,7 +196,8 @@ def to_latin(word: str, style: str = "hawar") -> str:
     """Kurdish-Latin transliteration; the bizroke is written as ``i``.
 
     The word-initial trill is written ``r`` (it is always a trill there),
-    hiatus glides are written (``hatuwe``, ``masîyeke``).
+    hiatus glides are written (``hatûwe``, ``masîyeke``), and so is an ezafe
+    after a final î (``masîy``, ماسیی).
     """
     overrides = LATIN_STYLES[style]
     segs = segments(word, G2POptions(mark_epenthesis=False))
@@ -208,7 +209,10 @@ def to_latin(word: str, style: str = "hawar") -> str:
             out.append("r")
         else:
             out.append(overrides.get(sym, IPA_TO_LATIN.get(sym, sym)))
-    return "".join(out)
+    latin = "".join(out)
+    if word.endswith("یی") and word[-3:-2] not in ("", "ا", "ە", "ۆ", "ێ", "و", "ی") and latin.endswith("î"):
+        return latin + "y"
+    return latin
 
 
 def text_to_ipa(text: str, options: G2POptions | None = None) -> str:

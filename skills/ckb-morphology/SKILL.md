@@ -1,11 +1,11 @@
 ---
 name: ckb-morphology
-description: Segment and lemmatize Central Kurdish (Sorani) words: definiteness (-ەکە, -کە, -ەکان), indefinite -ێک, plural -ان, pronominal enclitics (م ت ی مان تان یان), additive -یش, postpositions -دا/-ەوە, comparatives, derivation and attached prepositions لە/بە/بۆ. Use for stemming, lemmatization or morphological glossing of Sorani.
+description: Segment and lemmatize Central Kurdish (Sorani) words: definiteness (-ەکە, -کە, -ەکان), indefinite -ێک, plural -ان, pronominal enclitics (م ت ی مان تان یان), additive -یش, postpositions -دا/-ەوە/-ڕا/-ێ, copula -ە/-یە, comparatives, derivation and attached prepositions لە/بە/بۆ. Use for stemming, lemmatization or morphological glossing of Sorani.
 ---
 
 # ckb-morphology
 
-Segment and lemmatize Central Kurdish (Sorani) words: definiteness (-ەکە, -کە, -ەکان), indefinite -ێک, plural -ان, pronominal enclitics (م ت ی مان تان یان), additive -یش, postpositions -دا/-ەوە, comparatives, derivation and attached prepositions لە/بە/بۆ. Use for stemming, lemmatization or morphological glossing of Sorani.
+Segment and lemmatize Central Kurdish (Sorani) words: definiteness (-ەکە, -کە, -ەکان), indefinite -ێک, plural -ان, pronominal enclitics (م ت ی مان تان یان), additive -یش, postpositions -دا/-ەوە/-ڕا/-ێ, copula -ە/-یە, comparatives, derivation and attached prepositions لە/بە/بۆ. Use for stemming, lemmatization or morphological glossing of Sorani.
 
 Full explanation: [docs/09-ckb-morphology.md](../../docs/09-ckb-morphology.md)
 

@@ -84,7 +84,7 @@ w.explanation               # all of it as one text
 ## How the rules work
 
 1. **Choose the reading of each word.** The morphology offers several readings, and context picks one: the oblique after a preposition (*li dibistan+ê*), the ezafe before a modifier (*pirtûk+a nû*). Among fitting readings, those without derivational suffixes come first (*dibistan+ê*, not *dib+istan+ê*).
-2. **Sorani endings.** Three endings are read from context: the goal -ە on a verb (دەچم+ە), the -ە that completes a demonstrative (ئەو پیاو+ە), and the copula -ە / -یە on the predicate (باش+ە).
+2. **Sorani endings.** Three endings are read from context: the goal -ە on a verb (دەچم+ە, called ئامرازی پەیوەندی in school grammars), the -ە that completes a demonstrative (ئەو پیاو+ە), and the copula -ە / -یە on the predicate (باش+ە).
 3. **Find the root.** It is the finite verb. With a copula it is the predicate. In coordinated verbs (*xwar û çû*) it is the first verb, and the later ones are its conjuncts.
 4. **Attach the small words.** Adpositions attach to their noun, which becomes `obl`. Stacked prepositions (*ji bo te*) both attach to the same noun. Determiners and numbers attach to the noun after them.
 5. **Follow the ezafe.** The word after an ezafe-marked noun depends on that noun.

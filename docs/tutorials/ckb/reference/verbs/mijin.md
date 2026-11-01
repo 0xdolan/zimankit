@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **مژیم**<br><sub>mijîm</sub><br><sub>/m(ɯ)ʒiːm/</sub> | **نەممژی**<br><sub>nemmijî</sub><br><sub>/næmm(ɯ)ʒiː/</sub> |
 | 2sg | تۆ | **مژیت**<br><sub>mijît</sub><br><sub>/m(ɯ)ʒiːt/</sub> | **نەتمژی**<br><sub>netmijî</sub><br><sub>/nætm(ɯ)ʒiː/</sub> |
-| 3sg | ئەو | **مژیی**<br><sub>mijî</sub><br><sub>/m(ɯ)ʒiː/</sub> | **نەیمژی**<br><sub>neymjî</sub><br><sub>/næjmʒiː/</sub> |
+| 3sg | ئەو | **مژیی**<br><sub>mijîy</sub><br><sub>/m(ɯ)ʒiː/</sub> | **نەیمژی**<br><sub>neymjî</sub><br><sub>/næjmʒiː/</sub> |
 | 1pl | ئێمە | **مژیمان**<br><sub>mijîman</sub><br><sub>/m(ɯ)ʒiːmaːn/</sub> | **نەمانمژی**<br><sub>nemanmijî</sub><br><sub>/næmaːnm(ɯ)ʒiː/</sub> |
 | 2pl | ئێوە | **مژیتان**<br><sub>mijîtan</sub><br><sub>/m(ɯ)ʒiːtaːn/</sub> | **نەتانمژی**<br><sub>netanmijî</sub><br><sub>/nætaːnm(ɯ)ʒiː/</sub> |
 | 3pl | ئەوان | **مژییان**<br><sub>mijîyan</sub><br><sub>/m(ɯ)ʒiːjaːn/</sub> | **نەیانمژی**<br><sub>neyanmijî</sub><br><sub>/næjaːnm(ɯ)ʒiː/</sub> |

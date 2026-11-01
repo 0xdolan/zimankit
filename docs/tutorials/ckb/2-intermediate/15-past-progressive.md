@@ -91,7 +91,7 @@ The past progressive is used for
 |---|---|---|---|---|---|
 | 1sg | من | **نووسیم**<br><sub>nûsîm</sub> | **نەمنووسی**<br><sub>nemnûsî</sub> | **دەمنووسی**<br><sub>demnûsî</sub> | **نەمدەنووسی**<br><sub>nemdenûsî</sub> |
 | 2sg | تۆ | **نووسیت**<br><sub>nûsît</sub> | **نەتنووسی**<br><sub>netnûsî</sub> | **دەتنووسی**<br><sub>detnûsî</sub> | **نەتدەنووسی**<br><sub>netdenûsî</sub> |
-| 3sg | ئەو | **نووسیی**<br><sub>nûsî</sub> | **نەینووسی**<br><sub>neynûsî</sub> | **دەینووسی**<br><sub>deynûsî</sub> | **نەیدەنووسی**<br><sub>neydenûsî</sub> |
+| 3sg | ئەو | **نووسیی**<br><sub>nûsîy</sub> | **نەینووسی**<br><sub>neynûsî</sub> | **دەینووسی**<br><sub>deynûsî</sub> | **نەیدەنووسی**<br><sub>neydenûsî</sub> |
 | 1pl | ئێمە | **نووسیمان**<br><sub>nûsîman</sub> | **نەماننووسی**<br><sub>nemannûsî</sub> | **دەماننووسی**<br><sub>demannûsî</sub> | **نەماندەنووسی**<br><sub>nemandenûsî</sub> |
 | 2pl | ئێوە | **نووسیتان**<br><sub>nûsîtan</sub> | **نەتاننووسی**<br><sub>netannûsî</sub> | **دەتاننووسی**<br><sub>detannûsî</sub> | **نەتاندەنووسی**<br><sub>netandenûsî</sub> |
 | 3pl | ئەوان | **نووسییان**<br><sub>nûsîyan</sub> | **نەیاننووسی**<br><sub>neyannûsî</sub> | **دەیاننووسی**<br><sub>deyannûsî</sub> | **نەیاندەنووسی**<br><sub>neyandenûsî</sub> |

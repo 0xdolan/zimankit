@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **توانیم**<br><sub>twanîm</sub><br><sub>/twaːniːm/</sub> | **نەمتوانی**<br><sub>nemtwanî</sub><br><sub>/næmtwaːniː/</sub> |
 | 2sg | تۆ | **توانیت**<br><sub>twanît</sub><br><sub>/twaːniːt/</sub> | **نەتتوانی**<br><sub>nettwanî</sub><br><sub>/nættwaːniː/</sub> |
-| 3sg | ئەو | **توانیی**<br><sub>twanî</sub><br><sub>/twaːniː/</sub> | **نەیتوانی**<br><sub>neytwanî</sub><br><sub>/næjtwaːniː/</sub> |
+| 3sg | ئەو | **توانیی**<br><sub>twanîy</sub><br><sub>/twaːniː/</sub> | **نەیتوانی**<br><sub>neytwanî</sub><br><sub>/næjtwaːniː/</sub> |
 | 1pl | ئێمە | **توانیمان**<br><sub>twanîman</sub><br><sub>/twaːniːmaːn/</sub> | **نەمانتوانی**<br><sub>nemantwanî</sub><br><sub>/næmaːntwaːniː/</sub> |
 | 2pl | ئێوە | **توانیتان**<br><sub>twanîtan</sub><br><sub>/twaːniːtaːn/</sub> | **نەتانتوانی**<br><sub>netantwanî</sub><br><sub>/nætaːntwaːniː/</sub> |
 | 3pl | ئەوان | **توانییان**<br><sub>twanîyan</sub><br><sub>/twaːniːjaːn/</sub> | **نەیانتوانی**<br><sub>neyantwanî</sub><br><sub>/næjaːntwaːniː/</sub> |

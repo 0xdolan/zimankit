@@ -78,7 +78,7 @@ The pronoun subject (من، تۆ…) can be added for emphasis, but it is not wh
 |---|---|---|---|
 | 1sg | من | **نووسیم**<br><sub>nûsîm</sub> | **نەمنووسی**<br><sub>nemnûsî</sub> |
 | 2sg | تۆ | **نووسیت**<br><sub>nûsît</sub> | **نەتنووسی**<br><sub>netnûsî</sub> |
-| 3sg | ئەو | **نووسیی**<br><sub>nûsî</sub> | **نەینووسی**<br><sub>neynûsî</sub> |
+| 3sg | ئەو | **نووسیی**<br><sub>nûsîy</sub> | **نەینووسی**<br><sub>neynûsî</sub> |
 | 1pl | ئێمە | **نووسیمان**<br><sub>nûsîman</sub> | **نەماننووسی**<br><sub>nemannûsî</sub> |
 | 2pl | ئێوە | **نووسیتان**<br><sub>nûsîtan</sub> | **نەتاننووسی**<br><sub>netannûsî</sub> |
 | 3pl | ئەوان | **نووسییان**<br><sub>nûsîyan</sub> | **نەیاننووسی**<br><sub>neyannûsî</sub> |
@@ -93,7 +93,7 @@ The pronoun subject (من، تۆ…) can be added for emphasis, but it is not wh
 |---|---|---|---|
 | 1sg | من | **بینیم**<br><sub>bînîm</sub> | **نەمبینی**<br><sub>nembînî</sub> |
 | 2sg | تۆ | **بینیت**<br><sub>bînît</sub> | **نەتبینی**<br><sub>netbînî</sub> |
-| 3sg | ئەو | **بینیی**<br><sub>bînî</sub> | **نەیبینی**<br><sub>neybînî</sub> |
+| 3sg | ئەو | **بینیی**<br><sub>bînîy</sub> | **نەیبینی**<br><sub>neybînî</sub> |
 | 1pl | ئێمە | **بینیمان**<br><sub>bînîman</sub> | **نەمانبینی**<br><sub>nemanbînî</sub> |
 | 2pl | ئێوە | **بینیتان**<br><sub>bînîtan</sub> | **نەتانبینی**<br><sub>netanbînî</sub> |
 | 3pl | ئەوان | **بینییان**<br><sub>bînîyan</sub> | **نەیانبینی**<br><sub>neyanbînî</sub> |

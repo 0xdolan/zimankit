@@ -116,6 +116,7 @@ These are open, so zimankit should not change them silently. The interim choice 
 | `ماسییەکە` or `ماسێکە` | | generate the first, accept both |
 | vocative | `ە` masculine, `ێ` feminine, `ینە` plural, or `ە` for both | not implemented |
 | number + plural noun, `پیاوەکە هاتن` | common usage; no explicit rule found | `پیاوەکە هاتن` is a usage note, not an error |
+| `هەبوون` | only `هەم`, `هەیە`, `هەبوو`, `دەبێت`, `دەبوو`, `دەبووایە` are in the pages read; the rest of the paradigm has no source | not added as a core verb |
 | terminology | `هاوەڵناو`/`ئاوەڵناو`, `جێناو`/`ڕاناو`, `کار`/`کردار` | list both |
 | ی after `دوا`, `برا` as `bra`, `مشک` as `mişk` or `mişik` | one example each, or regional | not changed |
 

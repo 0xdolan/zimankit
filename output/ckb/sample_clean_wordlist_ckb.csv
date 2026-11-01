@@ -249,10 +249,10 @@ grapheme,lemma,pos,ipa,morph_meta,translit,frequency,sources,confidence
 کرا,کردن,VERB,k(ɯ)ɾaː,"{""person"":""3sg"",""seg"":""کرا"",""tense"":""past"",""transitivity"":""transitive"",""voice"":""passive""}",kira,37387,"core,encyclopedia,news,web",1.0
 بەشداری,بەشداری,NOUN,bæʃdaːɾiː,"{""seg"":""بەشداری""}",beşdarî,37329,"bilingual,encyclopedia,news,web",0.55
 وێنە,وێنە,NOUN,weːnæ,"{""seg"":""وێنە""}",wêne,37295,"bilingual,dictionary,encyclopedia,lexicon,news,web",1.0
-یەکێتیی,یەکێتی,NOUN,jækeːtiː,"{""enclitic"":""3sg|ezafe"",""seg"":""یەکێتی+ی""}",yekêtî,37249,"encyclopedia,news,web",0.45
+یەکێتیی,یەکێتی,NOUN,jækeːtiː,"{""enclitic"":""3sg|ezafe"",""seg"":""یەکێتی+ی""}",yekêtîy,37249,"encyclopedia,news,web",0.45
 هەینی,هەینی,NOUN,hæjniː,"{""seg"":""هەینی""}",heynî,37046,"bilingual,dictionary,encyclopedia,lexicon,news,web",1.0
 ئینگلیزی,ئینگلیزی,NOUN,ʔiːnɡliːziː,"{""seg"":""ئینگلیزی""}",înglîzî,36861,"bilingual,encyclopedia,lexicon,news,web",1.0
-سیاسیی,سیاسی,ADJ,sjaːsiː,"{""enclitic"":""3sg|ezafe"",""seg"":""سیاسی+ی""}",syasî,36775,"encyclopedia,news,web",0.45
+سیاسیی,سیاسی,ADJ,sjaːsiː,"{""enclitic"":""3sg|ezafe"",""seg"":""سیاسی+ی""}",syasîy,36775,"encyclopedia,news,web",0.45
 نیشتمانی,نیشتمانی,NOUN,niːʃtmaːniː,"{""seg"":""نیشتمانی""}",nîştmanî,36744,"bilingual,dictionary,encyclopedia,news,web",0.55
 گوتیشی,گوتی,NOUN,ɡutiːʃiː,"{""additive"":""yes"",""enclitic"":""3sg|ezafe"",""seg"":""گوتی+ش+ی""}",gutîşî,36709,"encyclopedia,news,web",0.45
 هەڵبژاردنی,هەڵبژاردن,NOUN,hæɫb(ɯ)ʒaːɾd(ɯ)niː,"{""enclitic"":""3sg|ezafe"",""seg"":""هەڵبژاردن+ی""}",hellbijardinî,36637,"bilingual,dictionary,encyclopedia,news,web",0.6

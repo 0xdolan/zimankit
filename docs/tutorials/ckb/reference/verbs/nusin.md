@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **نووسیم**<br><sub>nûsîm</sub><br><sub>/nuːsiːm/</sub> | **نەمنووسی**<br><sub>nemnûsî</sub><br><sub>/næmnuːsiː/</sub> |
 | 2sg | تۆ | **نووسیت**<br><sub>nûsît</sub><br><sub>/nuːsiːt/</sub> | **نەتنووسی**<br><sub>netnûsî</sub><br><sub>/nætnuːsiː/</sub> |
-| 3sg | ئەو | **نووسیی**<br><sub>nûsî</sub><br><sub>/nuːsiː/</sub> | **نەینووسی**<br><sub>neynûsî</sub><br><sub>/næjnuːsiː/</sub> |
+| 3sg | ئەو | **نووسیی**<br><sub>nûsîy</sub><br><sub>/nuːsiː/</sub> | **نەینووسی**<br><sub>neynûsî</sub><br><sub>/næjnuːsiː/</sub> |
 | 1pl | ئێمە | **نووسیمان**<br><sub>nûsîman</sub><br><sub>/nuːsiːmaːn/</sub> | **نەماننووسی**<br><sub>nemannûsî</sub><br><sub>/næmaːnnuːsiː/</sub> |
 | 2pl | ئێوە | **نووسیتان**<br><sub>nûsîtan</sub><br><sub>/nuːsiːtaːn/</sub> | **نەتاننووسی**<br><sub>netannûsî</sub><br><sub>/nætaːnnuːsiː/</sub> |
 | 3pl | ئەوان | **نووسییان**<br><sub>nûsîyan</sub><br><sub>/nuːsiːjaːn/</sub> | **نەیاننووسی**<br><sub>neyannûsî</sub><br><sub>/næjaːnnuːsiː/</sub> |

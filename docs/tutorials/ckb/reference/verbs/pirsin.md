@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **پرسیم**<br><sub>pirsîm</sub><br><sub>/p(ɯ)ɾsiːm/</sub> | **نەمپرسی**<br><sub>nempirsî</sub><br><sub>/næmp(ɯ)ɾsiː/</sub> |
 | 2sg | تۆ | **پرسیت**<br><sub>pirsît</sub><br><sub>/p(ɯ)ɾsiːt/</sub> | **نەتپرسی**<br><sub>netpirsî</sub><br><sub>/nætp(ɯ)ɾsiː/</sub> |
-| 3sg | ئەو | **پرسیی**<br><sub>pirsî</sub><br><sub>/p(ɯ)ɾsiː/</sub> | **نەیپرسی**<br><sub>neypirsî</sub><br><sub>/næjp(ɯ)ɾsiː/</sub> |
+| 3sg | ئەو | **پرسیی**<br><sub>pirsîy</sub><br><sub>/p(ɯ)ɾsiː/</sub> | **نەیپرسی**<br><sub>neypirsî</sub><br><sub>/næjp(ɯ)ɾsiː/</sub> |
 | 1pl | ئێمە | **پرسیمان**<br><sub>pirsîman</sub><br><sub>/p(ɯ)ɾsiːmaːn/</sub> | **نەمانپرسی**<br><sub>nemanpirsî</sub><br><sub>/næmaːnp(ɯ)ɾsiː/</sub> |
 | 2pl | ئێوە | **پرسیتان**<br><sub>pirsîtan</sub><br><sub>/p(ɯ)ɾsiːtaːn/</sub> | **نەتانپرسی**<br><sub>netanpirsî</sub><br><sub>/nætaːnp(ɯ)ɾsiː/</sub> |
 | 3pl | ئەوان | **پرسییان**<br><sub>pirsîyan</sub><br><sub>/p(ɯ)ɾsiːjaːn/</sub> | **نەیانپرسی**<br><sub>neyanpirsî</sub><br><sub>/næjaːnp(ɯ)ɾsiː/</sub> |

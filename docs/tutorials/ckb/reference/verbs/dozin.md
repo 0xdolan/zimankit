@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **دۆزیم**<br><sub>dozîm</sub><br><sub>/doːziːm/</sub> | **نەمدۆزی**<br><sub>nemdozî</sub><br><sub>/næmdoːziː/</sub> |
 | 2sg | تۆ | **دۆزیت**<br><sub>dozît</sub><br><sub>/doːziːt/</sub> | **نەتدۆزی**<br><sub>netdozî</sub><br><sub>/nætdoːziː/</sub> |
-| 3sg | ئەو | **دۆزیی**<br><sub>dozî</sub><br><sub>/doːziː/</sub> | **نەیدۆزی**<br><sub>neydozî</sub><br><sub>/næjdoːziː/</sub> |
+| 3sg | ئەو | **دۆزیی**<br><sub>dozîy</sub><br><sub>/doːziː/</sub> | **نەیدۆزی**<br><sub>neydozî</sub><br><sub>/næjdoːziː/</sub> |
 | 1pl | ئێمە | **دۆزیمان**<br><sub>dozîman</sub><br><sub>/doːziːmaːn/</sub> | **نەماندۆزی**<br><sub>nemandozî</sub><br><sub>/næmaːndoːziː/</sub> |
 | 2pl | ئێوە | **دۆزیتان**<br><sub>dozîtan</sub><br><sub>/doːziːtaːn/</sub> | **نەتاندۆزی**<br><sub>netandozî</sub><br><sub>/nætaːndoːziː/</sub> |
 | 3pl | ئەوان | **دۆزییان**<br><sub>dozîyan</sub><br><sub>/doːziːjaːn/</sub> | **نەیاندۆزی**<br><sub>neyandozî</sub><br><sub>/næjaːndoːziː/</sub> |

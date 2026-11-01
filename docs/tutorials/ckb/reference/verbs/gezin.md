@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **گەزیم**<br><sub>gezîm</sub><br><sub>/ɡæziːm/</sub> | **نەمگەزی**<br><sub>nemgezî</sub><br><sub>/næmɡæziː/</sub> |
 | 2sg | تۆ | **گەزیت**<br><sub>gezît</sub><br><sub>/ɡæziːt/</sub> | **نەتگەزی**<br><sub>netgezî</sub><br><sub>/nætɡæziː/</sub> |
-| 3sg | ئەو | **گەزیی**<br><sub>gezî</sub><br><sub>/ɡæziː/</sub> | **نەیگەزی**<br><sub>neygezî</sub><br><sub>/næjɡæziː/</sub> |
+| 3sg | ئەو | **گەزیی**<br><sub>gezîy</sub><br><sub>/ɡæziː/</sub> | **نەیگەزی**<br><sub>neygezî</sub><br><sub>/næjɡæziː/</sub> |
 | 1pl | ئێمە | **گەزیمان**<br><sub>gezîman</sub><br><sub>/ɡæziːmaːn/</sub> | **نەمانگەزی**<br><sub>nemangezî</sub><br><sub>/næmaːnɡæziː/</sub> |
 | 2pl | ئێوە | **گەزیتان**<br><sub>gezîtan</sub><br><sub>/ɡæziːtaːn/</sub> | **نەتانگەزی**<br><sub>netangezî</sub><br><sub>/nætaːnɡæziː/</sub> |
 | 3pl | ئەوان | **گەزییان**<br><sub>gezîyan</sub><br><sub>/ɡæziːjaːn/</sub> | **نەیانگەزی**<br><sub>neyangezî</sub><br><sub>/næjaːnɡæziː/</sub> |

@@ -43,6 +43,7 @@ Sorani creates many words with a small set of suffixes. Once you know them you c
 | **-کار** | people who do something | کرێکار *worker* | کرێ *wage* |
 | **-دار** | people/things that have something | پارەدار *rich* | پارە *money* |
 | **-انە** | adverbs (*-ly*), *-wise* | ڕۆژانە *daily* | ڕۆژ *day* |
+| **-ە** | nouns and past-stem adjectives | چاکە *goodness*, کردە *done* | چاک، کرد |
 | **-گەر، -چی، -وان** | people who work with something | ئاسنگەر، ڕاوچی، باخەوان | ئاسن، ڕاو، باخ |
 | **-زانی، -ناسی** | -logy, -nomy | زیندەزانی، ئەستێرەناسی | |
 | **بێ-، نا-، هاو-** | without, not, co- | بێکەس، ناپاک، هاوکار | |

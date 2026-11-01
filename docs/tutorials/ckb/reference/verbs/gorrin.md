@@ -44,7 +44,7 @@
 |---|---|---|---|
 | 1sg | من | **گۆڕیم**<br><sub>gorrîm</sub><br><sub>/ɡoːriːm/</sub> | **نەمگۆڕی**<br><sub>nemgorrî</sub><br><sub>/næmɡoːriː/</sub> |
 | 2sg | تۆ | **گۆڕیت**<br><sub>gorrît</sub><br><sub>/ɡoːriːt/</sub> | **نەتگۆڕی**<br><sub>netgorrî</sub><br><sub>/nætɡoːriː/</sub> |
-| 3sg | ئەو | **گۆڕیی**<br><sub>gorrî</sub><br><sub>/ɡoːriː/</sub> | **نەیگۆڕی**<br><sub>neygorrî</sub><br><sub>/næjɡoːriː/</sub> |
+| 3sg | ئەو | **گۆڕیی**<br><sub>gorrîy</sub><br><sub>/ɡoːriː/</sub> | **نەیگۆڕی**<br><sub>neygorrî</sub><br><sub>/næjɡoːriː/</sub> |
 | 1pl | ئێمە | **گۆڕیمان**<br><sub>gorrîman</sub><br><sub>/ɡoːriːmaːn/</sub> | **نەمانگۆڕی**<br><sub>nemangorrî</sub><br><sub>/næmaːnɡoːriː/</sub> |
 | 2pl | ئێوە | **گۆڕیتان**<br><sub>gorrîtan</sub><br><sub>/ɡoːriːtaːn/</sub> | **نەتانگۆڕی**<br><sub>netangorrî</sub><br><sub>/nætaːnɡoːriː/</sub> |
 | 3pl | ئەوان | **گۆڕییان**<br><sub>gorrîyan</sub><br><sub>/ɡoːriːjaːn/</sub> | **نەیانگۆڕی**<br><sub>neyangorrî</sub><br><sub>/næjaːnɡoːriː/</sub> |

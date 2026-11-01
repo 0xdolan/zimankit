@@ -4,7 +4,7 @@
 
 # Central Kurdish: verbs
 
-**On this page:** [Stems](#stems) · [Agreement](#agreement) · [Paradigm of کردن (excerpt, from `python -m zimankit conjugate کردن`)](#paradigm-of-کردن-excerpt-from-python--m-zimankit-conjugate-کردن) · [Tenses and negatives](#tenses-and-negatives) · [Where the agent clitic goes on a verb with a first part](#where-the-agent-clitic-goes-on-a-verb-with-a-first-part) · [Object clitics](#object-clitics)
+**On this page:** [Stems](#stems) · [Agreement](#agreement) · [Paradigm of کردن (excerpt, from `python -m zimankit conjugate کردن`)](#paradigm-of-کردن-excerpt-from-python--m-zimankit-conjugate-کردن) · [Words built on the verb](#words-built-on-the-verb) · [Tenses and negatives](#tenses-and-negatives) · [Where the agent clitic goes on a verb with a first part](#where-the-agent-clitic-goes-on-a-verb-with-a-first-part) · [Object clitics](#object-clitics)
 
 `skills_ckb/verbs.py` describes a verb with **infinitive, past stem, present stem, transitivity, preverb, -ەوە suffix** and generates every single-word form. The analyzer recognises verbs by looking the token up in the inverted paradigm (`FormIndex`).
 
@@ -51,6 +51,10 @@ Other irregular cells: the imperative of `چوون` is `بچۆ`, `بچن`, and `
 Recognised but never shown first: dropped `ت` in speech and poetry (`دەکا`, `دەڵێ`, `دەمەوێ`, `دەکەی`, `دەبینرێ`, with `variant=short`), `دەژێت` beside `دەژی`, `هاتۆتەوە`, `بکەرەوە` (older or Sulaimani; the current textbook has `بکەوە`), `گرترا` and `بردرا`, and `ئەچم`, `ئەخوارد` with the eastern `ئە-` for core verbs (`variant=dialect_ae`). A variant never hides a function word (`بێ`, the adposition). The forms `نا` and `نان` of the verb "put" are not indexed, because they are almost always the particle and the noun.
 
 `-ەوە` verbs attach the suffix after the person ending: `دەکەمەوە`, `دەکاتەوە`, `کردیەوە`. Three `و` never occur: `چوو + ەوە = چووەوە`, `کردبوو + ەوە = کردبووەوە`. A stem in `ی` keeps its 3sg ending: `دۆزی + ی + ەوە = دۆزییەوە`. The perfect adds `ت` before `ەوە` and uses the long endings: `خوێندووەتەوە`, `خوێندوومانەتەوە`, `چووینەتەوە`. The 1sg and 2sg perfects (`کردوومەتەوە`, `هاتوویتەتەوە`) follow the pattern but are not printed in the sources checked.
+
+## Words built on the verb
+
+Kurdish grammars name these: ناوی بکەر (doer), ناوی بەرکار (thing done), چاوگ (infinitive), ناوی جێگا (place) and ناوی ئامێر (tool). Only the infinitive and the participles are generated, including the negative `نەهاتوو`. Endings such as `ەر`, `گە`, `ەک`, `ۆک` are treated as part of the lexicon, because they do not apply regularly.
 
 ## Tenses and negatives
 
