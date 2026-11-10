@@ -29,7 +29,8 @@ from zimankit.skills_kmr.syntax import detect_alignment
 2. Endings -im -î -e/-ø -in (after vowels -m -yî -ø -n); prefixes di-/t-, bi-, na-/ni-, ne-, nedi-.
 3. Past transitive: agent oblique (min, te, wî, wê, me, we, wan), object direct (ez, tu, ew, em, hûn), verb agrees with the object.
 4. ew/ev are 3sg or plural — accept either agreement.
-5. Skip arguments of prepositions (di, ji, bi, li, ser …) when looking for agent/object.
+5. Past stems in -art have present stems in -êr: jimartin → dijimêre, veşartin → vedişêre, spartin → dispêre. The imperative of gotin is bêje / bêjin as well as bibêje.
+6. Skip arguments of prepositions (di, ji, bi, li, ser …) when looking for agent/object.
 
 ## Checklist
 

@@ -72,4 +72,9 @@ Every verb below is conjugated in full on its own page: all tenses, moods, negat
 | [**derxistin**](derxistin.md) | دەرخستن | to take out, to remove | transitive | derdixim | derxist |
 | [**çêkirin**](cekirin.md) | چێکرن | to make, to build, to repair | transitive | çêdikim | çêkir |
 | [**hilbijartin**](hilbijartin.md) | هلبژارتن | to elect, to choose | transitive | hildibijêrim | hilbijart |
+| [**jimartin**](jimartin.md) | ژمارتن | to count | transitive | dijimêrim | jimart |
+| [**hejmartin**](hejmartin.md) | هەژمارتن | to count | transitive | dihejmêrim | hejmart |
+| [**spartin**](spartin.md) | سپارتن | to entrust | transitive | dispêrim | spart |
+| [**hinartin**](hinartin.md) | هنارتن | to send | transitive | dihinêrim | hinart |
+| [**veşartin**](vesartin.md) | ڤەشارتن | to hide | transitive | vedişêrim | veşart |
 <!-- /gen -->

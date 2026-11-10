@@ -163,6 +163,8 @@ class KmrAnalyzer:
         for dsuf, dtag, dpos in DERIVATIONS:
             if word.endswith(dsuf) and len(word) - len(dsuf) >= 2:
                 out.append((word[: -len(dsuf)], [(dsuf, dtag)], {}, dpos))
+                if dsuf[0] == "t" and word[-len(dsuf) - 1] != "t":  # pêwist+tir is written pêwistir
+                    out.append((word[: -len(dsuf) + 1], [(dsuf, dtag)], {}, dpos))
         return out
 
     def _resolve_gender(self, stem: str, tag: str, feats: dict[str, str]) -> list[dict[str, str]]:

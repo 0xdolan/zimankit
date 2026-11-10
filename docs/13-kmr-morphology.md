@@ -49,6 +49,10 @@ an.best("jinekê").features # {'definite': 'ind', 'number': 'sg', 'case': 'obl',
 
 Even without a lexicon tag, the suffix itself is evidence: `-ekê` and `-a` occur only with feminine nouns, `-ekî` only with masculine ones. The builder writes the analysis features into `morph_meta`, so gender is visible per form in `clean_wordlist_kmr.csv`.
 
+## Comparative after t
+
+When the stem ends in `t`, the comparative `-tir` is written with one `t`: `pêwist` → `pêwistir`, `rast` → `rastir`. The analyser tries both `pêwis` + `tir` and `pêwist` + `tir`, and the lexicon decides. This comes from the KLPT test data (Ahmadi 2020), where `pêwistir` has the lemma `pêwist`.
+
 <!-- nav:bottom -->
 ---
 [← Northern Kurdish: phonology and IPA](12-kmr-phonology-ipa.md) · [⌂ Contents](00-index.md) · [Northern Kurdish: verbs and split ergativity →](14-kmr-verbs-ergativity.md)

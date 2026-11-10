@@ -64,6 +64,10 @@ echo "Min tu dîtim." | python -m zimankit ergativity
 
 Central Kurdish is also ergative in the past, but marks the agent with a **set-2 enclitic** instead of case (see [chapter 10](10-ckb-verbs.md)).
 
+## Stems in -art and the imperative of gotin
+
+Verbs whose past stem ends in `-art` have a present stem in `-êr`: `jimartin` → `dijimêre`, `najimêrim`; `veşartin` → `vedişêre`; `spartin` → `dispêre`. `guess_present_stem` now applies this to verbs that are only in the lexicon, and `jimartin`, `hejmartin`, `spartin`, `hinartin` and `veşartin` are in the core list. The imperative of `gotin` is `bêje`, `bêjin` beside `bibêje`: the `bi-` is normally dropped before the stem's `b`. Both cases come from the KLPT test data (Ahmadi 2020).
+
 <!-- nav:bottom -->
 ---
 [← Northern Kurdish: nominal morphology (gender, case, ezafe)](13-kmr-morphology.md) · [⌂ Contents](00-index.md) · [Transliteration →](15-transliteration.md)

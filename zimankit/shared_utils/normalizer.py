@@ -10,6 +10,8 @@ Pipeline (all steps are idempotent):
 1. Unicode NFC composition.
 2. Arabic presentation forms (U+FB50-U+FDFF, U+FE70-U+FEFF) -> base letters.
 3. Remove bidi control marks and BOMs.
+   HTML character references for invisible characters (``&zwnj;``, ``&#8204;``,
+   ``&nbsp;`` ...) left behind by web scraping are decoded first.
 4. Micro-spaces typed inside words (ZWSP, thin/hair space, soft hyphen ...)
    -> ZWNJ, then redundant ZWNJs are dropped.
 5. Wide/no-break spaces -> ASCII space, collapse runs of horizontal space.
@@ -60,6 +62,27 @@ _ZWNJ_RUN_RE = re.compile(f"{ZWNJ}{{2,}}")
 _ZWNJ_AFTER_NONJOINING_RE = re.compile(f"([{''.join(sorted(ARABIC_NON_JOINING))}]){ZWNJ}")
 
 
+# Scraped text often carries the invisible characters as HTML references (the KLPT test set has
+# ره&zwnj;زبه&zwnj;ر).  Only these are decoded: &amp; or &lt; may be meant literally.
+_INVISIBLE_ENTITIES = {"zwnj": ZWNJ, "zwj": ZWJ, "nbsp": "\u00a0", "shy": "\u00ad", "lrm": "\u200e", "rlm": "\u200f"}
+_INVISIBLE_CODEPOINTS = frozenset({0xA0, 0xAD, 0x200B, 0x200C, 0x200D, 0x200E, 0x200F, 0x2060, 0xFEFF})
+_ENTITY_RE = re.compile(r"&(?:(zwnj|zwj|nbsp|shy|lrm|rlm)|#(\d{3,5})|#[xX]([0-9a-fA-F]{2,4}));")
+
+
+def decode_invisible_entities(text: str) -> str:
+    """``&zwnj;`` / ``&#8204;`` / ``&#x200c;`` -> the character, for invisible characters only."""
+    if "&" not in text:
+        return text
+
+    def repl(m: re.Match) -> str:
+        if m.group(1):
+            return _INVISIBLE_ENTITIES[m.group(1)]
+        code = int(m.group(2)) if m.group(2) else int(m.group(3), 16)
+        return chr(code) if code in _INVISIBLE_CODEPOINTS else m.group(0)
+
+    return _ENTITY_RE.sub(repl, text)
+
+
 def _fold_presentation_forms(text: str) -> str:
     """Map Arabic presentation-form code points to their base letters."""
     if not any("ﭐ" <= ch <= "﷿" or "ﹰ" <= ch <= "﻿" for ch in text):
@@ -93,7 +116,7 @@ class NormalizeOptions:
 def normalize_text(text: str, options: NormalizeOptions | None = None) -> str:
     """Apply the script-independent cleaning steps described in the module doc."""
     opt = options or NormalizeOptions()
-    text = unicodedata.normalize("NFC", text)
+    text = unicodedata.normalize("NFC", decode_invisible_entities(text))
     text = _fold_presentation_forms(text)
     text = text.translate(_DROP_BIDI)
     text = text.translate(_MICRO_TO_ZWNJ)
