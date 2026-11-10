@@ -70,9 +70,11 @@ def past_stem_of(infinitive: str) -> str | None:
 
 
 def guess_present_stem(past: str) -> str:
-    """Regular patterns only: -and -> -în (causative), -î -> drop, else = past."""
+    """Regular patterns only: -and -> -în (causative), -art -> -êr, -î -> drop, else = past."""
     if past.endswith("and"):
         return past[:-3] + "în"
+    if past.endswith("art") and len(past) > 3:  # jimartin -> dijimêre, veşartin -> vedişêre
+        return past[:-3] + "êr"
     if past.endswith("î") and len(past) > 2:
         return past[:-1]
     if past.endswith("t") and len(past) > 2 and past[-2] in "sş":
@@ -174,6 +176,8 @@ def conjugate(v: Verb) -> Iterator[VerbForm]:
         imp = {"2sg": sub + pres + ("" if stem_v else "e"), "2pl": sub + pres + ("n" if stem_v else "in")}
     for p, f in imp.items():
         yield from emit(f, mood="imperative", person=p)
+        if base == "gotin":  # bêje / bêjin beside bibêje: bi- is normally dropped before the stem's b
+            yield from emit(f[2:], mood="imperative", person=p)
         if pres[-1] in VOWELS:
             end = "" if p == "2sg" else "n"
         else:

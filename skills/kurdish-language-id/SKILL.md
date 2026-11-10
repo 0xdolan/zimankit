@@ -29,6 +29,7 @@ from zimankit.shared_utils.lid import identify
 3. Normalise Sorani legacy encodings before LID (ە is a key feature).
 4. Drop lines in the wrong script (scraped JavaScript) before deciding a block.
 5. Treat 'und' as accept only if the target language still scores highest.
+6. Only ckb and kmr are identified. Southern Kurdish (sdh), Hawrami (hac) and Zazaki (zza) can pass as ckb/kmr; use a dedicated multi-variety identifier when those may occur.
 
 ## Checklist
 

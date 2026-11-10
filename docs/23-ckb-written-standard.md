@@ -129,6 +129,21 @@ In the order they depend on each other:
 
 Some transliterations are also still doubtful and have not been checked against a source, such as `rakridin` for `ڕاکردن` and `hellîgrit` for `هەڵیگرت`.
 
+## Regional variation
+
+Standard Central Kurdish is close to the speech of Sulaymaniyah but does not match any single subdialect (Ahmadi et al. 2024, the CORDI corpus). Their tables show where the subdialects differ from the standard. zimankit handles some of these differences:
+
+| feature | Sulaymaniyah | Sanandaj | Erbil | Mahabad | in zimankit |
+|---|---|---|---|---|---|
+| progressive | `ئە-` | `ئە-` | `دە-` | `دە-` | both; `ئە-` gets `variant=dialect_ae` |
+| particle | `-ەوە`, `-ەوانێ` | `-ەو` | `-ەوە` | `-ەوە` | all three; `particle_variant` |
+| plural | `-ان` | `-گەل` | `-ان` | `-ان` | both |
+| indefinite | `-ێک` | `-ێک` | `-ەک` | `-ێک` | both |
+| oblique `-ی`/`-ێ` | no | no | yes | yes | not marked |
+| past agent and object | `بردیانم` | `بردمیان` | `بردیانم` | `بردیانم` | standard order only |
+
+Some words also differ: `ziman`/`ziwan` "language", `kewtin`/`keftin` "fall", `jinan`/`jingel` "women" (their Table 3). The sound changes they list, for example `دڵ` pronounced `dir` in Erbil, are not written, so they do not affect text processing.
+
 <!-- nav:bottom -->
 ---
 [← Sentence structure](22-sentence-structure.md) · [⌂ Contents](00-index.md)

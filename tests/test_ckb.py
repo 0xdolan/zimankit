@@ -422,3 +422,55 @@ def test_negative_participle():
 
 def test_brother_is_bira():
     assert to_latin("برا") == "bira" and to_latin("برایەک") == "birayek"
+
+
+# Verb template slots after Ahmadi (2021), "Hunspell for Sorani Kurdish Spell Checking and Morphological
+# Analysis", Table 1, and the rule groups of KLPT's ckb-Arab.aff (Ahmadi 2020); نەشیانبینیبووم is the
+# paper's own example of a form its rules do not reach.
+@pytest.mark.parametrize("word, lemma, feats", [
+    ("دەچمەوە", "چوونەوە", {}),
+    ("نەیدەگرتەوە", "گرتن", {"polarity": "neg", "particle": "ewe"}),
+    ("ئەهاتە", "هاتن", {"variant": "dialect_ae", "goal": "yes"}),
+    ("ڕۆیشتووەتە", "ڕۆیشتن", {"goal": "yes"}),
+    ("بمردایە", "مردن", {"mood": "conditional"}),
+    ("نەشیانبینیبووم", "بینین", {"additive": "yes", "object": "1sg"}),
+    ("هەڵیشیدەگرت", "هەڵگرتن", {"additive": "yes"}),
+    ("نەمدەکردن", "کردن", {"object": "2pl|3pl"}),
+])
+def test_verb_fallback(word, lemma, feats):
+    a = CkbAnalyzer().best(word)
+    assert (a.lemma, a.pos) == (lemma, "VERB")
+    for k, v in feats.items():
+        assert a.features.get(k) == v
+
+
+def test_verb_fallback_leaves_listed_words_alone():
+    lex = SimpleLexicon()
+    for w, p in (("نەخۆش", "ADJ"), ("گۆشت", "NOUN")):
+        lex.add(w, p)
+    an = CkbAnalyzer(lex)
+    for w in ("نەخۆشن", "گۆشتی"):
+        assert an.best(w).pos != "VERB"
+
+
+@pytest.mark.parametrize("word, lemma", [
+    ("شەشەم", "شەشەم"), ("شەشەمین", "شەشەم"), ("سێیەم", "سێیەم"), ("دەیەم", "دەیەم"),
+    ("یەکەم", "یەکەم"), ("یەکەمیان", "یەکەم"), ("چوارەمی", "چوارەم"),
+])
+def test_ordinals(word, lemma):
+    a = CkbAnalyzer().best(word)
+    assert (a.lemma, a.pos, a.features.get("numtype")) == (lemma, "ADJ", "ord")
+
+
+def test_ordinal_ending_needs_a_numeral():
+    for w in ("زەمین", "شیرین", "دەم", "کەم"):
+        assert CkbAnalyzer().best(w).features.get("numtype") is None
+
+
+@pytest.mark.parametrize("word, lemma, variant", [
+    ("هاتمەوانێ", "هاتنەوە", "ewanê"),  # Sulaymaniyah (Ahmadi et al. 2024, Table 4)
+    ("گەڕامەو", "گەڕانەوە", "ew"),      # Sanandaj
+])
+def test_regional_particle(word, lemma, variant):
+    a = CkbAnalyzer().best(word)
+    assert (a.lemma, a.pos, a.features.get("particle_variant")) == (lemma, "VERB", variant)

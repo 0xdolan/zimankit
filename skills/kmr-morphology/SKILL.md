@@ -28,7 +28,8 @@ from zimankit.shared_utils.schema import SimpleLexicon
 2. -ê = masculine ezafe OR feminine oblique: decide with the noun's gender (mal f → oblique, bav m → ezafe).
 3. After vowel-final stems the suffix takes y: mamosteyê, deriyê.
 4. Lexicon gender tag 'm' in Kurdish sources means mê = FEMININE; 'n' = nêr = masculine.
-5. Load output/kmr/lemmas_kmr.csv (gender column) into SimpleLexicon for best results.
+5. After a stem in t, -tir is written with one t: pêwist → pêwistir, rast → rastir.
+6. Load output/kmr/lemmas_kmr.csv (gender column) into SimpleLexicon for best results.
 
 ## Checklist
 

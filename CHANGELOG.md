@@ -4,6 +4,19 @@ All notable changes to zimankit are recorded here. The format follows [Keep a Ch
 
 ## [Unreleased]
 
+Checked against the Kurdish NLP literature and the KLPT test data; every source is listed in [chapter 21](docs/21-references.md#articles-used-in-the-literature-audit). Some Central Kurdish words now get a verb or ordinal reading where they had a noun reading before, so results differ from 0.3.1.
+
+### Added
+
+- **Central Kurdish verbs**: forms with ئە for دە, the particle ەوە (also the regional ەوانێ and ەو), the directional ە and تە, the conditional ایە, ب before the past subjunctive, the additive یش/ش inside the verb, and object endings on the perfect and past perfect. 1,614 words of the built word list (97,495 tokens) are now read as verbs ([chapter 10](docs/10-ckb-verbs.md#elements-stripped-before-lookup)).
+- **Central Kurdish ordinals**: شەشەم, سێیەم, شەشەمین → ADJ with numtype=ord.
+- **Northern Kurdish**: present stems in -êr for -art verbs (jimartin, hejmartin, spartin, hinartin, veşartin added to the core list), the imperative bêje, and -tir after t (pêwistir).
+- **Documentation**: Central Kurdish regional variation ([chapter 23](docs/23-ckb-written-standard.md#regional-variation)), other Kurdish varieties in language identification, and a reference for each article used.
+
+### Fixed
+
+- **Normaliser**: decodes `&zwnj;`, `&#8204;`, `&nbsp;` and the other references for invisible characters.
+
 ## [0.3.1] - 2026-11-01
 
 ### Added

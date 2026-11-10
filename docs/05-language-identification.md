@@ -49,6 +49,10 @@ python -m zimankit lid --json < paragraphs.txt
 
 Limitations: rule-based LID is reliable from about eight words up. For single words use the orthographic validators plus corpus attestation (that is what the builder does).
 
+## Other Kurdish varieties
+
+zimankit identifies Central and Northern Kurdish only. Southern Kurdish (`sdh`), Hawrami/Gorani (`hac`) and Zazaki (`zza`) are written in the same two scripts, so a block in one of them may be accepted as `ckb` or `kmr`. For those, use the fastText models of KurdishLID (Ahmadi et al. 2023, MIT licence), which were trained on 2,400 lines for each of the labels `ku`, `ckb`, `sdh`, `hac` and `zza`. zimankit does not include rules for these varieties: the papers give no rule description, and the KurdishLexicography word lists are under CC BY-NC-SA 4.0, which cannot be copied into a GPL toolkit. Hassani & Medjedovic (2016) also show that Kurmanji and Sorani can be told apart from short texts.
+
 <!-- nav:bottom -->
 ---
 [← Unicode and shared normalization](04-unicode-normalization.md) · [⌂ Contents](00-index.md) · [Tokenization →](06-tokenization.md)

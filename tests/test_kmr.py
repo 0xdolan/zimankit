@@ -120,3 +120,23 @@ def test_istan_derivation():
 def test_brother_is_bira():
     assert validate_word("bira") == [] and validate_word("birayê") == []
     assert validate_word("bra") == ["the standard spelling is bira"]
+
+
+@pytest.mark.parametrize("word, lemma", [
+    ("bêje", "gotin"), ("bêjin", "gotin"),            # bi- dropped before the stem's b
+    ("najimêrim", "jimartin"), ("jimartiye", "jimartin"), ("hejmartiye", "hejmartin"),
+    ("vedişêre", "veşartin"), ("dispêrim", "spartin"),  # -art- / -êr-
+])
+def test_art_stems_and_bare_imperative(word, lemma):
+    a = KmrAnalyzer().best(word)
+    assert (a.lemma, a.pos) == (lemma, "VERB")
+
+
+def test_guess_art_present_stem():
+    assert verbs.guess_present_stem("hinart") == "hinêr"
+
+
+def test_comparative_after_t():
+    lex = SimpleLexicon()
+    lex.add("pêwist", "ADJ")
+    assert KmrAnalyzer(lex).best("pêwistir").lemma == "pêwist"
