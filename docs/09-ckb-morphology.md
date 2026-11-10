@@ -75,6 +75,10 @@ a.segmentation, a.gloss, a.features
 * final `ە`/`یە`: copula, definite ezafe, demonstrative, vocative or short definite → feature `copula=3sg|ezafe.def|dem|voc|def.short`.
 * use `analyze()` (all readings) rather than `best()` for disambiguation in context.
 
+## Ordinal numerals
+
+A cardinal numeral with `ەم` (after a consonant) or `یەم` (after a vowel) is an ordinal: `شەش` → `شەشەم`, `سێ` → `سێیەم`, `دە` → `دەیەم`, `نۆزدە` → `نۆزدەیەم`. The attributive form adds `ین`, which only an ordinal takes: `شەشەمین ساڵ`. The result is `ADJ` with `numtype=ord`, and the lemma is the form with `ەم`. The numeral must be in the function-word list or the lexicon, so `زەمین`, `شیرین` and `دەم` are not read as ordinals. An ordinal outranks an accidental reading: `دەیەم` is "tenth", not `دەیە` + `م` "my decade". The rule is the one in the reference grammars (Thackston, *Sorani Kurdish*); none of the audited articles describes it.
+
 <!-- nav:bottom -->
 ---
 [← Central Kurdish: phonology and IPA (G2P)](08-ckb-phonology-ipa.md) · [⌂ Contents](00-index.md) · [Central Kurdish: verbs →](10-ckb-verbs.md)

@@ -106,6 +106,33 @@ A pronoun object makes six times as many forms, so these are recognised by strip
 
 The result has `object=<person>`.
 
+## Elements stripped before lookup
+
+The paradigm lists every person, tense and negative, but some elements can be added to almost any cell. Listing them would multiply the paradigm many times, so the analyser removes them and looks up what is left. This only happens when the word has no other verb reading. The inventory follows the verb template in Ahmadi (2021, Table 1) and the rule groups of the KLPT Hunspell file (Ahmadi 2020).
+
+| element | example | what is looked up | feature |
+|---|---|---|---|
+| `ئە` for `دە` | `ئەچم`, `نەیئەکرد` | `دەچم` | `variant=dialect_ae` |
+| particle `ەوە` | `دەیخۆمەوە`, `کڕیومەتەوە`, `بیخۆرەوە` | `دەیخۆم` | `particle=ewe`, lemma `…ەوە` if that verb is listed |
+| regional `ەوانێ` / `ەو` | `هاتمەوانێ` (Sulaymaniyah), `گەڕامەو` (Sanandaj) | `هاتمەوە` | `particle_variant=ewanê` / `ew` |
+| directional `ە`, `تە` after the perfect | `دەچمە`, `ڕۆیشتووەتە` | `دەچم` | `goal=yes` |
+| conditional `ایە` | `بمردایە`, `کردبووایە` | `مرد` | `mood=conditional` |
+| `ب` before the past subjunctive | `بهاتبام` | `هاتبام` | |
+| additive `یش`/`ش` inside the verb | `نەشیانبینیبووم`, `هەڵیشیدەگرت`, `هاتیشم` | `نەیانبینیبووم` | `additive=yes` |
+
+Up to three elements can be stacked (`ئەچمەو` is `ئە` + `ەو`). The object endings of the perfect and the past perfect are also recognised: `بینیبووم` + `ن`, `کردووم` + `ن`.
+
+Limits, so that real words are not taken for verbs:
+
+* the additive is accepted only right after a first element (`دە`, `نە`, `نا`, `مە`, `ئە`, `ب`, a preverb) or before a personal ending, and the first element must really be one: `بشارینەوە` is not `ب` + `ش` + `بارین`;
+* a word whose beginning is in the lexicon keeps that reading: `نەخۆشن` is the adjective `نەخۆش`;
+* a shorter form that is a listed noun or function word is not used: `داخەوەش` is `داخەوە` + `ش`;
+* the directional `ە` and the additive apply to core verbs only, and an additive reading scores lower than the others.
+
+`نەشیانبینیبووم` is the example Ahmadi (2021, p. 10) gives of a form the Hunspell rules do not reach.
+
+Measured on the built word list (368,810 words), these rules turn 1,614 words (97,495 tokens) from a nominal reading into a verb, and change no verb into something else. A few rare forms are still misread, for example `دەبەشنەوە` (read as `بردن`) and `دەچێشت` (read as `چوون`).
+
 <!-- nav:bottom -->
 ---
 [← Central Kurdish: morphology](09-ckb-morphology.md) · [⌂ Contents](00-index.md) · [Northern Kurdish: alphabet and orthography →](11-kmr-orthography.md)

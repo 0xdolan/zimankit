@@ -45,6 +45,10 @@ grep -nP '[\x{0643}\x{064A}\x{0649}]' corpus.txt | head
 grep -nP '[\x{200E}\x{200F}\x{202A}-\x{202E}\x{2066}-\x{2069}]' corpus.txt
 ```
 
+## HTML character references
+
+Scraped text often keeps the invisible characters as HTML references: the KLPT test data has `ره&zwnj;زبه&zwnj;ر` ([Ahmadi 2020](21-references.md#articles-used-in-the-literature-audit)). `normalize_text` decodes `&zwnj;`, `&zwj;`, `&nbsp;`, `&shy;`, `&lrm;`, `&rlm;` and their numeric forms (`&#8204;`, `&#x200c;`) first, so the later steps treat them like the characters. Other references such as `&amp;` or `&#65;` are left as they are, because they may be meant literally. `decode_invisible_entities()` is available on its own.
+
 <!-- nav:bottom -->
 ---
 [← Data ingestion: MDX and ZIM](03-data-ingestion.md) · [⌂ Contents](00-index.md) · [Language identification →](05-language-identification.md)

@@ -39,7 +39,7 @@ from typing import Iterable
 
 from ..shared_utils.schema import Analysis, EmptyLexicon, LexiconLike
 from .orthography import normalize_word
-from .verbs import PREVERBS, FormIndex, VerbForm, default_index
+from .verbs import PREVERBS, VOWEL_END, FormIndex, Verb, VerbForm, _with_suffix, default_index
 
 VOWEL_LETTERS = set("اەۆێیو")
 
@@ -112,6 +112,7 @@ SLOTS: tuple[tuple[str, tuple[Affix, ...]], ...] = (
     ("CMP", (
         _a("ترین", "SUPL", None, "ADJ", degree="sup"),
         _a("تر", "CMPR", None, "ADJ", degree="cmp"),
+        _a("ین", "ORD", "C", "ADJ", numtype="ord"),  # شەشەم+ین, only after an ordinal
     )),
     ("DERIV", (
         _a("ایەتی", "ABST", None, "NOUN", derivation="abstract"),
@@ -144,6 +145,7 @@ DERIV_PREFIXES = (("بێ", "PRIV"), ("نا", "NEG"), ("هاو", "CO"))  # بێک
 INTERFIXES = ("ەو", "او", "بە", "ە", "و", "")  # compound linkers: گوڵ+ە+گەنم, دەم+و+چاو
 FULL_SCORE_WORDS = frozenset({"تر", "دیکە", "برا"})  # they inflect like any other word: تریش, دیکەوە, براکەم
 DERIVED_TAGS = ("NISBA", "ABST", "ADVZ", "PLACE", "AGENT", "POSSR", "SCIENCE", "DIM")
+ADDITIVE_TAILS = frozenset({"", "م", "ت", "ی", "مان", "تان", "یان", "یت", "ین", "ن", "ە", "مە", "یتە", "ینە", "نە"})  # after verb-internal یش
 CLITIC_ADPOSITIONS = frozenset({"پێ", "لێ", "تێ", "بۆ"})  # پێم, لێی, بۆمان
 ENCLITIC_TAGS = frozenset({"1SG", "2SG", "3SG/EZ", "1PL", "2PL", "3PL"})
 POS_PRIORITY = ("VERB", "NOUN", "PROPN", "ADJ", "ADV", "PRON", "NUM", "ADP", "CCONJ", "SCONJ", "DET", "PART", "INTJ")
@@ -246,6 +248,27 @@ def lemma_seg(word: str, lemma: str, segs: list) -> str:
     return word[: len(word) - sum(len(f) for f, _, _ in segs)] if segs else lemma
 
 
+def _verb_head(prefix: str) -> bool:
+    """Can *prefix* stand before the marker دە?  Nothing, a preverb, نە and one clitic: نەی+دە, هەڵم+دە."""
+    for pre in ("", *PREVERBS):
+        if prefix.startswith(pre):
+            rest = prefix[len(pre) :]
+            if rest in ("", "نە", *CLITICS) or any(rest in ("نە" + c, c + "نە") for c in CLITICS):
+                return True
+    return False
+
+
+def _without_b(form: str) -> list[str]:
+    """*form* less a leading subjunctive ب; a clitic after it goes back to the end: بمکرد -> کردم."""
+    if not form.startswith("ب") or len(form) < 4:
+        return []
+    out = [form[1:]]
+    for c in sorted(CLITICS, key=len, reverse=True):
+        if form.startswith(c, 1) and len(form) > len(c) + 3:
+            out.append(form[1 + len(c) :] + c)
+    return out
+
+
 class CkbAnalyzer:
     """Rank-ordered morphological analyses for Central Kurdish tokens."""
 
@@ -255,7 +278,20 @@ class CkbAnalyzer:
         self.fw = function_words()
 
     # -- scoring ----------------------------------------------------------
+    def _ordinal(self, stem: str) -> bool:
+        """شەش+ەم, سێ+یەم: a cardinal numeral with the ordinal ending."""
+        if self.fw.get(stem, ("", {}))[1].get("numtype") == "ord":
+            return True
+        for suf in ("یەم", "ەم"):
+            base = stem[: -len(suf)]
+            if stem.endswith(suf) and base and (suf == "ەم" or _ends_with_vowel(base)):
+                if self.fw.get(base, ("",))[0] == "NUM" or "NUM" in self.lexicon.pos_of(base):
+                    return True
+        return False
+
     def _stem_score(self, stem: str) -> float:
+        if self._ordinal(stem):  # above the accidental readings: دەیەم is "tenth" before "my decade"
+            return 8.0
         if stem in self.fw and stem not in FULL_SCORE_WORDS:
             return 4.0
         if stem in self.lexicon:
@@ -304,6 +340,8 @@ class CkbAnalyzer:
                     score -= 12.0  # after ا it is ایی or a listed word: کۆتایی; یی follows ە ۆ ێ: سنەیی, شنۆیی
                 if af.form == "ایی" and "ADJ" not in self.lexicon.pos_of(stem):
                     score -= 12.0  # ڕەش+ایی, not کۆت+ایی
+                if af.tag == "ORD" and not (af is segs[0][2] and self._ordinal(stem)):
+                    score -= 12.0  # ین makes the attributive ordinal only: شەشەمین ساڵ
                 if af.tag == "PL.GEL" and stem in self.fw:
                     score -= 6.0  # a typo for لەگەڵ, not لە+گەل
                 if af.tag == "E" and (word in self.lexicon or word in self.fw):
@@ -319,6 +357,9 @@ class CkbAnalyzer:
                 score += self._stem_score(stem + "ە") - self._stem_score(stem)
                 stem += "ە"
             pos = self._choose_pos(stem, pos_hint, inflected=bool(segs))
+            if self._ordinal(stem):
+                pos = "ADJ"
+                feats.setdefault("numtype", "ord")
             if stem in self.fw and not segs:
                 pos, extra = self.fw[stem]
                 feats.update(extra)
@@ -419,6 +460,18 @@ class CkbAnalyzer:
         def past(ft: dict) -> bool:
             return ft.get("tense") == "past" and ft.get("aspect") == "perfective" and "polarity" not in ft and "voice" not in ft
 
+        def fronted_agent(ft: dict) -> bool:
+            """The agent clitic stands before the stem, so any agent may be followed by a patient ending."""
+            if ft.get("agent") not in PERSONS or "voice" in ft or "mood" in ft:
+                return False
+            if ft.get("tense") == "past_perfect":
+                return ft.get("polarity") == "neg"  # نەیانبینیبوو+م
+            return ft.get("tense") == "past" and (ft.get("polarity") == "neg" or ft.get("aspect") == "progressive")
+
+        def final_agent(ft: dict) -> bool:
+            return (ft.get("tense") in ("present_perfect", "past_perfect", "past_subj", "pluperfect_subj") and "polarity" not in ft
+                    and "voice" not in ft and ft.get("agent") in ("1sg", "2sg", "1pl", "2pl"))
+
         for cl, obj in zip(CLITICS, PERSONS):
             # دە+ت+بینم, بم+گرە, and on a preverb هەڵ+ی+دەگرم, ڕا+م+بهێنە
             for head in ("دە", "نا", "ب", "نە", "مە", *PREVERBS):
@@ -430,6 +483,13 @@ class CkbAnalyzer:
             if word.endswith(end) and len(word) > len(end) + 2:
                 # core verbs only: on guessed ones these match other words (بریتین, بریتانی, درامی)
                 add(word[: -len(end)], obj, lambda ft: past(ft) and ft.get("agent") in ("1sg", "2sg", "1pl", "2pl"), core_only=True)
+        # the same endings in the other past tenses (the patient slot of Ahmadi 2021, Table 1)
+        for end, obj in (("یت", "2sg"), ("م", "1sg"), ("ین", "1pl"), ("ن", "2pl|3pl")):
+            if word.endswith(end) and len(word) > len(end) + 3:
+                rest = word[: -len(end)]
+                add(rest, obj, fronted_agent, core_only=True)  # نەمدەکرد+ن, دەیانکرد+ین
+                add(rest, obj, lambda ft: final_agent(ft) and ft.get("tense") != "present_perfect", core_only=True)  # بینیبووم+ن, کردبام+ن
+                add(rest + "ە", obj, lambda ft: final_agent(ft) and ft.get("tense") == "present_perfect", core_only=True)  # کردووم+ن
         for agent, cl3 in (("3sg", "ی"), ("3pl", "یان")):  # گرت+م+ی, برد+ین+یان
             if word.endswith(cl3):
                 bare = word[: -len(cl3)]
@@ -440,6 +500,94 @@ class CkbAnalyzer:
                                 found.append((VerbForm(f.form, f.lemma, {**f.features, "agent": agent}), obj))
         return found
 
+    def _rewrites(self, word: str) -> list[tuple[str, dict[str, str], object, bool]]:
+        """Ways to take one productive element off a verb form: (shorter form, features, test, core verbs only).
+
+        These elements multiply every paradigm cell, so they are stripped and never listed.  The inventory
+        is the verb template of Ahmadi (2021, Table 1): the additive یش inside the verb, the directional ە,
+        the particle ەوە, the conditional ایە, and the marker ئە for دە (Ahmadi et al. 2024, Table 4).
+        """
+        out: list[tuple[str, dict[str, str], object, bool]] = []
+
+        def finite(ft: dict, v: Verb) -> bool:
+            return "person" in ft or "agent" in ft
+
+        i = word.find("ئە")  # ئەچم, ئەیکەم, نەیئەکرد, هەڵئەگرم
+        if i >= 0 and _verb_head(word[:i]):
+            out.append((word[:i] + "دە" + word[i + 2 :], {"variant": "dialect_ae"}, finite, True))
+        # ەوە on a verb the list has without it: دەیخۆمەوە, خواردیانەوە, کڕیومەتەوە, بیخۆرەوە
+        for cut in (2, 3, 4):
+            base, tail = word[:-cut], word[-cut:]
+            if len(base) < 3 or not tail.endswith("وە"):
+                continue
+            if _with_suffix(base, "ەوە") == word:
+                out.append((base, {"particle": "ewe"}, lambda ft, v: finite(ft, v) and not v.suffix and "goal" not in ft and ft.get("tense") != "present_perfect", False))
+            elif tail == "تەوە" and base.endswith("ە"):
+                out.append((base, {"particle": "ewe"}, lambda ft, v: not v.suffix and ft.get("tense") == "present_perfect", False))
+            elif tail == "رەوە" and base[-1] in "ەۆێ":
+                out.append((base, {"particle": "ewe"}, lambda ft, v: not v.suffix and ft.get("mood") == "imperative", False))
+        # regional shapes of ەوە (Ahmadi et al. 2024, Table 4): ەوانێ in Sulaymaniyah, ەو in Sanandaj
+        if word.endswith("ەوانێ"):
+            out.append((word[:-5] + "ەوە", {"particle_variant": "ewanê"}, finite, False))
+        elif word.endswith("ەو") and len(word) >= 5:
+            out.append((word + "ە", {"particle_variant": "ew"}, finite, False))
+        # directional ە: دەچمە, هاتنە, هاتیتە; تە after the perfect: هاتوومەتە
+        if word.endswith("ە") and word[-2] not in VOWEL_END:
+            out.append((word[:-1], {"goal": "yes"}, lambda ft, v: finite(ft, v) and "goal" not in ft and ft.get("tense") != "present_perfect", True))
+        if word.endswith("ەتە"):
+            out.append((word[:-2], {"goal": "yes"}, lambda ft, v: ft.get("tense") == "present_perfect", True))
+        # conditional ایە on the past: بکردایە, بهاتمایە, بمکردایە, نەهاتایە, کردبووایە
+        base = word[:-3] if word.endswith("ایە") else word[:-2] if word.endswith("ایە"[1:]) and word[-3:-2] == "ا" else ""
+        if len(base) >= 2:
+            def conditional(ft: dict, v: Verb) -> bool:
+                return ft.get("tense") in ("past", "past_perfect") and ft.get("aspect") != "progressive" and "mood" not in ft and "goal" not in ft
+            for b in (base, *_without_b(base)):
+                out.append((b, {"mood": "conditional"}, conditional, False))
+        # ب before the past subjunctive: بهاتبام, بمکردبا
+        for b in _without_b(word):
+            out.append((b, {}, lambda ft, v: ft.get("tense") in ("past_subj", "pluperfect_subj") and "polarity" not in ft, False))
+        # additive یش / ش: after the first element (نەشیکرد, هەڵیشیدەگرت) or before the ending (هاتیشم, کردمیش).
+        # The first element must then be what it looks like: بشارین is not ب+ش+بارین.
+        heads = {len(h): h for h in ("دە", "نە", "نا", "مە", "ئە", "ب", *PREVERBS) if word.startswith(h)}
+
+        def after(head: str | None):
+            def test(ft: dict, v: Verb) -> bool:
+                if not finite(ft, v) or head in ("دە", "ئە", None):
+                    return finite(ft, v)
+                if head in PREVERBS:
+                    return v.preverb == head
+                if head == "ب":
+                    return "polarity" not in ft and ft.get("mood") in ("subjunctive", "imperative")
+                return ft.get("polarity") == "neg"
+            return test
+
+        for k in range(1, len(word)):
+            for mark, fits in (("یش", word[k - 1] not in "اەۆێ" and k > 1), ("ش", word[k - 1] in VOWEL_END or k == 1)):
+                tail = word[k + len(mark) :]
+                if word[: k + len(mark)] in self.lexicon:
+                    continue  # نەخۆش+ن is the adjective
+                if word.startswith(mark, k) and fits and (k in heads or tail in ADDITIVE_TAILS):
+                    out.append((word[:k] + tail, {"additive": "yes"}, after(heads.get(k)), True))
+        return [r for r in out if len(r[0]) >= 3]
+
+    def _verb_fallback(self, word: str, depth: int = 0) -> list[tuple[VerbForm, str | None, dict[str, str]]]:
+        """Readings of *word* as a listed form plus up to three of the elements in ``_rewrites``."""
+        found: list[tuple[VerbForm, str | None, dict[str, str]]] = []
+        for shorter, extra, test, core_only in self._rewrites(word):
+            def ok(f: VerbForm) -> bool:
+                v = self.verbs.verbs[f.lemma]
+                return f.lemma not in self.fw and test(f.features, v) and (v.source == "core" or not core_only)
+            listed = self.verbs.lookup(shorter)
+            if not listed and (shorter in self.lexicon or shorter in self.fw):
+                continue  # a known word with a clitic is the nominal analysis: هێشتا+یە, داخەوە+ش
+            direct = [(f, None) for f in listed] + self._object_clitic(shorter)
+            hits = [(f, obj, extra) for f, obj in direct if ok(f)]
+            if not hits and depth < 2:
+                hits = [(f, obj, {**more, **extra}) for f, obj, more in self._verb_fallback(shorter, depth + 1) if ok(f) and extra.keys().isdisjoint(more)
+                        and not ("particle" in extra and "goal" in more)]  # دەچمەوە is not دەچمە + وە
+            found += hits
+        return found
+
     def _verbal(self, word: str) -> list[Analysis]:
         out = []
         if not self.verbs.lookup(word) and word not in self.lexicon and word not in self.fw:
@@ -447,11 +595,19 @@ class CkbAnalyzer:
                 feats = {k: str(val) for k, val in vf.features.items() if k != "pos"}
                 score = 6.0 if self.verbs.verbs[vf.lemma].source == "core" else 4.5
                 out.append(Analysis(word, vf.lemma, "VERB", {**feats, "object": obj, "transitivity": "transitive"}, [(word, "VERB")], score))
-        if not out and not self.verbs.lookup(word) and word.startswith("ئە") and word not in self.lexicon and word not in self.fw:
-            for vf in self.verbs.lookup("دە" + word[2:]):  # ئەچم, ئەخوارد: the eastern marker, recognised and never generated
-                if self.verbs.verbs[vf.lemma].source == "core":
-                    feats = {k: str(val) for k, val in vf.features.items() if k != "pos"}
-                    out.append(Analysis(word, vf.lemma, "VERB", {**feats, "variant": "dialect_ae"}, [(word, "VERB")], 6.0))
+        if not out and len(word) >= 4 and not self.verbs.lookup(word) and word not in self.lexicon and word not in self.fw:
+            for vf, obj, extra in self._verb_fallback(word):
+                v = self.verbs.verbs[vf.lemma]
+                lemma = vf.lemma
+                if extra.get("particle") == "ewe" and lemma + "ەوە" in self.verbs.verbs:
+                    lemma += "ەوە"  # خواردنەوە is its own verb where the list has it
+                feats = {k: str(val) for k, val in vf.features.items() if k != "pos"} | extra
+                if obj:
+                    feats["object"] = obj
+                feats["transitivity"] = "transitive" if v.transitive else "intransitive"
+                # the one-letter additive is the weakest evidence: a known word with a clitic outranks it (نەخۆش+ن)
+                score = 4.3 if "additive" in extra else 6.0 if v.source == "core" else 4.5
+                out.append(Analysis(word, lemma, "VERB", feats, [(word, "VERB")], score))
         for vf in self.verbs.lookup(word):
             if vf.lemma in self.fw:
                 continue  # a verb guessed from a function word: یان

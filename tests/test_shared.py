@@ -56,3 +56,11 @@ def test_kashida_alone_is_punctuation():
 
     assert [(t.text, t.kind) for t in tokenize("ئەو ـ من")][1] == ("ـ", "punct")
     assert [t.text for t in tokenize("دەیـنووسێت")] == ["دەیـنووسێت"]
+
+
+def test_invisible_html_entities_are_decoded():
+    # scraped text: the KLPT test set has ره&zwnj;زبه&zwnj;ر (Ahmadi 2020)
+    from zimankit.skills_ckb.orthography import normalize as ckb_normalize
+    assert ckb_normalize("ره&zwnj;زبه&#8204;ر").replace(chr(0x200C), "") == "ڕەزبەر"
+    assert normalize_text("a&nbsp;b&#x200c;c") == "a bc"
+    assert "&amp;" in normalize_text("a &amp; b") and "&#65;" in normalize_text("&#65;")

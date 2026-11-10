@@ -33,6 +33,8 @@ from zimankit.skills_ckb.orthography import normalize, validate_word, spelling_v
 7. Standard spelling writes û finally as وو (چوو), never starts a word with وو, and writes conjunction و separately. validate_word() reports these; structural_problems() does not, so the lexicon still recognises common non-standard forms.
 8. Compound and preverb verbs: the standard splits them around a clitic (ڕای گەیاند, نانم کرد) and allows solid forms. Do not flag solid forms as errors. Generated paradigms are still solid; see docs/23-ckb-written-standard.md.
 
+Scraped text: HTML references for invisible characters (&zwnj;, &#8204;, &nbsp;) are decoded by the normaliser; other entities are kept.
+
 ## Checklist
 
 - [ ] Input normalised with the dialect's orthography skill first

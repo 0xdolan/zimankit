@@ -31,6 +31,7 @@ from zimankit.skills_ckb.verbs import conjugate, default_index, make_verb
 4. Preverbs precede دە/نا; ب follows the preverb and may be dropped: هەڵدەگرم, هەڵبگرم or هەڵگرم.
 5. The agent clitic sits on the first part of a preverb or compound verb in every tense: هەڵم گرت, هەڵم نەگرت, هەڵم گرتووە. Use `FormIndex.lookup_split` to read verbs written over several tokens, and `standard_spelling` to write them. Solid forms are allowed input, not errors.
 6. Irregulars: هاتن (دێم, نایەم, وەرە), چوون (imperative بچۆ, also بڕۆ).
+7. Some elements attach to almost any form and are stripped, not listed: ئە for دە (ئەچم), the particle ەوە and its regional forms ەوانێ / ەو, directional ە (دەچمە, ڕۆیشتووەتە), conditional ایە (بمردایە), and the additive یش/ش inside the verb (نەشیانبینیبووم). Treat the additive with care: نەخۆشن is an adjective, not a verb.
 
 ## Checklist
 
