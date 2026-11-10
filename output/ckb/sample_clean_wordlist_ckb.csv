@@ -236,7 +236,7 @@ grapheme,lemma,pos,ipa,morph_meta,translit,frequency,sources,confidence
 هەردوو,هەردوو,DET,hæɾduː,"{""prontype"":""tot"",""seg"":""هەردوو""}",herdû,38704,"bilingual,core,dictionary,encyclopedia,news,web",1.0
 ئایا,ئایا,PART,ʔaːjaː,"{""prontype"":""int"",""seg"":""ئایا""}",aya,38237,"bilingual,core,dictionary,encyclopedia,news,web",1.0
 ژمارەی,ژمارە,NOUN,ʒ(ɯ)maːɾæj,"{""enclitic"":""3sg|ezafe"",""seg"":""ژمارە+ی""}",jimarey,38186,"bilingual,dictionary,encyclopedia,news,web",0.6
-یەکەمی,یەکەم,NOUN,jækæmiː,"{""enclitic"":""3sg|ezafe"",""seg"":""یەکەم+ی""}",yekemî,38169,"bilingual,dictionary,encyclopedia,news,web",0.6
+یەکەمی,یەکەم,ADJ,jækæmiː,"{""enclitic"":""3sg|ezafe"",""numtype"":""ord"",""seg"":""یەکەم+ی""}",yekemî,38169,"bilingual,dictionary,encyclopedia,news,web",0.6
 وایە,وا,NOUN,waːjæ,"{""copula"":""3sg|dem"",""seg"":""وا+یە""}",waye,38138,"bilingual,dictionary,encyclopedia,news,web",0.6
 دەردەکەوێت,دەرکەوتن,VERB,dæɾdækæweːt,"{""mood"":""indicative"",""person"":""3sg"",""seg"":""دەردەکەوێت"",""tense"":""present"",""transitivity"":""intransitive""}",derdekewêt,38014,"core,encyclopedia,news,web",1.0
 لەنێوان,لەنێوان,ADV,læneːwaːn,"{""seg"":""لەنێوان""}",lenêwan,37961,"bilingual,encyclopedia,news,web",0.55
