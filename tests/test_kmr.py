@@ -132,6 +132,12 @@ def test_art_stems_and_bare_imperative(word, lemma):
     assert (a.lemma, a.pos) == (lemma, "VERB")
 
 
+def test_bare_imperative_only_drops_bi():
+    v = verbs.make_verb("vegotin", known={c.infinitive: c for c in verbs.load_core_verbs()})
+    forms = {f.form for f in verbs.conjugate(v)}
+    assert "vebêje" in forms and "vejin" not in forms and "veje" not in forms
+
+
 def test_guess_art_present_stem():
     assert verbs.guess_present_stem("hinart") == "hinêr"
 

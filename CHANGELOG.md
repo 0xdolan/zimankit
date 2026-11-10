@@ -4,6 +4,8 @@ All notable changes to zimankit are recorded here. The format follows [Keep a Ch
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-11-09
+
 Checked against the Kurdish NLP literature and the KLPT test data; every source is listed in [chapter 21](docs/21-references.md#articles-used-in-the-literature-audit). Some Central Kurdish words now get a verb or ordinal reading where they had a noun reading before, so results differ from 0.3.1.
 
 ### Added
@@ -107,7 +109,8 @@ The first release.
 - **Releases**: wheel, sdist, a Debian package and source archives, built by `scripts/build_release.sh` and published by GitHub Actions when a version tag is pushed. Continuous integration runs the tests on Python 3.11 to 3.13.
 - **Website**: <https://0xdolan.github.io/zimankit/> has the guide, the story of the logo, the brand kit and a live playground that runs zimankit in the browser.
 
-[Unreleased]: https://github.com/0xdolan/zimankit/compare/v0.3.1...develop
+[Unreleased]: https://github.com/0xdolan/zimankit/compare/v0.4.0...develop
+[0.4.0]: https://github.com/0xdolan/zimankit/compare/v0.3.1...v0.4.0
 [0.3.1]: https://github.com/0xdolan/zimankit/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/0xdolan/zimankit/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/0xdolan/zimankit/compare/v0.1.0...v0.2.0
